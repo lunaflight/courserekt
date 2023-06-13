@@ -1,0 +1,673 @@
+"",,Module Class Demand and Allocation Report
+"",,"Graduate Modules, Select Modules (Round 3)"
+"",,"Semester 2, AY2022/2023"
+"",,Module Class Demand and Allocation Report
+"",,"Graduate Modules, Select Modules (Round 3)"
+"",,"Semester 2, AY2022/2023"
+"",,(updated: 07/01/2023)
+"",,Successful
+"",,Unsuccessful Allocations due to:
+Module Host,Module Host,Module Module Allocations
+"",,Module Title Vacancy Demand
+Faculty/School,Department,Code Class Main Reserve Quota Timetable Workload
+"",,Others
+"",,List List Exceeded Clashes Exceeded
+College of Design,,Conservation Approaches and
+"",Architecture,AC5002 L1 21 7 1 0 0 0 0 6
+and Eng,,Philosophies
+College of Design,,Urban Conservation and
+"",Architecture,AC5003 L1 0 6 0 0 5 0 0 1
+and Eng,,Regeneration
+College of Design,,
+"",Architecture,AC5004 Architectural Heritage Management L1 3 5 3 0 0 0 0 2
+and Eng,,
+College of Design,,Conservation Policy Methodology for
+"",Architecture,AC5005 L1 6 8 3 0 0 0 0 5
+and Eng,,Sustainable Development
+College of Design,,Historic Buildings Survey and
+"",Architecture,AC5010 L1 1 4 1 0 2 0 0 1
+and Eng,,Recording
+College of Design,,Practical Building Conservation Skills
+"",Architecture,AC5012 L1 6 4 2 0 0 0 0 2
+and Eng,,I
+College of Design,,
+"",Architecture,AR5011 Research Methodology L2 18 1 0 0 0 0 0 1
+and Eng,,
+College of Design,,
+"",Architecture,AR5011 Research Methodology L3 18 1 0 0 0 0 0 1
+and Eng,,
+College of Design,,
+"",Architecture,AR5011 Research Methodology L4 18 1 0 0 0 0 0 1
+and Eng,,
+College of Design,,
+"",Architecture,AR5221 CONTEMPORARY THEORIES L1 10 3 2 0 0 0 0 1
+and Eng,,
+College of Design,,
+"",Architecture,AR5601 Urban Design Theory and Praxis L1 7 2 2 0 0 0 0 0
+and Eng,,
+College of Design,,
+"",Architecture,AR5802 Options Design Research Studio 2 D1 8 3 3 0 0 0 0 0
+and Eng,,
+Remarks:,,
+"1. Vacancy, Demand and Successful/Unsuccessful Allocations data in this report display the module classes, selected under main list in this current round, unless otherwise stated.",,
+"2. The same module may be available to different students at different ""Select Modules"" rounds. The general guide to check if the module is available in a particular round is as follows:",,
+"•""Select Modules"" Round 1 is a protected round for programme requirements, restricted/direct minor requirements and CELC English requirements.",,
+"•""Select Modules"" Round 2 onwards include modules selection for University-level requirement and Unrestricted Elective requirements.",,
+"3. The ""Vacancy"" column displays the quota (by student's career) as at running the Select Modules allocation for this current round. It is subject to changes, such as modules allocated by admins",,
+before running allocation process for deserving students. All the available vacancies of the module-class will be merged when processing module allocation for Select Modules (Round 3) and,,
+"Submit Module Requests. It will be updated with ""-"" when a module class has reached to its maximum capacity. In such situation, students are not allowed to select classes or submit appeals.",,
+"4. The ""Others"" column includes reasons such as class has already been allocated earlier, class is being cancelled or student's programme status is no longer active.",,
+5. Please note that the total quota for most Law elective modules (across all Academic Careers) is 50.,,Page 1 of 33
+"",,As at 7-Jan-23
+"Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"College of Designand Eng",Architecture,AR5807,Architectural Design Thesis,D1,150,113,113,0,0,0,0,0
+"College of Designand Eng",Architecture,AR5955C,Topics in Research by Design 3,L1,16,7,4,0,0,0,0,3
+"College of Designand Eng",Architecture,AR5955D,Topics in Research by Design 4,L1,11,13,6,0,0,0,0,7
+"College of Designand Eng",Architecture,AR5955E,Topics in Research by Design 5,L1,13,17,5,1,0,0,0,12
+"College of Designand Eng",Architecture,AR5957I,"Topics in History and Theory ofArchitecture 9",L1,9,10,2,0,0,0,0,8
+"College of Designand Eng",Architecture,AR5958G,Topics in Urbanism 7,L1,4,15,3,0,0,0,0,12
+"College of Designand Eng",Architecture,AR5958H,Topics in Urbanism 8,L1,13,10,2,0,0,0,0,8
+"College of Designand Eng",Architecture,AR5958I,Topics in Urbanism 9,L1,13,13,3,2,0,0,0,10
+"College of Designand Eng",Architecture,AR5958J,Topics in Urbanism 10,L1,15,15,1,0,0,0,0,14
+"College of Designand Eng",Architecture,AR5958K,Topics in Urbanism 11,L1,12,18,0,0,0,0,0,18
+"College of Designand Eng",Architecture,AR5959E,Topics in Design Technology 5,E1,17,7,1,0,0,0,0,6
+"College of Designand Eng",Architecture,AR5959F,Topics in Design Technology 6,L1,22,12,7,0,0,0,0,5
+"College of Designand Eng",Architecture,DEP5111,Planning Technologies,L1,15,5,0,0,0,0,0,5
+"College of Designand Eng",Architecture,DEP5116,"Urbanization in China and EmergentIssues",E1,35,7,7,0,0,0,0,0
+"College of Designand Eng",Architecture,LA5303,"Urban Greening: Technologies andTechniques",L1,35,7,0,0,0,0,0,7
+"College of Designand Eng",Architecture,UD5628,"Critique of Contemporary UrbanDesign",L1,12,11,0,0,0,0,0,11
+"College of Designand Eng",Biomedical Engineering,BN5102,Clinical Instrumentation,L1,18,10,10,0,0,0,0,0
+"Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"College of Designand Eng",Biomedical Engineering,BN5202,Orthopaedic Biomechanics,L1,14,6,6,0,0,0,0,0
+"College of Designand Eng",Biomedical Engineering,BN5203,ADVANCED TISSUE ENGINEERING,L1,27,2,2,0,0,0,0,0
+"College of Designand Eng",Biomedical Engineering,BN5207,MEDICAL IMAGING SYSTEMS,L1,15,1,1,0,0,0,0,0
+"College of Designand Eng",Biomedical Engineering,BN5209,"FRONTIERS INNEUROTECHNOLOGY",L1,5,8,5,0,3,0,0,0
+"College of Designand Eng",Biomedical Engineering,BN5303,"Tissue Engineering for DesigningFood",L1,33,6,2,0,0,0,0,4
+"College of Designand Eng",Biomedical Engineering,BN6202,"Advanced Human MotionBiomechanics",L1,28,1,1,0,0,0,0,0
+"College of Designand Eng",Biomedical Engineering,BN6401,"Advanced Quantitative FluorescenceMicroscopy",L1,31,1,1,0,0,0,0,0
+"College of Designand Eng",Built Environment,BPS5222,Indoor Environmental Quality,L1,16,3,3,0,0,0,0,0
+"College of Designand Eng",Built Environment,BPS5225,"Building Energy Audit andPerformance Measurement andVerification",L1,21,3,3,0,0,0,0,0
+"College of Designand Eng",Built Environment,BPS5226,Smart Buildings and Facilities,L1,4,1,1,0,0,0,0,0
+"College of Designand Eng",Built Environment,PM5101,PROJECT MANAGEMENT,L1,52,3,3,0,0,0,0,0
+"College of Designand Eng",Built Environment,PM5105,DEVELOPMENT FINANCE,L1,56,4,4,0,0,0,0,0
+"College of Designand Eng",Built Environment,PM5107,TIME AND COST MANAGEMENT,L1,55,2,2,0,0,0,0,0
+"College of Designand Eng",Built Environment,PM5115,"Project Finance Contracts andAgreements",L1,69,4,4,0,0,0,0,0
+"College of Designand Eng",Built Environment,PM5117,Urban Managment,L1,67,1,1,0,0,0,0,0
+"College of Designand Eng",CDE Dean's Office,DEP5107,Dissertation,E12,5,1,1,0,0,0,0,0
+College of Design,CDE Dean's Office,ISD5105,Principles of Sustainable Urbanism,L1,29,1,0,0,0,0,0,1
+"Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+and Eng,,,,,,,,,,,,
+"College of Designand Eng",CDE Dean's Office,ISD5105,Principles of Sustainable Urbanism,L4,30,3,0,0,0,0,0,3
+"College of Designand Eng",CDE Dean's Office,ISD5106,Sustainability Models and Blueprints,L1,25,6,1,0,0,0,0,5
+"College of Designand Eng","Chemical &Biomolecular Eng",CN5020,"ADVANCED REACTIONENGINEERING",L1,27,2,2,0,0,0,0,0
+"College of Designand Eng","Chemical &Biomolecular Eng",CN5040,"ADVANCED TRANSPORTPHENOMENA",L1,29,2,2,0,0,0,0,0
+"College of Designand Eng","Chemical &Biomolecular Eng",CN5111,"OPTIMIZATION OF CHEMICALPROCESSES",L1,13,1,1,0,0,0,0,0
+"College of Designand Eng","Chemical &Biomolecular Eng",CN5172,BIOCHEMICAL ENGINEERING,L1,9,3,3,0,0,0,0,0
+"College of Designand Eng","Chemical &Biomolecular Eng",CN5193,"INSTRUMENTAL METHODS OFANALYSIS",L1,7,2,2,0,0,0,0,0
+"College of Designand Eng","Chemical &Biomolecular Eng",CN5194,"Carbon Capture Sequestration andUtilization",L1,3,1,1,0,0,0,0,0
+"College of Designand Eng","Chemical &Biomolecular Eng",CN5203,"Circular Economy in the ChemicalIndustry",L1,0,2,0,0,1,0,0,1
+"College of Designand Eng","Chemical &Biomolecular Eng",CN5215,"Atomistic Modelling of Molecules andMaterials",L1,0,1,1,0,0,0,0,0
+"College of Designand Eng","Chemical &Biomolecular Eng",CN6020,Advanced Reaction Engineering,L1,3,2,2,0,0,0,0,0
+"College of Designand Eng","Chemical &Biomolecular Eng",SH5001,Fundamentals in Process Safety,L1,1,7,1,0,6,0,0,0
+"College of Designand Eng","Chemical &Biomolecular Eng",SH5003,"FUNDAMENTALS INENVIRONMENTAL PROTECTION",L1,1,3,1,0,2,0,0,0
+"College of Designand Eng","Chemical &Biomolecular Eng",SH5004,Fundamentals in Industrial Hygiene,L1,4,3,3,0,0,0,0,0
+"College of Designand Eng","Chemical &Biomolecular Eng",SH5005,Risk Analysis & Safety Analytics,L1,20,4,4,2,0,0,0,0
+"College of Designand Eng","Chemical &Biomolecular Eng",SH5105,Noise and Other Physical Hazards,L1,17,3,3,0,0,0,0,0
+"Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"College of Designand Eng","Chemical &Biomolecular Eng",SH5205,Crisis and Incident Management,L1,13,1,1,0,0,0,0,0
+"College of Designand Eng","Chemical &Biomolecular Eng",SH5209,Process Safety Digitalization,L1,5,3,3,0,0,0,0,0
+"College of Designand Eng","Chemical &Biomolecular Eng",SH5401,"Safety, Health, Environment & QualityManagement System",L1,0,4,0,0,4,0,0,0
+"College of Designand Eng","Chemical &Biomolecular Eng",SH5407,Sustainable Energy and Environment,L1,-,5,5,0,0,0,0,0
+"College of Designand Eng","Civil & EnvironmentalEng",CE5001,Research Project,L01,26,2,2,0,0,0,0,0
+"College of Designand Eng","Civil & EnvironmentalEng",CE5002A,"Capstone Project for StructuralEngineering",L01,91,3,3,0,0,0,0,0
+"College of Designand Eng","Civil & EnvironmentalEng",CE5002B,"Capstone Project for GeotechnicalEngineering",L01,93,1,1,0,0,0,0,0
+"College of Designand Eng","Civil & EnvironmentalEng",CE5002E,"Capstone Project for InfrastructureProject Management",L01,70,1,1,0,0,0,0,0
+"College of Designand Eng","Civil & EnvironmentalEng",CE5106QA,"Ground Improvement - Hydraulic,Vibratory & Chemical",L01,40,2,2,0,0,0,0,0
+"College of Designand Eng","Civil & EnvironmentalEng",CE5106QB,"Ground Improvement - Dynamic,Geosynthetic & Inclusions",L01,48,3,3,0,0,0,0,0
+"College of Designand Eng","Civil & EnvironmentalEng",CE5107QA,Pile Foundation Design,L01,27,1,1,0,0,0,0,0
+"College of Designand Eng","Civil & EnvironmentalEng",CE5107QB,"Advanced Topics in Pile FoundationDesign",L01,33,2,2,0,0,0,0,0
+"College of Designand Eng","Civil & EnvironmentalEng",CE5111,"UNDERGROUND CONSTRUCTIONDESIGN PROJECT",L01,39,1,1,0,0,0,0,0
+"College of Designand Eng","Civil & EnvironmentalEng",CE5112,"Structural Support Systems forExcavation",L01,12,2,2,0,0,0,0,0
+"College of Designand Eng","Civil & EnvironmentalEng",CE5203,Traffic Flow & Control,L01,10,5,5,0,0,0,0,0
+"College of Designand Eng","Civil & EnvironmentalEng",CE5204,"PAVEMENT DESIGN &REHABILITATION",L01,36,21,21,0,0,0,0,0
+"College of Designand Eng","Civil & EnvironmentalEng",CE5214QA,"Energy Demand Analysis for the BuiltEnvironment",L01,28,2,2,0,0,0,0,0
+"Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"College of Designand Eng","Civil & EnvironmentalEng",CE5214QB,"Mobility, Climate Change, and EnergyMarkets",L01,35,3,3,0,0,0,0,0
+"College of Designand Eng","Civil & EnvironmentalEng",CE5308QA,Coastal Processes and Protection,L01,41,2,2,0,0,0,0,0
+"College of Designand Eng","Civil & EnvironmentalEng",CE5308QB,"Sediment Transport and CoastalProtection",L01,44,2,2,0,0,0,0,0
+"College of Designand Eng","Civil & EnvironmentalEng",CE5317A,Eco-hydrology,L01,3,1,1,0,0,0,0,0
+"College of Designand Eng","Civil & EnvironmentalEng",CE5513,Plastic Analysis Of Structures,L01,14,2,2,0,0,0,0,0
+"College of Designand Eng","Civil & EnvironmentalEng",CE5515,Structural Health Monitoring,L01,13,6,6,0,0,0,0,0
+"College of Designand Eng","Civil & EnvironmentalEng",CE5516QA,"Structural Stability Concepts &Applications",L01,52,2,2,0,0,0,0,0
+"College of Designand Eng","Civil & EnvironmentalEng",CE5604,Advanced Concrete Technology,L01,14,5,5,0,0,0,0,0
+"College of Designand Eng","Civil & EnvironmentalEng",CE5611QA,"Advanced Prestressed ConcreteDesign",L01,32,8,8,0,0,0,0,0
+"College of Designand Eng","Civil & EnvironmentalEng",CE5611QB,Precast Structural Concrete Design,L01,33,8,8,0,0,0,0,0
+"College of Designand Eng","Civil & EnvironmentalEng",CE5716,"Introduction to Ocean Infrastructure &Renewables",L01,4,3,3,0,0,0,0,0
+"College of Designand Eng","Civil & EnvironmentalEng",CE5717,"Mooring and Cables for OceanInfrastructure",L01,6,4,4,0,0,0,0,0
+"College of Designand Eng","Civil & EnvironmentalEng",CE5805QA,Construction Productivity Analytics,L01,25,6,6,0,0,0,0,0
+"College of Designand Eng","Civil & EnvironmentalEng",CE5805QB,"Design for Manufacture andAssembly",L01,23,6,6,0,0,0,0,0
+"College of Designand Eng","Civil & EnvironmentalEng",CE5806QA,"Advanced Construction Planning &Control",L01,17,7,7,0,0,0,0,0
+"College of Designand Eng","Civil & EnvironmentalEng",CE5806QB,Lean Construction,L01,18,3,3,0,0,0,0,0
+"College of Designand Eng","Civil & EnvironmentalEng",CE5809,"Management and Economics ofInternational Construction",L01,13,3,3,0,0,0,0,0
+"Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"College of Designand Eng","Civil & EnvironmentalEng",CE6601,"Characterization of SustainableBuilding Materials",L01,8,2,2,0,0,0,0,0
+"College of Designand Eng","Civil & EnvironmentalEng",ESE5001,Environmental Engineering Principles,L01,23,2,2,0,0,0,0,0
+"College of Designand Eng","Civil & EnvironmentalEng",ESE5003,"Environmental Chemical ProcessesAnalysis",L01,7,8,7,0,1,0,0,0
+"College of Designand Eng","Civil & EnvironmentalEng",ESE5004,Research Project,L01,17,1,1,0,0,0,0,0
+"College of Designand Eng","Civil & EnvironmentalEng",ESE5202,"AIR POLLUTION CONTROLTECHNOLOGY",L01,16,3,3,0,0,0,0,0
+"College of Designand Eng","Civil & EnvironmentalEng",ESE5203,"AEROSOL SCIENCE ANDTECHNOLOGY",L01,18,2,2,0,0,0,0,0
+"College of Designand Eng","Civil & EnvironmentalEng",ESE5602,Environmental Management Systems,L01,28,8,7,0,0,0,1,0
+"College of Designand Eng","Civil & EnvironmentalEng",ESE5880C,"Topics in Env. Eng. - Environ SysPlanning & Analysis",L01,10,4,4,0,0,0,0,0
+"College of Designand Eng","Civil & EnvironmentalEng",ESE6003,"Advanced Environmental ChemicalProcess Analysis",L01,3,1,1,0,0,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",CEG5202,"Embedded Software Systems andSecurity",L01,44,3,3,1,0,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",CEG5203,"Hardware Acceleration andReconfigurable Computing",L01,26,2,2,0,0,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",CEG5204,Smart Sensing Systems,L01,33,1,1,0,0,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",CEG5301,Machine Learning with Applications,L01,22,8,8,0,0,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",CEG5302,"Evolutionary Computation andApplications",L01,8,7,7,0,0,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",CEG5303,"Intelligent Autonomous RoboticSystems",L01,19,22,19,0,3,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",CEG5304,"Deep Learning for DigitalizationTechnologies",L01,20,6,6,0,0,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",EE5021,"Cloud based Services for Internet ofThings",L01,13,3,3,0,0,0,0,0
+"Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"College of Designand Eng","Electrical & ComputerEng",EE5023,Wireless Networks,L01,7,1,1,0,0,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",EE5064,"Dynamics and Control of RobotManipulators",L01,7,3,3,0,0,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",EE5104,ADAPTIVE CONTROL SYSTEMS,L01,7,12,8,0,4,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",EE5134,"Optical Communications andNetworks",L01,37,65,40,0,25,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",EE5135,Digital Communications,L01,15,19,18,0,1,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",EE5434,"Microelectronic Processes andIntegration",L01,57,73,60,0,13,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",EE5441,"Introduction to Nanoelectronics andEmerging Devices",L01,17,32,17,0,15,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",EE5442,"Memory Technologies and TheirEmerging Applications",L01,41,52,41,0,11,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",EE5507,Analog Integrated Circuits Design,L01,21,7,7,3,0,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",EE5508,"SEMICONDUCTORFUNDAMENTALS",L01,30,2,2,3,0,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",EE5517,Optical Engineering,L01,15,56,18,0,38,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",EE5711,Power Electronic Systems,L01,15,15,15,1,0,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",EE5713,"Modern Power Systems and SmartGrid",L01,30,1,1,0,0,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",EE5801,Electromagnetic Compatibility,L01,14,12,12,3,0,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",EE5904,NEURAL NETWORKS,L01,36,7,6,1,0,0,0,1
+"College of Designand Eng","Electrical & ComputerEng",EE6104,"ADAPTIVE CONTROL SYSTEMS(ADVANCED)",L01,5,2,2,0,0,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",EE6135,Digital Communications (Advanced),L01,7,1,1,0,0,0,0,0
+"Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"College of Designand Eng","Electrical & ComputerEng",EE6437,Advanced Semiconductor Devices,L01,15,4,4,0,0,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",EE6531,"Selected Topics in Smart GridTechnologies",L01,39,2,2,0,0,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",EE6831,"Advanced Electromagnetic Theoryand Applications",L01,18,3,3,0,0,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",EE6832,"Selected Topics in EM Metamaterialand Multiple-Antenna",L01,25,2,2,0,0,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",EE6833,"Selected Topics in Microwave andAntenna Engineering",L01,12,7,7,0,0,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",EE6934,Deep Learning (Advanced),L01,7,10,7,0,3,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",ME5404,NEURAL NETWORKS,L01,11,2,2,0,0,0,0,0
+"College of Designand Eng","Industrial Systems Eng& Mgmt",IE5002,Applied Engineering Statistics,L1,10,1,1,0,0,0,0,0
+"College of Designand Eng","Industrial Systems Eng& Mgmt",IE5003,"COST ANALYSIS ANDENGINEERING ECONOMY",L1,6,3,2,0,0,0,0,1
+"College of Designand Eng","Industrial Systems Eng& Mgmt",IE5006,Large Scale System Engineering,L1,6,7,0,0,0,0,0,7
+"College of Designand Eng","Industrial Systems Eng& Mgmt",IE5105,Modelling for Supply Chain Systems,L1,30,2,1,0,0,0,1,0
+"College of Designand Eng","Industrial Systems Eng& Mgmt",IE5107,"Operations Analysis andManagement",L1,11,4,2,0,0,0,0,2
+"College of Designand Eng","Industrial Systems Eng& Mgmt",IE5108,Facility Layout And Location,L1,13,11,10,1,0,0,0,1
+"College of Designand Eng","Industrial Systems Eng& Mgmt",IE5202,"APPLIED FORECASTINGMETHODS",L1,2,1,0,0,0,0,0,1
+"College of Designand Eng","Industrial Systems Eng& Mgmt",IE5205,Healthcare System and Analytics,L1,18,5,5,0,0,0,0,0
+"College of Designand Eng","Industrial Systems Eng& Mgmt",IE5504,"Systems Modelling And AdvancedSimulation",L1,21,1,0,0,0,0,0,1
+"College of Designand Eng","Industrial Systems Eng& Mgmt",IE6520,"Theory and Algorithms for OnlineLearning",L1,32,5,0,0,0,0,0,5
+"Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"College of Designand Eng","Industrial Systems Eng& Mgmt",MT5021,Creativity and Problem-Solving Skills,L1,0,2,0,0,2,0,0,0
+"College of Designand Eng","Industrial Systems Eng& Mgmt",MT5022,"Digital Disruption and TechnologyStrategy",L1,12,1,1,0,0,0,0,0
+"College of Designand Eng","Industrial Systems Eng& Mgmt",MT5026,Experiential Learning Applied Project,L1,20,3,3,0,0,0,0,0
+"College of Designand Eng","Industrial Systems Eng& Mgmt",MT5911,"Venture Capital Funding forTechVenture",L1,29,1,1,0,0,0,0,0
+"College of Designand Eng","Industrial Systems Eng& Mgmt",MT5912,Frugal Innovation,L1,27,1,1,0,0,0,0,0
+"College of Designand Eng","Materials Science &Eng",MLE5102,"MECHANICAL BEHAVIOURS OFMATERIALS",L1,89,4,4,1,0,0,0,0
+"College of Designand Eng","Materials Science &Eng",MLE5212,Energy Conversion & Storage,L1,13,2,2,0,0,0,0,0
+"College of Designand Eng","Materials Science &Eng",MLE5214,Advances in Polymeric Materials,L1,15,6,6,0,0,0,0,0
+"College of Designand Eng","Materials Science &Eng",MLE5215,"Atomistic Modelling of Molecules andMaterials",L1,21,16,13,0,0,0,0,3
+"College of Designand Eng","Materials Science &Eng",MLE5222,"Nano and 2D materials for Energyapplications",L1,42,9,7,0,0,0,0,2
+"College of Designand Eng","Materials Science &Eng",MLE5223,"Rational Materials Design forSustainability",L1,36,9,9,0,0,0,0,0
+"College of Designand Eng","Materials Science &Eng",MLE5224,Degradation of Materials,L1,32,11,11,0,0,0,0,0
+"College of Designand Eng","Materials Science &Eng",MLE6208,"Practical Transmission ElectronMicroscopy",L1,33,2,2,0,0,0,0,0
+"College of Designand Eng","MechanicalEngineering",EE5106,ADVANCED ROBOTICS,L01,14,32,16,0,16,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME5103,PLATES AND SHELLS,L01,24,1,1,0,0,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME5107,Vibration Theory and Applications,L01,5,6,6,0,0,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME5207,SOLAR ENERGY SYSTEMS,L01,5,5,5,0,0,0,0,0
+"Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"College of Designand Eng","MechanicalEngineering",ME5309,"Aircraft Engines and RocketPropulsion",L01,2,1,1,1,0,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME5311,"Data-Driven Engineering andMachine Learning",L01,32,5,5,0,0,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME5402,ADVANCED ROBOTICS,L01,46,3,3,0,0,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME5405,Machine Vision,L01,33,7,7,0,0,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME5406,Deep Learning for Robotics,L01,9,2,1,0,0,0,0,1
+"College of Designand Eng","MechanicalEngineering",ME5409,Robot Dynamics and Control,L01,-,1,1,0,0,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME5413,Autonomous Mobile Robotics,L01,18,15,14,0,0,0,0,1
+"College of Designand Eng","MechanicalEngineering",ME5415,Advanced Soft Robotics,L01,35,14,14,0,0,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME5506,Corrosion of Materials,L01,31,3,3,0,0,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME5516,"Emerging Energy Conversion andStorage Technologies",L01,6,2,2,0,0,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME5611,"SUSTAINABLE PRODUCT DESIGN& MANUFACTURING",L01,0,18,0,0,18,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME5612,"COMPUTER AIDED PRODUCTDEVELOPMENT",L01,10,43,10,0,33,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME6205,"Advanced Topics in Heat and MassTransfer",L01,12,1,1,0,0,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME6504,"Mechanical Failure Analysis:Learning from Examples",L01,-,10,10,1,0,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME6601,Research Topics in Manufacturing,L01,74,6,5,0,0,0,0,1
+"College of Designand Eng","MechanicalEngineering",ME6604,"Modelling of ManufacturingProcesses",L01,4,2,2,0,0,0,0,0
+"College of Designand Eng","MechanicalEngineering",OT5301,Subsea Systems Engineering,L01,48,1,1,0,0,0,0,0
+"Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"College of Designand Eng","MechanicalEngineering",OT5304,"Subsea Construction & OperationalSupport",L01,20,2,2,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH5213,"Cognitive Linguistics & ChineseLanguage",S1,14,2,2,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH5243,"Contemporary China-Southeast AsiaRelations",E1,2,1,1,1,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH6227,"CULTURE AND SOCIETYTHROUGH LITERATURE",S1,4,2,2,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CHC5302,"Chinese Buddhist ProselyticLiterature",L1,0,1,0,0,1,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CHC5303,"Traditional Chinese Culture inSingapore and Malaysia",L1,2,4,2,0,2,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CHC5305,"Prominent Nanyang Chinese inModern China",L1,25,11,11,2,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CHC5305,"Prominent Nanyang Chinese inModern China",L2,2,5,2,0,3,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CHC5307,Major Themes in Chinese History,E1,8,11,8,0,3,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CHC5314,Chinese Religion,E1,4,4,4,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CHC5317,"New Approaches to Modern ChineseCulture",E1,0,3,0,0,3,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CHC5322,Pragmatics and Politeness,L1,0,1,0,0,1,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CHC5326,"Comparative Grammar betweenChinese and English",E1,2,2,2,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CHC5335,"Literature, Politics, and Media inContemporary China",E1,1,2,1,0,1,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CHC5336,"The Military in Chinese History andCulture",E2,14,7,7,3,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CHC5338,"Chinese Maritime Exploration andCultural Exchange",E1,3,2,2,1,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CHC5339,"Chinese Diaspora and Mass Media inthe 20th Century",E1,0,1,0,0,1,0,0,0
+"Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"Faculty of Arts &Social Sci",Chinese Studies,CHC5340,"Chinese Temples and Associations inSoutheast Asia",E1,18,11,11,2,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CHC5341,"Cultural Cold War in Asia Print, Filmand Music",E1,0,4,0,0,4,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CHC5342,"Topics in SE Asian ChineseLiterature and Film",E1,1,3,1,0,2,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CHC5343,"History of Chinese EpistolaryLiterature",E1,1,1,1,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CHC5345,"Sociocultural History of Middle PeriodChina",E1,1,2,1,0,1,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CHC5346,"""How We Work"" in Modern ChineseLiterature and Media",E1,1,4,1,0,3,0,0,0
+"Faculty of Arts &Social Sci","Communications &New Media",ACE5409,Applied Heritage,L1,41,3,3,0,0,0,0,0
+"Faculty of Arts &Social Sci","Communications &New Media",NM5219,Critical Design,E1,20,27,20,0,5,0,0,2
+"Faculty of Arts &Social Sci","Communications &New Media",NMC5307,Final Year Project in Communication,E1,12,3,3,0,0,0,0,0
+"Faculty of Arts &Social Sci","Communications &New Media",NMC5323,"Crisis Communications andLeadership",E1,2,4,2,0,2,0,0,0
+"Faculty of Arts &Social Sci","Communications &New Media",NMC5325,Managing Organisational Reputation,E1,26,2,1,0,0,0,0,1
+"Faculty of Arts &Social Sci","Communications &New Media",NMC5341,Visualising Data,E1,7,6,0,0,0,0,0,6
+"Faculty of Arts &Social Sci","Communications &New Media",NMC5362,Media in Asia,E1,5,3,0,0,0,0,0,3
+"Faculty of Arts &Social Sci","Communications &New Media",NMC5364,"Digital Journalism, Law, and Society",E1,11,3,0,0,0,0,0,3
+"Faculty of Arts &Social Sci","Communications &New Media",NMC5368,"Media, Policy, and Markets",E1,28,2,0,0,0,0,0,2
+"Faculty of Arts &Social Sci",Economics,EC6102,"ADVANCED MACROECONOMICTHEORY",S1,39,1,1,0,0,0,0,0
+"Faculty of Arts &Social Sci",Economics,EC6770,GRADUATE RESEARCH SEMINAR,S1,30,8,8,0,0,0,0,0
+"Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"Faculty of Arts &Social Sci",Economics,EC6884,"Behavioral and ExperimentalEconomics",S1,42,2,2,0,0,0,0,0
+"Faculty of Arts &Social Sci",Economics,ECA5308,"Machine Learning for AppliedEconomics",S1,38,2,2,3,0,0,0,0
+"Faculty of Arts &Social Sci",Economics,ECA5325,PROJECT & POLICY EVALUATION,S1,0,1,0,0,1,0,0,0
+"Faculty of Arts &Social Sci",Economics,ECA5333,"FINANCIAL MARKETS &PORTFOLIO MANAGEMENT",S1,44,1,1,0,0,0,0,0
+"Faculty of Arts &Social Sci",Economics,ECA5334,CORPORATE FINANCE,S1,12,1,1,0,0,0,0,0
+"Faculty of Arts &Social Sci",Economics,ECA5337,Applied Financial Economics,S1,39,2,2,0,0,0,0,0
+"Faculty of Arts &Social Sci",Economics,ECA5342,Advanced International Trade,S1,5,2,2,0,0,0,0,0
+"Faculty of Arts &Social Sci",Economics,ECA5343,Advanced International Finance,S1,1,16,1,0,15,0,0,0
+"Faculty of Arts &Social Sci",Economics,ECA5351,PUBLIC FINANCE,S1,1,6,1,0,5,0,0,0
+"Faculty of Arts &Social Sci",Economics,ECA5376,Auctions and Market Design,S1,0,8,0,0,8,0,0,0
+"Faculty of Arts &Social Sci",Economics,ECA5396,"Economics of Business and Law ofIntellectual Assets",S1,2,18,2,0,16,0,0,0
+"Faculty of Arts &Social Sci",Economics,ECA5884,Applied Behavioural Economics,S1,14,1,1,6,0,0,0,0
+"Faculty of Arts &Social Sci","English,Ling.&TheatreStudies",ELC5204,Linguistic Typology,E1,32,1,1,2,0,0,0,0
+"Faculty of Arts &Social Sci","English,Ling.&TheatreStudies",ELC5216,Corpus Linguistics,E1,6,1,0,0,0,0,0,1
+"Faculty of Arts &Social Sci","English,Ling.&TheatreStudies",ELC5253,Textual Construction of Knowledge,E1,25,1,0,0,0,0,0,1
+"Faculty of Arts &Social Sci","English,Ling.&TheatreStudies",ENC5235,POLITICS AND LITERATURE,E1,20,1,1,0,0,0,0,0
+"Faculty of Arts &Social Sci","English,Ling.&TheatreStudies",ENC5244,Shakespeare and Literary Theory,E1,17,2,2,0,0,0,0,0
+"Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others,
+"Faculty of Arts &Social Sci",Geography,GE5225,Thesis Planning and Implementation,L1,3,1,1,0,0,0,0,0
+"Faculty of Arts &Social Sci",Geography,GE5229,"Political Ecology: People, Power, andNature",E1,10,1,1,0,0,0,0,0
+"Faculty of Arts &Social Sci",Geography,GE6211,Spatial Data Science,L1,10,1,1,0,0,0,0,0
+"Faculty of Arts &Social Sci",History,HY5303,"PROBLEMS IN CULTURALHISTORY",E1,6,1,1,0,0,0,0,0
+"Faculty of Arts &Social Sci",History,HY5403,Interpreters of Southeast Asian Pasts,E1,4,1,1,0,0,0,0,0
+"Faculty of Arts &Social Sci",History,HY5412,Studying Singaporean History,E1,4,4,4,0,0,0,0,0
+"Faculty of Arts &Social Sci",History,HY5415,"Theatres of Memory: PerformingPublic History",E1,15,4,2,0,0,0,0,2
+"Faculty of Arts &Social Sci",History,HY5417,"Contested Sites: Built Heritage andHistorical Memory",E1,13,5,3,0,0,0,0,2
+"Faculty of Arts &Social Sci",Philosophy,PH5423,"PHILOSOPHY OF SCIENCE ANDTECHNOLOGY",E1,13,1,0,0,0,0,0,1
+"Faculty of Arts &Social Sci",Philosophy,PH6211,Advanced Epistemology,E1,13,1,0,0,0,0,0,1
+"Faculty of Arts &Social Sci",Philosophy,PH6243,Advanced Aesthetics,E1,12,4,0,0,0,0,0,4
+"Faculty of Arts &Social Sci",Philosophy,PH6770,GRADUATE RESEARCH SEMINAR,E1,14,3,3,0,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PL5225,"STRUCTURAL EQUATIONMODELING",E1,10,1,1,0,0,0,0,0
+"Faculty of Arts &Social Sci","Southeast AsianStudies",SEA5224,Political Economy of Southeast Asia,E1,21,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5004V,Aviation Law & Policy,E1,,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5014V,Construction Law,E1,,1,1,3,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5018V,Corporate Tax: Profits & Distributions,E1,,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5024V,Indonesian Law,E1,,1,1,0,0,0,0,0
+"Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others,
+Faculty of Law,FoL Dean's Office,LL5029BV,International Commercial Arbitration,E1,,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5043,LAW OF MARINE INSURANCE,E1,,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5044V,Mediation,E1,,3,0,0,3,0,0,0
+Faculty of Law,FoL Dean's Office,LL5050V,Public International Law,E1,,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5054,"Domestic and International Sale ofGoods",E1,,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5063V,Business & Finance For Lawyers,E1,,4,1,0,3,0,0,0
+Faculty of Law,FoL Dean's Office,LL5074V,Mergers & Acquisitions,E1,,5,0,0,5,0,0,0
+Faculty of Law,FoL Dean's Office,LL5089V,Chinese Corporate & Securities Law,E1,,5,0,0,5,0,0,0
+Faculty of Law,FoL Dean's Office,LL5099V,Maritime Law,E1,,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5158V,Climate Change Law,E1,,4,0,0,4,0,0,0
+Faculty of Law,FoL Dean's Office,LL5202V,"ASEAN Economic Community Lawand Policy",E1,,2,2,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5254V,"Developing States in a ChangingWorld Order",E1,,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5277V,Medical Law and Ethics,E1,,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5290V,Legal Research: Method & Design,E1,,2,2,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5295,"Conflict of Laws in Int'l CommercialArbitration",E1,,4,4,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5308V,"Behavioural Economics, Law &Regulation",E1,,5,1,0,4,0,0,0
+Faculty of Law,FoL Dean's Office,LL5309,"Strategies for Asian Disputes - AComparative Analysis",E1,,1,1,1,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5338V,"Advanced Practicum in InternationalArbitration",E1,,1,0,0,1,0,0,0
+Faculty of Law,FoL Dean's Office,LL5349V,Energy Arbitration,E1,,5,5,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5350,Privacy & Data Protection Law,E1,,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5357V,Regulation & Political Economy,E1,,1,1,1,0,0,0,0
+"Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+Faculty of Law,FoL Dean's Office,LL5360Z,"Current Challenges to InvestmentArbitration",E1,,4,4,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5361Z,"Complex Arbitrations: Multiparty –Multicontract",E1,,3,3,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5402,Corporate Insolvency Law,E1,,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5407,LAW OF INSURANCE,E1,,2,2,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5438V,Intellectual Property Arbitration,E1,,2,2,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5449,International Water Law,E1,,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5455V,"Taxation of Cross-Border CommercialTransactions II",E1,,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5461V,Compliance and Risk Management,E1,,19,2,0,17,0,0,0
+Faculty of Law,FoL Dean's Office,LL5476,"US Copyright: International &Comparative Perspectives",E1,,2,2,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5477,"Private Law in East Asia (Korea,Taiwan, Japan)",E1,,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5478,Cross-Border Insolvency Law,E1,,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5479,"Challenges of EmergingTechnologies to Financial Regulation",E1,,2,2,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5480,"Economic Analysis of Private Law(Contract and Torts)",E1,,1,1,1,0,0,0,0
+Faculty of Law,FoL Dean's Office,LLJ5338V,"Advanced Practicum in InternationalArbitration",E1,,1,0,0,1,0,0,0
+Faculty of Law,FoL Dean's Office,LLJ5461V,Compliance and Risk Management,E1,,1,0,0,1,0,0,0
+Faculty of Science,Biological Sciences,BL5202A,"BIOPHYSICAL METHODS IN LIFESCIENCES",L1,0,4,1,0,3,0,0,0
+Faculty of Science,Biological Sciences,BL5203,"MOLECULAR RECOGNITION ANDINTERACTIONS",L1,20,2,2,0,0,0,0,0
+Faculty of Science,Biological Sciences,BL5213,PROTEIN DESIGN & ENGINEERING,L1,10,1,1,0,0,0,0,0
+Faculty of Science,Biological Sciences,BL5216,"ADVANCED GENETICS ANDGENOME SCIENCES",L1,1,9,2,0,7,0,0,0
+"Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+Faculty of Science,Biological Sciences,BL5218,"Directed Studies in BehaviouralEcology",L1,0,3,3,0,0,0,0,0
+Faculty of Science,Biological Sciences,BL5221,"PLANT AND MICROBIALDEVELOPMENT",L1,1,5,1,0,4,0,0,0
+Faculty of Science,Biological Sciences,BL5224,"Signalling Mechanisms in Cancersand Metabolic Diseases",L1,22,1,1,0,0,0,0,0
+Faculty of Science,Biological Sciences,BL5233,"Data Analysis for ConservationBiology with R",L1,37,11,11,0,0,0,0,0
+Faculty of Science,Biological Sciences,BL5235,Advanced Optics for Microscopy,L1,23,1,1,0,0,0,0,0
+Faculty of Science,Biological Sciences,BL5302,"Topics on Nature-based ClimateSolutions",L1,7,1,1,0,0,0,0,0
+Faculty of Science,Biological Sciences,BL5313,Food Security and Sustainability,L1,33,2,1,0,0,0,0,1
+Faculty of Science,Biological Sciences,BL5623,"Infectious Diseases and Host-Pathogen Interactions",L1,22,1,1,0,0,0,0,0
+Faculty of Science,Chemistry,CM5211,"Contemporary OrganometallicChemistry",L1,33,2,2,0,0,0,0,0
+Faculty of Science,Chemistry,CM5212,Crystal Engineering,L1,0,4,0,0,4,0,0,0
+Faculty of Science,Chemistry,CM5225,Asymmetric Catalysis,L1,68,1,1,0,0,0,0,0
+Faculty of Science,Chemistry,CM5232,Topics in Chemical Kinetics,L1,24,2,1,1,0,0,0,1
+Faculty of Science,Chemistry,CM5244,Advanced Environmental Chemistry,L1,14,6,5,0,0,0,0,1
+Faculty of Science,"Food Science &Technology",FST5202A,Modern Food Fermentation,L1,10,1,1,0,0,0,0,0
+Faculty of Science,"Food Science &Technology",FST5203A,"Advanced Food MicrobiologicalAnalysis and Food Safety",L1,0,1,1,0,0,0,0,0
+Faculty of Science,"Food Science &Technology",FST5206,"Advanced Food Toxicology andChemical Safety",L1,0,1,1,0,0,0,0,0
+Faculty of Science,"Food Science &Technology",FST5207,"Introduction to Advanced MeatAlternatives",L1,1,2,1,0,1,0,0,0
+Faculty of Science,"Food Science &Technology",FST5228,"Advanced Current Topics in FoodScience IV",L1,28,2,2,0,0,0,0,0
+Faculty of Science,"Food Science &Technology",FST5302,"Food, Nutrition and Health",L1,10,2,2,0,0,0,0,0
+"Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others,
+Faculty of Science,"Food Science &Technology",FST5303A,Science in Clinical Nutrition,L1,1,6,4,0,2,0,0,0
+Faculty of Science,Mathematics,DSA3102,"Essential Data Analytics Tools:Convex Optimisation",L1,5,1,0,0,0,0,0,1
+Faculty of Science,Mathematics,DSA5201,"DSML Industry Consulting andApplications Project",L1,-,4,4,0,0,0,0,0
+Faculty of Science,Mathematics,DSA5203,"Visual Data Processing andInterpretation",L1,82,9,9,0,0,0,0,0
+Faculty of Science,Mathematics,DSA5204,Deep Learning and Applications,L1,41,13,13,0,0,0,0,0
+Faculty of Science,Mathematics,MA3211,Complex Analysis I,L1,3,1,1,0,0,0,0,0
+Faculty of Science,Mathematics,MA3238,Stochastic Processes I,L1,0,3,0,0,0,0,0,3
+Faculty of Science,Mathematics,MA3252,Linear and Network Optimisation,L1,5,6,6,0,0,0,0,0
+Faculty of Science,Mathematics,MA4207,Mathematical Logic,L1,4,1,1,0,0,0,0,0
+Faculty of Science,Mathematics,MA4221,Partial Differential Equations,L1,6,20,20,0,0,0,0,0
+Faculty of Science,Mathematics,MA4229,Fourier Analysis and Approximation,L1,3,5,5,0,0,0,0,0
+Faculty of Science,Mathematics,MA4233,Dynamical Systems,L1,5,18,18,1,0,0,0,0
+Faculty of Science,Mathematics,MA4251,Stochastic Processes II,L1,0,3,0,0,0,0,0,3
+Faculty of Science,Mathematics,MA4255,"Numerical Methods in DifferentialEquations",L1,6,22,22,0,0,0,0,0
+Faculty of Science,Mathematics,MA4260,Stochastic Operations Research,L1,5,18,18,2,0,0,0,0
+Faculty of Science,Mathematics,MA4264,Game Theory,L1,6,8,8,0,0,0,0,0
+Faculty of Science,Mathematics,MA4268,"Mathematics for Visual DataProcessing",L1,5,33,33,0,0,0,0,0
+Faculty of Science,Mathematics,MA4273,"Algebraic Geometry of Curves andSurfaces",L1,5,10,0,0,0,0,0,10
+Faculty of Science,Mathematics,MA5198,"GRADUATE SEMINAR MODULE INMATHEMATICS",E1,27,1,1,0,0,0,0,0
+Faculty of Science,Mathematics,MA5202,Number Theory,L1,110,3,3,0,0,0,0,0
+Faculty of Science,Mathematics,MA5204,Graduate Algebra IIA,L1,124,3,3,0,0,0,0,0
+"Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others,
+Faculty of Science,Mathematics,MA5213,"ADVANCED PARTIALDIFFERENTIAL EQUATIONS",L1,80,5,5,0,0,0,0,0
+Faculty of Science,Mathematics,MA5216,Differential Geometry,L1,2,2,2,0,0,0,0,0
+Faculty of Science,Mathematics,MA5232,Modeling and Numerical Simulations,L1,21,8,3,0,0,0,0,5
+Faculty of Science,Mathematics,MA5235,Advanced Graph Theory,L1,104,2,2,0,0,0,0,0
+Faculty of Science,Mathematics,MA5251,"SPECTRAL METHODS ANDAPPLICATIONS",L1,109,3,3,0,0,0,0,0
+Faculty of Science,Mathematics,MA5260,Probability Theory II,L1,138,1,1,0,0,0,0,0
+Faculty of Science,Mathematics,MA5295,"DISSERTATION FOR MSC BYCOURSEWORK",L1,40,1,1,0,0,0,0,0
+Faculty of Science,Mathematics,MA6211,"TOPICS IN GEOMETRY ANDTOPOLOGY I",L1,11,2,1,0,0,0,0,1
+Faculty of Science,Mathematics,MA6216,Advanced Dynamical Systems,L1,5,8,3,0,0,0,0,5
+Faculty of Science,Mathematics,QF5202,Structured Products,L1,33,1,1,0,0,0,0,0
+Faculty of Science,Mathematics,QF5203,Risk Management,L1,33,1,1,0,0,0,0,0
+Faculty of Science,Mathematics,QF5204,"Numerical Methods in QuantitativeFinance",L1,57,3,3,0,0,0,0,0
+Faculty of Science,Mathematics,QF5208,AI and FinTech,L1,76,6,6,0,0,0,0,0
+Faculty of Science,Mathematics,QF5211,"Monte Carlo Methods in QuantitativeFinance",L1,132,69,69,0,0,0,0,0
+Faculty of Science,Mathematics,QF5313,"Advanced Computational &Programming Methods in Finance",L1,49,24,7,0,0,0,0,17
+Faculty of Science,Mathematics,QF5401,"Graduate Internship in QuantitativeFinance I",L1,44,1,1,0,0,0,0,0
+Faculty of Science,Pharmacy,PR5198,"GRADUATE SEMINAR MODULE INPHARMACY",E1,2,1,1,0,0,0,0,0
+Faculty of Science,Pharmacy,PR5216,ADVANCES IN DRUG DELIVERY,L1,19,1,1,0,0,0,0,0
+Faculty of Science,Pharmacy,PR5304,"Fundamental Topics inPharmaceutical Science",L1,4,3,3,0,0,0,0,0
+Faculty of Science,Physics,PC3233,Atomic & Molecular Physics I,L1,2,2,2,0,0,0,0,0
+"Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others,
+Faculty of Science,Physics,PC3236,Computational Methods in Physics,L1,5,2,2,0,0,0,0,0
+Faculty of Science,Physics,PC3251,Nanophysics,L1,5,1,1,0,0,0,0,0
+Faculty of Science,Physics,PC4228,"Device Physics for QuantumTechnology",L1,0,1,1,0,0,0,0,0
+Faculty of Science,Physics,PC4241,Statistical Mechanics,L1,2,2,2,0,0,0,0,0
+Faculty of Science,Physics,PC4242,Electricity and Magnetism III,L1,5,1,1,0,0,0,0,0
+Faculty of Science,Physics,PC4245,Particle Physics,L1,0,2,2,0,0,0,0,0
+Faculty of Science,Physics,PC4246,Quantum Optics,L1,0,1,1,0,0,0,0,0
+Faculty of Science,Physics,PC4253,Thin Film Technology,L1,0,7,7,0,0,0,0,0
+Faculty of Science,Physics,PC4262,Remote Sensing,L1,0,1,1,0,0,0,0,0
+Faculty of Science,Physics,PC5102,Physics in Industry,L1,2,4,2,0,2,0,0,0
+Faculty of Science,Physics,PC5202,"ADVANCED STATISTICALMECHANICS",L1,16,2,1,0,0,0,0,1
+Faculty of Science,Physics,PC5206,"Selected Topics in Quantum FieldTheory",L1,20,1,0,0,0,0,0,1
+Faculty of Science,Physics,PC5210,Advanced Dynamics,L1,19,4,2,0,0,0,0,2
+Faculty of Science,Physics,PC5213,Advanced Biophysics,L1,1,3,1,0,1,0,0,1
+Faculty of Science,Physics,PC5214,"Essential techniques in experimentalphysics",L1,2,6,2,0,3,0,0,1
+Faculty of Science,Physics,PC5239B,Variational Principles,L1,7,6,6,0,0,0,0,0
+Faculty of Science,Physics,PC5252,"Bayesian Statistics and MachineLearning",L1,17,4,0,0,0,0,0,4
+Faculty of Science,Physics,PC5253,"Complex Systems Analysis andModelling",L1,19,8,3,0,0,0,0,5
+Faculty of Science,"Statistics and DataScience",DSA4212,"Optimisation for Large-Scale Data-Driven Inference",L1,0,1,0,0,0,0,0,1
+Faculty of Science,"Statistics and DataScience",ST5188,Statistical Research Project,L1,15,1,1,0,0,0,0,0
+Faculty of Science,Statistics and Data,ST5202,APPLIED REGRESSION ANALYSIS,L1,11,8,8,0,0,0,0,0
+"Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"",Science,,,,,,,,,,,
+Faculty of Science,"Statistics and DataScience",ST5202,APPLIED REGRESSION ANALYSIS,L2,16,3,3,0,0,0,0,0
+Faculty of Science,"Statistics and DataScience",ST5212,SURVIVAL ANALYSIS,L2,57,2,2,0,0,0,0,0
+Faculty of Science,"Statistics and DataScience",ST5218,"ADVANCED STATISTICALMETHODS IN FINANCE",L1,39,1,1,0,0,0,0,0
+Faculty of Science,"Statistics and DataScience",ST5218,"ADVANCED STATISTICALMETHODS IN FINANCE",L2,16,1,1,0,0,0,0,0
+Faculty of Science,"Statistics and DataScience",ST5223,"Statistical Models:Theory/Applications",L1,18,1,1,0,0,0,0,0
+Faculty of Science,"Statistics and DataScience",ST5227,Applied Data Mining,L1,54,3,3,0,0,0,0,0
+Faculty of Science,"Statistics and DataScience",ST5227,Applied Data Mining,L2,24,3,3,0,0,0,0,0
+"LKY School ofPublic Policy",LKYSPP Dean's Office,PP5168,Public Service Leadership,L1,3,8,3,0,5,0,0,0
+"LKY School ofPublic Policy",LKYSPP Dean's Office,PP5231,Ethics and Global Governance,L1,7,3,3,0,0,0,0,0
+"LKY School ofPublic Policy",LKYSPP Dean's Office,PP5257,Urban Water Governance,L1,7,2,1,0,0,0,1,0
+"LKY School ofPublic Policy",LKYSPP Dean's Office,PP5269,"Environmental Economics and PublicPolicy",L1,3,1,1,0,0,0,0,0
+"LKY School ofPublic Policy",LKYSPP Dean's Office,PP5274,"Financial Management for PolicyMakers",L1,15,2,2,1,0,0,0,0
+"LKY School ofPublic Policy",LKYSPP Dean's Office,PP5512,"US-China Relations and Great PowerPolicy Making",L1,20,1,1,0,0,0,0,0
+"LKY School ofPublic Policy",LKYSPP Dean's Office,PP5525,"Understanding Global Trade andAsian Trade Policy",L1,2,1,1,0,0,0,0,0
+"LKY School ofPublic Policy",LKYSPP Dean's Office,PP5527,"Game Theory and Strategic Decision-Making",L1,1,2,1,0,1,0,0,0
+"LKY School ofPublic Policy",LKYSPP Dean's Office,PP5528,Designing Markets and Marketplaces,L1,-,4,0,0,4,0,0,0
+"Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"LKY School ofPublic Policy",LKYSPP Dean's Office,PP5531,Programming R for Policy Analytics,L1,3,6,3,0,3,0,0,0
+"LKY School ofPublic Policy",LKYSPP Dean's Office,PP5909,Geopolitics of the Asia-Pacific,L1,0,1,0,0,1,0,0,0
+NUS,"Ctr for Engl LangComms",ES5000,"GRADUATE ENGLISH COURSE(BASIC LEVEL)",SG01,3,3,3,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES5000,"GRADUATE ENGLISH COURSE(BASIC LEVEL)",SG02,9,2,2,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES5001A,"GRADUATE ENGLISH COURSE(INTERMEDIATE LEVEL)",SG02,1,3,1,0,2,0,0,0
+NUS,"Ctr for Engl LangComms",ES5001A,"GRADUATE ENGLISH COURSE(INTERMEDIATE LEVEL)",SG03,2,7,2,0,4,0,0,1
+NUS,"Ctr for Engl LangComms",ES5001A,"GRADUATE ENGLISH COURSE(INTERMEDIATE LEVEL)",SG04,1,3,1,0,2,0,0,0
+NUS,"Ctr for Engl LangComms",ES5001A,"GRADUATE ENGLISH COURSE(INTERMEDIATE LEVEL)",SG05,1,1,1,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES5001A,"GRADUATE ENGLISH COURSE(INTERMEDIATE LEVEL)",SG06,0,3,0,0,2,0,0,1
+NUS,"Ctr for Engl LangComms",ES5001A,"GRADUATE ENGLISH COURSE(INTERMEDIATE LEVEL)",SG07,0,6,0,0,5,0,0,1
+NUS,"Ctr for Engl LangComms",ES5001A,"GRADUATE ENGLISH COURSE(INTERMEDIATE LEVEL)",SG08,0,8,0,0,5,0,0,3
+NUS,"Ctr for Engl LangComms",ES5001A,"GRADUATE ENGLISH COURSE(INTERMEDIATE LEVEL)",SG09,0,5,0,0,2,0,0,3
+NUS,"Ctr for Engl LangComms",ES5001A,"GRADUATE ENGLISH COURSE(INTERMEDIATE LEVEL)",SG10,0,4,0,0,2,0,0,2
+NUS,"Ctr for Engl LangComms",ES5001A,"GRADUATE ENGLISH COURSE(INTERMEDIATE LEVEL)",SG12,2,5,2,0,3,0,0,0
+NUS,"Ctr for Engl LangComms",ES5001A,"GRADUATE ENGLISH COURSE(INTERMEDIATE LEVEL)",SG14,1,5,1,0,3,0,0,1
+NUS,"Ctr for Engl LangComms",ES5001A,"GRADUATE ENGLISH COURSE(INTERMEDIATE LEVEL)",SG15,1,3,1,0,2,0,0,0
+NUS,"Ctr for Engl LangComms",ES5001A,"GRADUATE ENGLISH COURSE(INTERMEDIATE LEVEL)",SG16,0,2,0,0,1,0,0,1
+"Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+NUS,"Ctr for Engl LangComms",ES5001A,"GRADUATE ENGLISH COURSE(INTERMEDIATE LEVEL)",SG17,2,3,2,0,1,0,0,0
+NUS,"Ctr for Engl LangComms",ES5001A,"GRADUATE ENGLISH COURSE(INTERMEDIATE LEVEL)",SG18,2,3,2,0,1,0,0,0
+NUS,"Ctr for Engl LangComms",ES5001A,"GRADUATE ENGLISH COURSE(INTERMEDIATE LEVEL)",SG19,0,3,0,0,1,0,0,2
+NUS,"Ctr for Engl LangComms",ES5001A,"GRADUATE ENGLISH COURSE(INTERMEDIATE LEVEL)",SG20,1,4,1,0,2,0,0,1
+NUS,"Ctr for Engl LangComms",ES5001A,"GRADUATE ENGLISH COURSE(INTERMEDIATE LEVEL)",SG21,1,1,1,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES5001A,"GRADUATE ENGLISH COURSE(INTERMEDIATE LEVEL)",SG23,0,2,0,0,1,0,0,1
+NUS,"Ctr for Engl LangComms",ES5001A,"GRADUATE ENGLISH COURSE(INTERMEDIATE LEVEL)",SG25,1,2,1,0,1,0,0,0
+NUS,"Ctr for Engl LangComms",ES5001A,"GRADUATE ENGLISH COURSE(INTERMEDIATE LEVEL)",SG26,2,3,2,0,1,0,0,0
+NUS,"NUS EnterpriseAcademy",TR5101,New Venture Finance,L26,29,12,12,0,0,0,0,0
+NUS,"NUS EnterpriseAcademy",TR5102,"Intellectual Property Basics forEntrepreneurs",L26,43,8,8,0,0,0,0,0
+"NUS BusinessSchool","Analytics andOperations",DBA5104,"Introduction to Network Science &Analytics",S01,1,2,1,0,1,0,0,0
+"NUS BusinessSchool","Analytics andOperations",DBA5105,"Fintech, Enabling Technologies andAnalytics",S01,26,1,1,0,0,0,0,0
+"NUS BusinessSchool","Analytics andOperations",DOS5101A,Managing the Financial Supply Chain,S01,15,3,3,0,0,0,0,0
+"NUS BusinessSchool","Analytics andOperations",DOS5104,Sustainable Supply Chains,S01,3,4,3,0,0,0,0,1
+"NUS BusinessSchool","Analytics andOperations",IND5021,Managing the Digital Supply Chain,LS01,15,2,2,0,0,0,0,0
+"NUS BusinessSchool",BIZ Dean's Office,BMA5001,MANAGERIAL ECONOMICS,SP1,9,2,2,0,0,0,0,0
+"NUS BusinessSchool",BIZ Dean's Office,BMA5002,ANALYTICS FOR MANAGERS,SP1,2,11,4,0,5,0,0,2
+"Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"NUS BusinessSchool",BIZ Dean's Office,BMA5009,Marketing Strategy,SP1,10,2,2,0,0,0,0,0
+"NUS BusinessSchool",BIZ Dean's Office,BMA5009,Marketing Strategy,SP2,19,3,3,0,0,0,0,0
+"NUS BusinessSchool",BIZ Dean's Office,BMA5013,CORPORATE STRATEGY,SF1,0,1,0,0,1,0,0,0
+"NUS BusinessSchool",BIZ Dean's Office,BMA5013,CORPORATE STRATEGY,SF2,3,1,1,0,0,0,0,0
+"NUS BusinessSchool",BIZ Dean's Office,BMA5017,Managerial Operations and Analytics,SP1,14,4,4,0,0,0,0,0
+"NUS BusinessSchool",BIZ Dean's Office,BMA5017,Managerial Operations and Analytics,SP2,1,3,1,0,2,0,0,0
+"NUS BusinessSchool",BIZ Dean's Office,BMA5112,Asian Business Environments,SP1,2,14,4,0,7,0,0,3
+"NUS BusinessSchool",BIZ Dean's Office,BMA5115,"MANAGEMENT OFTECHNOLOGICAL INNOVATION",SP1,25,2,2,0,0,0,0,0
+"NUS BusinessSchool",BIZ Dean's Office,BMA5118A,"Special Topics in Strategy and Policy:Sustainability Strategy",SP1,10,2,2,2,0,0,0,0
+"NUS BusinessSchool",BIZ Dean's Office,BMA5133,"Legal Fundamentals forEntrepreneurs and Managers",SP1,10,4,4,2,0,0,0,0
+"NUS BusinessSchool",BIZ Dean's Office,BMA5135,"Execution of Digital Strategy in thereal world",SP1,14,1,1,1,0,0,0,0
+"NUS BusinessSchool",BIZ Dean's Office,BMA5236,"Global Operations Strategy In TheDigital Economy",SP1,11,6,6,2,0,0,0,0
+"NUS BusinessSchool",BIZ Dean's Office,BMA5302,"INVESTMENT ANALYSIS ANDMANAGEMENT",SP1,5,5,5,2,0,0,0,0
+"NUS BusinessSchool",BIZ Dean's Office,BMA5309,FUND MANAGEMENT,SP1,12,1,1,0,0,0,0,0
+"NUS BusinessSchool",BIZ Dean's Office,BMA5313A,Valuation and Mergers & Acquisitions,SP1,0,6,0,0,5,0,0,1
+"NUS BusinessSchool",BIZ Dean's Office,BMA5425,Social Entrepreneurship,SP1,20,1,1,0,0,0,0,0
+"NUS BusinessSchool",BIZ Dean's Office,BMA5429,Mastering Influence,SP1,27,3,3,1,0,0,0,0
+"Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"NUS BusinessSchool",BIZ Dean's Office,BMA5528,"BUSINESS TO BUSINESSMARKETING",SP1,9,2,2,1,0,0,0,0
+"NUS BusinessSchool",BIZ Dean's Office,BMS5114,Asian Business Environment,S01,1,2,1,0,1,0,0,0
+"NUS BusinessSchool",BIZ Dean's Office,BMS5114,Asian Business Environment,S02,10,3,3,1,0,0,0,0
+"NUS BusinessSchool",BIZ Dean's Office,BMS5120,"Innovation and Strategies forEmerging Markets",S01,1,4,1,0,3,0,0,0
+"NUS BusinessSchool",BIZ Dean's Office,BMS5121S,"DIGITAL TRANSFORMATION &STRATEGY",S01,2,7,2,0,5,0,0,0
+"NUS BusinessSchool",BIZ Dean's Office,BMS5124S,Entrepreneurial Management,S01,4,9,4,0,3,0,1,1
+"NUS BusinessSchool",BIZ Dean's Office,BMS5127,"Management of TechnologicalInnovation",S01,14,1,1,0,0,0,0,0
+"NUS BusinessSchool",BIZ Dean's Office,BMS5128,"Entrepreneurship Green VentureBusiness Funding",S01,-,1,1,0,0,0,0,0
+"NUS BusinessSchool",BIZ Dean's Office,BMS5311,Corporate Finance,S01,8,2,2,0,0,0,0,0
+"NUS BusinessSchool",BIZ Dean's Office,BMS5312,Fintech Management,S01,3,2,2,0,0,0,0,0
+"NUS BusinessSchool",BIZ Dean's Office,BMS5413,Negotiations & Influence,S01,0,1,0,0,1,0,0,0
+"NUS BusinessSchool",BIZ Dean's Office,BMS5415,"Org 2.0: People Analytics forOrganizations",S01,27,1,1,0,0,0,0,0
+"NUS BusinessSchool",BIZ Dean's Office,BMS5416,Managing Across Cultures,S01,23,1,1,0,0,0,0,0
+"NUS BusinessSchool",BIZ Dean's Office,BMS5512,Marketing Analytics,S01,4,2,2,0,0,0,0,0
+"NUS BusinessSchool",BIZ Dean's Office,BMS5519,Services Marketing,S01,23,2,2,0,0,0,0,0
+"NUS BusinessSchool",BIZ Dean's Office,BMS5602,Business Analysis and Valuation,S01,15,2,2,0,0,0,0,0
+"NUS BusinessSchool",Finance,BZD6004,Applied Econometrics II,S01,7,1,1,0,0,0,0,0
+"Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"NUS BusinessSchool",Marketing,BZD6015,"Economic Models and Experiments inMarketing",S01,15,2,1,0,0,0,0,1
+"NUS BusinessSchool",Real Estate,RE5016,Real Estate Securitisation,L1,-,1,1,0,0,0,0,0
+"NUS GraduateSchool",NUSGS Dean's Office,GS6889A,Academic Professional Skills II,L1,49,1,1,0,0,0,0,0
+"Risk ManagementInstitute","Risk ManagementInstitute",FE5103,Equity Products and Exotics,L1,74,19,19,0,0,0,0,0
+"Risk ManagementInstitute","Risk ManagementInstitute",FE5107,Risk Analyses And Management,L1,1,1,1,0,0,0,0,0
+"Risk ManagementInstitute","Risk ManagementInstitute",FE5110,"FINANCIAL ENGINEERINGPROJECT",L1,81,5,5,0,0,0,0,0
+"Risk ManagementInstitute","Risk ManagementInstitute",FE5116,"Programming and AdvancedNumerical Methods",L1,11,2,2,0,0,0,0,0
+"Risk ManagementInstitute","Risk ManagementInstitute",FE5208,"Term Structure and Interest RateDerivatives",L1,51,4,4,0,0,0,0,0
+"Risk ManagementInstitute","Risk ManagementInstitute",FE5210,Research Methods in Finance,L1,88,1,1,0,0,0,0,0
+"Risk ManagementInstitute","Risk ManagementInstitute",FE5225,Machine Learning and FinTech,L1,41,1,1,0,0,0,0,0
+"Risk ManagementInstitute","Risk ManagementInstitute",FE5227,"Commodities: Fundamentals andModelling",L1,74,3,3,0,0,0,0,0
+"SSH School ofPublic Health","SSH School of PublicHealth DO",SPH5005,Practicum,L1,28,1,1,0,0,0,0,0
+"SSH School ofPublic Health","SSH School of PublicHealth DO",SPH5101,Advanced Quantitative Methods I,L1,4,1,1,0,0,0,0,0
+"SSH School ofPublic Health","SSH School of PublicHealth DO",SPH5104,Analytics for Better Health,L1,25,1,1,0,0,0,0,0
+"SSH School ofPublic Health","SSH School of PublicHealth DO",SPH5201,Control of Communicable Diseases,L1,18,1,1,0,0,0,0,0
+"SSH School ofPublic Health","SSH School of PublicHealth DO",SPH5202,"Control of Non-CommunicableDiseases",L1,1,2,1,0,1,0,0,0
+"SSH School ofPublic Health","SSH School of PublicHealth DO",SPH5401,Health Economics and Financing,L1,14,3,3,0,0,0,0,0
+"Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"SSH School ofPublic Health","SSH School of PublicHealth DO",SPH5402,"Management of HealthcareOrganisations",L1,19,1,1,0,0,0,0,0
+"SSH School ofPublic Health","SSH School of PublicHealth DO",SPH5404,"Measuring and Managing Quality ofCare",L1,15,1,1,0,0,0,0,0
+"SSH School ofPublic Health","SSH School of PublicHealth DO",SPH5405,"Introduction to Health ServicesResearch",L1,23,1,1,0,0,0,0,0
+"SSH School ofPublic Health","SSH School of PublicHealth DO",SPH5407,Programme Evaluation,L1,1,1,1,0,0,0,0,0
+"SSH School ofPublic Health","SSH School of PublicHealth DO",SPH5409,Qualitative Methods in Public Health,L1,8,1,1,0,0,0,0,0
+"SSH School ofPublic Health","SSH School of PublicHealth DO",SPH5413,"Women's, Children's andAdolescents' Health",L1,0,1,0,0,1,0,0,0
+"SSH School ofPublic Health","SSH School of PublicHealth DO",SPH5421,Modelling Techniques in HTA,L1,13,1,1,0,0,0,0,0
+"SSH School ofPublic Health","SSH School of PublicHealth DO",SPH6001,Advanced Epidemiology II,L1,2,1,1,0,0,0,0,0
+"School ofComputing",Computer Science,CS4218,Software Testing,L1,0,2,2,0,0,0,0,0
+"School ofComputing",Computer Science,CS4238,Computer Security Practice,L1,0,2,0,0,2,0,0,0
+"School ofComputing",Computer Science,CS4240,"Interaction Design for Virtual andAugmented Reality",L1,0,8,0,0,8,0,0,0
+"School ofComputing",Computer Science,CS4242,Social Media Computing,L1,0,2,2,0,0,0,0,0
+"School ofComputing",Computer Science,CS4243,"Computer Vision and PatternRecognition",L1,0,6,6,0,0,0,0,0
+"School ofComputing",Computer Science,CS4248,Natural Language Processing,L1,0,3,0,0,3,0,0,0
+"School ofComputing",Computer Science,CS4248,Natural Language Processing,L2,13,12,6,0,6,0,0,0
+"School ofComputing",Computer Science,CS4249,"Phenomena and Theories of Human-Computer Interaction",L1,0,5,5,0,0,0,0,0
+"School ofComputing",Computer Science,CS4268,Quantum Computing,L1,0,3,3,0,0,0,0,0
+"Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"School ofComputing",Computer Science,CS5218,"Principles and Practice of ProgramAnalysis",L1,6,1,1,0,0,0,0,0
+"School ofComputing",Computer Science,CS5223,Distributed Systems,L1,5,5,5,0,0,0,0,0
+"School ofComputing",Computer Science,CS5224,Cloud Computing,L1,8,10,8,0,2,0,0,0
+"School ofComputing",Computer Science,CS5224,Cloud Computing,L2,93,15,3,0,0,0,0,12
+"School ofComputing",Computer Science,CS5228,"Knowledge Discovery and DataMining",L1,27,13,13,1,0,0,0,0
+"School ofComputing",Computer Science,CS5233,Simulation and Modelling Techniques,L1,2,2,2,0,0,0,0,0
+"School ofComputing",Computer Science,CS5242,Neural Networks and Deep Learning,L1,10,4,4,1,0,0,0,0
+"School ofComputing",Computer Science,CS5246,Text Mining,L1,6,8,6,0,2,0,0,0
+"School ofComputing",Computer Science,CS5250,Advanced Operating Systems,L1,5,2,2,0,0,0,0,0
+"School ofComputing",Computer Science,CS5260,"Neural Networks and Deep LearningII",L1,24,1,1,0,0,0,0,0
+"School ofComputing",Computer Science,CS5321,Network Security,L1,15,3,3,0,0,0,0,0
+"School ofComputing",Computer Science,CS5331,Web Security,L1,7,2,2,0,0,0,0,0
+"School ofComputing",Computer Science,CS5340,Uncertainty Modelling in AI,L1,11,3,3,0,0,0,0,0
+"School ofComputing",Computer Science,CS5344,Big-Data Analytics Technology,L1,21,8,8,0,0,0,0,0
+"School ofComputing",Computer Science,CS5421,"Database Applications Design andTuning",L1,6,3,3,2,0,0,0,0
+"School ofComputing",Computer Science,CS5422,Wireless Networking,L1,9,1,1,0,0,0,0,0
+"School ofComputing",Computer Science,CS5425,Big Data Systems for Data Science,L1,27,4,4,1,0,0,0,0
+"Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"School ofComputing",Computer Science,CS5425,Big Data Systems for Data Science,L2,2,6,2,0,4,0,0,0
+"School ofComputing",Computer Science,CS5446,AI Planning and Decision Making,L1,21,4,1,0,0,0,0,3
+"School ofComputing",Computer Science,CS5469,"Fundamentals of Logic in ComputerScience",L1,21,1,1,0,0,0,0,0
+"School ofComputing",Computer Science,CS5477,3D Computer Vision,L1,8,1,1,0,0,0,0,0
+"School ofComputing",Computer Science,CS5478,"Intelligent Robots: Algorithms andSystems",L1,0,4,0,0,4,0,0,0
+"School ofComputing",Computer Science,CS6206,"Advanced Topics in Human-Computer Interaction",L1,4,2,2,0,0,0,0,0
+"School ofComputing",Computer Science,CS6207,"Advanced Natural LanguageProcessing",L1,4,1,1,0,0,0,0,0
+"School ofComputing",Computer Science,CS6208,"Advanced Topics in ArtificialIntelligence",L1,1,10,1,0,9,0,0,0
+"School ofComputing",Computer Science,CS6215,"Advanced Topics in ProgramAnalysis",L1,5,1,1,0,0,0,0,0
+"School ofComputing",Computer Science,CS6216,"Advanced Topics in MachineLearning",L1,2,5,2,0,3,0,0,0
+"School ofComputing",Computer Science,CS6220,Advanced Topics in Data Mining,L1,9,3,3,2,0,0,0,0
+"School ofComputing",Computer Science,CS6235,"Advanced Topics in TheoreticalComputer Science",L1,0,2,0,0,2,0,0,0
+"School ofComputing",Computer Science,CS6240,Multimedia Analysis,L1,2,4,2,0,2,0,0,0
+"School ofComputing",Computer Science,CS6244,Advanced Topics in Robotics,L1,2,1,1,0,0,0,0,0
+"School ofComputing",Computer Science,CS6284,"Topics in Computer Science:Advanced Topics in ReinforcementLearning",L1,7,3,3,2,0,0,0,0
+"School ofComputing",Computer Science,IT5005,Artificial Intelligence,L1,16,13,11,0,0,0,0,2
+School of,Computer Science,IT5007,Software Engineering on Application,L1,11,1,1,0,0,0,0,0
+"Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+Computing,,,Architecture,,,,,,,,,
+"School ofComputing","Info Systems andAnalytics",BT4016,Risk Analytics for Financial Services,L1,0,5,5,0,0,0,0,0
+"School ofComputing","Info Systems andAnalytics",BT4211,Data-Driven Marketing,L1,0,1,0,0,0,0,0,1
+"School ofComputing","Info Systems andAnalytics",BT4221,"Big Data Techniques andTechnologies",L1,0,1,0,0,0,0,0,1
+"School ofComputing","Info Systems andAnalytics",BT4222,"Mining Web Data for BusinessInsights",L1,0,1,0,0,0,0,0,1
+"School ofComputing","Info Systems andAnalytics",BT4301,"Business Analytics SolutionsDevelopment and Deployment",L1,7,4,1,0,0,0,0,3
+"School ofComputing","Info Systems andAnalytics",BT5153,"Applied Machine Learning forBusiness Analytics",L1,0,1,0,0,1,0,0,0
+"School ofComputing","Info Systems andAnalytics",IFS4101,Legal Aspects of Information Security,L1,0,1,0,0,0,0,0,1
+"School ofComputing","Info Systems andAnalytics",IS4238,Strategic Cybersecurity,L1,0,1,1,0,0,0,0,0
+"School ofComputing","Info Systems andAnalytics",IS4248,Digital Business and the Metaverse,L1,5,5,1,0,0,0,0,4
+"School ofComputing","Info Systems andAnalytics",IS4262,Digital Product Management,L1,0,1,1,0,0,0,0,0
+"School ofComputing","Info Systems andAnalytics",IS5002,Digital Transformation,L1,1,2,1,0,1,0,0,0
+"School ofComputing","Info Systems andAnalytics",IS5003,Platform Design and Economy,L1,19,3,3,0,0,0,0,0
+"School ofComputing","Info Systems andAnalytics",IS5004,Enterprise Architecture,L1,24,1,1,0,0,0,0,0
+"School ofComputing","Info Systems andAnalytics",IS5008,Technology Risk & Cyber Resilience,L1,3,1,1,0,0,0,0,0
+"School ofComputing","Info Systems andAnalytics",IS5009,"Topics in Financial TechnologySolutions",L1,34,1,1,0,0,0,0,0
+"School ofComputing","Info Systems andAnalytics",IS5117,Digital Government,L1,9,8,8,1,0,0,0,0
+"Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"School ofComputing","Info Systems andAnalytics",IS5152,Data-Driven Decision Making,L1,6,3,3,1,0,0,0,0
+"School ofComputing","Info Systems andAnalytics",IT5004,"Enterprise Systems ArchitectureFundamentals",L1,20,2,2,0,0,0,0,0
+"School ofComputing","Info Systems andAnalytics",IT5006,Fundamentals of Data Analytics,L1,10,31,11,0,18,0,0,2
+"The Logistics Inst-Asia Pac","The Logistics Inst - AsiaPac",LI5101,Supply Chain Mgt Thinking & Practice,L1,-,1,0,0,0,0,0,1
+"The Logistics Inst-Asia Pac","The Logistics Inst - AsiaPac",LI5202,"Supply Chain ManagementStrategies and Case Studies",L1,5,1,0,0,0,0,0,1
+"The Logistics Inst-Asia Pac","The Logistics Inst - AsiaPac",LI5204,"Supply Chain Simulation andOptimization",L1,-,4,0,0,0,0,0,4
+"Yong Loo Lin Schof Medicine","Alice Lee Ctr forNursing Stud",NUR5002,Statistics for Health Research,L1,30,1,1,0,0,0,0,0
+"Yong Loo Lin Schof Medicine","NUS Medicine Dean'sOffice",CDM5104,Computational genomics,L1,0,3,0,0,3,0,0,0
+"Yong Loo Lin Schof Medicine","NUS Medicine Dean'sOffice",MDG5102,"TECHNIQUES IN BIOMEDICALRESEARCH",L1,52,3,3,0,0,0,0,0
+"Yong Loo Lin Schof Medicine","NUS Medicine Dean'sOffice",MDG5222,"Cardiovascular and MetabolicDiseases",L1,18,1,1,0,0,0,0,0
+"Yong Loo Lin Schof Medicine","NUS Medicine Dean'sOffice",MDG5230,"Bioethics: Core Philosophical andEmpirical Approaches",L1,5,3,3,0,0,0,0,0
+"Yong Loo Lin Schof Medicine","NUS Medicine Dean'sOffice",MDG5232,Current Practices in Biotechnology,L1,12,1,1,0,0,0,0,0
+"Yong Loo Lin Schof Medicine","NUS Medicine Dean'sOffice",MDG5233,"Current Topics in Drug Design andDevelopment",L1,17,1,1,0,0,0,0,0
+"Yong Loo Lin Schof Medicine","NUS Medicine Dean'sOffice",MDG5249,Ageing and Ethics,L1,17,1,1,0,0,0,0,0
+"Yong Loo Lin Schof Medicine",Surgery,BMI5106,Clinical Decision Support Systems,L1,95,1,1,0,0,0,0,0
+"Yong Loo Lin Schof Medicine",Surgery,BMI5108,Advanced Value Based Healthcare,L1,99,1,1,0,0,0,0,0
+"Yong Loo Lin Schof Medicine",Surgery,BMI5109,"Advanced Scientific ResearchMethods",L1,79,3,3,0,0,0,0,0
+"Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others,
+"Yong Loo Lin Schof Medicine",Surgery,BMI5206,"Advanced Human FactorsEngineering",L1,80,2,1,0,0,0,0,1

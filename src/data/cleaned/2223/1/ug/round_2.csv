@@ -1,0 +1,1822 @@
+Faculty,Department,Code,Title,Class,Vacancy,Demand,Successful (Main),Successful (Reserve),Quota Exceeded,Timetable Clashes,Workload Exceeded,Others
+Coll. of Humanities & Sciences,Communications & New Media,HS2903,Sporting Bodies,L1,39,13,13,4,0,0,0,0
+College of Design and Eng,Architecture,AC5002,Conservation Approaches and Philosophies,L1,1,1,1,0,0,0,0,0
+College of Design and Eng,Architecture,AR1101,Design I,D1,70,6,6,0,0,0,0,0
+College of Design and Eng,Architecture,AR2101,Design 3,D1,16,4,4,0,0,0,0,0
+College of Design and Eng,Architecture,AR2225,Reading Visual Images,L1,3,5,3,0,2,0,0,0
+College of Design and Eng,Architecture,AR2228,History & Theory of Architecture II,L1,16,3,3,0,0,0,0,0
+College of Design and Eng,Architecture,AR2328,Architectural Construction & Tectonics,L1,10,1,1,0,0,0,0,0
+College of Design and Eng,Architecture,AR3101,Design 5,D1,58,5,5,0,0,0,0,0
+College of Design and Eng,Architecture,AR3223,Introduction to Urbanism,L1,41,5,5,0,0,0,0,0
+College of Design and Eng,Architecture,AR5221,CONTEMPORARY THEORIES,L1,30,6,6,0,0,0,0,0
+College of Design and Eng,Architecture,AR5321,Advanced Architectural Integration,L1,3,6,3,0,3,0,0,0
+College of Design and Eng,Architecture,AR5423,Architectural Practice,L1,28,1,1,0,0,0,0,0
+College of Design and Eng,Architecture,AR5601,Urban Design Theory and Praxis,L1,9,7,7,0,0,0,0,0
+College of Design and Eng,Architecture,AR5801,Options Design Research Studio 1,D1,42,4,4,0,0,0,0,0
+College of Design and Eng,Architecture,AR5955A,Topics in Research by Design 1,L1,9,7,7,0,0,0,0,0
+College of Design and Eng,Architecture,AR5957B,Topics in History and Theory of Architecture 2,E1,2,1,0,0,0,0,0,1
+College of Design and Eng,Architecture,AR5957E,Topics in History and Theory of Architecture 5,E1,1,3,1,0,2,0,0,0
+College of Design and Eng,Architecture,AR5958F,Topics in Urbanism 6,L1,1,4,1,0,3,0,0,0
+College of Design and Eng,Architecture,AR5959B,Topics in Design Technology 2,E1,0,1,0,0,1,0,0,0
+College of Design and Eng,Architecture,LAD1001,Design 1,L1,8,5,5,0,0,0,0,0
+College of Design and Eng,Architecture,LAD1003,Introduction to Landscape Architecture,L1,15,5,5,0,0,0,0,0
+College of Design and Eng,Architecture,LAD1003,Introduction to Landscape Architecture,L2,15,2,2,0,0,0,0,0
+College of Design and Eng,Architecture,LAD2003,Landscape Construction I,L1,20,1,1,0,0,0,0,0
+College of Design and Eng,Architecture,LAD2006,Design 3,L1,16,6,6,0,0,0,0,0
+College of Design and Eng,Architecture,LAD3006,Basics of Ecology,L1,20,7,7,0,0,0,0,0
+College of Design and Eng,Biomedical Engineering,BN3202,Musculoskeletal Biomechanics,L1,39,5,5,1,0,0,0,0
+College of Design and Eng,Biomedical Engineering,BN4103,Assistive Technology for Persons with Disability,L1,15,8,8,1,0,0,0,0
+College of Design and Eng,Biomedical Engineering,BN4301,Principles Of Tissue Engineering,L1,25,1,1,0,0,0,0,0
+College of Design and Eng,Biomedical Engineering,BN4302,Organs in a Dish: Organoid Bioengineering,L1,12,20,12,0,8,0,0,0
+College of Design and Eng,Biomedical Engineering,BN4403,Cellular Bioengineering,L1,59,3,3,0,0,0,0,0
+College of Design and Eng,Biomedical Engineering,BN4501,Engineering Biology,L1,39,3,3,2,0,0,0,0
+College of Design and Eng,Biomedical Engineering,BN4701,Serious Games for Health,L1,1,10,1,0,9,0,0,0
+College of Design and Eng,Biomedical Engineering,BN5208,Biomedical Quality and Regulatory Systems,L1,5,20,5,0,15,0,0,0
+College of Design and Eng,Biomedical Engineering,BN5210,BIOSENSORS AND BIOCHIPS,L1,12,5,5,0,0,0,0,0
+College of Design and Eng,Built Environment,GES1019,Managing Singapore's Built Environment,L1,45,30,30,2,0,0,0,0
+College of Design and Eng,Built Environment,GESS1014,Managing Singapore's Built Environment,L1,100,30,30,6,0,0,0,0
+College of Design and Eng,Built Environment,PF1101,Fundamentals of Project Management,L1,292,49,48,2,0,0,1,0
+College of Design and Eng,Built Environment,PF1107,Infrastructure and Project Management Law,L1,26,2,2,0,0,0,0,0
+College of Design and Eng,Built Environment,PF2102,Structural Systems,L1,123,2,2,1,0,0,0,0
+College of Design and Eng,Built Environment,PF2107,Construction Technology,L1,14,1,0,0,0,1,0,0
+College of Design and Eng,Built Environment,PF2109,Project Feasibility,L1,35,5,5,0,0,0,0,0
+College of Design and Eng,Built Environment,PF2205,Project Finance,L1,75,53,33,1,20,0,0,0
+College of Design and Eng,Built Environment,PF3104,Project Execution,L1,45,11,11,0,0,0,0,0
+College of Design and Eng,Built Environment,PF3105,Research Methods,L1,41,5,5,0,0,0,0,0
+College of Design and Eng,Built Environment,PF3205,Advanced Measurement,L1,33,13,13,0,0,0,0,0
+College of Design and Eng,Built Environment,PF3208,Project Leadership,L1,54,16,16,1,0,0,0,0
+College of Design and Eng,Built Environment,PF3209,Building Information Modelling,L1,36,11,11,0,0,0,0,0
+College of Design and Eng,Built Environment,PF3210,Total Building Performance,L1,101,23,23,3,0,0,0,0
+College of Design and Eng,Built Environment,PF3211,AI Applications for the Built Environment,L1,29,15,15,0,0,0,0,0
+College of Design and Eng,Built Environment,PF3307,Strategic Facilities Management,L1,46,10,10,0,0,0,0,0
+College of Design and Eng,Built Environment,PF3504,Energy Management,L1,54,16,16,0,0,0,0,0
+College of Design and Eng,Built Environment,PF4102,Contract and Procurement Management,L1,39,23,23,1,0,0,0,0
+College of Design and Eng,Built Environment,PF4213,Building Energy Analysis and Simulation,L1,4,11,4,0,7,0,0,0
+College of Design and Eng,Built Environment,PF4309,Infrastructure Operations and Maintenance,L1,58,17,17,1,0,0,0,0
+College of Design and Eng,Built Environment,PF4502,Green Development,L1,9,3,1,0,2,0,0,0
+College of Design and Eng,CDE Dean's Office,DEP5101,Urban Analysis Workshop,L1,2,7,2,0,5,0,0,0
+College of Design and Eng,CDE Dean's Office,DEP5101A,Qualitative Methods for Urban Planning,L1,3,7,3,0,4,0,0,0
+College of Design and Eng,CDE Dean's Office,DEP5104,Urban and Regional Economics,L1,4,7,4,0,3,0,0,0
+College of Design and Eng,CDE Dean's Office,DEP5112,Planning Policy and Process,L1,1,7,1,0,6,0,0,0
+College of Design and Eng,CDE Dean's Office,EG1311,Design and Make,L1,108,37,37,1,0,0,0,0
+College of Design and Eng,CDE Dean's Office,EG2401A,Engineering Professionalism,L1,34,93,34,0,59,0,0,0
+College of Design and Eng,CDE Dean's Office,EG2401A,Engineering Professionalism,L2,7,87,7,0,80,0,0,0
+College of Design and Eng,CDE Dean's Office,EG2501,Liveable Cities,L01,74,3,3,0,0,0,0,0
+College of Design and Eng,CDE Dean's Office,EG2604,Innovation Programme,L1,1,11,1,0,10,0,0,0
+College of Design and Eng,Chemical & Biomolecular Eng,CN2104,Chemical Engineering Thermodynamics,L1,57,2,2,0,0,0,0,0
+College of Design and Eng,Chemical & Biomolecular Eng,CN2116,Chemical Kinetics & Reactor Design,L1,38,1,0,0,0,0,0,1
+College of Design and Eng,Chemical & Biomolecular Eng,CN2125,Heat & Mass Transfer,L1,27,1,0,0,0,0,0,1
+College of Design and Eng,Chemical & Biomolecular Eng,CN3101,Chemical Engineering Process Lab I,S1,12,1,1,0,0,0,0,0
+College of Design and Eng,Chemical & Biomolecular Eng,CN3101A,Chemical Engineering Process Lab,S1,8,1,1,0,0,0,0,0
+College of Design and Eng,Chemical & Biomolecular Eng,CN3101A,Chemical Engineering Process Lab,S2,25,2,2,0,0,0,0,0
+College of Design and Eng,Chemical & Biomolecular Eng,CN3101A,Chemical Engineering Process Lab,S3,2,2,2,0,0,0,0,0
+College of Design and Eng,Chemical & Biomolecular Eng,CN3121,Process Dynamics & Control,L1,120,3,3,0,0,0,0,0
+College of Design and Eng,Chemical & Biomolecular Eng,CN3124A,Fluid-Particle Systems,L1,29,2,1,0,0,0,0,1
+College of Design and Eng,Chemical & Biomolecular Eng,CN3132,Separation Processes,L1,110,3,3,0,0,0,0,0
+College of Design and Eng,Chemical & Biomolecular Eng,CN3135,"Process Safety, Health and Environment",L1,168,1,1,0,0,0,0,0
+College of Design and Eng,Chemical & Biomolecular Eng,CN4122,Process Synthesis and Simulation,L1,117,3,3,0,0,0,0,0
+College of Design and Eng,Chemical & Biomolecular Eng,CN4203R,Polymer Engineering,L1,26,3,2,0,0,1,0,0
+College of Design and Eng,Chemical & Biomolecular Eng,CN4205R,Pinch Analysis and Process Integration,L1,75,3,3,1,0,0,0,0
+College of Design and Eng,Chemical & Biomolecular Eng,CN4215R,Food Technology and Engineering,L1,64,1,1,0,0,0,0,0
+College of Design and Eng,Chemical & Biomolecular Eng,CN4218,Particle Technology Fundamentals and Applications,L1,20,7,7,1,0,0,0,0
+College of Design and Eng,Chemical & Biomolecular Eng,CN5190,Hydrogen Energy and Technology,L1,1,7,1,0,6,0,0,0
+College of Design and Eng,Chemical & Biomolecular Eng,CN5191,Project Engineering,L1,13,1,1,1,0,0,0,0
+College of Design and Eng,Chemical & Biomolecular Eng,CN5246,Catalysis Science and Engineering,L1,16,3,3,0,0,0,0,0
+College of Design and Eng,Chemical & Biomolecular Eng,CN5251,Membrane Science & Technology,L1,93,3,3,0,0,0,0,0
+College of Design and Eng,Civil & Environmental Eng,CE2134,Fluid Mechanics,L01,57,4,4,0,0,0,0,0
+College of Design and Eng,Civil & Environmental Eng,CE2183,Construction Project Management,L01,83,2,2,0,0,0,0,0
+College of Design and Eng,Civil & Environmental Eng,CE2407A,Uncertainty Analysis for Engineers,L01,74,31,28,0,0,0,0,3
+College of Design and Eng,Civil & Environmental Eng,CE3116,Foundation Engineering,L01,82,2,2,0,0,0,0,0
+College of Design and Eng,Civil & Environmental Eng,CE3121,Transportation Engineering,L01,98,3,3,0,0,0,0,0
+College of Design and Eng,Civil & Environmental Eng,CE3165,Structural Concrete Design,L01,88,4,4,0,0,0,0,0
+College of Design and Eng,Civil & Environmental Eng,CE4103,Design Project,L0A,0,2,0,0,2,0,0,0
+College of Design and Eng,Civil & Environmental Eng,CE4104,B. Eng. Dissertation,L01,60,3,3,0,0,0,0,0
+College of Design and Eng,Civil & Environmental Eng,CE4221,Design of Land Transport Infrastructures,L01,8,1,1,0,0,0,0,0
+College of Design and Eng,Civil & Environmental Eng,CE5108QA,Key Principles and Concepts of Earth Retention Systems,L01,25,13,13,0,0,0,0,0
+College of Design and Eng,Civil & Environmental Eng,CE5108QB,Deep Excavations Analysis and Modelling,L01,25,9,9,0,0,0,0,0
+College of Design and Eng,Civil & Environmental Eng,CE5113QA,Geotechnical Site Investigation,L01,12,6,6,0,0,0,0,0
+College of Design and Eng,Civil & Environmental Eng,CE5113QB,Geophysical Methods & Geotechnical Monitoring,L01,17,8,8,0,0,0,0,0
+College of Design and Eng,Civil & Environmental Eng,CE5315,Climate Science for Engineers,L01,28,29,28,0,1,0,0,0
+College of Design and Eng,Civil & Environmental Eng,CE5509QA,Advanced Structural Steel Design,L01,14,4,4,1,0,0,0,0
+College of Design and Eng,Civil & Environmental Eng,CE5509QB,Design of Composite Steel and Concrete Structures,L01,14,5,5,0,0,0,0,0
+College of Design and Eng,Civil & Environmental Eng,CE5807QA,Digital Technologies for Construction,L01,25,17,17,0,0,0,0,0
+College of Design and Eng,Civil & Environmental Eng,CE5807QB,Integrated Construction Logistics,L01,25,18,18,0,0,0,0,0
+College of Design and Eng,Civil & Environmental Eng,ESE3401,Sustainable Urban Water Technologies,L01,65,15,15,0,0,0,0,0
+College of Design and Eng,Civil & Environmental Eng,ESE4501,Design Project,DL01,46,4,4,0,0,0,0,0
+College of Design and Eng,Civil & Environmental Eng,ESE5880A,Topics in Environmental Engineering: Chem. & Lab Safety,L01,36,37,36,0,1,0,0,0
+College of Design and Eng,Civil & Environmental Eng,GEC1040,A Culture of Sustainability,L01,120,16,16,2,0,0,0,0
+College of Design and Eng,Civil & Environmental Eng,GEH1025,Global Environmental Issues,L01,0,16,0,0,16,0,0,0
+College of Design and Eng,Electrical & Computer Eng,EE2211,Introduction to Machine Learning,L01,17,7,7,0,0,0,0,0
+College of Design and Eng,Electrical & Computer Eng,EE3031,Innovation & Enterprise I,L01,4,10,4,0,6,0,0,0
+College of Design and Eng,Electrical & Computer Eng,EE3031,Innovation & Enterprise I,L02,3,8,3,0,5,0,0,0
+College of Design and Eng,Electrical & Computer Eng,EE3104C,Introduction to RF and Microwave Systems & Circuits,L01,24,3,3,0,0,0,0,0
+College of Design and Eng,Electrical & Computer Eng,EE3305,Robotic System Design,L01,9,3,3,0,0,0,0,0
+College of Design and Eng,Electrical & Computer Eng,EE3306,Introduction to Cyber Physical Systems,L01,7,2,2,0,0,0,0,0
+College of Design and Eng,Electrical & Computer Eng,EE3331C,Feedback Control Systems,P01,13,2,2,0,0,0,0,0
+College of Design and Eng,Electrical & Computer Eng,EE3408C,Integrated Analog Design,P01,17,1,1,0,0,0,0,0
+College of Design and Eng,Electrical & Computer Eng,EE3431C,Microelectronics Materials and Devices,P01,14,1,1,0,0,0,0,0
+College of Design and Eng,Electrical & Computer Eng,EE3731C,Signal Analytics,L01,8,2,2,0,0,0,0,0
+College of Design and Eng,Electrical & Computer Eng,EE3801,Data Engineering Principles,P01,10,1,1,0,0,0,0,0
+College of Design and Eng,Electrical & Computer Eng,EE4031,Intellectual Property: Harnessing Innovation,L01,23,2,2,0,0,0,0,0
+College of Design and Eng,Electrical & Computer Eng,EE4032,Blockchain Engineering,L01,11,2,2,0,0,0,0,0
+College of Design and Eng,Electrical & Computer Eng,EE4204,Computer Networks,P01,17,2,2,0,0,0,0,0
+College of Design and Eng,Electrical & Computer Eng,EE4211,Data Science for the Internet of Things,L01,7,6,6,1,0,0,0,0
+College of Design and Eng,Electrical & Computer Eng,EE4435,Modern Transistors and Memory Devices,P01,28,1,1,0,0,0,0,0
+College of Design and Eng,Electrical & Computer Eng,EE4502,Electric Drives & Control,P01,21,1,1,0,0,0,0,0
+College of Design and Eng,Electrical & Computer Eng,EE4704,Image Processing and Analysis,P01,6,2,2,1,0,0,0,0
+College of Design and Eng,Electrical & Computer Eng,EE4705,Human-Robot Interaction,P01,15,10,10,0,0,0,0,0
+College of Design and Eng,Electrical & Computer Eng,EE5139,Information Theory and its Applications,L01,3,1,1,0,0,0,0,0
+College of Design and Eng,Engineering Science Programme,ESP1111,Engineering Principles In-Action,L1,22,6,6,0,0,0,0,0
+College of Design and Eng,Engineering Science Programme,ESP3201,Machine Learning in Robotics and Engineering,L1,9,3,3,0,0,0,0,0
+College of Design and Eng,Engineering Science Programme,ESP3902,Major Design Project I,L1,8,1,1,0,0,0,0,0
+College of Design and Eng,Industrial Design,DTK1234,Design Thinking,L1,409,7,7,1,0,0,0,0
+College of Design and Eng,Industrial Design,ID2114,The Appreciation of Wood Craft,D1,10,14,9,0,4,0,0,1
+College of Design and Eng,Industrial Design,ID2117,The Art of Imaginative Sketching,L2,25,69,25,0,44,0,0,0
+College of Design and Eng,Industrial Design,ID2117,The Art of Imaginative Sketching,L3,25,33,25,0,8,0,0,0
+College of Design and Eng,Industrial Design,ID3124,Creative Communication & Design Argumentation,D1,20,1,1,0,0,0,0,0
+College of Design and Eng,Industrial Design,ID3125,"Colours, Materials & Finishing",D1,18,3,3,0,0,0,0,0
+College of Design and Eng,Industrial Design,ID3126,Motion Design,L1,14,7,5,0,0,0,0,2
+College of Design and Eng,Industrial Systems Eng & Mgmt,IE1111R,Industrial & Systems Engrg Principles & Practice I,L1,3,5,3,0,2,0,0,0
+College of Design and Eng,Industrial Systems Eng & Mgmt,IE2110,Operations Research I,L1,0,1,0,0,1,0,0,0
+College of Design and Eng,Industrial Systems Eng & Mgmt,IE2141,Systems Thinking and Dynamics,L2,33,6,6,0,0,0,0,0
+College of Design and Eng,Industrial Systems Eng & Mgmt,IE3110R,Simulation,L1,20,3,3,0,0,0,0,0
+College of Design and Eng,Industrial Systems Eng & Mgmt,IE4215,Machine Learning for Industrial Engineering,L1,24,1,1,0,0,0,0,0
+College of Design and Eng,Industrial Systems Eng & Mgmt,IE4248,Energy and Green Economy,L1,22,3,3,1,0,0,0,0
+College of Design and Eng,Industrial Systems Eng & Mgmt,IE5231,Statistical Methods for Process Design & Control,L1,4,2,2,0,0,0,0,0
+College of Design and Eng,Industrial Systems Eng & Mgmt,IE5301,Human Factors In Engineering And Design,L1,1,14,1,0,13,0,0,0
+College of Design and Eng,Materials Science & Eng,MLE2101,Introduction to Structure of Materials,L1,24,4,4,0,0,0,0,0
+College of Design and Eng,Materials Science & Eng,MLE2102,Principles of Renewable Energy,L1,6,1,1,0,0,0,0,0
+College of Design and Eng,Materials Science & Eng,MLE2103,Phase Transformation and Kinetics,L1,19,2,2,0,0,0,0,0
+College of Design and Eng,Materials Science & Eng,MLE2301,Introduction to Materials Science & Engineering,L1,25,4,4,0,0,0,0,0
+College of Design and Eng,Materials Science & Eng,MLE3102,Degradation and Failure of Materials,L1,31,2,2,0,0,0,0,0
+College of Design and Eng,Materials Science & Eng,MLE3104,Polymeric and Composite Materials,L1,34,1,1,0,0,0,0,0
+College of Design and Eng,Materials Science & Eng,MLE3105,Dielectric and Magnetic Materials,L1,20,1,1,0,0,0,0,0
+College of Design and Eng,Materials Science & Eng,MLE3111,Materials Properties & Processing Laboratory,L1,69,2,2,0,0,0,0,0
+College of Design and Eng,Materials Science & Eng,MLE3202,Materials for Biointerfaces,L1,46,4,4,0,0,0,0,0
+College of Design and Eng,Materials Science & Eng,MLE3203,Engineering Materials,L1,40,1,1,0,0,0,0,0
+College of Design and Eng,Materials Science & Eng,MLE4201,Advanced Materials Characterisation,L1,35,1,1,0,0,0,0,0
+College of Design and Eng,Materials Science & Eng,MLE4210,Materials for energy storage and conversion,L1,0,1,0,0,0,0,0,1
+College of Design and Eng,Materials Science & Eng,MLE4212,Advanced Structural Materials,L1,39,1,1,0,0,0,0,0
+College of Design and Eng,Materials Science & Eng,MLE4213,Innovation & Product Development for Material Engineers,L1,8,2,1,0,0,0,0,1
+College of Design and Eng,Materials Science & Eng,MLE4221,Emerging materials for renewable fuels and clean water,L1,26,2,2,0,0,0,0,0
+College of Design and Eng,Materials Science & Eng,MLE5104,PHYSICAL PROPERTIES OF MATERIALS,L1,11,2,2,0,0,0,0,0
+College of Design and Eng,Mechanical Engineering,ME1102,Engineering Principles and Practice I,P1,2,1,1,0,0,0,0,0
+College of Design and Eng,Mechanical Engineering,ME1102,Engineering Principles and Practice I,P2,8,3,3,1,0,0,0,0
+College of Design and Eng,Mechanical Engineering,ME1102,Engineering Principles and Practice I,P3,10,6,6,1,0,0,0,0
+College of Design and Eng,Mechanical Engineering,ME1102,Engineering Principles and Practice I,P4,4,9,4,0,5,0,0,0
+College of Design and Eng,Mechanical Engineering,ME1102,Engineering Principles and Practice I,P5,4,8,4,0,4,0,0,0
+College of Design and Eng,Mechanical Engineering,ME1102,Engineering Principles and Practice I,P6,18,8,8,1,0,0,0,0
+College of Design and Eng,Mechanical Engineering,ME1102,Engineering Principles and Practice I,P7,18,2,2,0,0,0,0,0
+College of Design and Eng,Mechanical Engineering,ME1102,Engineering Principles and Practice I,P9,19,3,3,0,0,0,0,0
+College of Design and Eng,Mechanical Engineering,ME2102,Engineering Innovation and Modelling,P1,11,34,11,0,23,0,0,0
+College of Design and Eng,Mechanical Engineering,ME2112,Strength of Materials,L1,20,22,20,0,2,0,0,0
+College of Design and Eng,Mechanical Engineering,ME2115,Mechanics Of Machines,L1,125,4,4,0,0,0,0,0
+College of Design and Eng,Mechanical Engineering,ME2121,Engineering Thermodynamics and Heat Transfer,L1,57,5,5,1,0,0,0,0
+College of Design and Eng,Mechanical Engineering,ME2134,Fluid Mechanics I,L1,25,9,9,2,0,0,0,0
+College of Design and Eng,Mechanical Engineering,ME2142,Feedback Control Systems,L1,17,3,3,1,0,0,0,0
+College of Design and Eng,Mechanical Engineering,ME2162,MANUFACTURING PROCESSES,L1,91,3,3,2,0,0,0,0
+College of Design and Eng,Mechanical Engineering,ME3163,Introduction to Cyber Physical Systems,L01,4,5,4,0,1,0,0,0
+College of Design and Eng,Mechanical Engineering,ME3211,Mechanics Of Solids,L1,0,3,0,0,3,0,0,0
+College of Design and Eng,Mechanical Engineering,ME3242,Automation,L1,10,6,6,1,0,0,0,0
+College of Design and Eng,Mechanical Engineering,ME3243,Robotic System Design,L01,2,9,2,0,7,0,0,0
+College of Design and Eng,Mechanical Engineering,ME3252,Materials for Mechanical Engineering,L1,6,8,6,0,2,0,0,0
+College of Design and Eng,Mechanical Engineering,ME3261,Computer-Aided Design And Manufacturing,L1,38,5,5,0,0,0,0,0
+College of Design and Eng,Mechanical Engineering,ME3263,Design For Manufacturing And Assembly,L1,43,3,3,0,0,0,0,0
+College of Design and Eng,Mechanical Engineering,ME4101A,Bachelor Of Engineering Dissertation,L1,268,18,18,0,0,0,0,0
+College of Design and Eng,Mechanical Engineering,ME4101B,Mechanical Systems Design,L1,116,1,1,0,0,0,0,0
+College of Design and Eng,Mechanical Engineering,ME4102,Standards in Mechanical Engineering,PXA1,2,5,2,0,3,0,0,0
+College of Design and Eng,Mechanical Engineering,ME4102,Standards in Mechanical Engineering,PXA2,5,8,5,0,3,0,0,0
+College of Design and Eng,Mechanical Engineering,ME4102,Standards in Mechanical Engineering,PXB1,3,5,3,0,2,0,0,0
+College of Design and Eng,Mechanical Engineering,ME4102,Standards in Mechanical Engineering,PXB2,6,3,3,3,0,0,0,0
+College of Design and Eng,Mechanical Engineering,ME4103,Mechanical Engineering and Society,L1,83,7,7,0,0,0,0,0
+College of Design and Eng,Mechanical Engineering,ME4223,Thermal Environmental Engineering,L1,13,2,2,0,0,0,0,0
+College of Design and Eng,Mechanical Engineering,ME4226,Energy and Thermal Systems,L1,5,10,5,0,5,0,0,0
+College of Design and Eng,Mechanical Engineering,ME4233,Computational Methods In Fluid Mechanics,L1,2,2,2,0,0,0,0,0
+College of Design and Eng,Mechanical Engineering,ME4241,"Aircraft Performance, Stability and Control",L1,1,16,1,0,15,0,0,0
+College of Design and Eng,Mechanical Engineering,ME4242,Soft Robotics,L1,4,3,3,0,0,0,0,0
+College of Design and Eng,Mechanical Engineering,ME4245,Robot Mechanics and Control,L1,15,4,4,0,0,0,0,0
+College of Design and Eng,Mechanical Engineering,ME4248,Manufacturing Simulation and Data Communication,L1,28,1,1,0,0,0,0,0
+College of Design and Eng,Mechanical Engineering,ME4252,Nanomaterials for Energy Engineering,L1,52,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAB1201,Bahasa Indonesia 1,L1,22,7,7,3,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAB1201,Bahasa Indonesia 1,L10,22,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAB1201,Bahasa Indonesia 1,L2,24,3,3,2,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAB1201,Bahasa Indonesia 1,L3,23,2,2,1,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAB1201,Bahasa Indonesia 1,L4,24,5,5,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAB1201,Bahasa Indonesia 1,L5,23,11,11,6,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAB1201,Bahasa Indonesia 1,L6,22,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAB1201,Bahasa Indonesia 1,L7,24,3,3,1,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAB1201,Bahasa Indonesia 1,L8,22,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAB1201,Bahasa Indonesia 1,L9,22,7,7,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAB2201,Bahasa Indonesia 2,L1,22,4,4,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAB2201,Bahasa Indonesia 2,L2,24,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAB2201,Bahasa Indonesia 2,L3,24,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAB2201,Bahasa Indonesia 2,L4,25,5,5,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAB3201,Bahasa Indonesia 3,L1,21,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAB3201,Bahasa Indonesia 3,L2,21,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAB3202,Bahasa Indonesia 4,L1,24,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAB4201,Bahasa Indonesia 5,L1,24,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAC1201,Chinese 1,L1,11,4,4,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAC1201,Chinese 1,L10,10,4,4,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAC1201,Chinese 1,L2,12,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAC1201,Chinese 1,L3,11,4,4,1,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAC1201,Chinese 1,L4,12,6,6,1,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAC1201,Chinese 1,L5,10,10,10,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAC1201,Chinese 1,L6,10,7,7,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAC1201,Chinese 1,L7,11,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAC1201,Chinese 1,L9,12,4,4,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAC2201,Chinese 2,L2,12,8,8,1,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAC2201,Chinese 2,L3,12,9,9,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAC3201,Chinese 3,L2,11,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAC3201,Chinese 3,L3,12,4,4,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAC3202,Chinese 4,L1,12,8,8,1,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAC3204,Chinese for Business & Social Sciences,L1,16,14,14,1,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAF1201,French 1,L1,5,13,5,0,8,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAF1201,French 1,L10,10,13,10,0,3,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAF1201,French 1,L11,9,12,9,0,3,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAF1201,French 1,L12,5,11,5,0,6,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAF1201,French 1,L13,11,13,11,0,2,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAF1201,French 1,L2,10,10,10,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAF1201,French 1,L3,8,8,8,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAF1201,French 1,L4,8,10,8,0,2,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAF1201,French 1,L5,11,18,11,0,7,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAF1201,French 1,L6,2,10,2,0,8,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAF1201,French 1,L7,12,20,12,0,8,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAF1201,French 1,L8,9,16,9,0,7,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAF1201,French 1,L9,14,10,10,4,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAF2201,French 2,L1,17,6,6,1,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAF2201,French 2,L2,16,13,13,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAF2201,French 2,L3,16,7,7,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAF3201,French 3,L1,12,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAF3201,French 3,L2,13,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAF3201,French 3,L3,17,5,5,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAF3201,French 3,L4,16,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAF3202,French 4,L1,17,7,7,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAF4201HM,French 5,L1,12,4,4,1,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAF4201HM,French 5,L2,13,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAF4202HM,French 6,L1,12,4,4,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAF4203HM,French Language and Society,L1,17,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAG1201,German 1,L1,7,7,7,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAG1201,German 1,L10,11,4,4,1,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAG1201,German 1,L2,9,6,6,1,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAG1201,German 1,L3,10,10,10,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAG1201,German 1,L4,9,4,4,1,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAG1201,German 1,L5,10,10,10,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAG1201,German 1,L6,16,11,11,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAG1201,German 1,L7,12,13,12,0,1,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAG1201,German 1,L8,13,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAG1201,German 1,L9,12,7,7,2,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAG2201,German 2,L1,17,20,17,0,3,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAG2201,German 2,L2,16,11,11,3,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAG3201,German 3,L1,14,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAG3201,German 3,L2,16,4,4,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAG3201,German 3,L3,13,5,5,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAG4201HM,German 5,L1,7,7,7,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAG4201HM,German 5,L2,12,12,12,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAH1201,Hindi 1,L1,15,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAH1201,Hindi 1,L2,15,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAH2201,Hindi 2,L1,16,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAJ1201,Japanese 1,L1,83,40,40,8,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAJ1201,Japanese 1,L2,75,39,39,10,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAJ1201,Japanese 1,L3,78,38,37,4,0,0,1,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAJ2201,Japanese 2,L1,41,50,41,0,9,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAJ2201,Japanese 2,L2,110,39,39,4,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAJ2202,Japanese 3,L1,41,48,41,0,7,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAJ2202,Japanese 3,L2,36,29,29,2,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAJ2203,Japanese 4,L1,64,44,44,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAJ3201,Japanese 5,L1,58,41,41,1,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAJ3202,Japanese 6,L1,29,32,29,0,3,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAJ4205,Japanese for Contemporary Society,L1,6,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAJ4205HM,Japanese for Contemporary Society,L1,23,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAK1201,Korean 1,L1,9,20,9,0,11,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAK1201,Korean 1,L10,9,31,9,0,22,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAK1201,Korean 1,L11,9,17,9,0,8,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAK1201,Korean 1,L12,19,23,19,0,4,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAK1201,Korean 1,L2,4,12,4,0,8,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAK1201,Korean 1,L3,6,15,6,0,9,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAK1201,Korean 1,L4,18,29,18,0,11,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAK1201,Korean 1,L5,18,20,18,0,1,1,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAK1201,Korean 1,L6,8,17,8,0,9,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAK1201,Korean 1,L7,16,28,16,0,12,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAK1201,Korean 1,L8,12,21,12,0,9,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAK1201,Korean 1,L9,9,30,9,0,21,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAK2201,Korean 2,L1,20,8,8,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAK2201,Korean 2,L2,15,8,8,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAK2201,Korean 2,L3,19,8,8,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAK2201,Korean 2,L4,19,7,7,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAK2201,Korean 2,L5,20,6,6,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAK2201,Korean 2,L6,19,8,8,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAK2201,Korean 2,L7,19,8,8,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAK3201,Korean 3,L1,12,8,8,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAK3201,Korean 3,L2,18,5,5,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAK3201,Korean 3,L3,17,6,6,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAK3201,Korean 3,L4,15,8,8,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAK3201,Korean 3,L5,17,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAK3201,Korean 3,L6,14,4,4,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAK4201,Korean 5,L1,2,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAK4201,Korean 5,L2,1,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAK4201HM,Korean 5,L1,11,7,7,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAK4201HM,Korean 5,L2,18,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAK4201HM,Korean 5,L3,16,7,7,2,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAK4203,Korean 7,L2,1,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAK4203HM,Korean 7,L1,9,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAK4203HM,Korean 7,L2,13,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAL1201,Tamil 1,L1,16,5,5,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAL2201,Tamil 2,L1,20,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAM1201,Malay 1,L1,16,20,16,0,4,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAM1201,Malay 1,L2,16,21,16,0,5,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAM1201,Malay 1,L3,24,47,24,0,23,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAM1201,Malay 1,L4,17,15,15,1,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAM1201,Malay 1,L5,20,30,20,0,10,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAM1201,Malay 1,L6,20,28,20,0,8,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAM2201,Malay 2,L1,18,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAM2201,Malay 2,L2,16,6,6,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAM3201,Malay 3,L1,18,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAM3202,Malay 4,L1,19,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAM4201HM,Malay 5,L1,10,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAR1201,Arabic 1,L1,13,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAR1201,Arabic 1,L2,17,8,8,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAR1201,Arabic 1,L3,16,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAR1201,Arabic 1,L4,15,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAR2201,Arabic 2,L1,22,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAR2201,Arabic 2,L2,24,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAR3201,Arabic 3,L1,25,6,6,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAR4201HM,Arabic 5,L1,15,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAS1201,Spanish 1,L1,22,14,14,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAS1201,Spanish 1,L10,21,12,12,1,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAS1201,Spanish 1,L11,21,15,15,3,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAS1201,Spanish 1,L2,23,12,12,2,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAS1201,Spanish 1,L3,22,9,9,1,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAS1201,Spanish 1,L4,20,12,12,2,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAS1201,Spanish 1,L5,20,19,19,1,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAS1201,Spanish 1,L6,20,7,7,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAS1201,Spanish 1,L7,22,12,12,1,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAS1201,Spanish 1,L8,24,11,11,2,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAS1201,Spanish 1,L9,23,18,18,1,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAS2201,Spanish 2,L1,16,8,8,1,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAS2201,Spanish 2,L2,25,4,4,1,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAS2201,Spanish 2,L3,24,7,7,1,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAS3201,Spanish 3,L1,15,5,5,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAS3201,Spanish 3,L2,19,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAS4201,Spanish 5,L1,3,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAS4201HM,Spanish 5,L1,14,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAT1201,Thai 1,L1,23,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAT1201,Thai 1,L2,21,8,8,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAT1201,Thai 1,L3,22,6,6,4,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAT1201,Thai 1,L4,22,11,11,1,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAT1201,Thai 1,L5,23,8,8,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAT1201,Thai 1,L6,21,11,11,1,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAT2201,Thai 2,L1,22,5,5,1,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAT2201,Thai 2,L2,24,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAT2201,Thai 2,L3,24,4,3,0,0,0,1,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAT3201,Thai 3,L1,23,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAT3201,Thai 3,L2,25,4,4,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAT3202,Thai 4,L1,22,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAT4201HM,Thai 5,L1,20,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAV1201,Vietnamese 1,L1,14,7,7,2,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAV1201,Vietnamese 1,L2,22,8,8,1,0,0,0,0
+Faculty of Arts & Social Sci,Centre for Language Studies,LAV2201,Vietnamese 2,L1,24,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,CH1101E,Retelling Chinese Stories: Change and Continuity,L1,282,64,64,2,0,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,CH2141,General History of China,L1,56,9,9,0,0,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,CH2162,Reading Classical Chinese Texts,E1,22,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,CH2252,History of Chinese Philosophy,L1,21,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,CH2293,Introduction to Chinese Art (taught in English),L1,21,13,13,0,0,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,CH2295,Commerce and Culture in China's Past (in English),L1,18,4,4,0,0,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,CH2391,Strangers in Chinese Fiction and Film (in English),L1,17,4,4,0,0,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,CH2392,Chinese Women in Context (in English),L1,40,17,17,3,0,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,CH3228,Classical Poetry: Writing and Criticism,L1,21,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,CH3248,Contemporary China: 1949 to Present,L1,8,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,CH4224,Studies in Chinese Verse,E1,11,9,9,0,0,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,CH4226,The City in Modern Chinese Literature,E1,14,10,10,0,0,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,CH4247,Print Culture in Modern China,E1,13,11,11,0,0,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,CL1101E,Chinese Language: Its Past and Present,L1,40,16,16,3,0,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,CL2103,Chinese Grammar,L1,33,8,8,0,0,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,CL3201,Communicating through Chinese Rhetoric and Metaphors,L1,14,4,4,0,0,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,GEC1044,Chinese Medicine: Theory and Practice,L1,240,150,150,27,0,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,GEH1070,Chinese Medicine: Theory and Practice,L1,225,189,189,15,0,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,GES1005,Everyday Life of Chinese Singaporeans: Past & Present (taught in English),L1,96,22,22,14,0,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,GES1040,Prominent Chinese in Colonial Singapore,L1,48,9,9,3,0,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,GESS1003,Everyday Life of Chinese Singaporeans: Past & Present (taught in English),L1,84,30,30,7,0,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,GESS1032,Prominent Chinese in Colonial Singapore,L1,42,7,7,1,0,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,GET1046,I Do Not Think Therefore I Am,L1,60,28,28,4,0,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,GEX1026,I Do Not Think Therefore I Am,L1,45,30,30,8,0,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,INT2101,Basic Interpreting,L1,71,10,10,1,0,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,TRA2101,Basic Translation,L1,118,29,28,0,0,0,1,0
+Faculty of Arts & Social Sci,Chinese Studies,TRA3204,Literary Translation,E1,26,10,10,0,0,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,TRA3206,Translation and Interpreting Theories,E1,28,4,4,0,0,0,0,0
+Faculty of Arts & Social Sci,Communications & New Media,GET1008,Public Speaking and Critical Reasoning,L1,50,44,44,6,0,0,0,0
+Faculty of Arts & Social Sci,Communications & New Media,GEX1005,Public Speaking and Critical Reasoning,L1,45,46,45,0,1,0,0,0
+Faculty of Arts & Social Sci,Communications & New Media,NM1101E,"Communications, New Media and Society",L1,156,79,79,13,0,0,0,0
+Faculty of Arts & Social Sci,Communications & New Media,NM2101,Theories of Communications and New Media,L1,95,64,64,0,0,0,0,0
+Faculty of Arts & Social Sci,Communications & New Media,NM2103,Quantitative Research Methods,L1,34,5,5,0,0,0,0,0
+Faculty of Arts & Social Sci,Communications & New Media,NM2104,Qualitative Communication Research Methods,L1,44,9,9,0,0,0,0,0
+Faculty of Arts & Social Sci,Communications & New Media,NM2209,Social Psychology of New Media,L1,69,35,35,7,0,0,0,0
+Faculty of Arts & Social Sci,Communications & New Media,NM2219,Principles of Communication Management,L1,41,16,16,2,0,0,0,0
+Faculty of Arts & Social Sci,Communications & New Media,NM2220,Introduction to Media Writing,L1,47,19,19,1,0,0,0,0
+Faculty of Arts & Social Sci,Communications & New Media,NM2223,Media Law and Policy,L1,76,16,16,0,0,0,0,0
+Faculty of Arts & Social Sci,Communications & New Media,NM3205,Digital Media Cultures,L1,27,5,5,0,0,0,0,0
+Faculty of Arts & Social Sci,Communications & New Media,NM3217,Principles of Visual Communication Design,L1,5,45,5,0,40,0,0,0
+Faculty of Arts & Social Sci,Communications & New Media,NM3230,Digital Storytelling,E1,2,13,2,0,11,0,0,0
+Faculty of Arts & Social Sci,Communications & New Media,NM3241,Cultural Studies: Theory and Practice,L1,1,10,1,0,9,0,0,0
+Faculty of Arts & Social Sci,Communications & New Media,NM3242,Organisational Communication and Leadership,L1,36,7,7,1,0,0,0,0
+Faculty of Arts & Social Sci,Communications & New Media,NM3243,User Experience Design,L1,32,91,32,0,59,0,0,0
+Faculty of Arts & Social Sci,Communications & New Media,NM4102,Advanced Communications & New Media Research,E1,19,13,13,2,0,0,0,0
+Faculty of Arts & Social Sci,Communications & New Media,NM4228,Risk and Crisis Communication,E1,2,14,2,0,12,0,0,0
+Faculty of Arts & Social Sci,Communications & New Media,NM4228,Risk and Crisis Communication,E2,1,17,1,0,16,0,0,0
+Faculty of Arts & Social Sci,Communications & New Media,NM4242,Critical Perspectives on Technology,E1,4,35,4,0,31,0,0,0
+Faculty of Arts & Social Sci,Communications & New Media,NM4249,Media & Audiences,E1,1,17,1,0,16,0,0,0
+Faculty of Arts & Social Sci,Communications & New Media,NM4250,Data Journalism and Analysis,E1,14,18,14,0,4,0,0,0
+Faculty of Arts & Social Sci,Communications & New Media,NM4259,Mobile Interaction Design,E1,1,5,1,0,4,0,0,0
+Faculty of Arts & Social Sci,Communications & New Media,NM4260,Game Design,E1,10,12,10,0,2,0,0,0
+Faculty of Arts & Social Sci,Economics,EC1101E,Introduction to Economic Analysis,L1,150,66,66,9,0,0,0,0
+Faculty of Arts & Social Sci,Economics,EC1101E,Introduction to Economic Analysis,L2,105,75,75,3,0,0,0,0
+Faculty of Arts & Social Sci,Economics,EC2101,Microeconomic Analysis I,L1,108,48,48,0,0,0,0,0
+Faculty of Arts & Social Sci,Economics,EC2102,Macroeconomic Analysis I,L1,102,53,53,3,0,0,0,0
+Faculty of Arts & Social Sci,Economics,EC2104,Quantitative Methods for Economic Analysis,L1,43,22,21,1,0,1,0,0
+Faculty of Arts & Social Sci,Economics,EC2205,Economic Analysis of Business,L1,58,16,16,1,0,0,0,0
+Faculty of Arts & Social Sci,Economics,EC2303,Foundations for Econometrics,L1,99,20,20,0,0,0,0,0
+Faculty of Arts & Social Sci,Economics,EC2374,Economy of Modern China I,L1,18,8,8,1,0,0,0,0
+Faculty of Arts & Social Sci,Economics,EC3101,Microeconomic Analysis II,L1,168,12,12,1,0,0,0,0
+Faculty of Arts & Social Sci,Economics,EC3102,Macroeconomic Analysis II,L1,28,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Economics,EC3303,Econometrics I,L1,121,16,16,2,0,0,0,0
+Faculty of Arts & Social Sci,Economics,EC3304,Econometrics II,L1,68,5,5,0,0,0,0,0
+Faculty of Arts & Social Sci,Economics,EC3305,Programming Tools for Economics,L1,14,5,5,1,0,0,0,0
+Faculty of Arts & Social Sci,Economics,EC3312,Game Theory & Applications to Economics,L1,14,7,7,0,0,0,0,0
+Faculty of Arts & Social Sci,Economics,EC3332,Money and Banking I,L1,48,6,6,0,0,0,0,0
+Faculty of Arts & Social Sci,Economics,EC3333,Financial Economics I,L1,60,6,6,2,0,0,0,0
+Faculty of Arts & Social Sci,Economics,EC3343,International Finance I,L1,59,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,Economics,EC3381,Urban Economics,L1,32,5,5,0,0,0,0,0
+Faculty of Arts & Social Sci,Economics,EC3391,Evolution of Economic Thought & Analysis,L1,52,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,Economics,EC4301,Microeconomic Analysis III,E1,24,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Economics,EC4304,Economic and Financial Forecasting,E1,6,5,5,0,0,0,0,0
+Faculty of Arts & Social Sci,Economics,EC4305,Applied Econometrics,E1,18,4,4,0,0,0,0,0
+Faculty of Arts & Social Sci,Economics,EC4305,Applied Econometrics,E2,15,2,2,2,0,0,0,0
+Faculty of Arts & Social Sci,Economics,EC4306,Applied Microeconomic Analysis,E1,7,6,6,1,0,0,0,0
+Faculty of Arts & Social Sci,Economics,EC4307,Issues in Macroeconomics,E1,25,2,2,1,0,0,0,0
+Faculty of Arts & Social Sci,Economics,EC4307,Issues in Macroeconomics,E2,14,4,4,1,0,0,0,0
+Faculty of Arts & Social Sci,Economics,EC4307,Issues in Macroeconomics,E3,34,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Economics,EC4308,Machine Learning and Economic Forecasting,E1,9,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Economics,EC4324,Economics of Competition Policy,E1,37,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Economics,EC4325,The Economics of Digital Platforms,E1,2,19,2,0,17,0,0,0
+Faculty of Arts & Social Sci,Economics,EC4343,International Finance II,E1,2,8,2,0,6,0,0,0
+Faculty of Arts & Social Sci,Economics,EC4354,Economics of Education,E1,6,15,6,0,9,0,0,0
+Faculty of Arts & Social Sci,Economics,EC4362,Immigration Economics,E1,3,4,3,0,1,0,0,0
+Faculty of Arts & Social Sci,Economics,EC4372,Technology and Innovation,L1,37,12,12,2,0,0,0,0
+Faculty of Arts & Social Sci,Economics,EC4394,Behavioural Economics,E1,20,8,8,1,0,0,0,0
+Faculty of Arts & Social Sci,Economics,EC4394,Behavioural Economics,E2,2,4,2,0,2,0,0,0
+Faculty of Arts & Social Sci,Economics,EC4398,Economics of Inequality,L1,2,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Economics,EC4880,Topics in Economics,E1,34,4,4,0,0,0,0,0
+Faculty of Arts & Social Sci,Economics,EC5326R,Policy Impact Evaluation Methods,S1,8,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Economics,GEC1028,Luck,L1,60,198,60,0,138,0,0,0
+Faculty of Arts & Social Sci,Economics,GEH1074,Luck,L1,100,113,100,0,13,0,0,0
+Faculty of Arts & Social Sci,Economics,GES1002,Global EC Dimensions of Singapore,L1,100,36,36,9,0,0,0,0
+Faculty of Arts & Social Sci,Economics,GESS1000,Global EC Dimensions of Singapore,L1,55,34,34,12,0,0,0,0
+Faculty of Arts & Social Sci,"English,Ling.&Theatre Studies",EL1101E,The Nature of Language,L1,123,89,89,7,0,0,0,0
+Faculty of Arts & Social Sci,"English,Ling.&Theatre Studies",EL2102,Sound Patterns in Language,E1,41,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,"English,Ling.&Theatre Studies",EL2102,Sound Patterns in Language,E2,41,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,"English,Ling.&Theatre Studies",EL2151,Social Variation in English,L1,58,6,6,0,0,0,0,0
+Faculty of Arts & Social Sci,"English,Ling.&Theatre Studies",EL3206,Psycholinguistics,E1,21,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,"English,Ling.&Theatre Studies",EL3208,Bilingualism,L1,22,5,5,0,0,0,0,0
+Faculty of Arts & Social Sci,"English,Ling.&Theatre Studies",EL3209,"Language, Culture, and Mind",E1,32,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,"English,Ling.&Theatre Studies",EL3214,Language Documentation,E1,5,1,1,1,0,0,0,0
+Faculty of Arts & Social Sci,"English,Ling.&Theatre Studies",EL4216,Lexicology and Lexicography,E1,6,8,6,0,2,0,0,0
+Faculty of Arts & Social Sci,"English,Ling.&Theatre Studies",EL4252,Interactional Discourse,E1,20,9,9,0,0,0,0,0
+Faculty of Arts & Social Sci,"English,Ling.&Theatre Studies",EL4253,"Language, Gender and Sexual Identities",E1,19,8,8,1,0,0,0,0
+Faculty of Arts & Social Sci,"English,Ling.&Theatre Studies",EL4255,English as a World Language,E1,1,7,1,0,6,0,0,0
+Faculty of Arts & Social Sci,"English,Ling.&Theatre Studies",EN1101E,An Introduction to Literary Studies,L1,64,24,24,1,0,0,0,0
+Faculty of Arts & Social Sci,"English,Ling.&Theatre Studies",EN2207,Gender and Sexuality in Literature,E1,15,4,4,1,0,0,0,0
+Faculty of Arts & Social Sci,"English,Ling.&Theatre Studies",EN2277,Love's Word: Reading across Literature and Philosophy,L1,18,7,7,0,0,0,0,0
+Faculty of Arts & Social Sci,"English,Ling.&Theatre Studies",EN3222,The Eighteenth Century,E1,8,4,4,1,0,0,0,0
+Faculty of Arts & Social Sci,"English,Ling.&Theatre Studies",EN3224,The Twentieth Century,E1,16,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,"English,Ling.&Theatre Studies",EN3224,The Twentieth Century,E2,21,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,"English,Ling.&Theatre Studies",EN3227,Romanticism,L1,3,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,"English,Ling.&Theatre Studies",EN4224,Topics in the Twentieth Century,E1,4,19,4,0,15,0,0,0
+Faculty of Arts & Social Sci,"English,Ling.&Theatre Studies",EN4234,Pynchon and the Poetics of Information,E1,9,6,6,2,0,0,0,0
+Faculty of Arts & Social Sci,"English,Ling.&Theatre Studies",EN4264,Modern Poetry,E1,6,11,6,0,5,0,0,0
+Faculty of Arts & Social Sci,"English,Ling.&Theatre Studies",GEC1017,Film Art and Human Concerns,L1,50,46,46,3,0,0,0,0
+Faculty of Arts & Social Sci,"English,Ling.&Theatre Studies",GEC1018,Names as Markers of Socio-cultural Identity,E1,13,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,"English,Ling.&Theatre Studies",GEH1053,Film Art and Human Concerns,L1,80,55,55,0,0,0,0,0
+Faculty of Arts & Social Sci,"English,Ling.&Theatre Studies",GEH1054,Names as Markers of Socio-cultural Identity,E1,15,11,11,1,0,0,0,0
+Faculty of Arts & Social Sci,"English,Ling.&Theatre Studies",GEI1002,Computers and the Humanities,L1,90,261,90,0,170,0,1,0
+Faculty of Arts & Social Sci,"English,Ling.&Theatre Studies",GEN2001,Theatre and Community Engagement,L1,120,157,120,0,37,0,0,0
+Faculty of Arts & Social Sci,"English,Ling.&Theatre Studies",GES1039,Cultural Performances and Practices in Singapore,L1,40,14,14,7,0,0,0,0
+Faculty of Arts & Social Sci,"English,Ling.&Theatre Studies",GESS1028,Cultural Performances and Practices in Singapore,L1,20,6,6,1,0,0,0,0
+Faculty of Arts & Social Sci,"English,Ling.&Theatre Studies",GET1030,Computers and the Humanities,L1,60,135,60,0,75,0,0,0
+Faculty of Arts & Social Sci,"English,Ling.&Theatre Studies",GET1044,Hollywood Cinema: Constructing the Realistic,L1,60,52,52,6,0,0,0,0
+Faculty of Arts & Social Sci,"English,Ling.&Theatre Studies",GEX1031,Hollywood Cinema: Constructing the Realistic,L1,30,29,29,1,0,0,0,0
+Faculty of Arts & Social Sci,"English,Ling.&Theatre Studies",TS1101E,Introduction to Theatre and Performance,L1,52,17,17,0,0,0,0,0
+Faculty of Arts & Social Sci,"English,Ling.&Theatre Studies",TS2233,Making Contemporary Performance,E1,31,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,"English,Ling.&Theatre Studies",TS2240,Voice Studies and Production,L1,9,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,"English,Ling.&Theatre Studies",TS3222,Applied Theatre,E1,16,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,"English,Ling.&Theatre Studies",TS3243,Stage and Screen,E1,28,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,"English,Ling.&Theatre Studies",TS4212,Playwriting: Practice and Production,E1,21,6,6,0,0,0,0,0
+Faculty of Arts & Social Sci,"English,Ling.&Theatre Studies",TS4219,Media and Popular Performance,E1,21,4,4,0,0,0,0,0
+Faculty of Arts & Social Sci,"English,Ling.&Theatre Studies",TS4220,Shakespeare and Film,E1,18,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,"English,Ling.&Theatre Studies",TS4221,Performance Research,E1,21,4,4,0,0,0,0,0
+Faculty of Arts & Social Sci,FASS DO/Office of Programmes,HSH1000,The Human Condition,L1,96,11,8,0,0,1,1,1
+Faculty of Arts & Social Sci,FASS DO/Office of Programmes,HSS1000,Understanding Social Complexity,L1,226,14,13,1,0,0,0,1
+Faculty of Arts & Social Sci,Geography,GE1101E,Geographical Journeys: Exploring World Environments,L1,74,7,7,5,0,0,0,0
+Faculty of Arts & Social Sci,Geography,GE2215,Introduction to GIS,L1,48,33,33,2,0,0,0,0
+Faculty of Arts & Social Sci,Geography,GE2231,Living Space: Introducing Social and Cultural Geography,L1,126,9,9,4,0,0,0,0
+Faculty of Arts & Social Sci,Geography,GE3204,Cities and Regions: Planning for Change,L1,57,6,6,1,0,0,0,0
+Faculty of Arts & Social Sci,Geography,GE3236,Transport and Communications,L1,80,12,12,0,0,0,0,0
+Faculty of Arts & Social Sci,Geography,GE3241,Geographies of Social Life,L1,36,4,4,1,0,0,0,0
+Faculty of Arts & Social Sci,Geography,GE3253,Weather and Climate,L1,124,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,Geography,GE3254,Energy Futures: Environment and Sustainability,L1,63,8,8,0,0,0,0,0
+Faculty of Arts & Social Sci,Geography,GE3255,"Aquatic, Riparian and Coastal Systems",L1,82,6,5,0,0,0,1,0
+Faculty of Arts & Social Sci,Geography,GE4202,Remaking the Global Economy,E1,31,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Geography,GE4211,Advanced Hydrology and Water Resources Management,E1,38,11,11,0,0,0,0,0
+Faculty of Arts & Social Sci,Geography,GE4213,Cultural Geographies,E1,17,8,8,1,0,0,0,0
+Faculty of Arts & Social Sci,Geography,GE4214,Remote Sensing of Environment,E1,21,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Geography,GE4217,Political Geographies: Space and Power,E1,34,3,3,1,0,0,0,0
+Faculty of Arts & Social Sci,Geography,GE4218,Interpreting Tourism Spaces and Cultures,E1,2147483647,7,5,0,2,0,0,0
+Faculty of Arts & Social Sci,Geography,GE4219,Development and Environment in Southeast Asia,E1,2147483647,6,6,0,0,0,0,0
+Faculty of Arts & Social Sci,Geography,GE4222,Advanced Geomorphology,E1,36,7,7,0,0,0,0,0
+Faculty of Arts & Social Sci,Geography,GE4225,Young People and Children: Global Perspectives,E1,1,4,1,0,3,0,0,0
+Faculty of Arts & Social Sci,Geography,GE4234,Environmental Change in the Tropics,E1,22,9,9,1,0,0,0,0
+Faculty of Arts & Social Sci,Geography,GEC1029,Worlds of Football,L1,50,27,27,5,0,0,0,0
+Faculty of Arts & Social Sci,Geography,GEH1076,Worlds of Football,L1,130,13,13,0,0,0,0,0
+Faculty of Arts & Social Sci,Geography,XD3103,Planet Earth,L1,94,4,4,1,0,0,0,0
+Faculty of Arts & Social Sci,History,AH2101,Introduction to Art History,L1,32,34,32,0,2,0,0,0
+Faculty of Arts & Social Sci,History,AH2201,Chinese Painting: Styles and Masters,L1,16,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,History,AH2204,"Art in Southeast Asia, 4th-14th centuries CE",L1,20,2,2,1,0,0,0,0
+Faculty of Arts & Social Sci,History,AH3204,Methods and Approaches to Art History,E1,10,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,History,AS2237,The U.S.: From Settlement to Superpower,L1,1,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,History,EU1101E,Making of Modern Europe,L1,34,8,8,1,0,0,0,0
+Faculty of Arts & Social Sci,History,GEC1030,Metropolis: The City in World History,L1,55,134,55,0,79,0,0,0
+Faculty of Arts & Social Sci,History,GEH1077,Metropolis: The City in World History,L1,90,113,90,0,23,0,0,0
+Faculty of Arts & Social Sci,History,GES1011,The Evolution of a Global City-State,L1,60,33,33,15,0,0,0,0
+Faculty of Arts & Social Sci,History,GESS1009,The Evolution of a Global City-State,L1,35,18,18,3,0,0,0,0
+Faculty of Arts & Social Sci,History,GESS1037,Gender and Sexuality: A Singaporean History,L1,195,45,45,14,0,0,0,0
+Faculty of Arts & Social Sci,History,HY1101E,Asia and the Modern World,L1,58,29,29,1,0,0,0,0
+Faculty of Arts & Social Sci,History,HY2206,China's Imperial Past: History & Culture,L1,31,5,5,2,0,0,0,0
+Faculty of Arts & Social Sci,History,HY2237,The U.S.: From Settlement to Superpower,L1,3,14,3,0,11,0,0,0
+Faculty of Arts & Social Sci,History,HY2258,Passage to India: Modern Indian Society,L1,17,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,History,HY3217,The Making of Colonial Indochina,L1,9,4,4,0,0,0,0,0
+Faculty of Arts & Social Sci,History,HY3245,Engendering History/Historicising Gender,E1,2,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,History,HY3257,The Philippines: A Social and Cultural History,L1,13,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,History,HY3259,Issues in Korean Cultural History since 1945,L1,11,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,History,HY3262,Buddhism In Southeast Asian History,L1,13,5,5,2,0,0,0,0
+Faculty of Arts & Social Sci,History,HY4209,Imperialism and Empires,E1,10,10,10,0,0,0,0,0
+Faculty of Arts & Social Sci,History,HY4222,Asian Business History: Case Studies,E1,2,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,History,HY4227,Sources of Singaporean History,E1,1,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Japanese Studies,GEC1005,Cultural Borrowing: Japan and China,L1,35,22,22,13,0,0,0,0
+Faculty of Arts & Social Sci,Japanese Studies,GEC1006,Understanding Consumption,L1,90,37,36,10,0,0,1,0
+Faculty of Arts & Social Sci,Japanese Studies,GEH1015,Cultural Borrowing: Japan and China,L1,40,27,26,0,0,0,0,1
+Faculty of Arts & Social Sci,Japanese Studies,GEH1016,Understanding Consumption,L1,120,41,41,3,0,0,0,0
+Faculty of Arts & Social Sci,Japanese Studies,HY4218,Approaches to Modern Japanese History,E1,6,8,6,0,2,0,0,0
+Faculty of Arts & Social Sci,Japanese Studies,JS1101E,Introduction to Japan,L1,66,21,21,2,0,0,0,0
+Faculty of Arts & Social Sci,Japanese Studies,JS2101,Approaches to Japanese Studies I,E1,20,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Japanese Studies,JS2214,Ideas and Images in Japanese Culture,L1,19,4,4,0,0,0,0,0
+Faculty of Arts & Social Sci,Japanese Studies,JS2216,Postwar Japanese Film and Anime,L1,53,20,20,4,0,0,0,0
+Faculty of Arts & Social Sci,Japanese Studies,JS3213,Alternative Lives in Contemporary Japan,E1,12,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Japanese Studies,JS3222,Japanese Business Management,E1,17,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,Japanese Studies,JS3230,Men and Women in Modern Japanese Literature,E1,16,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Japanese Studies,JS4213,Approaches to Modern Japanese History,E1,2,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Japanese Studies,JS4217,Selected Topics in Japanese Studies,E1,12,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Japanese Studies,JS4225,Social Dynamics in Modern Japan,E1,6,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Japanese Studies,JS4230,Advanced Readings in Popular Culture,E1,10,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Malay Studies,GES1008,Ethnicity and Nation-Building: Singapore and Malaysia,L1,60,20,20,3,0,0,0,0
+Faculty of Arts & Social Sci,Malay Studies,GES1014,Islam and Contemporary Malay Society,L1,17,3,3,6,0,0,0,0
+Faculty of Arts & Social Sci,Malay Studies,GESS1006,Ethnicity and Nation-Building: Singapore and Malaysia,L1,30,14,14,2,0,0,0,0
+Faculty of Arts & Social Sci,Malay Studies,GESS1012,Islam and Contemporary Malay Society,L1,25,2,2,1,0,0,0,0
+Faculty of Arts & Social Sci,Malay Studies,MS1102E,Understanding the Contemporary Malay World,L1,33,20,20,1,0,0,0,0
+Faculty of Arts & Social Sci,Malay Studies,MS2212,Law and Malay Society,E1,19,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Malay Studies,MS2213,Families and Households - Lived Experiences,L1,13,6,6,0,0,0,0,0
+Faculty of Arts & Social Sci,Malay Studies,MS3214,Asian Traditions and Modernisation,L1,17,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Malay Studies,MS3216,Gender and Islam,E1,18,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,Malay Studies,MS4880A,Orientations in Muslim Resurgence Movements,E1,21,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Philosophy,GEI1001,Computational Reasoning,L1,14,34,14,0,18,0,0,2
+Faculty of Arts & Social Sci,Philosophy,GES1041,Everyday Ethics in Singapore,L1,140,80,80,40,0,0,0,0
+Faculty of Arts & Social Sci,Philosophy,GESS1029,Everyday Ethics in Singapore,L1,90,82,82,8,0,0,0,0
+Faculty of Arts & Social Sci,Philosophy,GET1025,Science Fiction and Philosophy,L1,70,39,39,3,0,0,0,0
+Faculty of Arts & Social Sci,Philosophy,GET1026,Effective Reasoning,L1,120,52,52,2,0,0,0,0
+Faculty of Arts & Social Sci,Philosophy,GET1028,Logic,L1,44,44,44,0,0,0,0,0
+Faculty of Arts & Social Sci,Philosophy,GET1029,"Life, the Universe, and Everything",L1,169,144,144,23,0,0,0,0
+Faculty of Arts & Social Sci,Philosophy,GEX1011,Science Fiction and Philosophy,L1,42,34,34,2,0,0,0,0
+Faculty of Arts & Social Sci,Philosophy,GEX1012,Effective Reasoning,L1,67,63,63,4,0,0,0,0
+Faculty of Arts & Social Sci,Philosophy,GEX1014,Logic,L1,1,4,1,0,3,0,0,0
+Faculty of Arts & Social Sci,Philosophy,GEX1015,"Life, the Universe, and Everything",L1,126,148,126,0,22,0,0,0
+Faculty of Arts & Social Sci,Philosophy,PE3101P,Decision and Social Choice,L1,5,4,4,0,0,0,0,0
+Faculty of Arts & Social Sci,Philosophy,PE4102P,Welfare and Distribution,E1,16,7,7,0,0,0,0,0
+Faculty of Arts & Social Sci,Philosophy,PH2208,Applied Ethics,L1,25,24,21,0,3,0,0,0
+Faculty of Arts & Social Sci,Philosophy,PH2209,Philosophy of Art,L1,20,17,16,0,1,0,0,0
+Faculty of Arts & Social Sci,Philosophy,PH2211,Philosophy of Religion,L1,61,25,25,6,0,0,0,0
+Faculty of Arts & Social Sci,Philosophy,PH2212,Introduction to Continental Philosophy,L1,19,8,8,3,0,0,0,0
+Faculty of Arts & Social Sci,Philosophy,PH2241,Philosophy of Mind,L1,6,7,2,0,5,0,0,0
+Faculty of Arts & Social Sci,Philosophy,PH2243,Epistemology,L1,30,7,7,2,0,0,0,0
+Faculty of Arts & Social Sci,Philosophy,PH3203,Moral Philosophy,L1,32,5,5,0,0,0,0,0
+Faculty of Arts & Social Sci,Philosophy,PH3217,Feminist Philosophy,E1,11,4,4,0,0,0,0,0
+Faculty of Arts & Social Sci,Philosophy,PH3250,Quantification and Modality,E1,19,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Philosophy,PH3252,Introduction to Philosophy of Mathematics,E1,21,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,Philosophy,PH4202,Political Philosophy,E1,15,4,4,0,0,0,0,0
+Faculty of Arts & Social Sci,Philosophy,PH4203,Issues in Moral Philosophy,E1,11,4,4,0,0,0,0,0
+Faculty of Arts & Social Sci,Philosophy,PH4206,A Major Philosopher,E1,14,4,4,0,0,0,0,0
+Faculty of Arts & Social Sci,Philosophy,PH4214,Recent Continental European Philosophy,E1,11,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Political Science,GES1034,We the Citizens - Understanding Singapore's Politics,L1,70,6,5,1,0,1,0,0
+Faculty of Arts & Social Sci,Political Science,GESS1024,We the Citizens - Understanding Singapore's Politics,L1,15,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,Political Science,GL1101E,Global Issues,L1,42,17,17,1,0,0,0,0
+Faculty of Arts & Social Sci,Political Science,GL2101,Origins of the Modern World,L1,36,1,1,1,0,0,0,0
+Faculty of Arts & Social Sci,Political Science,GL2102,Global Political Economy,L1,23,2,2,1,0,0,0,0
+Faculty of Arts & Social Sci,Political Science,GL4101,Research in Global Issues,L1,14,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,Political Science,GL4881A,"Colonial, Anticolonial and Postcolonial Globalizations",E1,15,8,8,0,0,0,0,0
+Faculty of Arts & Social Sci,Political Science,GL4882B,Contested Globalisation: Resistance and Resilience,E1,20,3,3,3,0,0,0,0
+Faculty of Arts & Social Sci,Political Science,GL4882D,Global Corporations and Power,E1,7,8,7,0,1,0,0,0
+Faculty of Arts & Social Sci,Political Science,GL4883B,Climate Justice,E1,8,9,8,0,1,0,0,0
+Faculty of Arts & Social Sci,Political Science,GL4884A,Glocal Media Worlds,E1,26,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Political Science,PS1101E,Introduction to Politics,L1,3,37,3,0,34,0,0,0
+Faculty of Arts & Social Sci,Political Science,PS2234,Introduction to Comparative Politics,L1,21,9,9,2,0,0,0,0
+Faculty of Arts & Social Sci,Political Science,PS2237,Introduction to International Relations,L1,2,9,2,0,7,0,0,0
+Faculty of Arts & Social Sci,Political Science,PS2240,Introduction to Public Administration,L1,3,7,3,0,4,0,0,0
+Faculty of Arts & Social Sci,Political Science,PS2249,Government and Politics of Singapore,L1,33,4,4,1,0,0,0,0
+Faculty of Arts & Social Sci,Political Science,PS2255,Politics of the Middle East,L1,32,18,18,1,0,0,0,0
+Faculty of Arts & Social Sci,Political Science,PS2257,Contemporary African Politics,L1,34,2,2,1,0,0,0,0
+Faculty of Arts & Social Sci,Political Science,PS2258,Introduction to Political Theory,L1,2,14,2,0,12,0,0,0
+Faculty of Arts & Social Sci,Political Science,PS3237,Women and Politics,L1,3,4,3,0,1,0,0,0
+Faculty of Arts & Social Sci,Political Science,PS3260,Politics and the Visual,L1,21,9,9,1,0,0,0,0
+Faculty of Arts & Social Sci,Political Science,PS3262,Managing Non-Profit Organisations,L1,8,9,8,0,1,0,0,0
+Faculty of Arts & Social Sci,Political Science,PS3265,Civil-Military Relations,L1,56,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,Political Science,PS3276,Comparative Political Behaviour,L1,18,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,Political Science,PS3311,International Ethics,L1,5,4,4,0,0,0,0,0
+Faculty of Arts & Social Sci,Political Science,PS4201,Contemporary Political Theory,E1,1,5,1,0,4,0,0,0
+Faculty of Arts & Social Sci,Political Science,PS4209,Public Organisation Theory and Practice,E1,17,12,12,5,0,0,0,0
+Faculty of Arts & Social Sci,Political Science,PS4237,Capitalism and Political Theory,E1,1,5,1,0,4,0,0,0
+Faculty of Arts & Social Sci,Political Science,PS4311,International Relations in Political Thought,E1,3,9,3,0,6,0,0,0
+Faculty of Arts & Social Sci,Political Science,PS4881G,Topics in CP: Politics of the Korean Peninsula,E2,2,19,2,0,17,0,0,0
+Faculty of Arts & Social Sci,Political Science,PS4882A,"Topics in IR: Globalisation, Security and the State",E1,2,14,2,0,12,0,0,0
+Faculty of Arts & Social Sci,Psychology,PL1101E,Introduction to Psychology,L1,31,20,19,1,0,0,1,0
+Faculty of Arts & Social Sci,Psychology,PL1101E,Introduction to Psychology,L2,35,31,31,2,0,0,0,0
+Faculty of Arts & Social Sci,Psychology,PL2131,Research and Statistical Methods I,L1,35,23,23,3,0,0,0,0
+Faculty of Arts & Social Sci,Psychology,PL2132,Research and Statistical Methods II,L1,24,4,4,0,0,0,0,0
+Faculty of Arts & Social Sci,Psychology,PL3102,Biological Psychology,L1,20,8,8,2,0,0,0,0
+Faculty of Arts & Social Sci,Psychology,PL3103,Cognitive Psychology,L1,8,7,7,1,0,0,0,0
+Faculty of Arts & Social Sci,Psychology,PL3104,Developmental Psychology,L1,6,23,6,0,17,0,0,0
+Faculty of Arts & Social Sci,Psychology,PL3105,Social Psychology,L1,15,12,12,3,0,0,0,0
+Faculty of Arts & Social Sci,Psychology,PL3106,Abnormal Psychology,L1,5,17,5,0,12,0,0,0
+Faculty of Arts & Social Sci,Psychology,PL3252,Social-Cognitive Perspectives on Emotion,L1,20,8,8,2,0,0,0,0
+Faculty of Arts & Social Sci,Psychology,PL3257,Introduction to Clinical Psychology,L1,27,13,13,1,0,0,0,0
+Faculty of Arts & Social Sci,Psychology,PL3260,Moral Development,L1,12,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,Psychology,PL3281,Lab in Cognitive Psychology,E1,1,3,1,0,2,0,0,0
+Faculty of Arts & Social Sci,Psychology,PL3281D,Lab in Music Perception and Cognition,E1,10,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Psychology,PL3281E,Lab in Speech and Language Processes,E1,2,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Psychology,PL3282,Lab in Social Psychology,E1,1,10,1,0,9,0,0,0
+Faculty of Arts & Social Sci,Psychology,PL3283,Lab in Developmental Psychology,E1,1,7,1,0,6,0,0,0
+Faculty of Arts & Social Sci,Psychology,PL3284,Lab in Applied Psychology (Scale Construction),E1,1,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Psychology,PL4201,Psychometrics and Psychological Testing,L1,51,19,19,2,0,0,0,0
+Faculty of Arts & Social Sci,Psychology,PL4205,Developmental Processes,E1,10,16,10,0,6,0,0,0
+Faculty of Arts & Social Sci,Psychology,PL4206,Cognitive Neuroscience,E1,25,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Psychology,PL4218,Psychological Assessment,E1,19,15,15,3,0,0,0,0
+Faculty of Arts & Social Sci,Psychology,PL4218,Psychological Assessment,E2,11,9,9,2,0,0,0,0
+Faculty of Arts & Social Sci,Psychology,PL4224,Child Abnormal Psychology,E1,1,20,1,0,19,0,0,0
+Faculty of Arts & Social Sci,Psychology,PL4227,Behavioral Genetics for Social Scientists,E1,33,1,1,1,0,0,0,0
+Faculty of Arts & Social Sci,Psychology,PL4229,Psychological Therapies,E1,1,4,1,0,3,0,0,0
+Faculty of Arts & Social Sci,Psychology,PL4242,Historical Controversies in Psychology,E1,2,9,2,0,7,0,0,0
+Faculty of Arts & Social Sci,Psychology,PL4245,Data Science for Psychology: Methods and Applications,L1,35,17,17,4,0,0,0,0
+Faculty of Arts & Social Sci,Psychology,PL4246,Networks in Psychology,L1,1,12,1,0,11,0,0,0
+Faculty of Arts & Social Sci,Psychology,PL4247,Application of Psychology to Fears and Phobias,E1,17,10,10,0,0,0,0,0
+Faculty of Arts & Social Sci,Psychology,PL4880H,Sport Psychology,E1,7,14,7,0,7,0,0,0
+Faculty of Arts & Social Sci,Psychology,PL4880K,Parenting and Child Development,E1,2,11,2,0,9,0,0,0
+Faculty of Arts & Social Sci,Psychology,PL4880P,Psychology of Religion,E1,27,20,20,2,0,0,0,0
+Faculty of Arts & Social Sci,Psychology,PL4880T,Applying Psychology In Education,E1,25,24,24,1,0,0,0,0
+Faculty of Arts & Social Sci,Psychology,PLS8001,Cultivating Collaboration,EFO2,2,6,2,0,4,0,0,0
+Faculty of Arts & Social Sci,Psychology,PLS8001,Cultivating Collaboration,EHE1,2,15,2,0,13,0,0,0
+Faculty of Arts & Social Sci,Psychology,PLS8001,Cultivating Collaboration,EHO1,2,8,2,0,6,0,0,0
+Faculty of Arts & Social Sci,Psychology,PLS8001,Cultivating Collaboration,EME1,1,4,1,0,3,0,0,0
+Faculty of Arts & Social Sci,Psychology,PLS8001,Cultivating Collaboration,EME2,5,11,5,0,6,0,0,0
+Faculty of Arts & Social Sci,Psychology,PLS8001,Cultivating Collaboration,ETE2,2,4,2,0,2,0,0,0
+Faculty of Arts & Social Sci,Psychology,PLS8001,Cultivating Collaboration,ETO2,1,7,1,0,6,0,0,0
+Faculty of Arts & Social Sci,Psychology,PLS8001,Cultivating Collaboration,EWE1,3,14,3,0,11,0,0,0
+Faculty of Arts & Social Sci,Psychology,PLS8001,Cultivating Collaboration,EWO1,1,5,1,0,4,0,0,0
+Faculty of Arts & Social Sci,Psychology,PLS8001,Cultivating Collaboration,EWO2,2,6,2,0,4,0,0,0
+Faculty of Arts & Social Sci,Psychology,PLS8002,Cultivating the Self,L1,2,31,2,0,29,0,0,0
+Faculty of Arts & Social Sci,Psychology,PLS8002,Cultivating the Self,L2,12,34,12,0,22,0,0,0
+Faculty of Arts & Social Sci,Psychology,PLS8003,Cultivating Resilience,EFE1,2,24,2,0,22,0,0,0
+Faculty of Arts & Social Sci,Psychology,PLS8003,Cultivating Resilience,EFO2,1,4,1,0,3,0,0,0
+Faculty of Arts & Social Sci,Psychology,PLS8003,Cultivating Resilience,EHE2,1,6,1,0,5,0,0,0
+Faculty of Arts & Social Sci,Psychology,PLS8003,Cultivating Resilience,EHO2,4,13,4,0,9,0,0,0
+Faculty of Arts & Social Sci,Psychology,PLS8003,Cultivating Resilience,EME2,4,17,4,0,13,0,0,0
+Faculty of Arts & Social Sci,Psychology,PLS8003,Cultivating Resilience,ETE1,1,12,1,0,11,0,0,0
+Faculty of Arts & Social Sci,Psychology,PLS8003,Cultivating Resilience,EWE2,2,5,2,0,3,0,0,0
+Faculty of Arts & Social Sci,Psychology,PLS8004,Optimizing Performance,EFE1,2,9,2,0,7,0,0,0
+Faculty of Arts & Social Sci,Psychology,PLS8004,Optimizing Performance,EFO2,3,6,3,0,3,0,0,0
+Faculty of Arts & Social Sci,Psychology,PLS8004,Optimizing Performance,EHE2,4,11,4,0,7,0,0,0
+Faculty of Arts & Social Sci,Psychology,PLS8004,Optimizing Performance,EHO2,5,10,5,0,5,0,0,0
+Faculty of Arts & Social Sci,Psychology,PLS8004,Optimizing Performance,EME1,2,11,2,0,9,0,0,0
+Faculty of Arts & Social Sci,Psychology,PLS8004,Optimizing Performance,ETE1,4,9,4,0,5,0,0,0
+Faculty of Arts & Social Sci,Psychology,PLS8004,Optimizing Performance,EWE2,2,9,2,0,7,0,0,0
+Faculty of Arts & Social Sci,Psychology,PLS8004,Optimizing Performance,EWO1,2,14,2,0,12,0,0,0
+Faculty of Arts & Social Sci,Psychology,PLS8004,Optimizing Performance,EWO2,2,11,2,0,9,0,0,0
+Faculty of Arts & Social Sci,Psychology,PLS8005,Elevating Interpersonal Communication,EFE1,2,8,2,0,6,0,0,0
+Faculty of Arts & Social Sci,Psychology,PLS8005,Elevating Interpersonal Communication,EFO1,6,13,6,0,7,0,0,0
+Faculty of Arts & Social Sci,Psychology,PLS8005,Elevating Interpersonal Communication,EHO1,2,11,2,0,9,0,0,0
+Faculty of Arts & Social Sci,Psychology,PLS8005,Elevating Interpersonal Communication,EHO2,3,9,3,0,6,0,0,0
+Faculty of Arts & Social Sci,Psychology,PLS8005,Elevating Interpersonal Communication,EME2,3,6,3,0,3,0,0,0
+Faculty of Arts & Social Sci,Psychology,PLS8005,Elevating Interpersonal Communication,ETE2,3,10,3,0,7,0,0,0
+Faculty of Arts & Social Sci,Psychology,PLS8005,Elevating Interpersonal Communication,ETO2,13,18,13,0,5,0,0,0
+Faculty of Arts & Social Sci,Psychology,PLS8005,Elevating Interpersonal Communication,EWE1,1,4,1,0,3,0,0,0
+Faculty of Arts & Social Sci,Psychology,PLS8005,Elevating Interpersonal Communication,EWE2,2,8,2,0,6,0,0,0
+Faculty of Arts & Social Sci,Psychology,PLS8005,Elevating Interpersonal Communication,EWO2,3,9,3,0,6,0,0,0
+Faculty of Arts & Social Sci,Social Work,SW1101E,Social Work: A Heart-Head-Hand Connection,L1,88,46,46,5,0,0,0,0
+Faculty of Arts & Social Sci,Social Work,SW2104,Human Development over the Lifespan,L1,45,10,10,0,0,0,0,0
+Faculty of Arts & Social Sci,Social Work,SW3101,Social Work Research Methods,L1,52,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Social Work,SW3221,Protection of Vulnerable Clients,L1,27,9,9,1,0,0,0,0
+Faculty of Arts & Social Sci,Social Work,SW3224,Social Work & Technology Of The Future,E1,53,5,5,0,0,0,0,0
+Faculty of Arts & Social Sci,Social Work,SW3880,Special Topics in Social Work,L1,35,9,9,0,0,0,0,0
+Faculty of Arts & Social Sci,Social Work,SW4102,Social Policy and Planning,L1,88,46,46,0,0,0,0,0
+Faculty of Arts & Social Sci,Social Work,SW4103,Advanced Research and Evaluation,L1,62,43,43,0,0,0,0,0
+Faculty of Arts & Social Sci,Social Work,SW4227,Advanced Family-Centred Social Work Practice,L1,41,17,17,0,0,0,0,0
+Faculty of Arts & Social Sci,Social Work,SW4229,Working With Older Adults,L1,27,15,14,0,0,1,0,0
+Faculty of Arts & Social Sci,Sociology and Anthropology,AN1101E,Anthropology & Human Condition,L1,19,24,19,0,5,0,0,0
+Faculty of Arts & Social Sci,Sociology and Anthropology,GEC1020,Cultural Diversity in the Contemporary World,L1,40,34,34,3,0,0,0,0
+Faculty of Arts & Social Sci,Sociology and Anthropology,GEC1024,Ghosts and Spirits in Society and Culture,L1,69,100,69,0,31,0,0,0
+Faculty of Arts & Social Sci,Sociology and Anthropology,GEH1056,Cultural Diversity in the Contemporary World,L1,40,40,39,1,0,0,0,1
+Faculty of Arts & Social Sci,Sociology and Anthropology,GEH1062,Ghosts and Spirits in Society and Culture,L1,50,96,50,0,46,0,0,0
+Faculty of Arts & Social Sci,Sociology and Anthropology,GES1028,Singapore Society,L1,30,22,22,8,0,0,0,0
+Faculty of Arts & Social Sci,Sociology and Anthropology,GES1035,Singapore: Imagining the Next 50 Years,L1,270,1278,270,0,1007,0,1,0
+Faculty of Arts & Social Sci,Sociology and Anthropology,GESS1020,Singapore Society,L1,100,9,9,2,0,0,0,0
+Faculty of Arts & Social Sci,Sociology and Anthropology,GESS1025,Singapore: Imagining the Next 50 Years,L1,630,810,630,0,178,0,2,0
+Faculty of Arts & Social Sci,Sociology and Anthropology,SC1101E,Making Sense of Society,L1,47,52,47,0,5,0,0,0
+Faculty of Arts & Social Sci,Sociology and Anthropology,SC2204,Social Inequalities : Who Gets Ahead?,L1,2,11,2,0,9,0,0,0
+Faculty of Arts & Social Sci,Sociology and Anthropology,SC2205,Sociology of Family,L1,5,10,5,0,5,0,0,0
+Faculty of Arts & Social Sci,Sociology and Anthropology,SC2208,Baby or No Baby: Population Dynamics at a Crossroads,L1,32,5,5,1,0,0,0,0
+Faculty of Arts & Social Sci,Sociology and Anthropology,SC2209,"Money, Business and Social Networks",L1,26,10,10,1,0,0,0,0
+Faculty of Arts & Social Sci,Sociology and Anthropology,SC2217,Travel Matters,L1,26,9,9,1,0,0,0,0
+Faculty of Arts & Social Sci,Sociology and Anthropology,SC2220,Gender Studies,L1,35,38,35,0,3,0,0,0
+Faculty of Arts & Social Sci,Sociology and Anthropology,SC2222,Sports and Society,L1,30,9,8,0,0,1,0,0
+Faculty of Arts & Social Sci,Sociology and Anthropology,SC2225,The Social Life of Art,L1,21,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Sociology and Anthropology,SC2227,Sociology of Religion,L1,3,11,3,0,8,0,0,0
+Faculty of Arts & Social Sci,Sociology and Anthropology,SC3101,Social Thought & Social Theory,L1,1,8,1,0,7,0,0,0
+Faculty of Arts & Social Sci,Sociology and Anthropology,SC3203,Race and Ethnic Relations,L1,16,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Sociology and Anthropology,SC3204,Sociology of Education,L1,3,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Sociology and Anthropology,SC3206,Urban Sociology,L1,21,14,14,2,0,0,0,0
+Faculty of Arts & Social Sci,Sociology and Anthropology,SC3207,Cultures of Kinship,L1,18,5,5,2,0,0,0,0
+Faculty of Arts & Social Sci,Sociology and Anthropology,SC3209,Data Analysis in Social Research,L1,20,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Sociology and Anthropology,SC3211,"Science, Technology & Society",L1,28,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,Sociology and Anthropology,SC3212,Southeast Asia in a Globalizing World,L1,38,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Sociology and Anthropology,SC3213,Visual Ethnography: Theory and Practice,L1,4,4,4,0,0,0,0,0
+Faculty of Arts & Social Sci,Sociology and Anthropology,SC3216,Self and Society,L1,10,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,Sociology and Anthropology,SC3223,Visual Culture: Seeing and Representing,L1,18,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Sociology and Anthropology,SC3227,Modernity and Social Change,L1,31,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,Sociology and Anthropology,SC3229,Comparing Deviance: Perverts & Scandalous Improprieties,L1,13,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Sociology and Anthropology,SC4101,Practising Anthropology and Sociology,L1,27,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Sociology and Anthropology,SC4202,Reading Ethnographies,E1,14,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Sociology and Anthropology,SC4203,Sociology of Organizations,E1,22,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Sociology and Anthropology,SC4205,Sociology of Language & Communication,E1,1,3,1,0,2,0,0,0
+Faculty of Arts & Social Sci,Sociology and Anthropology,SC4211,Tourism and Culture: A Global Perspective,E1,11,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,Sociology and Anthropology,SC4218,"Religions, Secularity, Post-Secularity",E1,34,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Sociology and Anthropology,SC4219,Social Origins and Consequences of Financial Crises,E1,3,4,3,0,1,0,0,0
+Faculty of Arts & Social Sci,Sociology and Anthropology,SC4220,Aging and Health,E1,11,4,4,1,0,0,0,0
+Faculty of Arts & Social Sci,Sociology and Anthropology,SC4228,Making Sense of Violence,E1,4,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,Sociology and Anthropology,SC4881,Selected Topics in Health & Society,E1,19,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,South Asian Studies,GEH1009,Framing Bollywood: Unpacking The Magic,L1,72,29,29,2,0,0,0,0
+Faculty of Arts & Social Sci,South Asian Studies,GEN2000,Living Culture: Engaging Indian Communities in Singapore,L1,50,52,50,0,2,0,0,0
+Faculty of Arts & Social Sci,South Asian Studies,GES1007,South Asia in Singapore,L1,119,24,24,28,0,0,0,0
+Faculty of Arts & Social Sci,South Asian Studies,GESS1005,South Asia in Singapore,L1,36,16,16,7,0,0,0,0
+Faculty of Arts & Social Sci,South Asian Studies,GEX1000,Framing Bollywood: Unpacking The Magic,L1,58,29,28,6,0,0,1,0
+Faculty of Arts & Social Sci,South Asian Studies,HSA1000,Asian Interconnections,L1,229,20,18,3,0,0,0,2
+Faculty of Arts & Social Sci,South Asian Studies,SN1101E,"Discover South Asia: People, Culture, Development",L1,55,13,13,1,0,0,0,0
+Faculty of Arts & Social Sci,South Asian Studies,SN2213,"South Asian Democracies - Violence, Conflict, and Hope",L1,11,4,4,1,0,0,0,0
+Faculty of Arts & Social Sci,South Asian Studies,SN2261,The Emergence of Contemporary South Asia,L1,12,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,South Asian Studies,SN2271,Religion and Society in South Asia,L1,26,8,8,0,0,0,0,0
+Faculty of Arts & Social Sci,South Asian Studies,SN3223,International Relations of South Asia,E1,18,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,Southeast Asian Studies,GEC1034,Understanding the Changing Global Economic Landscape,L1,36,64,36,0,28,0,0,0
+Faculty of Arts & Social Sci,Southeast Asian Studies,GET1016,Understanding the Changing Global Economic Landscape,L1,104,49,49,11,0,0,0,0
+Faculty of Arts & Social Sci,Southeast Asian Studies,SE1101E,The Lands Below the Winds: Southeast Asia in the World,L1,55,49,49,1,0,0,0,0
+Faculty of Arts & Social Sci,Southeast Asian Studies,SE2224,Unmasked! An Introduction to Traditional Dance in SEA,E1,9,8,8,1,0,0,0,0
+Faculty of Arts & Social Sci,Southeast Asian Studies,SE3211,"Religion, Society & Politics in SE Asia",L1,25,5,5,0,0,0,0,0
+Faculty of Arts & Social Sci,Southeast Asian Studies,SE3232,Death and Dying in Southeast Asia,L1,17,4,4,0,0,0,0,0
+Faculty of Arts & Social Sci,Southeast Asian Studies,SE4101,Southeast Asia Studies: Theory and Practice,E1,21,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Southeast Asian Studies,SE4212,Elites of Southeast Asia,E1,15,4,4,0,0,0,0,0
+Faculty of Arts & Social Sci,Southeast Asian Studies,SE4218,Majorities and Minorities in SE Asia,E1,14,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Southeast Asian Studies,SE4227,Nationalism in Southeast Asia,E1,19,9,9,0,0,0,0,0
+Faculty of Science,Biological Sciences,FSC2101,Forensic Science,L1,12,193,12,0,181,0,0,0
+Faculty of Science,Biological Sciences,FSC4201,Articulating Probability and Statistics in Court,L1,22,1,1,0,0,0,0,0
+Faculty of Science,Biological Sciences,GES1021,Natural Heritage of Singapore,L1,300,47,46,10,0,1,0,0
+Faculty of Science,Biological Sciences,GESS1016,Natural Heritage of Singapore,L1,100,10,10,0,0,0,0,0
+Faculty of Science,Biological Sciences,GET1020,Darwin and Evolution,L1,444,113,113,12,0,0,0,0
+Faculty of Science,Biological Sciences,GEX1007,Darwin and Evolution,L1,150,117,117,13,0,0,0,0
+Faculty of Science,Biological Sciences,HSI2005,Our Science Stories and You,L1,3,14,3,0,11,0,0,0
+Faculty of Science,Biological Sciences,LSM1301,General Biology,L1,24,45,24,0,21,0,0,0
+Faculty of Science,Biological Sciences,LSM2105,Molecular Genetics,L1,72,42,42,9,0,0,0,0
+Faculty of Science,Biological Sciences,LSM2107,Evolutionary Biology,L1,101,9,9,7,0,0,0,0
+Faculty of Science,Biological Sciences,LSM2191,Laboratory Techniques in Life Sciences,L1,26,2,2,0,0,0,0,0
+Faculty of Science,Biological Sciences,LSM2241,Introductory Bioinformatics,L1,45,5,5,0,0,0,0,0
+Faculty of Science,Biological Sciences,LSM2251,Ecology and Environment,L1,49,6,6,1,0,0,0,0
+Faculty of Science,Biological Sciences,LSM2252,Biodiversity,L1,81,3,3,2,0,0,0,0
+Faculty of Science,Biological Sciences,LSM2302,Computational Thinking for Life Sciences,L1,34,11,11,1,0,0,0,0
+Faculty of Science,Biological Sciences,LSM3201,Research and Communication in Life Sciences,L1,4,1,1,0,0,0,0,0
+Faculty of Science,Biological Sciences,LSM3227,General Virology,L1,15,1,1,0,0,0,0,0
+Faculty of Science,Biological Sciences,LSM3258,Comparative Botany,L1,24,2,2,1,0,0,0,0
+Faculty of Science,Biological Sciences,LSM4227,Stem Cell Biology,L1,51,2,2,0,0,0,0,0
+Faculty of Science,Biological Sciences,LSM4228,Experimental Models for Human Disease and Therapy,L1,13,1,1,1,0,0,0,0
+Faculty of Science,Biological Sciences,LSM4256,Evolution of Development,L1,12,2,2,0,0,0,0,0
+Faculty of Science,Biological Sciences,LSM4259,Evolutionary Genetics of Reproduction,L1,14,1,1,0,0,0,0,0
+Faculty of Science,Biological Sciences,LSM4260,Plankton Ecology,L1,33,1,1,0,0,0,0,0
+Faculty of Science,Biological Sciences,LSM4267,Light & Vision in Animal Communication,L1,36,1,1,0,0,0,0,0
+Faculty of Science,Biological Sciences,LSM4268,Environmental Bioacoustics,L1,28,1,1,0,0,0,0,0
+Faculty of Science,Biological Sciences,SP3203,Aquatic Ecology Research,L1,20,1,1,0,0,0,0,0
+Faculty of Science,Biological Sciences,ZB4171,Advanced Topics in Bioinformatics,L1,6,3,3,0,0,0,0,0
+Faculty of Science,Chemistry,CM1102,Chemistry - The Central Science,L1,60,33,33,5,0,0,0,0
+Faculty of Science,Chemistry,CM1417,Fundamentals of Chemistry,L1,45,15,15,0,0,0,0,0
+Faculty of Science,Chemistry,CM2143,Basic Toolkit of Analytical Chemistry,L1,2147483647,2,2,0,0,0,0,0
+Faculty of Science,Chemistry,CM3212,Transition Metal Chemistry,L1,51,3,3,0,0,0,0,0
+Faculty of Science,Chemistry,CM3242,Instrumental Analysis II,L1,28,2,2,0,0,0,0,0
+Faculty of Science,Chemistry,CM3261,Environmental Chemistry,L1,23,1,1,0,0,0,0,0
+Faculty of Science,Chemistry,CM4225,Organic Spectroscopy,L1,27,2,2,0,0,0,0,0
+Faculty of Science,Chemistry,CM4227,Chemical Biology,L1,41,2,2,0,0,0,0,0
+Faculty of Science,Chemistry,CM4236,Spectroscopy & Imaging in Biophysical Chemistry,L1,33,1,1,0,0,0,0,0
+Faculty of Science,Chemistry,CM4251,Characterization Techniques in Materials Chemistry,L1,33,2,2,0,0,0,0,0
+Faculty of Science,Chemistry,CM4253,Materials Chemistry 2,L1,62,2,2,0,0,0,0,0
+Faculty of Science,Chemistry,CM4254,Chemistry of Semiconductors,L1,43,2,2,0,0,0,0,0
+Faculty of Science,Chemistry,CM4274,The Art and Methodology in Total Synthesis,L1,35,1,1,0,0,0,0,0
+Faculty of Science,Chemistry,HS2904,Driving Towards the Future: Battery Electric Vehicles,L1,4,14,4,0,10,0,0,0
+Faculty of Science,FoS Dean's Office,HSI1000,"How Science Works, Why Science Works",L1,249,20,20,1,0,0,0,0
+Faculty of Science,FoS Dean's Office,SP2271,Introduction to the Scientific Literature,L1,110,33,33,3,0,0,0,0
+Faculty of Science,FoS Dean's Office,SP2274,Engineering a Life-like Cell,L1,35,5,5,0,0,0,0,0
+Faculty of Science,FoS Dean's Office,SP2274,Engineering a Life-like Cell,L3,35,4,4,1,0,0,0,0
+Faculty of Science,FoS Dean's Office,SP2274,Engineering a Life-like Cell,L4,43,3,3,0,0,0,0,0
+Faculty of Science,Food Science & Technology,FST2102B,Chemistry of Food Components,L1,42,1,1,0,0,0,0,0
+Faculty of Science,Food Science & Technology,FST3101,Food Microbiology & Fermentation,L1,53,2,2,0,0,0,0,0
+Faculty of Science,Food Science & Technology,FST3103,Advanced Food Engineering,L1,42,2,2,0,0,0,0,0
+Faculty of Science,Food Science & Technology,FST3105,Food Product Development and Packaging,L1,32,3,3,0,0,0,0,0
+Faculty of Science,Food Science & Technology,FST3106,Sensory and Flavour Science,L1,41,3,3,0,0,0,0,0
+Faculty of Science,Food Science & Technology,FST3202,Nutrition and Disease Prevention,L1,28,3,3,0,0,0,0,0
+Faculty of Science,Food Science & Technology,HSI2007,Deconstructing Food,L1,8,33,8,0,25,0,0,0
+Faculty of Science,Mathematics,DSA2102,Essential Data Analytics Tools: Numerical Computation,L1,181,10,10,1,0,0,0,0
+Faculty of Science,Mathematics,DSA3102,Essential Data Analytics Tools: Convex Optimisation,L1,156,9,9,2,0,0,0,0
+Faculty of Science,Mathematics,HS1501,Artificial Intelligence and Society,L1,28,86,28,0,57,1,0,0
+Faculty of Science,Mathematics,MA1100,Basic Discrete Mathematics,L1,36,13,12,1,0,0,0,1
+Faculty of Science,Mathematics,MA1301,Introductory Mathematics,L1,1,7,1,0,6,0,0,0
+Faculty of Science,Mathematics,MA1301,Introductory Mathematics,L2,165,5,5,1,0,0,0,0
+Faculty of Science,Mathematics,MA1505,Mathematics I,L1,34,10,10,0,0,0,0,0
+Faculty of Science,Mathematics,MA1511,Engineering Calculus,L1,40,10,10,0,0,0,0,0
+Faculty of Science,Mathematics,MA1511,Engineering Calculus,L2,40,26,26,0,0,0,0,0
+Faculty of Science,Mathematics,MA1512,Differential Equations for Engineering,L1,49,14,14,0,0,0,0,0
+Faculty of Science,Mathematics,MA1512,Differential Equations for Engineering,L2,47,20,20,0,0,0,0,0
+Faculty of Science,Mathematics,MA1513,Linear Algebra with Differential Equations,L1,18,9,9,0,0,0,0,0
+Faculty of Science,Mathematics,MA1513,Linear Algebra with Differential Equations,L2,39,14,14,0,0,0,0,0
+Faculty of Science,Mathematics,MA1521,Calculus for Computing,L1,16,59,16,0,43,0,0,0
+Faculty of Science,Mathematics,MA1521,Calculus for Computing,L2,222,11,10,2,0,1,0,0
+Faculty of Science,Mathematics,MA2001,Linear Algebra I,L1,43,40,40,3,0,0,0,0
+Faculty of Science,Mathematics,MA2001,Linear Algebra I,L2,45,45,40,1,0,1,0,4
+Faculty of Science,Mathematics,MA2002,Calculus,L1,108,32,28,2,0,0,0,4
+Faculty of Science,Mathematics,MA2002,Calculus,L2,159,20,20,1,0,0,0,0
+Faculty of Science,Mathematics,MA2101,Linear Algebra II,L1,64,6,6,1,0,0,0,0
+Faculty of Science,Mathematics,MA2104,Multivariable Calculus,L1,74,8,8,1,0,0,0,0
+Faculty of Science,Mathematics,MA2108,Mathematical Analysis I,L1,10,2,2,1,0,0,0,0
+Faculty of Science,Mathematics,MA2116,Probability,L1,343,6,6,0,0,0,0,0
+Faculty of Science,Mathematics,MA2214,Combinatorics and Graphs I,L1,63,5,5,1,0,0,0,0
+Faculty of Science,Mathematics,MA2301,Basic Applied Mathematics,L1,365,6,4,1,0,2,0,0
+Faculty of Science,Mathematics,MA2311,Techniques in Advanced Calculus,L1,171,5,5,1,0,0,0,0
+Faculty of Science,Mathematics,MA3205,Set Theory,L1,18,5,5,2,0,0,0,0
+Faculty of Science,Mathematics,MA3209,Metric and Topological Spaces,L1,16,1,1,0,0,0,0,0
+Faculty of Science,Mathematics,MA3210,Mathematical Analysis II,L1,17,1,1,0,0,0,0,0
+Faculty of Science,Mathematics,MA3220,Ordinary Differential Equations,L1,38,3,3,0,0,0,0,0
+Faculty of Science,Mathematics,MA3236,Non-Linear Programming,L1,10,1,1,0,0,0,0,0
+Faculty of Science,Mathematics,MA3259,Mathematical Methods in Genomics,L1,28,20,20,1,0,0,0,0
+Faculty of Science,Mathematics,MA3269,Mathematical Finance I,L1,97,12,12,1,0,0,0,0
+Faculty of Science,Mathematics,MA4254,Discrete Optimization,L1,34,2,2,0,0,0,0,0
+Faculty of Science,Mathematics,MA4262,Measure and Integration,L1,12,2,2,0,0,0,0,0
+Faculty of Science,Mathematics,MA4270,Data Modelling and Computation,L1,21,21,21,0,0,0,0,0
+Faculty of Science,Mathematics,MA5210,Differentiable Manifolds,L1,5,1,1,0,0,0,0,0
+Faculty of Science,Mathematics,MA5211,Lie Theory,L1,6,5,5,0,0,0,0,0
+Faculty of Science,Mathematics,MA5248,Stochastic Analysis in Mathematical Finance,L1,8,1,1,0,0,0,0,0
+Faculty of Science,Mathematics,QF1100,Introduction to Quantitative Finance,L1,3,12,3,0,9,0,0,0
+Faculty of Science,Mathematics,QF4102,Financial Modelling and Computation,L1,15,1,1,0,0,0,0,0
+Faculty of Science,Mathematics,QF4103,Mathematical Models of Financial Derivatives,L1,40,2,2,0,0,0,0,0
+Faculty of Science,Mathematics,QF5210,Financial Time Series: Theory and Computation,L1,53,1,1,0,0,0,0,0
+Faculty of Science,Pharmacy,PHS1101,The Billion-Dollar Pill - Bench to Bedside Drug Development,L1,7,18,5,0,13,0,0,0
+Faculty of Science,Pharmacy,PHS3116,Pharmacokinetics and Biopharmaceutics,L1,23,6,6,0,0,0,0,0
+Faculty of Science,Pharmacy,PHS3123,Biotechnology for Pharmaceutical Science,L1,24,6,6,1,0,0,0,0
+Faculty of Science,Pharmacy,PHS3191,Laboratory Techniques in Pharmaceutical Science II,L1,26,7,7,0,0,0,0,0
+Faculty of Science,Pharmacy,PHS4121,Regulation of Healthcare Products,L1,6,1,1,0,0,0,0,0
+Faculty of Science,Pharmacy,PHS4199,Honours Project in Pharmaceutical Science,E1,12,4,4,0,0,0,0,0
+Faculty of Science,Pharmacy,PR3202,Community Health & Preventative Care,L1,24,1,1,0,0,0,0,0
+Faculty of Science,Pharmacy,PR4204,Special Drug Delivery,L1,7,3,3,0,0,0,0,0
+Faculty of Science,Physics,COS1000,Computational Thinking for Scientists,L1,6,18,6,0,12,0,0,0
+Faculty of Science,Physics,HSI2010,New Worlds Beyond Earth,L1,20,33,20,0,13,0,0,0
+Faculty of Science,Physics,HSI2013,The Science of Music,L1,39,22,22,6,0,0,0,0
+Faculty of Science,Physics,HSI2014,"Science, Medical Technology and Society",L1,112,21,21,4,0,0,0,0
+Faculty of Science,Physics,PC1101,Frontiers of Physics,L1,157,33,33,2,0,0,0,0
+Faculty of Science,Physics,PC1201,Fundamentals of Physics,L1,6,14,6,0,8,0,0,0
+Faculty of Science,Physics,PC1421,Physics for Life Sciences,L1,35,26,26,0,0,0,0,0
+Faculty of Science,Physics,PC2031,Electricity & Magnetism I,L1,75,4,4,0,0,0,0,0
+Faculty of Science,Physics,PC2032,Classical Mechanics I,L1,78,4,4,1,0,0,0,0
+Faculty of Science,Physics,PC2130,Quantum Mechanics I,L1,71,3,3,0,0,0,0,0
+Faculty of Science,Physics,PC2174A,Mathematical Methods in Physics I,L1,116,8,8,0,0,0,0,0
+Faculty of Science,Physics,PC2193,Experimental Physics and Data Analysis,L1,21,7,7,0,0,0,0,0
+Faculty of Science,Physics,PC2267,Biophysics I,L1,29,6,6,0,0,0,0,0
+Faculty of Science,Physics,PC2411,Practical Astronomy,L1,70,5,5,0,0,0,0,0
+Faculty of Science,Physics,PC2422,Physics of Climate Change,L1,30,1,1,0,0,0,0,0
+Faculty of Science,Physics,PC3130,Quantum Mechanics II,L1,63,1,1,0,0,0,0,0
+Faculty of Science,Physics,PC3193,Experimental Physics II,L1,20,1,1,0,0,0,0,0
+Faculty of Science,Physics,PC3235,Solid State Physics I,L1,8,1,1,0,0,0,0,0
+Faculty of Science,Physics,PC3238,Fluid Dynamics,L1,25,1,1,0,0,0,0,0
+Faculty of Science,Physics,PC3261,Classical Mechanics II,L1,75,2,2,0,0,0,0,0
+Faculty of Science,Physics,PC4230,Quantum Mechanics III,L1,17,1,1,0,0,0,0,0
+Faculty of Science,Physics,PC4236,Computational Condensed Matter Physics,L1,23,1,1,0,0,0,0,0
+Faculty of Science,Physics,PC4240,Solid State Physics II,L1,21,3,3,0,0,0,0,0
+Faculty of Science,Physics,PC4249,Astrophysics II,L1,7,1,1,0,0,0,0,0
+Faculty of Science,Statistics and Data Science,DSA1101,Introduction to Data Science,L1,77,18,7,0,11,0,0,0
+Faculty of Science,Statistics and Data Science,DSA2101,Essential Data Analytics Tools: Data Visualisation,L1,19,2,2,0,0,0,0,0
+Faculty of Science,Statistics and Data Science,DSA3361,Inferential Data Analytics,L1,42,2,2,0,0,0,0,0
+Faculty of Science,Statistics and Data Science,DSA4211,High-Dimensional Statistical Analysis,L1,17,12,11,0,0,1,0,0
+Faculty of Science,Statistics and Data Science,DSA4262,Sense-making Case Analysis: Health and Medicine,L1,18,4,4,0,0,0,0,0
+Faculty of Science,Statistics and Data Science,ST1131,Introduction to Statistics and Statistical Computing,L1,172,63,63,5,0,0,0,0
+Faculty of Science,Statistics and Data Science,ST2131,Probability,L1,34,11,11,1,0,0,0,0
+Faculty of Science,Statistics and Data Science,ST2132,Mathematical Statistics,L1,6,28,6,0,22,0,0,0
+Faculty of Science,Statistics and Data Science,ST2137,Statistical Computing and Programming,L1,146,7,7,2,0,0,0,0
+Faculty of Science,Statistics and Data Science,ST2334,Probability and Statistics,L1,97,53,52,4,0,0,1,0
+Faculty of Science,Statistics and Data Science,ST2334,Probability and Statistics,L2,436,32,32,2,0,0,0,0
+Faculty of Science,Statistics and Data Science,ST3131,Regression Analysis,L1,116,22,22,3,0,0,0,0
+Faculty of Science,Statistics and Data Science,ST3239,Survey Methodology,L1,100,10,10,1,0,0,0,0
+Faculty of Science,Statistics and Data Science,ST3248,Statistical Learning I,L1,83,14,14,1,0,0,0,0
+Faculty of Science,Statistics and Data Science,ST4231,Computer Intensive Statistical Methods,L1,110,5,5,0,0,0,0,0
+Faculty of Science,Statistics and Data Science,ST4233,Linear Models,L1,60,2,2,0,0,0,0,0
+Faculty of Science,Statistics and Data Science,ST4245,Statistical Methods for Finance,L1,92,2,2,0,0,0,0,0
+Faculty of Science,Statistics and Data Science,ST4250,Multivariate Statistical Analysis,L1,106,3,3,0,0,0,0,0
+Faculty of Science,Statistics and Data Science,ST4253,Applied Time Series Analysis,L1,78,3,3,0,0,0,0,0
+Multi Disciplinary Programme,Computing & Eng Programme,CG2028,Computer Organization,L01,28,1,1,0,0,0,0,0
+Multi Disciplinary Programme,Computing & Eng Programme,CG3207,Computer Architecture,L01,6,5,5,0,0,0,0,0
+Multi Disciplinary Programme,Computing & Eng Programme,CG4002,Computer Engineering Capstone Project,L01,4,3,3,0,0,0,0,0
+NUS,Centre for Future-ready Grads,CFG1003,Financial Wellbeing-Introduction,L01,1849,374,374,1,0,0,0,0
+NUS,Centre for Future-ready Grads,CFG3001,Career Advancement,L01,2147483647,46,44,3,2,0,0,0
+NUS,Centre for Future-ready Grads,CFG3001,Career Advancement,L02,2147483647,25,25,8,0,0,0,0
+NUS,Centre for Future-ready Grads,CFG3001,Career Advancement,L03,2147483647,49,49,5,0,0,0,0
+NUS,Centre for Future-ready Grads,CFG3001,Career Advancement,L04,2147483647,27,20,3,7,0,0,0
+NUS,Centre for Future-ready Grads,CFG3001,Career Advancement,L06,2147483647,62,3,0,57,0,0,2
+NUS,Chua Thian Poh Comm Leader Ctr,CLC1101,Engaging and Building Communities,L1,6,15,6,0,9,0,0,0
+NUS,Chua Thian Poh Comm Leader Ctr,CLC2202,Research Methods for Community Development,E1,41,1,1,0,0,0,0,0
+NUS,Chua Thian Poh Comm Leader Ctr,CLC2204,Community Development With Youth,E1,6,16,6,0,10,0,0,0
+NUS,Chua Thian Poh Comm Leader Ctr,CLC3303,Community Leadership,E1,44,7,7,4,0,0,0,0
+NUS,Chua Thian Poh Comm Leader Ctr,CLC3304A,"City, Culture and Community",E1,36,5,5,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1000,Foundation Academic English,SG01,2,5,2,0,3,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1000,Foundation Academic English,SG02,3,4,3,0,1,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1000,Foundation Academic English,SG03,3,8,3,0,5,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1000,Foundation Academic English,SG04,11,9,9,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1000,Foundation Academic English,SG05,8,8,8,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1000,Foundation Academic English,SG06,2,4,2,0,2,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1000,Foundation Academic English,SG07,11,7,7,2,0,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1000,Foundation Academic English,SG08,10,5,5,2,0,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1000,Foundation Academic English,SG09,2,3,2,0,1,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1000,Foundation Academic English,SG10,10,8,8,2,0,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SA01,3,11,3,0,8,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SA02,3,19,3,0,16,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SA03,2,10,2,0,8,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SA04,2,10,2,0,8,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SA05,3,7,3,0,4,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SA06,2,2,2,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SA07,2,9,2,0,7,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SA08,3,5,3,0,2,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SA09,3,4,3,0,1,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SA10,2,5,2,0,3,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SB01,5,8,5,0,3,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SB02,2,4,2,0,2,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SB03,2,2,2,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SB04,2,2,2,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SB05,5,2,2,2,0,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SC01,2,1,1,1,0,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SC02,2,4,2,0,2,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SC03,2,3,2,0,1,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SC04,2,3,2,0,1,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SC05,2,3,2,0,1,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SC06,8,7,7,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SC07,2,5,2,0,3,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SD01,5,7,5,0,2,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SD02,2,4,2,0,2,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SD03,9,12,9,0,2,0,0,1
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SD04,4,5,4,0,1,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SD05,9,12,9,0,2,0,0,1
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SE01,3,3,3,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SE02,3,4,3,0,1,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SE03,2,3,2,0,1,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SE04,8,10,8,0,2,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SE05,3,1,1,1,0,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SE06,9,8,8,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SE07,3,4,3,0,1,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SE08,3,7,3,0,4,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SE09,2,2,2,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SE10,12,7,7,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SE11,3,5,3,0,2,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SE12,8,10,8,0,2,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SS01,3,2,2,1,0,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SS02,2,7,2,0,5,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SS03,2,5,2,0,3,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SS04,2,5,2,0,3,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SS05,2,4,2,0,2,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SS06,12,12,10,2,0,0,0,2
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SS07,2,6,2,0,4,0,0,0
+NUS,Ctr for Engl Lang Comms,ES1103,English for Academic Purposes,SS08,8,7,7,1,0,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2002,Business Communication for Leaders (BBA),SG02,1,3,1,0,2,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2002,Business Communication for Leaders (BBA),SG15,1,3,1,0,2,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2002,Business Communication for Leaders (BBA),SG18,2,3,2,0,1,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2002,Business Communication for Leaders (BBA),SG20,0,11,0,0,10,0,0,1
+NUS,Ctr for Engl Lang Comms,ES2002,Business Communication for Leaders (BBA),SG26,1,1,1,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2002,Business Communication for Leaders (BBA),SG28,1,8,1,0,7,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2007D,Professional Communication,SR06,7,7,7,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2007D,Professional Communication,SR07,11,2,2,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2631,Critique and Communication of Thinking and Design,SG02,1,4,1,0,3,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2631,Critique and Communication of Thinking and Design,SG03,1,4,1,0,3,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2631,Critique and Communication of Thinking and Design,SG04,1,13,1,0,12,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2631,Critique and Communication of Thinking and Design,SG05,1,7,1,0,6,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2631,Critique and Communication of Thinking and Design,SG06,1,5,1,0,4,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2631,Critique and Communication of Thinking and Design,SG07,1,11,1,0,10,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2631,Critique and Communication of Thinking and Design,SG08,1,6,1,0,5,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2631,Critique and Communication of Thinking and Design,SG09,3,15,3,0,12,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2631,Critique and Communication of Thinking and Design,SG11,1,4,1,0,3,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2631,Critique and Communication of Thinking and Design,SG12,1,6,1,0,5,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2631,Critique and Communication of Thinking and Design,SG13,2,8,2,0,6,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2631,Critique and Communication of Thinking and Design,SG14,1,8,1,0,7,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2631,Critique and Communication of Thinking and Design,SG15,1,6,1,0,5,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2631,Critique and Communication of Thinking and Design,SG16,1,5,1,0,4,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2631,Critique and Communication of Thinking and Design,SG17,1,5,1,0,4,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2631,Critique and Communication of Thinking and Design,SG18,1,8,1,0,7,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2631,Critique and Communication of Thinking and Design,SG19,2,11,2,0,9,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2631,Critique and Communication of Thinking and Design,SG20,1,4,1,0,3,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2631,Critique and Communication of Thinking and Design,SG21,1,5,1,0,4,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2631,Critique and Communication of Thinking and Design,SG22,1,6,1,0,5,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2631,Critique and Communication of Thinking and Design,SG24,1,6,1,0,5,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2631,Critique and Communication of Thinking and Design,SG25,1,5,1,0,4,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2631,Critique and Communication of Thinking and Design,SG26,1,3,1,0,2,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2631,Critique and Communication of Thinking and Design,SG27,4,9,4,0,5,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2631,Critique and Communication of Thinking and Design,SG28,1,3,1,0,2,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2631,Critique and Communication of Thinking and Design,SG29,2,10,2,0,8,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2631,Critique and Communication of Thinking and Design,SG33,1,4,1,0,3,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2631,Critique and Communication of Thinking and Design,SG35,2,9,2,0,7,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2631,Critique and Communication of Thinking and Design,SG36,2,8,2,0,6,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2660,Communicating in the Information Age,SG01,5,8,5,0,3,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2660,Communicating in the Information Age,SG02,2,2,2,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2660,Communicating in the Information Age,SG03,1,3,1,0,2,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2660,Communicating in the Information Age,SG04,1,2,1,0,1,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2660,Communicating in the Information Age,SG05,1,2,1,0,1,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2660,Communicating in the Information Age,SG06,3,3,3,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2660,Communicating in the Information Age,SG08,1,5,1,0,4,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2660,Communicating in the Information Age,SG09,1,6,1,0,5,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2660,Communicating in the Information Age,SG11,1,1,1,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2660,Communicating in the Information Age,SG12,14,16,14,0,2,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2660,Communicating in the Information Age,SG13,2,4,2,0,2,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2660,Communicating in the Information Age,SG14,2,2,2,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2660,Communicating in the Information Age,SG15,1,3,1,0,2,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2660,Communicating in the Information Age,SG16,4,6,4,0,2,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2660,Communicating in the Information Age,SG17,2,2,2,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2660,Communicating in the Information Age,SG19,1,3,1,0,2,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2660,Communicating in the Information Age,SG20,1,3,1,0,2,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2660,Communicating in the Information Age,SG21,1,1,1,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2660,Communicating in the Information Age,SG22,1,1,1,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2660,Communicating in the Information Age,SG23,4,5,4,0,1,0,0,0
+NUS,Ctr for Engl Lang Comms,ES2660,Communicating in the Information Age,SG24,2,2,2,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,FAS1101,Writing Academically: Arts and Social Sciences,L01,11,2,2,1,0,0,0,0
+NUS,Ctr for Engl Lang Comms,HS1301,Workplace Communication,S10B,3,6,3,0,3,0,0,0
+NUS,Ctr for Engl Lang Comms,IS2101,Business and Technical Communication,SG04,12,1,1,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,IS2101,Business and Technical Communication,SG05,6,1,1,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,IS2101,Business and Technical Communication,SG07,7,3,3,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,IS2101,Business and Technical Communication,SG10,2,2,2,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,IS2101,Business and Technical Communication,SG11,2,1,1,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,RVX1000,Citizen Speak: Persuasion and Polarization in Society,S1,10,10,10,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,RVX1000,Citizen Speak: Persuasion and Polarization in Society,S2,10,7,7,3,0,0,0,0
+NUS,Ctr for Engl Lang Comms,RVX1001,Science Fiction and Society,S1,10,29,10,0,19,0,0,0
+NUS,Ctr for Engl Lang Comms,RVX1001,Science Fiction and Society,S2,10,17,10,0,7,0,0,0
+NUS,Ctr for Engl Lang Comms,RVX1001,Science Fiction and Society,S3,9,30,9,0,21,0,0,0
+NUS,Ctr for Engl Lang Comms,RVX1002,What do you mean? Meaning & Communication in Intercultural contexts,S1,10,3,3,4,0,0,0,0
+NUS,Ctr for Engl Lang Comms,RVX1002,What do you mean? Meaning & Communication in Intercultural contexts,S2,10,11,10,0,1,0,0,0
+NUS,Ctr for Engl Lang Comms,RVX1002,What do you mean? Meaning & Communication in Intercultural contexts,S3,8,5,5,3,0,0,0,0
+NUS,Ctr for Engl Lang Comms,SP1541,Exploring Science Communication through Popular Science,S01,4,4,4,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,SP1541,Exploring Science Communication through Popular Science,S02,5,10,5,0,5,0,0,0
+NUS,Ctr for Engl Lang Comms,SP1541,Exploring Science Communication through Popular Science,S03,3,5,3,0,2,0,0,0
+NUS,Ctr for Engl Lang Comms,SP1541,Exploring Science Communication through Popular Science,S04,4,10,4,0,6,0,0,0
+NUS,Ctr for Engl Lang Comms,SP1541,Exploring Science Communication through Popular Science,S05,3,3,3,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,SP1541,Exploring Science Communication through Popular Science,S07,2,1,1,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,SP1541,Exploring Science Communication through Popular Science,S09,2,2,2,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,SP1541,Exploring Science Communication through Popular Science,S10,2,2,2,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,SP1541,Exploring Science Communication through Popular Science,S11,3,1,1,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,SP1541,Exploring Science Communication through Popular Science,S12,3,3,3,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,SP1541,Exploring Science Communication through Popular Science,S13,2,1,1,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,SP1541,Exploring Science Communication through Popular Science,S14,4,9,4,0,5,0,0,0
+NUS,Ctr for Engl Lang Comms,SP1541,Exploring Science Communication through Popular Science,S15,18,16,16,1,0,0,0,0
+NUS,Ctr for Engl Lang Comms,SP1541,Exploring Science Communication through Popular Science,S16,2,1,1,1,0,0,0,0
+NUS,Ctr for Engl Lang Comms,SP1541,Exploring Science Communication through Popular Science,S17,4,4,4,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,SP1541,Exploring Science Communication through Popular Science,S18,18,9,9,2,0,0,0,0
+NUS,Ctr for Engl Lang Comms,SP1541,Exploring Science Communication through Popular Science,S19,2,2,2,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,SP1541,Exploring Science Communication through Popular Science,S22,2,1,1,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,SP1541,Exploring Science Communication through Popular Science,S23,18,9,9,1,0,0,0,0
+NUS,Ctr for Engl Lang Comms,SP1541,Exploring Science Communication through Popular Science,S24,2,1,1,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,SP1541,Exploring Science Communication through Popular Science,S27,2,1,1,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,SP1541,Exploring Science Communication through Popular Science,S31,3,2,2,1,0,0,0,0
+NUS,Ctr for Engl Lang Comms,SP1541,Exploring Science Communication through Popular Science,S32,19,19,19,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,SP1541,Exploring Science Communication through Popular Science,S33,2,1,1,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,SP1541,Exploring Science Communication through Popular Science,S34,2,2,2,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,UTW1001A,Identities and Ideas in Modern Market-Driven Societies,S1,10,17,10,0,7,0,0,0
+NUS,Ctr for Engl Lang Comms,UTW1001A,Identities and Ideas in Modern Market-Driven Societies,S2,10,14,10,0,4,0,0,0
+NUS,Ctr for Engl Lang Comms,UTW1001A,Identities and Ideas in Modern Market-Driven Societies,S3,10,15,10,0,5,0,0,0
+NUS,Ctr for Engl Lang Comms,UTW1001C,"At the Edges of the Law: Ethics, Morality and Society",S1,8,36,8,0,28,0,0,0
+NUS,Ctr for Engl Lang Comms,UTW1001C,"At the Edges of the Law: Ethics, Morality and Society",S2,8,31,8,0,23,0,0,0
+NUS,Ctr for Engl Lang Comms,UTW1001D,"Self, Society, and the Digital Tsunami era",S1,10,7,7,3,0,0,0,0
+NUS,Ctr for Engl Lang Comms,UTW1001D,"Self, Society, and the Digital Tsunami era",S2,10,15,10,0,5,0,0,0
+NUS,Ctr for Engl Lang Comms,UTW1001D,"Self, Society, and the Digital Tsunami era",S3,10,9,9,1,0,0,0,0
+NUS,Ctr for Engl Lang Comms,UTW1001D,"Self, Society, and the Digital Tsunami era",S4,10,9,9,1,0,0,0,0
+NUS,Ctr for Engl Lang Comms,UTW1001F,The Internationalisation of Higher Education: Impact and Challenges,S1,10,17,10,0,7,0,0,0
+NUS,Ctr for Engl Lang Comms,UTW1001F,The Internationalisation of Higher Education: Impact and Challenges,S2,10,6,6,4,0,0,0,0
+NUS,Ctr for Engl Lang Comms,UTW1001F,The Internationalisation of Higher Education: Impact and Challenges,S3,10,16,10,0,6,0,0,0
+NUS,Ctr for Engl Lang Comms,UTW1001H,Eating Right(s): The Politics of Food,S1,10,25,10,0,15,0,0,0
+NUS,Ctr for Engl Lang Comms,UTW1001H,Eating Right(s): The Politics of Food,S2,10,20,10,0,10,0,0,0
+NUS,Ctr for Engl Lang Comms,UTW1001I,Science and popular narratives,S1,10,6,6,2,0,0,0,0
+NUS,Ctr for Engl Lang Comms,UTW1001I,Science and popular narratives,S2,10,5,5,5,0,0,0,0
+NUS,Ctr for Engl Lang Comms,UTW1001I,Science and popular narratives,S3,10,8,8,2,0,0,0,0
+NUS,Ctr for Engl Lang Comms,UTW1001M,Sport and competition,S1,9,10,9,0,1,0,0,0
+NUS,Ctr for Engl Lang Comms,UTW1001M,Sport and competition,S2,9,8,8,1,0,0,0,0
+NUS,Ctr for Engl Lang Comms,UTW1001M,Sport and competition,S3,9,4,4,5,0,0,0,0
+NUS,Ctr for Engl Lang Comms,UTW1001O,The Urban and the Wild: Reading Urban Progress in Southeast Asia Ecocritically.,S1,10,13,10,0,3,0,0,0
+NUS,Ctr for Engl Lang Comms,UTW1001O,The Urban and the Wild: Reading Urban Progress in Southeast Asia Ecocritically.,S2,10,7,7,3,0,0,0,0
+NUS,Ctr for Engl Lang Comms,UTW1001Z,"Colour: Theory, meaning and practice",S1,9,16,9,0,7,0,0,0
+NUS,Ctr for Engl Lang Comms,UTW1001Z,"Colour: Theory, meaning and practice",S2,9,24,9,0,15,0,0,0
+NUS,Office of Sr Dy Pres & Provost,GEN2002,Total Defence Project Against Threat to the Community,L01,25,48,25,0,23,0,0,0
+NUS,Office of Sr Dy Pres & Provost,GEN2050,Teach SG,L01,50,294,50,0,244,0,0,0
+NUS,Office of Sr Dy Pres & Provost,GEN2060,Reconnect SeniorsSG,L01,50,94,50,0,44,0,0,0
+NUS,Office of Sr Dy Pres & Provost,GEN2061,Support Healthy AgeingSG,L01,50,88,50,0,38,0,0,0
+NUS,Office of Sr Dy Pres & Provost,GEN2070,Community Link (ComLink) Befrienders,L01,50,126,50,0,76,0,0,0
+NUS,Risk Management Institute,HS2301,Financial Numeracy,E1,49,2,2,1,0,0,0,0
+NUS Business School,Accounting,ACC1701,Accounting for Decision Makers,LV1,42,9,7,0,0,1,0,1
+NUS Business School,Accounting,ACC1701,Accounting for Decision Makers,LV2,82,5,5,2,0,0,0,0
+NUS Business School,Accounting,ACC1701X,Accounting for Decision Makers,LX1,41,23,11,0,12,0,0,0
+NUS Business School,Accounting,ACC1701X,Accounting for Decision Makers,LX2,117,61,61,19,0,0,0,0
+NUS Business School,Accounting,ACC2706,Managerial Accounting,SA1,11,3,3,0,0,0,0,0
+NUS Business School,Accounting,ACC2706,Managerial Accounting,SA2,3,1,1,1,0,0,0,0
+NUS Business School,Accounting,ACC2706,Managerial Accounting,SA3,22,4,4,0,0,0,0,0
+NUS Business School,Accounting,ACC2706,Managerial Accounting,SA4,11,1,1,0,0,0,0,0
+NUS Business School,Accounting,ACC2707,Corporate Accounting & Reporting I,SA1,12,1,1,0,0,0,0,0
+NUS Business School,Accounting,ACC3701,Assurance and Attestation,SA1,2,7,2,0,5,0,0,0
+NUS Business School,Accounting,ACC3702,Corporate and Securities Law,SA1,3,1,1,0,0,0,0,0
+NUS Business School,Accounting,ACC3702,Corporate and Securities Law,SA2,8,3,3,0,0,0,0,0
+NUS Business School,Accounting,ACC3704,Advanced Corporate Accounting and Reporting,SA2,1,1,1,0,0,0,0,0
+NUS Business School,Accounting,ACC3704,Advanced Corporate Accounting and Reporting,SA3,2,3,2,0,1,0,0,0
+NUS Business School,Accounting,ACC3705,Valuation,SA2,7,1,1,0,0,0,0,0
+NUS Business School,Accounting,ACC3707,Integrated Perspectives in Accounting and Business,SA2,24,1,1,0,0,0,0,0
+NUS Business School,Accounting,ACC3707,Integrated Perspectives in Accounting and Business,SA3,15,2,2,0,0,0,0,0
+NUS Business School,Accounting,ACC4711,Advanced Taxation,SA1,13,2,2,0,0,0,0,0
+NUS Business School,Accounting,ACC4713,Financial Institution Audit & Compliance,SA1,24,1,1,0,0,0,0,0
+NUS Business School,Accounting,ACC4714,Advanced Assurance and Attestation,SA1,29,1,1,0,0,0,0,0
+NUS Business School,Analytics and Operations,DAO1704,Decision Analytics using Spreadsheets,SA10,2,3,2,0,1,0,0,0
+NUS Business School,Analytics and Operations,DAO1704,Decision Analytics using Spreadsheets,SA11,4,1,1,1,0,0,0,0
+NUS Business School,Analytics and Operations,DAO1704,Decision Analytics using Spreadsheets,SA3,7,4,4,1,0,0,0,0
+NUS Business School,Analytics and Operations,DAO1704,Decision Analytics using Spreadsheets,SA4,9,1,1,0,0,0,0,0
+NUS Business School,Analytics and Operations,DAO1704,Decision Analytics using Spreadsheets,SA6,6,1,1,0,0,0,0,0
+NUS Business School,Analytics and Operations,DAO1704,Decision Analytics using Spreadsheets,SA8,3,2,2,0,0,0,0,0
+NUS Business School,Analytics and Operations,DAO1704,Decision Analytics using Spreadsheets,SA9,8,3,3,0,0,0,0,0
+NUS Business School,Analytics and Operations,DAO1704X,Decision Analytics using Spreadsheets,LQ1,6,30,6,0,24,0,0,0
+NUS Business School,Analytics and Operations,DAO2702,Programming for Business Analytics,L1,12,22,12,0,10,0,0,0
+NUS Business School,Analytics and Operations,DAO2702,Programming for Business Analytics,L2,39,25,19,0,6,0,0,0
+NUS Business School,Analytics and Operations,DBA3701,Introduction to Optimization,SA1,3,2,2,1,0,0,0,0
+NUS Business School,Analytics and Operations,DBA3702,Descriptive Analytics with R,SA2,10,12,4,0,8,0,0,0
+NUS Business School,Analytics and Operations,DBA3711,Stochastic Models in Management,SA1,5,5,5,0,0,0,0,0
+NUS Business School,Analytics and Operations,DBA3713,Analytics for Risk Management,SA1,24,3,3,0,0,0,0,0
+NUS Business School,Analytics and Operations,DBA3803,Predictive Analytics in Business,SA1,5,11,2,0,9,0,0,0
+NUS Business School,Analytics and Operations,DBA3803,Predictive Analytics in Business,SA2,10,6,4,0,2,0,0,0
+NUS Business School,Analytics and Operations,DBA4712,Causal Analytics for Managerial Decisions,SA1,32,1,1,0,0,0,0,0
+NUS Business School,Analytics and Operations,DBA4761A,Sem in Analytics: Tidyverse Principles And Tidymodels,SA1,25,4,4,0,0,0,0,0
+NUS Business School,Analytics and Operations,DBA4811,Analytical Tools for Consulting,SA1,12,13,12,0,1,0,0,0
+NUS Business School,Analytics and Operations,DBA4813,AI Strategies in Business,SA1,39,7,7,0,0,0,0,0
+NUS Business School,Analytics and Operations,DOS3701,Supply Chain Management,SA1,12,6,3,0,3,0,0,0
+NUS Business School,Analytics and Operations,DOS3703,Service Operations Management,SA2,7,5,3,0,2,0,0,0
+NUS Business School,Analytics and Operations,DOS3704,Operations Strategy,SA1,1,6,1,0,5,0,0,0
+NUS Business School,Analytics and Operations,DOS3704,Operations Strategy,SA2,11,2,2,0,0,0,0,0
+NUS Business School,Analytics and Operations,DOS3714,Sustainable Operations Management,SA1,5,1,1,0,0,0,0,0
+NUS Business School,Analytics and Operations,DOS4712,Co-ordination and Flexibility in SCM,SA1,1,1,1,0,0,0,0,0
+NUS Business School,Analytics and Operations,DOS4811,Data Visualisation,SA1,3,9,3,0,6,0,0,0
+NUS Business School,Finance,FIN2704,Finance,LA1,2,6,2,0,3,0,0,1
+NUS Business School,Finance,FIN2704,Finance,LA2,4,25,4,0,21,0,0,0
+NUS Business School,Finance,FIN2704,Finance,LA3,3,23,3,0,20,0,0,0
+NUS Business School,Finance,FIN2704,Finance,LA4,4,21,4,0,17,0,0,0
+NUS Business School,Finance,FIN2704X,Finance,LA1,3,20,3,0,17,0,0,0
+NUS Business School,Finance,FIN2704X,Finance,LA2,1,15,1,0,14,0,0,0
+NUS Business School,Finance,FIN2704X,Finance,LA3,1,4,1,0,3,0,0,0
+NUS Business School,Finance,FIN2704X,Finance,LA4,3,9,3,0,6,0,0,0
+NUS Business School,Finance,FIN3701A,Corporate Finance,SA1,2,2,2,0,0,0,0,0
+NUS Business School,Finance,FIN3701A,Corporate Finance,SA2,3,2,2,0,0,0,0,0
+NUS Business School,Finance,FIN3701A,Corporate Finance,SA3,20,7,7,0,0,0,0,0
+NUS Business School,Finance,FIN3701B,Corporate Finance,SB1,10,9,6,0,3,0,0,0
+NUS Business School,Finance,FIN3701B,Corporate Finance,SB2,8,4,3,0,1,0,0,0
+NUS Business School,Finance,FIN3702A,Investment Analysis and Portfolio Management,SA1,0,2,0,0,1,0,0,1
+NUS Business School,Finance,FIN3702A,Investment Analysis and Portfolio Management,SA3,10,19,1,0,18,0,0,0
+NUS Business School,Finance,FIN3702B,Investment Analysis and Portfolio Management,SB1,1,5,1,0,4,0,0,0
+NUS Business School,Finance,FIN3702B,Investment Analysis and Portfolio Management,SB2,4,13,4,0,9,0,0,0
+NUS Business School,Finance,FIN3703A,Financial Markets,SA1,1,5,1,0,4,0,0,0
+NUS Business School,Finance,FIN3703A,Financial Markets,SA3,3,10,3,0,7,0,0,0
+NUS Business School,Finance,FIN3711,International Financial Management,SA1,40,7,7,0,0,0,0,0
+NUS Business School,Finance,FIN3713,Bank Management,SA1,4,3,3,0,0,0,0,0
+NUS Business School,Finance,FIN3714,Financial Risk Management,SA1,43,3,3,0,0,0,0,0
+NUS Business School,Finance,FIN3715,Risk and Insurance,SA2,20,15,15,2,0,0,0,0
+NUS Business School,Finance,FIN3716,Financial Modelling,SA1,9,2,2,0,0,0,0,0
+NUS Business School,Finance,FIN3719A,Household Finance,SA1,2,8,2,0,6,0,0,0
+NUS Business School,Finance,FIN3719A,Household Finance,SA2,2,7,2,0,5,0,0,0
+NUS Business School,Finance,FIN3720,Financial Statement Analysis,SA1,1,2,1,0,1,0,0,0
+NUS Business School,Finance,FIN3720,Financial Statement Analysis,SA2,10,11,10,0,1,0,0,0
+NUS Business School,Finance,FIN3721,Consumer Banking Wealth Management,SA1,4,5,4,0,1,0,0,0
+NUS Business School,Finance,FIN3761A,TIF: Transaction Banking,SA1,13,3,3,1,0,0,0,0
+NUS Business School,Finance,FIN4714,Valuation and Mergers & Acquisition,SA1,20,7,7,0,0,0,0,0
+NUS Business School,Finance,FIN4715,Measuring Success in Philanthropy and Impact Investing,SA1,5,6,5,0,1,0,0,0
+NUS Business School,Finance,FIN4715,Measuring Success in Philanthropy and Impact Investing,SA2,1,9,1,0,8,0,0,0
+NUS Business School,Finance,FIN4717,Entrepreneurial Finance,SA1,31,2,2,0,0,0,0,0
+NUS Business School,Finance,FIN4720,Sustainability and Finance,SA1,19,2,2,0,0,0,0,0
+NUS Business School,Finance,FIN4721,"AI, Blockchain and Quantum Computing",SA2,22,4,4,2,0,0,0,0
+NUS Business School,Finance,FIN4761C,SIF: Applied Portfolio Management Techniques,SA1,32,2,2,0,0,0,0,0
+NUS Business School,Finance,FIN4761D,SIF: Family Business & Wealth Management,SA1,22,7,7,0,0,0,0,0
+NUS Business School,Management & Organisation,MNO1706D,Organisational Behavior,SD1,15,1,1,0,0,0,0,0
+NUS Business School,Management & Organisation,MNO1706D,Organisational Behavior,SD2,5,1,1,0,0,0,0,0
+NUS Business School,Management & Organisation,MNO1706D,Organisational Behavior,SD4,19,2,1,1,0,1,0,0
+NUS Business School,Management & Organisation,MNO1706E,Organisational Behavior,SE1,10,1,1,0,0,0,0,0
+NUS Business School,Management & Organisation,MNO1706F,Organisational Behavior,SF1,16,1,1,0,0,0,0,0
+NUS Business School,Management & Organisation,MNO1706G,Organisational Behavior,SG1,6,1,1,1,0,0,0,0
+NUS Business School,Management & Organisation,MNO1706G,Organisational Behavior,SG2,11,3,3,0,0,0,0,0
+NUS Business School,Management & Organisation,MNO1706H,Organisational Behavior,SH1,10,1,1,0,0,0,0,0
+NUS Business School,Management & Organisation,MNO1706X,Organisational Behavior,LZ1,61,45,31,0,14,0,0,0
+NUS Business School,Management & Organisation,MNO2705B,Leadership and Decision Making under Uncertainty,SB2,1,8,1,0,7,0,0,0
+NUS Business School,Management & Organisation,MNO2705D,Leadership and Decision Making under Uncertainty,SD1,3,16,3,0,13,0,0,0
+NUS Business School,Management & Organisation,MNO2705D,Leadership and Decision Making under Uncertainty,SD2,1,20,1,0,19,0,0,0
+NUS Business School,Management & Organisation,MNO2705E,Leadership and Decision Making under Uncertainty,SE1,1,7,1,0,6,0,0,0
+NUS Business School,Management & Organisation,MNO2705F,Leadership and Decision Making under Uncertainty,SF1,4,29,4,0,25,0,0,0
+NUS Business School,Management & Organisation,MNO2706,Business Communication for Leaders (ACC),SA3,2,2,2,0,0,0,0,0
+NUS Business School,Management & Organisation,MNO2706,Business Communication for Leaders (ACC),SA4,2,1,1,0,0,0,0,0
+NUS Business School,Management & Organisation,MNO3701,Human Capital Management,SA1,10,13,7,0,6,0,0,0
+NUS Business School,Management & Organisation,MNO3701,Human Capital Management,SA2,18,10,10,2,0,0,0,0
+NUS Business School,Management & Organisation,MNO3702,Negotiation and Conflict Management,SA1,4,3,1,0,2,0,0,0
+NUS Business School,Management & Organisation,MNO3702,Negotiation and Conflict Management,SA2,11,16,5,0,11,0,0,0
+NUS Business School,Management & Organisation,MNO3703,Leading in the 21st Century,SA1,14,11,11,0,0,0,0,0
+NUS Business School,Management & Organisation,MNO3703,Leading in the 21st Century,SA2,9,4,3,0,1,0,0,0
+NUS Business School,Management & Organisation,MNO3713,Management of Employee Relations,SA1,27,1,1,0,0,0,0,0
+NUS Business School,Management & Organisation,MNO3811,Social Entrepreneurship,SA1,31,9,9,2,0,0,0,0
+NUS Business School,Management & Organisation,MNO4711,Consulting to Management,SA1,5,4,4,0,0,0,0,0
+NUS Business School,Management & Organisation,MNO4716,Using R for HR analytics and machine learning,SA1,29,2,2,0,0,0,0,0
+NUS Business School,Management & Organisation,MNO4761D,"SILHCM: Industry 4.0, Technology, & Mgt Implications",SA1,28,1,1,0,0,0,0,0
+NUS Business School,Marketing,MKT1705A,Principles of Marketing,SA1,1,1,1,0,0,0,0,0
+NUS Business School,Marketing,MKT1705B,Principles of Marketing,SB1,12,1,1,0,0,0,0,0
+NUS Business School,Marketing,MKT1705B,Principles of Marketing,SB2,6,5,5,1,0,0,0,0
+NUS Business School,Marketing,MKT1705B,Principles of Marketing,SB3,14,1,1,0,0,0,0,0
+NUS Business School,Marketing,MKT1705B,Principles of Marketing,SB4,16,1,1,1,0,0,0,0
+NUS Business School,Marketing,MKT1705C,Principles of Marketing,SC1,14,2,2,0,0,0,0,0
+NUS Business School,Marketing,MKT1705D,Principles of Marketing,SD1,14,2,2,0,0,0,0,0
+NUS Business School,Marketing,MKT1705D,Principles of Marketing,SD2,11,2,1,0,0,0,0,1
+NUS Business School,Marketing,MKT1705E,Principles of Marketing,SE2,9,1,1,0,0,0,0,0
+NUS Business School,Marketing,MKT1705E,Principles of Marketing,SE3,10,1,1,1,0,0,0,0
+NUS Business School,Marketing,MKT1705X,Principles of Marketing,LW1,98,39,39,7,0,0,0,0
+NUS Business School,Marketing,MKT2711A,Marketing Venture Challenge,SA1,6,7,6,0,1,0,0,0
+NUS Business School,Marketing,MKT2711B,Marketing Venture Challenge,SB1,1,5,1,0,4,0,0,0
+NUS Business School,Marketing,MKT3701A,Marketing Strategy: Analysis and Practice,SA1,5,3,3,0,0,0,0,0
+NUS Business School,Marketing,MKT3701A,Marketing Strategy: Analysis and Practice,SA2,1,1,1,0,0,0,0,0
+NUS Business School,Marketing,MKT3701A,Marketing Strategy: Analysis and Practice,SA3,21,17,12,0,5,0,0,0
+NUS Business School,Marketing,MKT3701B,Marketing Strategy: Analysis and Practice,SB1,13,12,12,0,0,0,0,0
+NUS Business School,Marketing,MKT3702A,Consumer Behaviour,SA1,5,9,5,0,4,0,0,0
+NUS Business School,Marketing,MKT3702A,Consumer Behaviour,SA2,1,3,1,0,2,0,0,0
+NUS Business School,Marketing,MKT3702B,Consumer Behaviour,SB1,4,8,4,0,4,0,0,0
+NUS Business School,Marketing,MKT3702B,Consumer Behaviour,SB2,36,16,16,5,0,0,0,0
+NUS Business School,Marketing,MKT3711,Services Marketing,SA1,14,6,6,0,0,0,0,0
+NUS Business School,Marketing,MKT3711,Services Marketing,SA2,14,1,1,0,0,0,0,0
+NUS Business School,Marketing,MKT3714A,Digital Marketing,SA1,5,3,3,1,0,0,0,0
+NUS Business School,Marketing,MKT3714A,Digital Marketing,SA2,1,1,1,0,0,0,0,0
+NUS Business School,Marketing,MKT3714A,Digital Marketing,SA3,6,5,5,0,0,0,0,0
+NUS Business School,Marketing,MKT3714B,Digital Marketing,SB1,38,4,4,0,0,0,0,0
+NUS Business School,Marketing,MKT3715,Business-to-Business Marketing,SA1,17,5,5,1,0,0,0,0
+NUS Business School,Marketing,MKT3717,Product & Brand Management,SA1,17,5,5,0,0,0,0,0
+NUS Business School,Marketing,MKT3717,Product & Brand Management,SA2,29,2,2,0,0,0,0,0
+NUS Business School,Marketing,MKT3718,Advertising & Promotion Management,SA1,4,2,2,0,0,0,0,0
+NUS Business School,Marketing,MKT3718,Advertising & Promotion Management,SA2,12,4,4,0,0,0,0,0
+NUS Business School,Marketing,MKT3722,Research for Marketing Insights,SA1,34,1,1,0,0,0,0,0
+NUS Business School,Marketing,MKT3724,Sustainability Marketing,SA1,19,9,9,1,0,0,0,0
+NUS Business School,Marketing,MKT4719,Distribution Management: Channels and Platforms,SA1,4,5,4,0,1,0,0,0
+NUS Business School,Marketing,MKT4720,Product Experience Management,SA1,5,2,2,1,0,0,0,0
+NUS Business School,Marketing,MKT4720,Product Experience Management,SA2,1,2,1,0,1,0,0,0
+NUS Business School,Marketing,MKT4722,Personal Selling & Sales Management,SA1,18,4,4,1,0,0,0,0
+NUS Business School,Marketing,MKT4723,Customer Experience Management,SA1,5,9,5,0,4,0,0,0
+NUS Business School,Marketing,MKT4811,Pricing Strategy,SA1,16,14,14,0,0,0,0,0
+NUS Business School,Marketing,MKT4811,Pricing Strategy,SA2,3,1,1,0,0,0,0,0
+NUS Business School,Marketing,MKT4812,Marketing Analytics,SA1,5,13,5,0,8,0,0,0
+NUS Business School,Real Estate,GES1024,Real Estate Development & Investment Law,L1,50,21,20,1,0,1,0,0
+NUS Business School,Real Estate,GES1026,Urban Planning in Singapore,L1,50,13,13,3,0,0,0,0
+NUS Business School,Real Estate,GESS1018,Real Estate Development & Investment Law,L1,50,30,29,3,0,0,1,0
+NUS Business School,Real Estate,GESS1019,Urban Planning in Singapore,L1,50,19,19,3,0,0,0,0
+NUS Business School,Real Estate,RE1701,Urban Land Use and Development,L1,25,38,15,0,23,0,0,0
+NUS Business School,Real Estate,RE1705,Real Estate Finance and Accounting,L1,53,15,10,0,5,0,0,0
+NUS Business School,Real Estate,RE2701,Urban Planning,L1,66,20,12,0,8,0,0,0
+NUS Business School,Real Estate,RE2702,Land Law,L1,24,4,4,0,0,0,0,0
+NUS Business School,Real Estate,RE2705,Urban Economics,L1,23,21,12,0,9,0,0,0
+NUS Business School,Real Estate,RE3701,Real Estate Investment Analysis,L1,24,22,12,1,10,0,0,0
+NUS Business School,Real Estate,RE3702,Property Tax and Statutory Valuation,L1,3,7,0,0,7,0,0,0
+NUS Business School,Real Estate,RE3703,Advanced Real Estate Economics,L1,11,4,2,0,2,0,0,0
+NUS Business School,Real Estate,RE3704,Real Estate Marketing,L1,15,1,1,0,0,0,0,0
+NUS Business School,Real Estate,RE3803,Strategic Asset Management,L1,11,16,1,0,15,0,0,0
+NUS Business School,Real Estate,RE3807,Corporate Finance for Real Estate,L1,17,16,6,0,10,0,0,0
+NUS Business School,Real Estate,RE4701,Real Estate Development,L1,15,4,4,0,0,0,0,0
+NUS Business School,Real Estate,RE4702,Professional Practice and Ethics,L1,23,32,23,0,9,0,0,0
+NUS Business School,Real Estate,RE4711,FYP Dissertation,L1,42,1,1,0,0,0,0,0
+NUS Business School,Real Estate,RE4803,REIT and Business Trust Management,L1,6,16,3,0,13,0,0,0
+NUS Business School,Real Estate,RE4804,Real Estate Securitisation,L1,8,6,3,0,3,0,0,0
+NUS Business School,Strategy and Policy,BSE3701,Macroeconomic Principles in the Global Economy,SA1,5,9,5,0,4,0,0,0
+NUS Business School,Strategy and Policy,BSE3702,Economics of Strategy,SA1,1,2,1,0,1,0,0,0
+NUS Business School,Strategy and Policy,BSE3703,Econometrics for Business I,SA1,2,7,2,0,5,0,0,0
+NUS Business School,Strategy and Policy,BSE3761A,TIBE: Economic System in Asian Business Environment,SA1,37,2,2,0,0,0,0,0
+NUS Business School,Strategy and Policy,BSN3701,Technological Innovation,SA1,1,1,1,0,0,0,0,0
+NUS Business School,Strategy and Policy,BSN3703,Entrepreneurial Strategy,SA1,0,21,0,0,21,0,0,0
+NUS Business School,Strategy and Policy,BSN3714,Co-Creating Value (Tools for Collaborative Innovation),SA1,26,3,3,0,0,0,0,0
+NUS Business School,Strategy and Policy,BSN3717,Family Business,SA1,23,4,4,3,0,0,0,0
+NUS Business School,Strategy and Policy,BSN4811,Innovation and Productivity,SA1,1,3,1,0,2,0,0,0
+NUS Business School,Strategy and Policy,BSP1702,Legal Environment of Business,SA1,11,2,2,0,0,0,0,0
+NUS Business School,Strategy and Policy,BSP1702,Legal Environment of Business,SA10,14,1,1,0,0,0,0,0
+NUS Business School,Strategy and Policy,BSP1702,Legal Environment of Business,SA11,4,1,1,0,0,0,0,0
+NUS Business School,Strategy and Policy,BSP1702,Legal Environment of Business,SA12,15,1,1,0,0,0,0,0
+NUS Business School,Strategy and Policy,BSP1702,Legal Environment of Business,SA2,3,1,1,0,0,0,0,0
+NUS Business School,Strategy and Policy,BSP1702,Legal Environment of Business,SA3,13,2,1,0,0,0,0,1
+NUS Business School,Strategy and Policy,BSP1702,Legal Environment of Business,SA7,8,3,3,0,0,0,0,0
+NUS Business School,Strategy and Policy,BSP1702,Legal Environment of Business,SA8,3,1,1,0,0,0,0,0
+NUS Business School,Strategy and Policy,BSP1702,Legal Environment of Business,SA9,2,2,2,0,0,0,0,0
+NUS Business School,Strategy and Policy,BSP1702X,Legal Environment of Business,SA1,7,7,7,0,0,0,0,0
+NUS Business School,Strategy and Policy,BSP1703,Managerial Economics,LD1,62,13,13,0,0,0,0,0
+NUS Business School,Strategy and Policy,BSP1703,Managerial Economics,LD2,41,16,15,1,0,0,1,0
+NUS Business School,Strategy and Policy,BSP1703,Managerial Economics,LD3,78,12,12,1,0,0,0,0
+NUS Business School,Strategy and Policy,BSP2701,Global Economy,L1,1,21,1,0,20,0,0,0
+NUS Business School,Strategy and Policy,BSP2701,Global Economy,L2,3,36,3,0,33,0,0,0
+NUS Business School,Strategy and Policy,BSP2701,Global Economy,L3,2,25,2,0,23,0,0,0
+NUS Business School,Strategy and Policy,BSP3701A,Strategic Management,SA1,10,5,5,0,0,0,0,0
+NUS Business School,Strategy and Policy,BSP3701A,Strategic Management,SA2,22,1,1,0,0,0,0,0
+NUS Business School,Strategy and Policy,BSP3701A,Strategic Management,SA3,15,2,2,0,0,0,0,0
+NUS Business School,Strategy and Policy,BSP3701B,Strategic Management,SB2,5,2,2,0,0,0,0,0
+NUS Business School,Strategy and Policy,BSP3701C,Strategic Management,SC1,5,1,1,0,0,0,0,0
+NUS Business School,Strategy and Policy,BSP3701C,Strategic Management,SC2,8,1,1,0,0,0,0,0
+NUS Business School,Strategy and Policy,BSP3701D,Strategic Management,SD1,14,1,1,0,0,0,0,0
+NUS Business School,Strategy and Policy,BSP3701D,Strategic Management,SD2,11,3,3,0,0,0,0,0
+NUS Business School,Strategy and Policy,GESS1036,Singapore Employment Law and Policies,SA1,45,16,16,5,0,0,0,0
+NUS Business School,Strategy and Policy,GESS1036,Singapore Employment Law and Policies,SA2,45,36,36,4,0,0,0,0
+NUS College,NUS College Dean's Office,GEA1000N,Quantitative Reasoning with Data,L1,150,192,150,0,42,0,0,0
+NUS College,NUS College Dean's Office,NGN2001A,Global Narratives,E1,16,6,6,1,0,0,0,0
+NUS College,NUS College Dean's Office,NGN2001B,Global Narratives,E1,16,5,5,1,0,0,0,0
+NUS College,NUS College Dean's Office,NGN2001C,Global Narratives,E1,16,15,15,1,0,0,0,0
+NUS College,NUS College Dean's Office,NGN2001D,Global Narratives,E1,16,3,3,0,0,0,0,0
+NUS College,NUS College Dean's Office,NGN2001E,Global Narratives,E1,16,4,4,1,0,0,0,0
+NUS College,NUS College Dean's Office,NGN2001F,Global Narratives,E1,16,9,9,0,0,0,0,0
+NUS College,NUS College Dean's Office,NGN2001G,Global Narratives,E1,16,3,3,2,0,0,0,0
+NUS College,NUS College Dean's Office,NGN2001H,Global Narratives,E1,16,4,4,1,0,0,0,0
+NUS College,NUS College Dean's Office,NGN2001I,Global Narratives,E1,16,3,3,0,0,0,0,0
+NUS College,NUS College Dean's Office,NGN2001J,Global Narratives,E1,16,3,3,2,0,0,0,0
+NUS College,NUS College Dean's Office,NGN2001K,Global Narratives,E1,16,3,3,0,0,0,0,0
+NUS College,NUS College Dean's Office,NGN2001L,Global Narratives,E1,16,1,1,1,0,0,0,0
+NUS College,NUS College Dean's Office,NGN2001M,Global Narratives,E1,16,3,3,1,0,0,0,0
+NUS College,NUS College Dean's Office,NSW2001A,Understanding the Social World: Singapore & Beyond,E1,16,18,16,0,2,0,0,0
+NUS College,NUS College Dean's Office,NSW2001B,Understanding the Social World: Singapore & Beyond,E1,16,22,16,0,6,0,0,0
+NUS College,NUS College Dean's Office,NSW2001C,Understanding the Social World: Singapore & Beyond,E1,16,13,13,3,0,0,0,0
+NUS College,NUS College Dean's Office,NSW2001D,Understanding the Social World: Singapore & Beyond,E1,16,16,16,0,0,0,0,0
+NUS College,NUS College Dean's Office,NSW2001E,Understanding the Social World: Singapore & Beyond,E1,16,22,16,0,6,0,0,0
+NUS College,NUS College Dean's Office,NSW2001F,Understanding the Social World: Singapore & Beyond,E1,16,9,9,0,0,0,0,0
+NUS College,NUS College Dean's Office,NSW2001G,Understanding the Social World: Singapore & Beyond,E1,16,3,3,0,0,0,0,0
+NUS College,NUS College Dean's Office,NSW2001H,Understanding the Social World: Singapore & Beyond,E1,16,16,16,0,0,0,0,0
+NUS College,NUS College Dean's Office,NSW2001I,Understanding the Social World: Singapore & Beyond,E1,16,7,7,1,0,0,0,0
+NUS College,NUS College Dean's Office,NSW2001J,Understanding the Social World: Singapore & Beyond,E1,16,7,7,4,0,0,0,0
+NUS College,NUS College Dean's Office,NSW2001K,Understanding the Social World: Singapore & Beyond,E1,16,13,13,2,0,0,0,0
+NUS College,NUS College Dean's Office,NTW2006,Human Trafficking and Labour Migration,E1,9,25,9,0,16,0,0,0
+NUS College,NUS College Dean's Office,NTW2006,Human Trafficking and Labour Migration,E2,10,30,10,0,20,0,0,0
+NUS College,NUS College Dean's Office,NTW2007,Apocalyptic Cultures,E1,8,15,7,0,8,0,0,0
+NUS College,NUS College Dean's Office,NTW2007,Apocalyptic Cultures,E2,10,20,10,0,10,0,0,0
+NUS College,NUS College Dean's Office,NTW2010,Sites of Tourism,E1,9,8,7,0,1,0,0,0
+NUS College,NUS College Dean's Office,NTW2010,Sites of Tourism,E2,10,14,7,1,7,0,0,0
+NUS College,NUS College Dean's Office,NTW2012,Conditions of Happiness,E1,10,24,7,0,17,0,0,0
+NUS College,NUS College Dean's Office,NTW2028,The Social Life of Science,E1,10,17,9,1,8,0,0,0
+NUS College,NUS College Dean's Office,NTW2028,The Social Life of Science,E2,9,18,9,0,9,0,0,0
+NUS College,NUS College Dean's Office,NTW2029,Evolutionary Psychology and Art,E1,10,31,8,0,23,0,0,0
+NUS College,NUS College Dean's Office,NTW2029,Evolutionary Psychology and Art,E2,10,14,7,0,7,0,0,0
+NUS College,NUS College Dean's Office,NTW2030,Art as Action: Caring about the Climate Crisis in SEA,E1,10,8,8,1,0,0,0,0
+NUS College,NUS College Dean's Office,NTW2030,Art as Action: Caring about the Climate Crisis in SEA,E2,10,5,4,3,0,1,0,0
+NUS College,NUS College Dean's Office,NTW2031,Equity and Education,E1,10,14,9,1,5,0,0,0
+NUS College,NUS College Dean's Office,NTW2031,Equity and Education,E2,10,8,8,2,0,0,0,0
+NUS College,NUS College Dean's Office,NTW2032,The Self in Health and Longevity,E1,10,3,3,4,0,0,0,0
+NUS College,NUS College Dean's Office,NTW2032,The Self in Health and Longevity,E2,10,11,9,0,2,0,0,0
+Residential College,College of Alice & Peter Tan,UTC1402,Jr Sem: Generation Y: Transitions to Adulthood,E1,11,2,2,6,0,0,0,0
+Residential College,College of Alice & Peter Tan,UTC1402,Jr Sem: Generation Y: Transitions to Adulthood,E2,11,7,7,1,0,0,0,0
+Residential College,College of Alice & Peter Tan,UTC1403,Jr Sem: Hidden Communities,E1,8,28,8,0,20,0,0,0
+Residential College,College of Alice & Peter Tan,UTC1404,Jr Sem: Power and Ideas,E1,11,12,11,0,1,0,0,0
+Residential College,College of Alice & Peter Tan,UTC1404,Jr Sem: Power and Ideas,E2,8,10,8,0,0,0,2,0
+Residential College,College of Alice & Peter Tan,UTC1416,"Jr Sem: Games, Game Communities and Society",E1,8,34,8,0,26,0,0,0
+Residential College,College of Alice & Peter Tan,UTC1420,Jr Sem: Beyond Borders: Migrant Community & Resilience,E1,11,7,7,4,0,0,0,0
+Residential College,College of Alice & Peter Tan,UTC1420,Jr Sem: Beyond Borders: Migrant Community & Resilience,E2,10,2,2,1,0,0,0,0
+Residential College,College of Alice & Peter Tan,UTC2400,Community Leadership,E1,7,12,7,0,5,0,0,0
+Residential College,College of Alice & Peter Tan,UTC2400,Community Leadership,E2,6,7,6,0,1,0,0,0
+Residential College,College of Alice & Peter Tan,UTC2402,Environment and Civil Society in Singapore,E1,5,10,5,0,5,0,0,0
+Residential College,College of Alice & Peter Tan,UTC2402,Environment and Civil Society in Singapore,E2,4,8,4,0,4,0,0,0
+Residential College,College of Alice & Peter Tan,UTC2402,Environment and Civil Society in Singapore,E3,5,9,5,0,4,0,0,0
+Residential College,College of Alice & Peter Tan,UTC2402,Environment and Civil Society in Singapore,E4,4,8,4,0,4,0,0,0
+Residential College,College of Alice & Peter Tan,UTC2407,Work and Inequality,E1,5,34,5,0,29,0,0,0
+Residential College,College of Alice & Peter Tan,UTC2411,Unequal Parenthoods in Asia,E1,5,20,5,0,15,0,0,0
+Residential College,College of Alice & Peter Tan,UTC2412,Mental wellness: Local and global approaches,E1,5,15,5,0,10,0,0,0
+Residential College,College of Alice & Peter Tan,UTC2412,Mental wellness: Local and global approaches,E2,5,14,5,0,9,0,0,0
+Residential College,College of Alice & Peter Tan,UTC2414,Stakeholders: Community Engagement as a Sum of Diverse Parts,E2,7,4,4,3,0,0,0,0
+Residential College,College of Alice & Peter Tan,UTC2417,Identities in Asia,E1,6,6,6,0,0,0,0,0
+Residential College,College of Alice & Peter Tan,UTC2417,Identities in Asia,E2,6,2,2,0,0,0,0,0
+Residential College,College of Alice & Peter Tan,UTS2400,Identities in Asia,E1,4,2,2,1,0,0,0,0
+Residential College,College of Alice & Peter Tan,UTS2400,Identities in Asia,E2,5,1,1,0,0,0,0,0
+Residential College,College of Alice & Peter Tan,UTS2402,Environment and Civil Society in Singapore,E1,3,3,3,0,0,0,0,0
+Residential College,College of Alice & Peter Tan,UTS2402,Environment and Civil Society in Singapore,E2,3,1,1,0,0,0,0,0
+Residential College,College of Alice & Peter Tan,UTS2402,Environment and Civil Society in Singapore,E4,3,2,2,1,0,0,0,0
+Residential College,College of Alice & Peter Tan,UTS2405,Work and Inequality,E1,3,10,3,0,7,0,0,0
+Residential College,College of Alice & Peter Tan,UTS2408,Unequal Parenthoods in Asia,E1,3,8,3,0,5,0,0,0
+Residential College,College of Alice & Peter Tan,UTS2409,Mental wellness: Local and global approaches,E1,3,6,3,0,3,0,0,0
+Residential College,College of Alice & Peter Tan,UTS2409,Mental wellness: Local and global approaches,E2,3,5,3,0,2,0,0,0
+Residential College,College of Alice & Peter Tan,UTS2410,Stakeholders: Community Engagement as a Sum of Diverse Parts,E2,4,3,3,1,0,0,0,0
+Residential College,Residential College 4,UTC1702B,Thinking in Systems: Diseases and Healthcare,E1,9,34,9,0,25,0,0,0
+Residential College,Residential College 4,UTC1702B,Thinking in Systems: Diseases and Healthcare,E2,9,25,9,0,16,0,0,0
+Residential College,Residential College 4,UTC1702D,Thinking in Systems: Population Dynamics,E1,9,2,2,5,0,0,0,0
+Residential College,Residential College 4,UTC1702D,Thinking in Systems: Population Dynamics,E2,9,4,4,4,0,0,0,0
+Residential College,Residential College 4,UTC1702D,Thinking in Systems: Population Dynamics,E3,9,5,5,2,0,0,0,0
+Residential College,Residential College 4,UTC1702E,Thinking in Systems: Energy Systems,E1,9,7,7,2,0,0,0,0
+Residential College,Residential College 4,UTC1702E,Thinking in Systems: Energy Systems,E2,9,3,3,0,0,0,0,0
+Residential College,Residential College 4,UTC1702F,Thinking in Systems: Disaster Resilience,E1,9,14,9,0,5,0,0,0
+Residential College,Residential College 4,UTC1702F,Thinking in Systems: Disaster Resilience,E2,9,13,9,0,4,0,0,0
+Residential College,Residential College 4,UTC1702G,Thinking in systems: Markets and Inequality,E1,9,16,9,0,7,0,0,0
+Residential College,Residential College 4,UTC1702G,Thinking in systems: Markets and Inequality,E2,9,17,9,0,8,0,0,0
+Residential College,Residential College 4,UTC2703,"Infectious Diseases: Dynamics, Strategies and Policies",E1,9,25,9,0,16,0,0,0
+Residential College,Residential College 4,UTC2706,Committed to Changing Our World: The Systems Pioneers,E1,9,14,9,0,5,0,0,0
+Residential College,Residential College 4,UTC2706,Committed to Changing Our World: The Systems Pioneers,E2,9,18,9,0,9,0,0,0
+Residential College,Residential College 4,UTC2715,Decoding Complexity,E1,6,16,6,0,10,0,0,0
+Residential College,Residential College 4,UTC2715,Decoding Complexity,E2,6,7,6,0,1,0,0,0
+Residential College,Residential College 4,UTC2716,Networks: Complexity and Order,E1,9,8,8,1,0,0,0,0
+Residential College,Residential College 4,UTC2717,Navigation in Singapore Waters- Bridges and Barriers,E1,6,8,6,0,2,0,0,0
+Residential College,Residential College 4,UTC2722,Sleep Health: A Holistic Approach to Well-being,E1,9,21,9,0,12,0,0,0
+Residential College,Residential College 4,UTC2723,How would YOU lead?,E1,9,9,9,0,0,0,0,0
+Residential College,Residential College 4,UTC2727,"Mind, Ego and Happiness",E1,6,5,5,1,0,0,0,0
+Residential College,Residential College 4,UTS2705,"Modelling Singlehood, Marriage & Fertility in Singapore",E1,4,1,1,3,0,0,0,0
+Residential College,Residential College 4,UTS2707,Decoding Complexity,E1,4,2,2,2,0,0,0,0
+Residential College,Residential College 4,UTS2707,Decoding Complexity,E2,4,5,4,0,1,0,0,0
+Residential College,Residential College 4,UTS2708,Navigation in Singapore Waters- Bridges and Barriers,E1,4,16,4,0,12,0,0,0
+Residential College,Residential College 4,UTS2714,"Mind, Ego and Happiness",E1,4,7,4,0,3,0,0,0
+Residential College,Ridge View Residential College,RVC1000,How in the world do we get along?,SG1,2147483647,3,3,0,0,0,0,0
+Residential College,Ridge View Residential College,RVC1000,How in the world do we get along?,SG2,2147483647,10,5,0,5,0,0,0
+Residential College,Ridge View Residential College,RVC1000,How in the world do we get along?,SG3,2147483647,16,14,0,2,0,0,0
+Residential College,Ridge View Residential College,RVC1000,How in the world do we get along?,SG4,2147483647,16,15,0,1,0,0,0
+Residential College,Ridge View Residential College,RVC1000,How in the world do we get along?,SG5,2147483647,18,16,0,2,0,0,0
+Residential College,Ridge View Residential College,RVC1000,How in the world do we get along?,SG6,2147483647,18,15,0,3,0,0,0
+Residential College,Ridge View Residential College,RVC1000,How in the world do we get along?,SG7,2147483647,16,16,0,0,0,0,0
+Residential College,Ridge View Residential College,RVC1000,How in the world do we get along?,SG8,2147483647,19,15,0,4,0,0,0
+Residential College,Ridge View Residential College,RVN1000,Engaging Communities in Sustainability,SG1,2147483647,9,8,1,0,0,1,0
+Residential College,Ridge View Residential College,RVN1000,Engaging Communities in Sustainability,SG2,2147483647,12,11,0,0,0,1,0
+Residential College,Ridge View Residential College,RVN1001,The Great Extinction: rewilding and conservation,SG1,2147483647,19,15,0,4,0,0,0
+Residential College,Ridge View Residential College,RVN1001,The Great Extinction: rewilding and conservation,SG2,2147483647,17,14,0,3,0,0,0
+Residential College,Ridge View Residential College,RVN1001,The Great Extinction: rewilding and conservation,SG3,2147483647,17,14,0,3,0,0,0
+Residential College,Ridge View Residential College,RVN1001,The Great Extinction: rewilding and conservation,SG4,2147483647,7,7,1,0,0,0,0
+Residential College,Ridge View Residential College,RVSS1001,"Imagining Wakanda: Cities for work, life, and play",SG1,2147483647,4,4,1,0,0,0,0
+Residential College,Ridge View Residential College,RVSS1001,"Imagining Wakanda: Cities for work, life, and play",SG2,2147483647,7,7,2,0,0,0,0
+Residential College,Ridge View Residential College,RVSS1001,"Imagining Wakanda: Cities for work, life, and play",SG3,2147483647,8,8,1,0,0,0,0
+Residential College,Ridge View Residential College,RVSS1001,"Imagining Wakanda: Cities for work, life, and play",SG4,2147483647,4,4,0,0,0,0,0
+Residential College,Ridge View Residential College,RVSS1002,Feeding the belly of a nation,SG1,2147483647,14,14,2,0,0,0,0
+Residential College,Ridge View Residential College,RVSS1002,Feeding the belly of a nation,SG2,2147483647,31,15,0,16,0,0,0
+Residential College,Ridge View Residential College,RVSS1002,Feeding the belly of a nation,SG3,2147483647,25,14,0,11,0,0,0
+Residential College,Ridge View Residential College,RVSS1002,Feeding the belly of a nation,SG4,2147483647,13,13,3,0,0,0,0
+Residential College,Ridge View Residential College,RVSS1002,Feeding the belly of a nation,SG5,2147483647,19,14,0,5,0,0,0
+Residential College,Ridge View Residential College,RVSS1002,Feeding the belly of a nation,SG6,2147483647,23,15,0,8,0,0,0
+Residential College,Tembusu College,UTC1102B,Junior Seminar: The Darwinian Revolution,E1,2147483647,15,11,1,0,0,4,0
+Residential College,Tembusu College,UTC1102B,Junior Seminar: The Darwinian Revolution,E2,2147483647,21,9,0,12,0,0,0
+Residential College,Tembusu College,UTC1102C,Junior Seminar: Fakes,E1,2147483647,22,7,0,15,0,0,0
+Residential College,Tembusu College,UTC1102C,Junior Seminar: Fakes,E2,2147483647,21,13,0,8,0,0,0
+Residential College,Tembusu College,UTC1102C,Junior Seminar: Fakes,E3,2147483647,16,13,0,1,0,2,0
+Residential College,Tembusu College,UTC1102P,Junior Seminar: Murals: Expressions from/on the Walls,E1,2147483647,10,9,3,0,0,1,0
+Residential College,Tembusu College,UTC1102P,Junior Seminar: Murals: Expressions from/on the Walls,E2,2147483647,7,7,3,0,0,0,0
+Residential College,Tembusu College,UTC1112A,Jr Sem Special Topics: Humanising Technology,E1,2147483647,4,4,9,0,0,0,0
+Residential College,Tembusu College,UTC1112G,Special Topics: Sustainability,E1,2147483647,3,3,0,0,0,0,0
+Residential College,Tembusu College,UTC1112G,Special Topics: Sustainability,E2,2147483647,4,4,3,0,0,0,0
+Residential College,Tembusu College,UTC2107,Senior Seminar: Negotiating in a Complex World,E1,2147483647,6,6,3,0,0,0,0
+Residential College,Tembusu College,UTC2107,Senior Seminar: Negotiating in a Complex World,E2,2147483647,9,9,4,0,0,0,0
+Residential College,Tembusu College,UTC2107,Senior Seminar: Negotiating in a Complex World,E3,2147483647,12,12,1,0,0,0,0
+Residential College,Tembusu College,UTC2113,Gaming Life,E1,2147483647,36,13,0,23,0,0,0
+Residential College,Tembusu College,UTC2113,Gaming Life,E2,2147483647,26,13,0,13,0,0,0
+Residential College,Tembusu College,UTC2116,The University Today,E1,2147483647,6,6,3,0,0,0,0
+Residential College,Tembusu College,UTC2116,The University Today,E2,2147483647,2,2,2,0,0,0,0
+Residential College,Tembusu College,UTS2100,Intelligence and Singapore Society,E1,2147483647,12,12,1,0,0,0,0
+Residential College,Tembusu College,UTS2100,Intelligence and Singapore Society,E2,2147483647,7,7,1,0,0,0,0
+Residential College,Tembusu College,UTS2100,Intelligence and Singapore Society,E3,2147483647,11,11,2,0,0,0,0
+Residential College,Tembusu College,UTS2100,Intelligence and Singapore Society,E4,2147483647,7,7,3,0,0,0,0
+Residential College,Tembusu College,UTS2101,Biomedicine and Singapore Society,E1,2147483647,9,9,4,0,0,0,0
+Residential College,Tembusu College,UTS2101,Biomedicine and Singapore Society,E2,2147483647,20,13,0,7,0,0,0
+Residential College,Tembusu College,UTS2101,Biomedicine and Singapore Society,E3,2147483647,10,10,2,0,0,0,0
+Residential College,Tembusu College,UTS2101,Biomedicine and Singapore Society,E4,2147483647,12,12,1,0,0,0,0
+Residential College,Tembusu College,UTS2114,Technologies and Ageing in Singapore,E1,2147483647,31,13,0,18,0,0,0
+SSH School of Public Health,SSH School of Public Health DO,GEC1015,Public Health in Action,L1,139,131,131,8,0,0,0,0
+SSH School of Public Health,SSH School of Public Health DO,GEC1015,Public Health in Action,L2,105,86,86,16,0,0,0,0
+SSH School of Public Health,SSH School of Public Health DO,GEC1015,Public Health in Action,L3,144,122,122,21,0,0,0,0
+SSH School of Public Health,SSH School of Public Health DO,GEH1049,Public Health in Action,L1,75,64,64,11,0,0,0,0
+SSH School of Public Health,SSH School of Public Health DO,GEH1049,Public Health in Action,L2,108,76,76,5,0,0,0,0
+SSH School of Public Health,SSH School of Public Health DO,GEH1049,Public Health in Action,L3,69,42,42,5,0,0,0,0
+SSH School of Public Health,SSH School of Public Health DO,SPH2001,Fundamental Public Health Methods,L1,77,34,34,1,0,0,0,0
+SSH School of Public Health,SSH School of Public Health DO,SPH2002,Public Health and Epidemiology,L1,100,54,54,3,0,0,0,0
+SSH School of Public Health,SSH School of Public Health DO,SPH2003,Systems and Policies to improve Health,L1,54,26,26,2,0,0,0,0
+SSH School of Public Health,SSH School of Public Health DO,SPH2004,"Lifestyle, Behaviour and Public Health",L1,40,53,40,0,13,0,0,0
+SSH School of Public Health,SSH School of Public Health DO,SPH2005,"Health, Society and the Social Determinants",L1,25,27,25,0,2,0,0,0
+SSH School of Public Health,SSH School of Public Health DO,SPH2203,Food Environments and Health,L1,33,23,23,0,0,0,0,0
+SSH School of Public Health,SSH School of Public Health DO,SPH2301,Health of the Working Population,L1,27,14,14,0,0,0,0,0
+SSH School of Public Health,SSH School of Public Health DO,SPH2401,Introduction to Global Health,L1,27,33,27,0,6,0,0,0
+SSH School of Public Health,SSH School of Public Health DO,SPH3101,Biostatistics for Public Health,L1,19,8,8,0,0,0,0,0
+SSH School of Public Health,SSH School of Public Health DO,SPH3106,Data Analysis for Pathogen Genomics,L1,28,2,2,0,0,0,0,0
+SSH School of Public Health,SSH School of Public Health DO,SPH3203,Prevention and Control of Non- Communicable Diseases,L1,24,8,8,0,0,0,0,0
+SSH School of Public Health,SSH School of Public Health DO,SPH3204,"One Health: People, Animals and the Environment",L1,28,21,21,0,0,0,0,0
+SSH School of Public Health,SSH School of Public Health DO,SPH3401,Designing Public Health Programmes,L1,11,6,6,0,0,0,0,0
+SSH School of Public Health,SSH School of Public Health DO,SPH3403,Public Health Economics,L1,37,21,21,1,0,0,0,0
+School of Computing,Computer Science,CS1010,Programming Methodology,S1,71,26,25,2,0,0,0,1
+School of Computing,Computer Science,CS1010E,Programming Methodology,S1,121,81,80,14,0,0,1,0
+School of Computing,Computer Science,CS1010E,Programming Methodology,S2,95,71,71,6,0,0,0,0
+School of Computing,Computer Science,CS1010S,Programming Methodology,L1,5,80,5,0,75,0,0,0
+School of Computing,Computer Science,CS1101S,Programming Methodology,L1,0,11,0,0,1,0,0,10
+School of Computing,Computer Science,CS1231,Discrete Structures,S1,147,7,6,1,0,1,0,0
+School of Computing,Computer Science,CS1231S,Discrete Structures,L1,25,12,12,0,0,0,0,0
+School of Computing,Computer Science,CS2030,Programming Methodology II,L1,28,2,2,0,0,0,0,0
+School of Computing,Computer Science,CS2030S,Programming Methodology II,L1,6,7,6,0,1,0,0,0
+School of Computing,Computer Science,CS2040,Data Structures and Algorithms,L1,10,23,10,0,13,0,0,0
+School of Computing,Computer Science,CS2040,Data Structures and Algorithms,L1V,16,31,16,0,15,0,0,0
+School of Computing,Computer Science,CS2040C,Data Structures and Algorithms,L1,25,22,21,4,0,0,1,0
+School of Computing,Computer Science,CS2040S,Data Structures and Algorithms,L1,42,4,4,0,0,0,0,0
+School of Computing,Computer Science,CS2100,Computer Organisation,L1,5,51,5,0,46,0,0,0
+School of Computing,Computer Science,CS2102,Database Systems,L1,139,107,107,2,0,0,0,0
+School of Computing,Computer Science,CS2102,Database Systems,L1V,12,10,10,0,0,0,0,0
+School of Computing,Computer Science,CS2103,Software Engineering,L1,45,7,7,1,0,0,0,0
+School of Computing,Computer Science,CS2103T,Software Engineering,LG01,2,6,2,0,4,0,0,0
+School of Computing,Computer Science,CS2103T,Software Engineering,LG02,1,10,1,0,9,0,0,0
+School of Computing,Computer Science,CS2103T,Software Engineering,LG03,1,1,1,0,0,0,0,0
+School of Computing,Computer Science,CS2103T,Software Engineering,LG04,2,6,2,0,4,0,0,0
+School of Computing,Computer Science,CS2103T,Software Engineering,LG10,2,3,2,0,1,0,0,0
+School of Computing,Computer Science,CS2103T,Software Engineering,LG17,1,9,1,0,8,0,0,0
+School of Computing,Computer Science,CS2103T,Software Engineering,LG19,1,2,1,0,1,0,0,0
+School of Computing,Computer Science,CS2103T,Software Engineering,LG20,20,70,20,0,50,0,0,0
+School of Computing,Computer Science,CS2104,Programming Language Concepts,L1,44,3,3,0,0,0,0,0
+School of Computing,Computer Science,CS2105,Introduction to Computer Networks,L1,48,25,25,9,0,0,0,0
+School of Computing,Computer Science,CS2105,Introduction to Computer Networks,L1V,34,5,5,1,0,0,0,0
+School of Computing,Computer Science,CS2106,Introduction to Operating Systems,L1,23,12,12,0,0,0,0,0
+School of Computing,Computer Science,CS2107,Introduction to Information Security,L1,24,10,10,2,0,0,0,0
+School of Computing,Computer Science,CS2109S,Introduction to AI and Machine Learning,L1,116,23,23,7,0,0,0,0
+School of Computing,Computer Science,CS2220,Introduction to Computational Biology,L1,2,1,1,0,0,0,0,0
+School of Computing,Computer Science,CS3103,Computer Networks Practice,L1,2,16,2,0,14,0,0,0
+School of Computing,Computer Science,CS3203,Software Engineering Project,L1,4,16,4,0,12,0,0,0
+School of Computing,Computer Science,CS3203,Software Engineering Project,L2,3,1,1,0,0,0,0,0
+School of Computing,Computer Science,CS3203,Software Engineering Project,L3,5,3,3,1,0,0,0,0
+School of Computing,Computer Science,CS3203,Software Engineering Project,L4,4,3,3,0,0,0,0,0
+School of Computing,Computer Science,CS3210,Parallel Computing,L1,6,20,6,0,14,0,0,0
+School of Computing,Computer Science,CS3219,Software Engineering Principles and Patterns,L1,20,26,20,0,6,0,0,0
+School of Computing,Computer Science,CS3230,Design and Analysis of Algorithms,L1,4,10,4,0,6,0,0,0
+School of Computing,Computer Science,CS3230,Design and Analysis of Algorithms,L1V,59,13,12,9,0,1,0,0
+School of Computing,Computer Science,CS3231,Theory of Computation,L1,15,4,4,2,0,0,0,0
+School of Computing,Computer Science,CS3235,Computer Security,L1,21,1,1,0,0,0,0,0
+School of Computing,Computer Science,CS3237,Introduction to Internet of Things,L1,44,5,5,4,0,0,0,0
+School of Computing,Computer Science,CS3240,Interaction Design,L1,62,9,9,0,0,0,0,0
+School of Computing,Computer Science,CS3241,Computer Graphics,L1,8,18,8,0,10,0,0,0
+School of Computing,Computer Science,CS3243,Introduction to Artificial Intelligence,L1,41,28,28,2,0,0,0,0
+School of Computing,Computer Science,CS3244,Machine Learning,L1,46,6,6,0,0,0,0,0
+School of Computing,Computer Science,CS4211,Formal Methods for Software Engineering,L1,7,9,7,0,2,0,0,0
+School of Computing,Computer Science,CS4212,Compiler Design,L1,10,4,4,1,0,0,0,0
+School of Computing,Computer Science,CS4224,Distributed Databases,L1,18,1,1,0,0,0,0,0
+School of Computing,Computer Science,CS4225,Big Data Systems for Data Science,L1,32,52,32,0,20,0,0,0
+School of Computing,Computer Science,CS4226,Internet Architecture,L1,1,22,1,0,21,0,0,0
+School of Computing,Computer Science,CS4234,Optimisation Algorithms,L1,26,1,1,0,0,0,0,0
+School of Computing,Computer Science,CS4236,Cryptography Theory and Practice,L1,16,2,2,1,0,0,0,0
+School of Computing,Computer Science,CS4243,Computer Vision and Pattern Recognition,L1,18,5,5,1,0,0,0,0
+School of Computing,Computer Science,CS4246,AI Planning and Decision Making,L1,1,2,1,0,1,0,0,0
+School of Computing,Computer Science,CS4246,AI Planning and Decision Making,L2,6,3,3,0,0,0,0,0
+School of Computing,Computer Science,CS4248,Natural Language Processing,L1,34,6,6,1,0,0,0,0
+School of Computing,Computer Science,CS4261,Algorithmic Mechanism Design,L1,14,14,14,0,0,0,0,0
+School of Computing,Computer Science,CS4350,Game Development Project,E1,43,1,1,0,0,0,0,0
+School of Computing,Computer Science,CS5229,Advanced Computer Networks,L1,1,1,1,0,0,0,0,0
+School of Computing,Computer Science,CS5238,Advanced Combinatorial Methods in Bioinformatics,L1,2,1,1,0,0,0,0,0
+School of Computing,Computer Science,GEI1000,Computational Thinking,L1,25,150,25,0,125,0,0,0
+School of Computing,Computer Science,GET1031,Computational Thinking,L1,11,51,11,0,40,0,0,0
+School of Computing,Computer Science,IT1244,Artificial Intelligence: Technology and Impact,L1,373,34,34,7,0,0,0,0
+School of Computing,Info Systems and Analytics,BT2101,Econometrics Modeling for Business Analytics,L1,16,1,1,0,0,0,0,0
+School of Computing,Info Systems and Analytics,BT2103,Optimization Methods in Business Analytics,L1,54,3,3,0,0,0,0,0
+School of Computing,Info Systems and Analytics,BT3102,Computational Methods for Business Analytics,L1,57,1,1,0,0,0,0,0
+School of Computing,Info Systems and Analytics,BT3103,Application Systems Development for Business Analytics,L1,30,2,2,0,0,0,0,0
+School of Computing,Info Systems and Analytics,BT4012,Fraud Analytics,L1,4,7,4,0,3,0,0,0
+School of Computing,Info Systems and Analytics,BT4013,Analytics for Capital Market Trading and Investment,L1,7,5,5,0,0,0,0,0
+School of Computing,Info Systems and Analytics,BT4015,Geospatial Analytics,L1,33,2,2,0,0,0,0,0
+School of Computing,Info Systems and Analytics,BT4212,Search Engine Optimization and Analytics,L1,27,3,3,0,0,0,0,0
+School of Computing,Info Systems and Analytics,BT4222,Mining Web Data for Business Insights,L1,13,4,4,1,0,0,0,0
+School of Computing,Info Systems and Analytics,BT4240,Machine Learning for Predictive Data Analytics,L1,9,2,2,0,0,0,0,0
+School of Computing,Info Systems and Analytics,IS1108,Digital Ethics and Data Privacy,L1,3,7,3,0,4,0,0,0
+School of Computing,Info Systems and Analytics,IS1108,Digital Ethics and Data Privacy,L2,2,6,2,0,4,0,0,0
+School of Computing,Info Systems and Analytics,IS1108,Digital Ethics and Data Privacy,L3,26,49,26,0,22,0,0,1
+School of Computing,Info Systems and Analytics,IS1128,"IT, Management and Organisation",L1,184,8,8,2,0,0,0,0
+School of Computing,Info Systems and Analytics,IS2103,Enterprise Systems Server-side Design and Development,L1,5,2,2,0,0,0,0,0
+School of Computing,Info Systems and Analytics,IS2218,Digital Platforms for Business,L1,142,14,14,4,0,0,0,0
+School of Computing,Info Systems and Analytics,IS2238,Economics of IT and AI,L1,180,3,3,1,0,0,0,0
+School of Computing,Info Systems and Analytics,IS3103,Information Systems Leadership and Communication,L1,85,1,1,1,0,0,0,0
+School of Computing,Info Systems and Analytics,IS3107,Data Engineering,L1,114,1,1,2,0,0,0,0
+School of Computing,Info Systems and Analytics,IS3150,Digital Media Marketing,L1,18,4,4,0,0,0,0,0
+School of Computing,Info Systems and Analytics,IS3221,ERP Systems with Analytics Solutions,L1,16,4,4,1,0,0,0,0
+School of Computing,Info Systems and Analytics,IS3251,Principles of Technology Entrepreneurship,L1,12,2,2,0,0,0,0,0
+School of Computing,Info Systems and Analytics,IS4100,IT Project Management,L1,39,1,1,0,0,0,0,0
+School of Computing,Info Systems and Analytics,IS4204,IT Governance,L1,53,3,3,0,0,0,0,0
+School of Computing,Info Systems and Analytics,IS4226,Systematic Trading Strategies and Systems,L1,1,21,1,0,20,0,0,0
+School of Computing,Info Systems and Analytics,IS4228,Information Technologies in Financial Services,L1,68,3,3,3,0,0,0,0
+School of Computing,Info Systems and Analytics,IS4233,Legal Aspects of Information Technology,L1,40,3,3,0,0,0,0,0
+School of Computing,Info Systems and Analytics,IS4234,Compliance and Regulation Technology,L1,4,4,4,0,0,0,0,0
+School of Computing,Info Systems and Analytics,IS4261,Designing IT-enabled Business Innovations,L1,36,1,1,1,0,0,0,0
+School of Computing,Info Systems and Analytics,IS4301,Agile IT with DevOps,L1,7,9,7,0,2,0,0,0
+School of Computing,Info Systems and Analytics,IT3010,Data Management for Business Analytics,L1,54,2,2,1,0,0,0,0
+School of Computing,SoC Dean's Office,CP3201,Industry Seminar,L1,93,62,62,2,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TBA2105,Web Mining,L1,20,2,2,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TBA3222,Marketing Analytics,L1,34,2,2,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TBA4220,Geospatial Analytics,L1,27,6,6,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TBA4230,Audit Analytics,L1,15,1,1,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TCE2155,Structural Mechanics and Materials,L1,18,1,1,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TCE2184,Infrastructure & the Environment,L1,10,1,1,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TCE3132,Water Resources Engineering,L1,20,5,5,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TCE3155,Structural Analysis,L1,13,9,9,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TCE4103,Design Project,L1,11,2,2,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TCE4282,Building Information Modeling for Project Management,L1,5,3,3,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TCE5510,Advanced Structural Concrete Design,L1,21,1,1,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TCN2121,Chemical Engineering Thermodynamics,L1,12,4,4,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TCN2122,Fluid Mechanics,L1,12,4,4,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TCN3132,Separation Processes,L1,5,1,1,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TCN3421,Process Modeling & Numerical Simulation,L1,4,1,1,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TCN4122,Process Synthesis and Simulation,L1,15,4,4,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TCN4208,Biochemical Engineering,L1,6,4,4,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TCN4246,Chemical And Bio-Catalysis,L1,10,8,8,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TEE2002,Engineering Mathematics II,L1,7,1,1,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TEE2003,Advanced Mathematics for Engineers,L1,11,1,1,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TEE2028,Microcontroller Programming and Interfacing,L1,10,3,3,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TEE3506,Electrical Energy Systems,L1,27,5,5,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TEE4101,Radio-Frequency (RF) Communications,L1,20,8,8,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TEE4204,Computer Networks,L1,21,2,2,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TEE4211,Data Science for the Internet of Things,L1,5,4,4,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TIC1001,Introduction to Computing and Programming I,L1,14,3,3,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TIC1101,"Professional, Ethical, and Social Issues in Computing",L1,21,3,3,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TIC2001,Data Structures and Algorithms,L1,59,2,2,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TIC2002,Introduction to Software Engineering,L1,9,2,2,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TIC2101,Information Systems and Organisations,L1,25,1,1,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TIC2601,Database and Web Applications,L1,54,1,1,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TIC2901,Communications for Computing Professionals,L1,11,6,6,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TIC4001,Software Engineering Practicum I,L1,1,1,1,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TIC4005,Parallel and Distributed Software Engineering,L1,8,4,4,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TIC4303,Software Security,L1,15,9,9,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TIC4305,Network Security,L1,14,2,2,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TIE2110,Operations Research I,L1,8,2,2,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TIE2130,Quality Engineering I,L1,62,15,15,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TIE3100,Systems Design Project,L1,6,3,3,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TIE3101,Statistics for Engineering Applications,L1,12,3,3,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TIE3110,Simulation,L1,7,3,3,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TIE4240,Project Management,L1,9,5,5,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TIE4252,Introduction to Systems Engineering,L1,5,5,5,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TMA1001,Introductory Mathematics,L1,11,1,1,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TMA2103,Probability and Statistics,L1,18,7,7,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TME2134,Fluid Mechanics I,L1,8,5,5,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TME2142,Feedback Control Systems,L1,7,6,6,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TME2151,Principles of Mechanical Engineering Materials,L1,23,1,1,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TME2162,Manufacturing Processes,L1,15,6,6,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TME2401,Engineering Mathematics II,L1,19,1,1,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TME3242,Automation,L1,8,15,8,0,7,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TME3261,Computer-Aided Design and Manufacturing,L1,29,4,4,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TME4223,Thermal Environmental Engineering,L1,34,2,2,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TSC3100,Supply Chain Design,L1,6,1,1,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TSC3224,Distribution & Warehousing,L1,12,1,1,0,0,0,0,0
+School of Cont & Lifelong Edun,SCALE Dean's Office,TTG1401,Engineering Mathematics I,L1,11,2,2,0,0,0,0,0
+University Scholars Programme,University Scholars Programme,UAR2207,Reinventing Intercultural Exchanges,E1,15,18,15,0,3,0,0,0
+University Scholars Programme,University Scholars Programme,UHB2206,Leadership in a Complex World,E1,19,32,19,0,13,0,0,0
+University Scholars Programme,University Scholars Programme,UHB2207,"Language, Cognition, and Culture",E1,20,44,20,0,24,0,0,0
+University Scholars Programme,University Scholars Programme,UIT2201,Computer Science & The I.T. Revolution,LE1,19,19,18,1,0,0,1,0
+University Scholars Programme,University Scholars Programme,ULS2201,The Biomolecular Revolution,LE1,19,39,19,0,20,0,0,0
+University Scholars Programme,University Scholars Programme,ULS2210,Invertebrate Innovations,E1,20,58,20,0,38,0,0,0
+University Scholars Programme,University Scholars Programme,UNL2201,"Space, Time & Matter: The Shape and Size of the Cosmos",EL1,12,4,3,0,0,0,1,0
+University Scholars Programme,University Scholars Programme,UNL2201,"Space, Time & Matter: The Shape and Size of the Cosmos",EL2,12,4,4,2,0,0,0,0
+University Scholars Programme,University Scholars Programme,UNL2210,Mathematics and Reality,E1,20,9,9,3,0,0,0,0
+University Scholars Programme,University Scholars Programme,UPC2209,Pollution Control Engineering in Singapore,E1,20,30,20,0,10,0,0,0
+University Scholars Programme,University Scholars Programme,UPC2209,Pollution Control Engineering in Singapore,E2,20,18,18,2,0,0,0,0
+University Scholars Programme,University Scholars Programme,UPC2212,Solving Energy and Environmental Problems,E1,19,34,19,0,15,0,0,0
+University Scholars Programme,University Scholars Programme,UPI2212,Technologies of the Self: from Socrates to Self-Help,E1,20,18,18,2,0,0,0,0
+University Scholars Programme,University Scholars Programme,UQF2101J,Quantitative Reasoning Foundation: Pursuit of Happiness,E1,19,8,8,4,0,0,0,0
+University Scholars Programme,University Scholars Programme,UQR2215,Developing Meaningful Indicators,E1,19,14,14,3,0,0,0,0
+University Scholars Programme,University Scholars Programme,USE2304,Singapore: The Making Of A Nation,L1,10,14,10,0,4,0,0,0
+University Scholars Programme,University Scholars Programme,USE2304,Singapore: The Making Of A Nation,L2,10,9,9,1,0,0,0,0
+University Scholars Programme,University Scholars Programme,USE2324,Gender and Ecology in Asia,E1,18,14,14,4,0,0,0,0
+University Scholars Programme,University Scholars Programme,USE2325,Democracy and Inequality,E1,19,30,19,0,11,0,0,0
+University Scholars Programme,University Scholars Programme,USR4002A,Critical Reflection,E1,16,15,15,0,0,0,0,0
+University Scholars Programme,University Scholars Programme,USR4002B,Critical Reflection,E1,16,11,11,0,0,0,0,0
+University Scholars Programme,University Scholars Programme,USR4002C,Critical Reflection,E1,16,8,8,0,0,0,0,0
+University Scholars Programme,University Scholars Programme,USR4002D,Critical Reflection,E1,16,16,16,0,0,0,0,0
+YST Conservatory of Music,YSTCM Dean's Office,GEC1023,Social History of the Piano,L1,10,7,7,0,0,0,0,0
+YST Conservatory of Music,YSTCM Dean's Office,GEC1023,Social History of the Piano,L2,9,9,9,0,0,0,0,0
+YST Conservatory of Music,YSTCM Dean's Office,GEC1023,Social History of the Piano,L3,9,8,7,2,0,1,0,0
+YST Conservatory of Music,YSTCM Dean's Office,GEC1023,Social History of the Piano,L4,9,10,9,0,1,0,0,0
+YST Conservatory of Music,YSTCM Dean's Office,GEH1060,Social History of the Piano,L1,5,8,5,0,3,0,0,0
+YST Conservatory of Music,YSTCM Dean's Office,GEH1060,Social History of the Piano,L2,5,10,5,0,5,0,0,0
+YST Conservatory of Music,YSTCM Dean's Office,GEH1060,Social History of the Piano,L3,5,12,5,0,7,0,0,0
+YST Conservatory of Music,YSTCM Dean's Office,GEH1060,Social History of the Piano,L4,5,12,5,0,7,0,0,0
+YST Conservatory of Music,YSTCM Dean's Office,GES1020,Western Music within a Singaporean Context,L1,10,18,10,0,8,0,0,0
+YST Conservatory of Music,YSTCM Dean's Office,GES1020,Western Music within a Singaporean Context,L2,10,18,10,0,8,0,0,0
+YST Conservatory of Music,YSTCM Dean's Office,GESS1015,Western Music within a Singaporean Context,L1,10,16,10,0,6,0,0,0
+YST Conservatory of Music,YSTCM Dean's Office,GESS1015,Western Music within a Singaporean Context,L2,12,13,12,0,1,0,0,0
+YST Conservatory of Music,YSTCM Dean's Office,MUA1165,Music and Machines,L1,8,6,6,1,0,0,0,0
+YST Conservatory of Music,YSTCM Dean's Office,MUA1223,Desktop Mixing Production,L1,8,25,8,0,17,0,0,0
+YST Conservatory of Music,YSTCM Dean's Office,MUA1270,Interdisciplinary Electronic Arts Survey,S1,4,6,4,0,2,0,0,0
+YST Conservatory of Music,YSTCM Dean's Office,MUA2203,Keyboard Literature: Genres throughout History,L1,15,2,2,0,0,0,0,0
+YST Conservatory of Music,YSTCM Dean's Office,MUA2205,Rhythmic Devices in Performance 1,S1,1,10,1,0,9,0,0,0
+YST Conservatory of Music,YSTCM Dean's Office,MUA2251,Live Interactivity,L1,3,3,3,0,0,0,0,0
+YST Conservatory of Music,YSTCM Dean's Office,MUA2271,Virtual Instrument Sound Design,L1,7,7,7,0,0,0,0,0
+YST Conservatory of Music,YSTCM Dean's Office,MUA3105,Conducting,S2,2147483647,1,1,0,0,0,0,0
+YST Conservatory of Music,YSTCM Dean's Office,MUA3181,Advanced Concepts in Orchestral Repertoire,S3,10,1,1,0,0,0,0,0
+YST Conservatory of Music,YSTCM Dean's Office,MUA3181,Advanced Concepts in Orchestral Repertoire,S5,9,1,1,0,0,0,0,0
+YST Conservatory of Music,YSTCM Dean's Office,MUA3204,Conducting Contemporary Instrumental Music,L1,6,1,1,0,0,0,0,0
+YST Conservatory of Music,YSTCM Dean's Office,MUA3205,Jazz Study and Performance 1,S1,8,7,7,0,0,0,0,0
+YST Conservatory of Music,YSTCM Dean's Office,MUA3213,Music Notation and Engraving,L1,10,1,1,0,0,0,0,0
+YST Conservatory of Music,YSTCM Dean's Office,MUA3219,World Music Ensemble,S1,10,4,4,0,0,0,0,0
+YST Conservatory of Music,YSTCM Dean's Office,MUA3228,Re-imagining Pianism through Analysis,S1,3,4,3,0,1,0,0,0
+YST Conservatory of Music,YSTCM Dean's Office,MUA3230,Music Cognition,L1,12,1,1,0,0,0,0,0
+YST Conservatory of Music,YSTCM Dean's Office,MUA3271,Acoustics and Sound Production for Performers,L1,8,1,1,0,0,0,0,0
+YST Conservatory of Music,YSTCM Dean's Office,MUH2201,Classical Styles and Romantic Spirits,S1,13,3,3,0,0,0,0,0
+YST Conservatory of Music,YSTCM Dean's Office,MUH2201,Classical Styles and Romantic Spirits,S2,15,1,1,0,0,0,0,0
+YST Conservatory of Music,YSTCM Dean's Office,MUL1105,Italian for Musicians 1,S1,3,3,3,0,0,0,0,0
+YST Conservatory of Music,YSTCM Dean's Office,MUL2107,French for Musicians 1,L1,6,1,1,0,0,0,0,0
+YST Conservatory of Music,YSTCM Dean's Office,MUT1201,Introduction to Classical Music Composition,L1,5,4,4,0,0,0,0,0
+YST Conservatory of Music,YSTCM Dean's Office,MUT3113,Orchestration,S1,7,4,4,0,0,0,0,0
+YST Conservatory of Music,YSTCM Dean's Office,MUT3215,Composition for Non-Majors,S1,9,1,1,0,0,0,0,0
+YST Conservatory of Music,YSTCM Dean's Office,MUT3222,Choral Composition,L1,9,3,3,0,0,0,0,0
+YST Conservatory of Music,YSTCM Dean's Office,MUT3224,Teaching Music Online,L1,6,1,1,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YHU2202,Introduction to Creative Nonfiction,E1,2,1,1,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YHU2232,"Global Science Fiction: Their Worlds, Ourselves",E1,2,1,1,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YHU2293,Introduction to Fiction Writing,E1,1,1,0,1,0,0,0,1
+Yale-NUS College,Yale-NUS College,YHU2311,Girlfriends: Narratives of Friendship,E1,1,3,1,0,2,0,0,0
+Yale-NUS College,Yale-NUS College,YHU2319,Acting I,E1,2,1,1,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YHU2322,Comics and Graphic Novels,E1,1,4,1,0,3,0,0,0
+Yale-NUS College,Yale-NUS College,YHU2335,Central Themes in Philosophy of Science,E1,6,1,1,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YHU2336,Learning by (un)doing - Artistic Practice in Grim Times,E1,8,3,3,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YHU2337,The Materiality of Photographs: Craft and Perception,E1,7,4,4,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YHU2338,Social Norms: A Philosophical Introduction,E1,15,2,2,1,0,0,0,0
+Yale-NUS College,Yale-NUS College,YHU3252,"The Roman Emperor Nero: Sex, Stage and Scandal",E1,1,4,1,0,3,0,0,0
+Yale-NUS College,Yale-NUS College,YHU3290,Dante's Divine Comedy,E1,0,3,0,0,3,0,0,0
+Yale-NUS College,Yale-NUS College,YHU3317,The Words and World of Lu Xun,E1,6,5,5,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YHU3336,Goodbye Mao: China's Post Socialist Transformations,E1,1,4,1,0,3,0,0,0
+Yale-NUS College,Yale-NUS College,YHU3362,Ancient Greek Tragedy and Fifth- century Athens,E1,15,1,1,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YHU3366,Edge of Empires: The China- Southeast Asia Borderlands,E1,3,1,1,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YHU3374,Formal Logic,E1,11,1,1,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YHU3375,Thomas Aquinas on Evil,E1,10,2,2,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YHU3376,Situations (Contemporary Art in Today's Society),E1,12,2,2,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YHU3377,The Document in Image-Making,E1,12,5,5,2,0,0,0,0
+Yale-NUS College,Yale-NUS College,YHU3378,"Contemporary Populism: Logic, Method and Implications",E1,16,3,3,1,0,0,0,0
+Yale-NUS College,Yale-NUS College,YHU3379,The Nature of Rationality,E1,16,1,1,1,0,0,0,0
+Yale-NUS College,Yale-NUS College,YHU4238,The Female Image in Japanese Art and Literature,E1,1,1,1,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YHU4244,Global Microhistory,E1,9,1,1,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YHU4255,Borges and Literary Theory,E1,6,1,1,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YID1201,Introduction to Environmental Studies,E1,5,2,1,0,0,0,0,1
+Yale-NUS College,Yale-NUS College,YID3202H,Special Topics: Asia's Edible Ocean,E1,1,3,1,0,2,0,0,0
+Yale-NUS College,Yale-NUS College,YID3211,Ecological Economics,E1,4,1,1,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YID3226,Capitalist Nature: Tensions of a Commodified World,E1,9,4,4,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YID3228,Sustainability Law and Policy,E1,8,11,8,0,1,1,0,1
+Yale-NUS College,Yale-NUS College,YLC2202,Intermediate Chinese 2,E1,11,1,1,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSC1219,Introduction to Black Holes,E1,14,2,2,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSC1223,Science of Everyday Cooking,E2,0,9,0,0,8,0,0,1
+Yale-NUS College,Yale-NUS College,YSC2209,Proof,E1,11,2,2,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSC2216,Evolutionary Biology,E1,11,1,1,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSC2221,Introduction to Python,E2,18,3,3,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSC2222,Organic Chemistry Laboratory,E1,11,1,1,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSC2224,Accelerated Organic Chemistry,E1,8,1,1,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSC2227,C: A Language for Science and Engineering,E1,24,1,1,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSC2229,Introductory Data Structures and Algorithms,E1,4,1,1,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSC2236,Microbiomes,E1,2,4,2,0,1,0,1,0
+Yale-NUS College,Yale-NUS College,YSC2239,Introduction to Data Science,E2,21,4,4,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSC2243,Probability,E1,4,2,2,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSC2252,Multivariable Calculus,E1,22,1,1,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSC2259,Social Insect Societies,E2,4,1,1,1,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSC3235,Animal Behaviour,E1,15,1,1,1,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSC3236,Functional Programming and Proving,E1,20,2,2,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSC3239,Geometry and the Emergence of Perspective,E1,21,1,1,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSC3251,Conservation Ecology,E1,3,2,2,1,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSC4223,Physics in Curved Spacetime,E1,6,1,1,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSC4232,Theory of Computation,E1,22,1,1,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS1206,Introduction to Comparative Politics,E1,1,2,1,0,0,1,0,0
+Yale-NUS College,Yale-NUS College,YSS1206,Introduction to Comparative Politics,E2,9,3,3,1,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS2203,Intermediate Microeconomics,E2,0,2,0,0,2,0,0,0
+Yale-NUS College,Yale-NUS College,YSS2211,Econometrics,E2,16,3,3,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS2216,Statistics and Research Methods for Psychology,E1,4,1,1,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS2227,Introduction to Anthropology,E1,4,3,3,1,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS2228,Modern Southeast Asia,E1,1,2,1,0,1,0,0,0
+Yale-NUS College,Yale-NUS College,YSS3217,Urbanization in China,E1,2,3,2,0,1,0,0,0
+Yale-NUS College,Yale-NUS College,YSS3222,Urban Theory,E1,2,1,1,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS3228,Health Psychology,E1,1,1,1,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS3246,Cities of the Global South,E1,1,2,1,0,1,0,0,0
+Yale-NUS College,Yale-NUS College,YSS3248,Advanced Macroeconomics,E1,8,1,1,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS3262,Global Cities,E1,8,1,1,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS3278,Social Psychology,E1,1,4,1,0,3,0,0,0
+Yale-NUS College,Yale-NUS College,YSS3303,Cities and Economic Development,E1,11,1,1,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS4211,"India as a Rising Power, 1947- Present",E1,9,2,2,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS4226,Migration Policy,E1,8,1,1,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS4234,"Urban Heritage: Place, Memory, Identity",E1,6,3,3,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS4235,Religion and the Media Turn,E1,2,2,2,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS4258,"Asset Pricing, Financial Markets & Behavioural Finance",E1,8,1,1,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS4275,"Law, Governance and Development in Asia",E1,11,1,1,0,0,0,0,0
+Yong Loo Lin Sch of Medicine,Alice Lee Ctr for Nursing Stud,NUR1113A,Healthy Ageing and Well-being,L1,27,3,3,1,0,0,0,0
+Yong Loo Lin Sch of Medicine,Anatomy,LSM2212,Human Anatomy,L1,76,13,13,2,0,0,0,0
+Yong Loo Lin Sch of Medicine,Biochemistry,LSM2106,Fundamental Biochemistry,L1,10,23,10,0,13,0,0,0
+Yong Loo Lin Sch of Medicine,Biochemistry,LSM2233,Cell Biology,L1,82,11,11,0,0,0,0,0
+Yong Loo Lin Sch of Medicine,Biochemistry,LSM3210,Metabolism and Regulation,L1,219,2,2,0,0,0,0,0
+Yong Loo Lin Sch of Medicine,Biochemistry,LSM3231,Protein Structure and Function,L1,18,1,1,0,0,0,0,0
+Yong Loo Lin Sch of Medicine,Biochemistry,LSM3246,Synthetic Biology,L1,71,4,4,0,0,0,0,0
+Yong Loo Lin Sch of Medicine,Microbiology and Immunology,LSM2291,Fundamental Techniques in Microbiology,L1,31,1,1,0,0,0,0,0
+Yong Loo Lin Sch of Medicine,Microbiology and Immunology,LSM3223,Immunology,L1,55,1,1,1,0,0,0,0
+Yong Loo Lin Sch of Medicine,Microbiology and Immunology,LSM3228,Microbiomes and Biofilms,L1,33,2,2,0,0,0,0,0
+Yong Loo Lin Sch of Medicine,Microbiology and Immunology,LSM3232,Microbiology,L1,4,1,1,0,0,0,0,0
+Yong Loo Lin Sch of Medicine,Microbiology and Immunology,LSM4222,Advanced Immunology,L1,22,1,1,1,0,0,0,0
+Yong Loo Lin Sch of Medicine,Microbiology and Immunology,LSM4223,Advances in Antimicrobial Strategies,L1,11,1,1,0,0,0,0,0
+Yong Loo Lin Sch of Medicine,Pharmacology,LSM3211,Fundamental Pharmacology,L1,95,1,1,1,0,0,0,0
+Yong Loo Lin Sch of Medicine,Physiology,ALS1010,Learning to Learn Better,L1,350,254,254,21,0,0,0,0
+Yong Loo Lin Sch of Medicine,Physiology,ALS1010,Learning to Learn Better,L2,350,275,274,8,0,0,1,0
+Yong Loo Lin Sch of Medicine,Physiology,LSM3212,Human Physiology: Cardiopulmonary System,L1,78,1,1,0,0,0,0,0
+Yong Loo Lin Sch of Medicine,Physiology,LSM3215,Neuronal Signaling and Memory Mechanisms,L1,36,1,1,0,0,0,0,0
+Yong Loo Lin Sch of Medicine,Physiology,LSM3235,Epigenetics in Human Health and Diseases,L1,38,1,1,0,0,0,0,0
+Yong Loo Lin Sch of Medicine,Physiology,LSM4232,Advanced Cell Biology,L1,26,3,3,0,0,0,0,0
+Yong Loo Lin Sch of Medicine,Physiology,LSM4243,Tumour Biology,L1,2147483647,10,3,0,7,0,0,0

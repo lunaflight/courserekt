@@ -1,0 +1,35 @@
+#!/bin/bash
+
+# Ensure at least one argument is passed
+if [ $# -eq 0 ]; then
+    echo "No arguments provided. Please provide PDF files as arguments."
+    exit 1
+fi
+
+# The path to the tabula.jar file
+tabula_jar="tabula.jar"
+
+# Iterate over each PDF passed as an argument
+for pdf_file in "$@"; do
+    # Check if the file exists
+    if [ ! -f "$pdf_file" ]; then
+        echo "File not found: $pdf_file"
+        continue
+    fi
+
+    # Get the base name of the file (without the directory or extension)
+    base_name=$(basename "$pdf_file" .pdf)
+
+    # Get the directory of the input file, replace 'pdfs' with 'raw' to construct the output directory
+    input_dir=$(dirname "$pdf_file")
+    output_dir="${input_dir/pdfs/raw}"
+
+    # Ensure the output directory exists
+    mkdir -p "$output_dir"
+
+    # The path to the output CSV file
+    output_file="$output_dir/$base_name.csv"
+
+    # Run the tabula command
+    java -jar "$tabula_jar" -p all -o "$output_file" "$pdf_file"
+done
