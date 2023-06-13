@@ -86,7 +86,7 @@ CS2109 NOT FOUND
 ```
 Here, the output consists of the course code followed by the round-wise status of that course. The arrows represent the progression from round 0 to 3. Each number represents the status of that course in that round. If a course isn't found in the data, a "NOT FOUND" message is displayed. A NaN is displayed if 0 vacancies were available.
 
-For instance, for the course CS2105 in round 1, there were 267 students were vying per 100 vacancies.
+For instance, for the course CS2105 in round 1, there were 267 students vying per 100 vacancies.
 
 
 ## Installation
