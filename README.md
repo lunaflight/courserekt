@@ -91,7 +91,6 @@ Here, the output consists of the course code followed by the round-wise status o
 
 For instance, for the course CS2105 in round 1, 267 students were vying for vacancies per 100 vacancies.
 
-
 ## Installation
 
 1. Clone the repository with `git clone https://github.com/et-irl/nus-demand-analysis.git`.
