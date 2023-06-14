@@ -14,7 +14,7 @@
           <label for="year"><b>Year:</b></label><br>
           <select id="year" name="year">
             <option value="2122" {% if request.form.year == "2122" %}selected{% endif %}>2122</option>
-            <option value="2223" {% if request.form.year == "2223" %}selected{% endif %}>2223</option>
+            <option value="2223" {% if request.form.year == "2223" or not request.form.year %}selected{% endif %}>2223</option>
             <!-- Add more years as needed -->
           </select>
           <br>
@@ -22,7 +22,7 @@
           <div class="radiobutton">
             <label for="semester1">
               <input type="radio" id="semester1" name="semester" value="1" 
-              {% if request.form.semester == "1" %}checked{% endif %}>
+              {% if request.form.semester == "1" or not request.form.semester %}checked{% endif %}>
               Semester 1
             </label>
           </div>
@@ -37,7 +37,7 @@
           <div class="radiobutton">
             <label for="ug">
               <input type="radio" id="ug" name="type" value="ug" 
-              {% if request.form.type == "ug" %}checked{% endif %}>
+              {% if request.form.type == "ug" or not request.form.type %}checked{% endif %}>
               Undergraduate
             </label>
           </div>
@@ -49,7 +49,7 @@
             </label>
           </div>
           <label for="course_codes"><b>Course Codes:</b></label><br>
-          <input type="text" id="course_codes" name="course_codes" value="{{ request.form.course_codes }}"><br>
+          <input type="text" id="course_codes" name="course_codes" autocomplete="off" value="{{ request.form.course_codes }}"><br>
           <input type="submit" value="Search!">
         </form> 
       </div>
