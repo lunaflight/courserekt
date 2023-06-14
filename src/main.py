@@ -5,18 +5,32 @@ import sqlite3
 
 ROUNDS = 4
 INF = 2147483647
-BLANK = f"{Fore.LIGHTBLACK_EX}N/A{Style.RESET_ALL}"
 
 
-def colour_course(x):
-    return f"{Fore.YELLOW}{x}{Style.RESET_ALL}"
+def colour_na(colour):
+    if colour:
+        return f"{Fore.LIGHTBLACK_EX}N/A{Style.RESET_ALL}"
+    else:
+        return "N/A"
 
 
-def colour_percent(x):
+def colour_course(x, colour):
+    if colour:
+        return f"{Fore.YELLOW}{x}{Style.RESET_ALL}"
+    else:
+        return x
+
+
+def colour_percent(x, colour):
     x = float(x)
     if math.isnan(x):
-        return f"{Fore.RED}NaN{Style.RESET_ALL}"
-    if x == 100:
+        if colour:
+            return f"{Fore.RED}NaN{Style.RESET_ALL}"
+        else:
+            return "NaN"
+    elif not colour:
+        return str(x)
+    elif x == 100:
         return f"{Fore.RESET}{x}{Style.RESET_ALL}"
     elif x < 100:
         return f"{Fore.GREEN}{x}{Style.RESET_ALL}"
@@ -24,8 +38,28 @@ def colour_percent(x):
         return f"{Fore.RED}{x}{Style.RESET_ALL}"
 
 
-def colour(demand, vacancy):
-    if demand == vacancy:
+def format(info, colour, percentage):
+    DEMAND = info["demand"]
+    vacancy = info["vacancy"]
+    if DEMAND == -1 and vacancy == -1:
+        return colour_na(colour)
+    elif percentage:
+        PERCENTAGE = round(
+            DEMAND / vacancy * 100
+        ) if vacancy > 0 else 'NaN'
+
+        return colour_percent(PERCENTAGE, colour)
+    else:
+        return colour_demand_vacancy(DEMAND, vacancy, colour)
+
+
+def colour_demand_vacancy(demand, vacancy, colour):
+    if vacancy is INF:
+        vacancy = '∞'
+
+    if not colour:
+        return f"{demand} / {vacancy}"
+    elif demand == vacancy:
         return f"{Fore.RESET}{demand} / {vacancy}{Style.RESET_ALL}"
     elif demand > vacancy:
         return f"{Fore.RED}{demand} / {vacancy}{Style.RESET_ALL}"
@@ -33,12 +67,14 @@ def colour(demand, vacancy):
         return f"{Fore.GREEN}{demand} / {vacancy}{Style.RESET_ALL}"
 
 
-def query_db(year, semester, ug_gd, code, percentage):
+def get_data(year, semester, ug_gd, code):
     # establish the database connection
     conn = sqlite3.connect('database.db')
     conn.row_factory = sqlite3.Row
 
     class_dict = {}
+    output = {'code': code, 'rounds': class_dict}
+    BLANK = {'demand': -1, 'vacancy': -1}
 
     # for each round, execute the SQL query
     for i in range(ROUNDS):
@@ -51,17 +87,9 @@ def query_db(year, semester, ug_gd, code, percentage):
             for row in ROWS:
                 CLASSNAME = row['Class']
                 DEMAND = row['Demand']
-                vacancy = row['Vacancy']
-                PERCENTAGE = round(
-                    DEMAND / vacancy * 100
-                ) if vacancy > 0 else 'NaN'
+                VACANCY = row['Vacancy']
 
-                if vacancy == INF:
-                    vacancy = '∞'
-
-                result = colour_percent(
-                    PERCENTAGE
-                ) if percentage else colour(DEMAND, vacancy)
+                result = {'demand': DEMAND, 'vacancy': VACANCY}
 
                 if CLASSNAME in class_dict:
                     class_dict[CLASSNAME].extend(
@@ -76,20 +104,38 @@ def query_db(year, semester, ug_gd, code, percentage):
     for key in class_dict:
         class_dict[key] += [BLANK] * (ROUNDS - len(class_dict[key]))
 
-    if (len(class_dict) > 0):
-        MAX_KEY_LEN = max(len(key) for key in class_dict.keys())
-        MAX_VALUE_LEN = max(len(str(val)) for sublist in class_dict.values()
-                            for val in sublist)
-        # Print in the desired format
-        print(colour_course(code))
-        for key, value in class_dict.items():
-            PADDED_VALUES = [f"{v:{MAX_VALUE_LEN}}" for v in value]
-            print(f"{key:{MAX_KEY_LEN}}: {' -> '.join(PADDED_VALUES)}")
-    else:
-        print(colour_course(f"{code} NOT FOUND"))
-
     # close the database connection
     conn.close()
+    return output
+
+
+def print_data(year, semester, ug_gd, code, percentage, colour, verbose):
+    if verbose:
+        print(get_data(year, semester, ug_gd, code))
+        return
+
+    DATA = get_data(year, semester, ug_gd, code)
+    CLASSES = DATA['rounds']
+
+    if (len(CLASSES) > 0):
+        print(colour_course(code, colour))
+    else:
+        print(colour_course(f"{code} NOT FOUND", colour))
+
+    for CLASS in CLASSES:
+        class_dict = {CLASS: [format(info, colour, percentage) for info in CLASSES[CLASS]]}
+
+        if (len(class_dict) > 0):
+            MAX_KEY_LEN = max(len(key) for key in CLASSES.keys())
+            print(MAX_KEY_LEN)
+            MAX_VALUE_LEN = max(len(str(val)) for sublist in class_dict.values()
+                                for val in sublist)
+            # Print in the desired format
+            for key, value in class_dict.items():
+                PADDED_VALUES = [f"{v:{MAX_VALUE_LEN}}" for v in value]
+                print(f"{key:{MAX_KEY_LEN}}: {' -> '.join(PADDED_VALUES)}")
+        else:
+            print(colour_course(f"{code} NOT FOUND", colour))
 
 
 # Function to convert the argument to int, or leave it as str if not possible
@@ -121,6 +167,12 @@ parser.add_argument('-p', '--percentage',
 parser.add_argument('-f', '--file',
                     type=str,
                     help='read input from a file containing course codes')
+parser.add_argument('--no-colour',
+                    action='store_true',
+                    help='ensures the output has no colour')
+parser.add_argument('-v', '--verbose',
+                    action='store_true',
+                    help='returns the full api call')
 
 args = parser.parse_args()
 
@@ -132,4 +184,5 @@ if (args.file):
 
 # query the database
 for course_code in course_codes:
-    query_db(args.year, args.semester, args.type, course_code, args.percentage)
+    print_data(args.year, args.semester, args.type, course_code,
+               args.percentage, not args.no_colour, args.verbose)
