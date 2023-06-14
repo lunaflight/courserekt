@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Data</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-container">
+        <form method="POST">
+          <label for="year"><b>Year:</b></label><br>
+          <select id="year" name="year">
+            <option value="2122" {% if request.form.year == "2122" %}selected{% endif %}>2122</option>
+            <option value="2223" {% if request.form.year == "2223" %}selected{% endif %}>2223</option>
+            <!-- Add more years as needed -->
+          </select>
+          <br>
+          <label><b>Semester:</b></label><br>
+          <div class="radiobutton">
+            <label for="semester1">
+              <input type="radio" id="semester1" name="semester" value="1" 
+              {% if request.form.semester == "1" %}checked{% endif %}>
+              Semester 1
+            </label>
+          </div>
+          <div class="radiobutton">
+            <label for="semester2">
+              <input type="radio" id="semester2" name="semester" value="2" 
+              {% if request.form.semester == "2" %}checked{% endif %}>
+              Semester 2
+            </label>
+          </div>
+          <label><b>Type:</b></label><br>
+          <div class="radiobutton">
+            <label for="ug">
+              <input type="radio" id="ug" name="type" value="ug" 
+              {% if request.form.type == "ug" %}checked{% endif %}>
+              Undergraduate
+            </label>
+          </div>
+          <div class="radiobutton">
+            <label for="gd">
+              <input type="radio" id="gd" name="type" value="gd" 
+              {% if request.form.type == "gd" %}checked{% endif %}>
+              Graduate
+            </label>
+          </div>
+          <label for="course_codes"><b>Course Codes:</b></label><br>
+          <input type="text" id="course_codes" name="course_codes" value="{{ request.form.course_codes }}"><br>
+          <input type="submit" value="Search!">
+        </form> 
+      </div>
+
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Course Code</th>
+              <th>Class</th>
+              <th>Round 0</th>
+              <th>Round 1</th>
+              <th>Round 2</th>
+              <th>Round 3</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for course in output %}
+            {% for class_name, class_data in course.classes.items() %}
+            <tr>
+              <td>{{ course.code }}</td>
+              <td>{{ class_name }}</td>
+              <td>{{ class_data[0].demand }} / {{ class_data[0].vacancy }}</td>
+              <td>{{ class_data[1].demand }} / {{ class_data[1].vacancy }}</td>
+              <td>{{ class_data[2].demand }} / {{ class_data[2].vacancy }}</td>
+              <td>{{ class_data[3].demand }} / {{ class_data[3].vacancy }}</td>
+            </tr>
+            {% endfor %}
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+  </body>
+</html>
