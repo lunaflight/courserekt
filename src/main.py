@@ -73,7 +73,7 @@ def get_data(year, semester, ug_gd, code):
     conn.row_factory = sqlite3.Row
 
     class_dict = {}
-    output = {'code': code, 'rounds': class_dict}
+    output = {'code': code, 'classes': class_dict}
     BLANK = {'demand': -1, 'vacancy': -1}
 
     # for each round, execute the SQL query
@@ -115,7 +115,7 @@ def print_data(year, semester, ug_gd, code, percentage, colour, verbose):
         return
 
     DATA = get_data(year, semester, ug_gd, code)
-    CLASSES = DATA['rounds']
+    CLASSES = DATA['classes']
 
     if (len(CLASSES) > 0):
         print(colour_course(code, colour))
