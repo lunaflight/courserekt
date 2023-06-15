@@ -1,10 +1,12 @@
 import argparse
 from colorama import Fore, Style
 import math
+import os
 import sqlite3
 
 ROUNDS = 4
 INF = 2147483647
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 
 def colour_na(colour):
@@ -71,7 +73,7 @@ def get_data(year, semester, ug_gd, code):
     code = code.upper()
 
     # establish the database connection
-    conn = sqlite3.connect('database.db')
+    conn = sqlite3.connect(os.path.join(BASE_DIR, 'database.db'))
     conn.row_factory = sqlite3.Row
 
     class_dict = {}
@@ -161,43 +163,44 @@ def int_or_str(value):
         return value
 
 
-# setup command line argument parsing
-parser = argparse.ArgumentParser(description='Query course data.')
-parser.add_argument('-y', '--year',
-                    type=int_or_str,
-                    help='read reports from this year')
-parser.add_argument('-s', '--semester',
-                    type=int_or_str,
-                    help='read reports from this semester')
-parser.add_argument('-t', '--type',
-                    type=str,
-                    help='read reports from "ug" or "gd"',
-                    default='ug')
-parser.add_argument('-c', '--course_codes',
-                    type=str, nargs='+',
-                    help='list of course codes')
-parser.add_argument('-p', '--percentage',
-                    action='store_true',
-                    help='change the format to a percentage')
-parser.add_argument('-f', '--file',
-                    type=str,
-                    help='read input from a file containing course codes')
-parser.add_argument('--no-colour',
-                    action='store_true',
-                    help='ensures the output has no colour')
-parser.add_argument('-v', '--verbose',
-                    action='store_true',
-                    help='returns the full api call')
+if __name__ == "__main__":
+    # setup command line argument parsing
+    parser = argparse.ArgumentParser(description='Query course data.')
+    parser.add_argument('-y', '--year',
+                        type=int_or_str,
+                        help='read reports from this year')
+    parser.add_argument('-s', '--semester',
+                        type=int_or_str,
+                        help='read reports from this semester')
+    parser.add_argument('-t', '--type',
+                        type=str,
+                        help='read reports from "ug" or "gd"',
+                        default='ug')
+    parser.add_argument('-c', '--course_codes',
+                        type=str, nargs='+',
+                        help='list of course codes')
+    parser.add_argument('-p', '--percentage',
+                        action='store_true',
+                        help='change the format to a percentage')
+    parser.add_argument('-f', '--file',
+                        type=str,
+                        help='read input from a file containing course codes')
+    parser.add_argument('--no-colour',
+                        action='store_true',
+                        help='ensures the output has no colour')
+    parser.add_argument('-v', '--verbose',
+                        action='store_true',
+                        help='returns the full api call')
 
-args = parser.parse_args()
+    args = parser.parse_args()
 
-course_codes = args.course_codes or []
+    course_codes = args.course_codes or []
 
-if (args.file):
-    with open(args.file, 'r') as file:
-        course_codes = course_codes + [line.strip() for line in file]
+    if (args.file):
+        with open(args.file, 'r') as file:
+            course_codes = course_codes + [line.strip() for line in file]
 
-# query the database
-for course_code in course_codes:
-    print_data(args.year, args.semester, args.type, course_code,
-               args.percentage, not args.no_colour, args.verbose)
+    # query the database
+    for course_code in course_codes:
+        print_data(args.year, args.semester, args.type, course_code,
+                   args.percentage, not args.no_colour, args.verbose)
