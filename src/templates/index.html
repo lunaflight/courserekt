@@ -54,6 +54,14 @@
         </form> 
       </div>
 
+      {% if errors %}
+      <div class="errors">
+        {% for error in errors %}
+        <p>{{ error }}</p>
+        {% endfor %}
+      </div>
+      {% endif %}
+
       <div class="table-container">
         <table>
           <thead>

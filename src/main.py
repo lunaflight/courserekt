@@ -68,37 +68,48 @@ def colour_demand_vacancy(demand, vacancy, colour):
 
 
 def get_data(year, semester, ug_gd, code):
+    code = code.upper()
+
     # establish the database connection
     conn = sqlite3.connect('database.db')
     conn.row_factory = sqlite3.Row
 
     class_dict = {}
-    output = {'code': code, 'classes': class_dict}
+    output = {'code': code, 'classes': class_dict, 'error': None}
     BLANK = {'demand': -1, 'vacancy': -1}
 
     # for each round, execute the SQL query
     for i in range(ROUNDS):
         TABLE_NAME = f"data_cleaned_{year}_{semester}_{ug_gd}_round_{i}"
+
+        # check if table exists first
+        cursor = conn.execute(f"SELECT name FROM sqlite_master WHERE type='table' AND name=?", (TABLE_NAME,))
+        if cursor.fetchone() is None:
+            output["error"] = f"History for the given year {year} semester {semester} ({ug_gd}) not found."
+            return output
+
         cursor = conn.execute(f"SELECT * FROM {TABLE_NAME} WHERE Code=?",
                               (code,))
 
         ROWS = cursor.fetchall()
-        if ROWS:
-            for row in ROWS:
-                CLASSNAME = row['Class']
-                DEMAND = row['Demand']
-                VACANCY = row['Vacancy']
+        if not ROWS:
+            output["error"] = f"Course {code} not found."
 
-                result = {'demand': DEMAND, 'vacancy': VACANCY}
+        for row in ROWS:
+            CLASSNAME = row['Class']
+            DEMAND = row['Demand']
+            VACANCY = row['Vacancy']
 
-                if CLASSNAME in class_dict:
-                    class_dict[CLASSNAME].extend(
-                            [BLANK for _
-                             in range(i - len(class_dict[CLASSNAME]))])
-                    class_dict[CLASSNAME].append(result)
-                else:
-                    class_dict[CLASSNAME] = [BLANK] * i
-                    class_dict[CLASSNAME].append(result)
+            result = {'demand': DEMAND, 'vacancy': VACANCY}
+
+            if CLASSNAME in class_dict:
+                class_dict[CLASSNAME].extend(
+                        [BLANK for _
+                         in range(i - len(class_dict[CLASSNAME]))])
+                class_dict[CLASSNAME].append(result)
+            else:
+                class_dict[CLASSNAME] = [BLANK] * i
+                class_dict[CLASSNAME].append(result)
 
     # Pad classes that don't have all the round information
     for key in class_dict:
@@ -115,6 +126,10 @@ def print_data(year, semester, ug_gd, code, percentage, colour, verbose):
         return
 
     DATA = get_data(year, semester, ug_gd, code)
+    if not DATA['error'] is None:
+        print(DATA['error'])
+        return
+
     CLASSES = DATA['classes']
 
     if (len(CLASSES) > 0):
@@ -127,15 +142,12 @@ def print_data(year, semester, ug_gd, code, percentage, colour, verbose):
 
         if (len(class_dict) > 0):
             MAX_KEY_LEN = max(len(key) for key in CLASSES.keys())
-            print(MAX_KEY_LEN)
             MAX_VALUE_LEN = max(len(str(val)) for sublist in class_dict.values()
                                 for val in sublist)
             # Print in the desired format
             for key, value in class_dict.items():
                 PADDED_VALUES = [f"{v:{MAX_VALUE_LEN}}" for v in value]
                 print(f"{key:{MAX_KEY_LEN}}: {' -> '.join(PADDED_VALUES)}")
-        else:
-            print(colour_course(f"{code} NOT FOUND", colour))
 
 
 # Function to convert the argument to int, or leave it as str if not possible

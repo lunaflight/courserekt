@@ -13,11 +13,15 @@ def home():
         course_codes = request.form.get('course_codes').split()
 
         output = []
+        errors = []
         for course_code in course_codes:
             data = get_data(year, semester, type, course_code)
-            output.append(data)
+            if data["error"] is None:
+                output.append(data)
+            else:
+                errors.append(data["error"])
 
-        return render_template('index.html', output=output)
+        return render_template('index.html', output=output, errors=errors)
     else:
         return render_template('index.html')
 
