@@ -52,15 +52,17 @@
           <input type="text" id="course_codes" name="course_codes" autocomplete="off" value="{{ request.form.course_codes }}"><br>
           <input type="submit" value="Search!">
         </form> 
+        {% if errors %}
+        <div style="color: #f44336; font-size: 0.8em;">
+          <strong>Error:</strong>
+          <ul>
+            {% for error in errors %}
+            <li>{{ error }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %}
       </div>
-
-      {% if errors %}
-      <div class="errors">
-        {% for error in errors %}
-        <p>{{ error }}</p>
-        {% endfor %}
-      </div>
-      {% endif %}
 
       <div class="table-container">
         <table>
@@ -90,5 +92,8 @@
           </tbody>
         </table>
       </div>
+
+      <div id="errorPopup" class="error-popup"></div>
+
   </body>
 </html>

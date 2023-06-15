@@ -12,10 +12,15 @@ This project follows these steps:
 2. **PDF Parsing:** The PDFs are parsed using [Tabula](https://github.com/tabulapdf/tabula-java) to produce CSV files in `data/raws/[year]/[semester]/[ug/gd]/round_{0,1,2,3}.csv`. Java is used for this purpose, and we use a bash script `./convert_pdfs` to facilitate conversion.
 3. **Data Cleaning:** The raw CSV files are passed through `clean_csvs.py` to produce clean CSVs in `data/cleaned/[year]/[semester]/[ug/gd]/round_{0,1,2,3}.csv`.
 4. **Database Entry:** The cleaned CSVs are added to the `database.db` by passing them through `csv_to_db.py`.
+5. **Web Application:** A Flask-based web application serves the data from the database. It includes a form for users to specify the year, semester, type, and course codes. It returns a neatly formatted table with information about the requested courses.
 
-All of these steps are orchestrated using a Makefile. You just need to add the PDF to the correct folder location.
+All of these steps are orchestrated using a Makefile. You just need to add the PDF to the correct folder location, then run `make all`.
 
 ## Usage
+
+There are two main ways to use this project:
+
+### CLI
 
 The script accepts several command-line arguments:
 
@@ -31,13 +36,26 @@ Options:
 - `-c COURSE_CODES [COURSE_CODES ...]`, `--course_codes COURSE_CODES [COURSE_CODES ...]`: A list of course codes to fetch data for.
 - `-p`, `--percentage`: Change the output format to a percentage of subscription relative to vacancies.
 - `-f FILE`, `--file FILE`: Read input from a file containing a list of course codes. The course codes in the file should be separated by new lines.
-- `--no-colour`: Ensures the output has no colour
-- `-v`, `--verbose`: Returns the full api
+- `--no-colour`: Ensures the output has no colour.
+- `-v`, `--verbose`: Returns the full api.
 
+Refer to the examples given below for how to use these arguments.
+
+### Web App
+
+In addition to the CLI, a web app has been created for a more user-friendly experience. The implementation uses Flask with HTML and CSS residing in `templates` and `static` directories respectively.
+
+To start the web app, you can use the following command:
+
+```shell
+python app.py
+```
+
+After running the command, open a web browser and navigate to `http://localhost:5000/`. You can then fill the form and press the 'Submit' button to get the analysis.
 
 ### Examples
 
-**Query for course data for specific courses:**
+**Query for course data the CLI:**
 
 ```shell
 python main.py -y 2223 -t "gd" -s 1 -c "CS4248" "CS5330"

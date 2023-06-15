@@ -92,8 +92,6 @@ def get_data(year, semester, ug_gd, code):
                               (code,))
 
         ROWS = cursor.fetchall()
-        if not ROWS:
-            output["error"] = f"Course {code} not found."
 
         for row in ROWS:
             CLASSNAME = row['Class']
@@ -115,6 +113,9 @@ def get_data(year, semester, ug_gd, code):
     for key in class_dict:
         class_dict[key] += [BLANK] * (ROUNDS - len(class_dict[key]))
 
+    if len(class_dict) == 0:
+        output["error"] = f"Course {code} not found."
+
     # close the database connection
     conn.close()
     return output
@@ -133,17 +134,19 @@ def print_data(year, semester, ug_gd, code, percentage, colour, verbose):
     CLASSES = DATA['classes']
 
     if (len(CLASSES) > 0):
-        print(colour_course(code, colour))
+        print(colour_course(DATA['code'], colour))
     else:
         print(colour_course(f"{code} NOT FOUND", colour))
 
+    MAX_KEY_LEN = max(len(key) for key in CLASSES.keys())
+    MAX_VALUE_LEN = max(len(str(format(val, colour, percentage)))
+                        for sublist in CLASSES.values() for val in sublist)
+
     for CLASS in CLASSES:
-        class_dict = {CLASS: [format(info, colour, percentage) for info in CLASSES[CLASS]]}
+        class_dict = {CLASS: [format(info, colour, percentage)
+                              for info in CLASSES[CLASS]]}
 
         if (len(class_dict) > 0):
-            MAX_KEY_LEN = max(len(key) for key in CLASSES.keys())
-            MAX_VALUE_LEN = max(len(str(val)) for sublist in class_dict.values()
-                                for val in sublist)
             # Print in the desired format
             for key, value in class_dict.items():
                 PADDED_VALUES = [f"{v:{MAX_VALUE_LEN}}" for v in value]
