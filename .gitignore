@@ -1,3 +1,4 @@
 .mypy_cache
-src/__pycache__
+.pytest_cache
+src/data_cleaner/__pycache__
 tests/__pycache__

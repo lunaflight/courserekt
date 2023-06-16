@@ -1,5 +1,5 @@
 import unittest
-from src.main import get_data
+from src.data_cleaner.api import get_data
 
 
 class MainTestCase(unittest.TestCase):

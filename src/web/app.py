@@ -1,5 +1,9 @@
+import sys
+import os
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+
 from flask import Flask, render_template, request
-from main import get_data
+from data_cleaner.api import get_data
 
 app = Flask(__name__)
 
