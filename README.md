@@ -4,6 +4,27 @@
 
 Browsing through Demand Allocation Reports to gain insights about course subscription trends can be a challenging task. It involves parsing multiple PDFs for every round, comparing trends, and examining the classes available. This project aims to streamline this process, making analysis of a course's past popularity more accessible and straightforward.
 
+![Picture of the web app.](https://sussyamongus.s-ul.eu/vqBcKPji)
+![Picture of the CLI (Command Line Interface).](https://sussyamongus.s-ul.eu/4uUP55xh)
+
+## Software Engineering Practices
+
+In the development of this project, several software engineering best practices were adopted to ensure code quality, ease of collaboration and maintainability. Below are some of the practices used:
+
+1. **Version Control System (VCS):** The project uses Git as a version control system. It was instrumental in tracking changes and enabling collaboration.
+
+2. **Automated Testing:** Automated testing was performed using Pytest. These tests helped in quickly identifying issues and validating the effectiveness of fixes.
+
+3. ~~**Continuous Integration/Continuous Deployment (CI/CD):**~~ *(Not yet implemented)*
+
+4. **Coding Standards:** The project adheres to common Python coding standards. This includes practices like maintaining less than 80 characters per line, consistent indentation, and the use of descriptive variable names among others. These standards enhance code readability and maintainability.
+
+5. **Design Principles:** The code has been written with simplicity and readability in mind. The functions are kept small and focus on doing one thing well, which is in line with the UNIX philosophy.
+
+6. **Documentation:** Comprehensive documentation was a priority. This README provides an in-depth understanding of the project. The codebase also includes comments where necessary, providing context and explanation for complex code blocks.
+
+The inclusion of these practices helped ensure the development of a robust and maintainable project while fostering an environment conducive to collaboration.
+
 ## Implementation
 
 This project follows these steps:
@@ -22,43 +43,36 @@ There are two main ways to use this project:
 
 ### CLI
 
-The script accepts several command-line arguments:
+<details>
+<summary>CLI Usage (Click to Expand)</summary>
+
+To start the CLI, navigate to `src/data_cleaner` and you can use the following command:
 
 ```shell
+python cli.py
+
 usage: main.py [-h] [-y YEAR] [-s SEMESTER] [-t TYPE] [-c COURSE_CODES [COURSE_CODES ...]] [-p] [-f FILE]
 ```
 
 Options:
-- `-h`, `--help`: Show the help message and exit.
-- `-y YEAR`, `--year YEAR`: Read reports from this year.
-- `-s SEMESTER`, `--semester SEMESTER`: Read reports from this semester.
-- `-t TYPE`, `--type TYPE`: Read reports from "ug" or "gd".
-- `-c COURSE_CODES [COURSE_CODES ...]`, `--course_codes COURSE_CODES [COURSE_CODES ...]`: A list of course codes to fetch data for.
-- `-p`, `--percentage`: Change the output format to a percentage of subscription relative to vacancies.
-- `-f FILE`, `--file FILE`: Read input from a file containing a list of course codes. The course codes in the file should be separated by new lines.
+- `-h`, `--help`: Show this help message and exit.
+- `-y YEAR`, `--year YEAR`: Read reports from this academic year. This argument is required. Format: (2223 or "22/23" or "22-23" or "2022"). Note: The academic year is based on the starting year.
+- `-s SEMESTER`, `--semester SEMESTER`: Read reports from this semester. This argument is required. Format: (1 or 2).
+- `-t TYPE`, `--type TYPE`: Read reports from "ug" (undergraduate) or "gd" (graduate). Format: ("ug" or "gd" or "undergraduate" or "graduate").
+- `-c COURSE_CODES [COURSE_CODES ...]`, `--course_codes COURSE_CODES [COURSE_CODES ...]`: A list of course codes.
+- `-p`, `--percentage`: Converts some unspecified value to a percentage.
+- `-f FILE`, `--file FILE`: Read input from a file containing course codes.
 - `--no-colour`: Ensures the output has no colour.
-- `-v`, `--verbose`: Returns the full api.
+- `-v`, `--verbose`: Returns the full API call.
 
 Refer to the examples given below for how to use these arguments.
-
-### Web App
-
-In addition to the CLI, a web app has been created for a more user-friendly experience. The implementation uses Flask with HTML and CSS residing in `templates` and `static` directories respectively.
-
-To start the web app, you can use the following command:
-
-```shell
-python app.py
-```
-
-After running the command, open a web browser and navigate to `http://localhost:5000/`. You can then fill the form and press the 'Submit' button to get the analysis.
 
 ### Examples
 
 **Query for course data the CLI:**
 
 ```shell
-python main.py -y 2223 -t "gd" -s 1 -c "CS4248" "CS5330"
+python cli.py -y 2223 -t "gd" -s 1 -c "CS4248" "CS5330"
 ```
 This command fetches information for the courses "CS4248" and "CS5330" for the year 22/23, semester 1, as a graduate student. 
 
@@ -78,7 +92,7 @@ For instance, for the course CS4248 in round 0, there were 28 students registere
 ### Example
 
 ```shell
-python main.py -y 2223 -s 2 -p -f "example_in.txt"
+python cli.py -y 2223 -s 2 -p -f "example_in.txt"
 ```
 This command fetches information for the courses listed in `example_in.txt` (separated by new lines) for the year 22/23, semester 2, as an undergraduate. The `-p` flag indicates that the output will display percentage of subscription relative to vacancies.
 
@@ -108,6 +122,23 @@ CS2109 NOT FOUND
 Here, the output consists of the course code followed by the round-wise status of that course. The arrows represent the progression from round 0 to 3. Each number represents the status of that course in that round. If a course isn't found in the data, a "NOT FOUND" message is displayed. A NaN is displayed if 0 vacancies were available.
 
 For instance, for the course CS2105 in round 1, 267 students were vying for vacancies per 100 vacancies.
+</details>
+
+### Web App
+
+<details>
+<summary>Web App Usage (Click to Expand)</summary>
+
+In addition to the CLI, a web app has been created for a more user-friendly experience. The implementation uses Flask with HTML and CSS residing in `templates` and `static` directories respectively.
+
+To start the web app, navigate to `src/web` and you can use the following command:
+
+```shell
+python app.py
+```
+
+After running the command, open a web browser and navigate to `http://localhost:5000/`. You can then fill the form and press the 'Submit' button to get the analysis.
+</details>
 
 ## Installation
 
