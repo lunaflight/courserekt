@@ -111,26 +111,37 @@ def int_or_str(value):
 
 
 if __name__ == "__main__":
-    # setup command line argument parsing
     parser = argparse.ArgumentParser(description='Query course data.')
     parser.add_argument('-y', '--year',
                         type=int_or_str,
-                        help='read reports from this year',
+                        help=(
+                            'read reports from this academic year. '
+                            'This argument is required.\n'
+                            'format: (2223 or "22/23" or "22-23" or "2022").\n'
+                            'Note: The academic year is based on '
+                            'the starting year.'),
                         required=True)
     parser.add_argument('-s', '--semester',
                         type=int_or_str,
-                        help='read reports from this semester',
+                        help=(
+                            'read reports from this semester. '
+                            'This argument is required.\n'
+                            'format: (1 or 2)'),
                         required=True)
     parser.add_argument('-t', '--type',
                         type=str,
-                        help='read reports from "ug" or "gd"',
+                        help=(
+                            'read reports from "ug" (undergraduate) '
+                            'or "gd" (graduate).\n'
+                            'format: ("ug" or "gd" or "undergraduate" '
+                            'or "graduate")'),
                         default='ug')
     parser.add_argument('-c', '--course_codes',
                         type=str, nargs='+',
                         help='list of course codes')
     parser.add_argument('-p', '--percentage',
                         action='store_true',
-                        help='change the format to a percentage')
+                        help='converts some unspecified value to a percentage')
     parser.add_argument('-f', '--file',
                         type=str,
                         help='read input from a file containing course codes')
@@ -139,7 +150,7 @@ if __name__ == "__main__":
                         help='ensures the output has no colour')
     parser.add_argument('-v', '--verbose',
                         action='store_true',
-                        help='returns the full api call')
+                        help='returns the full API call')
 
     args = parser.parse_args()
 

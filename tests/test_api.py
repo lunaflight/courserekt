@@ -37,16 +37,32 @@ class MainTestCase(unittest.TestCase):
         result = get_data("22 23", "2", "ug", "CS2030S")
         self.assert_known_2223_2_ug_cs2030s_result(result)
 
+    def test_8_digit_year(self):
+        result = get_data("20222023", "2", "ug", "CS2030S")
+        self.assert_known_2223_2_ug_cs2030s_result(result)
+
+    def test_8_digit_year_with_space(self):
+        result = get_data("2022 2023", "2", "ug", "CS2030S")
+        self.assert_known_2223_2_ug_cs2030s_result(result)
+
+    def test_8_digit_year_with_slash(self):
+        result = get_data("2022-2023", "2", "ug", "CS2030S")
+        self.assert_known_2223_2_ug_cs2030s_result(result)
+
+    def test_8_digit_year_with_dash(self):
+        result = get_data("2022-2023", "2", "ug", "CS2030S")
+        self.assert_known_2223_2_ug_cs2030s_result(result)
+
     def test_spaces_in_strings(self):
         result = get_data("  2223 ", " 2", " ug", "CS2030S ")
         self.assert_known_2223_2_ug_cs2030s_result(result)
 
     def test_num_representation_of_year(self):
-        result = get_data(2223, " 2", " ug", "CS2030S ")
+        result = get_data(2223, "2", "ug", "CS2030S")
         self.assert_known_2223_2_ug_cs2030s_result(result)
 
     def test_num_representation_of_semester(self):
-        result = get_data("2223", 2, " ug", "CS2030S ")
+        result = get_data("2223", 2, "ug", "CS2030S")
         self.assert_known_2223_2_ug_cs2030s_result(result)
 
     def test_good_multiple_class(self):
