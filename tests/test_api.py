@@ -41,6 +41,14 @@ class MainTestCase(unittest.TestCase):
         result = get_data("  2223 ", " 2", " ug", "CS2030S ")
         self.assert_known_2223_2_ug_cs2030s_result(result)
 
+    def test_num_representation_of_year(self):
+        result = get_data(2223, " 2", " ug", "CS2030S ")
+        self.assert_known_2223_2_ug_cs2030s_result(result)
+
+    def test_num_representation_of_semester(self):
+        result = get_data("2223", 2, " ug", "CS2030S ")
+        self.assert_known_2223_2_ug_cs2030s_result(result)
+
     def test_good_multiple_class(self):
         result = get_data("2223", "2", "ug", "CS2102")
         self.assertTrue(result['code'] == 'CS2102')

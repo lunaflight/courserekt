@@ -7,8 +7,8 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 
 def get_data(year, semester, ug_gd, code):
-    year = year.strip().replace("/", "").replace(" ", "")
-    semester = semester.strip()
+    year = str(year).strip().replace("/", "").replace(" ", "")
+    semester = str(semester).strip()
     ug_gd = ug_gd.strip().lower()
     code = code.strip().upper()
 
