@@ -76,7 +76,7 @@ def print_data(year, semester, ug_gd, code, percentage, colour, verbose):
         return
 
     DATA = get_data(year, semester, ug_gd, code)
-    if not DATA['error'] is None:
+    if DATA['error'] is not None:
         print(DATA['error'])
         return
 
@@ -115,10 +115,12 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Query course data.')
     parser.add_argument('-y', '--year',
                         type=int_or_str,
-                        help='read reports from this year')
+                        help='read reports from this year',
+                        required=True)
     parser.add_argument('-s', '--semester',
                         type=int_or_str,
-                        help='read reports from this semester')
+                        help='read reports from this semester',
+                        required=True)
     parser.add_argument('-t', '--type',
                         type=str,
                         help='read reports from "ug" or "gd"',
@@ -140,6 +142,10 @@ if __name__ == "__main__":
                         help='returns the full api call')
 
     args = parser.parse_args()
+
+    # check if neither -c nor -f is provided
+    if args.course_codes is None and args.file is None:
+        parser.error("at least one of -c/--course_codes or -f/--file required")
 
     course_codes = args.course_codes or []
 

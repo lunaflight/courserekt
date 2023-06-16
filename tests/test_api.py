@@ -97,6 +97,22 @@ class MainTestCase(unittest.TestCase):
         result = get_data("2223", "2", "ug", "CC0092")
         self.assertTrue(result['error'] is not None)
 
+    def test_missing_year(self):
+        result = get_data("", "2", "ug", "CS2030S")
+        self.assertTrue(result['error'] is not None)
+
+    def test_missing_semester(self):
+        result = get_data("2223", "", "ug", "CS2030S")
+        self.assertTrue(result['error'] is not None)
+
+    def test_missing_type(self):
+        result = get_data("2223", "2", "", "CS2030S")
+        self.assertTrue(result['error'] is not None)
+
+    def test_missing_course(self):
+        result = get_data("2223", "2", "ug", "")
+        self.assertTrue(result['error'] is not None)
+
 
 if __name__ == '__main__':
     unittest.main()
