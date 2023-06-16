@@ -7,24 +7,45 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 
 def get_data(year, semester, ug_gd, code):
-    code = code.upper()
+    year = year.strip().replace("/", "").replace(" ", "")
+    semester = semester.strip()
+    ug_gd = ug_gd.strip().lower()
+    code = code.strip().upper()
 
     # establish the database connection
     conn = sqlite3.connect(os.path.join(BASE_DIR, 'database.db'))
     conn.row_factory = sqlite3.Row
 
     class_dict = {}
-    output = {'code': code, 'classes': class_dict, 'error': None}
-    BLANK = {'demand': -1, 'vacancy': -1}
+    output = {
+            'faculty': None,
+            'department': None,
+            'code': code,
+            'title': None,
+            'classes': class_dict,
+            'error': None}
+    BLANK = {'demand': -1,
+             'vacancy': -1,
+             'successful_main': -1,
+             'successful_reserve': -1,
+             'quota_exceeded': -1,
+             'timetable_clashes': -1,
+             'workload_exceeded': -1,
+             'others': -1}
 
     # for each round, execute the SQL query
     for i in range(ROUNDS):
         TABLE_NAME = f"data_cleaned_{year}_{semester}_{ug_gd}_round_{i}"
 
         # check if table exists first
-        cursor = conn.execute(f"SELECT name FROM sqlite_master WHERE type='table' AND name=?", (TABLE_NAME,))
+        cursor = conn.execute(
+                "SELECT name FROM sqlite_master WHERE type='table' AND name=?",
+                (TABLE_NAME,))
         if cursor.fetchone() is None:
-            output["error"] = f"History for the given year {year} semester {semester} ({ug_gd}) not found."
+            output["error"] = (
+                f"History for the given year {year} semester {semester} "
+                f"({ug_gd}) not found."
+                )
             return output
 
         cursor = conn.execute(f"SELECT * FROM {TABLE_NAME} WHERE Code=?",
@@ -34,10 +55,19 @@ def get_data(year, semester, ug_gd, code):
 
         for row in ROWS:
             CLASSNAME = row['Class']
-            DEMAND = row['Demand']
-            VACANCY = row['Vacancy']
+            output['faculty'] = row['Faculty']
+            output['department'] = row['Department']
+            output['code'] = row['Code']
+            output['title'] = row['Title']
 
-            result = {'demand': DEMAND, 'vacancy': VACANCY}
+            result = {'demand': row['Demand'],
+                      'vacancy': row['Vacancy'],
+                      'successful_main': row['Successful (Main)'],
+                      'successful_reserve': row['Successful (Reserve)'],
+                      'quota_exceeded': row['Quota Exceeded'],
+                      'timetable_clashes': row['Timetable Clashes'],
+                      'workload_exceeded': row['Workload Exceeded'],
+                      'others': row['Others']}
 
             if CLASSNAME in class_dict:
                 class_dict[CLASSNAME].extend(
