@@ -92,3 +92,19 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #45a049;
 }
+
+.less-demand {
+    background-color: lightgreen;
+}
+
+.more-demand {
+    background-color: lightcoral;
+}
+
+.equal-demand {
+    background-color: white;
+}
+
+.no-data {
+    background-color: lightgrey;
+}

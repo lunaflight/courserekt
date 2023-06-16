@@ -11,10 +11,10 @@
     <div class="container">
       <div class="form-container">
         <form method="POST">
-          <label for="year"><b>Year:</b></label><br>
+          <label for="year"><b>Academic Year:</b></label><br>
           <select id="year" name="year">
-            <option value="2122" {% if request.form.year == "2122" %}selected{% endif %}>2122</option>
-            <option value="2223" {% if request.form.year == "2223" or not request.form.year %}selected{% endif %}>2223</option>
+            <option value="21/22" {% if request.form.year == "21/22" %}selected{% endif %}>21/22</option>
+            <option value="22/23" {% if request.form.year == "22/23" or not request.form.year %}selected{% endif %}>22/23</option>
             <!-- Add more years as needed -->
           </select>
           <br>
@@ -82,18 +82,20 @@
             <tr>
               <td>{{ course.code }}</td>
               <td>{{ class_name }}</td>
-              <td>{{ class_data[0].demand }} / {{ class_data[0].vacancy }}</td>
-              <td>{{ class_data[1].demand }} / {{ class_data[1].vacancy }}</td>
-              <td>{{ class_data[2].demand }} / {{ class_data[2].vacancy }}</td>
-              <td>{{ class_data[3].demand }} / {{ class_data[3].vacancy }}</td>
+              {% for data in class_data %}
+              <td class="{% if data.demand == -1 and data.vacancy == -1 %}no-data{% elif data.demand < data.vacancy %}less-demand{% elif data.demand > data.vacancy %}more-demand{% else %}equal-demand{% endif %}">
+                {% if data.demand == -1 and data.vacancy == -1 %}
+                N/A
+                {% else %}
+                {{ data.demand }} / {{ data.vacancy }}
+                {% endif %}
+              </td>
+              {% endfor %}
             </tr>
             {% endfor %}
             {% endfor %}
           </tbody>
         </table>
       </div>
-
-      <div id="errorPopup" class="error-popup"></div>
-
   </body>
 </html>
