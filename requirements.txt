@@ -1,5 +1,6 @@
-pandas==2.0.2
-numpy==1.24.3
 colorama==0.4.6
-flask==2.3.2
+Flask==2.3.2
+gunicorn==20.1.0
+numpy==1.24.3
+pandas==2.0.2
 pytest==7.3.2
