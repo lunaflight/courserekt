@@ -1,0 +1,520 @@
+{
+    "CS3241": {
+        "Lecture": {
+            "1": [
+                {
+                    "classNo": "1",
+                    "startTime": "1400",
+                    "endTime": "1600",
+                    "weeks": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                    ],
+                    "venue": "LT19",
+                    "day": "Friday",
+                    "lessonType": "Lecture",
+                    "size": 200,
+                    "covidZone": "B"
+                }
+            ]
+        },
+        "Tutorial": {
+            "06": [
+                {
+                    "classNo": "06",
+                    "startTime": "1200",
+                    "endTime": "1400",
+                    "weeks": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                    ],
+                    "venue": "AS6-0421",
+                    "day": "Tuesday",
+                    "lessonType": "Tutorial",
+                    "size": 24,
+                    "covidZone": "B"
+                }
+            ],
+            "07": [
+                {
+                    "classNo": "07",
+                    "startTime": "1400",
+                    "endTime": "1600",
+                    "weeks": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                    ],
+                    "venue": "AS6-0421",
+                    "day": "Tuesday",
+                    "lessonType": "Tutorial",
+                    "size": 24,
+                    "covidZone": "B"
+                }
+            ],
+            "04": [
+                {
+                    "classNo": "04",
+                    "startTime": "1600",
+                    "endTime": "1800",
+                    "weeks": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                    ],
+                    "venue": "AS6-0421",
+                    "day": "Monday",
+                    "lessonType": "Tutorial",
+                    "size": 24,
+                    "covidZone": "B"
+                }
+            ],
+            "05": [
+                {
+                    "classNo": "05",
+                    "startTime": "1000",
+                    "endTime": "1200",
+                    "weeks": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                    ],
+                    "venue": "AS6-0421",
+                    "day": "Tuesday",
+                    "lessonType": "Tutorial",
+                    "size": 24,
+                    "covidZone": "B"
+                }
+            ],
+            "01": [
+                {
+                    "classNo": "01",
+                    "startTime": "1000",
+                    "endTime": "1200",
+                    "weeks": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                    ],
+                    "venue": "AS6-0421",
+                    "day": "Monday",
+                    "lessonType": "Tutorial",
+                    "size": 24,
+                    "covidZone": "B"
+                }
+            ],
+            "02": [
+                {
+                    "classNo": "02",
+                    "startTime": "1200",
+                    "endTime": "1400",
+                    "weeks": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                    ],
+                    "venue": "AS6-0421",
+                    "day": "Monday",
+                    "lessonType": "Tutorial",
+                    "size": 24,
+                    "covidZone": "B"
+                }
+            ],
+            "08": [
+                {
+                    "classNo": "08",
+                    "startTime": "1600",
+                    "endTime": "1800",
+                    "weeks": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                    ],
+                    "venue": "AS6-0421",
+                    "day": "Tuesday",
+                    "lessonType": "Tutorial",
+                    "size": 24,
+                    "covidZone": "B"
+                }
+            ],
+            "09": [
+                {
+                    "classNo": "09",
+                    "startTime": "1000",
+                    "endTime": "1200",
+                    "weeks": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                    ],
+                    "venue": "AS6-0421",
+                    "day": "Wednesday",
+                    "lessonType": "Tutorial",
+                    "size": 24,
+                    "covidZone": "B"
+                }
+            ],
+            "03": [
+                {
+                    "classNo": "03",
+                    "startTime": "1400",
+                    "endTime": "1600",
+                    "weeks": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                    ],
+                    "venue": "AS6-0421",
+                    "day": "Monday",
+                    "lessonType": "Tutorial",
+                    "size": 24,
+                    "covidZone": "B"
+                }
+            ],
+            "10": [
+                {
+                    "classNo": "10",
+                    "startTime": "1200",
+                    "endTime": "1400",
+                    "weeks": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                    ],
+                    "venue": "AS6-0421",
+                    "day": "Wednesday",
+                    "lessonType": "Tutorial",
+                    "size": 24,
+                    "covidZone": "B"
+                }
+            ]
+        }
+    },
+    "LAJ3201": {
+        "Tutorial Type 2": {
+            "B2": [
+                {
+                    "classNo": "B2",
+                    "startTime": "1800",
+                    "endTime": "2000",
+                    "weeks": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                    ],
+                    "venue": "AS3-0208",
+                    "day": "Wednesday",
+                    "lessonType": "Tutorial Type 2",
+                    "size": 16,
+                    "covidZone": "B"
+                }
+            ],
+            "B1": [
+                {
+                    "classNo": "B1",
+                    "startTime": "1600",
+                    "endTime": "1800",
+                    "weeks": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                    ],
+                    "venue": "AS3-0208",
+                    "day": "Wednesday",
+                    "lessonType": "Tutorial Type 2",
+                    "size": 16,
+                    "covidZone": "B"
+                }
+            ],
+            "B4": [
+                {
+                    "classNo": "B4",
+                    "startTime": "1400",
+                    "endTime": "1600",
+                    "weeks": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                    ],
+                    "venue": "AS1-0210",
+                    "day": "Friday",
+                    "lessonType": "Tutorial Type 2",
+                    "size": 16,
+                    "covidZone": "B"
+                }
+            ],
+            "B3": [
+                {
+                    "classNo": "B3",
+                    "startTime": "1400",
+                    "endTime": "1600",
+                    "weeks": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                    ],
+                    "venue": "AS3-0208",
+                    "day": "Thursday",
+                    "lessonType": "Tutorial Type 2",
+                    "size": 16,
+                    "covidZone": "B"
+                }
+            ]
+        },
+        "Lecture": {
+            "1": [
+                {
+                    "classNo": "1",
+                    "startTime": "1800",
+                    "endTime": "2000",
+                    "weeks": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                    ],
+                    "venue": "LT9",
+                    "day": "Thursday",
+                    "lessonType": "Lecture",
+                    "size": 64,
+                    "covidZone": "B"
+                }
+            ]
+        },
+        "Tutorial": {
+            "A4": [
+                {
+                    "classNo": "A4",
+                    "startTime": "1600",
+                    "endTime": "1800",
+                    "weeks": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                    ],
+                    "venue": "AS3-0208",
+                    "day": "Tuesday",
+                    "lessonType": "Tutorial",
+                    "size": 16,
+                    "covidZone": "B"
+                }
+            ],
+            "A1": [
+                {
+                    "classNo": "A1",
+                    "startTime": "1200",
+                    "endTime": "1400",
+                    "weeks": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                    ],
+                    "venue": "AS6-0212",
+                    "day": "Monday",
+                    "lessonType": "Tutorial",
+                    "size": 16,
+                    "covidZone": "B"
+                }
+            ],
+            "A2": [
+                {
+                    "classNo": "A2",
+                    "startTime": "1800",
+                    "endTime": "2000",
+                    "weeks": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                    ],
+                    "venue": "AS3-0208",
+                    "day": "Monday",
+                    "lessonType": "Tutorial",
+                    "size": 16,
+                    "covidZone": "B"
+                }
+            ],
+            "A3": [
+                {
+                    "classNo": "A3",
+                    "startTime": "1400",
+                    "endTime": "1600",
+                    "weeks": [
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12,
+                        13
+                    ],
+                    "venue": "AS3-0208",
+                    "day": "Tuesday",
+                    "lessonType": "Tutorial",
+                    "size": 16,
+                    "covidZone": "B"
+                }
+            ]
+        }
+    }
+}
