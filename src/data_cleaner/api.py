@@ -1,13 +1,20 @@
 import os
 import sqlite3
+from typing import Dict, List, Optional, Union
 
 ROUNDS = 4
 INF = 2147483647
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
+ClassDict = Dict[str, List[Dict[str, int]]]
 
-def get_data(year, semester, ug_gd, code):
+
+def get_data(year: Union[str, int],
+             semester: Union[str, int],
+             ug_gd: str,
+             code: str) -> Dict[str, Optional[Union[str, ClassDict]]]:
     year = str(year).strip().replace("/", "").replace(" ", "").replace("-", "")
+    # Turns 20222023 to 2223
     if len(year) == 8:
         year = year[2] + year[3] + year[6] + year[7]
     semester = str(semester).strip()
@@ -18,7 +25,7 @@ def get_data(year, semester, ug_gd, code):
     conn = sqlite3.connect(os.path.join(BASE_DIR, 'database.db'))
     conn.row_factory = sqlite3.Row
 
-    class_dict = {}
+    class_dict: ClassDict = {}
     output = {
             'faculty': None,
             'department': None,
