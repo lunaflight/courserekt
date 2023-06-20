@@ -3,12 +3,13 @@ import csv
 import os
 import pandas as pd
 import re
+from typing import Iterator, List, Union
 
 INF = 2147483647
 COURSE_REGEX = r'[A-Z]{2,5}\d{4}[A-Z]?'
 
 
-def clean_csv(input_file_path, output_file_path):
+def clean_csv(input_file_path: str, output_file_path: str) -> None:
     # Define the column headers for our pandas DataFrame
     cols = ["Faculty", "Department", "Code", "Title", "Class",
             "Vacancy", "Demand",
@@ -25,14 +26,14 @@ def clean_csv(input_file_path, output_file_path):
     df = pd.DataFrame(columns=cols).astype(dtypes)
 
     # Define a helper function to clean up and normalize our string data
-    def clean(s):
+    def clean(s: Union[str, int]) -> str:
         s = str(s)
         # Remove extraneous whitespace and trim leading/trailing spaces
         return (' '.join(s.split())).strip()
 
-    def clean_row(r):
+    def clean_row(r: List[str]) -> List[str]:
         r = [item.replace('\n', ' ') for item in r]
-        r = [INF if item == '-' else item for item in r]
+        r = [str(INF) if item == '-' else item for item in r]
         return [clean(item) for item in r]
 
     # Open our raw data CSV file and read it into a list
@@ -48,7 +49,8 @@ def clean_csv(input_file_path, output_file_path):
 
     # Define a helper function to create an iterator with
     # a certain number of "skipped" elements
-    def iter_with_skip(data, num_skips):
+    def iter_with_skip(data: List[List[str]],
+                       num_skips: int) -> Iterator[List[str]]:
         it = iter(data)
         for _ in range(num_skips):
             next(it, None)
@@ -108,7 +110,7 @@ def clean_csv(input_file_path, output_file_path):
     df.to_csv(output_file_path, index=False)
 
 
-def main():
+def main() -> None:
     # Instantiate the parser
     parser = argparse.ArgumentParser(description='CSV Cleaner')
 
