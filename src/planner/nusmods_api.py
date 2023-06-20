@@ -1,6 +1,5 @@
 import requests
 import json
-from valid_timetable_finder import get_valid
 
 
 def get_module_data(acad_year, module_code):
@@ -49,16 +48,22 @@ def get_formatted_timetable(acad_year, semester_no, module_code):
     return schedule_candidates
 
 
+def get_data(acad_year, semester_no, courses):
+    timetables = {}
+
+    for module_code in courses:
+        timetables[module_code] = (
+                get_formatted_timetable(acad_year, semester_no, module_code))
+
+    return timetables
+
+
 def main():
     acad_year = '2022-2023'  # Change to current academic year
     semester_no = 1  # Change to current semester
     modules = ['CS3241', 'LAJ3201', 'ES2660']  # Add your modules here
-    timetables = {}
 
-    for module_code in modules:
-        timetables[module_code] = (
-                get_formatted_timetable(acad_year, semester_no, module_code))
-    print(json.dumps(timetables, indent=4))
+    print(json.dumps(get_data(acad_year, semester_no, modules), indent=4))
 
 
 if __name__ == "__main__":

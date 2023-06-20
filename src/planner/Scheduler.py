@@ -11,20 +11,21 @@ class Scheduler:
         }
 
     def time_to_blocks(self, time):
-        """Convert a time string to a half-hour block."""
+        """Convert a time string to a 15-minute block."""
         time_int = int(time)
-        block = 2 * (time_int // 100) + (time_int % 100) // 30
+        block = 4 * (time_int // 100) + (time_int % 100) // 15
         return block
-
-    def range_to_blocks(self, start, end):
-        """Convert a time range to a range of half-hour blocks."""
-        return range(self.time_to_blocks(start), self.time_to_blocks(end))
 
     def block_to_time(self, block):
         """Convert a block back to a time string."""
-        hour = block // 2
-        minute = (block % 2) * 30
+        hour = block // 4
+        minute = (block % 4) * 15
         return f"{hour:02d}{minute:02d}"
+
+    def range_to_blocks(self, start, end):
+        """Convert a time range to a range of 15-minute blocks."""
+        return range(self.time_to_blocks(start), self.time_to_blocks(end))
+
 
     def add(self, day, start, end):
         """Add a time range to a day. Return False if the range conflicts with the existing schedule."""

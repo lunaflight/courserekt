@@ -1,5 +1,5 @@
-import json
 from Scheduler import Scheduler
+from nusmods_api import get_data
 
 
 def allocate(scheduler, timeslots, index=0):
@@ -37,6 +37,7 @@ def backtrack(scheduler, classes, index=0):
     for class_no, timeslots in classes[index]['info'].items():
         if (allocate(scheduler, timeslots)):
             if (backtrack(scheduler, classes, index + 1)):
+                print(classes[index]['course_code'], class_no)
                 return True
             else:
                 deallocate(scheduler, timeslots)
@@ -65,8 +66,11 @@ def get_valid(timetables):
 
 
 def main():
-    with open('sample.json', 'r') as json_file:
-        data = json.load(json_file)
+    acad_year = '2022-2023'  # Change to current academic year
+    semester_no = 1  # Change to current semester
+    modules = ['CS3241', 'LAJ3201', 'ES2660', 'EL1101E']  # Add your modules here
+
+    data = get_data(acad_year, semester_no, modules)
     print(str(get_valid(data)))
 
 
