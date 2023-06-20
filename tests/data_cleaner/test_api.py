@@ -1,8 +1,12 @@
 import unittest
+
 from src.data_cleaner.api import get_data
 
 
 class MainTestCase(unittest.TestCase):
+    def test_fail(self):
+        self.assertTrue(False)
+
     def assert_known_2223_2_ug_cs2030s_result(self, result):
         self.assertTrue(result['code'] == 'CS2030S')
         self.assertTrue(result['classes'] ==
