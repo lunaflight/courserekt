@@ -2,6 +2,7 @@ import argparse
 from colorama import Fore, Style
 import math
 import os
+from typing import Dict, Union
 
 ROUNDS = 4
 INF = 2147483647
@@ -10,21 +11,21 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 from api import get_data
 
 
-def colour_na(colour):
+def colour_na(colour: bool) -> str:
     if colour:
         return f"{Fore.LIGHTBLACK_EX}N/A{Style.RESET_ALL}"
     else:
         return "N/A"
 
 
-def colour_course(x, colour):
+def colour_course(x: str, colour: bool) -> str:
     if colour:
         return f"{Fore.YELLOW}{x}{Style.RESET_ALL}"
     else:
         return x
 
 
-def colour_percent(x, colour):
+def colour_percent(x: float, colour: bool) -> str:
     x = float(x)
     if math.isnan(x):
         if colour:
@@ -41,7 +42,7 @@ def colour_percent(x, colour):
         return f"{Fore.RED}{x}{Style.RESET_ALL}"
 
 
-def format(info, colour, percentage):
+def format(info: Dict[str, int], colour: bool, percentage: bool) -> str:
     DEMAND = info["demand"]
     vacancy = info["vacancy"]
     if DEMAND == -1 and vacancy == -1:
@@ -49,16 +50,19 @@ def format(info, colour, percentage):
     elif percentage:
         PERCENTAGE = round(
             DEMAND / vacancy * 100
-        ) if vacancy > 0 else 'NaN'
+        ) if vacancy > 0 else float('nan')
 
         return colour_percent(PERCENTAGE, colour)
     else:
         return colour_demand_vacancy(DEMAND, vacancy, colour)
 
 
-def colour_demand_vacancy(demand, vacancy, colour):
+def colour_demand_vacancy(demand: int, vacancy: int, colour: bool) -> str:
     if vacancy is INF:
-        vacancy = '∞'
+        if not colour:
+            return f"{demand} / ∞"
+        else:
+            return f"{Fore.GREEN}{demand} / ∞{Style.RESET_ALL}"
 
     if not colour:
         return f"{demand} / {vacancy}"
@@ -70,7 +74,13 @@ def colour_demand_vacancy(demand, vacancy, colour):
         return f"{Fore.GREEN}{demand} / {vacancy}{Style.RESET_ALL}"
 
 
-def print_data(year, semester, ug_gd, code, percentage, colour, verbose):
+def print_data(year: Union[str, int],
+               semester: Union[str, int],
+               ug_gd: str,
+               code: str,
+               percentage: bool,
+               colour: bool,
+               verbose: bool):
     if verbose:
         print(get_data(year, semester, ug_gd, code))
         return
@@ -103,14 +113,14 @@ def print_data(year, semester, ug_gd, code, percentage, colour, verbose):
 
 
 # Function to convert the argument to int, or leave it as str if not possible
-def int_or_str(value):
+def int_or_str(value: Union[str, int]) -> Union[str, int]:
     try:
         return int(value)
     except ValueError:
         return value
 
 
-if __name__ == "__main__":
+def main() -> None:
     parser = argparse.ArgumentParser(description='Query course data.')
     parser.add_argument('-y', '--year',
                         type=int_or_str,
@@ -168,3 +178,7 @@ if __name__ == "__main__":
     for course_code in course_codes:
         print_data(args.year, args.semester, args.type, course_code,
                    args.percentage, not args.no_colour, args.verbose)
+
+
+if __name__ == "__main__":
+    main()
