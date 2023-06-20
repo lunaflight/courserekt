@@ -58,28 +58,3 @@ class Scheduler:
                 time_ranges.append((self.block_to_time(start_block), self.block_to_time(end_block)))
                 result.append(f"{day}: {', '.join(f'{start}-{end}' for start, end in time_ranges)}")
         return "\n".join(result)
-
-
-def main():
-    scheduler = Scheduler()
-
-    # Adding time slots
-    print(scheduler.add("Monday", "0600", "0800"))  # Output: True
-    print(scheduler.add("Monday", "0800", "1000"))  # Output: True
-    print(scheduler.add("Monday", "0900", "1100"))  # Output: False
-
-    # Trying to add a conflicting time slot
-    print(scheduler.add("Tuesday", "0800", "1000"))  # Output: True
-    print(scheduler.add("Tuesday", "0900", "1100"))  # Output: False
-
-    # Clearing time slots
-    scheduler.clear("Monday", "0630", "0800")
-    print(scheduler.add("Monday", "0629", "0800"))  # Output: True
-
-    # Clearing a non-existing time slot
-    scheduler.clear("Wednesday", "0600", "0800")
-    print(scheduler.add("Wednesday", "0600", "0800"))  # Output: True
-
-
-if __name__ == "__main__":
-    main()
