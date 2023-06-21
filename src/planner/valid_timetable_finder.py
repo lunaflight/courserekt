@@ -38,7 +38,8 @@ def backtrack(scheduler, classes, index=0, results=[]):
     for class_no, timeslots in classes[index]['info'].items():
         if (allocate(scheduler, timeslots)):
             if (backtrack(scheduler, classes, index + 1, results)):
-                results.append(timeslots)
+                results.append({'course_code': classes[index]["course_code"],
+                                'timeslots': timeslots})
                 return True
             else:
                 deallocate(scheduler, timeslots)
@@ -75,7 +76,7 @@ def get_valid(acad_year, semester_no, modules):
 def main():
     acad_year = '2022-2023'  # Change to current academic year
     semester_no = 1  # Change to current semester
-    modules = ['CS3241', 'LAJ3201', 'ES2660', 'EL1101E']  # Add your modules here
+    modules = ['CS2100']  # Add your modules here
 
     print(json.dumps(get_valid(acad_year, semester_no, modules), indent=2))
 

@@ -60,8 +60,8 @@ def get_data(acad_year, semester_no, courses):
 
 def main():
     acad_year = '2022-2023'  # Change to current academic year
-    semester_no = 1  # Change to current semester
-    modules = ['CS3241', 'LAJ3201', 'ES2660']  # Add your modules here
+    semester_no = 2  # Change to current semester
+    modules = ['HSI1000', 'EL2101', 'LAJ3202', 'ES2660']  # Add your modules here
 
     print(json.dumps(get_data(acad_year, semester_no, modules), indent=4))
 
