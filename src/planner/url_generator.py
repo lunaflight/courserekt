@@ -1,5 +1,5 @@
-from valid_timetable_finder import get_valid
-from nusmods_api import class_type_to_abbr
+from planner.valid_timetable_finder import get_valid
+from planner.nusmods_api import class_type_to_abbr
 
 
 def generate_syntax(acad_year, semester, courses, whitelist):
@@ -27,6 +27,10 @@ def generate_syntax(acad_year, semester, courses, whitelist):
 
 
 def generate_url(acad_year, semester, courses, whitelist):
+    print(acad_year)
+    print(semester)
+    print(courses)
+    print(whitelist)
     syntax = generate_syntax(acad_year, semester, courses, whitelist)
     if syntax is None:
         return None

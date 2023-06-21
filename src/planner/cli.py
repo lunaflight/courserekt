@@ -1,5 +1,5 @@
 import argparse
-from url_generator import generate_url
+from planner.url_generator import generate_url
 
 
 def parse_year(year_str):
@@ -19,6 +19,14 @@ def parse_whitelist(whitelist_str):
     return whitelist
 
 
+def parse_and_generate_url(acad_year, semester_no, courses, whitelist):
+    return generate_url(
+            parse_year(acad_year),
+            int(semester_no),
+            [course.upper() for course in courses],
+            parse_whitelist(whitelist))
+
+
 def main():
     parser = argparse.ArgumentParser(description="Generate NUSMods URL.")
 
@@ -33,12 +41,7 @@ def main():
 
     args = parser.parse_args()
 
-    acad_year = parse_year(args.year)
-    semester_no = args.semester
-    modules = [module.upper() for module in args.courses]
-    whitelist = parse_whitelist(args.whitelist)
-
-    print(generate_url(acad_year, semester_no, modules, whitelist))
+    print(parse_and_generate_url(args.year, args.semester, args.courses, args.whitelist))
 
 
 if __name__ == "__main__":
