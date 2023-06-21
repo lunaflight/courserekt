@@ -2,8 +2,8 @@ from valid_timetable_finder import get_valid
 from nusmods_api import class_type_to_abbr
 
 
-def generate_syntax(acad_year, semester, courses):
-    choices = get_valid(acad_year, semester, courses)
+def generate_syntax(acad_year, semester, courses, whitelist):
+    choices = get_valid(acad_year, semester, courses, whitelist)
     if choices is None:
         return None
 
@@ -26,8 +26,8 @@ def generate_syntax(acad_year, semester, courses):
     return '&'.join(syntaxes)
 
 
-def generate_url(acad_year, semester, courses):
-    syntax = generate_syntax(acad_year, semester, courses)
+def generate_url(acad_year, semester, courses, whitelist):
+    syntax = generate_syntax(acad_year, semester, courses, whitelist)
     if syntax is None:
         return None
 
@@ -37,9 +37,12 @@ def generate_url(acad_year, semester, courses):
 def main():
     acad_year = '2022-2023'  # Change to current academic year
     semester_no = 1  # Change to current semester
-    modules = ['LAJ2202', 'LAJ2201', 'CS2100', 'ST2334', 'CS2106', 'CS2107', 'CS2109S', 'LAJ3201', 'CS2102', 'CS2103T', 'CS2105', 'CS3230', 'CS3241', 'LAJ3202', 'EL2102']  # Add your modules here
+    modules = ['LAJ2201', 'CS2100', 'ST2334', 'CS2106', 'CS2107', 'CS2109S', 'LAJ3201', 'CS2102', 'CS2103T', 'CS2105', 'CS3230', 'CS3241', 'LAJ3202', 'EL2102']  # Add your modules here
+    whitelist = {
+            "CS2100": ["REC"]
+            }
     # modules = ['CS2100']
-    print(generate_url(acad_year, semester_no, modules))
+    print(generate_url(acad_year, semester_no, modules, whitelist))
 
 
 if __name__ == "__main__":

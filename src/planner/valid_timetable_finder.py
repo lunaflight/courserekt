@@ -79,11 +79,8 @@ def get_valid_from_json(timetables, whitelist):
         return None
 
 
-def get_valid(acad_year, semester_no, modules):
+def get_valid(acad_year, semester_no, modules, whitelist):
     data = get_data(acad_year, semester_no, modules)
-    whitelist = {
-            "CS2100": ["REC"]
-            }
     return get_valid_from_json(data, whitelist)
 
 
