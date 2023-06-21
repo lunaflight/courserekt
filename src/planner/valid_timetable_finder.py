@@ -1,5 +1,5 @@
 from Scheduler import Scheduler
-from nusmods_api import get_data
+from nusmods_api import class_type_to_abbr, get_data
 import json
 
 
@@ -47,10 +47,21 @@ def backtrack(scheduler, classes, index=0, results=[]):
     return False
 
 
-def get_valid_from_json(timetables):
+def remove_timings(data):
+    for classes in data.values():
+        for myclass in classes:
+            myclass['startTime'] = '0000'
+            myclass['endTime'] = '0000'
+    return data
+
+
+def get_valid_from_json(timetables, whitelist):
     arr = []
     for course_code, classes in timetables.items():
         for class_type, data in classes.items():
+            if course_code in whitelist and class_type_to_abbr(class_type) in whitelist[course_code]:
+                data = remove_timings(data)
+
             class_info = {
                     "course_code": course_code,
                     "class_type": class_type,
@@ -70,7 +81,10 @@ def get_valid_from_json(timetables):
 
 def get_valid(acad_year, semester_no, modules):
     data = get_data(acad_year, semester_no, modules)
-    return get_valid_from_json(data)
+    whitelist = {
+            "CS2100": ["REC"]
+            }
+    return get_valid_from_json(data, whitelist)
 
 
 def main():

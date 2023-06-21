@@ -29,6 +29,9 @@ class Scheduler:
 
     def add(self, day, start, end):
         """Add a time range to a day. Return False if the range conflicts with the existing schedule."""
+        if (start == end):
+            return True
+
         new_blocks = set(self.range_to_blocks(start, end))
         if new_blocks.intersection(self.schedule[day]):
             return False
@@ -37,6 +40,9 @@ class Scheduler:
 
     def clear(self, day, start, end):
         """Remove a time range from a day."""
+        if (start == end):
+            pass
+
         blocks_to_remove = set(self.range_to_blocks(start, end))
         self.schedule[day].difference_update(blocks_to_remove)
 

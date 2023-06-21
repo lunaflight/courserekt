@@ -1,23 +1,5 @@
 from valid_timetable_finder import get_valid
-
-
-def class_type_to_abbr(class_type):
-    # https://github.com/nusmodifications/nusmods/blob/22776c45ab16e85d5ee8a8c900c1a3ca34f44d7b/website/src/utils/timetables.ts#L64
-    abbr_dict = {
-            'Design Lecture': 'DLEC',
-            'Laboratory': 'LAB',
-            'Lecture': 'LEC',
-            'Packaged Lecture': 'PLEC',
-            'Packaged Tutorial': 'PTUT',
-            'Recitation': 'REC',
-            'Sectional Teaching': 'SEC',
-            'Seminar-Style Module Class': 'SEM',
-            'Tutorial': 'TUT',
-            'Tutorial Type 2': 'TUT2',
-            'Tutorial Type 3': 'TUT3',
-            'Workshop': 'WS',
-            }
-    return abbr_dict[class_type]
+from nusmods_api import class_type_to_abbr
 
 
 def generate_syntax(acad_year, semester, courses):
@@ -55,7 +37,7 @@ def generate_url(acad_year, semester, courses):
 def main():
     acad_year = '2022-2023'  # Change to current academic year
     semester_no = 1  # Change to current semester
-    modules = ['CS2102', 'CS2103T', 'CS2105', 'CS3230', 'CS3241', 'LAJ3202', 'EL2102']  # Add your modules here
+    modules = ['LAJ2202', 'LAJ2201', 'CS2100', 'ST2334', 'CS2106', 'CS2107', 'CS2109S', 'LAJ3201', 'CS2102', 'CS2103T', 'CS2105', 'CS3230', 'CS3241', 'LAJ3202', 'EL2102']  # Add your modules here
     # modules = ['CS2100']
     print(generate_url(acad_year, semester_no, modules))
 
