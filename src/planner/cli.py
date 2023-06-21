@@ -15,7 +15,7 @@ def parse_whitelist(whitelist_str):
     whitelist = {}
     for item in whitelist_str:
         key, value = item.split(":")
-        whitelist[key.upper()] = [val.strip() for val in value.split(',')]
+        whitelist[key.upper()] = [val.strip().upper() for val in value.split(',')]
     return whitelist
 
 

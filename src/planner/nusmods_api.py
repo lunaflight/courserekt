@@ -39,7 +39,7 @@ def get_module_timetable(acad_year, semester_no, module_code):
             if semester['semester'] == semester_no:
                 return semester
         return module_data['timetable']
-    except AttributeError:
+    except TypeError:
         return None
 
 
@@ -71,9 +71,12 @@ def get_data(acad_year, semester_no, courses):
     timetables = {}
 
     for module_code in courses:
-        timetables[module_code] = (
-                get_formatted_timetable(acad_year, semester_no, module_code))
+        timetable = get_formatted_timetable(acad_year, semester_no, module_code)
+        if timetable is None:
+            print(f"Error in retrieving {module_code}")
+            continue
 
+        timetables[module_code] = timetable
     return timetables
 
 

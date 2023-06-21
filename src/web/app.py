@@ -37,7 +37,7 @@ def scheduler():
         year = request.form.get('year')
         semester = request.form.get('semester')
         course_codes = request.form.get('course_codes').split()
-        whitelist = request.form.get('whitelist')  # You'll need to parse this into a dictionary
+        whitelist = request.form.get('whitelist').split()
 
         # Run your scheduler function with these parameters and get the URL
         url = parse_and_generate_url(year, semester, course_codes, whitelist)
