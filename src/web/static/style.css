@@ -108,3 +108,32 @@ input[type=submit]:hover {
 .no-data {
     background-color: lightgrey;
 }
+
+.form-url-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    position: sticky;
+    top: 10%;
+}
+
+.url-container {
+  background-color: #4CAF50;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px; /* Adds rounded corners */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers content vertically */
+  align-items: center; /* Centers content horizontally */
+}
+
+.url-link {
+  color: #fff; /* Makes the URL text white */
+  text-decoration: none; /* Removes the underline */
+  font-size: 1.2em; /* Increases font size */
+  word-break: break-all; /* Prevents long URLs from overflowing */
+}

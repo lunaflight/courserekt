@@ -27,10 +27,6 @@ def generate_syntax(acad_year, semester, courses, whitelist):
 
 
 def generate_url(acad_year, semester, courses, whitelist):
-    print(acad_year)
-    print(semester)
-    print(courses)
-    print(whitelist)
     syntax = generate_syntax(acad_year, semester, courses, whitelist)
     if syntax is None:
         return None

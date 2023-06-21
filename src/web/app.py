@@ -4,6 +4,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 from flask import Flask, render_template, request
 from coursereg_history.api import get_data
+from planner.cli import parse_and_generate_url
 
 app = Flask(__name__)
 
@@ -28,6 +29,22 @@ def home():
         return render_template('index.html', output=output, errors=errors)
     else:
         return render_template('index.html')
+
+
+@app.route('/scheduler', methods=['GET', 'POST'])
+def scheduler():
+    if request.method == 'POST':
+        year = request.form.get('year')
+        semester = request.form.get('semester')
+        course_codes = request.form.get('course_codes').split()
+        whitelist = request.form.get('whitelist')  # You'll need to parse this into a dictionary
+
+        # Run your scheduler function with these parameters and get the URL
+        url = parse_and_generate_url(year, semester, course_codes, whitelist)
+
+        return render_template('scheduler.html', url=url)
+    else:
+        return render_template('scheduler.html')
 
 
 if __name__ == '__main__':

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Scheduler</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-url-container"> <!-- Wrap the form and the URL box in a new container -->
+        <div class="form-container">
+          <form method="POST">
+            <!-- The form code stays the same -->
+            <label for="year"><b>Academic Year:</b></label><br>
+            <input type="text" id="year" name="year" autocomplete="off" value="2022-2023" readonly><br>
+            <label><b>Semester:</b></label><br>
+            <div class="radiobutton">
+              <label for="semester1">
+                <input type="radio" id="semester1" name="semester" value="1" 
+                {% if request.form.semester == "1" or not request.form.semester %}checked{% endif %}>
+                Semester 1
+              </label>
+            </div>
+            <div class="radiobutton">
+              <label for="semester2">
+                <input type="radio" id="semester2" name="semester" value="2" 
+                {% if request.form.semester == "2" %}checked{% endif %}>
+                Semester 2
+              </label>
+            </div>
+            <label for="course_codes"><b>Course Codes:</b></label><br>
+            <input type="text" id="course_codes" name="course_codes" autocomplete="off" value="{{ request.form.course_codes }}"><br>
+            <label for="whitelist"><b>Whitelist:</b></label><br>
+            <input type="text" id="whitelist" name="whitelist" autocomplete="off" value="{{ request.form.whitelist }}"><br>
+            <input type="submit" value="Generate URL!">
+          </form> 
+        </div>
+
+        {% if url %}
+        <div class="url-container">
+          <h2>Generated!</h2>
+          <a href="{{ url }}" class="url-link">{{ url }}</a>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </body>
+</html>
