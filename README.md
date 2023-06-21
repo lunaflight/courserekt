@@ -6,6 +6,7 @@ Browsing through Demand Allocation Reports to gain insights about course subscri
 
 ![Picture of the web app.](https://sussyamongus.s-ul.eu/vqBcKPji)
 ![Picture of the CLI (Command Line Interface).](https://sussyamongus.s-ul.eu/4uUP55xh)
+![Picture of the scheduler output.](https://sussyamongus.s-ul.eu/crmrfNNo)
 
 ## Implementation
 
@@ -26,6 +27,7 @@ The `src/planner` directory contains code that utilizes a backtracking algorithm
 1. **Data Fetching**: `nusmods_api.py` queries the NUSMods API based on the provided courses, academic year, and semester, and retrieves a JSON file containing the relevant data.
 2. **Scheduler Abstraction**: `Scheduler.py` is a standalone class that handles blocking and unblocking periods of time, checking if any clashes occur. It is used extensively in the timetable backtracking.
 3. **Backtracking Finding**: `valid_timetable_finder.py` provides a function that returns a non-clashing timetable schedule, indicating the classes that don't clash with each other.
+4. **Url Generating**: `url_generator.py` provides the relevant NUSMods link upon finding a valid timetable, allowing you to import the data easily.
 
 The use of the backtracking algorithm helps ensure that the generated timetable is valid and free of any schedule clashes. 
 
@@ -36,7 +38,7 @@ The `src/web` directory contains code that provides an interface for the above, 
 
 ## Usage
 
-There are two main ways to use this project:
+There are a few main ways to use this project:
 
 ### CourseReg History CLI
 
@@ -121,6 +123,46 @@ Here, the output consists of the course code followed by the round-wise status o
 For instance, for the course CS2105 in round 1, 267 students were vying for vacancies per 100 vacancies.
 </details>
 
+### Timetable Planner CLI
+
+<details>
+<summary>CLI Usage (Click to Expand)</summary>
+
+To start the CLI, navigate to `src` and you can use the following command:
+
+```shell
+python -m planner.cli -h
+
+usage: cli.py [-h] [-y YEAR] -s SEMESTER -c COURSES [COURSES ...]
+              [-w WHITELIST [WHITELIST ...]]
+```
+
+options:
+- `-h`, `--help`: Show this help message and exit.
+- `-y YEAR`, `--year YEAR`: Specify the academic year. This argument accepts the following formats: "2022-2023", "22-23", "22/23", "2223".
+- `-s SEMESTER`, `--semester SEMESTER`: The semester number (1 or 2).
+- `-c COURSES [COURSES ...]`, `--courses COURSES [COURSES ...]`: Specify the course codes. For example, `-c "LAJ2201" "CS2100"`.
+- `-w WHITELIST [WHITELIST ...]`, `--whitelist WHITELIST [WHITELIST ...]`: Specify the whitelist as a series of "COURSE:TYPE" strings. For example, `-w "CS2100:LEC,TUT" "LAJ2201:LEC"`.
+
+Refer to the examples given below for how to use these arguments.
+
+### Examples
+
+```shell
+python -m planner.cli -s 1 -c "CS2100" "CS2102" "CS2103T" "CS2105" "CS2106" "CS2107" "CS2109S" -w "CS2100:REC"
+```
+This command tries to find a valid timetable arrangement with no clashes for the courses listed. This will be for the default (current) year, semester 1. The `-w` flag indicates the Recitation (REC) slot will be treated as not taking up time. This can be used to manually resolve conflicts.
+
+The output would look like this:
+
+```markdown
+https://nusmods.com/timetable/sem-1/share?CS2100=LAB:11,TUT:03,LEC:1,REC:1&CS2109S=TUT:09,LEC:1&CS2103T=LEC:G01&CS2102=TUT:16,LEC:1&CS2105=TUT:03,LEC:1V&CS2106=TUT:06,LAB:01,LEC:1&CS2107=TUT:11,LEC:1
+```
+
+A link will be returned in the command line, allowing you to straightforwardly import it into NUSMods.
+
+</details>
+
 ### Web App
 
 <details>
@@ -135,6 +177,8 @@ python app.py
 ```
 
 After running the command, open a web browser and navigate to `http://localhost:5000/`. You can then fill the form and press the 'Submit' button to get the analysis.
+
+You may also navigate to `https://localhost:5000/scheduler` for a more user-friendly graphical interface of the timetable planner.
 </details>
 
 
