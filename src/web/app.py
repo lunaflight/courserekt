@@ -20,11 +20,10 @@ def home():
         output = []
         errors = []
         for course_code in course_codes:
-            data = get_data(year, semester, type, course_code)
-            if data["error"] is None:
-                output.append(data)
-            else:
-                errors.append(data["error"])
+            try:
+                output.append(get_data(year, semester, type, course_code))
+            except ValueError as e:
+                errors.append(e)
 
         return render_template('index.html', output=output, errors=errors)
     else:

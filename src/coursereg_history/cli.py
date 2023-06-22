@@ -86,9 +86,6 @@ def print_data(year: Union[str, int],
         return
 
     DATA = get_data(year, semester, ug_gd, code)
-    if DATA['error'] is not None:
-        print(DATA['error'])
-        return
 
     CLASSES = DATA['classes']
 
@@ -176,8 +173,11 @@ def main() -> None:
 
     # query the database
     for course_code in course_codes:
-        print_data(args.year, args.semester, args.type, course_code,
-                   args.percentage, not args.no_colour, args.verbose)
+        try:
+            print_data(args.year, args.semester, args.type, course_code,
+                       args.percentage, not args.no_colour, args.verbose)
+        except ValueError as e:
+            print(e)
 
 
 if __name__ == "__main__":

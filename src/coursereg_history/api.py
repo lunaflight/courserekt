@@ -31,8 +31,7 @@ def get_data(year: Union[str, int],
             'department': None,
             'code': code,
             'title': None,
-            'classes': class_dict,
-            'error': None}
+            'classes': class_dict}
     BLANK = {'demand': -1,
              'vacancy': -1,
              'successful_main': -1,
@@ -51,11 +50,10 @@ def get_data(year: Union[str, int],
                 "SELECT name FROM sqlite_master WHERE type='table' AND name=?",
                 (TABLE_NAME,))
         if cursor.fetchone() is None:
-            output["error"] = (
+            raise ValueError(
                 f"History for the given year {year} semester {semester} "
                 f"({ug_gd}) not found."
                 )
-            return output
 
         cursor = conn.execute(f"SELECT * FROM {TABLE_NAME} WHERE Code=?",
                               (code,))
@@ -92,7 +90,7 @@ def get_data(year: Union[str, int],
         class_dict[key] += [BLANK] * (ROUNDS - len(class_dict[key]))
 
     if len(class_dict) == 0:
-        output["error"] = f"Course {code} not found."
+        raise ValueError(f"Course {code} not found.")
 
     # close the database connection
     conn.close()
