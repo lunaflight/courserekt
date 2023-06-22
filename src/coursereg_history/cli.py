@@ -3,12 +3,12 @@ from colorama import Fore, Style
 import math
 import os
 from typing import Dict, Union
+from src.coursereg_history.api import get_data
 
 ROUNDS = 4
 INF = 2147483647
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-from api import get_data
 
 
 def colour_na(colour: bool) -> str:

@@ -45,10 +45,10 @@ There are a few main ways to use this project:
 <details>
 <summary>CLI Usage (Click to Expand)</summary>
 
-To start the CLI, navigate to `src/coursereg_history` and you can use the following command:
+To start the CLI, navigate to the *project root* and you can use the following command:
 
 ```shell
-python cli.py
+python -m src.coursereg_history.cli
 
 usage: main.py [-h] [-y YEAR] [-s SEMESTER] [-t TYPE] [-c COURSE_CODES [COURSE_CODES ...]] [-p] [-f FILE]
 ```
@@ -71,11 +71,11 @@ Refer to the examples given below for how to use these arguments.
 **Query for course data the CLI:**
 
 ```shell
-python cli.py -y 2223 -t "gd" -s 1 -c "CS4248" "CS5330"
+python -m src.coursereg_history.cli -y 2223 -t "gd" -s 2 -c "CS4248" "CS5330"
 ```
 This command fetches information for the courses "CS4248" and "CS5330" for the year 22/23, semester 1, as a graduate student. 
 
-The output would look like this:
+The output could look like this:
 
 ```shell
 CS4248
@@ -91,7 +91,7 @@ For instance, for the course CS4248 in round 0, there were 28 students registere
 ### Example
 
 ```shell
-python cli.py -y 2223 -s 2 -p -f "example_in.txt"
+python -m src.coursereg_history.cli -y 2223 -s 2 -p -f "example_in.txt"
 ```
 This command fetches information for the courses listed in `example_in.txt` (separated by new lines) for the year 22/23, semester 2, as an undergraduate. The `-p` flag indicates that the output will display percentage of subscription relative to vacancies.
 
@@ -128,10 +128,10 @@ For instance, for the course CS2105 in round 1, 267 students were vying for vaca
 <details>
 <summary>CLI Usage (Click to Expand)</summary>
 
-To start the CLI, navigate to `src` and you can use the following command:
+To start the CLI, navigate to *project root* and you can use the following command:
 
 ```shell
-python -m planner.cli -h
+python -m src.planner.cli -h
 
 usage: cli.py [-h] [-y YEAR] -s SEMESTER -c COURSES [COURSES ...]
               [-w WHITELIST [WHITELIST ...]]
@@ -149,7 +149,7 @@ Refer to the examples given below for how to use these arguments.
 ### Examples
 
 ```shell
-python -m planner.cli -s 1 -c "CS2100" "CS2102" "CS2103T" "CS2105" "CS2106" "CS2107" "CS2109S" -w "CS2100:REC"
+python -m src.planner.cli -s 1 -c "CS2100" "CS2102" "CS2103T" "CS2105" "CS2106" "CS2107" "CS2109S" -w "CS2100:REC"
 ```
 This command tries to find a valid timetable arrangement with no clashes for the courses listed. This will be for the default (current) year, semester 1. The `-w` flag indicates the Recitation (REC) slot will be treated as not taking up time. This can be used to manually resolve conflicts.
 
@@ -173,7 +173,7 @@ In addition to the CLI, a web app has been created for a more user-friendly expe
 To start the web app, navigate to `src/web` and you can use the following command:
 
 ```shell
-python app.py
+python -m src.web.app 
 ```
 
 After running the command, open a web browser and navigate to `http://localhost:5000/`. 
@@ -230,7 +230,6 @@ python -m unittest discover
 ```
 
 This command will search for all the test files in the project and execute them. Any test failures or errors will be reported in the console, making it easy for you to identify and fix the issues.
-
 Unit tests are an essential part of our software development process. They help us maintain the high quality of our code and reduce the likelihood of introducing errors during the development process. By running these tests regularly, you can ensure that any changes or additions you make to the project don't break existing functionality.
 
 ## Contributing
