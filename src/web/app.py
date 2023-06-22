@@ -1,10 +1,6 @@
-import sys
-import os
-sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
-
 from flask import Flask, render_template, request
-from coursereg_history.api import get_data
-from planner.cli import parse_and_generate_url
+from src.coursereg_history.api import get_data
+from src.planner.cli import parse_and_generate_url
 
 app = Flask(__name__)
 
@@ -43,11 +39,11 @@ def scheduler():
         course_codes = request.form.get('course_codes').split()
         whitelist = request.form.get('whitelist').split()
 
-        # Run your scheduler function with these parameters and get the URL
         error = None
         url = None
         try:
-            url = parse_and_generate_url(year, semester, course_codes, whitelist)
+            url = parse_and_generate_url(year, semester,
+                                         course_codes, whitelist)
         except ValueError as e:
             error = e
 
