@@ -40,9 +40,14 @@ def scheduler():
         whitelist = request.form.get('whitelist').split()
 
         # Run your scheduler function with these parameters and get the URL
-        url = parse_and_generate_url(year, semester, course_codes, whitelist)
+        error = None
+        url = None
+        try:
+            url = parse_and_generate_url(year, semester, course_codes, whitelist)
+        except ValueError as e:
+            error = e
 
-        return render_template('scheduler.html', url=url)
+        return render_template('scheduler.html', url=url, error=error)
     else:
         return render_template('scheduler.html')
 

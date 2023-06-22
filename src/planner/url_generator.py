@@ -4,8 +4,6 @@ from planner.nusmods_api import class_type_to_abbr
 
 def generate_syntax(acad_year, semester, courses, whitelist):
     choices = get_valid(acad_year, semester, courses, whitelist)
-    if choices is None:
-        return None
 
     course_choices = {}
 
@@ -28,8 +26,6 @@ def generate_syntax(acad_year, semester, courses, whitelist):
 
 def generate_url(acad_year, semester, courses, whitelist):
     syntax = generate_syntax(acad_year, semester, courses, whitelist)
-    if syntax is None:
-        return None
 
     return f"https://nusmods.com/timetable/sem-{semester}/share?{syntax}"
 

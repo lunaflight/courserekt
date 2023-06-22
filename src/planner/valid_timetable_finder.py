@@ -81,8 +81,6 @@ def get_valid_from_json(timetables, whitelist):
 
 def get_valid(acad_year, semester_no, modules, whitelist):
     data = get_data(acad_year, semester_no, modules)
-    if data is None:
-        return None
     return get_valid_from_json(data, whitelist)
 
 

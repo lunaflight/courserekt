@@ -1,13 +1,24 @@
 import argparse
+import re
 from planner.url_generator import generate_url
 
 
 def parse_year(year_str):
-    year_str = year_str.replace("/", "-")  # Replace "/" with "-" if present
-    if len(year_str) == 4:  # if input is like "2223"
-        year_str = year_str[:2] + "-" + year_str[2:]  # Insert "-" to become "22-23"
-    if len(year_str) == 5:  # if input is like "22-23"
-        year_str = "20" + year_str  # Prepend "20" to become "2022-2023"
+    # Replace "/" with "-" if present
+    year_str = year_str.replace("/", "-")
+
+    # If input is like "2223"
+    if len(year_str) == 4:
+        year_str = "20" + year_str[:2] + "-" + "20" + year_str[2:]
+
+    # If input is like "22-23"
+    elif len(year_str) == 5:
+        year_str = "20" + year_str[:2] + "-" + "20" + year_str[3:]
+
+    # If input is like "20222023"
+    elif len(year_str) == 8:
+        year_str = year_str[:4] + "-" + year_str[4:]
+
     return year_str
 
 
@@ -20,6 +31,19 @@ def parse_whitelist(whitelist_str):
 
 
 def parse_and_generate_url(acad_year, semester_no, courses, whitelist):
+    # Validate academic year
+    if not re.match(r'^(\d{4}|\d{2}-\d{2}|\d{2}/\d{2}|\d{4}-\d{4}|\d{4}/\d{4})$', acad_year):
+        raise ValueError("Invalid academic year format. Use '2223', '22-23', '22/23', '20222023', '2022-2023' or '2022/2023'.")
+
+    # Validate semester number
+    if semester_no not in [1, 2, "1", "2"]:
+        raise ValueError("Invalid semester number. It must be 1 or 2.")
+
+    # Validate whitelist
+    for item in whitelist:
+        if not re.match(r'^[A-Za-z0-9_]+:[A-Za-z0-9_,]+$', item):
+            raise ValueError("Invalid whitelist format. Use 'COURSE_ID:CLASS_TYPE,CLASS_TYPE,...'")
+
     return generate_url(
             parse_year(acad_year),
             int(semester_no),
@@ -41,7 +65,11 @@ def main():
 
     args = parser.parse_args()
 
-    print(parse_and_generate_url(args.year, args.semester, args.courses, args.whitelist))
+    try:
+        print(parse_and_generate_url(args.year, args.semester, args.courses, args.whitelist))
+    except ValueError as e:
+        print(e)
+
 
 
 if __name__ == "__main__":

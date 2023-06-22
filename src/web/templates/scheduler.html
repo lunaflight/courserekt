@@ -44,6 +44,13 @@
           <a href="{{ url }}" class="url-link">{{ url }}</a>
         </div>
         {% endif %}
+
+        {% if error %}
+        <div style="color: #f44336; font-size: 0.8em;">
+          <strong>Error:</strong>
+          {{ error }}
+        </div>
+        {% endif %}
       </div>
     </div>
   </body>

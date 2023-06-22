@@ -27,26 +27,27 @@ def get_module_data(acad_year, module_code):
     if response.status_code == 200:
         return response.json()
     else:
-        print(f"Failed to fetch data for module {module_code}")
         return None
 
 
 def get_module_timetable(acad_year, semester_no, module_code):
     module_data = get_module_data(acad_year, module_code)
+
+    if module_data is None:
+        raise ValueError(f"Invalid course code {acad_year}:{module_code} found.")
+
     try:
         semesters = module_data['semesterData']
         for semester in semesters:
             if semester['semester'] == semester_no:
                 return semester
         return module_data['timetable']
-    except TypeError:
-        return None
+    except KeyError:
+        raise ValueError(f"Could not find {module_code} in semester {semester_no}")
 
 
 def get_formatted_timetable(acad_year, semester_no, module_code):
     timetable = get_module_timetable(acad_year, semester_no, module_code)
-    if timetable is None:
-        return None
 
     schedule_candidates = {}
 
@@ -72,9 +73,6 @@ def get_data(acad_year, semester_no, courses):
 
     for module_code in courses:
         timetable = get_formatted_timetable(acad_year, semester_no, module_code)
-        if timetable is None:
-            print(f"Error in retrieving {module_code}")
-            continue
 
         timetables[module_code] = timetable
     return timetables
