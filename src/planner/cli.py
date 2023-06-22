@@ -1,9 +1,11 @@
 import argparse
 import re
-from planner.url_generator import generate_url
+from src.planner.url_generator import generate_url
 
 
 def parse_year(year_str):
+    if isinstance(year_str, int):
+        year_str = str(year_str)
     # Replace "/" with "-" if present
     year_str = year_str.replace("/", "-")
 
@@ -30,9 +32,10 @@ def parse_whitelist(whitelist_str):
     return whitelist
 
 
-def parse_and_generate_url(acad_year, semester_no, courses, whitelist):
+def parse_and_generate_url(acad_year, semester_no, courses, whitelist, dry_run=False):
+    acad_year = parse_year(acad_year)
     # Validate academic year
-    if not re.match(r'^(\d{4}|\d{2}-\d{2}|\d{2}/\d{2}|\d{4}-\d{4}|\d{4}/\d{4})$', acad_year):
+    if not re.match(r'^(\d{4}-\d{4})$', acad_year):
         raise ValueError("Invalid academic year format. Use '2223', '22-23', '22/23', '20222023', '2022-2023' or '2022/2023'.")
 
     # Validate semester number
@@ -48,7 +51,8 @@ def parse_and_generate_url(acad_year, semester_no, courses, whitelist):
             parse_year(acad_year),
             int(semester_no),
             [course.upper() for course in courses],
-            parse_whitelist(whitelist))
+            parse_whitelist(whitelist),
+            dry_run)
 
 
 def main():
@@ -69,7 +73,6 @@ def main():
         print(parse_and_generate_url(args.year, args.semester, args.courses, args.whitelist))
     except ValueError as e:
         print(e)
-
 
 
 if __name__ == "__main__":

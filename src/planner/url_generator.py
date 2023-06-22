@@ -1,5 +1,5 @@
-from planner.valid_timetable_finder import get_valid
-from planner.nusmods_api import class_type_to_abbr
+from src.planner.valid_timetable_finder import get_valid
+from src.planner.nusmods_api import class_type_to_abbr
 
 
 def generate_syntax(acad_year, semester, courses, whitelist):
@@ -24,7 +24,10 @@ def generate_syntax(acad_year, semester, courses, whitelist):
     return '&'.join(syntaxes)
 
 
-def generate_url(acad_year, semester, courses, whitelist):
+def generate_url(acad_year, semester, courses, whitelist, dry_run=False):
+    if dry_run:
+        return
+
     syntax = generate_syntax(acad_year, semester, courses, whitelist)
 
     return f"https://nusmods.com/timetable/sem-{semester}/share?{syntax}"

@@ -1,5 +1,5 @@
-from planner.Scheduler import Scheduler
-from planner.nusmods_api import class_type_to_abbr, get_data
+from src.planner.Scheduler import Scheduler
+from src.planner.nusmods_api import class_type_to_abbr, get_data
 import json
 
 
