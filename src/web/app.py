@@ -9,8 +9,13 @@ from planner.cli import parse_and_generate_url
 app = Flask(__name__)
 
 
-@app.route('/', methods=['GET', 'POST'])
+@app.route('/', methods=['GET'])
 def home():
+    return render_template('home.html')
+
+
+@app.route('/history', methods=['GET', 'POST'])
+def history():
     if request.method == 'POST':
         year = request.form.get('year')
         semester = request.form.get('semester')

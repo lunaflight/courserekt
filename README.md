@@ -176,9 +176,9 @@ To start the web app, navigate to `src/web` and you can use the following comman
 python app.py
 ```
 
-After running the command, open a web browser and navigate to `http://localhost:5000/`. You can then fill the form and press the 'Submit' button to get the analysis.
+After running the command, open a web browser and navigate to `http://localhost:5000/`. 
 
-You may also navigate to `https://localhost:5000/scheduler` for a more user-friendly graphical interface of the timetable planner.
+This will lead you to a self-explanatory website that provides a more user-friendly interface for the command line interface.
 </details>
 
 
