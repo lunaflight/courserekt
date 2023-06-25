@@ -108,7 +108,7 @@ def get_data(acad_year: Union[str, int],
 
 
 def main() -> None:
-    acad_year = '2022-2023'
+    acad_year = '2023-2024'
     semester_no = 2
     modules = ['HSI1000', 'EL2101', 'LAJ3202', 'ES2660']
 

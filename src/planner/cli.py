@@ -79,7 +79,7 @@ def parse_and_generate_url(acad_year: Union[str, int],
 def main() -> None:
     parser = argparse.ArgumentParser(description="Generate NUSMods URL.")
 
-    parser.add_argument('-y', '--year', type=str, default='2022-2023',
+    parser.add_argument('-y', '--year', type=str, default='2023-2024',
                         help='The academic year, e.g., '
                         '"2022-2023", "22-23", "22/23", "2223".')
     parser.add_argument('-s', '--semester', type=int, required=True,

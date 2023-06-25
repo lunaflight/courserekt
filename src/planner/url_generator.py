@@ -48,7 +48,7 @@ def generate_url(acad_year: str, semester: int,
 
 
 def main() -> None:
-    acad_year = '2022-2023'  # Change to current academic year
+    acad_year = '2023-2024'  # Change to current academic year
     semester_no = 1  # Change to current semester
     modules = ['LAJ2201', 'CS2100', 'ST2334', 'CS2106', 'CS2107', 'CS2109S',
                'LAJ3201', 'CS2102', 'CS2103T', 'CS2105', 'CS3230', 'CS3241',

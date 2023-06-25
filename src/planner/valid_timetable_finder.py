@@ -129,7 +129,7 @@ def get_valid(acad_year: Union[str, int],
 
 
 def main() -> None:
-    acad_year = '2022-2023'  # Change to current academic year
+    acad_year = '2023-2024'  # Change to current academic year
     semester_no = 1  # Change to current semester
     modules = ['CS2100']  # Add your modules here
 
