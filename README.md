@@ -1,4 +1,4 @@
-# NUS Course Registration Analysis
+# NUS Tools
 
 ## Purpose
 
@@ -175,6 +175,8 @@ A link will be returned in the command line, allowing you to straightforwardly i
 
 <!-- <details> -->
 <!-- <summary>Web App Usage (Click to Expand)</summary> -->
+
+The files for this reside in `src/web`.
 
 In addition to the CLI, a web app has been created for a more user-friendly experience. The implementation uses Flask with HTML and CSS residing in `templates` and `static` directories respectively.
 
