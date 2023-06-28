@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request
 from src.coursereg_history.api import get_data
 from src.planner.cli import parse_and_generate_url
+from argparse import ArgumentParser
 
 app = Flask(__name__)
 
@@ -53,4 +54,9 @@ def scheduler():
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', debug=True)
+    parser = ArgumentParser(description='Web app for NUS Tools')
+    parser.add_argument('--port', type=int, nargs=1, default=5000,
+                        help='Port where the app is run.')
+    args = parser.parse_args()
+
+    app.run(host='0.0.0.0', port=args.port, debug=True)
