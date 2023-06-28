@@ -2,7 +2,9 @@
 
 ## Purpose
 
-Browsing through Demand Allocation Reports to gain insights about course subscription trends can be a challenging task. It involves parsing multiple PDFs for every round, comparing trends, and examining the classes available. This project aims to streamline this process, making analysis of a course's past popularity more accessible and straightforward.
+Browsing through Demand Allocation Reports to gain insights about course subscription trends can be a challenging task. It involves looking at multiple PDFs for every round, comparing trends, and examining the classes available. This project aims to streamline this process, making analysis of a course's past popularity more accessible and straightforward.
+
+Well, at least that was the humble starting idea, but let's see how much further we can go! :p
 
 ![Picture of the web app.](https://sussyamongus.s-ul.eu/vqBcKPji)
 ![Picture of the CLI (Command Line Interface).](https://sussyamongus.s-ul.eu/4uUP55xh)
@@ -12,22 +14,28 @@ Browsing through Demand Allocation Reports to gain insights about course subscri
 
 ### CourseReg Records
 
+The files for this reside in `src/coursereg_history`.
+
+It contains code which scrapes and cleans data from the PDFs given by NUS, which is then parsed into easier-to-read formats.
+
 1. **PDF Storage:** The PDFs are stored in `data/pdfs/[year]/[semester]/[ug/gd]/round_{0,1,2,3}.pdf`.
 2. **PDF Parsing:** The PDFs are parsed using [Tabula](https://github.com/tabulapdf/tabula-java) to produce CSV files in `data/raws/[year]/[semester]/[ug/gd]/round_{0,1,2,3}.csv`. Java is used for this purpose, and we use a bash script `./convert_pdfs` to facilitate conversion.
 3. **Data Cleaning:** The raw CSV files are passed through `clean_csvs.py` to produce clean CSVs in `data/cleaned/[year]/[semester]/[ug/gd]/round_{0,1,2,3}.csv`.
 4. **Database Entry:** The cleaned CSVs are added to the `database.db` by passing them through `csv_to_db.py`.
 5. **Web Application:** A Flask-based web application serves the data from the database. It includes a form for users to specify the year, semester, type, and course codes. It returns a neatly formatted table with information about the requested courses.
 
-All of these steps are orchestrated using a Makefile. You just need to add the PDF to the correct folder location, then run `make all`.
+All of these steps are orchestrated using a Makefile.
 
 ### Timetable Planner
 
-The `src/planner` directory contains code that utilizes a backtracking algorithm to plan a non-clashing schedule, given a list of courses, academic year, and semester. The files in this directory include:
+The files for this reside in `src/planner`.
+
+It contains code that utilizes a backtracking algorithm to plan a non-clashing schedule, given a list of courses, academic year, and semester. The files in this directory include:
 
 1. **Data Fetching**: `nusmods_api.py` queries the NUSMods API based on the provided courses, academic year, and semester, and retrieves a JSON file containing the relevant data.
 2. **Scheduler Abstraction**: `Scheduler.py` is a standalone class that handles blocking and unblocking periods of time, checking if any clashes occur. It is used extensively in the timetable backtracking.
 3. **Backtracking Finding**: `valid_timetable_finder.py` provides a function that returns a non-clashing timetable schedule, indicating the classes that don't clash with each other.
-4. **Url Generating**: `url_generator.py` provides the relevant NUSMods link upon finding a valid timetable, allowing you to import the data easily.
+4. **URL Generating**: `url_generator.py` provides the relevant NUSMods link upon finding a valid timetable, allowing you to import the data easily.
 
 The use of the backtracking algorithm helps ensure that the generated timetable is valid and free of any schedule clashes. 
 
@@ -42,10 +50,10 @@ There are a few main ways to use this project:
 
 ### CourseReg History CLI
 
-<details>
-<summary>CLI Usage (Click to Expand)</summary>
+<!-- <details> -->
+<!-- <summary>CLI Usage (Click to Expand)</summary> -->
 
-To start the CLI, navigate to the *project root* and you can use the following command:
+To start the CLI, navigate to the **project root** and you can use the following command:
 
 ```shell
 python -m src.coursereg_history.cli
@@ -121,14 +129,14 @@ CS2109 NOT FOUND
 Here, the output consists of the course code followed by the round-wise status of that course. The arrows represent the progression from round 0 to 3. Each number represents the status of that course in that round. If a course isn't found in the data, a "NOT FOUND" message is displayed. A NaN is displayed if 0 vacancies were available.
 
 For instance, for the course CS2105 in round 1, 267 students were vying for vacancies per 100 vacancies.
-</details>
+<!-- </details> -->
 
 ### Timetable Planner CLI
 
-<details>
-<summary>CLI Usage (Click to Expand)</summary>
+<!-- <details> -->
+<!-- <summary>CLI Usage (Click to Expand)</summary> -->
 
-To start the CLI, navigate to *project root* and you can use the following command:
+To start the CLI, navigate to the **project root** and you can use the following command:
 
 ```shell
 python -m src.planner.cli -h
@@ -137,7 +145,7 @@ usage: cli.py [-h] [-y YEAR] -s SEMESTER -c COURSES [COURSES ...]
               [-w WHITELIST [WHITELIST ...]]
 ```
 
-options:
+Options:
 - `-h`, `--help`: Show this help message and exit.
 - `-y YEAR`, `--year YEAR`: Specify the academic year. This argument accepts the following formats: "2022-2023", "22-23", "22/23", "2223".
 - `-s SEMESTER`, `--semester SEMESTER`: The semester number (1 or 2).
@@ -161,30 +169,34 @@ https://nusmods.com/timetable/sem-1/share?CS2100=LAB:11,TUT:03,LEC:1,REC:1&CS210
 
 A link will be returned in the command line, allowing you to straightforwardly import it into NUSMods.
 
-</details>
+<!-- </details> -->
 
 ### Web App
 
-<details>
-<summary>Web App Usage (Click to Expand)</summary>
+<!-- <details> -->
+<!-- <summary>Web App Usage (Click to Expand)</summary> -->
 
 In addition to the CLI, a web app has been created for a more user-friendly experience. The implementation uses Flask with HTML and CSS residing in `templates` and `static` directories respectively.
 
-To start the web app, navigate to `src/web` and you can use the following command:
+To start the web app, navigate to the **project root** and you can use the following command:
 
 ```shell
 python -m src.web.app 
 ```
 
+Options:
+- `-h`, `--help`: Show this help message and exit
+- `--port PORT`: Port where the app is run.
+
 After running the command, open a web browser and navigate to `http://localhost:5000/`. 
 
 This will lead you to a self-explanatory website that provides a more user-friendly interface for the command line interface.
-</details>
+<!-- </details> -->
 
 
 ## Installation
 
-1. Clone the repository with `git clone https://github.com/et-irl/nus-demand-analysis.git`.
+1. Clone the repository with `git clone https://github.com/et-irl/nus-tools.git`.
 2. Make sure Python and pip are installed on your system. If not, follow the instructions below:
 
     - **Python and pip:**
@@ -193,37 +205,19 @@ This will lead you to a self-explanatory website that provides a more user-frien
         - **Linux (dnf):** `sudo dnf install python3 python3-pip`
         - **Linux (pacman):** `sudo pacman -S python python-pip`
 
-3. Install the Python dependencies with pip:
+3. Navigate to the **project root** and install the Python dependencies with pip:
 
     ```shell
     pip install -r requirements.txt
     ```
 
-## Software Engineering Practices
+## For Devs:
 
-In the development of this project, several software engineering best practices were adopted to ensure code quality, ease of collaboration and maintainability. Below are some of the practices used:
-
-1. **Version Control System (VCS):** The project uses Git as a version control system. It was instrumental in tracking changes and enabling collaboration.
-
-2. **Automated Testing:** Automated testing was performed using Pytest. These tests helped in quickly identifying issues and validating the effectiveness of fixes.
-
-3. ~~**Continuous Integration/Continuous Deployment (CI/CD):**~~ *(Not yet implemented)*
-
-4. **Coding Standards:** The project adheres to common Python coding standards. This includes practices like maintaining less than 80 characters per line, consistent indentation, and the use of descriptive variable names among others. These standards enhance code readability and maintainability.
-
-5. **Design Principles:** The code has been written with simplicity and readability in mind. The functions are kept small and focus on doing one thing well, which is in line with the UNIX philosophy.
-
-6. **Documentation:** Comprehensive documentation was a priority. This README provides an in-depth understanding of the project. The codebase also includes comments where necessary, providing context and explanation for complex code blocks.
-
-7. **Readability and Maintainability:** Type hints and mypy are used extensively in `src/coursereg_history`. This makes sure that errors due to types are avoided before the script is even run, and helps other programmers understand what functions take as input better.
-
-The inclusion of these practices helped ensure the development of a robust and maintainable project while fostering an environment conducive to collaboration.
-
-## Unit Testing
+### Unit Testing
 
 This project employs the built-in `unittest` module in Python for automated testing of the software. It's essential to ensure the robustness of our code and to help catch any potential bugs or problems. 
 
-To run the tests, navigate to the root directory of this project, and run:
+To run the tests, navigate to the **project root** of this project, and run:
 
 ```shell
 python -m unittest discover
@@ -231,6 +225,19 @@ python -m unittest discover
 
 This command will search for all the test files in the project and execute them. Any test failures or errors will be reported in the console, making it easy for you to identify and fix the issues.
 Unit tests are an essential part of our software development process. They help us maintain the high quality of our code and reduce the likelihood of introducing errors during the development process. By running these tests regularly, you can ensure that any changes or additions you make to the project don't break existing functionality.
+
+### Adding of new CourseReg data
+When new data is released, the program can be updated easily. You can follow the following steps to update it.
+1. Ensure Java is installed. This is required to run [Tabula](https://github.com/tabulapdf/tabula-java).
+    - **Windows/Mac:** Download the installer from the [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+    - **Linux (apt):** `sudo apt install default-jdk`
+    - **Linux (dnf):** `sudo dnf install java-latest-openjdk`
+    - **Linux (pacman):** `sudo pacman -S jdk-openjdk`
+2. Navigate to `src/coursereg_history/data/pdfs`. 
+3. Create the relevant directory by running `mkdir -p YEAR/SEM/TYPE`. For example, `2324/1/ug` or `2425/2/gd`.
+4. Add the pdf in the relevant directory, naming it `round_N.pdf`. For example, `round_0.pdf`.
+5. Navigate to `src/coursereg_history`. Run `make all`.
+6. You're done! The data should have been added successfully and ready to use.
 
 ## Contributing
 
