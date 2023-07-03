@@ -51,13 +51,7 @@ def get_data(year: Union[str, int],
                 "SELECT name FROM sqlite_master WHERE type='table' AND name=?",
                 (TABLE_NAME,))
         if cursor.fetchone() is None:
-            if round_number == 0:
-                raise ValueError(
-                        f"History for the given year {year} "
-                        f"semester {semester} ({ug_gd}) not found."
-                        )
-            else:
-                continue
+            continue
 
         cursor = conn.execute(f"SELECT * FROM {TABLE_NAME} WHERE Code=?",
                               (code,))
