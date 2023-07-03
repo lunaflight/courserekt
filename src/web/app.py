@@ -27,9 +27,9 @@ def history():
             except ValueError as e:
                 errors.append(e)
 
-        return render_template('index.html', output=output, errors=errors)
+        return render_template('history.html', output=output, errors=errors)
     else:
-        return render_template('index.html')
+        return render_template('history.html')
 
 
 @app.route('/scheduler', methods=['GET', 'POST'])

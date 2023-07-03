@@ -14,7 +14,8 @@
           <label for="year"><b>Academic Year:</b></label><br>
           <select id="year" name="year">
             <option value="21/22" {% if request.form.year == "21/22" %}selected{% endif %}>21/22</option>
-            <option value="22/23" {% if request.form.year == "22/23" or not request.form.year %}selected{% endif %}>22/23</option>
+            <option value="22/23" {% if request.form.year == "22/23" %}selected{% endif %}>22/23</option>
+            <option value="23/24" {% if request.form.year == "23/24" or not request.form.year %}selected{% endif %}>23/24</option>
             <!-- Add more years as needed -->
           </select>
           <br>
