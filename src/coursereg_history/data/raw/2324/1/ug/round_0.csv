@@ -1,0 +1,1646 @@
+"",,Course Class Demand and Allocation Report
+"",,"Undergraduate Courses, Select Courses (Round 0)"
+"",,"Semester 1, AY2023/2024"
+"",,Course Class Demand and Allocation Report
+"",,"Undergraduate Courses, Select Courses (Round 0)"
+"",,"Semester 1, AY2023/2024"
+"",,(updated: 30/06/2023)
+"",,Successful
+"",,Unsuccessful Allocations due to:
+Course Host,Course Host,Course Course Allocations
+"",,Course Title Vacancy Demand
+Faculty/School,Department,Code Class Main Reserve Quota Timetable Workload
+"",,Others
+"",,List List Exceeded Clashes Exceeded
+Coll. of Humanities,Communications &,
+"",,HS2903 Sporting Bodies L1 230 419 230 0 186 0 3 0
+& Sciences,New Media,
+Coll. of Humanities,"English,Ling.&Theatre",Polymaths: Innovating Between Art
+"",,HS2912 L1 100 126 100 0 26 0 0 0
+& Sciences,Studies,and Science
+College of Design,,
+"",Built Environment,IPM2101 Introduction to Building Performance L1 60 31 31 1 0 0 0 0
+and Eng,,
+College of Design,,
+"",Built Environment,IPM2102 Construction Technology L1 50 32 32 0 0 0 0 0
+and Eng,,
+College of Design,,
+"",Built Environment,IPM3101 Project Feasibility L1 30 7 7 0 0 0 0 0
+and Eng,,
+College of Design,,Infrastructure and Facilities
+"",Built Environment,IPM3102 L1 30 4 4 0 0 0 0 0
+and Eng,,Management
+College of Design,,
+"",Built Environment,IPM4201 Smart Facility Management Robotics L1 25 2 2 0 0 0 0 0
+and Eng,,
+College of Design,,
+"",Built Environment,PF2102 Structural Systems L1 25 7 7 0 0 0 0 0
+and Eng,,
+College of Design,,
+"",Built Environment,PF2109 Project Feasibility L1 30 20 20 0 0 0 0 0
+and Eng,,
+College of Design,,
+"",Built Environment,PF2205 Project Finance L1 115 15 15 0 0 0 0 0
+and Eng,,
+College of Design,,
+"",Built Environment,PF3104 Project Execution L1 110 69 69 0 0 0 0 0
+and Eng,,
+College of Design,,
+"",Built Environment,PF3105 Research Methods L1 115 75 75 0 0 0 0 0
+and Eng,,
+Remarks:,,
+"1. Vacancy, Demand and Successful/Unsuccessful Allocations data in this report display the course classes, selected under main list in this current round, unless otherwise stated.",,
+"2. The same course may be available to different students at different ""Select Courses"" rounds. The general guide to check if the course is available in a particular round is as follows:",,
+"•""Select Courses"" Round 1 is a protected round for programme requirements, restricted/direct minor requirements and CELC English requirements.",,
+"•""Select Courses"" Round 2 onwards include courses selection for University-level requirement and Unrestricted Elective requirements.",,
+"3. The ""Vacancy"" column displays the quota (by student's career) as at running the Select Courses allocation for this current round. It is subject to changes, such as courses allocated by admins",,
+before running allocation process for deserving students. All the available vacancies of the course-class will be merged when processing course allocation for Select Courses (Round 3) and,,
+"Submit Course Requests. It will be updated with ""-"" when a course class has reached to its maximum capacity. In such situation, students are not allowed to select classes or submit appeals.",,
+"4. The ""Others"" column includes reasons such as class has already been allocated earlier, class is being cancelled or student's programme status is no longer active.",,
+5. Please note that the total quota for most Law elective courses (across all Academic Careers) is 50.,,Page 1 of 81
+"",,As at 30-Jun-23
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"College of Designand Eng",Built Environment,PF3205,Advanced Measurement,L1,55,9,9,0,0,0,0,0
+"College of Designand Eng",Built Environment,PF3208,Project Leadership,L1,85,2,2,0,0,0,0,0
+"College of Designand Eng",Built Environment,PF3209,Building Information Modelling,L1,80,22,22,0,0,0,0,0
+"College of Designand Eng",Built Environment,PF3210,Total Building Performance,L1,55,2,2,0,0,0,0,0
+"College of Designand Eng",Built Environment,PF3211,"AI Applications for the BuiltEnvironment",L1,85,7,7,0,0,0,0,0
+"College of Designand Eng",Built Environment,PF3307,Strategic Facilities Management,L1,55,4,4,0,0,0,0,0
+"College of Designand Eng",Built Environment,PF3504,Energy Management,L1,55,7,7,0,0,0,0,0
+"College of Designand Eng",Built Environment,PF4102,"Contract and ProcurementManagement",L1,140,81,81,0,0,0,0,0
+"College of Designand Eng",Built Environment,PF4209,Construction Enterprise Management,L1,55,23,23,0,0,0,0,0
+"College of Designand Eng",Built Environment,PF4213,"Building Energy Analysis andSimulation",L1,25,26,25,0,1,0,0,0
+"College of Designand Eng",Built Environment,PF4309,"Infrastructure Operations andMaintenance",L1,55,18,18,0,0,0,0,0
+"College of Designand Eng",Built Environment,PF4502,Green Development,L1,24,29,19,0,10,0,0,0
+"College of Designand Eng",CDE Dean's Office,CDE2501,Liveable Cities,L01,163,8,8,0,0,0,0,0
+"College of Designand Eng",CDE Dean's Office,EG1311,Design and Make,L1,350,3,3,0,0,0,0,0
+"College of Designand Eng",CDE Dean's Office,EG2401A,Engineering Professionalism,L1,150,164,150,0,14,0,0,0
+"College of Designand Eng",CDE Dean's Office,EG2401A,Engineering Professionalism,L2,200,242,200,0,42,0,0,0
+"College of Designand Eng","Chemical &Biomolecular Eng",CN2103,Material and Energy Balances,L1,205,157,157,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"College of Designand Eng","Chemical &Biomolecular Eng",CN2104,"Chemical EngineeringThermodynamics",L1,205,141,140,0,0,1,0,0
+"College of Designand Eng","Chemical &Biomolecular Eng",CN2105,Reaction Engineering,L1,25,8,7,0,0,0,0,1
+"College of Designand Eng","Chemical &Biomolecular Eng",CN2106,Fluid Mechanics and Heat Transfer,L1,33,14,14,0,0,0,0,0
+"College of Designand Eng","Chemical &Biomolecular Eng",CN3101A,Chemical Engineering Process Lab,S1,60,9,9,0,0,0,0,0
+"College of Designand Eng","Chemical &Biomolecular Eng",CN3101A,Chemical Engineering Process Lab,S2,60,10,10,0,0,0,0,0
+"College of Designand Eng","Chemical &Biomolecular Eng",CN3102,Chemical Engineering Process Lab II,S1,60,1,1,0,0,0,0,0
+"College of Designand Eng","Chemical &Biomolecular Eng",CN3103,"Mass Transfer and SeparationProcesses",L1,120,98,98,0,0,0,0,0
+"College of Designand Eng","Chemical &Biomolecular Eng",CN3104,"Computer-Aided Chemical ProcessSimulation",L1,120,104,82,0,0,0,0,22
+"College of Designand Eng","Chemical &Biomolecular Eng",CN3135,"Process Safety, Health andEnvironment",L1,40,6,6,0,0,0,0,0
+"College of Designand Eng","Chemical &Biomolecular Eng",CN4101,Process Control and Safety,L1,135,58,58,0,0,0,0,0
+"College of Designand Eng","Chemical &Biomolecular Eng",CN4118,B.Eng. Dissertation,L1,40,2,2,0,0,0,0,0
+"College of Designand Eng","Chemical &Biomolecular Eng",CN4119,Final Year Design Project,L1,220,39,30,0,0,0,0,9
+"College of Designand Eng","Chemical &Biomolecular Eng",CN4122,Process Synthesis and Simulation,L1,80,60,59,0,0,1,0,0
+"College of Designand Eng","Chemical &Biomolecular Eng",CN4203R,Polymer Engineering,L1,49,8,8,0,0,0,0,0
+"College of Designand Eng","Chemical &Biomolecular Eng",CN4205R,"Pinch Analysis and ProcessIntegration",L1,55,31,28,0,0,0,0,3
+"College of Designand Eng","Chemical &Biomolecular Eng",CN4215R,Food Technology and Engineering,L1,55,22,22,0,0,0,0,0
+"College of Designand Eng","Chemical &Biomolecular Eng",CN4218,"Particle Technology Fundamentalsand Applications",L1,51,17,17,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"College of Designand Eng","Chemical &Biomolecular Eng",CN4233R,"Good Manufacturing Practices inPharmaceutical Industry",L1,40,37,37,0,0,0,0,0
+"College of Designand Eng","Chemical &Biomolecular Eng",CN5173,"DOWNSTREAM PROCESSING OFBIOCHEMICAL &PHARMACEUTICAL PRODUCTS",L1,20,7,7,0,0,0,0,0
+"College of Designand Eng","Chemical &Biomolecular Eng",CN5190,Hydrogen Energy and Technology,L1,30,16,16,0,0,0,0,0
+"College of Designand Eng","Chemical &Biomolecular Eng",CN5191,Project Engineering,L1,30,10,10,0,0,0,0,0
+"College of Designand Eng","Chemical &Biomolecular Eng",CN5204,"Green Chemical Process andTechnology",L1,50,13,13,0,0,0,0,0
+"College of Designand Eng","Chemical &Biomolecular Eng",CN5216,"Electronic Materials and EnergyTechnologies",L1,30,2,2,0,0,0,0,0
+"College of Designand Eng","Chemical &Biomolecular Eng",CN5246,Catalysis Science and Engineering,L1,15,1,1,0,0,0,0,0
+"College of Designand Eng","Chemical &Biomolecular Eng",CN5251,Membrane Science & Technology,L1,20,5,5,0,0,0,0,0
+"College of Designand Eng","Civil & EnvironmentalEng",CE2407A,Uncertainty Analysis for Engineers,L01,115,9,9,0,0,0,0,0
+"College of Designand Eng","Civil & EnvironmentalEng",CE4103,Design Project,L0A,40,39,39,0,0,0,0,0
+"College of Designand Eng","Civil & EnvironmentalEng",CE4103,Design Project,L0B,40,10,10,0,0,0,0,0
+"College of Designand Eng","Civil & EnvironmentalEng",CE4103,Design Project,L0C,40,4,4,0,0,0,0,0
+"College of Designand Eng","Civil & EnvironmentalEng",CE4103,Design Project,L0D,40,4,4,0,0,0,0,0
+"College of Designand Eng","Civil & EnvironmentalEng",CE4104,B. Eng. Dissertation,L01,150,60,60,0,0,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",EE2012,"Analytical Methods in Electrical andComputer Engineering",L01,36,51,0,0,0,0,0,51
+"College of Designand Eng","Electrical & ComputerEng",EE2023,Signals and Systems,P01,30,52,30,0,21,0,0,1
+College of Design,Electrical & Computer,EE2026,Digital Design,L01,23,5,5,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+and Eng,Eng,,,,,,,,,,,
+"College of Designand Eng","Electrical & ComputerEng",EE2028,"Microcontroller Programming andInterfacing",L01,28,30,28,0,0,0,0,2
+"College of Designand Eng","Electrical & ComputerEng",EE2211,Introduction to Machine Learning,L01,125,5,5,0,0,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",EE3031,Innovation & Enterprise I,L01,30,20,20,0,0,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",EE3031,Innovation & Enterprise I,L02,30,11,11,0,0,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",EE3104C,"Introduction to RF and MicrowaveSystems & Circuits",L01,38,8,8,0,0,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",EE3105,"Beyond Sky - New Space Technologyand Applications",P01,40,6,6,0,0,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",EE3305,Robotic System Design,L01,30,29,29,0,0,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",EE3306,"Introduction to Cyber PhysicalSystems",L01,20,16,16,0,0,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",EE3331C,Feedback Control Systems,P01,40,31,31,0,0,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",EE3408C,Integrated Analog Design,P01,40,23,23,1,0,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",EE3431C,"Microelectronics Materials andDevices",P01,70,13,13,0,0,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",EE3731C,Signal Analytics,L01,43,42,42,0,0,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",EE3801,Data Engineering Principles,P01,40,35,35,0,0,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",EE4031,"Intellectual Property: HarnessingInnovation",L01,37,19,19,0,0,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",EE4032,Blockchain Engineering,L01,36,29,29,0,0,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",EE4101,RF Communications,P01,25,6,6,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"College of Designand Eng","Electrical & ComputerEng",EE4112,"Radio Frequency Design andSystems",P01,16,2,2,0,0,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",EE4204,Computer Networks,P01,135,58,57,0,0,0,0,1
+"College of Designand Eng","Electrical & ComputerEng",EE4211,"Data Science for the Internet ofThings",L01,108,95,95,0,0,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",EE4302,Advanced Control Systems,P01,35,3,3,0,0,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",EE4303,Industrial Control Systems,P01,48,11,11,0,0,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",EE4309,Robot Perception,L01,37,5,5,0,0,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",EE4435,"Modern Transistors and MemoryDevices",P01,32,12,11,0,0,0,0,1
+"College of Designand Eng","Electrical & ComputerEng",EE4436,Fabrication Process Technology,L01,38,23,23,0,0,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",EE4501,"Power System Management AndProtection",P01,44,25,25,0,0,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",EE4502,Electric Drives & Control,P01,45,30,30,0,0,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",EE4704,Image Processing and Analysis,P01,50,36,36,0,0,0,0,0
+"College of Designand Eng","Electrical & ComputerEng",EE4705,Human-Robot Interaction,P01,44,27,27,0,0,0,0,0
+"College of Designand Eng","Engineering ScienceProgramme",ESP2106,Principles of Continua,L1,35,21,21,0,0,0,0,0
+"College of Designand Eng","Engineering ScienceProgramme",ESP2107,Numerical Methods and Statistics,L1,40,26,26,0,0,0,0,0
+"College of Designand Eng","Engineering ScienceProgramme",ESP3201,"Machine Learning in Robotics andEngineering",L1,15,5,5,0,0,0,0,0
+"College of Designand Eng","Engineering ScienceProgramme",ESP4901,Research Project,L1,60,11,11,0,0,0,0,0
+"College of Designand Eng","Industrial Systems Eng& Mgmt",IE1111R,"Industrial & Systems Engrg Principles& Practice I",L1,60,11,11,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"College of Designand Eng","Industrial Systems Eng& Mgmt",IE1111R,"Industrial & Systems Engrg Principles& Practice I",L2,60,3,3,0,0,0,0,0
+"College of Designand Eng","Industrial Systems Eng& Mgmt",IE2110,Operations Research I,L1,119,111,111,0,0,0,0,0
+"College of Designand Eng","Industrial Systems Eng& Mgmt",IE2141,Systems Thinking and Dynamics,L1,204,2,2,0,0,0,0,0
+"College of Designand Eng","Industrial Systems Eng& Mgmt",IE2141,Systems Thinking and Dynamics,L2,84,24,24,0,0,0,0,0
+"College of Designand Eng","Industrial Systems Eng& Mgmt",IE3101,"Statistics For EngineeringApplications",L1,82,51,51,0,0,0,0,0
+"College of Designand Eng","Industrial Systems Eng& Mgmt",IE3105,"Fundamentals of SystemsEngineering and Architecture",L1,40,8,8,0,0,0,0,0
+"College of Designand Eng","Industrial Systems Eng& Mgmt",IE3110R,Simulation,L1,90,59,59,0,0,0,0,0
+"College of Designand Eng","Industrial Systems Eng& Mgmt",IE4210,Operations Research II,L1,45,14,14,0,0,0,0,0
+"College of Designand Eng","Industrial Systems Eng& Mgmt",IE4211,Modelling & Analytics,L1,65,38,38,0,0,0,0,0
+"College of Designand Eng","Industrial Systems Eng& Mgmt",IE4214,"Revenue Management and PricingAnalytics",L1,45,21,21,0,0,0,0,0
+"College of Designand Eng","Industrial Systems Eng& Mgmt",IE4215,"Machine Learning for IndustrialEngineering",L1,45,2,2,0,0,0,0,0
+"College of Designand Eng","Industrial Systems Eng& Mgmt",IE4220,Supply Chain Modelling,L1,45,16,16,0,0,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME1102,Engineering Principles and Practice I,P1,16,3,3,0,0,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME1102,Engineering Principles and Practice I,P2,20,2,2,0,0,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME1102,Engineering Principles and Practice I,P3,20,1,1,0,0,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME1102,Engineering Principles and Practice I,P6,20,1,1,0,0,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME2102,Engineering Innovation and Modelling,P1,90,83,83,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"College of Designand Eng","MechanicalEngineering",ME2112,Strength of Materials,L1,150,126,126,0,0,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME2115,Mechanics Of Machines,L1,150,92,92,0,0,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME2121,"Engineering Thermodynamics andHeat Transfer",L1,150,65,65,0,0,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME2134,Fluid Mechanics I,L1,150,142,142,0,0,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME2142,Feedback Control Systems,L1,150,109,109,0,0,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME2162,MANUFACTURING PROCESSES,L1,95,75,75,0,0,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME3122,Heat Transfer,L1,45,10,10,0,0,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME3163,"Introduction to Cyber PhysicalSystems",L01,20,33,20,0,13,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME3211,Mechanics Of Solids,L1,17,3,3,0,0,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME3242,Automation,L1,42,2,2,0,0,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME3243,Robotic System Design,L01,50,37,37,0,0,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME3252,Materials for Mechanical Engineering,L1,30,14,14,1,0,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME3261,"Computer-Aided Design AndManufacturing",L1,50,24,24,0,0,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME3263,"Design For Manufacturing AndAssembly",L1,59,17,17,1,0,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME4101A,Bachelor Of Engineering Dissertation,L1,450,122,122,0,0,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME4101B,Mechanical Systems Design,L1,150,52,52,0,0,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME4102,Standards in Mechanical Engineering,PXA1,30,30,30,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"College of Designand Eng","MechanicalEngineering",ME4102,Standards in Mechanical Engineering,PXA2,38,38,38,0,0,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME4102,Standards in Mechanical Engineering,PXB1,30,9,9,0,0,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME4102,Standards in Mechanical Engineering,PXB2,36,36,36,0,0,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME4103,Mechanical Engineering and Society,L1,180,59,59,0,0,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME4105,Specialization Study Module,L1,25,6,6,0,0,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME4223,Thermal Environmental Engineering,L1,40,9,9,1,0,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME4226,Energy and Thermal Systems,L1,35,1,1,0,0,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME4233,"Computational Methods In FluidMechanics",L1,50,18,18,0,0,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME4241,"Aircraft Performance, Stability andControl",L1,32,34,32,0,2,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME4245,Robot Mechanics and Control,L1,65,41,41,0,0,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME4252,"Nanomaterials for EnergyEngineering",L1,62,4,4,0,0,0,0,0
+"College of Designand Eng","MechanicalEngineering",ME4291,Finite Element Analysis,L1,60,36,36,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH2121,History of Chinese Literature,E1,50,16,15,0,0,0,1,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH2161,"Traditional Chinese Taxonomy ofLearning",E1,30,19,19,1,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH2275,Chinese Pop Music in East Asia,L1,75,4,4,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH2293,"Introduction to Chinese Art (taught inEnglish)",L1,36,5,5,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH3221,Selected Readings in Chinese Verse,L1,30,15,15,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"Faculty of Arts &Social Sci",Chinese Studies,CH3246,"Socio-Political History of ModernChina",E1,30,20,20,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH3294,"Science and Medicine in China (inEnglish)",E1,30,3,3,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH4207HM,History of Chinese Language,E1,10,5,5,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH4227HM,"Contemporary Chinese Literature inTwelve Key Words",E1,10,4,4,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH4261HM,Prescribed Text: Zhuangzi,E1,10,2,2,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH4882AHM,"Personalities in Modern ChineseHistory",E1,10,9,9,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CL2101,"The Chinese Script : History andIssues",L1,50,29,29,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CL2102,Chinese Phonetics,L1,35,4,4,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CL3203,Chinese Pragmatics,L1,30,9,9,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CL3210,"The Grammars and Lexicons of theChinese Dialects",E1,30,3,3,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,HS2909,The Rise and Fall and Rise of China,L1,200,227,200,0,27,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,TRA2101,Basic Translation,L1,73,1,1,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,TRA3202,Mass Media Translation,E1,30,1,1,0,0,0,0,0
+"Faculty of Arts &Social Sci","Communications &New Media",NM2101,"Theories of Communications andNew Media",L1,160,46,46,1,0,0,0,0
+"Faculty of Arts &Social Sci","Communications &New Media",NM2103,Quantitative Research Methods,L1,110,71,71,0,0,0,0,0
+"Faculty of Arts &Social Sci","Communications &New Media",NM2104,"Qualitative Communication ResearchMethods",L1,125,66,66,1,0,0,0,0
+"Faculty of Arts &Social Sci","Communications &New Media",NM2207,Computational Media Literacy,L1,35,30,29,0,0,0,0,1
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"Faculty of Arts &Social Sci","Communications &New Media",NM2207,Computational Media Literacy,L2,19,11,11,0,0,0,0,0
+"Faculty of Arts &Social Sci","Communications &New Media",NM2209,Social Psychology of New Media,L1,75,39,39,0,0,0,0,0
+"Faculty of Arts &Social Sci","Communications &New Media",NM2219,"Principles of CommunicationManagement",L1,63,33,33,0,0,0,0,0
+"Faculty of Arts &Social Sci","Communications &New Media",NM2220,Introduction to Media Writing,L1,75,27,27,0,0,0,0,0
+"Faculty of Arts &Social Sci","Communications &New Media",NM2223,Media Law and Policy,L1,69,9,9,0,0,0,0,0
+"Faculty of Arts &Social Sci","Communications &New Media",NM3205,Digital Media Cultures,L1,45,43,43,0,0,0,0,0
+"Faculty of Arts &Social Sci","Communications &New Media",NM3217,"Principles of Visual CommunicationDesign",L1,78,43,43,0,0,0,0,0
+"Faculty of Arts &Social Sci","Communications &New Media",NM3230,Digital Storytelling,E1,36,20,20,0,0,0,0,0
+"Faculty of Arts &Social Sci","Communications &New Media",NM3230,Digital Storytelling,E2,36,28,28,0,0,0,0,0
+"Faculty of Arts &Social Sci","Communications &New Media",NM3242,"Organisational Communication andLeadership",L1,42,31,31,0,0,0,0,0
+"Faculty of Arts &Social Sci","Communications &New Media",NM3243,User Experience Design,L1,80,33,32,0,0,0,1,0
+"Faculty of Arts &Social Sci","Communications &New Media",NM4102HM,"Advanced Communications & NewMedia Research",E1,30,8,8,0,0,0,0,0
+"Faculty of Arts &Social Sci","Communications &New Media",NM4207HM,"Managing CommunicationCampaigns",E1,30,16,16,2,0,0,0,0
+"Faculty of Arts &Social Sci","Communications &New Media",NM4208HM,Strategic Communication Design,E1,16,39,16,0,22,0,0,1
+"Faculty of Arts &Social Sci","Communications &New Media",NM4228HM,Crisis Communication,E1,30,18,18,0,0,0,0,0
+"Faculty of Arts &Social Sci","Communications &New Media",NM4228HM,Crisis Communication,E2,30,13,13,0,0,0,0,0
+"Faculty of Arts &Social Sci","Communications &New Media",NM4230HM,Communications for Social Change,E1,30,37,30,0,7,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"Faculty of Arts &Social Sci","Communications &New Media",NM4231HM,Digital Media Storytelling Strategies,E1,20,11,11,0,0,0,0,0
+"Faculty of Arts &Social Sci","Communications &New Media",NM4244HM,Sex in the Media,E1,30,43,30,0,13,0,0,0
+"Faculty of Arts &Social Sci","Communications &New Media",NM4245HM,Political Communication,E1,30,10,10,0,0,0,0,0
+"Faculty of Arts &Social Sci","Communications &New Media",NM4247HM,Creative Writing in the Marketplace,E1,18,19,18,0,1,0,0,0
+"Faculty of Arts &Social Sci","Communications &New Media",NM4247HM,Creative Writing in the Marketplace,E2,18,33,18,0,15,0,0,0
+"Faculty of Arts &Social Sci","Communications &New Media",NM4249HM,Media & Audiences,E1,30,42,30,0,12,0,0,0
+"Faculty of Arts &Social Sci","Communications &New Media",NM4250HM,Data Journalism and Analysis,E1,30,11,11,1,0,0,0,0
+"Faculty of Arts &Social Sci","Communications &New Media",NM4253HM,"Communications, Culture, andEnvironment",E1,30,21,21,2,0,0,0,0
+"Faculty of Arts &Social Sci","Communications &New Media",NM4254HM,The City and Public Culture,E1,35,14,14,1,0,0,0,0
+"Faculty of Arts &Social Sci","Communications &New Media",NM4255HM,"Social Media and ComputationalCommunication",E1,30,37,30,0,7,0,0,0
+"Faculty of Arts &Social Sci","Communications &New Media",NM4256HM,"Communication and DigitalCollaborations",E1,30,28,27,1,0,0,0,1
+"Faculty of Arts &Social Sci","Communications &New Media",NM4257HM,Multiplatform Advertising Strategies,E1,30,25,25,0,0,0,0,0
+"Faculty of Arts &Social Sci","Communications &New Media",NM4258HM,Health Communication,E1,30,14,14,0,0,0,0,0
+"Faculty of Arts &Social Sci","Communications &New Media",NM4259HM,Mobile Interaction Design,E1,30,37,30,0,7,0,0,0
+"Faculty of Arts &Social Sci","Communications &New Media",NM4260HM,Game Design,E1,30,16,15,0,0,0,0,1
+"Faculty of Arts &Social Sci","Communications &New Media",NM4880HHM,"(Special Topics): Entertainment forsocial good",E1,30,19,19,1,0,0,0,0
+"Faculty of Arts &Social Sci",Economics,EC1101E,Introduction to Economic Analysis,L1,314,25,25,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"Faculty of Arts &Social Sci",Economics,EC1101E,Introduction to Economic Analysis,L2,315,28,28,0,0,0,0,0
+"Faculty of Arts &Social Sci",Economics,EC2101,Microeconomic Analysis I,L1,235,137,136,1,0,1,0,0
+"Faculty of Arts &Social Sci",Economics,EC2102,Macroeconomic Analysis I,L1,270,249,247,0,0,2,0,0
+"Faculty of Arts &Social Sci",Economics,EC2104,"Quantitative Methods for EconomicAnalysis",L1,180,40,39,0,0,1,0,0
+"Faculty of Arts &Social Sci",Economics,EC2205,Economic Analysis of Business,L1,85,12,11,0,0,0,1,0
+"Faculty of Arts &Social Sci",Economics,EC2303,Foundations for Econometrics,L1,140,106,106,0,0,0,0,0
+"Faculty of Arts &Social Sci",Economics,EC2374,Economy of Modern China I,L1,60,9,9,0,0,0,0,0
+"Faculty of Arts &Social Sci",Economics,EC3101,Microeconomic Analysis II,L1,130,115,114,0,0,0,1,0
+"Faculty of Arts &Social Sci",Economics,EC3102,Macroeconomic Analysis II,L1,125,117,115,1,0,1,1,0
+"Faculty of Arts &Social Sci",Economics,EC3303,Econometrics I,L1,150,61,61,1,0,0,0,0
+"Faculty of Arts &Social Sci",Economics,EC3304,Econometrics II,L1,130,34,34,0,0,0,0,0
+"Faculty of Arts &Social Sci",Economics,EC3305,Programming Tools for Economics,L1,30,7,7,0,0,0,0,0
+"Faculty of Arts &Social Sci",Economics,EC3305R,"Economic Data Analysis with RProgramming",L1,30,6,6,0,0,0,0,0
+"Faculty of Arts &Social Sci",Economics,EC3312,"Game Theory & Applications toEconomics",L1,60,20,20,1,0,0,0,0
+"Faculty of Arts &Social Sci",Economics,EC3332,Money and Banking I,L1,110,38,38,0,0,0,0,0
+"Faculty of Arts &Social Sci",Economics,EC3333,Financial Economics I,L1,110,43,43,0,0,0,0,0
+"Faculty of Arts &Social Sci",Economics,EC3342,International Trade I,L1,45,10,10,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"Faculty of Arts &Social Sci",Economics,EC3343,International Finance I,L1,110,36,36,1,0,0,0,0
+"Faculty of Arts &Social Sci",Economics,EC3361,Labour Economics I,L1,50,5,5,0,0,0,0,0
+"Faculty of Arts &Social Sci",Economics,EC3373,Asean Economies,L1,42,9,9,0,0,0,0,0
+"Faculty of Arts &Social Sci",Economics,EC3381,Urban Economics,L1,65,26,26,0,0,0,0,0
+"Faculty of Arts &Social Sci",Economics,EC3391,"Evolution of Economic Thought &Analysis",L1,35,14,14,0,0,0,0,0
+"Faculty of Arts &Social Sci",Economics,EC4301HM,Microeconomic Analysis III,E1,25,24,23,2,0,0,1,0
+"Faculty of Arts &Social Sci",Economics,EC4302HM,Macroeconomic Analysis III,E1,25,7,7,3,0,0,0,0
+"Faculty of Arts &Social Sci",Economics,EC4303HM,Econometrics III,E1,25,20,19,0,0,0,1,0
+"Faculty of Arts &Social Sci",Economics,EC4304HM,Economic and Financial Forecasting,E1,25,40,25,0,15,0,0,0
+"Faculty of Arts &Social Sci",Economics,EC4305HM,Applied Econometrics,E1,25,21,21,1,0,0,0,0
+"Faculty of Arts &Social Sci",Economics,EC4305HM,Applied Econometrics,E2,25,28,25,0,3,0,0,0
+"Faculty of Arts &Social Sci",Economics,EC4306HM,Applied Microeconomic Analysis,E1,25,13,13,5,0,0,0,0
+"Faculty of Arts &Social Sci",Economics,EC4307HM,Issues in Macroeconomics,E1,25,9,9,1,0,0,0,0
+"Faculty of Arts &Social Sci",Economics,EC4307HM,Issues in Macroeconomics,E2,25,4,4,0,0,0,0,0
+"Faculty of Arts &Social Sci",Economics,EC4307HM,Issues in Macroeconomics,E3,25,15,15,0,0,0,0,0
+"Faculty of Arts &Social Sci",Economics,EC4308HM,"Machine Learning and EconomicForecasting",E1,25,42,25,0,17,0,0,0
+"Faculty of Arts &Social Sci",Economics,EC4313HM,Search Theory and Applications,E1,25,50,25,0,25,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"Faculty of Arts &Social Sci",Economics,EC4324HM,Economics of Competition Policy,E1,25,22,22,1,0,0,0,0
+"Faculty of Arts &Social Sci",Economics,EC4325HM,The Economics of Digital Platforms,E1,25,80,25,0,55,0,0,0
+"Faculty of Arts &Social Sci",Economics,EC4331HM,Monetary Economics and Policy,E1,25,1,1,0,0,0,0,0
+"Faculty of Arts &Social Sci",Economics,EC4332HM,Money and Banking II,E1,25,40,25,0,15,0,0,0
+"Faculty of Arts &Social Sci",Economics,EC4333HM,Financial Economics II,E1,25,39,25,0,14,0,0,0
+"Faculty of Arts &Social Sci",Economics,EC4343HM,International Finance II,E1,25,43,25,0,18,0,0,0
+"Faculty of Arts &Social Sci",Economics,EC4354HM,Economics of Education,E1,25,50,25,0,25,0,0,0
+"Faculty of Arts &Social Sci",Economics,EC4355HM,Economics of Ageing,E1,25,52,25,0,27,0,0,0
+"Faculty of Arts &Social Sci",Economics,EC4362HM,Immigration Economics,E1,25,30,25,0,5,0,0,0
+"Faculty of Arts &Social Sci",Economics,EC4371HM,Development Economics,E1,25,27,25,0,2,0,0,0
+"Faculty of Arts &Social Sci",Economics,EC4372HM,Technology and Innovation,L1,50,25,25,3,0,0,0,0
+"Faculty of Arts &Social Sci",Economics,EC4394HM,Behavioural Economics,E1,25,20,20,2,0,0,0,0
+"Faculty of Arts &Social Sci",Economics,EC4394HM,Behavioural Economics,E2,25,20,20,2,0,0,0,0
+"Faculty of Arts &Social Sci",Economics,EC4398HM,Economics of Inequality,L1,25,36,25,0,11,0,0,0
+"Faculty of Arts &Social Sci",Economics,EC4880HM,Topics in Economics,E1,25,12,12,3,0,0,0,0
+"Faculty of Arts &Social Sci",Economics,EC5101R,MICROECONOMIC THEORY,S1,5,3,3,0,0,0,0,0
+"Faculty of Arts &Social Sci",Economics,EC5326R,Policy Impact Evaluation Methods,S1,5,6,5,0,1,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"Faculty of Arts &Social Sci","English,Ling.&TheatreStudies",EL2102,Sound Patterns in Language,E1,48,21,21,0,0,0,0,0
+"Faculty of Arts &Social Sci","English,Ling.&TheatreStudies",EL2151,Social Variation in English,L1,55,26,26,0,0,0,0,0
+"Faculty of Arts &Social Sci","English,Ling.&TheatreStudies",EL3201,Syntax,E1,46,10,10,0,0,0,0,0
+"Faculty of Arts &Social Sci","English,Ling.&TheatreStudies",EL3206,Psycholinguistics,E1,44,17,17,0,0,0,0,0
+"Faculty of Arts &Social Sci","English,Ling.&TheatreStudies",EL3216,Language and the Internet,E1,24,18,18,0,0,0,0,0
+"Faculty of Arts &Social Sci","English,Ling.&TheatreStudies",EL4204HM,Pragmatics,E1,33,19,18,0,0,0,0,1
+"Faculty of Arts &Social Sci","English,Ling.&TheatreStudies",EL4212HM,Field Methods in Linguistics,E1,18,14,13,0,0,0,0,1
+"Faculty of Arts &Social Sci","English,Ling.&TheatreStudies",EL4252HM,Interactional Discourse,E1,33,4,4,0,0,0,0,0
+"Faculty of Arts &Social Sci","English,Ling.&TheatreStudies",EL4253HM,"Language, Gender and SexualIdentities",E1,33,13,13,0,0,0,0,0
+"Faculty of Arts &Social Sci","English,Ling.&TheatreStudies",EL4258HM,"Metapragmatics and LanguageIdeology",E1,33,17,16,0,0,0,0,1
+"Faculty of Arts &Social Sci","English,Ling.&TheatreStudies",EN1101E,An Introduction to Literary Studies,L1,105,2,2,0,0,0,0,0
+"Faculty of Arts &Social Sci","English,Ling.&TheatreStudies",EN2207,Gender and Sexuality in Literature,E1,47,34,34,0,0,0,0,0
+"Faculty of Arts &Social Sci","English,Ling.&TheatreStudies",EN2275,Writing About Literature,L1,47,20,20,0,0,0,0,0
+"Faculty of Arts &Social Sci","English,Ling.&TheatreStudies",EN3222,The Eighteenth Century,E1,46,26,26,0,0,0,0,0
+"Faculty of Arts &Social Sci","English,Ling.&TheatreStudies",EN3242,History of Film,L1,30,1,1,0,0,0,0,0
+"Faculty of Arts &Social Sci","English,Ling.&TheatreStudies",EN3243,S/F: Science Fiction and Fantasy,E1,47,37,37,0,0,0,0,0
+"Faculty of Arts &Social Sci","English,Ling.&TheatreStudies",EN3248,Reading the Horror Film,L1,50,5,5,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"Faculty of Arts &Social Sci","English,Ling.&TheatreStudies",EN3249,"Introduction to Visual Culture: Art,Film and Media",L1,46,7,7,0,0,0,0,0
+"Faculty of Arts &Social Sci","English,Ling.&TheatreStudies",EN3252,The Genealogy of Affect Theory,E1,47,16,16,0,0,0,0,0
+"Faculty of Arts &Social Sci","English,Ling.&TheatreStudies",EN3263,Singapore Literature in Context,E1,41,9,9,0,0,0,0,0
+"Faculty of Arts &Social Sci","English,Ling.&TheatreStudies",EN3264,"In Other Wor(l)ds: Post ‐colonialTheory & Literature",E1,47,22,22,0,0,0,0,0
+"Faculty of Arts &Social Sci","English,Ling.&TheatreStudies",EN4232HM,Topics in American Literature,E1,33,9,9,0,0,0,0,0
+"Faculty of Arts &Social Sci","English,Ling.&TheatreStudies",EN4234HM,"Pynchon and the Poetics ofInformation",E1,33,7,7,0,0,0,0,0
+"Faculty of Arts &Social Sci","English,Ling.&TheatreStudies",EN4251HM,Jonathan Swift,E1,33,21,21,0,0,0,0,0
+"Faculty of Arts &Social Sci","English,Ling.&TheatreStudies",EN4261HM,Metafictions and the Novel,E1,33,16,16,0,0,0,0,0
+"Faculty of Arts &Social Sci","English,Ling.&TheatreStudies",EN4880AHM,"Usurpation and Authority, 1558-1674",E1,33,24,24,0,0,0,0,0
+"Faculty of Arts &Social Sci","English,Ling.&TheatreStudies",TS2233,Making Contemporary Performance,E1,37,2,2,0,0,0,0,0
+"Faculty of Arts &Social Sci","English,Ling.&TheatreStudies",TS2236,Crossing Boundaries in Performance,E1,32,3,3,0,0,0,0,0
+"Faculty of Arts &Social Sci","English,Ling.&TheatreStudies",TS2240,Voice Studies and Production,L1,18,1,1,0,0,0,0,0
+"Faculty of Arts &Social Sci","English,Ling.&TheatreStudies",TS3222,Applied Theatre,E1,7,4,4,0,0,0,0,0
+"Faculty of Arts &Social Sci","English,Ling.&TheatreStudies",TS3243,Stage and Screen,E1,31,5,5,0,0,0,0,0
+"Faculty of Arts &Social Sci",Geography,GE1101E,"Geographical Journeys: ExploringWorld Environments",L1,129,1,1,0,0,0,0,0
+"Faculty of Arts &Social Sci",Geography,GE2215,Introduction to GIS,L1,145,42,42,0,0,0,0,0
+"Faculty of Arts &Social Sci",Geography,GE2231,"Living Space: Introducing Social andCultural Geography",L1,170,38,38,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"Faculty of Arts &Social Sci",Geography,GE3204,"Cities and Regions: Planning forChange",L1,80,37,37,0,0,0,0,0
+"Faculty of Arts &Social Sci",Geography,GE3216,"Applications of GIS & RemoteSensing",L1,60,11,11,0,0,0,0,0
+"Faculty of Arts &Social Sci",Geography,GE3231,Natural Hazards,L1,90,8,8,0,0,0,0,0
+"Faculty of Arts &Social Sci",Geography,GE3236,Transport and Communications,L1,76,6,6,0,0,0,0,0
+"Faculty of Arts &Social Sci",Geography,GE3241,Geographies of Social Life,L1,50,6,6,0,0,0,0,0
+"Faculty of Arts &Social Sci",Geography,GE3247,Worlds of Work,L1,50,2,2,0,0,0,0,0
+"Faculty of Arts &Social Sci",Geography,GE3250,Nature and Society,L1,48,5,5,0,0,0,0,0
+"Faculty of Arts &Social Sci",Geography,GE3254,"Energy Futures: Environment andSustainability",L1,75,12,12,0,0,0,0,0
+"Faculty of Arts &Social Sci",Geography,GE3255,"Aquatic, Riparian and CoastalSystems",L1,74,17,17,0,0,0,0,0
+"Faculty of Arts &Social Sci",Geography,GE3257,Financial Geographies,L1,60,5,5,0,0,0,0,0
+"Faculty of Arts &Social Sci",Geography,GE4202HM,Remaking the Global Economy,E1,35,4,4,0,0,0,0,0
+"Faculty of Arts &Social Sci",Geography,GE4213HM,Cultural Geographies,E1,35,6,6,0,0,0,0,0
+"Faculty of Arts &Social Sci",Geography,GE4217HM,"Political Geographies: Space andPower",E1,35,4,4,0,0,0,0,0
+"Faculty of Arts &Social Sci",Geography,GE4219HM,"Development and Environment inSoutheast Asia",E1,35,25,25,0,0,0,0,0
+"Faculty of Arts &Social Sci",Geography,GE4222HM,Advanced Geomorphology,E1,35,18,18,0,0,0,0,0
+"Faculty of Arts &Social Sci",Geography,GE4225HM,"Young People and Children: GlobalPerspectives",E1,35,22,22,0,0,0,0,0
+"Faculty of Arts &Social Sci",Geography,GE4226HM,Mobile Spaces: Making Social Worlds,E1,35,15,15,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"Faculty of Arts &Social Sci",Geography,GE4232,Global Political Ecologies,E1,5,2,2,0,0,0,0,0
+"Faculty of Arts &Social Sci",Geography,GE4232HM,Global Political Ecologies,E1,35,14,14,0,0,0,0,0
+"Faculty of Arts &Social Sci",Geography,GE4234,Environmental Change in the Tropics,E1,5,2,2,0,0,0,0,0
+"Faculty of Arts &Social Sci",Geography,GE4234HM,Environmental Change in the Tropics,E1,35,14,14,0,0,0,0,0
+"Faculty of Arts &Social Sci",Geography,GE4235,Urban Climates,E1,5,1,1,0,0,0,0,0
+"Faculty of Arts &Social Sci",Geography,GE4235HM,Urban Climates,E1,35,12,12,0,0,0,0,0
+"Faculty of Arts &Social Sci",Geography,GE4236HM,Geographies of Migration,E1,35,10,10,0,0,0,0,0
+"Faculty of Arts &Social Sci",Geography,GE4239HM,Coastal Dynamics,E1,35,8,8,0,0,0,0,0
+"Faculty of Arts &Social Sci",Geography,HS2907,Earth and Beyond,L1,194,170,169,13,0,0,1,0
+"Faculty of Arts &Social Sci",History,AH2101,Introduction to Art History,L1,67,14,14,0,0,0,0,0
+"Faculty of Arts &Social Sci",History,AH2202,Modern Art: A Critical Introduction,L1,22,8,8,0,0,0,0,0
+"Faculty of Arts &Social Sci",History,AH3201,A History of Contemporary Art,L1,22,2,2,0,0,0,0,0
+"Faculty of Arts &Social Sci",History,AH3204,"Methods and Approaches to ArtHistory",E1,17,5,5,0,0,0,0,0
+"Faculty of Arts &Social Sci",History,HY2232,Modern Japan: Conflict in History,L1,45,21,21,0,0,0,0,0
+"Faculty of Arts &Social Sci",History,HY2237,"The U.S.: From Settlement toSuperpower",L1,65,10,10,0,0,0,0,0
+"Faculty of Arts &Social Sci",History,HY2249,Art and History,L1,45,10,10,0,0,0,0,0
+"Faculty of Arts &Social Sci",History,HY2250,"Introduction to Southeast AsianHistory",L1,38,5,5,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"Faculty of Arts &Social Sci",History,HY2253,Christianity in World History,L1,120,47,46,0,0,1,0,0
+"Faculty of Arts &Social Sci",History,HY2264,The Making of Modern Europe,L1,45,12,12,0,0,0,0,0
+"Faculty of Arts &Social Sci",History,HY3214,History of Strategic Thought,L1,45,25,25,0,0,0,0,0
+"Faculty of Arts &Social Sci",History,HY3248,"People's Republic of China, 1949-1989",L1,40,28,28,0,0,0,0,0
+"Faculty of Arts &Social Sci",History,HY3257,"The Philippines: A Social and CulturalHistory",L1,27,23,23,0,0,0,0,0
+"Faculty of Arts &Social Sci",History,HY4207HM,Special Paper in Military History,E1,20,16,16,0,0,0,0,0
+"Faculty of Arts &Social Sci",History,HY4214HM,Approaches to Chinese History,E1,35,12,12,0,0,0,0,0
+"Faculty of Arts &Social Sci",History,HY4217HM,"Approaches to Study of SE AsianHistory",E1,35,12,12,0,0,0,0,0
+"Faculty of Arts &Social Sci",History,HY4222HM,Asian Business History: Case Studies,E1,35,10,10,0,0,0,0,0
+"Faculty of Arts &Social Sci",History,HY4230HM,Historiography and Historical Method,E1,35,2,2,0,0,0,0,0
+"Faculty of Arts &Social Sci",History,HY4235HM,"A History of the 20th Century andBeyond",E1,35,22,22,0,0,0,0,0
+"Faculty of Arts &Social Sci",History,HY4238HM,"Gender, Culture & History",E1,35,6,6,0,0,0,0,0
+"Faculty of Arts &Social Sci",Japanese Studies,HY4218HM,"Approaches to Modern JapaneseHistory",E1,10,9,9,0,0,0,0,0
+"Faculty of Arts &Social Sci",Japanese Studies,JS2101,Approaches to Japanese Studies I,E1,30,4,4,0,0,0,0,0
+"Faculty of Arts &Social Sci",Japanese Studies,JS2203,"Sound, Grammar and Meaning",E1,30,2,2,0,0,0,0,0
+"Faculty of Arts &Social Sci",Japanese Studies,JS2213,"Visual Analysis of Japanese PopularCulture",L1,65,10,10,0,0,0,0,0
+"Faculty of Arts &Social Sci",Japanese Studies,JS2234,Japan: The Green Nation?,L1,45,2,2,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"Faculty of Arts &Social Sci",Japanese Studies,JS3101,Approaches to Japanese Studies II,E1,20,1,1,0,0,0,0,0
+"Faculty of Arts &Social Sci",Japanese Studies,JS3213,"Alternative Lives in ContemporaryJapan",E1,19,12,12,0,0,0,0,0
+"Faculty of Arts &Social Sci",Japanese Studies,JS4207HM,Readings in Modern Japanese,E1,10,1,1,0,0,0,0,0
+"Faculty of Arts &Social Sci",Japanese Studies,JS4225HM,Social Dynamics in Modern Japan,E1,10,3,3,0,0,0,0,0
+"Faculty of Arts &Social Sci",Japanese Studies,JS4233HM,"Japan's Immigration Politics in GlobalPerspective",E1,10,3,3,0,0,0,0,0
+"Faculty of Arts &Social Sci",Malay Studies,MS2211,Criticism in Modern Malay Literature,E1,25,9,9,0,0,0,0,0
+"Faculty of Arts &Social Sci",Malay Studies,MS2212,Law and Malay Society,E1,20,3,3,0,0,0,0,0
+"Faculty of Arts &Social Sci",Malay Studies,MS2213,"Families and Households - LivedExperiences",L1,25,6,6,0,0,0,0,0
+"Faculty of Arts &Social Sci",Malay Studies,MS2218,"Malay-Islamic Cultural Encounters:Arts and Aesthetics",E1,20,10,10,0,0,0,0,0
+"Faculty of Arts &Social Sci",Malay Studies,MS2220,Arts and Artists in the Nusantara,L1,25,4,4,0,0,0,0,0
+"Faculty of Arts &Social Sci",Malay Studies,MS3210,Modern Indonesian Literature,E1,25,1,1,0,0,0,0,0
+"Faculty of Arts &Social Sci",Malay Studies,MS3214,Asian Traditions and Modernisation,L1,20,3,3,0,0,0,0,0
+"Faculty of Arts &Social Sci",Malay Studies,MS3216,Gender and Islam,E1,15,8,8,0,0,0,0,0
+"Faculty of Arts &Social Sci",Malay Studies,MS4101HM,Theory and Practice in Malay Studies,E1,15,2,2,0,0,0,0,0
+"Faculty of Arts &Social Sci",Malay Studies,MS4880AHM,"Orientations in Muslim ResurgenceMovements",E1,20,2,2,0,0,0,0,0
+"Faculty of Arts &Social Sci",Philosophy,GEX1014,Logic,L1,83,18,18,0,0,0,0,0
+"Faculty of Arts &Social Sci",Philosophy,PE3101P,Decision and Social Choice,L1,32,39,32,0,7,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"Faculty of Arts &Social Sci",Philosophy,PE4102PHM,Welfare and Distribution,E1,15,14,14,1,0,0,0,0
+"Faculty of Arts &Social Sci",Philosophy,PH2207,Hume and Kant,L1,45,13,13,0,0,0,0,0
+"Faculty of Arts &Social Sci",Philosophy,PH2213,Metaphysics,L1,45,22,22,0,0,0,0,0
+"Faculty of Arts &Social Sci",Philosophy,PH2222,"Greek Philosophy (Socrates andPlato)",L1,40,24,24,0,0,0,0,0
+"Faculty of Arts &Social Sci",Philosophy,PH2242,Philosophy of Language,L1,45,21,21,0,0,0,0,0
+"Faculty of Arts &Social Sci",Philosophy,PH2301,Classical Chinese Philosophy I,L1,45,6,6,0,0,0,0,0
+"Faculty of Arts &Social Sci",Philosophy,PH3203,Moral Philosophy,L1,47,26,26,0,0,0,0,0
+"Faculty of Arts &Social Sci",Philosophy,PH3207,Continental European Philosophy,E1,17,7,7,0,0,0,0,0
+"Faculty of Arts &Social Sci",Philosophy,PH3217,Feminist Philosophy,E1,27,21,20,0,0,0,0,1
+"Faculty of Arts &Social Sci",Philosophy,PH3247,Philosophical Logic,E1,30,7,7,0,0,0,0,0
+"Faculty of Arts &Social Sci",Philosophy,PH4210HM,Topics in Western Philosophy,E1,14,2,2,0,0,0,0,0
+"Faculty of Arts &Social Sci",Philosophy,PH4213HM,Comparative Philosophy,E1,15,5,5,0,0,0,0,0
+"Faculty of Arts &Social Sci",Philosophy,PH4262HM,Nietzsche,E1,15,2,2,0,0,0,0,0
+"Faculty of Arts &Social Sci",Political Science,GL1101E,Global Issues,L1,75,4,4,0,0,0,0,0
+"Faculty of Arts &Social Sci",Political Science,GL2102,Global Political Economy,L1,35,31,30,0,0,1,0,0
+"Faculty of Arts &Social Sci",Political Science,GL2104,Inquiry and Method,L1,40,6,6,0,0,0,0,0
+"Faculty of Arts &Social Sci",Political Science,GL3201,Doing Global Visual Culture,L1,25,29,25,0,4,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"Faculty of Arts &Social Sci",Political Science,GL4101HM,Research in Global Issues,L1,25,15,15,0,0,0,0,0
+"Faculty of Arts &Social Sci",Political Science,GL4881AHM,"Colonial, Anticolonial andPostcolonial Globalizations",E1,25,14,14,1,0,0,0,0
+"Faculty of Arts &Social Sci",Political Science,GL4882BHM,"Contested Globalisation: Resistanceand Resilience",E1,25,13,13,2,0,0,0,0
+"Faculty of Arts &Social Sci",Political Science,GL4882DHM,Global Corporations and Power,E1,20,30,20,0,10,0,0,0
+"Faculty of Arts &Social Sci",Political Science,GL4883BHM,Climate Justice,E1,25,19,19,1,0,0,0,0
+"Faculty of Arts &Social Sci",Political Science,GL4884AHM,Glocal Media Worlds,E1,20,24,20,0,4,0,0,0
+"Faculty of Arts &Social Sci",Political Science,PS1101E,Introduction to Politics,L1,110,5,5,0,0,0,0,0
+"Faculty of Arts &Social Sci",Political Science,PS2237,Introduction to International Relations,L1,85,75,75,0,0,0,0,0
+"Faculty of Arts &Social Sci",Political Science,PS2238,"International Politics of NortheastAsia",L1,80,56,56,0,0,0,0,0
+"Faculty of Arts &Social Sci",Political Science,PS2240,Introduction to Public Administration,L1,85,43,43,0,0,0,0,0
+"Faculty of Arts &Social Sci",Political Science,PS2249,"Government and Politics ofSingapore",L1,80,62,62,0,0,0,0,0
+"Faculty of Arts &Social Sci",Political Science,PS2255,Politics of the Middle East,L1,80,41,41,2,0,0,0,0
+"Faculty of Arts &Social Sci",Political Science,PS2258,Introduction to Political Theory,L1,37,43,37,0,6,0,0,0
+"Faculty of Arts &Social Sci",Political Science,PS3232,Democratic Theory,L1,44,31,31,0,0,0,0,0
+"Faculty of Arts &Social Sci",Political Science,PS3237,Women and Politics,L1,80,50,50,0,0,0,0,0
+"Faculty of Arts &Social Sci",Political Science,PS3252,Human Rights in International Politics,L1,37,18,18,0,0,0,0,0
+"Faculty of Arts &Social Sci",Political Science,PS3257,Political Inquiry,L1,85,80,80,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"Faculty of Arts &Social Sci",Political Science,PS3265,Civil-Military Relations,L1,85,14,14,0,0,0,0,0
+"Faculty of Arts &Social Sci",Political Science,PS3271,Public Policy-Making,L1,42,19,19,0,0,0,0,0
+"Faculty of Arts &Social Sci",Political Science,PS3273,"Singapore Politics in ComparativePerspective",E1,30,22,22,0,0,0,0,0
+"Faculty of Arts &Social Sci",Political Science,PS3276,Comparative Political Behaviour,L1,35,22,22,0,0,0,0,0
+"Faculty of Arts &Social Sci",Political Science,PS3311,International Ethics,L1,37,17,17,1,0,0,0,0
+"Faculty of Arts &Social Sci",Political Science,PS4201HM,Contemporary Political Theory,E1,25,32,25,0,7,0,0,0
+"Faculty of Arts &Social Sci",Political Science,PS4203HM,China's Foreign Policy,E1,25,48,25,0,23,0,0,0
+"Faculty of Arts &Social Sci",Political Science,PS4209HM,"Public Organisation Theory andPractice",E1,25,10,10,5,0,0,0,0
+"Faculty of Arts &Social Sci",Political Science,PS4229HM,The Politics of Knowledge,E1,25,30,25,0,5,0,0,0
+"Faculty of Arts &Social Sci",Political Science,PS4308HM,"Economic Interest, Identities, andVoting Behavior",E1,25,19,19,2,0,0,0,0
+"Faculty of Arts &Social Sci",Political Science,PS4311HM,"International Relations in PoliticalThought",E1,25,34,25,0,9,0,0,0
+"Faculty of Arts &Social Sci",Political Science,PS4881GHM,"Topics in CP: Politics of the KoreanPeninsula",E1,25,51,25,0,26,0,0,0
+"Faculty of Arts &Social Sci",Political Science,PS4882AHM,"Topics in IR: Globalisation, Securityand the State",E1,25,45,25,0,20,0,0,0
+"Faculty of Arts &Social Sci",Political Science,PS4882DHM,"Topics in IR: Politics of GlobalMigration",E1,25,43,25,0,18,0,0,0
+"Faculty of Arts &Social Sci",Political Science,PS4884HM,Topics in Public Administration,E1,25,30,25,0,5,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PL1101E,Introduction to Psychology,L1,216,5,5,0,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PL2131,Research and Statistical Methods I,L1,235,14,14,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"Faculty of Arts &Social Sci",Psychology,PL2132,Research and Statistical Methods II,L1,196,24,24,0,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PL3102,Biological Psychology,L1,185,118,118,0,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PL3103,Cognitive Psychology,L1,179,162,162,2,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PL3104,Developmental Psychology,L1,182,162,162,1,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PL3105,Social Psychology,L1,181,129,128,1,0,1,0,0
+"Faculty of Arts &Social Sci",Psychology,PL3106,Mental Health and Distress,L1,172,135,135,1,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PL3238,Social Cognition,L1,92,35,35,3,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PL3248,Learning and Conditioning,L1,92,24,24,0,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PL3257,Introduction to Clinical Psychology,L1,92,105,92,0,13,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PL3281,Lab in Cognitive Psychology,E1,20,8,8,4,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PL3281A,Lab in Perception and Attention,E1,20,4,4,1,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PL3281D,"Lab in Music Perception andCognition",E1,20,5,5,2,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PL3281G,"Lab in Associative Learning andBehavior",E1,20,8,8,3,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PL3282C,Lab in Attitudes,E1,20,36,20,0,16,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PL3283,Lab in Developmental Psychology,E1,20,28,20,0,8,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PL3283C,Lab in Early Childhood Development,E1,20,26,20,0,6,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PL3287A,"Lab in Personality andPsychopathology",E1,20,58,20,0,38,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"Faculty of Arts &Social Sci",Psychology,PL4201HM,"Psychometrics and PsychologicalTesting",L1,75,22,22,0,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PL4203HM,Cognition,E1,35,1,1,0,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PL4205HM,Developmental Processes,E1,37,26,26,3,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PL4207HM,"Social Psychology: Theories andMethods",E1,38,23,23,6,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PL4218HM,Psychological Assessment,E1,38,9,9,4,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PL4219HM,Advanced Abnormal Psychology,E1,38,66,38,0,28,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PL4227HM,"Behavioral Genetics for SocialScientists",E1,35,12,12,0,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PL4228HM,Criminal Forensic Psychology,E1,38,88,38,0,50,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PL4229HM,Psychological Therapies,E1,38,39,38,0,1,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PL4233HM,Psychology of Negotiation,E1,37,48,37,0,11,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PL4234HM,Patient and Health Care,E1,37,15,15,5,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PL4235HM,The Psychology of Moral Judgments,E1,37,19,19,3,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PL4236HM,"Autism Spectrum and RelatedConditions",E1,38,53,38,0,15,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PL4242HM,"Historical Controversies inPsychology",E1,78,70,70,8,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PL4245HM,"Data Science for Psychology:Methods and Applications",L1,75,47,47,9,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PL4246HM,Networks in Psychology,L1,78,133,78,0,55,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PL4249HM,"The Psychology and Neuroscience ofMindfulness",E1,35,8,8,4,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"Faculty of Arts &Social Sci",Psychology,PL4880FHM,Addictive Behaviours,E1,38,20,19,5,0,1,0,0
+"Faculty of Arts &Social Sci",Psychology,PL4880GHM,Positive Psychology,E1,38,23,23,5,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PL4880KHM,Parenting and Child Development,E1,37,17,17,4,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PL4880LHM,"Applying Cognitive Psychology toLearning & Instruction",E1,35,8,8,0,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PL4880PHM,Psychology of Religion,E1,37,1,1,0,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PL4880THM,Applying Psychology In Education,E1,37,15,15,3,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PL4880VHM,Culture and Human Development,E1,37,5,5,4,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PLB1201,Psychology in Everyday Life,L1,90,13,13,0,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PLS8001,Cultivating Collaboration,EHE1,25,18,18,1,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PLS8001,Cultivating Collaboration,EHE2,25,2,2,0,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PLS8001,Cultivating Collaboration,EHO2,25,2,2,0,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PLS8001,Cultivating Collaboration,EME2,25,9,9,0,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PLS8001,Cultivating Collaboration,EMO1,25,26,25,0,1,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PLS8001,Cultivating Collaboration,EMO2,25,5,5,0,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PLS8001,Cultivating Collaboration,ETE1,25,12,12,0,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PLS8001,Cultivating Collaboration,ETO1,25,13,13,0,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PLS8001,Cultivating Collaboration,EWO1,25,26,25,0,1,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"Faculty of Arts &Social Sci",Psychology,PLS8001,Cultivating Collaboration,EWO2,25,1,1,0,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PLS8002A,Cultivating the Self,L1,125,109,109,0,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PLS8002B,Cultivating the Self,L1,125,20,19,0,0,0,1,0
+"Faculty of Arts &Social Sci",Psychology,PLS8003,Cultivating Resilience,EFE1,25,23,23,0,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PLS8003,Cultivating Resilience,EFO1,25,33,25,0,8,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PLS8003,Cultivating Resilience,EFO2,25,5,5,0,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PLS8003,Cultivating Resilience,EHE1,25,19,19,1,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PLS8003,Cultivating Resilience,EHO2,25,3,3,0,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PLS8003,Cultivating Resilience,EME2,25,6,6,0,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PLS8003,Cultivating Resilience,EMO1,25,25,25,0,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PLS8003,Cultivating Resilience,EWE1,25,26,25,0,1,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PLS8003,Cultivating Resilience,EWE2,25,2,2,0,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PLS8003,Cultivating Resilience,EWO2,25,3,3,0,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PLS8004,Optimizing Performance,EFE1,25,31,25,0,6,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PLS8004,Optimizing Performance,EFO1,25,31,25,0,6,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PLS8004,Optimizing Performance,EHE1,25,25,25,0,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PLS8004,Optimizing Performance,EHE2,25,1,1,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"Faculty of Arts &Social Sci",Psychology,PLS8004,Optimizing Performance,EHO2,25,2,2,0,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PLS8004,Optimizing Performance,EME1,25,18,18,0,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PLS8004,Optimizing Performance,EMO1,25,26,25,0,1,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PLS8004,Optimizing Performance,EMO2,25,6,6,0,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PLS8004,Optimizing Performance,ETE2,25,5,5,1,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PLS8004,Optimizing Performance,EWO2,25,10,10,1,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PLS8005,"Elevating InterpersonalCommunication",EFE1,25,21,21,0,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PLS8005,"Elevating InterpersonalCommunication",EFO2,25,3,3,0,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PLS8005,"Elevating InterpersonalCommunication",EHO1,25,19,19,0,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PLS8005,"Elevating InterpersonalCommunication",EME1,25,14,14,0,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PLS8005,"Elevating InterpersonalCommunication",EME2,25,7,7,0,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PLS8005,"Elevating InterpersonalCommunication",EMO2,25,5,5,0,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PLS8005,"Elevating InterpersonalCommunication",ETO2,25,6,6,0,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PLS8005,"Elevating InterpersonalCommunication",EWE1,25,7,7,0,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PLS8005,"Elevating InterpersonalCommunication",EWE2,25,5,5,0,0,0,0,0
+"Faculty of Arts &Social Sci",Psychology,PLS8005,"Elevating InterpersonalCommunication",EWO1,25,13,13,0,0,0,0,0
+"Faculty of Arts &Social Sci",Social Work,SW1101E,"Social Work: A Heart-Head-HandConnection",L1,138,7,7,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"Faculty of Arts &Social Sci",Social Work,SW2101,Working with Individuals and Families,L1,50,26,26,0,0,0,0,0
+"Faculty of Arts &Social Sci",Social Work,SW2104,"Human Development over theLifespan",L1,59,36,36,0,0,0,0,0
+"Faculty of Arts &Social Sci",Social Work,SW2105,"Values & Skills for HelpingRelationships",L1,50,34,34,0,0,0,0,0
+"Faculty of Arts &Social Sci",Social Work,SW2106,Social Group Work Practice,L1,60,24,24,0,0,0,0,0
+"Faculty of Arts &Social Sci",Social Work,SW3101,Social Work Research Methods,L1,40,8,8,0,0,0,0,0
+"Faculty of Arts &Social Sci",Social Work,SW3105,Community Work Practice,L1,60,15,15,0,0,0,0,0
+"Faculty of Arts &Social Sci",Social Work,SW3208,Negotiation & Conflict Resolution,L1,50,6,6,0,0,0,0,0
+"Faculty of Arts &Social Sci",Social Work,SW3209,Counselling Theories & Practice,L1,75,37,37,0,0,0,0,0
+"Faculty of Arts &Social Sci",Social Work,SW3211,Community-Based Family Services,L1,75,16,16,0,0,0,0,0
+"Faculty of Arts &Social Sci",Social Work,SW3221,Protection of Vulnerable Clients,L1,75,1,1,0,0,0,0,0
+"Faculty of Arts &Social Sci",Social Work,SW4102HM,Social Policy and Planning,L1,60,2,2,0,0,0,0,0
+"Faculty of Arts &Social Sci",Social Work,SW4202HM,Special Areas of Social Work Practice,E1,27,26,26,0,0,0,0,0
+"Faculty of Arts &Social Sci",Social Work,SW4224,"Financial Capability and AssetBuilding",E1,16,1,1,0,0,0,0,0
+"Faculty of Arts &Social Sci",Social Work,SW4224HM,"Financial Capability and AssetBuilding",E1,55,38,38,0,0,0,0,0
+"Faculty of Arts &Social Sci",Social Work,SW4224HM,"Financial Capability and AssetBuilding",E2,32,13,13,0,0,0,0,0
+"Faculty of Arts &Social Sci",Social Work,SW4225HM,Ethics in Social Work Practice,E1,27,40,27,0,13,0,0,0
+"Faculty of Arts &Social Sci",Social Work,SW4227,"Advanced Family-Centred SocialWork Practice",L1,15,1,1,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"Faculty of Arts &Social Sci",Social Work,SW4227HM,"Advanced Family-Centred SocialWork Practice",L1,60,38,38,0,0,0,0,0
+"Faculty of Arts &Social Sci",Social Work,SW4228HM,Social Work In Medical Setting,E1,27,20,20,0,0,0,0,0
+"Faculty of Arts &Social Sci",Social Work,SW4229HM,Working With Older Adults,L1,75,18,18,0,0,0,0,0
+"Faculty of Arts &Social Sci",Social Work,SW4230HM,Urban Youth Work,L1,35,28,28,0,0,0,0,0
+"Faculty of Arts &Social Sci","Sociology andAnthropology",AN2202,Culture and Society,L1,40,12,12,0,0,0,0,0
+"Faculty of Arts &Social Sci","Sociology andAnthropology",AN2204,Media Anthropology,L1,40,14,14,0,0,0,0,0
+"Faculty of Arts &Social Sci","Sociology andAnthropology",AN3101,Anthropology and Theory,L1,40,14,14,0,0,0,0,0
+"Faculty of Arts &Social Sci","Sociology andAnthropology",AN3203,Cultures of Kinship,L1,40,6,6,0,0,0,0,0
+"Faculty of Arts &Social Sci","Sociology andAnthropology",SC1101E,Making Sense of Society,L1,130,3,3,0,0,0,0,0
+"Faculty of Arts &Social Sci","Sociology andAnthropology",SC2204,"Social Inequalities : Who GetsAhead?",L1,30,31,30,0,1,0,0,0
+"Faculty of Arts &Social Sci","Sociology andAnthropology",SC2205,Sociology of Family,L1,24,22,22,0,0,0,0,0
+"Faculty of Arts &Social Sci","Sociology andAnthropology",SC2209,"Money, Business and SocialNetworks",L1,25,18,18,1,0,0,0,0
+"Faculty of Arts &Social Sci","Sociology andAnthropology",SC2220,Gender Studies,L1,80,42,42,0,0,0,0,0
+"Faculty of Arts &Social Sci","Sociology andAnthropology",SC2222,Sports and Society,L1,30,12,12,0,0,0,0,0
+"Faculty of Arts &Social Sci","Sociology andAnthropology",SC2227,Sociology of Religion,L1,32,29,29,0,0,0,0,0
+"Faculty of Arts &Social Sci","Sociology andAnthropology",SC3101,Social Thought & Social Theory,L1,76,64,63,0,0,0,0,1
+"Faculty of Arts &Social Sci","Sociology andAnthropology",SC3203,Race and Ethnic Relations,L1,31,14,14,1,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"Faculty of Arts &Social Sci","Sociology andAnthropology",SC3206,Urban Sociology,L1,29,26,26,0,0,0,0,0
+"Faculty of Arts &Social Sci","Sociology andAnthropology",SC3209,Data Analysis in Social Research,L1,35,22,22,0,0,0,0,0
+"Faculty of Arts &Social Sci","Sociology andAnthropology",SC3211,"Science, Technology & Society",L1,29,17,17,1,0,0,0,0
+"Faculty of Arts &Social Sci","Sociology andAnthropology",SC3216,Self and Society,L1,40,34,34,1,0,0,0,0
+"Faculty of Arts &Social Sci","Sociology andAnthropology",SC3219,Sexuality in Comparative Perspective,L1,31,55,31,0,23,0,0,1
+"Faculty of Arts &Social Sci","Sociology andAnthropology",SC3226,Markets and Society,L1,31,12,12,1,0,0,0,0
+"Faculty of Arts &Social Sci","Sociology andAnthropology",SC3228,Senses and Society,L1,33,9,9,0,0,0,0,0
+"Faculty of Arts &Social Sci","Sociology andAnthropology",SC4101HM,"Practising Anthropology andSociology",L1,120,110,110,0,0,0,0,0
+"Faculty of Arts &Social Sci","Sociology andAnthropology",SC4202,Reading Ethnographies,E1,5,2,2,0,0,0,0,0
+"Faculty of Arts &Social Sci","Sociology andAnthropology",SC4202HM,Reading Ethnographies,E1,40,20,20,0,0,0,0,0
+"Faculty of Arts &Social Sci","Sociology andAnthropology",SC4203,Sociology of Organizations,E1,5,1,1,0,0,0,0,0
+"Faculty of Arts &Social Sci","Sociology andAnthropology",SC4203HM,Sociology of Organizations,E1,40,38,38,0,0,0,0,0
+"Faculty of Arts &Social Sci","Sociology andAnthropology",SC4204HM,Social Policy & Social Planning,E1,40,20,20,0,0,0,0,0
+"Faculty of Arts &Social Sci","Sociology andAnthropology",SC4211HM,"Tourism and Culture: A GlobalPerspective",E1,40,17,17,0,0,0,0,0
+"Faculty of Arts &Social Sci","Sociology andAnthropology",SC4218,"Religions, Secularity, Post-Secularity",E1,5,1,1,0,0,0,0,0
+"Faculty of Arts &Social Sci","Sociology andAnthropology",SC4218HM,"Religions, Secularity, Post-Secularity",E1,40,25,25,0,0,0,0,0
+"Faculty of Arts &Social Sci","Sociology andAnthropology",SC4219,"Social Origins and Consequences ofFinancial Crises",E1,5,3,3,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"Faculty of Arts &Social Sci","Sociology andAnthropology",SC4219HM,"Social Origins and Consequences ofFinancial Crises",E1,40,34,34,0,0,0,0,0
+"Faculty of Arts &Social Sci","Sociology andAnthropology",SC4220HM,Aging and Health,E1,40,21,21,0,0,0,0,0
+"Faculty of Arts &Social Sci","Sociology andAnthropology",SC4222,Body and Society,E1,5,1,1,0,0,0,0,0
+"Faculty of Arts &Social Sci","Sociology andAnthropology",SC4222HM,Body and Society,E1,40,12,12,0,0,0,0,0
+"Faculty of Arts &Social Sci","Sociology andAnthropology",SC4228,Making Sense of Violence,E1,5,4,4,0,0,0,0,0
+"Faculty of Arts &Social Sci","Sociology andAnthropology",SC4228HM,Making Sense of Violence,E1,40,36,36,0,0,0,0,0
+"Faculty of Arts &Social Sci",South Asian Studies,SN2278,Introduction to Sikhism,E1,20,2,2,0,0,0,0,0
+"Faculty of Arts &Social Sci",South Asian Studies,SN3223,International Relations of South Asia,E1,15,4,4,0,0,0,0,0
+"Faculty of Arts &Social Sci",South Asian Studies,SN3274,South Asian Cinema,E1,25,1,1,0,0,0,0,0
+"Faculty of Arts &Social Sci","Southeast AsianStudies",SE2214,"Beyond the Frame: Arts and Lives inSoutheast Asia",E1,20,1,1,0,0,0,0,0
+"Faculty of Arts &Social Sci","Southeast AsianStudies",SE2217,War and Southeast Asia,L1,33,8,8,0,0,0,0,0
+"Faculty of Arts &Social Sci","Southeast AsianStudies",SE2224,"Unmasked! An Introduction toTraditional Dance in SEA",E1,25,3,3,0,0,0,0,0
+"Faculty of Arts &Social Sci","Southeast AsianStudies",SE3214,"Heritage and Heritagescapes inSoutheast Asia",L1,20,8,8,0,0,0,0,0
+"Faculty of Arts &Social Sci","Southeast AsianStudies",SE3232,Death and Dying in Southeast Asia,L1,23,16,16,0,0,0,0,0
+"Faculty of Arts &Social Sci","Southeast AsianStudies",SE4101HM,"Southeast Asia Studies: Theory andPractice",E1,20,5,5,0,0,0,0,0
+"Faculty of Arts &Social Sci","Southeast AsianStudies",SE4212HM,Elites of Southeast Asia,E1,20,2,2,0,0,0,0,0
+"Faculty of Arts &Social Sci","Southeast AsianStudies",SE4225HM,"THE COLD WAR IN SOUTHEASTASIA",E1,20,6,6,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others,
+"Faculty of Arts &Social Sci","Southeast AsianStudies",SE4227HM,Nationalism in Southeast Asia,E1,20,2,2,0,0,0,0,0
+Faculty of Science,Biological Sciences,ENV3101,Environmental Challenges in Asia,L1,50,3,3,0,0,0,0,0
+Faculty of Science,Biological Sciences,ENV3206,"Evaluating EnvironmentalSustainability",L1,50,1,1,0,0,0,0,0
+Faculty of Science,Biological Sciences,FSC2101,Forensic Science,L1,200,212,200,0,11,1,0,0
+Faculty of Science,Biological Sciences,FSC4201,"Articulating Probability and Statisticsin Court",L1,40,8,8,0,0,0,0,0
+Faculty of Science,Biological Sciences,HSI2005,Our Science Stories and You,L1,99,83,83,6,0,0,0,0
+Faculty of Science,Biological Sciences,LSM1111,"Biological Challenges andOpportunities for Humankind",L1,290,23,23,0,0,0,0,0
+Faculty of Science,Biological Sciences,LSM1301,General Biology,L1,275,51,51,0,0,0,0,0
+Faculty of Science,Biological Sciences,LSM2105,Molecular Genetics,L1,235,143,143,0,0,0,0,0
+Faculty of Science,Biological Sciences,LSM2107,Evolutionary Biology,L1,230,113,113,0,0,0,0,0
+Faculty of Science,Biological Sciences,LSM2191,"Laboratory Techniques in LifeSciences",L1,215,183,183,0,0,0,0,0
+Faculty of Science,Biological Sciences,LSM2241,Introductory Bioinformatics,L1,89,40,40,0,0,0,0,0
+Faculty of Science,Biological Sciences,LSM2251,Ecology and Environment,L1,88,61,61,0,0,0,0,0
+Faculty of Science,Biological Sciences,LSM2252,Biodiversity,L1,109,30,30,0,0,0,0,0
+Faculty of Science,Biological Sciences,LSM2302,"Computational Thinking for LifeSciences",L1,150,38,38,0,0,0,0,0
+Faculty of Science,Biological Sciences,LSM3201,"Research and Communication in LifeSciences",L1,16,6,6,0,0,0,0,0
+Faculty of Science,Biological Sciences,LSM3220,"Genes, Genomes and BiomedicalImplications",L1,142,19,19,1,0,0,0,0
+Faculty of Science,Biological Sciences,LSM3227,General Virology,L1,25,50,25,0,25,0,0,0
+Faculty of Science,Biological Sciences,LSM3233,Developmental Biology,L1,58,32,32,0,0,0,0,0
+Faculty of Science,Biological Sciences,LSM3234,"Biological Imaging of Growth andForm",L1,38,11,11,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others,
+Faculty of Science,Biological Sciences,LSM3236,"Pattern Formation and Self-organisation in Biology",L1,35,8,8,0,0,0,0,0
+Faculty of Science,Biological Sciences,LSM3254,Ecology of Aquatic Environments,L1,143,42,42,1,0,0,0,0
+Faculty of Science,Biological Sciences,LSM3258,Comparative Botany,L1,45,25,25,0,0,0,0,0
+Faculty of Science,Biological Sciences,LSM3265,Entomology,L1,45,13,12,0,0,0,1,0
+Faculty of Science,Biological Sciences,LSM3266,Avian Biology and Evolution,L1,45,13,13,0,0,0,0,0
+Faculty of Science,Biological Sciences,LSM4218,Biotechnology and Biotherapeutics,L1,25,32,25,0,7,0,0,0
+Faculty of Science,Biological Sciences,LSM4227,Stem Cell Biology,L1,75,8,8,0,0,0,0,0
+Faculty of Science,Biological Sciences,LSM4228,"Experimental Models for HumanDisease and Therapy",L1,45,24,24,0,0,0,0,0
+Faculty of Science,Biological Sciences,LSM4242,Protein Engineering,L1,45,13,13,0,0,0,0,0
+Faculty of Science,Biological Sciences,LSM4251,Plant Growth and Development,L1,25,11,11,0,0,0,0,0
+Faculty of Science,Biological Sciences,LSM4255,Methods in Mathematical Biology,L1,35,3,3,0,0,0,0,0
+Faculty of Science,Biological Sciences,LSM4256,Evolution of Development,L1,18,11,11,0,0,0,0,0
+Faculty of Science,Biological Sciences,LSM4257,Aquatic Vertebrate Diversity,L1,47,30,29,0,0,0,1,0
+Faculty of Science,Biological Sciences,LSM4259,"Evolutionary Genetics ofReproduction",L1,28,8,8,0,0,0,0,0
+Faculty of Science,Biological Sciences,LSM4260,Plankton Ecology,L1,25,10,10,0,0,0,0,0
+Faculty of Science,Biological Sciences,LSM4262,Tropical Conservation Biology,L1,47,16,16,0,0,0,0,0
+Faculty of Science,Biological Sciences,LSM4267,"Light & Vision in AnimalCommunication",L1,45,17,17,0,0,0,0,0
+Faculty of Science,Biological Sciences,LSM4268,Environmental Bioacoustics,L1,45,10,10,0,0,0,0,0
+Faculty of Science,Biological Sciences,SP3203,Aquatic Ecology Research,L1,40,13,13,0,0,0,0,0
+Faculty of Science,Biological Sciences,ZB4171,Advanced Topics in Bioinformatics,L1,20,17,17,0,0,0,0,0
+Faculty of Science,Chemistry,CM1102,Chemistry - The Central Science,L1,-,19,19,0,0,0,0,0
+Faculty of Science,Chemistry,CM2112,Chemistry of Elements,L1,73,73,72,0,0,1,0,0
+Faculty of Science,Chemistry,CM2122,Organic Chemistry,L1,69,80,69,0,11,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others,
+Faculty of Science,Chemistry,CM2133,Foundations of Physical Chemistry,L1,82,62,62,0,0,0,0,0
+Faculty of Science,Chemistry,CM2143,Basic Toolkit of Analytical Chemistry,L1,69,72,69,0,3,0,0,0
+Faculty of Science,Chemistry,CM3111,"Inorganic and OrganometallicChemistry",L1,-,38,38,0,0,0,0,0
+Faculty of Science,Chemistry,CM3121,Advanced Organic Chemistry,L1,-,45,45,1,0,0,0,0
+Faculty of Science,Chemistry,CM3131,Applications of Physical Chemistry,L1,-,45,45,0,0,0,0,0
+Faculty of Science,Chemistry,CM3141,"Instrumental Techniques in AnalyticalChemistry",L1,-,51,51,0,0,0,0,0
+Faculty of Science,Chemistry,CM3191,Chemical Synthesis Experiments,L1,-,48,48,0,0,0,0,0
+Faculty of Science,Chemistry,CM3192,"Physical and Analytical ChemistryExperiments",L1,-,38,38,0,0,0,0,0
+Faculty of Science,Chemistry,CM3252,Polymer Chemistry and Physics,L1,-,1,1,0,0,0,0,0
+Faculty of Science,Chemistry,CM4225,Organic Spectroscopy,L1,-,23,23,0,0,0,0,0
+Faculty of Science,Chemistry,CM4227,Chemical Biology,L1,-,18,18,0,0,0,0,0
+Faculty of Science,Chemistry,CM4228,"Catalysis for sustainable chemicalsynthesis",L1,-,14,14,0,0,0,0,0
+Faculty of Science,Chemistry,CM4242,Advanced Analytical Techniques,L1,-,17,17,0,0,0,0,0
+Faculty of Science,Chemistry,CM4253,Materials Chemistry 2,L1,-,6,6,0,0,0,0,0
+Faculty of Science,Chemistry,CM4254,Chemistry of Semiconductors,L1,-,4,4,0,0,0,0,0
+Faculty of Science,Chemistry,HS2904,"Driving Towards the Future: BatteryElectric Vehicles",L1,150,143,141,9,0,0,2,0
+Faculty of Science,FoS Dean's Office,SP2402,"Science & Technology IndustryInsights II",L1,60,13,13,0,0,0,0,0
+Faculty of Science,"Food Science &Technology",FST2102B,Chemistry of Food Components,L1,95,65,65,0,0,0,0,0
+Faculty of Science,"Food Science &Technology",FST2110,Food Microbiology and Fermentation,L1,75,49,49,0,0,0,0,0
+Faculty of Science,"Food Science &Technology",FST3103,Advanced Food Engineering,L1,66,35,35,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+Faculty of Science,"Food Science &Technology",FST3107,Sensory and Consumer Science,L1,72,37,37,0,0,0,0,0
+Faculty of Science,"Food Science &Technology",FST3108,Food Safety and Regulation,L1,67,36,36,0,0,0,0,0
+Faculty of Science,"Food Science &Technology",FST3109,Flavour Science,L1,67,38,38,1,0,0,0,0
+Faculty of Science,"Food Science &Technology",FST3202,Nutrition and Disease Prevention,L1,52,1,1,0,0,0,0,0
+Faculty of Science,"Food Science &Technology",FST3203,"Vitamins & Minerals in Health &Diseases",L1,63,7,7,0,0,0,0,0
+Faculty of Science,"Food Science &Technology",FST4202,Nutritional Biochemistry,L1,56,4,4,0,0,0,0,0
+Faculty of Science,"Food Science &Technology",FST5301A,Scientific Principles of Nutraceuticals,L1,12,12,12,0,0,0,0,0
+Faculty of Science,"Food Science &Technology",HSI2007,Deconstructing Food,L1,179,282,173,0,109,0,0,0
+Faculty of Science,Mathematics,DSA2102,"Essential Data Analytics Tools:Numerical Computation",L1,67,72,67,0,5,0,0,0
+Faculty of Science,Mathematics,DSA3102,"Essential Data Analytics Tools:Convex Optimisation",L1,64,74,64,0,8,0,0,2
+Faculty of Science,Mathematics,HS1501,Artificial Intelligence and Society,L1,1699,1145,1144,12,0,1,0,0
+Faculty of Science,Mathematics,MA1100,Basic Discrete Mathematics,L1,80,21,21,3,0,0,0,0
+Faculty of Science,Mathematics,MA1301,Introductory Mathematics,L1,75,1,1,0,0,0,0,0
+Faculty of Science,Mathematics,MA1301,Introductory Mathematics,L2,192,5,5,0,0,0,0,0
+Faculty of Science,Mathematics,MA1505,Mathematics I,L1,48,4,3,0,0,0,0,1
+Faculty of Science,Mathematics,MA1511,Engineering Calculus,L1,12,2,2,0,0,0,0,0
+Faculty of Science,Mathematics,MA1513,"Linear Algebra with DifferentialEquations",L1,33,6,6,0,0,0,0,0
+Faculty of Science,Mathematics,MA1513,"Linear Algebra with DifferentialEquations",L2,62,2,2,0,0,0,0,0
+Faculty of Science,Mathematics,MA1521,Calculus for Computing,L1,366,26,26,1,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+Faculty of Science,Mathematics,MA1521,Calculus for Computing,L2,366,17,17,0,0,0,0,0
+Faculty of Science,Mathematics,MA1522,Linear Algebra for Computing,L1,373,14,13,0,0,1,0,0
+Faculty of Science,Mathematics,MA1522,Linear Algebra for Computing,L2,323,45,43,0,0,2,0,0
+Faculty of Science,Mathematics,MA2001,Linear Algebra I,L1,185,39,39,0,0,0,0,0
+Faculty of Science,Mathematics,MA2001,Linear Algebra I,L2,184,91,90,1,0,0,0,1
+Faculty of Science,Mathematics,MA2002,Calculus,L1,215,61,61,0,0,0,0,0
+Faculty of Science,Mathematics,MA2002,Calculus,L2,215,30,30,0,0,0,0,0
+Faculty of Science,Mathematics,MA2101,Linear Algebra II,L1,85,52,52,1,0,0,0,0
+Faculty of Science,Mathematics,MA2104,Multivariable Calculus,L1,129,120,120,0,0,0,0,0
+Faculty of Science,Mathematics,MA2108,Mathematical Analysis I,L1,84,58,58,0,0,0,0,0
+Faculty of Science,Mathematics,MA2116,Probability,L1,134,56,56,2,0,0,0,0
+Faculty of Science,Mathematics,MA2116,Probability,L2,134,33,33,0,0,0,0,0
+Faculty of Science,Mathematics,MA2213,Numerical Analysis I,L1,59,27,27,0,0,0,0,0
+Faculty of Science,Mathematics,MA2214,Combinatorics and Graphs I,L1,45,36,36,0,0,0,0,0
+Faculty of Science,Mathematics,MA2301,Basic Applied Mathematics,L1,25,4,3,0,0,0,0,1
+Faculty of Science,Mathematics,MA2311,Techniques in Advanced Calculus,L1,265,261,261,2,0,0,0,0
+Faculty of Science,Mathematics,MA3201,Algebra II,L1,20,16,16,0,0,0,0,0
+Faculty of Science,Mathematics,MA3205,Set Theory,L1,32,37,32,0,5,0,0,0
+Faculty of Science,Mathematics,MA3210,Mathematical Analysis II,L1,35,32,32,0,0,0,0,0
+Faculty of Science,Mathematics,MA3220,Ordinary Differential Equations,L1,40,46,40,0,6,0,0,0
+Faculty of Science,Mathematics,MA3236,Non-Linear Programming,L1,57,53,53,0,0,0,0,0
+Faculty of Science,Mathematics,MA3238,Stochastic Processes I,L1,40,25,25,1,0,0,0,0
+Faculty of Science,Mathematics,MA3264,Mathematical Modelling,L1,73,37,36,0,0,1,0,0
+Faculty of Science,Mathematics,MA4203,Galois Theory,L1,20,9,9,0,0,0,0,0
+Faculty of Science,Mathematics,MA4230,Matrix Computation,L1,55,23,23,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others,
+Faculty of Science,Mathematics,MA4235,Topics in Graph Theory,L1,15,6,6,0,0,0,0,0
+Faculty of Science,Mathematics,MA4254,Discrete Optimization,L1,40,10,10,0,0,0,0,0
+Faculty of Science,Mathematics,MA4262,Measure and Integration,L1,30,10,10,0,0,0,0,0
+Faculty of Science,Mathematics,MA4268,"Mathematics for Visual DataProcessing",L1,40,16,15,0,0,1,0,0
+Faculty of Science,Mathematics,MA4271,"Differential Geometry of Curves andSurfaces",L1,30,18,18,0,0,0,0,0
+Faculty of Science,Mathematics,MA5205,Graduate Analysis I,L1,10,1,1,0,0,0,0,0
+Faculty of Science,Mathematics,MA5208,Algebraic Geometry,L1,10,8,8,0,0,0,0,0
+Faculty of Science,Mathematics,MA5218,Graduate Algebra IIB,L1,10,6,5,0,0,0,0,1
+Faculty of Science,Mathematics,MA5220,"Logic and Foundation of MathematicsII",L1,10,2,2,0,0,0,0,0
+Faculty of Science,Mathematics,MA5233,Computational Mathematics,L1,10,1,1,0,0,0,0,0
+Faculty of Science,Mathematics,MA5243,"Advanced MathematicalProgramming",L1,10,2,2,0,0,0,0,0
+Faculty of Science,Mathematics,MA5249,Stochastic Processes and Algorithms,L1,10,13,10,0,3,0,0,0
+Faculty of Science,Mathematics,MA5253,Riemann Surfaces,L1,10,1,1,0,0,0,0,0
+Faculty of Science,Mathematics,MA5259,PROBABILITY THEORY I,L1,5,6,5,0,1,0,0,0
+Faculty of Science,Mathematics,MA5270,Game Theory and applications,L1,10,1,1,0,0,0,0,0
+Faculty of Science,Mathematics,MA5271,"Introduction to ComputationalMathematics",L1,10,1,1,0,0,0,0,0
+Faculty of Science,Mathematics,QF1100,Introduction to Quantitative Finance,L1,166,165,165,0,0,0,0,0
+Faculty of Science,Mathematics,QF2104,"Fundamentals of QuantitativeFinance",L1,175,92,90,0,0,0,2,0
+Faculty of Science,Mathematics,QF4102,Financial Modelling and Computation,L1,95,10,10,0,0,0,0,0
+Faculty of Science,Mathematics,QF4103,"Mathematical Models of FinancialDerivatives",L1,37,24,24,0,0,0,0,0
+Faculty of Science,Pharmacy,PHS2101,"Physiology for PharmaceuticalScience",P1,80,50,50,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others,
+Faculty of Science,Pharmacy,PHS2103,"Essentials of Pharmaceutical andSynthetic Chemistry",P1,79,56,54,0,0,2,0,0
+Faculty of Science,Pharmacy,PHS3101,"Principles of PharmaceuticalFormulations II",P1,64,46,45,0,0,0,1,0
+Faculty of Science,Pharmacy,PHS3191,"Laboratory Techniques inPharmaceutical Science II",L1,60,42,42,0,0,0,0,0
+Faculty of Science,Pharmacy,PHS4121,Regulation of Healthcare Products,P1,150,32,32,0,0,0,0,0
+Faculty of Science,Pharmacy,PHS4199,"Honours Project in PharmaceuticalScience",E1,46,28,28,0,0,0,0,0
+Faculty of Science,Pharmacy,PR4204,Special Drug Delivery,L1,40,9,9,0,0,0,0,0
+Faculty of Science,Pharmacy,PR4205,"Bioorganic Principles of MedicinalChemistry",L1,30,7,7,0,0,0,0,0
+Faculty of Science,Physics,COS1000,Computational Thinking for Scientists,L1,293,178,176,1,0,0,0,2
+Faculty of Science,Physics,HSI2010,New Worlds Beyond Earth,L1,147,25,25,2,0,0,0,0
+Faculty of Science,Physics,HSI2011,The World of Quantum,L1,197,35,35,2,0,0,0,0
+Faculty of Science,Physics,HSI2013,The Science of Music,L1,197,206,191,0,14,0,1,0
+Faculty of Science,Physics,HSI2014,"Science, Medical Technology andSociety",L1,197,78,78,3,0,0,0,0
+Faculty of Science,Physics,PC1201,Fundamentals of Physics,L1,195,7,7,0,0,0,0,0
+Faculty of Science,Physics,PC2031,Electricity & Magnetism I,L1,88,10,10,0,0,0,0,0
+Faculty of Science,Physics,PC2032,Classical Mechanics I,L1,91,14,14,0,0,0,0,0
+Faculty of Science,Physics,PC2130,Quantum Mechanics I,L1,94,21,21,0,0,0,0,0
+Faculty of Science,Physics,PC2135,"Thermodynamics and StatisticalMechanics",L1,77,25,25,0,0,0,0,0
+Faculty of Science,Physics,PC2174A,Mathematical Methods in Physics I,L1,145,9,9,0,0,0,0,0
+Faculty of Science,Physics,PC2193,"Experimental Physics and DataAnalysis",L1,47,19,19,0,0,0,0,0
+Faculty of Science,Physics,PC2267,Biophysics I,L1,37,4,4,0,0,0,0,0
+Faculty of Science,Physics,PC2411,Practical Astronomy,L1,67,2,2,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+Faculty of Science,Physics,PC2422,Physics of Climate Change,L1,27,1,1,0,0,0,0,0
+Faculty of Science,Physics,PC3130,Quantum Mechanics II,L1,90,20,20,0,0,0,0,0
+Faculty of Science,Physics,PC3193,Experimental Physics II,L1,33,2,2,0,0,0,0,0
+Faculty of Science,Physics,PC3231,Electricity & Magnetism II,L1,31,8,8,0,0,0,0,0
+Faculty of Science,Physics,PC3232,Nuclear & Particle Physics,L1,40,3,3,0,0,0,0,0
+Faculty of Science,Physics,PC3235,Solid State Physics I,L1,35,12,12,0,0,0,0,0
+Faculty of Science,Physics,PC3238,Fluid Dynamics,L1,27,8,8,0,0,0,0,0
+Faculty of Science,Physics,PC3242,"Nanofabrication andNanocharacterization",L1,18,2,2,0,0,0,0,0
+Faculty of Science,Physics,PC3247,Modern Optics,L1,25,3,3,0,0,0,0,0
+Faculty of Science,Physics,PC3261,Classical Mechanics II,L1,40,19,19,0,0,0,0,0
+Faculty of Science,Physics,PC3294,Radiation Laboratory,L1,10,4,4,0,0,0,0,0
+Faculty of Science,Physics,PC4230,Quantum Mechanics III,L1,80,16,16,0,0,0,0,0
+Faculty of Science,Physics,PC4236,"Computational Condensed MatterPhysics",L1,35,6,6,0,0,0,0,0
+Faculty of Science,Physics,PC4240,Solid State Physics II,L1,35,6,6,0,0,0,0,0
+Faculty of Science,Physics,PC4241,Statistical Mechanics,L1,35,6,6,0,0,0,0,0
+Faculty of Science,Physics,PC4248,General Relativity,L1,34,15,15,0,0,0,0,0
+Faculty of Science,Physics,PC4249,Astrophysics II,L1,22,5,5,0,0,0,0,0
+Faculty of Science,Physics,PC4267,Biophysics III,L1,22,1,1,0,0,0,0,0
+Faculty of Science,"Statistics and DataScience",DSA1101,Introduction to Data Science,L1,260,67,66,2,0,1,0,0
+Faculty of Science,"Statistics and DataScience",DSA2101,"Essential Data Analytics Tools: DataVisualisation",L1,90,45,34,0,11,0,0,0
+Faculty of Science,"Statistics and DataScience",DSA3361,Inferential Data Analytics,L1,60,32,32,0,0,0,0,0
+Faculty of Science,"Statistics and DataScience",DSA4211,High-Dimensional Statistical Analysis,L1,169,88,88,1,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+Faculty of Science,"Statistics and DataScience",ST1131,"Introduction to Statistics andStatistical Computing",L1,249,31,30,0,0,1,0,0
+Faculty of Science,"Statistics and DataScience",ST2131,Probability,L1,144,149,135,0,14,0,0,0
+Faculty of Science,"Statistics and DataScience",ST2131,Probability,L2,145,77,77,0,0,0,0,0
+Faculty of Science,"Statistics and DataScience",ST2132,Mathematical Statistics,L1,420,214,214,0,0,0,0,0
+Faculty of Science,"Statistics and DataScience",ST2334,Probability and Statistics,L1,420,413,413,0,0,0,0,0
+Faculty of Science,"Statistics and DataScience",ST2334,Probability and Statistics,L2,430,413,413,2,0,0,0,0
+Faculty of Science,"Statistics and DataScience",ST3131,Regression Analysis,L1,335,169,168,0,0,0,1,0
+Faculty of Science,"Statistics and DataScience",ST3236,Stochastic Processes I,L1,100,22,22,0,0,0,0,0
+Faculty of Science,"Statistics and DataScience",ST3239,Survey Methodology,L1,120,21,21,0,0,0,0,0
+Faculty of Science,"Statistics and DataScience",ST3248,Statistical Learning I,L1,120,106,104,1,0,0,2,0
+Faculty of Science,"Statistics and DataScience",ST4231,"Computer Intensive StatisticalMethods",L1,90,54,54,1,0,0,0,0
+Faculty of Science,"Statistics and DataScience",ST4233,Linear Models,L1,60,18,18,0,0,0,0,0
+Faculty of Science,"Statistics and DataScience",ST4245,Statistical Methods for Finance,L1,120,21,21,0,0,0,0,0
+Faculty of Science,"Statistics and DataScience",ST4250,Multivariate Statistical Analysis,L1,120,13,13,0,0,0,0,0
+Faculty of Science,"Statistics and DataScience",ST4253,Applied Time Series Analysis,L1,119,59,58,0,0,0,1,0
+"Multi DisciplinaryProgramme","Computing & EngProgramme",CG2027,Transistor-level Digital Circuits,L01,80,65,65,0,0,0,0,0
+"Multi DisciplinaryProgramme","Computing & EngProgramme",CG2028,Computer Organization,L01,82,64,64,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"Multi DisciplinaryProgramme","Computing & EngProgramme",CG2271,Real-Time Operating Systems,L01,-,56,56,0,0,0,0,0
+"Multi DisciplinaryProgramme","Computing & EngProgramme",CG3207,Computer Architecture,L01,50,38,38,0,0,0,0,0
+"Multi DisciplinaryProgramme","Computing & EngProgramme",CG4002,"Computer Engineering CapstoneProject",L01,60,54,54,0,0,0,0,0
+NUS,"Centre for Future-readyGrads",CFG3001,Career Advancement,L01,250,28,28,0,0,0,0,0
+NUS,"Centre for Future-readyGrads",CFG3001,Career Advancement,L02,439,52,52,0,0,0,0,0
+NUS,"Centre for Future-readyGrads",CFG3001,Career Advancement,L03,500,52,52,0,0,0,0,0
+NUS,"Centre for Future-readyGrads",CFG3001,Career Advancement,L04,500,89,89,0,0,0,0,0
+NUS,"Centre for Future-readyGrads",CFG3001,Career Advancement,L05,499,71,71,0,0,0,0,0
+NUS,"Centre for Future-readyGrads",CFG3001,Career Advancement,L06,400,4,0,0,0,0,0,4
+NUS,"Centre for Future-readyGrads",CFG3001,Career Advancement,L07,150,9,9,0,0,0,0,0
+NUS,"Chua Thian Poh CommLeader Ctr",CLC1101,Engaging and Building Communities,L1,75,406,75,0,331,0,0,0
+NUS,"Chua Thian Poh CommLeader Ctr",CLC2202,"Research Methods for CommunityDevelopment",E1,40,4,4,2,0,0,0,0
+NUS,"Chua Thian Poh CommLeader Ctr",CLC2204,Community Development With Youth,E1,65,112,65,0,47,0,0,0
+NUS,"Chua Thian Poh CommLeader Ctr",CLC3303,Community Leadership,E1,30,27,27,3,0,0,0,0
+NUS,"Ctr for Engl LangComms",ENV2302,"Communications for EnvironmentalStudies",S1,18,7,7,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ENV2302,"Communications for EnvironmentalStudies",S2,18,1,1,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES1000,Foundation Academic English,SG02,5,1,1,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+NUS,"Ctr for Engl LangComms",ES1000,Foundation Academic English,SG03,5,1,1,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES1103,English for Academic Purposes,SA02,10,1,1,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES1103,English for Academic Purposes,SA03,10,3,3,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES1103,English for Academic Purposes,SA04,10,5,5,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES1103,English for Academic Purposes,SA05,10,6,5,0,0,0,1,0
+NUS,"Ctr for Engl LangComms",ES1103,English for Academic Purposes,SA07,10,2,2,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES1103,English for Academic Purposes,SA08,10,2,2,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES1103,English for Academic Purposes,SA09,10,2,2,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES1103,English for Academic Purposes,SA10,10,1,1,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES1103,English for Academic Purposes,SB01,10,4,4,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES1103,English for Academic Purposes,SB02,10,1,1,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES1103,English for Academic Purposes,SB04,10,4,4,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES1103,English for Academic Purposes,SB05,10,2,2,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES1103,English for Academic Purposes,SC02,10,1,1,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES1103,English for Academic Purposes,SC04,10,2,2,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES1103,English for Academic Purposes,SC05,10,2,2,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES1103,English for Academic Purposes,SC07,10,1,1,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+NUS,"Ctr for Engl LangComms",ES1103,English for Academic Purposes,SC08,10,2,2,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES1103,English for Academic Purposes,SC09,10,1,1,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES1103,English for Academic Purposes,SC10,10,1,1,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES1103,English for Academic Purposes,SE01,10,1,1,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES1103,English for Academic Purposes,SE02,10,1,1,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES1103,English for Academic Purposes,SE05,10,1,1,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES1103,English for Academic Purposes,SE06,10,2,2,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES1103,English for Academic Purposes,SE07,10,1,1,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES1103,English for Academic Purposes,SE08,10,3,3,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES1103,English for Academic Purposes,SE12,10,2,2,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES1103,English for Academic Purposes,SS01,10,1,1,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES1103,English for Academic Purposes,SS02,10,1,1,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES1103,English for Academic Purposes,SS03,10,3,3,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES1103,English for Academic Purposes,SS04,10,1,1,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES1103,English for Academic Purposes,SS05,10,2,2,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES1103,English for Academic Purposes,SS06,10,4,4,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES1103,English for Academic Purposes,SS08,10,1,1,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+NUS,"Ctr for Engl LangComms",ES1103,English for Academic Purposes,SS09,10,3,3,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES1103,English for Academic Purposes,SS11,10,2,1,0,0,0,1,0
+NUS,"Ctr for Engl LangComms",ES1103,English for Academic Purposes,SS12,10,8,8,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES1103,English for Academic Purposes,SS13,10,1,1,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2002,"Business Communication for Leaders(BBA)",SG02,16,2,2,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2002,"Business Communication for Leaders(BBA)",SG04,17,2,2,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2002,"Business Communication for Leaders(BBA)",SG05,18,2,2,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2002,"Business Communication for Leaders(BBA)",SG06,17,1,1,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2002,"Business Communication for Leaders(BBA)",SG09,16,2,2,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2002,"Business Communication for Leaders(BBA)",SG12,14,1,1,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2002,"Business Communication for Leaders(BBA)",SG14,15,1,1,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2002,"Business Communication for Leaders(BBA)",SG15,17,2,2,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2002,"Business Communication for Leaders(BBA)",SG16,16,1,1,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2002,"Business Communication for Leaders(BBA)",SG19,16,1,1,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2002,"Business Communication for Leaders(BBA)",SG22,14,1,1,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2002,"Business Communication for Leaders(BBA)",SG23,17,2,2,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2631,"Critique and Communication ofThinking and Design",SG01,18,6,6,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+NUS,"Ctr for Engl LangComms",ES2631,"Critique and Communication ofThinking and Design",SG02,18,9,9,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2631,"Critique and Communication ofThinking and Design",SG03,18,17,17,1,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2631,"Critique and Communication ofThinking and Design",SG04,18,24,18,0,6,0,0,0
+NUS,"Ctr for Engl LangComms",ES2631,"Critique and Communication ofThinking and Design",SG05,18,11,11,1,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2631,"Critique and Communication ofThinking and Design",SG06,18,9,9,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2631,"Critique and Communication ofThinking and Design",SG07,18,11,11,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2631,"Critique and Communication ofThinking and Design",SG08,18,16,16,2,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2631,"Critique and Communication ofThinking and Design",SG09,18,17,17,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2631,"Critique and Communication ofThinking and Design",SG10,18,12,12,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2631,"Critique and Communication ofThinking and Design",SG11,18,11,11,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2631,"Critique and Communication ofThinking and Design",SG12,18,11,11,1,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2631,"Critique and Communication ofThinking and Design",SG13,18,15,15,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2631,"Critique and Communication ofThinking and Design",SG14,18,17,17,1,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2631,"Critique and Communication ofThinking and Design",SG15,18,12,12,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2631,"Critique and Communication ofThinking and Design",SG16,18,4,4,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2631,"Critique and Communication ofThinking and Design",SG17,18,13,13,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2631,"Critique and Communication ofThinking and Design",SG18,18,21,18,0,3,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+NUS,"Ctr for Engl LangComms",ES2631,"Critique and Communication ofThinking and Design",SG19,18,16,16,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2631,"Critique and Communication ofThinking and Design",SG20,18,3,3,1,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2631,"Critique and Communication ofThinking and Design",SG21,18,4,4,1,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2631,"Critique and Communication ofThinking and Design",SG22,18,18,18,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2631,"Critique and Communication ofThinking and Design",SG23,18,21,18,0,3,0,0,0
+NUS,"Ctr for Engl LangComms",ES2631,"Critique and Communication ofThinking and Design",SG24,18,20,18,0,2,0,0,0
+NUS,"Ctr for Engl LangComms",ES2631,"Critique and Communication ofThinking and Design",SG25,18,3,3,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2631,"Critique and Communication ofThinking and Design",SG26,18,1,1,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2631,"Critique and Communication ofThinking and Design",SG27,18,1,1,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2631,"Critique and Communication ofThinking and Design",SG28,18,15,15,1,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2631,"Critique and Communication ofThinking and Design",SG29,18,5,5,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2631,"Critique and Communication ofThinking and Design",SG30,18,14,14,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2631,"Critique and Communication ofThinking and Design",SG31,18,16,16,2,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2631,"Critique and Communication ofThinking and Design",SG33,18,13,13,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2631,"Critique and Communication ofThinking and Design",SG34,18,12,12,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2631,"Critique and Communication ofThinking and Design",SG36,18,6,6,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2631,"Critique and Communication ofThinking and Design",SG37,18,15,15,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+NUS,"Ctr for Engl LangComms",ES2631,"Critique and Communication ofThinking and Design",SG38,18,15,15,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2631,"Critique and Communication ofThinking and Design",SG39,18,20,18,0,2,0,0,0
+NUS,"Ctr for Engl LangComms",ES2660,"Communicating in the InformationAge",SG01,14,14,14,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2660,"Communicating in the InformationAge",SG02,14,14,14,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2660,"Communicating in the InformationAge",SG03,14,9,9,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2660,"Communicating in the InformationAge",SG04,14,8,8,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2660,"Communicating in the InformationAge",SG05,14,7,7,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2660,"Communicating in the InformationAge",SG06,14,8,8,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2660,"Communicating in the InformationAge",SG07,14,11,11,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2660,"Communicating in the InformationAge",SG08,14,12,12,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2660,"Communicating in the InformationAge",SG09,14,13,13,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2660,"Communicating in the InformationAge",SG10,14,9,9,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2660,"Communicating in the InformationAge",SG11,14,10,10,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2660,"Communicating in the InformationAge",SG12,14,12,12,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2660,"Communicating in the InformationAge",SG13,14,10,10,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2660,"Communicating in the InformationAge",SG14,14,8,8,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2660,"Communicating in the InformationAge",SG15,14,9,9,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+NUS,"Ctr for Engl LangComms",ES2660,"Communicating in the InformationAge",SG16,14,13,13,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2660,"Communicating in the InformationAge",SG17,14,12,12,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2660,"Communicating in the InformationAge",SG18,14,11,11,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2660,"Communicating in the InformationAge",SG19,14,10,10,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2660,"Communicating in the InformationAge",SG20,14,7,7,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2660,"Communicating in the InformationAge",SG21,14,4,4,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2660,"Communicating in the InformationAge",SG22,14,10,10,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2660,"Communicating in the InformationAge",SG23,14,9,9,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2660,"Communicating in the InformationAge",SG24,14,8,8,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",ES2660,"Communicating in the InformationAge",SG25,14,8,8,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",IS2101,"Business and TechnicalCommunication",SG01,14,11,11,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",IS2101,"Business and TechnicalCommunication",SG04,14,2,2,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",IS2101,"Business and TechnicalCommunication",SG05,14,9,9,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",IS2101,"Business and TechnicalCommunication",SG06,14,4,4,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",IS2101,"Business and TechnicalCommunication",SG07,14,11,11,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",IS2101,"Business and TechnicalCommunication",SG08,14,14,14,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",IS2101,"Business and TechnicalCommunication",SG10,14,12,12,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+NUS,"Ctr for Engl LangComms",IS2101,"Business and TechnicalCommunication",SG11,14,12,12,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",SP1541,"Exploring Science Communicationthrough Popular Science",S01,17,15,15,1,0,0,0,0
+NUS,"Ctr for Engl LangComms",SP1541,"Exploring Science Communicationthrough Popular Science",S02,18,19,18,0,1,0,0,0
+NUS,"Ctr for Engl LangComms",SP1541,"Exploring Science Communicationthrough Popular Science",S04,18,12,12,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",SP1541,"Exploring Science Communicationthrough Popular Science",S05,18,12,12,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",SP1541,"Exploring Science Communicationthrough Popular Science",S07,18,16,16,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",SP1541,"Exploring Science Communicationthrough Popular Science",S08,17,22,17,0,5,0,0,0
+NUS,"Ctr for Engl LangComms",SP1541,"Exploring Science Communicationthrough Popular Science",S09,18,19,18,0,1,0,0,0
+NUS,"Ctr for Engl LangComms",SP1541,"Exploring Science Communicationthrough Popular Science",S10,15,21,15,0,6,0,0,0
+NUS,"Ctr for Engl LangComms",SP1541,"Exploring Science Communicationthrough Popular Science",S11,18,16,16,2,0,0,0,0
+NUS,"Ctr for Engl LangComms",SP1541,"Exploring Science Communicationthrough Popular Science",S13,16,13,13,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",SP1541,"Exploring Science Communicationthrough Popular Science",S14,17,15,15,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",SP1541,"Exploring Science Communicationthrough Popular Science",S16,16,17,16,0,1,0,0,0
+NUS,"Ctr for Engl LangComms",SP1541,"Exploring Science Communicationthrough Popular Science",S17,18,15,15,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",SP1541,"Exploring Science Communicationthrough Popular Science",S18,18,11,11,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",SP1541,"Exploring Science Communicationthrough Popular Science",S19,17,10,10,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",SP1541,"Exploring Science Communicationthrough Popular Science",S20,18,18,18,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+NUS,"Ctr for Engl LangComms",SP1541,"Exploring Science Communicationthrough Popular Science",S21,15,7,7,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",SP1541,"Exploring Science Communicationthrough Popular Science",S22,18,10,10,2,0,0,0,0
+NUS,"Ctr for Engl LangComms",SP1541,"Exploring Science Communicationthrough Popular Science",S23,16,17,16,0,1,0,0,0
+NUS,"Ctr for Engl LangComms",SP1541,"Exploring Science Communicationthrough Popular Science",S25,18,11,11,1,0,0,0,0
+NUS,"Ctr for Engl LangComms",SP1541,"Exploring Science Communicationthrough Popular Science",S26,18,11,11,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",SP1541,"Exploring Science Communicationthrough Popular Science",S27,18,4,4,0,0,0,0,0
+NUS,"Ctr for Engl LangComms",SP1541,"Exploring Science Communicationthrough Popular Science",S28,16,12,12,1,0,0,0,0
+NUS,"Ctr for Engl LangComms",SP1541,"Exploring Science Communicationthrough Popular Science",S29,18,13,13,2,0,0,0,0
+NUS,"Ctr for Engl LangComms",SP1541,"Exploring Science Communicationthrough Popular Science",S30,17,23,17,0,6,0,0,0
+NUS,"Ctr for Engl LangComms",SP1541,"Exploring Science Communicationthrough Popular Science",S32,16,14,14,1,0,0,0,0
+"NUS BusinessSchool",Accounting,ACC1701,Accounting for Decision Makers,LV1,11,5,5,0,0,0,0,0
+"NUS BusinessSchool",Accounting,ACC1701,Accounting for Decision Makers,LV2,13,3,3,0,0,0,0,0
+"NUS BusinessSchool",Accounting,ACC1701X,Accounting for Decision Makers,LX1,150,136,135,0,0,0,1,0
+"NUS BusinessSchool",Accounting,ACC1701X,Accounting for Decision Makers,LX2,150,106,104,2,0,2,0,0
+"NUS BusinessSchool",Accounting,ACC2706,Managerial Accounting,SA1,21,31,21,0,10,0,0,0
+"NUS BusinessSchool",Accounting,ACC2707,Corporate Accounting & Reporting I,SA1,33,1,1,0,0,0,0,0
+"NUS BusinessSchool",Accounting,ACC2707,Corporate Accounting & Reporting I,SA2,33,3,3,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"NUS BusinessSchool",Accounting,ACC2708,Corporate Accounting & Reporting II,SA1,21,30,21,0,9,0,0,0
+"NUS BusinessSchool",Accounting,ACC2709,Accounting Information Systems,SA1,24,11,11,0,0,0,0,0
+"NUS BusinessSchool",Accounting,ACC2709,Accounting Information Systems,SA2,22,14,14,0,0,0,0,0
+"NUS BusinessSchool",Accounting,ACC2709,Accounting Information Systems,SA3,30,9,9,0,0,0,0,0
+"NUS BusinessSchool",Accounting,ACC3701,Assurance and Attestation,SA1,8,7,1,0,0,0,0,6
+"NUS BusinessSchool",Accounting,ACC3701,Assurance and Attestation,SA2,11,8,7,1,0,0,0,1
+"NUS BusinessSchool",Accounting,ACC3702,Corporate and Securities Law,SA1,22,31,22,0,9,0,0,0
+"NUS BusinessSchool",Accounting,ACC3702,Corporate and Securities Law,SA2,17,25,17,0,8,0,0,0
+"NUS BusinessSchool",Accounting,ACC3702,Corporate and Securities Law,SA3,22,13,13,8,0,0,0,0
+"NUS BusinessSchool",Accounting,ACC3703,Taxation,SA1,21,16,16,0,0,0,0,0
+"NUS BusinessSchool",Accounting,ACC3703,Taxation,SA2,23,11,11,0,0,0,0,0
+"NUS BusinessSchool",Accounting,ACC3703,Taxation,SA3,29,7,7,0,0,0,0,0
+"NUS BusinessSchool",Accounting,ACC3704,"Advanced Corporate Accounting andReporting",SA1,20,26,20,0,6,0,0,0
+"NUS BusinessSchool",Accounting,ACC3704,"Advanced Corporate Accounting andReporting",SA2,19,27,19,0,8,0,0,0
+"NUS BusinessSchool",Accounting,ACC3705,Valuation,SA1,19,38,19,0,19,0,0,0
+"NUS BusinessSchool",Accounting,ACC3706,"Governance, Risk Management andSustainability",SA1,26,25,25,1,0,0,0,0
+"NUS BusinessSchool",Accounting,ACC3706,"Governance, Risk Management andSustainability",SA2,12,22,12,0,10,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"NUS BusinessSchool",Accounting,ACC3707,"Integrated Perspectives in Accountingand Business",SA1,9,8,8,0,0,0,0,0
+"NUS BusinessSchool",Accounting,ACC3707,"Integrated Perspectives in Accountingand Business",SA2,18,8,8,0,0,0,0,0
+"NUS BusinessSchool",Accounting,ACC4711,Advanced Taxation,SA1,50,37,37,0,0,0,0,0
+"NUS BusinessSchool",Accounting,ACC4712,Forensic Accounting,SA1,45,35,35,0,0,0,0,0
+"NUS BusinessSchool",Accounting,ACC4714,"Advanced and SustainabilityAssurance",SA1,48,7,7,0,0,0,0,0
+"NUS BusinessSchool",Accounting,ACC4761A,"Seminars in Accounting: InternalAudit",SA1,50,19,19,0,0,0,0,0
+"NUS BusinessSchool",Accounting,ACC4761H,"Sem. in Acctg: Accounting &Business Analysis for Banks",SA1,50,24,21,1,0,0,3,0
+"NUS BusinessSchool","Analytics andOperations",DAO1704,"Decision Analytics usingSpreadsheets",SA1,2,2,2,0,0,0,0,0
+"NUS BusinessSchool","Analytics andOperations",DAO1704,"Decision Analytics usingSpreadsheets",SA3,3,3,3,0,0,0,0,0
+"NUS BusinessSchool","Analytics andOperations",DAO1704,"Decision Analytics usingSpreadsheets",SA5,3,2,2,1,0,0,0,0
+"NUS BusinessSchool","Analytics andOperations",DAO1704,"Decision Analytics usingSpreadsheets",SA6,2,1,1,0,0,0,0,0
+"NUS BusinessSchool","Analytics andOperations",DAO1704,"Decision Analytics usingSpreadsheets",SA7,2,5,2,0,3,0,0,0
+"NUS BusinessSchool","Analytics andOperations",DAO1704X,"Decision Analytics usingSpreadsheets",LQ1,100,61,60,2,0,1,0,0
+"NUS BusinessSchool","Analytics andOperations",DAO2702,Programming for Business Analytics,L1,110,115,110,0,4,0,0,1
+"NUS BusinessSchool","Analytics andOperations",DAO2702,Programming for Business Analytics,L2,111,78,78,0,0,0,0,0
+"NUS BusinessSchool","Analytics andOperations",DAO2702X,Programming for Business Analytics,L2,40,18,18,0,0,0,0,0
+"NUS BusinessSchool","Analytics andOperations",DAO2703,"Operations and TechnologyManagement",LF1,117,113,112,2,0,0,1,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"NUS BusinessSchool","Analytics andOperations",DAO2703,"Operations and TechnologyManagement",LF2,127,105,103,1,0,0,2,0
+"NUS BusinessSchool","Analytics andOperations",DBA3701,Introduction to Optimization,SA1,65,38,38,1,0,0,0,0
+"NUS BusinessSchool","Analytics andOperations",DBA3702,Descriptive Analytics with R,SA1,52,32,32,0,0,0,0,0
+"NUS BusinessSchool","Analytics andOperations",DBA3702,Descriptive Analytics with R,SA2,55,38,38,1,0,0,0,0
+"NUS BusinessSchool","Analytics andOperations",DBA3711,Stochastic Models in Management,SA1,40,10,10,0,0,0,0,0
+"NUS BusinessSchool","Analytics andOperations",DBA3713,Analytics for Risk Management,SA1,50,29,29,0,0,0,0,0
+"NUS BusinessSchool","Analytics andOperations",DBA3803,Predictive Analytics in Business,SA1,47,24,24,0,0,0,0,0
+"NUS BusinessSchool","Analytics andOperations",DBA3803,Predictive Analytics in Business,SA2,50,40,40,1,0,0,0,0
+"NUS BusinessSchool","Analytics andOperations",DBA4713,"Network Analytics with BusinessApplications",SA1,55,12,12,0,0,0,0,0
+"NUS BusinessSchool","Analytics andOperations",DBA4761A,"Sem in Analytics: TidyversePrinciples And Tidymodels",SA1,50,19,19,0,0,0,0,0
+"NUS BusinessSchool","Analytics andOperations",DBA4813,AI Strategies in Business,SA1,50,49,49,1,0,0,0,0
+"NUS BusinessSchool","Analytics andOperations",DOS3701,Supply Chain Management,SA1,42,10,10,0,0,0,0,0
+"NUS BusinessSchool","Analytics andOperations",DOS3701,Supply Chain Management,SA2,45,6,6,0,0,0,0,0
+"NUS BusinessSchool","Analytics andOperations",DOS3702,Procurement Management,SA1,50,33,33,0,0,0,0,0
+"NUS BusinessSchool","Analytics andOperations",DOS3703,Service Operations Management,SA1,28,13,13,0,0,0,0,0
+"NUS BusinessSchool","Analytics andOperations",DOS3703,Service Operations Management,SA2,33,20,20,0,0,0,0,0
+"NUS BusinessSchool","Analytics andOperations",DOS3704,Operations Strategy,SA1,32,12,12,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"NUS BusinessSchool","Analytics andOperations",DOS3704,Operations Strategy,SA2,35,20,20,0,0,0,0,0
+"NUS BusinessSchool","Analytics andOperations",DOS3712,Physical Distribution Management,SA1,50,20,20,0,0,0,0,0
+"NUS BusinessSchool","Analytics andOperations",DOS3714,Sustainable Operations Management,SA1,60,5,5,0,0,0,0,0
+"NUS BusinessSchool","Analytics andOperations",DOS4712,Co-ordination and Flexibility in SCM,SA1,48,45,45,0,0,0,0,0
+"NUS BusinessSchool","Analytics andOperations",DOS4715,"Lean Principles for OperationalExcellence",SA1,50,37,37,2,0,0,0,0
+"NUS BusinessSchool","Analytics andOperations",DOS4811,Data Visualisation,SA1,45,99,45,0,54,0,0,0
+"NUS BusinessSchool","Analytics andOperations",DSC3229,"Independent Study in Ops & SupplyChain Mgt",SA4,30,1,1,0,0,0,0,0
+"NUS BusinessSchool",Finance,FIN2704,Finance,LA1,35,90,35,0,54,0,0,1
+"NUS BusinessSchool",Finance,FIN2704,Finance,LA2,33,89,33,0,56,0,0,0
+"NUS BusinessSchool",Finance,FIN2704,Finance,LA3,34,99,34,0,65,0,0,0
+"NUS BusinessSchool",Finance,FIN2704X,Finance,LA1,17,47,17,0,30,0,0,0
+"NUS BusinessSchool",Finance,FIN2704X,Finance,LA2,20,54,20,0,34,0,0,0
+"NUS BusinessSchool",Finance,FIN2704X,Finance,LA3,20,56,20,0,35,0,0,1
+"NUS BusinessSchool",Finance,FIN3701A,Corporate Finance,SA1,41,56,41,0,15,0,0,0
+"NUS BusinessSchool",Finance,FIN3701A,Corporate Finance,SA2,44,66,44,0,22,0,0,0
+"NUS BusinessSchool",Finance,FIN3701A,Corporate Finance,SA3,44,54,44,0,9,0,1,0
+"NUS BusinessSchool",Finance,FIN3702A,"Investment Analysis and PortfolioManagement",SA1,33,35,33,0,0,1,1,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"NUS BusinessSchool",Finance,FIN3702A,"Investment Analysis and PortfolioManagement",SA2,36,34,34,2,0,0,0,0
+"NUS BusinessSchool",Finance,FIN3702A,"Investment Analysis and PortfolioManagement",SA3,36,71,36,0,35,0,0,0
+"NUS BusinessSchool",Finance,FIN3702A,"Investment Analysis and PortfolioManagement",SA4,36,31,31,5,0,0,0,0
+"NUS BusinessSchool",Finance,FIN3702B,"Investment Analysis and PortfolioManagement",SB1,36,59,36,0,23,0,0,0
+"NUS BusinessSchool",Finance,FIN3703A,Financial Markets,SA1,37,61,37,0,24,0,0,0
+"NUS BusinessSchool",Finance,FIN3703A,Financial Markets,SA2,40,96,40,0,56,0,0,0
+"NUS BusinessSchool",Finance,FIN3703B,Financial Markets,SB1,40,52,40,0,11,0,1,0
+"NUS BusinessSchool",Finance,FIN3703B,Financial Markets,SB2,40,53,40,0,13,0,0,0
+"NUS BusinessSchool",Finance,FIN3703B,Financial Markets,SB3,40,16,15,18,0,0,0,1
+"NUS BusinessSchool",Finance,FIN3711,International Financial Management,SA1,60,26,26,1,0,0,0,0
+"NUS BusinessSchool",Finance,FIN3713,Bank Management,SA1,60,25,25,0,0,0,0,0
+"NUS BusinessSchool",Finance,FIN3714,Financial Risk Management,SA1,60,12,12,0,0,0,0,0
+"NUS BusinessSchool",Finance,FIN3715,Risk and Insurance,SA1,60,28,27,1,0,0,1,0
+"NUS BusinessSchool",Finance,FIN3716,Financial Modelling,SA1,60,31,31,1,0,0,0,0
+"NUS BusinessSchool",Finance,FIN3719,Household Finance,SA1,60,76,60,0,16,0,0,0
+"NUS BusinessSchool",Finance,FIN3719,Household Finance,SA2,60,35,35,6,0,0,0,0
+"NUS BusinessSchool",Finance,FIN3720,Financial Statement Analysis,SA1,50,43,43,2,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"NUS BusinessSchool",Finance,FIN3761A,TIF: Transaction Banking,SA1,60,16,16,0,0,0,0,0
+"NUS BusinessSchool",Finance,FIN4714,Valuation and Mergers & Acquisition,SA1,60,42,41,1,0,0,1,0
+"NUS BusinessSchool",Finance,FIN4715,"Measuring Success in Philanthropyand Impact Investing",SA1,65,65,65,0,0,0,0,0
+"NUS BusinessSchool",Finance,FIN4715,"Measuring Success in Philanthropyand Impact Investing",SA2,65,92,65,0,27,0,0,0
+"NUS BusinessSchool",Finance,FIN4717,Entrepreneurial Finance,SA1,60,25,25,0,0,0,0,0
+"NUS BusinessSchool",Finance,FIN4718,FinTech Management,SA1,60,58,58,1,0,0,0,0
+"NUS BusinessSchool",Finance,FIN4720,Sustainability and Finance,SA1,60,69,60,0,9,0,0,0
+"NUS BusinessSchool",Finance,FIN4721,"AI, Blockchain and QuantumComputing",SA1,60,74,60,0,14,0,0,0
+"NUS BusinessSchool",Finance,FIN4721,"AI, Blockchain and QuantumComputing",SA2,60,49,48,8,0,0,1,0
+"NUS BusinessSchool",Finance,FIN4761C,"SIF: Applied Portfolio ManagementTechniques",SA1,60,46,46,1,0,0,0,0
+"NUS BusinessSchool",Finance,FIN4761D,"SIF: Family Business & WealthManagement",SA1,56,46,46,0,0,0,0,0
+"NUS BusinessSchool","Management &Organisation",MNO1706A,Organisational Behaviour,SA1,3,5,3,0,2,0,0,0
+"NUS BusinessSchool","Management &Organisation",MNO1706B,Organisational Behaviour,SB1,4,6,4,0,2,0,0,0
+"NUS BusinessSchool","Management &Organisation",MNO1706C,Organisational Behaviour,SC1,3,2,2,0,0,0,0,0
+"NUS BusinessSchool","Management &Organisation",MNO1706C,Organisational Behaviour,SC2,3,2,2,1,0,0,0,0
+"NUS BusinessSchool","Management &Organisation",MNO1706D,Organisational Behaviour,SD1,3,2,2,0,0,0,0,0
+"NUS BusinessSchool","Management &Organisation",MNO1706E,Organisational Behaviour,SE1,4,1,1,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"NUS BusinessSchool","Management &Organisation",MNO1706F,Organisational Behaviour,SF1,4,2,2,0,0,0,0,0
+"NUS BusinessSchool","Management &Organisation",MNO1706X,Organisational Behaviour,LZ1,47,89,47,0,42,0,0,0
+"NUS BusinessSchool","Management &Organisation",MNO2705A,"Leadership and Decision Makingunder Uncertainty",SA1,17,35,17,0,18,0,0,0
+"NUS BusinessSchool","Management &Organisation",MNO2705B,"Leadership and Decision Makingunder Uncertainty",SB1,15,36,15,0,21,0,0,0
+"NUS BusinessSchool","Management &Organisation",MNO2705B,"Leadership and Decision Makingunder Uncertainty",SB2,16,27,16,0,11,0,0,0
+"NUS BusinessSchool","Management &Organisation",MNO2705C,"Leadership and Decision Makingunder Uncertainty",SC1,21,43,21,0,22,0,0,0
+"NUS BusinessSchool","Management &Organisation",MNO2705C,"Leadership and Decision Makingunder Uncertainty",SC2,14,46,14,0,32,0,0,0
+"NUS BusinessSchool","Management &Organisation",MNO2705C,"Leadership and Decision Makingunder Uncertainty",SC3,14,36,14,0,22,0,0,0
+"NUS BusinessSchool","Management &Organisation",MNO2705D,"Leadership and Decision Makingunder Uncertainty",SD1,15,28,15,0,13,0,0,0
+"NUS BusinessSchool","Management &Organisation",MNO2705D,"Leadership and Decision Makingunder Uncertainty",SD2,17,25,17,0,8,0,0,0
+"NUS BusinessSchool","Management &Organisation",MNO2705D,"Leadership and Decision Makingunder Uncertainty",SD3,15,14,14,1,0,0,0,0
+"NUS BusinessSchool","Management &Organisation",MNO2705E,"Leadership and Decision Makingunder Uncertainty",SE1,13,22,13,0,9,0,0,0
+"NUS BusinessSchool","Management &Organisation",MNO2706,"Business Communication for Leaders(ACC)",SA1,28,2,2,0,0,0,0,0
+"NUS BusinessSchool","Management &Organisation",MNO2706,"Business Communication for Leaders(ACC)",SA2,32,2,2,0,0,0,0,0
+"NUS BusinessSchool","Management &Organisation",MNO3701,Human Capital Management,SA1,22,9,9,0,0,0,0,0
+"NUS BusinessSchool","Management &Organisation",MNO3701,Human Capital Management,SA2,25,10,10,0,0,0,0,0
+"NUS BusinessSchool","Management &Organisation",MNO3702,Negotiation and Conflict Management,SA1,25,13,13,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"NUS BusinessSchool","Management &Organisation",MNO3702,Negotiation and Conflict Management,SA2,36,13,13,0,0,0,0,0
+"NUS BusinessSchool","Management &Organisation",MNO3702,Negotiation and Conflict Management,SA3,28,9,9,0,0,0,0,0
+"NUS BusinessSchool","Management &Organisation",MNO3703,Leading in the 21st Century,SA1,15,9,9,0,0,0,0,0
+"NUS BusinessSchool","Management &Organisation",MNO3703,Leading in the 21st Century,SA2,18,13,13,0,0,0,0,0
+"NUS BusinessSchool","Management &Organisation",MNO3703,Leading in the 21st Century,SA3,48,12,12,0,0,0,0,0
+"NUS BusinessSchool","Management &Organisation",MNO3713,Management of Employee Relations,SA1,48,22,22,0,0,0,0,0
+"NUS BusinessSchool","Management &Organisation",MNO3716,Principles of Global Management,SA1,48,18,18,0,0,0,0,0
+"NUS BusinessSchool","Management &Organisation",MNO3811,Social Entrepreneurship,SA1,48,18,18,0,0,0,0,0
+"NUS BusinessSchool","Management &Organisation",MNO4712,"Experiencing Work: Effects onBehaviour & Well-Being",SA1,48,28,27,0,0,0,1,0
+"NUS BusinessSchool","Management &Organisation",MNO4761A,"SILHCM: Compensation andPerformance Management",SA1,48,33,33,0,0,0,0,0
+"NUS BusinessSchool","Management &Organisation",MNO4861C,"SILHCM: Corp Entrepreneurship &Busi Model Evaluation",SA1,48,19,19,0,0,0,0,0
+"NUS BusinessSchool",Marketing,MKT1705B,Principles of Marketing,SB1,3,4,3,0,1,0,0,0
+"NUS BusinessSchool",Marketing,MKT1705B,Principles of Marketing,SB2,4,4,4,0,0,0,0,0
+"NUS BusinessSchool",Marketing,MKT1705C,Principles of Marketing,SC2,3,2,2,0,0,0,0,0
+"NUS BusinessSchool",Marketing,MKT1705E,Principles of Marketing,SE1,3,1,1,0,0,0,0,0
+"NUS BusinessSchool",Marketing,MKT1705E,Principles of Marketing,SE2,3,2,2,0,0,0,0,0
+"NUS BusinessSchool",Marketing,MKT1705X,Principles of Marketing,LW1,220,71,70,4,0,0,1,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"NUS BusinessSchool",Marketing,MKT2711A,Marketing Venture Challenge,SA1,50,31,31,3,0,0,0,0
+"NUS BusinessSchool",Marketing,MKT2711B,Marketing Venture Challenge,SB1,50,55,50,0,5,0,0,0
+"NUS BusinessSchool",Marketing,MKT3701A,"Marketing Strategy: Analysis andPractice",SA1,34,31,31,1,0,0,0,0
+"NUS BusinessSchool",Marketing,MKT3701A,"Marketing Strategy: Analysis andPractice",SA2,37,42,37,0,5,0,0,0
+"NUS BusinessSchool",Marketing,MKT3701B,"Marketing Strategy: Analysis andPractice",SB1,38,10,10,0,0,0,0,0
+"NUS BusinessSchool",Marketing,MKT3701B,"Marketing Strategy: Analysis andPractice",SB2,38,39,38,0,0,0,1,0
+"NUS BusinessSchool",Marketing,MKT3702A,Consumer Behaviour,SA1,29,24,24,3,0,0,0,0
+"NUS BusinessSchool",Marketing,MKT3702A,Consumer Behaviour,SA2,32,21,21,2,0,0,0,0
+"NUS BusinessSchool",Marketing,MKT3702A,Consumer Behaviour,SA3,32,51,32,0,19,0,0,0
+"NUS BusinessSchool",Marketing,MKT3702B,Consumer Behaviour,SB1,32,11,11,0,0,0,0,0
+"NUS BusinessSchool",Marketing,MKT3711,Services Marketing,SA1,45,11,11,0,0,0,0,0
+"NUS BusinessSchool",Marketing,MKT3711,Services Marketing,SA2,45,26,26,1,0,0,0,0
+"NUS BusinessSchool",Marketing,MKT3714A,Digital Marketing,SA1,50,38,38,0,0,0,0,0
+"NUS BusinessSchool",Marketing,MKT3714B,Digital Marketing,SB1,50,13,13,0,0,0,0,0
+"NUS BusinessSchool",Marketing,MKT3715,Business-to-Business Marketing,SA1,50,28,28,0,0,0,0,0
+"NUS BusinessSchool",Marketing,MKT3716,Customer Relationship Management,SA1,48,32,32,2,0,0,0,0
+"NUS BusinessSchool",Marketing,MKT3717,Product & Brand Management,SA1,60,42,42,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"NUS BusinessSchool",Marketing,MKT3718,"Advertising & PromotionManagement",SA1,60,20,20,0,0,0,0,0
+"NUS BusinessSchool",Marketing,MKT3722,Research for Marketing Insights,SA1,50,12,12,1,0,0,0,0
+"NUS BusinessSchool",Marketing,MKT3724,Sustainability Marketing,SA1,50,27,27,0,0,0,0,0
+"NUS BusinessSchool",Marketing,MKT4719,"Distribution Management: Channelsand Platforms",SA1,50,32,31,3,0,0,1,0
+"NUS BusinessSchool",Marketing,MKT4720,Product Experience Management,SA1,54,57,54,0,3,0,0,0
+"NUS BusinessSchool",Marketing,MKT4721,Customer Analytics & Visualization,SA1,50,46,44,1,0,0,2,0
+"NUS BusinessSchool",Marketing,MKT4723,Customer Experience Management,SA1,65,116,65,0,51,0,0,0
+"NUS BusinessSchool",Marketing,MKT4761F,SIM: Disruption and Marketing,SA1,50,43,43,3,0,0,0,0
+"NUS BusinessSchool",Marketing,MKT4761H,SIM Marketing Strategy & Execution,SH1,50,33,33,0,0,0,0,0
+"NUS BusinessSchool",Marketing,MKT4811,Pricing Strategy,SA1,55,68,55,0,13,0,0,0
+"NUS BusinessSchool",Real Estate,RE2701,Urban Planning,L1,137,98,98,0,0,0,0,0
+"NUS BusinessSchool",Real Estate,RE2702,Land Law,L1,70,58,58,0,0,0,0,0
+"NUS BusinessSchool",Real Estate,RE2705,Urban Economics,L1,85,49,49,0,0,0,0,0
+"NUS BusinessSchool",Real Estate,RE2707,Asset and Property Management,L1,80,41,41,1,0,0,0,0
+"NUS BusinessSchool",Real Estate,RE2708,"Computational Thinking andProgramming for Real Estate",L1,130,95,95,0,0,0,0,0
+"NUS BusinessSchool",Real Estate,RE3701,Real Estate Investment Analysis,L1,105,59,59,0,0,0,0,0
+"NUS BusinessSchool",Real Estate,RE3702,Property Tax and Statutory Valuation,L1,145,87,87,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"NUS BusinessSchool",Real Estate,RE3703,Advanced Real Estate Economics,L1,80,47,47,0,0,0,0,0
+"NUS BusinessSchool",Real Estate,RE3704,Real Estate Marketing,L1,90,39,39,0,0,0,0,0
+"NUS BusinessSchool",Real Estate,RE3803,Strategic Asset Management,L1,93,84,79,0,5,0,0,0
+"NUS BusinessSchool",Real Estate,RE3807,Corporate Finance for Real Estate,L1,40,53,26,0,27,0,0,0
+"NUS BusinessSchool",Real Estate,RE3901,Advanced Urban Planning,L1,33,80,18,0,62,0,0,0
+"NUS BusinessSchool",Real Estate,RE4701,Real Estate Development,L1,160,148,147,0,0,0,0,1
+"NUS BusinessSchool",Real Estate,RE4702,Professional Practice and Ethics,L1,140,127,127,0,0,0,0,0
+"NUS BusinessSchool",Real Estate,RE4803,"REIT and Business TrustManagement",L1,68,66,63,0,3,0,0,0
+"NUS BusinessSchool",Real Estate,RE4804,Real Estate Securitisation,L1,38,9,9,2,0,0,0,0
+"NUS BusinessSchool",Strategy and Policy,BSE3701,"Macroeconomic Principles in theGlobal Economy",SA1,50,25,25,0,0,0,0,0
+"NUS BusinessSchool",Strategy and Policy,BSE3702,Economics of Strategy,SA1,15,34,15,0,19,0,0,0
+"NUS BusinessSchool",Strategy and Policy,BSE3703,Econometrics for Business I,SA1,15,32,15,0,17,0,0,0
+"NUS BusinessSchool",Strategy and Policy,BSE4761A,"Seminars in Business Economics:International Economics",SA1,50,9,9,0,0,0,0,0
+"NUS BusinessSchool",Strategy and Policy,BSN3701,Technological Innovation,SA1,37,12,12,0,0,0,0,0
+"NUS BusinessSchool",Strategy and Policy,BSN3701,Technological Innovation,SA2,40,6,6,0,0,0,0,0
+"NUS BusinessSchool",Strategy and Policy,BSN3702,New Venture Creation,SA1,32,8,8,0,0,0,0,0
+"NUS BusinessSchool",Strategy and Policy,BSN3702,New Venture Creation,SA2,35,8,8,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"NUS BusinessSchool",Strategy and Policy,BSN3703,Entrepreneurial Strategy,SA1,50,10,10,0,0,0,0,0
+"NUS BusinessSchool",Strategy and Policy,BSN3714,"Co-Creating Value (Tools forCollaborative Innovation)",SA1,50,18,18,0,0,0,0,0
+"NUS BusinessSchool",Strategy and Policy,BSP1702,Legal Environment of Business,SA2,2,1,1,0,0,0,0,0
+"NUS BusinessSchool",Strategy and Policy,BSP1702,Legal Environment of Business,SA3,3,3,3,0,0,0,0,0
+"NUS BusinessSchool",Strategy and Policy,BSP1702,Legal Environment of Business,SA5,3,4,3,0,1,0,0,0
+"NUS BusinessSchool",Strategy and Policy,BSP1702,Legal Environment of Business,SA6,4,1,1,0,0,0,0,0
+"NUS BusinessSchool",Strategy and Policy,BSP1702,Legal Environment of Business,SA9,3,4,3,0,1,0,0,0
+"NUS BusinessSchool",Strategy and Policy,BSP1702X,Legal Environment of Business,SA1,35,22,22,0,0,0,0,0
+"NUS BusinessSchool",Strategy and Policy,BSP1703,Managerial Economics,LD1,16,9,9,0,0,0,0,0
+"NUS BusinessSchool",Strategy and Policy,BSP1703,Managerial Economics,LD2,15,11,11,0,0,0,0,0
+"NUS BusinessSchool",Strategy and Policy,BSP2701,Global Economy,L1,114,189,114,0,75,0,0,0
+"NUS BusinessSchool",Strategy and Policy,BSP2701,Global Economy,L2,125,115,115,10,0,0,0,0
+"NUS BusinessSchool",Strategy and Policy,BSP3701A,Strategic Management,SA1,19,14,14,1,0,0,0,0
+"NUS BusinessSchool",Strategy and Policy,BSP3701A,Strategic Management,SA2,10,18,10,0,8,0,0,0
+"NUS BusinessSchool",Strategy and Policy,BSP3701B,Strategic Management,SB1,11,20,11,0,9,0,0,0
+"NUS BusinessSchool",Strategy and Policy,BSP3701B,Strategic Management,SB2,17,6,6,4,0,0,0,0
+"NUS BusinessSchool",Strategy and Policy,BSP3701C,Strategic Management,SC1,13,9,9,1,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"NUS BusinessSchool",Strategy and Policy,BSP3701C,Strategic Management,SC2,15,13,13,2,0,0,0,0
+"School ofComputing",Computer Science,CS1010,Programming Methodology,S1,257,4,4,0,0,0,0,0
+"School ofComputing",Computer Science,CS1010A,Programming Methodology,L1,18,4,4,0,0,0,0,0
+"School ofComputing",Computer Science,CS1010E,Programming Methodology,S1,370,4,4,0,0,0,0,0
+"School ofComputing",Computer Science,CS1010E,Programming Methodology,S2,370,4,4,0,0,0,0,0
+"School ofComputing",Computer Science,CS1010J,Programming Methodology,L1,19,2,2,0,0,0,0,0
+"School ofComputing",Computer Science,CS1010S,Programming Methodology,L1,90,87,87,0,0,0,0,0
+"School ofComputing",Computer Science,CS1101S,Programming Methodology,L1,83,4,4,0,0,0,0,0
+"School ofComputing",Computer Science,CS1231,Discrete Structures,S1,113,82,16,0,66,0,0,0
+"School ofComputing",Computer Science,CS1231S,Discrete Structures,L2,132,15,15,0,0,0,0,0
+"School ofComputing",Computer Science,CS2030,Programming Methodology II,L1,150,93,92,0,0,1,0,0
+"School ofComputing",Computer Science,CS2030S,Programming Methodology II,L1,220,35,35,0,0,0,0,0
+"School ofComputing",Computer Science,CS2040,Data Structures and Algorithms,L1,100,170,100,0,0,0,0,70
+"School ofComputing",Computer Science,CS2040,Data Structures and Algorithms,L2,167,396,167,0,41,0,0,188
+"School ofComputing",Computer Science,CS2040C,Data Structures and Algorithms,L1,54,10,10,1,0,0,0,0
+"School ofComputing",Computer Science,CS2040S,Data Structures and Algorithms,L1,180,112,112,0,0,0,0,0
+"School ofComputing",Computer Science,CS2100,Computer Organisation,L1,310,470,310,0,160,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"School ofComputing",Computer Science,CS2100,Computer Organisation,L2,350,208,206,81,0,2,0,0
+"School ofComputing",Computer Science,CS2102,Database Systems,L1,230,173,172,1,0,0,1,0
+"School ofComputing",Computer Science,CS2102,Database Systems,L2,200,200,200,0,0,0,0,0
+"School ofComputing",Computer Science,CS2103,Software Engineering,L1,100,48,47,1,0,0,1,0
+"School ofComputing",Computer Science,CS2103T,Software Engineering,LG02,20,25,20,0,5,0,0,0
+"School ofComputing",Computer Science,CS2103T,Software Engineering,LG04,20,25,20,0,5,0,0,0
+"School ofComputing",Computer Science,CS2103T,Software Engineering,LG05,20,25,20,0,5,0,0,0
+"School ofComputing",Computer Science,CS2103T,Software Engineering,LG06,20,27,20,0,7,0,0,0
+"School ofComputing",Computer Science,CS2103T,Software Engineering,LG07,20,30,20,0,10,0,0,0
+"School ofComputing",Computer Science,CS2103T,Software Engineering,LG08,20,27,20,0,7,0,0,0
+"School ofComputing",Computer Science,CS2103T,Software Engineering,LG09,20,26,20,0,6,0,0,0
+"School ofComputing",Computer Science,CS2103T,Software Engineering,LG10,20,28,20,0,8,0,0,0
+"School ofComputing",Computer Science,CS2103T,Software Engineering,LG11,20,30,20,0,10,0,0,0
+"School ofComputing",Computer Science,CS2103T,Software Engineering,LG12,20,27,20,0,7,0,0,0
+"School ofComputing",Computer Science,CS2103T,Software Engineering,LG13,20,25,20,0,5,0,0,0
+"School ofComputing",Computer Science,CS2103T,Software Engineering,LG14,20,25,20,0,5,0,0,0
+"School ofComputing",Computer Science,CS2103T,Software Engineering,LG15,20,27,20,0,7,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"School ofComputing",Computer Science,CS2103T,Software Engineering,LG16,20,30,20,0,10,0,0,0
+"School ofComputing",Computer Science,CS2103T,Software Engineering,LG17,20,26,20,0,6,0,0,0
+"School ofComputing",Computer Science,CS2103T,Software Engineering,LG18,20,32,20,0,12,0,0,0
+"School ofComputing",Computer Science,CS2103T,Software Engineering,LG19,20,34,20,0,14,0,0,0
+"School ofComputing",Computer Science,CS2103T,Software Engineering,LG20,20,40,20,0,20,0,0,0
+"School ofComputing",Computer Science,CS2103T,Software Engineering,LG21,20,32,20,0,12,0,0,0
+"School ofComputing",Computer Science,CS2103T,Software Engineering,LG22,20,33,20,0,13,0,0,0
+"School ofComputing",Computer Science,CS2104,Programming Language Concepts,L1,80,56,54,2,0,2,0,0
+"School ofComputing",Computer Science,CS2105,Introduction to Computer Networks,L1,300,194,194,8,0,0,0,0
+"School ofComputing",Computer Science,CS2105,Introduction to Computer Networks,L2,135,132,132,1,0,0,0,0
+"School ofComputing",Computer Science,CS2106,Introduction to Operating Systems,L1,340,308,307,2,0,1,0,0
+"School ofComputing",Computer Science,CS2107,Introduction to Information Security,L1,254,105,99,3,0,6,0,0
+"School ofComputing",Computer Science,CS2109S,"Introduction to AI and MachineLearning",L1,300,266,266,24,0,0,0,0
+"School ofComputing",Computer Science,CS2109S,"Introduction to AI and MachineLearning",L2,50,76,50,0,26,0,0,0
+"School ofComputing",Computer Science,CS2113,"Software Engineering & Object-Oriented Programming",L1,50,6,6,0,0,0,0,0
+"School ofComputing",Computer Science,CS2113T,"Software Engineering & Object-Oriented Programming",LC01,18,11,11,0,0,0,0,0
+"School ofComputing",Computer Science,CS2220,Introduction to Computational Biology,L1,20,11,11,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"School ofComputing",Computer Science,CS2309,CS Research Methodology,L1,35,21,21,0,0,0,0,0
+"School ofComputing",Computer Science,CS3103,Computer Networks Practice,L1,185,175,175,3,0,0,0,0
+"School ofComputing",Computer Science,CS3203,Software Engineering Project,L1,75,105,75,0,30,0,0,0
+"School ofComputing",Computer Science,CS3203,Software Engineering Project,L2,75,105,75,0,30,0,0,0
+"School ofComputing",Computer Science,CS3210,Parallel Computing,L1,140,233,140,0,92,0,1,0
+"School ofComputing",Computer Science,CS3219,"Software Engineering Principles andPatterns",L1,17,313,17,0,36,0,0,260
+"School ofComputing",Computer Science,CS3230,Design and Analysis of Algorithms,L1,280,218,218,4,0,0,0,0
+"School ofComputing",Computer Science,CS3230,Design and Analysis of Algorithms,L2,190,190,190,0,0,0,0,0
+"School ofComputing",Computer Science,CS3231,Theory of Computation,L1,30,56,30,0,25,0,1,0
+"School ofComputing",Computer Science,CS3235,Computer Security,L1,160,63,63,0,0,0,0,0
+"School ofComputing",Computer Science,CS3237,Introduction to Internet of Things,L1,150,55,55,1,0,0,0,0
+"School ofComputing",Computer Science,CS3240,Interaction Design,L1,110,61,60,1,0,0,1,0
+"School ofComputing",Computer Science,CS3241,Computer Graphics,L1,217,142,140,4,0,2,0,0
+"School ofComputing",Computer Science,CS3243,Introduction to Artificial Intelligence,L1,200,65,65,0,0,0,0,0
+"School ofComputing",Computer Science,CS3244,Machine Learning,L1,280,216,216,2,0,0,0,0
+"School ofComputing",Computer Science,CS3263,Foundations of Artificial Intelligence,L1,180,47,47,2,0,0,0,0
+"School ofComputing",Computer Science,CS3264,Foundations of Machine Learning,L1,180,50,50,1,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"School ofComputing",Computer Science,CS4211,"Formal Methods for SoftwareEngineering",L1,145,91,91,8,0,0,0,0
+"School ofComputing",Computer Science,CS4212,Compiler Design,L1,40,12,12,0,0,0,0,0
+"School ofComputing",Computer Science,CS4223,Multi-core Architectures,L1,60,24,24,0,0,0,0,0
+"School ofComputing",Computer Science,CS4224,Distributed Databases,L1,70,33,30,0,0,3,0,0
+"School ofComputing",Computer Science,CS4225,Big Data Systems for Data Science,L1,290,245,239,2,6,0,0,0
+"School ofComputing",Computer Science,CS4226,Internet Architecture,L1,170,265,170,0,95,0,0,0
+"School ofComputing",Computer Science,CS4234,Optimisation Algorithms,L1,68,56,55,1,0,0,1,0
+"School ofComputing",Computer Science,CS4236,Cryptography Theory and Practice,L1,69,28,28,0,0,0,0,0
+"School ofComputing",Computer Science,CS4239,Software Security,L1,60,48,48,0,0,0,0,0
+"School ofComputing",Computer Science,CS4243,"Computer Vision and PatternRecognition",L1,120,108,108,1,0,0,0,0
+"School ofComputing",Computer Science,CS4246,AI Planning and Decision Making,L1,50,46,46,1,0,0,0,0
+"School ofComputing",Computer Science,CS4248,Natural Language Processing,L1,120,88,88,2,0,0,0,0
+"School ofComputing",Computer Science,CS4261,Algorithmic Mechanism Design,L1,80,75,75,1,0,0,0,0
+"School ofComputing",Computer Science,CS4278,"Intelligent Robots: Algorithms andSystems",L1,30,14,14,0,0,0,0,0
+"School ofComputing",Computer Science,CS4347,Sound and Music Computing,L1,45,14,14,0,0,0,0,0
+"School ofComputing",Computer Science,CS4350,Game Development Project,E1,45,26,26,0,0,0,0,0
+"School ofComputing",Computer Science,CS5231,Systems Security,L1,5,24,5,0,19,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"School ofComputing",Computer Science,CS5322,Database Security,L1,3,3,3,0,0,0,0,0
+"School ofComputing",Computer Science,GEI1000,Computational Thinking,L1,130,452,130,0,322,0,0,0
+"School ofComputing",Computer Science,GET1031,Computational Thinking,L1,45,65,45,0,19,0,1,0
+"School ofComputing",Computer Science,IFS4205,"Information Security CapstoneProject.",L1,48,14,14,0,0,0,0,0
+"School ofComputing",Computer Science,IT1244,"Artificial Intelligence: Technology andImpact",L1,330,97,97,1,0,0,0,0
+"School ofComputing","Info Systems andAnalytics",BT1101,Introduction to Business Analytics,L1,18,5,5,0,0,0,0,0
+"School ofComputing","Info Systems andAnalytics",BT2101,"Econometrics Modeling for BusinessAnalytics",L1,280,256,256,0,0,0,0,0
+"School ofComputing","Info Systems andAnalytics",BT2102,Data Management and Visualisation,L1,180,66,65,0,0,0,1,0
+"School ofComputing","Info Systems andAnalytics",BT3102,"Computational Methods for BusinessAnalytics",L1,60,59,59,0,0,0,0,0
+"School ofComputing","Info Systems andAnalytics",BT3103,"Application Systems Development forBusiness Analytics",L1,80,63,63,0,0,0,0,0
+"School ofComputing","Info Systems andAnalytics",BT3104,"Optimization Methods for BusinessAnalytics",L1,120,7,7,0,0,0,0,0
+"School ofComputing","Info Systems andAnalytics",BT4012,Fraud Analytics,L1,150,146,146,0,0,0,0,0
+"School ofComputing","Info Systems andAnalytics",BT4013,"Analytics for Capital Market Tradingand Investment",L1,90,107,90,0,17,0,0,0
+"School ofComputing","Info Systems andAnalytics",BT4014,"Analytics Driven Design of AdaptiveSystems",L1,60,14,14,0,0,0,0,0
+"School ofComputing","Info Systems andAnalytics",BT4015,Geospatial Analytics,L1,50,17,17,0,0,0,0,0
+"School ofComputing","Info Systems andAnalytics",BT4103,Business Analytics Capstone Project,L1,135,120,120,1,0,0,0,0
+"School ofComputing","Info Systems andAnalytics",BT4212,"Search Engine Optimization andAnalytics",L1,120,84,84,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"School ofComputing","Info Systems andAnalytics",BT4222,"Mining Web Data for BusinessInsights",L1,100,105,100,0,5,0,0,0
+"School ofComputing","Info Systems andAnalytics",IS1108,Digital Ethics and Data Privacy,L1,10,11,10,0,1,0,0,0
+"School ofComputing","Info Systems andAnalytics",IS1108,Digital Ethics and Data Privacy,L2,11,11,11,0,0,0,0,0
+"School ofComputing","Info Systems andAnalytics",IS1108,Digital Ethics and Data Privacy,L3,12,11,11,0,0,0,0,0
+"School ofComputing","Info Systems andAnalytics",IS1128,"IT, Management and Organisation",L1,230,114,114,0,0,0,0,0
+"School ofComputing","Info Systems andAnalytics",IS2102,"Enterprise Systems Architecture andDesign",L1,100,85,85,1,0,0,0,0
+"School ofComputing","Info Systems andAnalytics",IS2103,"Enterprise Systems Server-sideDesign and Development",L1,100,87,87,0,0,0,0,0
+"School ofComputing","Info Systems andAnalytics",IS2218,Digital Platforms for Business,L1,220,153,153,1,0,0,0,0
+"School ofComputing","Info Systems andAnalytics",IS2238,Economics of IT and AI,L1,210,24,24,1,0,0,0,0
+"School ofComputing","Info Systems andAnalytics",IS3103,"Information Systems Leadership andCommunication",L1,220,127,126,0,0,0,0,1
+"School ofComputing","Info Systems andAnalytics",IS3107,Data Engineering,L1,120,65,65,0,0,0,0,0
+"School ofComputing","Info Systems andAnalytics",IS3150,Digital Media Marketing,L1,55,21,21,0,0,0,0,0
+"School ofComputing","Info Systems andAnalytics",IS3221,"ERP Systems with AnalyticsSolutions",L1,60,44,43,1,0,0,1,0
+"School ofComputing","Info Systems andAnalytics",IS3251,"Principles of TechnologyEntrepreneurship",L1,30,19,19,0,0,0,0,0
+"School ofComputing","Info Systems andAnalytics",IS4103,"Information Systems CapstoneProject",L1,55,92,55,0,37,0,0,0
+"School ofComputing","Info Systems andAnalytics",IS4226,"Systematic Trading Strategies andSystems",L1,85,85,85,0,0,0,0,0
+"School ofComputing","Info Systems andAnalytics",IS4228,"Information Technologies in FinancialServices",L1,95,70,70,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"School ofComputing","Info Systems andAnalytics",IS4234,"Governance, Regulation, andCompliance Technology",L1,60,45,45,0,0,0,0,0
+"School ofComputing","Info Systems andAnalytics",IS4238,Strategic Cybersecurity,L1,55,15,15,0,0,0,0,0
+"School ofComputing","Info Systems andAnalytics",IS4242,Intelligent Systems and Techniques,L1,65,72,65,0,7,0,0,0
+"School ofComputing","Info Systems andAnalytics",IS4243,Information Systems Consulting,L1,45,24,24,0,0,0,0,0
+"School ofComputing","Info Systems andAnalytics",IS4246,Smart Systems and AI Governance,L1,70,22,22,0,0,0,0,0
+"School ofComputing","Info Systems andAnalytics",IS4250,IT-enabled Healthcare Solutioning,L1,40,28,28,0,0,0,0,0
+"School ofComputing","Info Systems andAnalytics",IS4301,Agile IT with DevOps,L1,90,89,89,0,0,0,0,0
+"School ofComputing","Info Systems andAnalytics",IS4302,"Blockchain and Distributed LedgerTechnologies",L1,70,32,32,0,0,0,0,0
+"School ofComputing","Info Systems andAnalytics",IT3010,"Data Management for BusinessAnalytics",L1,140,57,56,0,0,1,0,0
+"School ofComputing",SoC Dean's Office,CP3201,Industry Seminar,L1,130,33,33,0,0,0,0,0
+"YST Conservatoryof Music",YSTCM Dean's Office,MUA1223,Desktop Mixing and Production,L1,15,1,1,0,0,0,0,0
+"YST Conservatoryof Music",YSTCM Dean's Office,MUA2163,Leading and Guiding Through Music,L1,-,23,23,0,0,0,0,0
+"YST Conservatoryof Music",YSTCM Dean's Office,MUA2163,Leading and Guiding Through Music,L2,-,21,21,0,0,0,0,0
+"YST Conservatoryof Music",YSTCM Dean's Office,MUA2229,Music and Health,L1,25,15,15,0,0,0,0,0
+"YST Conservatoryof Music",YSTCM Dean's Office,MUA3105,Conducting,S1,-,4,4,0,0,0,0,0
+"YST Conservatoryof Music",YSTCM Dean's Office,MUA3177,Music Programming & Production,S1,10,1,1,0,0,0,0,0
+"YST Conservatoryof Music",YSTCM Dean's Office,MUA3181,"Advanced Concepts in OrchestralRepertoire",S1,15,2,2,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"YST Conservatoryof Music",YSTCM Dean's Office,MUA3181,"Advanced Concepts in OrchestralRepertoire",S2,15,1,1,0,0,0,0,0
+"YST Conservatoryof Music",YSTCM Dean's Office,MUA3181,"Advanced Concepts in OrchestralRepertoire",S3,12,4,4,0,0,0,0,0
+"YST Conservatoryof Music",YSTCM Dean's Office,MUA3181,"Advanced Concepts in OrchestralRepertoire",S4,12,1,1,0,0,0,0,0
+"YST Conservatoryof Music",YSTCM Dean's Office,MUA3181,"Advanced Concepts in OrchestralRepertoire",S5,16,4,4,0,0,0,0,0
+"YST Conservatoryof Music",YSTCM Dean's Office,MUA3181,"Advanced Concepts in OrchestralRepertoire",S6,16,3,3,0,0,0,0,0
+"YST Conservatoryof Music",YSTCM Dean's Office,MUA3181,"Advanced Concepts in OrchestralRepertoire",S7,12,1,1,0,0,0,0,0
+"YST Conservatoryof Music",YSTCM Dean's Office,MUA3205,Jazz Study and Performance 1,S1,15,6,6,0,0,0,0,0
+"YST Conservatoryof Music",YSTCM Dean's Office,MUA3208,Creative Producing for Music Majors,L1,10,1,1,0,0,0,0,0
+"YST Conservatoryof Music",YSTCM Dean's Office,MUA3219,World Music Ensemble,S1,15,3,3,0,0,0,0,0
+"YST Conservatoryof Music",YSTCM Dean's Office,MUA3271,"Acoustics and Sound Production forPerformers",L1,6,3,3,0,0,0,0,0
+"YST Conservatoryof Music",YSTCM Dean's Office,MUA4181,"Professional Concepts in OrchestralRepertoire",S1,10,2,2,0,0,0,0,0
+"YST Conservatoryof Music",YSTCM Dean's Office,MUA4181,"Professional Concepts in OrchestralRepertoire",S5,12,3,3,0,0,0,0,0
+"YST Conservatoryof Music",YSTCM Dean's Office,MUH2202,"What Was, and Is, Popular Music?",S1,23,11,11,0,0,0,0,0
+"YST Conservatoryof Music",YSTCM Dean's Office,MUH2202,"What Was, and Is, Popular Music?",S2,23,7,7,0,0,0,0,0
+"YST Conservatoryof Music",YSTCM Dean's Office,MUH2204,Music after World War II,E1,25,2,2,0,0,0,0,0
+"YST Conservatoryof Music",YSTCM Dean's Office,MUL2107,French for Musicians 1,L1,7,2,1,0,0,0,0,1
+"YST Conservatoryof Music",YSTCM Dean's Office,MUL2109,German for Musicians 1,L1,8,4,2,0,0,0,0,2
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others,
+"YST Conservatoryof Music",YSTCM Dean's Office,MUT1201,"Introduction to Classical MusicComposition",L1,15,11,11,0,0,0,0,0
+"YST Conservatoryof Music",YSTCM Dean's Office,MUT3215,Composition for Non-Majors,S1,15,1,1,0,0,0,0,0
+"YST Conservatoryof Music",YSTCM Dean's Office,MUT3222,Choral Composition,L1,15,2,2,0,0,0,0,0
+"YST Conservatoryof Music",YSTCM Dean's Office,MUT4201,Graduate Theory Preparation,S1,15,7,7,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YHU2236,Travel Writing,E1,16,24,16,0,8,0,0,0
+Yale-NUS College,Yale-NUS College,YHU2241,Why be moral?,E1,16,24,16,0,8,0,0,0
+Yale-NUS College,Yale-NUS College,YHU2268,Money,E1,16,22,16,0,6,0,0,0
+Yale-NUS College,Yale-NUS College,YHU2279,Philosophy as a Way of Life,E1,16,5,5,2,0,0,0,0
+Yale-NUS College,Yale-NUS College,YHU2290,History and Culture of Southeast Asia,E1,16,7,6,2,0,0,1,0
+Yale-NUS College,Yale-NUS College,YHU2292,Introduction to Writing Poetry,E1,16,24,16,0,8,0,0,0
+Yale-NUS College,Yale-NUS College,YHU2319,Acting I,E1,16,7,7,2,0,0,0,0
+Yale-NUS College,Yale-NUS College,YHU2320,"Foundations of EnvironmentalHumanities",E1,16,6,6,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YHU2336,"Learning by (un)doing - ArtisticPractice in Grim Times",E1,10,4,4,1,0,0,0,0
+Yale-NUS College,Yale-NUS College,YHU2340,"Metaphilosophy and the Politics ofKnowing",E1,16,3,3,1,0,0,0,0
+Yale-NUS College,Yale-NUS College,YHU3205,Ming Imperial Voyages,E1,18,44,18,0,26,0,0,0
+Yale-NUS College,Yale-NUS College,YHU3265,Philosophy of Religion,E1,15,22,15,0,7,0,0,0
+Yale-NUS College,Yale-NUS College,YHU3274,Painting the Orient,E1,18,20,18,0,2,0,0,0
+Yale-NUS College,Yale-NUS College,YHU3339,Rome in Antiquity,E1,18,37,18,0,19,0,0,0
+Yale-NUS College,Yale-NUS College,YHU3345,"Death, Mourning and Memory inMedieval Literature",E1,16,12,12,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YHU3370,The Great War and Modern Memory,E1,18,31,18,0,13,0,0,0
+Yale-NUS College,Yale-NUS College,YHU3377,The Document in Image-Making,E1,13,10,10,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others,
+Yale-NUS College,Yale-NUS College,YHU3385,Early Colonial Singapore:  1819-1867,E1,18,47,18,0,29,0,0,0
+Yale-NUS College,Yale-NUS College,YHU3386,"Collaborative Practice and ArtistCollectives",E1,10,2,2,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YHU3388,Topics in Buddhist Philosophy,E1,16,9,9,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YHU4103,Philosophy Capstone Project,E8,1,1,1,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YHU4207,Critical Approaches to Art History,E1,10,2,2,1,0,0,0,0
+Yale-NUS College,Yale-NUS College,YHU4214,"Metafiction, Storytelling, and theLiterature of Fact",E1,10,6,6,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YHU4217,"Novel Evidence:19th-Century BritishFiction and the Law",E1,10,6,6,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YHU4231,"Ancient Economies of theMediterranean and Western Asia",E1,16,8,8,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YHU4243,"Art Studio Research, Experimentationand Critique",E1,10,4,4,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YHU4245,Perception,E1,13,4,4,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YHU4267,"The Site of Memory: Fact and Fictionin History Writing",E1,16,5,5,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YHU4272,"Aristotle on Happiness: TheNicomachean Ethics",E1,16,3,3,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YID1201,Introduction to Environmental Studies,E1,16,14,14,1,0,0,0,0
+Yale-NUS College,Yale-NUS College,YID2201,"Theory and Practice of EnvironmentalPolicymaking",E1,16,13,13,1,0,0,0,0
+Yale-NUS College,Yale-NUS College,YID2207,Social Theory and the Environment,E1,16,8,8,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YID2213,Urban Agriculture,E1,8,20,8,0,12,0,0,0
+Yale-NUS College,Yale-NUS College,YID2215,The Ecology of Food,E1,18,11,11,1,0,0,0,0
+Yale-NUS College,Yale-NUS College,YID3211,Ecological Economics,E1,16,24,16,0,8,0,0,0
+Yale-NUS College,Yale-NUS College,YID3227,Religion and the Environment,E1,15,2,2,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YID3228,Sustainability Law and Policy,E1,16,9,9,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YID3230,"Asia, Development, and Environment",E1,16,4,4,1,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others,
+Yale-NUS College,Yale-NUS College,YIR3301,Independent Reading and Research,E1,18,1,1,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YIR4301,Special Project in Science,E1,18,1,1,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YLC2202,Intermediate Chinese 2,E1,16,2,2,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YLC3204,Advanced Chinese 2,E1,16,3,3,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSC1212,Introduction to Computer Science,E1,18,4,4,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSC2205,"Mathematical Methods in PhysicalSciences",E1,16,3,3,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSC2209,Proof,E1,18,13,13,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSC2216,Evolutionary Biology,E1,16,4,4,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSC2221,Introduction to Python,E1,18,13,13,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSC2222,Organic Chemistry Laboratory,E1,14,1,1,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSC2224,Accelerated Organic Chemistry,E1,10,2,2,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSC2227,"C: A Language for Science andEngineering",E1,18,6,6,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSC2229,"Introductory Data Structures andAlgorithms",E1,16,19,16,0,3,0,0,0
+Yale-NUS College,Yale-NUS College,YSC2231,Foundations of Neuroscience,E1,24,8,8,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSC2232,Linear Algebra,E1,18,12,12,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSC2235,Field Research,E1,16,3,3,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSC2239,Introduction to Data Science,E1,18,14,14,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSC2243,Probability,E1,16,13,13,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSC2244,Programming for Data Science,E1,16,21,16,0,5,0,0,0
+Yale-NUS College,Yale-NUS College,YSC3206,Introduction to Real Analysis,E1,16,6,6,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSC3214,Biochemistry,E1,16,7,7,1,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSC3215,Research Seminar,E1,16,21,16,0,5,0,0,0
+Yale-NUS College,Yale-NUS College,YSC3236,Functional Programming and Proving,E1,16,17,16,0,1,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others,
+Yale-NUS College,Yale-NUS College,YSC3237,Introduction to Modern Algebra,E1,16,1,1,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSC3246,Modern Astrophysics,E1,16,3,3,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSC3251,Conservation Ecology,E1,16,8,8,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSC3260,Plant-Microbe Interactions,E1,16,3,3,1,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSC3265,Human Physiology,E1,16,20,16,0,4,0,0,0
+Yale-NUS College,Yale-NUS College,YSC4209,Physical Sciences Research Seminar,E1,1,1,1,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSC4209,Physical Sciences Research Seminar,E2,1,4,1,0,3,0,0,0
+Yale-NUS College,Yale-NUS College,YSC4209,Physical Sciences Research Seminar,E6,1,1,1,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSC4211F,"Adv Topics: Human PopulationGenomics",E1,10,5,5,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSC4231,"Parallel, Concurrent and DistributedProgramming",E1,14,8,8,1,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSC4233,Software Verification and Validation,E1,15,1,1,1,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSC4238,Generalized Linear Models,E1,15,4,4,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS1206,Introduction to Comparative Politics,E1,16,16,16,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS2203,Intermediate Microeconomics,E1,16,10,10,1,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS2211,Econometrics,E1,16,22,16,0,6,0,0,0
+Yale-NUS College,Yale-NUS College,YSS2212,"Firms' Strategies and MarketCompetition",E1,16,8,8,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS2214,Intermediate Macroeconomics,E1,18,14,14,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS2214,Intermediate Macroeconomics,E2,18,3,3,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS2218,International Political Economy,E1,16,13,13,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS2227,Introduction to Anthropology,E1,15,8,8,2,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS2231,"The Anthropology of Politics and Law:An Introduction",E1,16,15,15,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS2233,Investment Analysis and Economics,E1,28,42,28,0,14,0,0,0
+Yale-NUS College,Yale-NUS College,YSS2234,The Good Company,E1,16,19,16,0,3,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+Yale-NUS College,Yale-NUS College,YSS2245,Marriage and Kinship,E1,16,22,16,0,6,0,0,0
+Yale-NUS College,Yale-NUS College,YSS3202,Ethnography,E1,16,31,16,0,15,0,0,0
+Yale-NUS College,Yale-NUS College,YSS3204,Development Economics,E1,15,14,14,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS3214,Abnormal Psychology,E1,16,18,16,0,2,0,0,0
+Yale-NUS College,Yale-NUS College,YSS3215,Cognitive Psychology,E1,16,9,9,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS3217,Urbanization in China,E1,16,3,3,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS3219,Developmental Psychology,E1,16,20,16,0,4,0,0,0
+Yale-NUS College,Yale-NUS College,YSS3220,Political Economy,E1,16,4,4,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS3222,Urban Theory,E1,16,26,16,0,10,0,0,0
+Yale-NUS College,Yale-NUS College,YSS3231,Methods in the Social Sciences,E1,16,34,16,0,18,0,0,0
+Yale-NUS College,Yale-NUS College,YSS3235,Urban Spatial Representation,E1,16,9,9,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS3243,Public Economics,E1,16,3,3,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS3244,"Labour Economics: Work, HumanCapital, and Income Inequality",E1,16,11,11,2,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS3245,"Key Debates in Urban Planning andPolicy",E1,16,5,5,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS3246,Cities of the Global South,E1,16,6,6,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS3248,Advanced Macroeconomics,E1,16,2,2,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS3258,Early Stage Private Equity Investing,E1,16,9,9,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS3268,Anthropology of China,E1,16,9,9,5,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS3273,Geospatial & Demographic Methods,E1,16,19,16,0,3,0,0,0
+Yale-NUS College,Yale-NUS College,YSS3275,Social Life of Cities,E1,16,4,4,1,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS3279,Social Psychology Lab,E1,16,9,9,1,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS3282,Architecture and Society,E1,16,20,16,0,4,0,0,0
+Yale-NUS College,Yale-NUS College,YSS3291,Economics of Globalisation,E1,16,10,10,1,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS3310,Populism,E1,16,7,7,1,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+Yale-NUS College,Yale-NUS College,YSS3322,"Corruption and Anti-corruption:Theories and Policies",E1,16,6,6,1,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS3331,"Empirical Qualitative Analysis inGlobal Affairs",E1,16,11,8,1,0,0,0,3
+Yale-NUS College,Yale-NUS College,YSS3332,Continental Political Thought,E1,14,4,4,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS3334,Labour in Capitalist Societies,E1,15,6,6,1,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS3339,Theories of Freedom,E1,16,7,7,1,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS3343,Plato's Political Thought,E1,16,1,1,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS3351,Political Philosophy after World War II,E1,16,1,1,1,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS3353,"Anarchy, Order and Control",E1,16,8,8,3,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS3354,Anthropology of Militarization,E1,16,5,5,1,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS3355,Contemporary Egalitarianism,E1,16,11,11,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS3357,Tourism and Environment,E1,0,1,0,0,0,0,0,1
+Yale-NUS College,Yale-NUS College,YSS3358,"Environmental ScienceCommunication",E1,12,15,12,0,3,0,0,0
+Yale-NUS College,Yale-NUS College,YSS3359,Climate Policy and Politics,E1,16,8,8,1,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS4211,Global India,E1,16,3,3,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS4226,Migration Policy,E1,16,1,1,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS4235,Religion and the Media Turn,E1,16,3,3,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS4236,Medical Anthropology,E1,16,18,16,0,2,0,0,0
+Yale-NUS College,Yale-NUS College,YSS4241,Multispecies Ethnography,E1,16,7,7,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS4258,"Asset Pricing, Financial Markets &Behavioural Finance",E1,15,18,15,0,3,0,0,0
+Yale-NUS College,Yale-NUS College,YSS4268,Non-State Actors in Global Affairs,E1,13,11,11,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS4275,"Law, Governance and Developmentin Asia",E1,16,3,3,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS4276,"The Political Theory of HannahArendt",E1,15,2,2,0,0,0,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others,
+Yale-NUS College,Yale-NUS College,YSS4278,The Political Economy of Governance,E1,16,2,2,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS4280,Markets and Institutions,E1,10,2,2,0,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS4284,"Smart Cities: History of Urban Data inUrban Planning",E1,15,3,3,2,0,0,0,0
+Yale-NUS College,Yale-NUS College,YSS4287,Psychology of Addictive Behaviour,E1,13,18,13,0,5,0,0,0
+Yale-NUS College,Yale-NUS College,YSS4288,History and Systems of Psychology,E1,14,4,4,2,0,0,0,0
+"Yong Loo Lin Schof Medicine","Alice Lee Ctr forNursing Stud",NUR1113A,Healthy Ageing and Well-being,L1,250,2,2,0,0,0,0,0
+"Yong Loo Lin Schof Medicine",Anatomy,LSM2212,Human Anatomy,L1,169,77,77,1,0,0,0,0
+"Yong Loo Lin Schof Medicine",Biochemistry,LSM2106,Fundamental Biochemistry,L1,240,133,133,1,0,0,0,0
+"Yong Loo Lin Schof Medicine",Biochemistry,LSM2233,Cell Biology,L1,238,146,145,0,0,1,0,0
+"Yong Loo Lin Schof Medicine",Biochemistry,LSM3210,Metabolism and Regulation,L1,236,49,49,0,0,0,0,0
+"Yong Loo Lin Schof Medicine",Biochemistry,LSM3231,Protein Structure and Function,L1,35,5,5,0,0,0,0,0
+"Yong Loo Lin Schof Medicine",Biochemistry,LSM3246,Synthetic Biology,L1,86,2,2,0,0,0,0,0
+"Yong Loo Lin Schof Medicine",Biochemistry,LSM4216,"Molecular Nutrition and MetabolicBiology",L1,39,27,27,0,0,0,0,0
+"Yong Loo Lin Schof Medicine","Microbiology andImmunology",LSM2291,"Fundamental Techniques inMicrobiology",L1,60,18,18,1,0,0,0,0
+"Yong Loo Lin Schof Medicine","Microbiology andImmunology",LSM3223,Immunology,L1,90,64,62,1,0,2,0,0
+"Yong Loo Lin Schof Medicine","Microbiology andImmunology",LSM3228,Microbiomes and Biofilms,L1,48,36,36,2,0,0,0,0
+"Yong Loo Lin Schof Medicine","Microbiology andImmunology",LSM3232,Microbiology,L1,70,51,51,0,0,0,0,0
+"Yong Loo Lin Schof Medicine","Microbiology andImmunology",LSM3245,RNA Biology and Technology,L1,50,12,11,0,0,1,0,0
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others,
+"Yong Loo Lin Schof Medicine","Microbiology andImmunology",LSM4222,Advanced Immunology,L1,45,24,24,0,0,0,0,0
+"Yong Loo Lin Schof Medicine","Microbiology andImmunology",LSM4223,Advances in Antimicrobial Strategies,L1,35,23,23,0,0,0,0,0
+"Yong Loo Lin Schof Medicine","Microbiology andImmunology",LSM4226,Infection and Immunity,L1,80,32,32,0,0,0,0,0
+"Yong Loo Lin Schof Medicine",Pharmacology,LSM3211,Fundamental Pharmacology,L1,126,75,75,0,0,0,0,0
+"Yong Loo Lin Schof Medicine",Pharmacology,LSM4214,Cancer Pharmacology,L1,54,17,17,0,0,0,0,0
+"Yong Loo Lin Schof Medicine",Pharmacology,LSM4221,Drug Discovery and Clinical Trials,L1,93,20,20,0,0,0,0,0
+"Yong Loo Lin Schof Medicine",Physiology,LSM3212,"Human Physiology: CardiopulmonarySystem",L1,115,71,71,0,0,0,0,0
+"Yong Loo Lin Schof Medicine",Physiology,LSM3215,"Neuronal Signaling and MemoryMechanisms",L1,68,40,39,0,0,1,0,0
+"Yong Loo Lin Schof Medicine",Physiology,LSM3217,Human Ageing,L1,98,37,37,0,0,0,0,0
+"Yong Loo Lin Schof Medicine",Physiology,LSM3235,"Biomedical Applications of HumanEpigenetics",L1,49,14,14,0,0,0,0,0
+"Yong Loo Lin Schof Medicine",Physiology,LSM4213,Systems Neurobiology,L1,58,14,14,0,0,0,0,0
+"Yong Loo Lin Schof Medicine",Physiology,LSM4232,Advanced Cell Biology,L1,51,23,23,0,0,0,0,0
+"Yong Loo Lin Schof Medicine",Physiology,LSM4243,Tumour Biology,L1,49,69,49,0,20,0,0,0
+"Yong Loo Lin Schof Medicine",Physiology,MIH1101,What Impacts Health?,L1,50,6,6,0,0,0,0,0

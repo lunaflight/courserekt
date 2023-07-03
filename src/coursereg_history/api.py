@@ -42,18 +42,22 @@ def get_data(year: Union[str, int],
              'others': -1}
 
     # for each round, execute the SQL query
-    for i in range(ROUNDS):
-        TABLE_NAME = f"data_cleaned_{year}_{semester}_{ug_gd}_round_{i}"
+    for round_number in range(ROUNDS):
+        TABLE_NAME = (
+                f"data_cleaned_{year}_{semester}_{ug_gd}_round_{round_number}")
 
         # check if table exists first
         cursor = conn.execute(
                 "SELECT name FROM sqlite_master WHERE type='table' AND name=?",
                 (TABLE_NAME,))
         if cursor.fetchone() is None:
-            raise ValueError(
-                f"History for the given year {year} semester {semester} "
-                f"({ug_gd}) not found."
-                )
+            if round_number == 0:
+                raise ValueError(
+                        f"History for the given year {year} "
+                        f"semester {semester} ({ug_gd}) not found."
+                        )
+            else:
+                continue
 
         cursor = conn.execute(f"SELECT * FROM {TABLE_NAME} WHERE Code=?",
                               (code,))
@@ -79,10 +83,10 @@ def get_data(year: Union[str, int],
             if CLASSNAME in class_dict:
                 class_dict[CLASSNAME].extend(
                         [BLANK for _
-                         in range(i - len(class_dict[CLASSNAME]))])
+                         in range(round_number - len(class_dict[CLASSNAME]))])
                 class_dict[CLASSNAME].append(result)
             else:
-                class_dict[CLASSNAME] = [BLANK] * i
+                class_dict[CLASSNAME] = [BLANK] * round_number
                 class_dict[CLASSNAME].append(result)
 
     # Pad classes that don't have all the round information
