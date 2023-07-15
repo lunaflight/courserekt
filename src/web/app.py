@@ -17,17 +17,8 @@ def history():
         year = request.form.get('year')
         semester = request.form.get('semester')
         type = request.form.get('type')
-        course_codes = request.form.get('course_codes').split()
 
-        output = []
-        errors = []
-        for course_code in course_codes:
-            try:
-                output.append(get_data(year, semester, type, course_code))
-            except ValueError as e:
-                errors.append(e)
-
-        return render_template('history.html', output=output, errors=errors)
+        return render_template('history.html', output=get_all_data(year, semester, type))
     else:
         return render_template('history.html', output=get_all_data('2324', 1, 'ug'))
 

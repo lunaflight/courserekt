@@ -109,6 +109,10 @@ input[type=submit]:hover {
     background-color: lightgrey;
 }
 
+.hidden {
+  display: none;
+}
+
 .form-url-container {
     flex: 1;
     display: flex;

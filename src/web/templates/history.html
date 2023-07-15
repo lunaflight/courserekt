@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Course Data</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="container">
       <div class="form-container">
-        <form method="POST">
+        <form id="course-form" method="POST">
           <label for="year"><b>Academic Year:</b></label><br>
           <select id="year" name="year">
             <option value="21/22" {% if request.form.year == "21/22" %}selected{% endif %}>21/22</option>
@@ -50,7 +51,7 @@
             </label>
           </div>
           <label for="course_codes"><b>Course Codes:</b></label><br>
-          <input type="text" id="course_codes" name="course_codes" autocomplete="off" value="{{ request.form.course_codes }}"><br>
+          <input type="text" id="search-input" name="search-input" oninput="filterCourses()" placeholder="Search by Course Code" value="{{ request.form.get('search-input', '') }}">
           <input type="submit" value="Search!">
         </form> 
         {% if errors %}
