@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from src.coursereg_history.api import get_data, get_all_data
+from src.coursereg_history.api import get_all_data
 from src.planner.cli import parse_and_generate_url
 from argparse import ArgumentParser
 
@@ -13,21 +13,23 @@ def home():
 
 @app.route('/history', methods=['GET', 'POST'])
 def history():
+    year = '2324'
+    semester = '1'
+    type = 'ug'
+
     if request.method == 'POST':
         year = request.form.get('year')
         semester = request.form.get('semester')
         type = request.form.get('type')
 
-        output = []
-        error = None
-        try:
-            output = get_all_data(year, semester, type)
-        except ValueError as e:
-            error = e
+    output = []
+    error = None
+    try:
+        output = get_all_data(year, semester, type)
+    except ValueError as e:
+        error = e
 
-        return render_template('history.html', output=output, error=error)
-    else:
-        return render_template('history.html', output=get_all_data('2324', 1, 'ug'))
+    return render_template('history.html', output=output, error=error)
 
 
 @app.route('/scheduler', methods=['GET', 'POST'])

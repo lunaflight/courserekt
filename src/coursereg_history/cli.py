@@ -2,13 +2,12 @@ import argparse
 from colorama import Fore, Style
 import math
 import os
-from typing import Dict, Union
-from src.coursereg_history.api import get_data
+from typing import cast, Dict, Union
+from src.coursereg_history.api import ClassDict, get_data
 
 ROUNDS = 4
 INF = 2147483647
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-
 
 
 def colour_na(colour: bool) -> str:
@@ -87,10 +86,10 @@ def print_data(year: Union[str, int],
 
     DATA = get_data(year, semester, ug_gd, code)
 
-    CLASSES = DATA['classes']
+    CLASSES: ClassDict = cast(ClassDict, DATA['classes'])
 
-    if (len(CLASSES) > 0):
-        print(colour_course(DATA['code'], colour))
+    if CLASSES:
+        print(colour_course(str(DATA['code']), colour))
     else:
         print(colour_course(f"{code} NOT FOUND", colour))
 

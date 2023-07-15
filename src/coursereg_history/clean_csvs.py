@@ -10,6 +10,24 @@ COURSE_REGEX = r'[A-Z]{2,5}\d{4}[A-Z]?'
 
 
 def clean_csv(input_file_path: str, output_file_path: str) -> None:
+    """
+    Clean and structure a CSV file containing raw data.
+
+    Generally, each row contains all of its information easily.
+    However, there are a few edge cases:
+        1) Courses on the first page of the PDF appear to have its information
+        spread across 3 rows.
+        2) Courses with a long name that gets cut off to the next page
+        appear to have its information on its current row and 4 rows
+        down the page.
+
+    Args:
+        input_file_path (str): The path to the input CSV file.
+        output_file_path (str): The path to save the cleaned CSV file.
+
+    Returns:
+        None
+    """
     # Define the column headers for our pandas DataFrame
     cols = ["Faculty", "Department", "Code", "Title", "Class",
             "Vacancy", "Demand",
