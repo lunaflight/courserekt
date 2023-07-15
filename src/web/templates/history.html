@@ -88,7 +88,7 @@
                 {% if data.demand == -1 and data.vacancy == -1 %}
                 N/A
                 {% else %}
-                {{ data.demand }} / {{ data.vacancy }}
+                {{ data.demand }} / {% if data.vacancy == 2147483647 %}∞{% else %}{{ data.vacancy }}{% endif %}
                 {% endif %}
               </td>
               {% endfor %}
