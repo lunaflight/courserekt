@@ -25,4 +25,5 @@ document.addEventListener('DOMContentLoaded', function() {
 
   let courseForm = document.getElementById('course-form');
   courseForm.addEventListener('change', () => courseForm.submit());
+  courseForm.addEventListener('submit', event => event.preventDefault());
 });

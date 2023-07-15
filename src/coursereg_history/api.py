@@ -153,6 +153,9 @@ def get_set_of_all_codes(year: Union[str, int],
     if conn is not None and conn.close is None:
         conn.close()
 
+    if not codes:
+        raise ValueError("Data not found.")
+
     return codes
 
 

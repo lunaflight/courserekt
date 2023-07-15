@@ -18,7 +18,14 @@ def history():
         semester = request.form.get('semester')
         type = request.form.get('type')
 
-        return render_template('history.html', output=get_all_data(year, semester, type))
+        output = []
+        error = None
+        try:
+            output = get_all_data(year, semester, type)
+        except ValueError as e:
+            error = e
+
+        return render_template('history.html', output=output, error=error)
     else:
         return render_template('history.html', output=get_all_data('2324', 1, 'ug'))
 

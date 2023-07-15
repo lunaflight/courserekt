@@ -51,15 +51,13 @@
             </label>
           </div>
           <label for="course_codes"><b>Course Codes:</b></label><br>
-          <input type="text" id="search-input" name="search-input" oninput="filterCourses()" placeholder="Search by Course Code" value="{{ request.form.get('search-input', '') }}">
+          <input type="text" id="search-input" name="search-input" oninput="filterCourses()" placeholder="Search by Course Code" value="{{ request.form.get('search-input', '') }}" autocomplete="off">
         </form> 
-        {% if errors %}
+        {% if error %}
         <div style="color: #f44336; font-size: 0.8em;">
           <strong>Error:</strong>
           <ul>
-            {% for error in errors %}
             <li>{{ error }}</li>
-            {% endfor %}
           </ul>
         </div>
         {% endif %}
