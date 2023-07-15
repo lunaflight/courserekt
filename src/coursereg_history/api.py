@@ -32,14 +32,16 @@ def clean_code(code):
 def get_data(year: Union[str, int],
              semester: Union[str, int],
              ug_gd: str,
-             code: str) -> Dict[str, Optional[Union[str, ClassDict]]]:
+             code: str,
+             conn: Optional[sqlite3.Connection] = None) -> Dict[str, Optional[Union[str, ClassDict]]]:
     year = clean_year(year)
     semester = clean_semester(semester)
     ug_gd = clean_ug_gd(ug_gd)
     code = clean_code(code)
 
-    # establish the database connection
-    conn = sqlite3.connect(os.path.join(BASE_DIR, 'database.db'))
+    # Establish the database connection if not provided
+    if conn is None:
+        conn = sqlite3.connect(os.path.join(BASE_DIR, 'database.db'))
     conn.row_factory = sqlite3.Row
 
     class_dict: ClassDict = {}
@@ -107,22 +109,26 @@ def get_data(year: Union[str, int],
     if len(class_dict) == 0:
         raise ValueError(f"Course {code} not found.")
 
-    # close the database connection
-    conn.close()
+    # close the database connection if it was created here
+    if conn is not None and conn.close is None:
+        conn.close()
+
     return output
 
 
 def get_set_of_all_codes(year: Union[str, int],
                          semester: Union[str, int],
-                         ug_gd: str):
+                         ug_gd: str,
+                         conn: Optional[sqlite3.Connection] = None):
     year = clean_year(year)
     semester = clean_semester(semester)
     ug_gd = clean_ug_gd(ug_gd)
 
     codes: Set[str] = set()
 
-    # establish the database connection
-    conn = sqlite3.connect(os.path.join(BASE_DIR, 'database.db'))
+    # Establish the database connection if not provided
+    if conn is None:
+        conn = sqlite3.connect(os.path.join(BASE_DIR, 'database.db'))
     conn.row_factory = sqlite3.Row
 
     # for each round, execute the SQL query
@@ -143,17 +149,25 @@ def get_set_of_all_codes(year: Union[str, int],
         for row in ROWS:
             codes.add(row['Code'])
 
+    # close the database connection if it was created here
+    if conn is not None and conn.close is None:
+        conn.close()
+
     return codes
 
 
 def get_all_data(year: Union[str, int],
                  semester: Union[str, int],
                  ug_gd: str):
-    codes = get_set_of_all_codes(year, semester, ug_gd)
+    conn = sqlite3.connect(os.path.join(BASE_DIR, 'database.db'))
+
+    codes = get_set_of_all_codes(year, semester, ug_gd, conn)
     codes = sorted(codes)
 
     output = []
     for code in codes:
-        output.append(get_data(year, semester, ug_gd, code))
+        output.append(get_data(year, semester, ug_gd, code, conn))
+
+    conn.close()
 
     return output
