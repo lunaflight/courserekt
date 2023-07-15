@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from src.coursereg_history.api import get_data
+from src.coursereg_history.api import get_data, get_all_data
 from src.planner.cli import parse_and_generate_url
 from argparse import ArgumentParser
 
@@ -29,7 +29,7 @@ def history():
 
         return render_template('history.html', output=output, errors=errors)
     else:
-        return render_template('history.html')
+        return render_template('history.html', output=get_all_data('2324', 1, 'ug'))
 
 
 @app.route('/scheduler', methods=['GET', 'POST'])

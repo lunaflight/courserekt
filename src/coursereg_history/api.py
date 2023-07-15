@@ -1,6 +1,6 @@
 import os
 import sqlite3
-from typing import Dict, List, Optional, Union
+from typing import Dict, List, Optional, Set, Union
 
 ROUNDS = 4
 INF = 2147483647
@@ -9,17 +9,34 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 ClassDict = Dict[str, List[Dict[str, int]]]
 
 
-def get_data(year: Union[str, int],
-             semester: Union[str, int],
-             ug_gd: str,
-             code: str) -> Dict[str, Optional[Union[str, ClassDict]]]:
+def clean_year(year):
     year = str(year).strip().replace("/", "").replace(" ", "").replace("-", "")
     # Turns 20222023 to 2223
     if len(year) == 8:
         year = year[2] + year[3] + year[6] + year[7]
-    semester = str(semester).strip()
-    ug_gd = ug_gd.strip().lower()
-    code = code.strip().upper()
+    return year
+
+
+def clean_semester(semester):
+    return str(semester).strip()
+
+
+def clean_ug_gd(ug_gd):
+    return ug_gd.strip().lower()
+
+
+def clean_code(code):
+    return code.strip().upper()
+
+
+def get_data(year: Union[str, int],
+             semester: Union[str, int],
+             ug_gd: str,
+             code: str) -> Dict[str, Optional[Union[str, ClassDict]]]:
+    year = clean_year(year)
+    semester = clean_semester(semester)
+    ug_gd = clean_ug_gd(ug_gd)
+    code = clean_code(code)
 
     # establish the database connection
     conn = sqlite3.connect(os.path.join(BASE_DIR, 'database.db'))
@@ -92,4 +109,51 @@ def get_data(year: Union[str, int],
 
     # close the database connection
     conn.close()
+    return output
+
+
+def get_set_of_all_codes(year: Union[str, int],
+                         semester: Union[str, int],
+                         ug_gd: str):
+    year = clean_year(year)
+    semester = clean_semester(semester)
+    ug_gd = clean_ug_gd(ug_gd)
+
+    codes: Set[str] = set()
+
+    # establish the database connection
+    conn = sqlite3.connect(os.path.join(BASE_DIR, 'database.db'))
+    conn.row_factory = sqlite3.Row
+
+    # for each round, execute the SQL query
+    for round_number in range(ROUNDS):
+        TABLE_NAME = (
+                f"data_cleaned_{year}_{semester}_{ug_gd}_round_{round_number}")
+
+        # check if table exists first
+        cursor = conn.execute(
+                "SELECT name FROM sqlite_master WHERE type='table' AND name=?",
+                (TABLE_NAME,))
+        if cursor.fetchone() is None:
+            continue
+
+        cursor = conn.execute(f"SELECT Code FROM {TABLE_NAME}")
+
+        ROWS = cursor.fetchall()
+        for row in ROWS:
+            codes.add(row['Code'])
+
+    return codes
+
+
+def get_all_data(year: Union[str, int],
+                 semester: Union[str, int],
+                 ug_gd: str):
+    codes = get_set_of_all_codes(year, semester, ug_gd)
+    codes = sorted(codes)
+
+    output = []
+    for code in codes:
+        output.append(get_data(year, semester, ug_gd, code))
+
     return output
