@@ -241,6 +241,22 @@ When new data is released, the program can be updated easily. You can follow the
 5. Navigate to `src/coursereg_history`. Run `make all`.
 6. You're done! The data should have been added successfully and ready to use.
 
+### Deployment to Vercel
+
+To deploy your application to Vercel, follow these steps:
+
+1. Ensure npm is installed. This is required to manage dependencies and execute commands.
+    - **Windows/Mac:** Download the Node.js installer from the [Node.js website](https://nodejs.org/en/download/).
+        - **Linux (apt)** `sudo apt install nodejs npm`
+        - **Linux (dnf)** `sudo dnf install nodejs npm`
+        - **Linux (pacman)** `sudo pacman -S nodejs npm`
+2. Install the Vercel CLI globally: `npm install -g vercel`.
+3. Log in to Vercel by running the following command: `vercel login`.
+4. Navigate to the project root in the terminal.
+5. Deploy your application to Vercel: `vercel --prod`.
+
+This will initiate the deployment process, and Vercel will guide you through the necessary steps to deploy your application.
+
 ## Contributing
 
 Feel free to fork the project, make some changes, and submit a pull request. If you find any bugs or have any suggestions, please open an issue. All contributions are welcomed!
