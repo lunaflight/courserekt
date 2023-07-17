@@ -4,6 +4,3 @@ __pycache__
 
 README.md
 tests
-src/coursereg_history/*
-!src/coursereg_history/api.py
-!src/coursereg_history/database.db

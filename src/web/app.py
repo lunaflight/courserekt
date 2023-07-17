@@ -1,7 +1,8 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, send_from_directory
 from src.coursereg_history.api import get_all_data
 from src.planner.cli import parse_and_generate_url
 from argparse import ArgumentParser
+import os
 
 app = Flask(__name__)
 
@@ -30,6 +31,14 @@ def history():
         error = e
 
     return render_template('history.html', output=output, error=error)
+
+
+@app.route('/pdfs/<path:filename>')
+def serve_pdf(filename):
+    pdf_directory = os.path.abspath(
+            os.path.join(os.path.dirname(__file__),
+                         '../coursereg_history/data/pdfs'))
+    return send_from_directory(pdf_directory, filename)
 
 
 @app.route('/scheduler', methods=['GET', 'POST'])
