@@ -1,3 +1,13 @@
+let loadingSpinner = document.getElementById('loading-spinner'); // Get the loading spinner element
+
+function showLoadingSpinner() {
+  loadingSpinner.classList.remove('hidden');
+}
+
+function hideLoadingSpinner() {
+  loadingSpinner.classList.add('hidden');
+}
+
 function filterCourses() {
   let searchInput = document.getElementById('search-input');
   let filter = searchInput.value.toUpperCase();
@@ -24,6 +34,9 @@ document.addEventListener('DOMContentLoaded', function() {
   filterCourses();
 
   let courseForm = document.getElementById('course-form');
-  courseForm.addEventListener('change', () => courseForm.submit());
+  courseForm.addEventListener('change', () => {
+    courseForm.submit();
+    showLoadingSpinner();
+  });
   courseForm.addEventListener('submit', event => event.preventDefault());
 });

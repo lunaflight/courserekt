@@ -52,6 +52,9 @@
           </div>
           <label for="course_codes"><b>Course Codes:</b></label><br>
           <input type="text" id="search-input" name="search-input" oninput="filterCourses()" placeholder="Search by Course Code" value="{{ request.form.get('search-input', '') }}" autocomplete="off">
+          <div id="loading-spinner" class="hidden">
+            <div class="spinner"></div>
+          </div>
         </form> 
         {% if error %}
         <div style="color: #f44336; font-size: 0.8em;">
@@ -67,7 +70,7 @@
         <table>
           <thead>
             <tr>
-              <th>Course Code</th>
+              <th class="code">Course Code</th>
               <th>Class</th>
               <th>Round 0</th>
               <th>Round 1</th>
