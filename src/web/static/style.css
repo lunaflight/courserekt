@@ -6,9 +6,10 @@ body {
     background-color: #F0F0F0;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
+    overflow: scroll;
 }
 
-.container {
+.my-container {
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -39,7 +40,7 @@ body {
 
 .table-container {
     flex: 3;
-    height: 80vh;
+    height: 75vh;
     overflow-y: auto;
     overflow-x: hidden;
     width: max-content;
@@ -97,6 +98,12 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: #45a049;
+}
+
+.btn-secondary.active {
+  background-color: #007bff !important;
+  color: #ffffff !important;
+  border-color: #007bff !important;
 }
 
 .less-demand {
