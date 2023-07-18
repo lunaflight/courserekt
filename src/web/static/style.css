@@ -71,12 +71,19 @@ th {
     width: 100px;
 }
 
-.code {
-    width: 150px;
+.table-code {
+    width: 85px;
+}
+
+.table-class {
+    width: 45px;
+}
+
+.table-round {
+    width: 65px;
 }
 
 input[type=text], select {
-    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
