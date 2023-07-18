@@ -1,4 +1,7 @@
-# NUS Tools
+# :rocket: Check out the web app!
+## [Coursereg Scraper](https://coursereg-scraper.vercel.app/history) :computer:
+
+Click the link above to explore the interactive web app!
 
 ## Purpose
 
