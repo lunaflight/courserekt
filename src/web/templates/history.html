@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <script src="{{ url_for('static', filename='script.js') }}" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- Bootstrap JS -->
@@ -59,7 +60,11 @@
           </div>
           <!-- Search Bar -->
           <label for="course_codes"><b>Course Codes:</b></label><br>
-          <input type="text" id="search-input" name="search-input" oninput="filterCourses()" placeholder="Search by Course Code" value="{{ request.form.get('search-input', '') }}" autocomplete="off">
+          <div class="search-bar-container">
+            <input type="text" id="search-input" name="search-input" oninput="filterCourses()" placeholder="Search course codes..." value="{{ request.form.get('search-input', '') }}" autocomplete="off">
+            <span class="help-icon" data-toggle="tooltip" data-placement="top" title="Add a space to get additional search matches (e.g. 'CS2 EL GESS')"><i class="fa fa-question-circle"></i></span>
+          </div>
+
         </form> 
         <!-- Toggle Visibility -->
         <label for="toggle-column-checkbox" class="btn btn-secondary">

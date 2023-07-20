@@ -107,6 +107,19 @@ input[type=submit]:hover {
     background-color: #45a049;
 }
 
+.search-bar-container {
+  position: relative;
+  display: inline-block;
+}
+
+.help-icon {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
 .btn-secondary.active {
   background-color: #007bff !important;
   color: #ffffff !important;
