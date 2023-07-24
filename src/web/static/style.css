@@ -7,6 +7,17 @@ body {
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
     overflow: scroll;
+    padding-bottom: 30px;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  color: #888;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
 }
 
 .my-container {
