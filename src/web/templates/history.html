@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Course Data</title>
+    <title>CourseRekt</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     <script src="{{ url_for('static', filename='script.js') }}" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -90,10 +90,13 @@
               <th>Name</th>
               <th class="table-class">Class</th>
               {% for round_num in range(4) %}
-              {% set filename = request.form.get('year', '2324') ~ '/' ~ request.form.get('semester', '1') ~ '/' ~ request.form.get('type', 'ug') ~ '/round_' ~ round_num ~ '.pdf' %}
-              {% set url = url_for('serve_pdf', filename=filename) %}
+                {% set year = request.form.get('year', '2324') %}
+                {% set semester = request.form.get('semester', '1') %}
+                {% set type = request.form.get('type', 'ug') %}
+                {% set filename = get_filename(year, semester, type, round_num) %}
               <th class='table-round'>
-                {% if round_exists[round_num] %}
+                {% if pdf_exists(filename) %}
+                {% set url = url_for('serve_pdf', filename=filename) %}
                 <a href="{{ url }}" target="_blank">Round {{ round_num }}</a>
                 {% else %}
                 Round {{ round_num }}
