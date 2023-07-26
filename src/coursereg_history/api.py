@@ -1,3 +1,4 @@
+import functools
 import os
 import sqlite3
 from typing import Dict, List, Optional, Set, Union
@@ -259,6 +260,7 @@ def get_set_of_all_codes(year: Union[str, int],
     return codes
 
 
+@functools.lru_cache
 def get_all_data(year: Union[str, int],
                  semester: Union[str, int],
                  ug_gd: str) -> List[CourseData]:
