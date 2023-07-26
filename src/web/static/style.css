@@ -42,16 +42,18 @@ footer {
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     margin-right: 10px;
     position: sticky;
     top: 10%;
+    overflow: auto;
+    height: 100%;
+    padding: 3px;
 }
 
 .table-container {
     flex: 3;
-    height: 75vh;
+    height: 100%;
     overflow-y: auto;
     overflow-x: hidden;
     width: max-content;
