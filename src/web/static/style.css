@@ -15,7 +15,7 @@ footer {
   font-size: 12px;
   color: #888;
   position: absolute;
-  bottom: 10px;
+  bottom: 20px;
   left: 0;
   right: 0;
 }
@@ -29,7 +29,7 @@ footer {
     background-color: white;
     max-width: 1200px;
     margin: auto;
-    height: 80%;
+    height: 85%;
     align-items: flex-start;
 }
 
@@ -76,7 +76,7 @@ th, td {
 }
 
 th {
-    background-color: #f2f2f2;
+    background-color: #eaeaea;
     font-weight: bold;
     position: sticky;
     top: 0;
