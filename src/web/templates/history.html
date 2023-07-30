@@ -20,6 +20,8 @@
     <div class="my-container">
       <!-- Sidebar -->
       <div class="form-container">
+        <h1 style="margin-right: 20px; font-size: 26px; font-weight: bold; font-family: 'Roboto', sans-serif;">🚀 CourseRekt 😵</h1>
+        <p style = "font-size: 1rem;">View current and past data for the registration of NUS courses easily!</p>
         <!-- Form -->
         <form id="course-form" method="POST">
           <!-- Add academic years here -->
@@ -70,12 +72,12 @@
 
         </form> 
         <!-- Toggle Visibility -->
-        <label for="toggle-column-checkbox" class="btn btn-secondary">
-          <input type="checkbox" id="toggle-column-checkbox" autocomplete="off" checked> 
-          Show Course Names
+        <label for="toggle-column-checkbox" class="btn btn-secondary" style="margin-right: auto; width: auto;">
+          <input type="checkbox" id="toggle-column-checkbox" style="transform: scale(1.2);" autocomplete="off" checked> 
+          &nbsp;Show Course Names
         </label>
         {% if error %}
-        <div class="alert alert-danger">
+        <div class="alert alert-danger" style="margin-right: auto; width: auto;">
           <strong>Error:</strong> {{ error }}
         </div>
         {% endif %}
@@ -97,7 +99,7 @@
                 {% set semester = request.form.get('semester', '1') %}
                 {% set type = request.form.get('type', 'ug') %}
                 {% set filename = get_filename(year, semester, type, round_num) %}
-              <th class='table-round'>
+              <th class='table-round' style="background-color: #FFC965; text-align: center;">
                 {% if pdf_exists(filename) %}
                 {% set url = url_for('serve_pdf', filename=filename) %}
                 <a href="{{ url }}" target="_blank">Round {{ round_num }}</a>
