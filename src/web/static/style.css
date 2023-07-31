@@ -193,16 +193,16 @@ input[type=submit]:hover {
   background-color: #4CAF50;
   padding: 20px;
   margin-top: 20px;
-  border-radius: 10px; /* Adds rounded corners */
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Centers content vertically */
-  align-items: center; /* Centers content horizontally */
+  justify-content: center;
+  align-items: center;
 }
 
 .url-link {
-  color: #fff; /* Makes the URL text white */
-  text-decoration: none; /* Removes the underline */
-  font-size: 1.2em; /* Increases font size */
-  word-break: break-all; /* Prevents long URLs from overflowing */
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+  word-break: break-all;
 }
