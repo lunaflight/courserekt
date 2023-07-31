@@ -50,6 +50,7 @@ Read the corresponding `README.md` files in the respective subdirectories for mo
 
 ### Installation
 
+
 1. Clone the repository with `git clone https://github.com/et-irl/courserekt.git`.
 2. Make sure Python and pip are installed on your system. If not, follow the instructions below:
     - **Python and pip:**
@@ -57,10 +58,18 @@ Read the corresponding `README.md` files in the respective subdirectories for mo
         - **Linux (apt):** `sudo apt-get install python3 python3-pip`
         - **Linux (dnf):** `sudo dnf install python3 python3-pip`
         - **Linux (pacman):** `sudo pacman -S python python-pip`
-3. Navigate to the **project root** and install the Python dependencies with pip:
+3. Navigate to the **project root** and set up a virtual environment with `python -m venv venv`.
+    - A virtual environment ensures that everyone is working with the same set of dependencies.
+4. Activate the virual environment:
+    - Activating:
+        - **Windows:** `venv\Scripts\activate`
+        - **Mac/Linux:** source `venv/bin/activate`
+    - You should see the `(venv)` prefix in your command prompt.
+5. Install the Python dependencies with pip:
     ```shell
     pip install -r requirements.txt
     ```
+6. When you are done, you can deactivate the virtual environment with `deactivate`.
 
 ### Web App
 
