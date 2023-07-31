@@ -107,9 +107,9 @@ Exceeded",Others
 
 ## Usage
 
-### `api.py`
+## `api.py`
 
-#### get_all_data
+### get_all_data
 
 ```python3
 def get_all_data(
@@ -137,7 +137,7 @@ Each element will be in the form of the output from get_data().
 |---|---|
 | List[CourseData] | A list of course data. |
 
-#### get_data
+### get_data
 
 ```python3
 def get_data(
@@ -176,18 +176,61 @@ They have the following format:
     'others': int,
 ```
 
+### get_pdf_filepath
+
+```python3
+def get_pdf_filepath(
+    year: Union[str, int],
+    semester: Union[str, int],
+    type: str,
+    round_num: Union[str, int]
+) -> str
+```
+
+Generate the absolute file path for a specific PDF file.
+
 **Parameters:**
 
 | Name | Type | Description | Default |
 |---|---|---|---|
-| year | Union[str, int] | The academic year. | None |
-| semester | Union[str, int] | The semester. | None |
-| ug_gd | str | The undergraduate/graduate indicator. | None |
-| code | str | The course code. | None |
-| conn | Optional[sqlite3.Connection] | Optional database connection object. | None |
+| year | Union[str, int] | The year of the PDF file. | None |
+| semester | Union[str, int] | The semester of the PDF file. | None |
+| type | str | The type of the PDF file. | None |
+| round_num | Union[str, int] | The round number of the PDF file. | None |
 
 **Returns:**
 
 | Type | Description |
 |---|---|
-| CourseData | The course data. |
+| str | The absolute file path of the PDF file. |
+
+### pdf_exists
+
+
+### pdf_exists
+
+```python3
+def pdf_exists(
+    year: Union[str, int],
+    semester: Union[str, int],
+    type: str,
+    round_num: Union[str, int]
+) -> bool
+```
+
+Check if a specific PDF file exists.
+
+**Parameters:**
+
+| Name | Type | Description | Default |
+|---|---|---|---|
+| year | Union[str, int] | The year of the PDF file. | None |
+| semester | Union[str, int] | The semester of the PDF file. | None |
+| type | str | The type of the PDF file. | None |
+| round_num | Union[str, int] | The round number of the PDF file. | None |
+
+**Returns:**
+
+| Type | Description |
+|---|---|
+| bool | True if and only if the PDF file exists. |

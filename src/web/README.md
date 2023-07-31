@@ -23,7 +23,6 @@ The Flask application does the following to generate the HTML:
 ### PDF Link Generation
 
 1. The template checks if the directory for a specified YEAR, SEMESTER, UG/GD exists.
-    - TODO: This should probably be handled by `api.py` with `check_exists()`.
 2. If it exists, it generates a link in the table header using the HTML template with Jinja2.
 
 ### Querying for new history data

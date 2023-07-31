@@ -100,10 +100,9 @@
                 {% set year = request.form.get('year', '2324') %}
                 {% set semester = request.form.get('semester', '1') %}
                 {% set type = request.form.get('type', 'ug') %}
-                {% set filename = get_filename(year, semester, type, round_num) %}
               <th class='table-round' style="background-color: #FFC965; text-align: center;">
-                {% if pdf_exists(filename) %}
-                {% set url = url_for('serve_pdf', filename=filename) %}
+                {% if pdf_exists(year, semester, type, round_num) %}
+                {% set url = url_for('serve_pdf', year=year, semester=semester, type=type, round_num=round_num) %}
                 <a href="{{ url }}" target="_blank">Round {{ round_num }}</a>
                 {% else %}
                 Round {{ round_num }}
@@ -129,7 +128,7 @@
                 {% if data.demand == -1 and data.vacancy == -1 %}
                 N/A
                 {% else %}
-                {{ data.demand }} / {% if data.vacancy == 2147483647 %}∞{% else %}{{ data.vacancy }}{% endif %}
+                {{ data.demand }} / {% if data.vacancy == INF %}∞{% else %}{{ data.vacancy }}{% endif %}
                 {% endif %}
               </td>
               {% endfor %}
