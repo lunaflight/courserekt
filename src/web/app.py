@@ -47,7 +47,7 @@ def history() -> str:
     return render_template('history.html', output=output, error=error)
 
 
-def serve_file(filepath: str) -> Response:
+def _serve_file(filepath: str) -> Response:
     """
     Helper function which serves the file based on the filepath.
     This is because the Flask `send_from_directory` function does
@@ -84,7 +84,7 @@ def serve_pdf(
     Returns:
         Response: The PDF file to be served.
     """
-    return serve_file(get_pdf_filepath(year, semester, type, round_num))
+    return _serve_file(get_pdf_filepath(year, semester, type, round_num))
 
 
 if __name__ == '__main__':

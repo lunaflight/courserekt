@@ -8,7 +8,7 @@ INF = 2147483647
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 
-def clean_year(year: Union[str, int]) -> str:
+def _clean_year(year: Union[str, int]) -> str:
     """
     Clean the year string by standardising all input to YYYY, e.g. 2223.
 
@@ -25,7 +25,7 @@ def clean_year(year: Union[str, int]) -> str:
     return year
 
 
-def clean_semester(semester: Union[str, int]) -> str:
+def _clean_semester(semester: Union[str, int]) -> str:
     """
     Clean the semester string by removing leading/trailing spaces.
 
@@ -38,7 +38,7 @@ def clean_semester(semester: Union[str, int]) -> str:
     return str(semester).strip()
 
 
-def clean_ug_gd(ug_gd: str) -> str:
+def _clean_ug_gd(ug_gd: str) -> str:
     """
     Clean the undergraduate/graduate string by converting to lowercase and
     removing leading/trailing spaces.
@@ -52,7 +52,7 @@ def clean_ug_gd(ug_gd: str) -> str:
     return ug_gd.strip().lower()
 
 
-def clean_code(code: str) -> str:
+def _clean_code(code: str) -> str:
     """
     Clean the course code string by converting to uppercase and
     removing leading/trailing spaces.
@@ -111,10 +111,10 @@ def get_data(year: Union[str, int],
         CourseData: The course data.
     """
     # Clean arguments
-    year = clean_year(year)
-    semester = clean_semester(semester)
-    ug_gd = clean_ug_gd(ug_gd)
-    code = clean_code(code)
+    year = _clean_year(year)
+    semester = _clean_semester(semester)
+    ug_gd = _clean_ug_gd(ug_gd)
+    code = _clean_code(code)
 
     # Establish the database connection if not provided
     if conn is None:
@@ -199,11 +199,11 @@ def get_data(year: Union[str, int],
     return output
 
 
-def get_set_of_all_codes(year: Union[str, int],
-                         semester: Union[str, int],
-                         ug_gd: str,
-                         conn: Optional[sqlite3.Connection] = None
-                         ) -> Set[str]:
+def _get_set_of_all_codes(year: Union[str, int],
+                          semester: Union[str, int],
+                          ug_gd: str,
+                          conn: Optional[sqlite3.Connection] = None
+                          ) -> Set[str]:
     """
     Get a set of all known course codes in the history
     for a specific year, semester, and undergraduate/graduate.
@@ -219,9 +219,9 @@ def get_set_of_all_codes(year: Union[str, int],
         Set[str]: A set of course codes.
     """
     # Clean arguments
-    year = clean_year(year)
-    semester = clean_semester(semester)
-    ug_gd = clean_ug_gd(ug_gd)
+    year = _clean_year(year)
+    semester = _clean_semester(semester)
+    ug_gd = _clean_ug_gd(ug_gd)
 
     codes: Set[str] = set()
 
@@ -280,7 +280,7 @@ def get_all_data(year: Union[str, int],
     """
     conn = sqlite3.connect(os.path.join(BASE_DIR, 'database.db'))
 
-    codes: Set[str] = get_set_of_all_codes(year, semester, ug_gd, conn)
+    codes: Set[str] = _get_set_of_all_codes(year, semester, ug_gd, conn)
     sorted_codes: List[str] = sorted(codes)
 
     output = []
@@ -292,12 +292,12 @@ def get_all_data(year: Union[str, int],
     return output
 
 
-def get_filepath(year: Union[str, int],
-                 semester: Union[str, int],
-                 type: str,
-                 round_num: Union[str, int],
-                 data_folder: str,
-                 ext: str) -> str:
+def _get_filepath(year: Union[str, int],
+                  semester: Union[str, int],
+                  type: str,
+                  round_num: Union[str, int],
+                  data_folder: str,
+                  ext: str) -> str:
     """
     Generate the absolute file path for a specific file.
 
@@ -338,7 +338,7 @@ def get_pdf_filepath(year: Union[str, int],
     Returns:
         str: The absolute file path of the PDF file.
     """
-    return get_filepath(year, semester, type, round_num, "pdfs", "pdf")
+    return _get_filepath(year, semester, type, round_num, "pdfs", "pdf")
 
 
 def pdf_exists(year: Union[str, int],
