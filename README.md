@@ -24,30 +24,33 @@ Each cell corresponds to the data in the PDF for the course's class and round nu
 - If `y` is displayed as `∞`, the `Vacancy` in the PDF is `-`.
 - If `N/A` is displayed, then the class data was not found in this PDF.
 
-## Implementation
+## Project Structure
 
-### CourseReg Records
+```
+.
+├── .gitignore
+    - Contains the list of files to ignore upon committing to git.
+├── README.md
+    - Documentation
+├── requirements.txt
+    - Contains the Python dependencies required in the project.
+├── src
+    - Contains all source code for the project.
+├── tests
+    - Contains all code used for testing the project.
+├── .vercelignore
+    - Contains the list of files to ignore upon Vercel deployment.
+└── vercel.json
+    - Contains the configuration for Vercel deployment.
+```
 
-The files for this reside in `src/coursereg_history`.
-
-It contains code which scrapes and cleans data from the PDFs given by NUS, which is then parsed into easier-to-read formats.
-
-1. **PDF Storage:** The PDFs are stored in `data/pdfs/[year]/[semester]/[ug/gd]/round_{0,1,2,3}.pdf`.
-2. **PDF Parsing:** The PDFs are parsed using [Tabula](https://github.com/tabulapdf/tabula-java) to produce CSV files in `data/raws/[year]/[semester]/[ug/gd]/round_{0,1,2,3}.csv`. Java is used for this purpose, and we use a bash script `./convert_pdfs` to facilitate conversion.
-3. **Data Cleaning:** The raw CSV files are passed through `clean_csvs.py` to produce clean CSVs in `data/cleaned/[year]/[semester]/[ug/gd]/round_{0,1,2,3}.csv`.
-4. **Database Entry:** The cleaned CSVs are added to the `database.db` by passing them through `csv_to_db.py`.
-5. **Web Application:** A Flask-based web application serves the data from the database. It includes a form for users to specify the year, semester, type, and course codes. It returns a neatly formatted table with information about the requested courses.
-
-All of these steps are orchestrated using a Makefile.
-
-### Web App
-The `src/web` directory contains code that provides an interface for the above, for a more user-friendly experience.
+Read the corresponding `README.md` files in the respective subdirectories for more information.
 
 ## For Devs:
 
 ### Installation
 
-1. Clone the repository with `git clone https://github.com/et-irl/nus-tools.git`.
+1. Clone the repository with `git clone https://github.com/et-irl/courserekt.git`.
 2. Make sure Python and pip are installed on your system. If not, follow the instructions below:
     - **Python and pip:**
         - **Windows/Mac:** Download the installer from the [Python website](https://www.python.org/downloads/).
@@ -109,7 +112,7 @@ To deploy your application to Vercel, follow these steps:
 2. Install the Vercel CLI globally: `npm install -g vercel`.
 3. Log in to Vercel by running the following command: `vercel login`.
 4. Navigate to the project root in the terminal.
-5. Deploy your application to Vercel: `vercel --prod`.
+5. Deploy your application to Vercel: `vercel`.
 
 This will initiate the deployment process, and Vercel will guide you through the necessary steps to deploy your application.
 
