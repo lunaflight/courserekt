@@ -36,6 +36,75 @@ It contains code which scrapes and cleans data from the PDFs given by NUS, which
 
 All of these steps are orchestrated using a Makefile.
 
+### Data Cleaning
+Data cleaning from the CSV returned by Tabula is finicky.
+Great care must be taken in `clean_csvs.py` to navigate ill-defined data.
+
+Well-behaved data will have 13 columns, corresponding to the following:
+
+- Faculty, Department, Code, Title, Class,
+- Vacancy, Demand,
+- Successful (Main), Successful (Reserve)
+- Quota Exceeded, Timetable Clashes, Workload Exceeded, Others.
+
+Any other data without 13 columns is taken as invalid and dropped.
+
+However, some valid courses have ill-behaved data.
+The following list explains, exhaustively, all ill-behaved data found in the table.
+
+#### Courses on the first page of the PDF
+
+Courses on the first page of the PDF are always spread across 3 rows, with the data not being delimited properly of the Code, Class, Vacancy, ... onwards.
+
+This is an example taken from `raw/2223/1/ug/round_0.csv`.
+
+**Row `t + 0`**
+```
+Coll. of Humanities,,Driving Towards the Future: Battery
+```
+**Row `t + 1`**
+```
+"",Chemistry,HS2904 L1 100 9 9 4 0 0 0 0
+```
+**Row `t + 2`**
+```
+& Sciences,,Electric Vehicles
+```
+
+#### Courses spilling data across pages
+Courses with a sufficiently long field on the last entry of the PDF can have
+its data spill over to the next page.
+Their data will be spread across 4 rows, of which only the first and last of these 4 rows contain meaningful data.
+
+This is an example taken from `raw/2223/1/ug/round_0.csv`.
+
+**Row `t + 0`**
+```
+Yale-NUS College,Yale-NUS College,YSS4206C,Topics in Psychology: The Pursuit of,E1,15,9,9,2,0,0,0,0
+```
+**Row `t + 1`**
+```
+"Module Host
+Faculty/School","Module Host
+Department","Module
+Code",Module Title,"Module
+Class",Vacancy,Demand,"Successful
+Allocations",Unsuccessful Allocations due to:,,,,
+```
+**Row `t + 2`**
+```
+"",,,,,,,"Main
+List","Reserve
+List","Quota
+Exceeded","Timetable
+Clashes","Workload
+Exceeded",Others
+```
+**Row `t + 3`**
+```
+"",,,Happiness,,,,,,,,,
+```
+
 ## Usage
 
 ### `api.py`
