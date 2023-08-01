@@ -88,7 +88,7 @@ def serve_pdf(
 
 
 if __name__ == '__main__':
-    parser = ArgumentParser(description='Web app for NUS Tools')
+    parser = ArgumentParser(description='Web app for CourseRekt')
     parser.add_argument('--port', type=int, nargs=1, default=5000,
                         help='Port where the app is run.')
     args = parser.parse_args()

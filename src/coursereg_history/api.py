@@ -143,11 +143,7 @@ def get_data(year: Union[str, int],
         TABLE_NAME = (
                 f"data_cleaned_{year}_{semester}_{ug_gd}_round_{round_number}")
 
-        # check if table exists first
-        cursor = conn.execute(
-                "SELECT name FROM sqlite_master WHERE type='table' AND name=?",
-                (TABLE_NAME,))
-        if cursor.fetchone() is None:
+        if not pdf_exists(year, semester, ug_gd, round_number):
             continue
 
         # Get every matching class of the course code
