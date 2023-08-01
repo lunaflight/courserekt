@@ -63,7 +63,7 @@ Read the corresponding `README.md` files in the respective subdirectories for mo
 4. Activate the virual environment:
     - Activating:
         - **Windows:** `venv\Scripts\activate`
-        - **Mac/Linux:** source `venv/bin/activate`
+        - **Mac/Linux:** `source venv/bin/activate`
     - You should see the `(venv)` prefix in your command prompt.
 5. Install the Python dependencies with pip:
     ```shell
