@@ -1,64 +1,17 @@
-"",,Module Class Demand and Allocation Report
-"",,"Undergraduate Modules, Select Modules (Round 0)"
-"",,"Semester 2, AY2021/2022"
-"",,Module Class Demand and Allocation Report
-"",,"Undergraduate Modules, Select Modules (Round 0)"
-"",,"Semester 2, AY2021/2022"
-"",,(updated: 10/12/2021)
-"",,Successful
-"",,Unsuccessful Allocations due to:
-Module Host,Module Host,Module Module Allocations
-"",,Module Title Vacancy Demand
-Faculty/School,Department,Code Class Main Reserve Quota Timetable Workload
-"",,Others
-"",,List List Exceeded Clashes Exceeded
-Coll. of Humanities,,
-"",Mathematics,HS1501 Artificial Intelligence and Society L1 50 84 50 0 28 0 6 0
-& Sciences,,
-Coll. of Humanities,,Scientific Inquiry & Health: Good
-"",Pharmacy,HSI2001 L1 200 1 1 0 0 0 0 0
-& Sciences,,"Science, Bad Science"
-Faculty of Arts &,,
-"",Chinese Studies,CH2141 General History of China L1 75 8 8 0 0 0 0 0
-Social Sci,,
-Faculty of Arts &,,
-"",Chinese Studies,CH2243 Chinese in Southeast Asia E1 30 7 7 0 0 0 0 0
-Social Sci,,
-Faculty of Arts &,,
-"",Chinese Studies,CH2291 Chinese Tradition (taught in English) L1 65 20 20 1 0 0 0 0
-Social Sci,,
-Faculty of Arts &,,Introduction to Chinese Art (taught in
-"",Chinese Studies,CH2293 L1 35 3 3 0 0 0 0 0
-Social Sci,,English)
-Faculty of Arts &,,Keywords in S'pore and M'sian
-"",Chinese Studies,CH3225 E1 30 16 16 0 0 0 0 0
-Social Sci,,Chinese Literary Studies
-Faculty of Arts &,,Contemporary China: 1949 to
-"",Chinese Studies,CH3248 L1 30 13 13 0 0 0 0 0
-Social Sci,,Present
-Faculty of Arts &,,Chinese in Southeast Asia (in
-"",Chinese Studies,CH3298 E1 30 7 7 1 0 0 0 0
-Social Sci,,English)
-Faculty of Arts &,,
-"",Chinese Studies,CH4222 Chinese Classical Novels E1 30 5 5 0 0 0 0 0
-Social Sci,,
-Faculty of Arts &,,Transregional Chinese Literary
-"",Chinese Studies,CH4262 E1 30 6 6 0 0 0 0 0
-Social Sci,,Connections
-Faculty of Arts &,,
-"",Chinese Studies,CH4281 Translation  Studies E1 30 3 3 0 0 0 0 0
-Social Sci,,
-Remarks:,,
-"1. Vacancy, Demand and Successful/Unsuccessful Allocations data in this report display the module classes, selected under main list in this current round, unless otherwise stated.",,
-"2. The same module may be available to different students at different ""Select Modules"" rounds. The general guide to check if the module is available in a particular round is as follows:",,
-"•""Select Modules"" Round 1 is a protected round for programme requirements, restricted/direct minor requirements and CELC English requirements.",,
-"•""Select Modules"" Round 2 onwards include modules selection for University-level requirement and Unrestricted Elective requirements.",,
-"3. The ""Vacancy"" column displays the quota (by student's career) as at running the Select Modules allocation for this current round. It is subject to changes, such as modules allocated by admins",,
-before running allocation process for deserving students. All the available vacancies of the module-class will be merged when processing module allocation for Select Modules (Round 3) and,,
-"Submit Module Requests. It will be updated with ""-"" when a module class has reached to its maximum capacity. In such situation, students are not allowed to select classes or submit appeals.",,
-"4. The ""Others"" column includes reasons such as class has already been allocated earlier, class is being cancelled or student's programme status is no longer active.",,
-5. Please note that the total quota for most Law elective modules (across all Academic Careers) is 50.,,Page 1 of 85
-"",,As at 10-Dec-21
+"Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"Coll. of Humanities& Sciences",Mathematics,HS1501,Artificial Intelligence and Society,L1,50,84,50,0,28,0,6,0
+"Coll. of Humanities& Sciences",Pharmacy,HSI2001,"Scientific Inquiry & Health: GoodScience, Bad Science",L1,200,1,1,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH2141,General History of China,L1,75,8,8,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH2243,Chinese in Southeast Asia,E1,30,7,7,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH2291,Chinese Tradition (taught in English),L1,65,20,20,1,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH2293,"Introduction to Chinese Art (taught inEnglish)",L1,35,3,3,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH3225,"Keywords in S'pore and M'sianChinese Literary Studies",E1,30,16,16,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH3248,"Contemporary China: 1949 toPresent",L1,30,13,13,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH3298,"Chinese in Southeast Asia (inEnglish)",E1,30,7,7,1,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH4222,Chinese Classical Novels,E1,30,5,5,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH4262,"Transregional Chinese LiteraryConnections",E1,30,6,6,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH4281,Translation  Studies,E1,30,3,3,0,0,0,0,0
 "Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
 "",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
 "Faculty of Arts &Social Sci",Chinese Studies,CH4882A,"Personalities in Modern ChineseHistory",E1,30,6,6,0,0,0,0,0

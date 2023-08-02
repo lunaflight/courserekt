@@ -1,63 +1,16 @@
-"",,Module Class Demand and Allocation Report
-"",,"Graduate Modules, Select Modules (Round 0)"
-"",,"Semester 2, AY2022/2023"
-"",,Module Class Demand and Allocation Report
-"",,"Graduate Modules, Select Modules (Round 0)"
-"",,"Semester 2, AY2022/2023"
-"",,(updated: 09/12/2022)
-"",,Successful
-"",,Unsuccessful Allocations due to:
-Module Host,Module Host,Module Module Allocations
-"",,Module Title Vacancy Demand
-Faculty/School,Department,Code Class Main Reserve Quota Timetable Workload
-"",,Others
-"",,List List Exceeded Clashes Exceeded
-"",,Building Energy Audit and
-College of Design,,
-"",Built Environment,BPS5225 Performance Measurement and L1 50 10 10 0 0 0 0 0
-and Eng,,
-"",,Verification
-College of Design,,
-"",Built Environment,BPS5226 Smart Buildings and Facilities L1 50 20 20 0 0 0 0 0
-and Eng,,
-College of Design,,Advanced Building Materials and
-"",Built Environment,BPS5228 L1 50 17 17 0 0 0 0 0
-and Eng,,Structures
-College of Design,,
-"",Built Environment,PM5101 PROJECT MANAGEMENT L1 100 13 13 0 0 0 0 0
-and Eng,,
-College of Design,,
-"",Built Environment,PM5105 DEVELOPMENT FINANCE L1 95 6 6 0 0 0 0 0
-and Eng,,
-College of Design,,
-"",Built Environment,PM5107 TIME AND COST MANAGEMENT L1 95 11 11 0 0 0 0 0
-and Eng,,
-College of Design,,
-"",Built Environment,PM5109 PROJECT MANAGEMENT LAW L1 95 3 3 0 0 0 0 0
-and Eng,,
-College of Design,,Project Finance Contracts and
-"",Built Environment,PM5115 L1 100 5 5 0 0 0 0 0
-and Eng,,Agreements
-College of Design,,
-"",Built Environment,PM5117 Urban Managment L1 100 12 0 0 0 0 0 12
-and Eng,,
-College of Design,,BUSINESS AND THE
-"",CDE Dean's Office,BX5101 L1 45 5 5 0 0 0 0 0
-and Eng,,ENVIRONMENT
-College of Design,,
-"",CDE Dean's Office,DE5107 Environmental Planning L1 50 5 5 0 0 0 0 0
-and Eng,,
-Remarks:,,
-"1. Vacancy, Demand and Successful/Unsuccessful Allocations data in this report display the module classes, selected under main list in this current round, unless otherwise stated.",,
-"2. The same module may be available to different students at different ""Select Modules"" rounds. The general guide to check if the module is available in a particular round is as follows:",,
-"•""Select Modules"" Round 1 is a protected round for programme requirements, restricted/direct minor requirements and CELC English requirements.",,
-"•""Select Modules"" Round 2 onwards include modules selection for University-level requirement and Unrestricted Elective requirements.",,
-"3. The ""Vacancy"" column displays the quota (by student's career) as at running the Select Modules allocation for this current round. It is subject to changes, such as modules allocated by admins",,
-before running allocation process for deserving students. All the available vacancies of the module-class will be merged when processing module allocation for Select Modules (Round 3) and,,
-"Submit Module Requests. It will be updated with ""-"" when a module class has reached to its maximum capacity. In such situation, students are not allowed to select classes or submit appeals.",,
-"4. The ""Others"" column includes reasons such as class has already been allocated earlier, class is being cancelled or student's programme status is no longer active.",,
-5. Please note that the total quota for most Law elective modules (across all Academic Careers) is 50.,,Page 1 of 29
-"",,As at 9-Dec-22
+"Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"College of Designand Eng",Built Environment,BPS5225,"Building Energy Audit andPerformance Measurement andVerification",L1,50,10,10,0,0,0,0,0
+"College of Designand Eng",Built Environment,BPS5226,Smart Buildings and Facilities,L1,50,20,20,0,0,0,0,0
+"College of Designand Eng",Built Environment,BPS5228,"Advanced Building Materials andStructures",L1,50,17,17,0,0,0,0,0
+"College of Designand Eng",Built Environment,PM5101,PROJECT MANAGEMENT,L1,100,13,13,0,0,0,0,0
+"College of Designand Eng",Built Environment,PM5105,DEVELOPMENT FINANCE,L1,95,6,6,0,0,0,0,0
+"College of Designand Eng",Built Environment,PM5107,TIME AND COST MANAGEMENT,L1,95,11,11,0,0,0,0,0
+"College of Designand Eng",Built Environment,PM5109,PROJECT MANAGEMENT LAW,L1,95,3,3,0,0,0,0,0
+"College of Designand Eng",Built Environment,PM5115,"Project Finance Contracts andAgreements",L1,100,5,5,0,0,0,0,0
+"College of Designand Eng",Built Environment,PM5117,Urban Managment,L1,100,12,0,0,0,0,0,12
+"College of Designand Eng",CDE Dean's Office,BX5101,"BUSINESS AND THEENVIRONMENT",L1,45,5,5,0,0,0,0,0
+"College of Designand Eng",CDE Dean's Office,DE5107,Environmental Planning,L1,50,5,5,0,0,0,0,0
 "Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
 "",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
 "College of Designand Eng","Chemical &Biomolecular Eng",CN5020,"ADVANCED REACTIONENGINEERING",L1,39,6,6,0,0,0,0,0

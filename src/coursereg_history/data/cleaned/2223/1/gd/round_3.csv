@@ -263,6 +263,44 @@ Faculty of Arts & Social Sci,Southeast Asian Studies,SEA5212,Arts in Southeast A
 Faculty of Arts & Social Sci,Southeast Asian Studies,SEA5232,Country Studies: Thailand,E1,20,2,2,0,0,0,0,0
 Faculty of Arts & Social Sci,Southeast Asian Studies,SEA5234,Country Studies: The Philippines,E1,22,2,2,0,0,0,0,0
 Faculty of Arts & Social Sci,Southeast Asian Studies,SEA5301B,Masterclass,S1,21,2,2,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5002V,Admiralty Law & Practice,E1,2147483647,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5004V,Aviation Law & Policy,E1,2147483647,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5006V,Banking Law,E1,2147483647,2,1,0,1,0,0,0
+Faculty of Law,FoL Dean's Office,LL5007,BIOTECHNOLOGY LAW,E1,2147483647,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5008AV,Carriage of Goods By Sea,E1,2147483647,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5009V,Modern Chinese Law & Legal Chinese,E1,2147483647,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5019V,Credit & Security,E1,2147483647,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5029V,International Commercial Arbitration,E1,2147483647,3,3,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5032,INTERNATIONAL INVESTMENT LAW,E1,2147483647,8,1,0,6,0,0,1
+Faculty of Law,FoL Dean's Office,LL5045V,Negotiation,E1,2147483647,5,0,0,5,0,0,0
+Faculty of Law,FoL Dean's Office,LL5056BV,Tax Planning And Policy,E1,2147483647,5,5,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5060B,World Trade Law,E1,2147483647,4,4,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5063V,Business & Finance For Lawyers,E1,2147483647,7,0,0,7,0,0,0
+Faculty of Law,FoL Dean's Office,LL5064V,Competition Law and Policy,E1,2147483647,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5070V,Foundations Of Intellectual Property Law,E1,2147483647,3,1,0,2,0,0,0
+Faculty of Law,FoL Dean's Office,LL5164V,International Projects Law & Practice,E1,2147483647,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5191,Wealth Management Law,E1,2147483647,7,3,0,4,0,0,0
+Faculty of Law,FoL Dean's Office,LL5214,International and Comparative Oil and Gas Law,E1,2147483647,2,2,1,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5219,The Trial of Jesus in Western Legal Thought,E1,2147483647,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5237V,"Law, Institutions, and Business in Greater China",E1,2147483647,9,3,0,6,0,0,0
+Faculty of Law,FoL Dean's Office,LL5285V,International Dispute Settlement,E1,2147483647,2,0,0,2,0,0,0
+Faculty of Law,FoL Dean's Office,LL5287V,ASEAN Law and Policy,E1,2147483647,2,2,2,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5322V,Trade Finance Law,E1,2147483647,3,0,0,3,0,0,0
+Faculty of Law,FoL Dean's Office,LL5335V,Multinational Enterprises and International Law,E1,2147483647,2,2,3,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5342V,Taxation of Cross-Border Commercial Transactions I,E1,2147483647,7,6,0,1,0,0,0
+Faculty of Law,FoL Dean's Office,LL5359Z,SIAC and Institutional Arbitration,E1,2147483647,8,2,0,5,0,0,1
+Faculty of Law,FoL Dean's Office,LL5382V,Private International Law,E1,2147483647,3,3,1,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5383Z,International Arbitration & the New York Convention,E1,2147483647,10,0,0,10,0,0,0
+Faculty of Law,FoL Dean's Office,LL5433V,Global Data Privacy Law,E1,2147483647,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5436V,Family Law and Practice,E1,2147483647,3,1,0,2,0,0,0
+Faculty of Law,FoL Dean's Office,LL5454V,Commercial Conflict of Laws,E1,2147483647,2,1,0,1,0,0,0
+Faculty of Law,FoL Dean's Office,LL5464,Principles of Port Finance and Regulation,E1,2147483647,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5472,The Belt & Road Initiative & Int'l Trade Governance,E1,2147483647,9,9,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5473,International Energy Law,E1,2147483647,3,3,1,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5474,Cybersecurity and Privacy Law,E1,2147483647,10,10,2,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5475V,Law and Practice of Investment Management,E1,2147483647,9,9,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LLJ5009V,Modern Chinese Law & Legal Chinese,E1,2147483647,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LLJ5237V,"Law, Institutions, and Business in Greater China",E1,2147483647,1,1,0,0,0,0,0
 Faculty of Science,Biological Sciences,BL5201,Structural Biology And Proteomics,L1,44,2,2,0,0,0,0,0
 Faculty of Science,Biological Sciences,BL5214,ADVANCED PROTEINS NMR,L1,13,12,12,0,0,0,0,0
 Faculty of Science,Biological Sciences,BL5215,MACROMOLECULAR X-RAY CRYSTALLOGRAPHY,L1,13,17,13,0,4,0,0,0

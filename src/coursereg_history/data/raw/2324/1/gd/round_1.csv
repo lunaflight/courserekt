@@ -1,64 +1,17 @@
-"",,Course Class Demand and Allocation Report
-"",,"Graduate Courses, Select Courses (Round 1)"
-"",,"Semester 1, AY2023/2024"
-"",,Course Class Demand and Allocation Report
-"",,"Graduate Courses, Select Courses (Round 1)"
-"",,"Semester 1, AY2023/2024"
-"",,(updated: 28/07/2023)
-"",,Successful
-"",,Unsuccessful Allocations due to:
-Course Host,Course Host,Course Course Allocations
-"",,Course Title Vacancy Demand
-Faculty/School,Department,Code Class Main Reserve Quota Timetable Workload
-"",,Others
-"",,List List Exceeded Clashes Exceeded
-College of Design,,
-"",Architecture,AC5001 Architectural History of Singapore L1 29 24 20 0 0 1 0 3
-and Eng,,
-College of Design,,Conservation Approaches and
-"",Architecture,AC5002 L1 27 16 16 0 0 0 0 0
-and Eng,,Philosophies
-College of Design,,
-"",Architecture,AC5007 Dissertation L1 30 7 7 0 0 0 0 0
-and Eng,,
-College of Design,,
-"",Architecture,AC5009 Design for Adaptive Reuse L1 29 6 6 0 0 0 0 0
-and Eng,,
-College of Design,,
-"",Architecture,AC5011 Conservation of C20th Buildings L1 29 21 21 0 0 0 0 0
-and Eng,,
-College of Design,,
-"",Architecture,AR5321 Advanced Architectural Integration L1 45 32 32 0 0 0 0 0
-and Eng,,
-College of Design,,
-"",Architecture,AR5323 Well & Green Built Environment L1 25 1 0 0 0 0 0 1
-and Eng,,
-College of Design,,
-"",Architecture,AR5423 Architectural Practice L1 45 33 33 0 0 0 0 0
-and Eng,,
-College of Design,,
-"",Architecture,AR5601 Urban Design Theory and Praxis L1 45 1 1 0 0 0 0 0
-and Eng,,
-College of Design,,
-"",Architecture,AR5801 Options Design Research Studio 1 D1 45 33 33 0 0 0 0 0
-and Eng,,
-College of Design,,
-"",Architecture,AR5805 Advanced Architecture Studio L1 160 91 91 0 0 0 0 0
-and Eng,,
-College of Design,,
-"",Architecture,AR5806 Architectural Design Research Report D1 150 87 87 0 0 0 0 0
-and Eng,,
-Remarks:,,
-"1. Vacancy, Demand and Successful/Unsuccessful Allocations data in this report display the course classes, selected under main list in this current round, unless otherwise stated.",,
-"2. The same course may be available to different students at different ""Select Courses"" rounds. The general guide to check if the course is available in a particular round is as follows:",,
-"•""Select Courses"" Round 1 is a protected round for programme requirements, restricted/direct minor requirements and CELC English requirements.",,
-"•""Select Courses"" Round 2 onwards include courses selection for University-level requirement and Unrestricted Elective requirements.",,
-"3. The ""Vacancy"" column displays the quota (by student's career) as at running the Select Courses allocation for this current round. It is subject to changes, such as courses allocated by admins",,
-before running allocation process for deserving students. All the available vacancies of the course-class will be merged when processing course allocation for Select Courses (Round 3) and,,
-"Submit Course Requests. It will be updated with ""-"" when a course class has reached to its maximum capacity. In such situation, students are not allowed to select classes or submit appeals.",,
-"4. The ""Others"" column includes reasons such as class has already been allocated earlier, class is being cancelled or student's programme status is no longer active.",,
-5. Please note that the total quota for most Law elective courses (across all Academic Careers) is 50.,,Page 1 of 45
-"",,As at 28-Jul-23
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"College of Designand Eng",Architecture,AC5001,Architectural History of Singapore,L1,29,24,20,0,0,1,0,3
+"College of Designand Eng",Architecture,AC5002,"Conservation Approaches andPhilosophies",L1,27,16,16,0,0,0,0,0
+"College of Designand Eng",Architecture,AC5007,Dissertation,L1,30,7,7,0,0,0,0,0
+"College of Designand Eng",Architecture,AC5009,Design for Adaptive Reuse,L1,29,6,6,0,0,0,0,0
+"College of Designand Eng",Architecture,AC5011,Conservation of C20th Buildings,L1,29,21,21,0,0,0,0,0
+"College of Designand Eng",Architecture,AR5321,Advanced Architectural Integration,L1,45,32,32,0,0,0,0,0
+"College of Designand Eng",Architecture,AR5323,Well & Green Built Environment,L1,25,1,0,0,0,0,0,1
+"College of Designand Eng",Architecture,AR5423,Architectural Practice,L1,45,33,33,0,0,0,0,0
+"College of Designand Eng",Architecture,AR5601,Urban Design Theory and Praxis,L1,45,1,1,0,0,0,0,0
+"College of Designand Eng",Architecture,AR5801,Options Design Research Studio 1,D1,45,33,33,0,0,0,0,0
+"College of Designand Eng",Architecture,AR5805,Advanced Architecture Studio,L1,160,91,91,0,0,0,0,0
+"College of Designand Eng",Architecture,AR5806,Architectural Design Research Report,D1,150,87,87,0,0,0,0,0
 "Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
 "",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
 "College of Designand Eng",Architecture,AR5951A,"Topics in History and Theory ofArchitecture 1",L1,19,10,10,1,0,0,0,0

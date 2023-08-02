@@ -1,64 +1,17 @@
-"",,Module Class Demand and Allocation Report
-"",,"Graduate Modules, Select Modules (Round 0)"
-"",,"Semester 2, AY2021/2022"
-"",,Module Class Demand and Allocation Report
-"",,"Graduate Modules, Select Modules (Round 0)"
-"",,"Semester 2, AY2021/2022"
-"",,(updated: 12/12/2021)
-"",,Successful
-"",,Unsuccessful Allocations due to:
-Module Host,Module Host,Module Module Allocations
-"",,Module Title Vacancy Demand
-Faculty/School,Department,Code Class Main Reserve Quota Timetable Workload
-"",,Others
-"",,List List Exceeded Clashes Exceeded
-Faculty of Arts &,,Cognitive Linguistics & Chinese
-"",Chinese Studies,CH5213 S1 - 13 13 0 0 0 0 0
-Social Sci,,Language
-Faculty of Arts &,,
-"",Chinese Studies,CH5223 SELECTED AUTHORS S1 - 12 12 0 0 0 0 0
-Social Sci,,
-Faculty of Arts &,,Contemporary China-Southeast Asia
-"",Chinese Studies,CH5243 E1 26 7 7 1 0 0 0 0
-Social Sci,,Relations
-Faculty of Arts &,,
-"",Chinese Studies,CH5660 INDEPENDENT STUDY L1 - 1 1 0 0 0 0 0
-Social Sci,,
-Faculty of Arts &,,CULTURE AND SOCIETY
-"",Chinese Studies,CH6227 S1 - 30 20 0 10 0 0 0
-Social Sci,,THROUGH LITERATURE
-Faculty of Arts &,,Essential Outsiders?  The  Chinese
-"",Chinese Studies,CH6249 E1 - 2 2 0 0 0 0 0
-Social Sci,,in  Southeast Asia
-Faculty of Arts &,,
-"",Chinese Studies,CH6261 CHINESE STUDIES IN THE WEST L1 - 11 11 1 0 0 0 0
-Social Sci,,
-Faculty of Arts &,,Contemporary Research in Chinese
-"",Chinese Studies,CHC5102 L1 29 13 13 1 0 0 0 0
-Social Sci,,Language
-Faculty of Arts &,,Contemporary Research in Chinese
-"",Chinese Studies,CHC5102 L2 29 38 29 0 9 0 0 0
-Social Sci,,Language
-Faculty of Arts &,,Contemporary Research in Chinese
-"",Chinese Studies,CHC5102 L3 30 31 30 0 1 0 0 0
-Social Sci,,Language
-Faculty of Arts &,,Traditional Chinese Culture in
-"",Chinese Studies,CHC5303 L1 26 28 26 0 2 0 0 0
-Social Sci,,Singapore and Malaysia
-Faculty of Arts &,,Prominent Nanyang Chinese in
-"",Chinese Studies,CHC5305 L1 26 23 23 1 0 0 0 0
-Social Sci,,Modern China
-Remarks:,,
-"1. Vacancy, Demand and Successful/Unsuccessful Allocations data in this report display the module classes, selected under main list in this current round, unless otherwise stated.",,
-"2. The same module may be available to different students at different ""Select Modules"" rounds. The general guide to check if the module is available in a particular round is as follows:",,
-"•""Select Modules"" Round 1 is a protected round for programme requirements, restricted/direct minor requirements and CELC English requirements.",,
-"•""Select Modules"" Round 2 onwards include modules selection for University-level requirement and Unrestricted Elective requirements.",,
-"3. The ""Vacancy"" column displays the quota (by student's career) as at running the Select Modules allocation for this current round. It is subject to changes, such as modules allocated by admins",,
-before running allocation process for deserving students. All the available vacancies of the module-class will be merged when processing module allocation for Select Modules (Round 3) and,,
-"Submit Module Requests. It will be updated with ""-"" when a module class has reached to its maximum capacity. In such situation, students are not allowed to select classes or submit appeals.",,
-"4. The ""Others"" column includes reasons such as class has already been allocated earlier, class is being cancelled or student's programme status is no longer active.",,
-5. Please note that the total quota for most Law elective modules (across all Academic Careers) is 50.,,Page 1 of 30
-"",,As at 12-Dec-21
+"Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"Faculty of Arts &Social Sci",Chinese Studies,CH5213,"Cognitive Linguistics & ChineseLanguage",S1,-,13,13,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH5223,SELECTED AUTHORS,S1,-,12,12,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH5243,"Contemporary China-Southeast AsiaRelations",E1,26,7,7,1,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH5660,INDEPENDENT STUDY,L1,-,1,1,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH6227,"CULTURE AND SOCIETYTHROUGH LITERATURE",S1,-,30,20,0,10,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH6249,"Essential Outsiders?  The  Chinesein  Southeast Asia",E1,-,2,2,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH6261,CHINESE STUDIES IN THE WEST,L1,-,11,11,1,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CHC5102,"Contemporary Research in ChineseLanguage",L1,29,13,13,1,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CHC5102,"Contemporary Research in ChineseLanguage",L2,29,38,29,0,9,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CHC5102,"Contemporary Research in ChineseLanguage",L3,30,31,30,0,1,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CHC5303,"Traditional Chinese Culture inSingapore and Malaysia",L1,26,28,26,0,2,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CHC5305,"Prominent Nanyang Chinese inModern China",L1,26,23,23,1,0,0,0,0
 "Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
 "",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
 "Faculty of Arts &Social Sci",Chinese Studies,CHC5305,"Prominent Nanyang Chinese inModern China",L2,26,18,18,2,0,0,0,0

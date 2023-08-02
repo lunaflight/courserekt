@@ -31,5 +31,5 @@ for pdf_file in "$@"; do
     output_file="$output_dir/$base_name.csv"
 
     # Run the tabula command
-    java -jar "$tabula_jar" -p all -o "$output_file" "$pdf_file"
+    java -jar "$tabula_jar" --silent --lattice --pages all --outfile "$output_file" "$pdf_file"
 done

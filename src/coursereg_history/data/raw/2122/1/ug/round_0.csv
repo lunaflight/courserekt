@@ -1,64 +1,17 @@
-"",,Module Class Demand and Allocation Report
-"",,"Undergraduate Modules, Select Modules (Round 0)"
-"",,"Semester 1, AY2021/2022"
-"",,Module Class Demand and Allocation Report
-"",,"Undergraduate Modules, Select Modules (Round 0)"
-"",,"Semester 1, AY2021/2022"
-"",,(updated: 25/06/2021)
-"",,Successful
-"",,Unsuccessful Allocations due to:
-Module Host,Module Host,Module Module Allocations
-"",,Module Title Vacancy Demand
-Faculty/School,Department,Code Class Main Reserve Quota Timetable Workload
-"",,Others
-"",,List List Exceeded Clashes Exceeded
-Faculty of Arts &,,
-"",Chinese Studies,CH2121 History of Chinese Literature E1 - 21 21 0 0 0 0 0
-Social Sci,,
-Faculty of Arts &,,Traditional Chinese Taxonomy of
-"",Chinese Studies,CH2161 E1 - 17 17 0 0 0 0 0
-Social Sci,,Learning
-Faculty of Arts &,,
-"",Chinese Studies,CH2221 Modern Chinese Literature E1 - 6 6 0 0 0 0 0
-Social Sci,,
-Faculty of Arts &,,
-"",Chinese Studies,CH2252 History of Chinese Philosophy L1 - 7 7 0 0 0 0 0
-Social Sci,,
-Faculty of Arts &,,
-"",Chinese Studies,CH2275 Chinese Pop Music in East Asia L1 - 19 19 1 0 0 0 0
-Social Sci,,
-Faculty of Arts &,,
-"",Chinese Studies,CH3221 Selected Readings in Chinese Verse L1 - 15 15 0 0 0 0 0
-Social Sci,,
-Faculty of Arts &,,
-"",Chinese Studies,CH3261 Prescribed Text: The Four Books L1 - 7 7 0 0 0 0 0
-Social Sci,,
-Faculty of Arts &,,
-"",Chinese Studies,CH3881 Topics in Chinese Literature 1 L1 - 10 10 0 0 0 0 0
-Social Sci,,
-Faculty of Arts &,,
-"",Chinese Studies,CH4201 Chinese Classical Phonology L1 - 4 4 0 0 0 0 0
-Social Sci,,
-Faculty of Arts &,,
-"",Chinese Studies,CH4203 Chinese Dialectology E1 - 7 7 0 0 0 0 0
-Social Sci,,
-Faculty of Arts &,,
-"",Chinese Studies,CH4207 History of Chinese Language E1 - 6 6 0 0 0 0 0
-Social Sci,,
-Faculty of Arts &,,
-"",Chinese Studies,CL2102 Chinese Phonetics L1 - 3 3 0 0 0 0 0
-Social Sci,,
-Remarks:,,
-"1. Vacancy, Demand and Successful/Unsuccessful Allocations data in this report display the module classes, selected under main list in this current round, unless otherwise stated.",,
-"2. The same module may be available to different students at different ""Select Modules"" rounds. The general guide to check if the module is available in a particular round is as follows:",,
-"•""Select Modules"" Round 1 is a protected round for programme requirements, restricted/direct minor requirements and CELC English requirements.",,
-"•""Select Modules"" Round 2 onwards include modules selection for University-level requirement and Unrestricted Elective requirements.",,
-"3. The ""Vacancy"" column displays the quota (by student's career) as at running the Select Modules allocation for this current round. It is subject to changes, such as modules allocated by admins",,
-before running allocation process for deserving students. All the available vacancies of the module-class will be merged when processing module allocation for Select Modules (Round 3) and,,
-"Submit Module Requests. It will be updated with ""-"" when a module class has reached to its maximum capacity. In such situation, students are not allowed to select classes or submit appeals.",,
-"4. The ""Others"" column includes reasons such as class has already been allocated earlier, class is being cancelled or student's programme status is no longer active.",,
-5. Please note that the total quota for most Law elective modules (across all Academic Careers) is 50.,,Page 1 of 77
-"",,As at 25-Jun-21
+"Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"Faculty of Arts &Social Sci",Chinese Studies,CH2121,History of Chinese Literature,E1,-,21,21,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH2161,"Traditional Chinese Taxonomy ofLearning",E1,-,17,17,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH2221,Modern Chinese Literature,E1,-,6,6,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH2252,History of Chinese Philosophy,L1,-,7,7,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH2275,Chinese Pop Music in East Asia,L1,-,19,19,1,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH3221,Selected Readings in Chinese Verse,L1,-,15,15,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH3261,Prescribed Text: The Four Books,L1,-,7,7,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH3881,Topics in Chinese Literature 1,L1,-,10,10,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH4201,Chinese Classical Phonology,L1,-,4,4,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH4203,Chinese Dialectology,E1,-,7,7,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH4207,History of Chinese Language,E1,-,6,6,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CL2102,Chinese Phonetics,L1,-,3,3,0,0,0,0,0
 "Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
 "",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
 "Faculty of Arts &Social Sci",Chinese Studies,CL2280,Basic Translation,L1,-,10,10,0,0,0,0,0

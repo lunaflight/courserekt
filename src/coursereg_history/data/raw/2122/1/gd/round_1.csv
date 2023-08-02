@@ -1,64 +1,17 @@
-"",,Module Class Demand and Allocation Report
-"",,"Graduate Modules, Select Modules (Round 1)"
-"",,"Semester 1, AY2021/2022"
-"",,Module Class Demand and Allocation Report
-"",,"Graduate Modules, Select Modules (Round 1)"
-"",,"Semester 1, AY2021/2022"
-"",,(updated: 27/07/2021)
-"",,Successful
-"",,Unsuccessful Allocations due to:
-Module Host,Module Host,Module Module Allocations
-"",,Module Title Vacancy Demand
-Faculty/School,Department,Code Class Main Reserve Quota Timetable Workload
-"",,Others
-"",,List List Exceeded Clashes Exceeded
-Faculty of Arts &,,
-"",Chinese Studies,CH4201 Chinese Classical Phonology L1 2 1 1 0 0 0 0 0
-Social Sci,,
-Faculty of Arts &,,
-"",Chinese Studies,CH4203 Chinese Dialectology E1 2 1 1 0 0 0 0 0
-Social Sci,,
-Faculty of Arts &,,
-"",Chinese Studies,CH4207 History of Chinese Language E1 2 1 1 0 0 0 0 0
-Social Sci,,
-Faculty of Arts &,,
-"",Chinese Studies,CH5210 CHINESE LEXICAL SEMANTICS S1 - 1 1 0 0 0 0 0
-Social Sci,,
-Faculty of Arts &,,
-"",Chinese Studies,CH5211 Seminar in Chinese Pragmatics S1 - 3 3 0 0 0 0 0
-Social Sci,,
-Faculty of Arts &,,PRESCRIBED TEXTS IN
-"",Chinese Studies,CH5224 L1 - 12 12 1 0 0 0 0
-Social Sci,,LITERATURE
-Faculty of Arts &,,Contemporary China-Southeast Asia
-"",Chinese Studies,CH5243 E1 23 13 13 0 0 0 0 0
-Social Sci,,Relations
-Faculty of Arts &,,
-"",Chinese Studies,CH5245 Seminar in Early Taoism E1 - 2 2 0 0 0 0 0
-Social Sci,,
-Faculty of Arts &,,
-"",Chinese Studies,CH6241 TOPICS IN CHINESE HISTORY S1 - 8 8 1 0 0 0 0
-Social Sci,,
-Faculty of Arts &,,
-"",Chinese Studies,CH6770 GRADUATE RESEARCH SEMINAR S1 - 5 5 0 0 0 0 0
-Social Sci,,
-Faculty of Arts &,,Contemporary Research in Chinese
-"",Chinese Studies,CHC5101 L1 30 26 26 0 0 0 0 0
-Social Sci,,Studies
-Faculty of Arts &,,Contemporary Research in Chinese
-"",Chinese Studies,CHC5101 L2 29 32 29 0 3 0 0 0
-Social Sci,,Studies
-Remarks:,,
-"1. Vacancy, Demand and Successful/Unsuccessful Allocations data in this report display the module classes, selected under main list in this current round, unless otherwise stated.",,
-"2. The same module may be available to different students at different ""Select Modules"" rounds. The general guide to check if the module is available in a particular round is as follows:",,
-"•""Select Modules"" Round 1 is a protected round for programme requirements, restricted/direct minor requirements and CELC English requirements.",,
-"•""Select Modules"" Round 2 onwards include modules selection for University-level requirement and Unrestricted Elective requirements.",,
-"3. The ""Vacancy"" column displays the quota (by student's career) as at running the Select Modules allocation for this current round. It is subject to changes, such as modules allocated by admins",,
-before running allocation process for deserving students. All the available vacancies of the module-class will be merged when processing module allocation for Select Modules (Round 3) and,,
-"Submit Module Requests. It will be updated with ""-"" when a module class has reached to its maximum capacity. In such situation, students are not allowed to select classes or submit appeals.",,
-"4. The ""Others"" column includes reasons such as class has already been allocated earlier, class is being cancelled or student's programme status is no longer active.",,
-5. Please note that the total quota for most Law elective modules (across all Academic Careers) is 50.,,Page 1 of 41
-"",,As at 27-Jul-21
+"Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"Faculty of Arts &Social Sci",Chinese Studies,CH4201,Chinese Classical Phonology,L1,2,1,1,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH4203,Chinese Dialectology,E1,2,1,1,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH4207,History of Chinese Language,E1,2,1,1,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH5210,CHINESE LEXICAL SEMANTICS,S1,-,1,1,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH5211,Seminar in Chinese Pragmatics,S1,-,3,3,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH5224,"PRESCRIBED TEXTS INLITERATURE",L1,-,12,12,1,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH5243,"Contemporary China-Southeast AsiaRelations",E1,23,13,13,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH5245,Seminar in Early Taoism,E1,-,2,2,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH6241,TOPICS IN CHINESE HISTORY,S1,-,8,8,1,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH6770,GRADUATE RESEARCH SEMINAR,S1,-,5,5,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CHC5101,"Contemporary Research in ChineseStudies",L1,30,26,26,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CHC5101,"Contemporary Research in ChineseStudies",L2,29,32,29,0,3,0,0,0
 "Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
 "",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
 "Faculty of Arts &Social Sci",Chinese Studies,CHC5101,"Contemporary Research in ChineseStudies",L3,29,28,28,0,0,0,0,0

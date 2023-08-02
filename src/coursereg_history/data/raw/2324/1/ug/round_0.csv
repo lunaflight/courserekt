@@ -1,64 +1,17 @@
-"",,Course Class Demand and Allocation Report
-"",,"Undergraduate Courses, Select Courses (Round 0)"
-"",,"Semester 1, AY2023/2024"
-"",,Course Class Demand and Allocation Report
-"",,"Undergraduate Courses, Select Courses (Round 0)"
-"",,"Semester 1, AY2023/2024"
-"",,(updated: 30/06/2023)
-"",,Successful
-"",,Unsuccessful Allocations due to:
-Course Host,Course Host,Course Course Allocations
-"",,Course Title Vacancy Demand
-Faculty/School,Department,Code Class Main Reserve Quota Timetable Workload
-"",,Others
-"",,List List Exceeded Clashes Exceeded
-Coll. of Humanities,Communications &,
-"",,HS2903 Sporting Bodies L1 230 419 230 0 186 0 3 0
-& Sciences,New Media,
-Coll. of Humanities,"English,Ling.&Theatre",Polymaths: Innovating Between Art
-"",,HS2912 L1 100 126 100 0 26 0 0 0
-& Sciences,Studies,and Science
-College of Design,,
-"",Built Environment,IPM2101 Introduction to Building Performance L1 60 31 31 1 0 0 0 0
-and Eng,,
-College of Design,,
-"",Built Environment,IPM2102 Construction Technology L1 50 32 32 0 0 0 0 0
-and Eng,,
-College of Design,,
-"",Built Environment,IPM3101 Project Feasibility L1 30 7 7 0 0 0 0 0
-and Eng,,
-College of Design,,Infrastructure and Facilities
-"",Built Environment,IPM3102 L1 30 4 4 0 0 0 0 0
-and Eng,,Management
-College of Design,,
-"",Built Environment,IPM4201 Smart Facility Management Robotics L1 25 2 2 0 0 0 0 0
-and Eng,,
-College of Design,,
-"",Built Environment,PF2102 Structural Systems L1 25 7 7 0 0 0 0 0
-and Eng,,
-College of Design,,
-"",Built Environment,PF2109 Project Feasibility L1 30 20 20 0 0 0 0 0
-and Eng,,
-College of Design,,
-"",Built Environment,PF2205 Project Finance L1 115 15 15 0 0 0 0 0
-and Eng,,
-College of Design,,
-"",Built Environment,PF3104 Project Execution L1 110 69 69 0 0 0 0 0
-and Eng,,
-College of Design,,
-"",Built Environment,PF3105 Research Methods L1 115 75 75 0 0 0 0 0
-and Eng,,
-Remarks:,,
-"1. Vacancy, Demand and Successful/Unsuccessful Allocations data in this report display the course classes, selected under main list in this current round, unless otherwise stated.",,
-"2. The same course may be available to different students at different ""Select Courses"" rounds. The general guide to check if the course is available in a particular round is as follows:",,
-"•""Select Courses"" Round 1 is a protected round for programme requirements, restricted/direct minor requirements and CELC English requirements.",,
-"•""Select Courses"" Round 2 onwards include courses selection for University-level requirement and Unrestricted Elective requirements.",,
-"3. The ""Vacancy"" column displays the quota (by student's career) as at running the Select Courses allocation for this current round. It is subject to changes, such as courses allocated by admins",,
-before running allocation process for deserving students. All the available vacancies of the course-class will be merged when processing course allocation for Select Courses (Round 3) and,,
-"Submit Course Requests. It will be updated with ""-"" when a course class has reached to its maximum capacity. In such situation, students are not allowed to select classes or submit appeals.",,
-"4. The ""Others"" column includes reasons such as class has already been allocated earlier, class is being cancelled or student's programme status is no longer active.",,
-5. Please note that the total quota for most Law elective courses (across all Academic Careers) is 50.,,Page 1 of 81
-"",,As at 30-Jun-23
+"Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"Coll. of Humanities& Sciences","Communications &New Media",HS2903,Sporting Bodies,L1,230,419,230,0,186,0,3,0
+"Coll. of Humanities& Sciences","English,Ling.&TheatreStudies",HS2912,"Polymaths: Innovating Between Artand Science",L1,100,126,100,0,26,0,0,0
+"College of Designand Eng",Built Environment,IPM2101,Introduction to Building Performance,L1,60,31,31,1,0,0,0,0
+"College of Designand Eng",Built Environment,IPM2102,Construction Technology,L1,50,32,32,0,0,0,0,0
+"College of Designand Eng",Built Environment,IPM3101,Project Feasibility,L1,30,7,7,0,0,0,0,0
+"College of Designand Eng",Built Environment,IPM3102,"Infrastructure and FacilitiesManagement",L1,30,4,4,0,0,0,0,0
+"College of Designand Eng",Built Environment,IPM4201,Smart Facility Management Robotics,L1,25,2,2,0,0,0,0,0
+"College of Designand Eng",Built Environment,PF2102,Structural Systems,L1,25,7,7,0,0,0,0,0
+"College of Designand Eng",Built Environment,PF2109,Project Feasibility,L1,30,20,20,0,0,0,0,0
+"College of Designand Eng",Built Environment,PF2205,Project Finance,L1,115,15,15,0,0,0,0,0
+"College of Designand Eng",Built Environment,PF3104,Project Execution,L1,110,69,69,0,0,0,0,0
+"College of Designand Eng",Built Environment,PF3105,Research Methods,L1,115,75,75,0,0,0,0,0
 "Course HostFaculty/School","Course HostDepartment","CourseCode",Course Title,"CourseClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
 "",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
 "College of Designand Eng",Built Environment,PF3205,Advanced Measurement,L1,55,9,9,0,0,0,0,0

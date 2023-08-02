@@ -1,64 +1,17 @@
-"",,Module Class Demand and Allocation Report
-"",,"Undergraduate Modules, Select Modules (Round 0)"
-"",,"Semester 2, AY2022/2023"
-"",,Module Class Demand and Allocation Report
-"",,"Undergraduate Modules, Select Modules (Round 0)"
-"",,"Semester 2, AY2022/2023"
-"",,(updated: 09/12/2022)
-"",,Successful
-"",,Unsuccessful Allocations due to:
-Module Host,Module Host,Module Module Allocations
-"",,Module Title Vacancy Demand
-Faculty/School,Department,Code Class Main Reserve Quota Timetable Workload
-"",,Others
-"",,List List Exceeded Clashes Exceeded
-College of Design,,
-"",Biomedical Engineering,BN2102 Bioengineering Data Analysis L1 15 13 13 0 0 0 0 0
-and Eng,,
-College of Design,,
-"",Biomedical Engineering,BN2204 Fundamentals of Biomechanics L1 13 10 10 0 0 0 0 0
-and Eng,,
-College of Design,,
-"",Built Environment,IPM1103 Digital Construction L1 37 26 26 0 0 0 0 0
-and Eng,,
-College of Design,,
-"",Built Environment,IPM2103 Measurement (Building Works) L1 10 3 3 0 0 0 0 0
-and Eng,,
-College of Design,,
-"",Built Environment,IPM2104 Project Cost Management L1 10 1 1 0 0 0 0 0
-and Eng,,
-College of Design,,Fundamentals of Project
-"",Built Environment,PF1101 L1 147 8 8 0 0 0 0 0
-and Eng,,Management
-College of Design,,
-"",Built Environment,PF1103 Digital Construction L1 40 18 18 0 0 0 0 0
-and Eng,,
-College of Design,,
-"",Built Environment,PF1108 Introduction to Building Performance L1 40 20 20 0 0 0 0 0
-and Eng,,
-College of Design,,
-"",Built Environment,PF2103 Measurement (Building Works) L1 120 53 53 0 0 0 0 0
-and Eng,,
-College of Design,,
-"",Built Environment,PF2108 Project Cost Management L1 120 55 55 0 0 0 0 0
-and Eng,,
-College of Design,,Infrastructure and Facilities
-"",Built Environment,PF2110 L1 130 37 37 0 0 0 0 0
-and Eng,,Management
-College of Design,,
-"",Built Environment,PF2203 Quality and Productivity Management L1 57 1 1 0 0 0 0 0
-and Eng,,
-Remarks:,,
-"1. Vacancy, Demand and Successful/Unsuccessful Allocations data in this report display the module classes, selected under main list in this current round, unless otherwise stated.",,
-"2. The same module may be available to different students at different ""Select Modules"" rounds. The general guide to check if the module is available in a particular round is as follows:",,
-"•""Select Modules"" Round 1 is a protected round for programme requirements, restricted/direct minor requirements and CELC English requirements.",,
-"•""Select Modules"" Round 2 onwards include modules selection for University-level requirement and Unrestricted Elective requirements.",,
-"3. The ""Vacancy"" column displays the quota (by student's career) as at running the Select Modules allocation for this current round. It is subject to changes, such as modules allocated by admins",,
-before running allocation process for deserving students. All the available vacancies of the module-class will be merged when processing module allocation for Select Modules (Round 3) and,,
-"Submit Module Requests. It will be updated with ""-"" when a module class has reached to its maximum capacity. In such situation, students are not allowed to select classes or submit appeals.",,
-"4. The ""Others"" column includes reasons such as class has already been allocated earlier, class is being cancelled or student's programme status is no longer active.",,
-5. Please note that the total quota for most Law elective modules (across all Academic Careers) is 50.,,Page 1 of 87
-"",,As at 9-Dec-22
+"Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"College of Designand Eng",Biomedical Engineering,BN2102,Bioengineering Data Analysis,L1,15,13,13,0,0,0,0,0
+"College of Designand Eng",Biomedical Engineering,BN2204,Fundamentals of Biomechanics,L1,13,10,10,0,0,0,0,0
+"College of Designand Eng",Built Environment,IPM1103,Digital Construction,L1,37,26,26,0,0,0,0,0
+"College of Designand Eng",Built Environment,IPM2103,Measurement (Building Works),L1,10,3,3,0,0,0,0,0
+"College of Designand Eng",Built Environment,IPM2104,Project Cost Management,L1,10,1,1,0,0,0,0,0
+"College of Designand Eng",Built Environment,PF1101,"Fundamentals of ProjectManagement",L1,147,8,8,0,0,0,0,0
+"College of Designand Eng",Built Environment,PF1103,Digital Construction,L1,40,18,18,0,0,0,0,0
+"College of Designand Eng",Built Environment,PF1108,Introduction to Building Performance,L1,40,20,20,0,0,0,0,0
+"College of Designand Eng",Built Environment,PF2103,Measurement (Building Works),L1,120,53,53,0,0,0,0,0
+"College of Designand Eng",Built Environment,PF2108,Project Cost Management,L1,120,55,55,0,0,0,0,0
+"College of Designand Eng",Built Environment,PF2110,"Infrastructure and FacilitiesManagement",L1,130,37,37,0,0,0,0,0
+"College of Designand Eng",Built Environment,PF2203,Quality and Productivity Management,L1,57,1,1,0,0,0,0,0
 "Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
 "",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
 "College of Designand Eng",Built Environment,PF2504,Materials Technology,L1,85,4,4,0,0,0,0,0

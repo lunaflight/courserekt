@@ -1,64 +1,17 @@
-"",,Module Class Demand and Allocation Report
-"",,"Graduate Modules, Select Modules (Round 3)"
-"",,"Semester 1, AY2021/2022"
-"",,Module Class Demand and Allocation Report
-"",,"Graduate Modules, Select Modules (Round 3)"
-"",,"Semester 1, AY2021/2022"
-"",,(updated: 05/08/2021)
-"",,Successful
-"",,Unsuccessful Allocations due to:
-Module Host,Module Host,Module Module Allocations
-"",,Module Title Vacancy Demand
-Faculty/School,Department,Code Class Main Reserve Quota Timetable Workload
-"",,Others
-"",,List List Exceeded Clashes Exceeded
-Faculty of Arts &,,
-"",Chinese Studies,CH5211 Seminar in Chinese Pragmatics S1 - 1 1 0 0 0 0 0
-Social Sci,,
-Faculty of Arts &,,Contemporary China-Southeast Asia
-"",Chinese Studies,CH5243 E1 3 3 3 0 0 0 0 0
-Social Sci,,Relations
-Faculty of Arts &,,
-"",Chinese Studies,CH6241 TOPICS IN CHINESE HISTORY S1 - 3 3 0 0 0 0 0
-Social Sci,,
-Faculty of Arts &,,Contemporary Research in Chinese
-"",Chinese Studies,CHC5101 L4 1 1 1 0 0 0 0 0
-Social Sci,,Studies
-Faculty of Arts &,,History and Civilizations of the Tang
-"",Chinese Studies,CHC5301 L1 3 3 3 0 0 0 0 0
-Social Sci,,Empire
-Faculty of Arts &,,History and Civilizations of the Tang
-"",Chinese Studies,CHC5301 L2 3 2 2 0 0 0 0 0
-Social Sci,,Empire
-Faculty of Arts &,,Traditional Chinese Culture in
-"",Chinese Studies,CHC5303 L1 2 2 2 0 0 0 0 0
-Social Sci,,Singapore and Malaysia
-Faculty of Arts &,,Society and Culture of the Ming
-"",Chinese Studies,CHC5304 L1 3 3 3 0 0 0 0 0
-Social Sci,,Dynasty
-Faculty of Arts &,,
-"",Chinese Studies,CHC5312 Tang-Song Poetry and Poetics L1 2 6 2 0 4 0 0 0
-Social Sci,,
-Faculty of Arts &,,
-"",Chinese Studies,CHC5313 Thematics in Chinese Literature E1 2 3 2 0 1 0 0 0
-Social Sci,,
-Faculty of Arts &,,
-"",Chinese Studies,CHC5313 Thematics in Chinese Literature E2 2 4 2 0 2 0 0 0
-Social Sci,,
-Faculty of Arts &,,
-"",Chinese Studies,CHC5315 Neo‐Taoism E1 2 3 2 0 1 0 0 0
-Social Sci,,
-Remarks:,,
-"1. Vacancy, Demand and Successful/Unsuccessful Allocations data in this report display the module classes, selected under main list in this current round, unless otherwise stated.",,
-"2. The same module may be available to different students at different ""Select Modules"" rounds. The general guide to check if the module is available in a particular round is as follows:",,
-"•""Select Modules"" Round 1 is a protected round for programme requirements, restricted/direct minor requirements and CELC English requirements.",,
-"•""Select Modules"" Round 2 onwards include modules selection for University-level requirement and Unrestricted Elective requirements.",,
-"3. The ""Vacancy"" column displays the quota (by student's career) as at running the Select Modules allocation for this current round. It is subject to changes, such as modules allocated by admins",,
-before running allocation process for deserving students. All the available vacancies of the module-class will be merged when processing module allocation for Select Modules (Round 3) and,,
-"Submit Module Requests. It will be updated with ""-"" when a module class has reached to its maximum capacity. In such situation, students are not allowed to select classes or submit appeals.",,
-"4. The ""Others"" column includes reasons such as class has already been allocated earlier, class is being cancelled or student's programme status is no longer active.",,
-5. Please note that the total quota for most Law elective modules (across all Academic Careers) is 50.,,Page 1 of 28
-"",,As at 5-Aug-21
+"Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"Faculty of Arts &Social Sci",Chinese Studies,CH5211,Seminar in Chinese Pragmatics,S1,-,1,1,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH5243,"Contemporary China-Southeast AsiaRelations",E1,3,3,3,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CH6241,TOPICS IN CHINESE HISTORY,S1,-,3,3,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CHC5101,"Contemporary Research in ChineseStudies",L4,1,1,1,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CHC5301,"History and Civilizations of the TangEmpire",L1,3,3,3,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CHC5301,"History and Civilizations of the TangEmpire",L2,3,2,2,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CHC5303,"Traditional Chinese Culture inSingapore and Malaysia",L1,2,2,2,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CHC5304,"Society and Culture of the MingDynasty",L1,3,3,3,0,0,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CHC5312,Tang-Song Poetry and Poetics,L1,2,6,2,0,4,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CHC5313,Thematics in Chinese Literature,E1,2,3,2,0,1,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CHC5313,Thematics in Chinese Literature,E2,2,4,2,0,2,0,0,0
+"Faculty of Arts &Social Sci",Chinese Studies,CHC5315,Neo‐Taoism,E1,2,3,2,0,1,0,0,0
 "Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
 "",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
 "Faculty of Arts &Social Sci",Chinese Studies,CHC5317,"New Approaches to Modern ChineseCulture",E1,2,4,2,0,2,0,0,0

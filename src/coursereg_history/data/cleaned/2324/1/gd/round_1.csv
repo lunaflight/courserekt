@@ -384,6 +384,41 @@ Faculty of Arts & Social Sci,Southeast Asian Studies,SEA5213,Food History of Sou
 Faculty of Arts & Social Sci,Southeast Asian Studies,SEA5234,Country Studies: The Philippines,E1,25,10,10,0,0,0,0,0
 Faculty of Arts & Social Sci,Southeast Asian Studies,SEA5237,Country Studies: Vietnam,E1,25,12,12,0,0,0,0,0
 Faculty of Arts & Social Sci,Southeast Asian Studies,SEA5301B,Masterclass,S1,25,9,9,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5009V,Modern Chinese Law & Legal Chinese,E1,2147483647,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5029V,International Commercial Arbitration,E1,2147483647,4,4,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5031V,International Environmental Law & Policy,E1,2147483647,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5032,INTERNATIONAL INVESTMENT LAW,E1,2147483647,28,28,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5045V,Negotiation,E1,2147483647,22,5,0,17,0,0,0
+Faculty of Law,FoL Dean's Office,LL5056BV,Tax Planning And Policy,E1,2147483647,4,4,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5063V,Business & Finance For Lawyers,E1,2147483647,7,7,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5064V,Competition Law and Policy,E1,2147483647,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5099,MARITIME LAW,E1,2147483647,15,15,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5100,Arbitration and Dispute Resolution in China,E1,2147483647,13,13,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5177V,Entertainment Law,E1,2147483647,8,8,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5214,International and Comparative Oil and Gas Law,E1,2147483647,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5237V,"Law, Institutions, and Business in Greater China",E1,2147483647,6,6,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5243V,The Effects of Space and Geography on Regulation,E1,2147483647,2,2,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5276,Advanced Contract Law,E1,2147483647,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5287V,ASEAN Law and Policy,E1,2147483647,7,7,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5322,Trade Finance Law,E1,2147483647,14,14,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5335V,Multinational Enterprises and International Law,E1,2147483647,2,2,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5350V,Privacy & Data Protection Law,E1,2147483647,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5360Z,Current Challenges to Investment Arbitration,E1,2147483647,17,17,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5364V,Principles of Civil Law: Law of Obligations & Property,E1,2147483647,3,3,2,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5383Z,International Arbitration & the New York Convention,E1,2147483647,29,29,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5407,LAW OF INSURANCE,E1,2147483647,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5454V,Commercial Conflict of Laws,E1,2147483647,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5459X,"Env. & Sustainability - Law, Governance & Practice",E1,2147483647,7,7,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5460,"Law, FinTech and the Platform Economy",E1,2147483647,3,3,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5461V,Compliance and Risk Management,E1,2147483647,6,6,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5475V,Law and Practice of Investment Management,E1,2147483647,3,3,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5484X,Introduction to Singapore Business Law,E1,2147483647,4,3,0,0,0,1,0
+Faculty of Law,FoL Dean's Office,LL5486,Investment Banking and Investment Firms,E1,2147483647,2,2,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5488,Digital Technologies and Human Rights,E1,2147483647,3,3,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5489V,Corporate Law and Economics,E1,2147483647,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5493,Law and Technology,E1,2147483647,3,3,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LLD5099,MARITIME LAW,E1,2147483647,7,0,0,0,0,0,7
+Faculty of Law,FoL Dean's Office,LLD5322,Trade Finance Law,E1,2147483647,4,0,0,0,0,0,4
 Faculty of Science,Biological Sciences,BL5102,Environmental Science,L1,3,9,2,0,7,0,0,0
 Faculty of Science,Biological Sciences,BL5201,Structural Biology And Proteomics,L1,44,8,8,0,0,0,0,0
 Faculty of Science,Biological Sciences,BL5207A,Topics In Developmental Biology,L1,46,2,2,0,0,0,0,0

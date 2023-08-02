@@ -1,64 +1,17 @@
-"",,Module Class Demand and Allocation Report
-"",,"Undergraduate Modules, Select Modules (Round 0)"
-"",,"Semester 1, AY2022/2023"
-"",,Module Class Demand and Allocation Report
-"",,"Undergraduate Modules, Select Modules (Round 0)"
-"",,"Semester 1, AY2022/2023"
-"",,(updated: 24/06/2022)
-"",,Successful
-"",,Unsuccessful Allocations due to:
-Module Host,Module Host,Module Module Allocations
-"",,Module Title Vacancy Demand
-Faculty/School,Department,Code Class Main Reserve Quota Timetable Workload
-"",,Others
-"",,List List Exceeded Clashes Exceeded
-Coll. of Humanities,,
-"",Biological Sciences,HSI2005 Our Science Stories and You L1 100 245 100 0 145 0 0 0
-& Sciences,,
-Coll. of Humanities,,Driving Towards the Future: Battery
-"",Chemistry,HS2904 L1 100 9 9 4 0 0 0 0
-& Sciences,,Electric Vehicles
-Coll. of Humanities,Food Science &,
-"",,HSI2007 Deconstructing Food L1 200 305 200 0 105 0 0 0
-& Sciences,Technology,
-Coll. of Humanities,,
-"",Mathematics,HS1501 Artificial Intelligence and Society L1 450 1135 450 0 685 0 0 0
-& Sciences,,
-College of Design,,
-"",Biomedical Engineering,BN4101 B.Eng. Dissertation L1 - 58 58 0 0 0 0 0
-and Eng,,
-College of Design,,
-"",CDE Dean's Office,EG2401A Engineering Professionalism L1 400 155 155 0 0 0 0 0
-and Eng,,
-College of Design,,
-"",CDE Dean's Office,EG2401A Engineering Professionalism L2 244 213 213 0 0 0 0 0
-and Eng,,
-College of Design,,
-"",CDE Dean's Office,EG2501 Liveable Cities L01 59 2 2 0 0 0 0 0
-and Eng,,
-College of Design,,
-"",CDE Dean's Office,EG2604 Innovation Programme L1 24 40 24 0 16 0 0 0
-and Eng,,
-College of Design,Chemical &,
-"",,CN2103 Mass and Energy Balance L1 234 163 163 0 0 0 0 0
-and Eng,Biomolecular Eng,
-College of Design,Chemical &,Chemical Engineering
-"",,CN2104 L1 231 155 155 0 0 0 0 0
-and Eng,Biomolecular Eng,Thermodynamics
-College of Design,Chemical &,
-"",,CN2116 Chemical Kinetics & Reactor Design L1 50 6 4 0 0 0 0 2
-and Eng,Biomolecular Eng,
-Remarks:,,
-"1. Vacancy, Demand and Successful/Unsuccessful Allocations data in this report display the module classes, selected under main list in this current round, unless otherwise stated.",,
-"2. The same module may be available to different students at different ""Select Modules"" rounds. The general guide to check if the module is available in a particular round is as follows:",,
-"•""Select Modules"" Round 1 is a protected round for programme requirements, restricted/direct minor requirements and CELC English requirements.",,
-"•""Select Modules"" Round 2 onwards include modules selection for University-level requirement and Unrestricted Elective requirements.",,
-"3. The ""Vacancy"" column displays the quota (by student's career) as at running the Select Modules allocation for this current round. It is subject to changes, such as modules allocated by admins",,
-before running allocation process for deserving students. All the available vacancies of the module-class will be merged when processing module allocation for Select Modules (Round 3) and,,
-"Submit Module Requests. It will be updated with ""-"" when a module class has reached to its maximum capacity. In such situation, students are not allowed to select classes or submit appeals.",,
-"4. The ""Others"" column includes reasons such as class has already been allocated earlier, class is being cancelled or student's programme status is no longer active.",,
-5. Please note that the total quota for most Law elective modules (across all Academic Careers) is 50.,,Page 1 of 75
-"",,As at 24-Jun-22
+"Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"Coll. of Humanities& Sciences",Biological Sciences,HSI2005,Our Science Stories and You,L1,100,245,100,0,145,0,0,0
+"Coll. of Humanities& Sciences",Chemistry,HS2904,"Driving Towards the Future: BatteryElectric Vehicles",L1,100,9,9,4,0,0,0,0
+"Coll. of Humanities& Sciences","Food Science &Technology",HSI2007,Deconstructing Food,L1,200,305,200,0,105,0,0,0
+"Coll. of Humanities& Sciences",Mathematics,HS1501,Artificial Intelligence and Society,L1,450,1135,450,0,685,0,0,0
+"College of Designand Eng",Biomedical Engineering,BN4101,B.Eng. Dissertation,L1,-,58,58,0,0,0,0,0
+"College of Designand Eng",CDE Dean's Office,EG2401A,Engineering Professionalism,L1,400,155,155,0,0,0,0,0
+"College of Designand Eng",CDE Dean's Office,EG2401A,Engineering Professionalism,L2,244,213,213,0,0,0,0,0
+"College of Designand Eng",CDE Dean's Office,EG2501,Liveable Cities,L01,59,2,2,0,0,0,0,0
+"College of Designand Eng",CDE Dean's Office,EG2604,Innovation Programme,L1,24,40,24,0,16,0,0,0
+"College of Designand Eng","Chemical &Biomolecular Eng",CN2103,Mass and Energy Balance,L1,234,163,163,0,0,0,0,0
+"College of Designand Eng","Chemical &Biomolecular Eng",CN2104,"Chemical EngineeringThermodynamics",L1,231,155,155,0,0,0,0,0
+"College of Designand Eng","Chemical &Biomolecular Eng",CN2116,Chemical Kinetics & Reactor Design,L1,50,6,4,0,0,0,0,2
 "Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
 "",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
 "College of Designand Eng","Chemical &Biomolecular Eng",CN2122A,Fluid Mechanics,L1,35,1,1,0,0,0,0,0

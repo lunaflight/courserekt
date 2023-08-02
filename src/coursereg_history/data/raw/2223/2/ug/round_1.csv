@@ -1,64 +1,17 @@
-"",,Module Class Demand and Allocation Report
-"",,"Undergraduate Modules, Select Modules (Round 1)"
-"",,"Semester 2, AY2022/2023"
-"",,Module Class Demand and Allocation Report
-"",,"Undergraduate Modules, Select Modules (Round 1)"
-"",,"Semester 2, AY2022/2023"
-"",,(updated: 30/12/2022)
-"",,Successful
-"",,Unsuccessful Allocations due to:
-Module Host,Module Host,Module Module Allocations
-"",,Module Title Vacancy Demand
-Faculty/School,Department,Code Class Main Reserve Quota Timetable Workload
-"",,Others
-"",,List List Exceeded Clashes Exceeded
-College of Design,,
-"",Architecture,AR1102 Design 2 D1 136 56 56 0 0 0 0 0
-and Eng,,
-College of Design,,
-"",Architecture,"AR1329 Climate, Ecology & Architecture L1 150 111 110 0 0 0 1 0"
-and Eng,,
-College of Design,,
-"",Architecture,AR2102 Design 4 D1 153 81 81 0 0 0 0 0
-and Eng,,
-College of Design,,
-"",Architecture,AR2225 Reading Visual Images L1 15 8 8 0 0 0 0 0
-and Eng,,
-College of Design,,
-"",Architecture,AR2227 History & Theory of Architecture I L1 152 114 114 0 0 0 0 0
-and Eng,,
-College of Design,,
-"",Architecture,AR2524 Spatial Computational Thinking L1 369 87 87 0 0 0 0 0
-and Eng,,
-College of Design,,
-"",Architecture,AR2524 Spatial Computational Thinking L2 160 35 35 0 0 0 0 0
-and Eng,,
-College of Design,,
-"",Architecture,AR3102 Design 6 D1 130 90 90 0 0 0 0 0
-and Eng,,
-College of Design,,Building Environmental System
-"",Architecture,AR3721 L1 141 61 61 0 0 0 0 0
-and Eng,,Modelling
-College of Design,,
-"",Architecture,AR5221 CONTEMPORARY THEORIES L1 80 48 48 0 0 0 0 0
-and Eng,,
-College of Design,,
-"",Architecture,AR5321 Advanced Architectural Integration L1 45 16 16 0 0 0 0 0
-and Eng,,
-College of Design,,
-"",Architecture,AR5423 Architectural Practice L1 80 45 45 0 0 0 0 0
-and Eng,,
-Remarks:,,
-"1. Vacancy, Demand and Successful/Unsuccessful Allocations data in this report display the module classes, selected under main list in this current round, unless otherwise stated.",,
-"2. The same module may be available to different students at different ""Select Modules"" rounds. The general guide to check if the module is available in a particular round is as follows:",,
-"•""Select Modules"" Round 1 is a protected round for programme requirements, restricted/direct minor requirements and CELC English requirements.",,
-"•""Select Modules"" Round 2 onwards include modules selection for University-level requirement and Unrestricted Elective requirements.",,
-"3. The ""Vacancy"" column displays the quota (by student's career) as at running the Select Modules allocation for this current round. It is subject to changes, such as modules allocated by admins",,
-before running allocation process for deserving students. All the available vacancies of the module-class will be merged when processing module allocation for Select Modules (Round 3) and,,
-"Submit Module Requests. It will be updated with ""-"" when a module class has reached to its maximum capacity. In such situation, students are not allowed to select classes or submit appeals.",,
-"4. The ""Others"" column includes reasons such as class has already been allocated earlier, class is being cancelled or student's programme status is no longer active.",,
-5. Please note that the total quota for most Law elective modules (across all Academic Careers) is 50.,,Page 1 of 100
-"",,As at 30-Dec-22
+"Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"College of Designand Eng",Architecture,AR1102,Design 2,D1,136,56,56,0,0,0,0,0
+"College of Designand Eng",Architecture,AR1329,"Climate, Ecology & Architecture",L1,150,111,110,0,0,0,1,0
+"College of Designand Eng",Architecture,AR2102,Design 4,D1,153,81,81,0,0,0,0,0
+"College of Designand Eng",Architecture,AR2225,Reading Visual Images,L1,15,8,8,0,0,0,0,0
+"College of Designand Eng",Architecture,AR2227,History & Theory of Architecture I,L1,152,114,114,0,0,0,0,0
+"College of Designand Eng",Architecture,AR2524,Spatial Computational Thinking,L1,369,87,87,0,0,0,0,0
+"College of Designand Eng",Architecture,AR2524,Spatial Computational Thinking,L2,160,35,35,0,0,0,0,0
+"College of Designand Eng",Architecture,AR3102,Design 6,D1,130,90,90,0,0,0,0,0
+"College of Designand Eng",Architecture,AR3721,"Building Environmental SystemModelling",L1,141,61,61,0,0,0,0,0
+"College of Designand Eng",Architecture,AR5221,CONTEMPORARY THEORIES,L1,80,48,48,0,0,0,0,0
+"College of Designand Eng",Architecture,AR5321,Advanced Architectural Integration,L1,45,16,16,0,0,0,0,0
+"College of Designand Eng",Architecture,AR5423,Architectural Practice,L1,80,45,45,0,0,0,0,0
 "Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
 "",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
 "College of Designand Eng",Architecture,AR5601,Urban Design Theory and Praxis,L1,86,45,45,0,0,0,0,0

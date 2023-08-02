@@ -1,64 +1,17 @@
-"",,Module Class Demand and Allocation Report
-"",,"Undergraduate Modules, Select Modules (Round 2)"
-"",,"Semester 2, AY2021/2022"
-"",,Module Class Demand and Allocation Report
-"",,"Undergraduate Modules, Select Modules (Round 2)"
-"",,"Semester 2, AY2021/2022"
-"",,(updated: 04/01/2022)
-"",,Successful
-"",,Unsuccessful Allocations due to:
-Module Host,Module Host,Module Module Allocations
-"",,Module Title Vacancy Demand
-Faculty/School,Department,Code Class Main Reserve Quota Timetable Workload
-"",,Others
-"",,List List Exceeded Clashes Exceeded
-Coll. of Humanities,,
-"",South Asian Studies,HSA1000 Asian Interconnections L1 134 1 1 1 0 0 0 0
-& Sciences,,
-Collg of Design &,,
-"",Biomedical Engineering,BN2102 Bioengineering Data Analysis L1 7 4 4 0 0 0 0 0
-Engineering,,
-Collg of Design &,,
-"",Biomedical Engineering,BN2204 Fundamentals of Biomechanics L1 12 1 1 0 0 0 0 0
-Engineering,,
-Collg of Design &,,Biochemistry and Biomaterials for
-"",Biomedical Engineering,BN2301 L1 18 4 4 0 0 0 0 0
-Engineering,,Bioengineers
-Collg of Design &,,
-"",Biomedical Engineering,BN3301 Introduction To Biomaterials L1 3 12 3 0 9 0 0 0
-Engineering,,
-Collg of Design &,,
-"",Biomedical Engineering,BN4102 Gerontechnology in Ageing L1 26 9 9 2 0 0 0 0
-Engineering,,
-Collg of Design &,,
-"",Biomedical Engineering,BN4202 Biofluids Dynamics L1 35 3 3 0 0 0 0 0
-Engineering,,
-Collg of Design &,,
-"",Biomedical Engineering,BN4203 Robotics in Rehabilitation L1 14 23 14 0 9 0 0 0
-Engineering,,
-Collg of Design &,,Bioelectromechanical Systems -
-"",Biomedical Engineering,BN4404 L1 15 20 15 0 5 0 0 0
-Engineering,,Biomems
-Collg of Design &,,
-"",Biomedical Engineering,BN4406 Biophotonics And Bioimaging L1 12 10 10 2 0 0 0 0
-Engineering,,
-Collg of Design &,,
-"",Biomedical Engineering,BN5201 Advanced Biomaterials L1 1 2 1 0 1 0 0 0
-Engineering,,
-Collg of Design &,,
-"",Biomedical Engineering,BN5203 ADVANCED TISSUE ENGINEERING L1 6 10 6 0 4 0 0 0
-Engineering,,
-Remarks:,,
-"1. Vacancy, Demand and Successful/Unsuccessful Allocations data in this report display the module classes, selected under main list in this current round, unless otherwise stated.",,
-"2. The same module may be available to different students at different ""Select Modules"" rounds. The general guide to check if the module is available in a particular round is as follows:",,
-"•""Select Modules"" Round 1 is a protected round for programme requirements, restricted/direct minor requirements and CELC English requirements.",,
-"•""Select Modules"" Round 2 onwards include modules selection for University-level requirement and Unrestricted Elective requirements.",,
-"3. The ""Vacancy"" column displays the quota (by student's career) as at running the Select Modules allocation for this current round. It is subject to changes, such as modules allocated by admins",,
-before running allocation process for deserving students. All the available vacancies of the module-class will be merged when processing module allocation for Select Modules (Round 3) and,,
-"Submit Module Requests. It will be updated with ""-"" when a module class has reached to its maximum capacity. In such situation, students are not allowed to select classes or submit appeals.",,
-"4. The ""Others"" column includes reasons such as class has already been allocated earlier, class is being cancelled or student's programme status is no longer active.",,
-5. Please note that the total quota for most Law elective modules (across all Academic Careers) is 50.,,Page 1 of 105
-"",,As at 4-Jan-22
+"Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"Coll. of Humanities& Sciences",South Asian Studies,HSA1000,Asian Interconnections,L1,134,1,1,1,0,0,0,0
+"Collg of Design &Engineering",Biomedical Engineering,BN2102,Bioengineering Data Analysis,L1,7,4,4,0,0,0,0,0
+"Collg of Design &Engineering",Biomedical Engineering,BN2204,Fundamentals of Biomechanics,L1,12,1,1,0,0,0,0,0
+"Collg of Design &Engineering",Biomedical Engineering,BN2301,"Biochemistry and Biomaterials forBioengineers",L1,18,4,4,0,0,0,0,0
+"Collg of Design &Engineering",Biomedical Engineering,BN3301,Introduction To Biomaterials,L1,3,12,3,0,9,0,0,0
+"Collg of Design &Engineering",Biomedical Engineering,BN4102,Gerontechnology in Ageing,L1,26,9,9,2,0,0,0,0
+"Collg of Design &Engineering",Biomedical Engineering,BN4202,Biofluids Dynamics,L1,35,3,3,0,0,0,0,0
+"Collg of Design &Engineering",Biomedical Engineering,BN4203,Robotics in Rehabilitation,L1,14,23,14,0,9,0,0,0
+"Collg of Design &Engineering",Biomedical Engineering,BN4404,"Bioelectromechanical Systems -Biomems",L1,15,20,15,0,5,0,0,0
+"Collg of Design &Engineering",Biomedical Engineering,BN4406,Biophotonics And Bioimaging,L1,12,10,10,2,0,0,0,0
+"Collg of Design &Engineering",Biomedical Engineering,BN5201,Advanced Biomaterials,L1,1,2,1,0,1,0,0,0
+"Collg of Design &Engineering",Biomedical Engineering,BN5203,ADVANCED TISSUE ENGINEERING,L1,6,10,6,0,4,0,0,0
 "Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
 "",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
 "Collg of Design &Engineering",Biomedical Engineering,BN5207,MEDICAL IMAGING SYSTEMS,L1,6,8,6,0,2,0,0,0

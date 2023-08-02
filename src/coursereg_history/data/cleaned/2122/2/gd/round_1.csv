@@ -10,7 +10,7 @@ Faculty of Arts & Social Sci,Chinese Studies,CHC5304,Society and Culture of the 
 Faculty of Arts & Social Sci,Chinese Studies,CHC5305,Prominent Nanyang Chinese in Modern China,L1,4,4,4,0,0,0,0,0
 Faculty of Arts & Social Sci,Chinese Studies,CHC5305,Prominent Nanyang Chinese in Modern China,L2,7,8,7,0,1,0,0,0
 Faculty of Arts & Social Sci,Chinese Studies,CHC5306,"Chinese Intellectual History, 10th – 19th Century",L1,5,9,5,0,4,0,0,0
-Social Sci Faculty of Arts & Remarks:,Chinese Studies,CHC5309,Economic & Management Thought in 19th Century,L1,8,8,8,0,0,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,CHC5309,Economic & Management Thought in Pre-Modern China,L1,8,8,8,0,0,0,0,0
 Faculty of Arts & Social Sci,Chinese Studies,CHC5310,Chinese Rhapsody,L1,1,7,1,0,6,0,0,0
 Faculty of Arts & Social Sci,Chinese Studies,CHC5314,Chinese Religion,E1,1,5,1,0,4,0,0,0
 Faculty of Arts & Social Sci,Chinese Studies,CHC5322,Pragmatics and Politeness,L1,9,8,8,1,0,0,0,0
@@ -264,6 +264,46 @@ Faculty of Engineering,Mechanical Engineering,ME6504,DEFECTS & DISLOCATIONS IN S
 Faculty of Engineering,Mechanical Engineering,ME6604,Modelling of Manufacturing Processes,L01,68,20,20,1,0,0,0,0
 Faculty of Engineering,Mechanical Engineering,OT5301,Subsea Systems Engineering,L01,30,26,26,1,0,0,0,0
 Faculty of Engineering,Mechanical Engineering,OT5304,Subsea Construction & Operational Support,L01,49,21,21,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5034V,International Regulation of Shipping,E1,2147483647,3,3,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5043,LAW OF MARINE INSURANCE,E1,2147483647,3,3,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5044V,Mediation,E1,2147483647,4,4,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5050V,Public International Law,E1,2147483647,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5054,Domestic and International Sale of Goods,E1,2147483647,8,8,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5063V,Business & Finance For Lawyers,E1,2147483647,4,4,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5074V,Mergers & Acquisitions,E1,2147483647,9,9,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5097V,Islamic Law,E1,2147483647,2,2,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5099V,Maritime Law,E1,2147483647,5,5,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5140V,Law of the Sea: Theory and Practice,E1,2147483647,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5150V,International Investment Law and Arbitration,E1,2147483647,6,6,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5162V,Singapore Corporate Governance,E1,2147483647,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5173V,Comparative Corporate Law,E1,2147483647,6,6,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5202V,ASEAN Economic Community Law and Policy,E1,2147483647,4,4,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5221,Climate Change Law & Policy,E1,2147483647,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5263V,Intellectual Property Rights and Competition Policy,E1,2147483647,8,8,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5295,Conflict of Laws in Int'l Commercial Arbitration,E1,2147483647,8,8,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5299,Advanced Issues in the Law & Practice of Int'l Arbitration,E1,2147483647,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5309V,Strategies for Asian Disputes - A Comparative Analysis,E1,2147483647,4,4,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5313,Mediation/Conciliation of Inter- & Investor-State Disputes,E1,2147483647,10,10,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5318V,Public Health Law and Regulation,E1,2147483647,3,3,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5327V,Mergers and Acquisitions: A Practitioner's Perspective,E1,2147483647,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5338V,Advanced Practicum in International Arbitration,E1,2147483647,5,5,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5339,Comparative Evidence in International Arbitration,E1,2147483647,4,4,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5349V,Energy Arbitration,E1,2147483647,6,6,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5350,Privacy & Data Protection Law,E1,2147483647,4,4,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5352,China and International Economic Law,E1,2147483647,13,13,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5360Z,Current Challenges to Investment Arbitration,E1,2147483647,14,14,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5361Z,Complex Arbitrations: Multiparty – Multicontract,E1,2147483647,10,10,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5364V,Principles of Civil Law: Law of Obligations & Property,E1,2147483647,4,4,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5375,Traditional Chinese Legal Thought,E1,2147483647,6,6,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5385,Taxation Law & the Global Digital Economy,E1,2147483647,2,2,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5396V,International Arbitration & Dispute Resolution Research,E1,2147483647,2,2,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5412,Securities and Capital Markets Regulation,E1,2147483647,3,3,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5438V,Intellectual Property Arbitration,E1,2147483647,12,12,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5442,Digital Trade and Digital Economy,E1,2147483647,18,18,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5456,Legal Technology & Innovation,E1,2147483647,2,2,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5460V,"Law, FinTech and the Platform Economy",E1,2147483647,25,25,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5461V,Compliance and Risk Management,E1,2147483647,11,11,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LLD5043,LAW OF MARINE INSURANCE,E1,2147483647,6,0,0,0,0,0,6
 Faculty of Science,Biological Sciences,BL5203,MOLECULAR RECOGNITION AND INTERACTIONS,L1,8,2,2,1,0,0,0,0
 Faculty of Science,Biological Sciences,BL5204,Graduate Bootcamp for Biotechnology Industry,L1,43,2,2,2,0,0,0,0
 Faculty of Science,Biological Sciences,BL5210,Biogeography,L1,12,3,3,0,0,0,0,0

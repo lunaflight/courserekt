@@ -1,25 +1,183 @@
 import argparse
 import csv
 import os
-import pandas as pd
-import re
-from typing import Iterator, List, Union
+from typing import List
 
 INF = 2147483647
-COURSE_REGEX = r'[A-Z]{2,5}\d{4}[A-Z]?'
+
+
+def _clean(s: str) -> str:
+    """
+    Helper function which strips extraneous whitespaces
+    and removes leading and trailing whitespaces.
+    It also replaces \n and \r with a saner ' '.
+
+    Args:
+        s (str): The input string/int to clean.
+
+    Returns:
+        str: The cleaned string.
+    """
+    s = ' '.join(s.split())
+    s = s.replace('\n', ' ')
+    s = s.replace('\r', ' ')
+    s = s.strip()
+    return s
+
+
+def _add_inf_to_data(data: List[List[str]]) -> None:
+    """
+    Helper function which takes in cleaned data and makes the
+    vacancy sane.
+    If the vacancy is empty or a '-', then it implies it has infinite
+    vacancy and should be replaced with a big integer, i.e. INF.
+
+    Args:
+        data (List[List[str]]): The cleaned data to add INF to.
+
+    Returns:
+        None
+    """
+    # 5 corresponds to vacancy
+    for row in data:
+        if row[5] == '-' or row[5] == '':
+            row[5] = str(INF)
+
+
+def _clean_row(r: List[str]) -> List[str]:
+    """
+    Helper function which takes in a CSV row and cleans
+    each entry in the row.
+
+    - New lines turn into normal spaces
+    - If "-" is found in the data, we replace it with a large number INF.
+    - We also strip whitespaces with the clean() function.
+
+    Args:
+        r (List[str]): The list of data to clean.
+
+    Returns:
+        List[str]: The cleaned list.
+    """
+    r = [_clean(item) for item in r]
+    return r
+
+
+def _is_overflowed_row(row: List[str]) -> bool:
+    """
+    Helper function which detects obviously misbehaving rows,
+    particularly anything with missing data.
+
+    Args:
+        row (List[str]): A row in the course data.
+
+    Returns:
+        bool: True iff the row is invalid.
+    """
+    return all(item == '' for item in row[-8:])
+
+
+def _is_header_row(row: List[str]) -> bool:
+    """
+    Helper function which removes obviously unimportant information,
+    particularly the headers of the tables.
+
+    Args:
+        row (List[str]): A row in the course data.
+
+    Returns:
+        bool: True iff the row is a header row.
+    """
+    HEADER_ROWS: List[List[str]] = [
+            ['Module Host Faculty/School', 'Module Host Department',
+             'Module Code', 'Module Title', 'Module Class', 'Vacancy',
+             'Demand', 'Successful Allocations',
+             'Unsuccessful Allocations due to:', '', '', '', ''],
+            ['Course Host Faculty/School', 'Course Host Department',
+             'Course Code', 'Course Title', 'Course Class', 'Vacancy',
+             'Demand', 'Successful Allocations',
+             'Unsuccessful Allocations due to:', '', '', '', ''],
+            ['', '', '', '', '', '', '', 'Main List', 'Reserve List',
+             'Quota Exceeded', 'Timetable Clashes',
+             'Workload Exceeded', 'Others'],
+            ['', '', '', '', '', '', 'Main List', 'Reserve List',
+             'Quota Exceeded', 'Timetable Clashes',
+             'Workload Exceeded', 'Others', '']
+            ]
+    return row in HEADER_ROWS
+
+
+def _merge_overflowed_rows(data: List[List[str]]) -> List[List[str]]:
+    """
+    Given data of which all rows contain useful information,
+    misbehaving rows are a result of the course overflowing from the
+    previous page.
+    They must be merged with the previous row, combining 2 rows
+    into 1 row of course information.
+
+    Args:
+        data (List[List[str]]): The filtered data of useful information.
+
+    Returns:
+        List[List[str]]: The merged data.
+    """
+    merged_data: List[List[str]] = []
+
+    i = 0
+    while i < len(data):
+        curr_row = data[i]
+        next_row = data[i + 1] if i + 1 < len(data) else None
+
+        if next_row is not None and _is_overflowed_row(next_row):
+            # Merge the next row with the current element-wise.
+            merged_row = [_clean(curr_row[col] + '\n' + next_row[col])
+                          for col in range(len(curr_row))]
+            merged_data.append(merged_row)
+            i += 2
+        else:
+            merged_data.append(curr_row)
+            i += 1
+
+    return merged_data
+
+
+def _insert_header(data: List[List[str]], header: List[str]) -> None:
+    """
+    Insert a header row in front of the data set.
+    This is to label the columns.
+
+    Args:
+        data (List[List[str]]): The cleaned data.
+        header (List[List[str]]): The header row to insert
+        in front of the data.
+
+    Returns:
+        None
+    """
+    data.insert(0, header)
+
+
+def _write_to_csv(data: List[List[str]], output_file_path: str) -> None:
+    """
+    Write a list of rows containing the data to a csv.
+
+    Args:
+        data (List[List[str]]): The cleaned data to write.
+        output_file_path (str): The path to save the cleaned CSV file.
+
+    Returns:
+        None
+    """
+    with open(output_file_path, 'w', newline='\n') as f:
+        writer = csv.writer(f)
+        for row in data:
+            writer.writerow(row)
 
 
 def clean_csv(input_file_path: str, output_file_path: str) -> None:
     """
-    Clean and structure a CSV file containing raw data.
-
-    Generally, each row contains all of its information easily.
-    However, there are a few edge cases:
-        1) Courses on the first page of the PDF appear to have its information
-        spread across 3 rows.
-        2) Courses with a long name that gets cut off to the next page
-        appear to have its information on its current row and 4 rows
-        down the page.
+    Clean a CSV file containing raw Tabula'd data.
+    We first filter out bad rows, then merge overflowed rows.
 
     Args:
         input_file_path (str): The path to the input CSV file.
@@ -28,115 +186,27 @@ def clean_csv(input_file_path: str, output_file_path: str) -> None:
     Returns:
         None
     """
-    # Define the column headers for our pandas DataFrame
-    cols = ["Faculty", "Department", "Code", "Title", "Class",
-            "Vacancy", "Demand",
-            "Successful (Main)", "Successful (Reserve)",
-            "Quota Exceeded", "Timetable Clashes", "Workload Exceeded",
-            "Others"]
-    COL_COUNT = 13
-    dtypes = {"Vacancy": int, "Demand": int, "Successful (Main)": int,
-              "Successful (Reserve)": int, "Quota Exceeded": int,
-              "Timetable Clashes": int, "Workload Exceeded": int,
-              "Others": int}
-
-    # Instantiate an empty DataFrame with our column headers
-    df = pd.DataFrame(columns=cols).astype(dtypes)
-
-    # Define a helper function to clean up and normalize our string data
-    def clean(s: Union[str, int]) -> str:
-        s = str(s)
-        # Remove extraneous whitespace and trim leading/trailing spaces
-        return (' '.join(s.split())).strip()
-
-    def clean_row(r: List[str]) -> List[str]:
-        r = [item.replace('\n', ' ') for item in r]
-        r = [str(INF) if item == '-' else item for item in r]
-        return [clean(item) for item in r]
-
-    # Open our raw data CSV file and read it into a list
     with open(input_file_path, 'r') as f:
-        data = list(csv.reader(f))
+        data: List[List[str]] = list(csv.reader(f))
 
-    # Define our padding rows, to be used for ensuring we can iterate safely
-    padding_start = [['' for _ in range(COL_COUNT)]]
-    padding_end = [['' for _ in range(COL_COUNT)] for _ in range(3)]
+    data = [_clean_row(row) for row in data]
+    data = [row for row in data if not _is_header_row(row)]
+    data = _merge_overflowed_rows(data)
+    _add_inf_to_data(data)
+    _insert_header(data,
+                   ["Faculty", "Department", "Code", "Title", "Class",
+                    "Vacancy", "Demand",
+                    "Successful (Main)", "Successful (Reserve)",
+                    "Quota Exceeded", "Timetable Clashes", "Workload Exceeded",
+                    "Others"])
 
-    # Pad our data at the start and end
-    data = padding_start + data + padding_end
-
-    # Define a helper function to create an iterator with
-    # a certain number of "skipped" elements
-    def iter_with_skip(data: List[List[str]],
-                       num_skips: int) -> Iterator[List[str]]:
-        it = iter(data)
-        for _ in range(num_skips):
-            next(it, None)
-        return it
-
-    # Create four copies of our iterator,
-    # each starting at a different point in the data
-    it1 = iter(data)
-    it2 = iter_with_skip(data, 1)
-    it3 = iter_with_skip(data, 2)
-    it4 = iter_with_skip(data, 4)
-
-    # Loop through our data, processing four rows at a time
-    for prev_row, row, next_row, nextnextnext_row in zip(it1, it2, it3, it4):
-        # Replace newline characters in our row
-        row = clean_row(row)
-
-        # Check if the row has the expected
-        # number of fields and the right format
-        if (len(row) == len(cols) and
-            all(cell.isdigit()
-                for cell in row[5:])):
-            # Edge Case: The course was cut off and continued
-            # on the next page - merge with 3 rows in the future.
-            if all(cell == '' for cell in nextnextnext_row[5:]):
-                new_row = [a + ' ' + b for a, b in zip(row, nextnextnext_row)]
-            else:
-                new_row = row
-            new_row = clean_row(new_row)
-
-            # Append the new row to the dataframe
-            temp_df = pd.DataFrame([new_row], columns=cols)
-            df = pd.concat([df, temp_df], ignore_index=True)
-
-        # Edge Case: The courses are on the first page and
-        # cannot be parsed properly. Info spread across 3 rows - merge around.
-        elif (len(row) == 3 and
-              re.match(COURSE_REGEX, row[2].split(' ')[0])):
-            faculty = clean(f"{prev_row[0]} {row[0]} {next_row[0]}")
-            department = clean(f"{prev_row[1]} {row[1]} {next_row[1]}")
-
-            course_parts = row[2].split()
-            code = course_parts[0]
-            fragmented_title = ' '.join(course_parts[1:-9])
-            title = clean(f"{fragmented_title} {prev_row[2]} {next_row[2]}")
-
-            # Append the cleaned and merged fields to the dataframe
-            numbers = course_parts[-9:]
-            new_row = ([faculty] + [department] + [code]
-                       + [title] + numbers)
-            new_row = clean_row(new_row)
-            if len(new_row) == len(cols):
-                temp_df = pd.DataFrame([new_row], columns=cols)
-                df = pd.concat([df, temp_df], ignore_index=True)
-
-    # Save our cleaned and structured data to a new CSV file
-    df.to_csv(output_file_path, index=False)
+    _write_to_csv(data, output_file_path)
 
 
 def main() -> None:
-    # Instantiate the parser
     parser = argparse.ArgumentParser(description='CSV Cleaner')
-
-    # Add long and short argument
     parser.add_argument('--input', '-i',
                         help='Input CSV files', required=True, nargs='+')
-
-    # Parse arguments
     args = parser.parse_args()
 
     # For each input file, clean the file and generate output
@@ -147,7 +217,6 @@ def main() -> None:
         # Create the output directory if it doesn't exist
         os.makedirs(os.path.dirname(output_file), exist_ok=True)
 
-        # clean the csv file
         clean_csv(input_file, output_file)
 
 

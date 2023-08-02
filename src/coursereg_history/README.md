@@ -1,4 +1,4 @@
-## Project Structure
+# Project Structure
 
 ```
 .
@@ -22,9 +22,9 @@
     - JAR file using Tabula to convert PDFs to raw CSV data.
 ```
 
-## Implementation
+# Implementation
 
-### CourseReg Records
+## CourseReg Records
 
 It contains code which scrapes and cleans data from the PDFs given by NUS, which is then parsed into easier-to-read formats.
 
@@ -36,45 +36,26 @@ It contains code which scrapes and cleans data from the PDFs given by NUS, which
 
 All of these steps are orchestrated using a Makefile.
 
-### Data Cleaning
-Data cleaning from the CSV returned by Tabula is finicky.
-Great care must be taken in `clean_csvs.py` to navigate ill-defined data.
+## Data Cleaning
+The CSV returned by Tabula using the `--lattice` flag is well-behaved. Only the data found in the table lattice is captured.
+However, great care must still be taken in `clean_csvs.py` to navigate ill-defined data.
 
-Well-behaved data will have 13 columns, corresponding to the following:
+The data has 13 columns, corresponding to the following:
 
 - Faculty, Department, Code, Title, Class,
 - Vacancy, Demand,
 - Successful (Main), Successful (Reserve)
 - Quota Exceeded, Timetable Clashes, Workload Exceeded, Others.
 
-Any other data without 13 columns is taken as invalid and dropped.
+We remove all table headers from the data, corresponding to `_is_header_row()` in `clean_csvs.py`.
 
-However, some valid courses have ill-behaved data.
+We also do simple housekeeping such as replacing '\n' with ' '.
+
+We will be left with rows that all necessarily contain useful information.
 The following list explains, exhaustively, all ill-behaved data found in the table.
 
-#### Courses on the first page of the PDF
-
-Courses on the first page of the PDF are always spread across 3 rows, with the data not being delimited properly of the Code, Class, Vacancy, ... onwards.
-
-This is an example taken from `raw/2223/1/ug/round_0.csv`.
-
-**Row `t + 0`**
-```
-Coll. of Humanities,,Driving Towards the Future: Battery
-```
-**Row `t + 1`**
-```
-"",Chemistry,HS2904 L1 100 9 9 4 0 0 0 0
-```
-**Row `t + 2`**
-```
-& Sciences,,Electric Vehicles
-```
-
-#### Courses spilling data across pages
-Courses with a sufficiently long field on the last entry of the PDF can have
-its data spill over to the next page.
-Their data will be spread across 4 rows, of which only the first and last of these 4 rows contain meaningful data.
+### Courses spilling data across pages
+Courses with a sufficiently long field on the last entry of the PDF can have its data spill over to the next page.
 
 This is an example taken from `raw/2223/1/ug/round_0.csv`.
 
@@ -84,28 +65,19 @@ Yale-NUS College,Yale-NUS College,YSS4206C,Topics in Psychology: The Pursuit of,
 ```
 **Row `t + 1`**
 ```
-"Module Host
-Faculty/School","Module Host
-Department","Module
-Code",Module Title,"Module
-Class",Vacancy,Demand,"Successful
-Allocations",Unsuccessful Allocations due to:,,,,
-```
-**Row `t + 2`**
-```
-"",,,,,,,"Main
-List","Reserve
-List","Quota
-Exceeded","Timetable
-Clashes","Workload
-Exceeded",Others
-```
-**Row `t + 3`**
-```
 "",,,Happiness,,,,,,,,,
 ```
 
-## Usage
+### Courses which have a missing Vacancy field
+Courses, especially prefixed with `LL`, tend to have empty vacancy fields.
+This should be treated the same as a `-` field.
+
+This is an example taken from `raw/2223/1/ug/round_1.csv`.
+```
+Faculty of Law,FoL Dean's Office,LL4002V,Admiralty Law & Practice,E1,,3,3,0,0,0,0,0
+```
+
+# Usage
 
 ## `api.py`
 
@@ -203,9 +175,6 @@ Generate the absolute file path for a specific PDF file.
 | Type | Description |
 |---|---|
 | str | The absolute file path of the PDF file. |
-
-### pdf_exists
-
 
 ### pdf_exists
 

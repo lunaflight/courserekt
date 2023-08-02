@@ -1,64 +1,17 @@
-"",,Module Class Demand and Allocation Report
-"",,"Graduate Modules, Select Modules (Round 3)"
-"",,"Semester 2, AY2021/2022"
-"",,Module Class Demand and Allocation Report
-"",,"Graduate Modules, Select Modules (Round 3)"
-"",,"Semester 2, AY2021/2022"
-"",,(updated: 07/01/2022)
-"",,Successful
-"",,Unsuccessful Allocations due to:
-Module Host,Module Host,Module Module Allocations
-"",,Module Title Vacancy Demand
-Faculty/School,Department,Code Class Main Reserve Quota Timetable Workload
-"",,Others
-"",,List List Exceeded Clashes Exceeded
-College of Design,,
-"",Biomedical Engineering,BN5102 Clinical Instrumentation L1 1 5 2 0 3 0 0 0
-and Eng,,
-College of Design,,
-"",Biomedical Engineering,BN5203 ADVANCED TISSUE ENGINEERING L1 24 1 1 0 0 0 0 0
-and Eng,,
-College of Design,,
-"",Biomedical Engineering,BN5207 MEDICAL IMAGING SYSTEMS L1 27 1 1 0 0 0 0 0
-and Eng,,
-College of Design,,Advanced Human Motion
-"",Biomedical Engineering,BN6202 L1 20 3 3 0 0 0 0 0
-and Eng,,Biomechanics
-College of Design,,Advanced Quantitative Fluorescence
-"",Biomedical Engineering,BN6401 L1 6 2 2 0 0 0 0 0
-and Eng,,Microscopy
-College of Design,Chemical &,ADVANCED TRANSPORT
-"",,CN5040 L1 13 1 1 0 0 0 0 0
-and Eng,Biomolecular Eng,PHENOMENA
-College of Design,Chemical &,ADVANCED SEPARATION
-"",,CN5050 L1 18 1 1 0 0 0 0 0
-and Eng,Biomolecular Eng,PROCESSES
-College of Design,Chemical &,Introduction to Electrochemical
-"",,CN5112 L1 31 9 9 0 0 0 0 0
-and Eng,Biomolecular Eng,Systems
-College of Design,Chemical &,POLYMER PROCESSING
-"",,CN5161 L1 8 1 1 0 0 0 0 0
-and Eng,Biomolecular Eng,ENGINEERING
-College of Design,Chemical &,INSTRUMENTAL METHODS OF
-"",,CN5193 L1 3 3 3 0 0 0 0 0
-and Eng,Biomolecular Eng,ANALYSIS
-College of Design,Chemical &,Atomistic Modelling of Molecules and
-"",,CN5215 L1 0 3 0 0 3 0 0 0
-and Eng,Biomolecular Eng,Materials
-College of Design,Chemical &,
-"",,CN5246 Catalysis Science and Engineering L1 5 1 1 0 0 0 0 0
-and Eng,Biomolecular Eng,
-Remarks:,,
-"1. Vacancy, Demand and Successful/Unsuccessful Allocations data in this report display the module classes, selected under main list in this current round, unless otherwise stated.",,
-"2. The same module may be available to different students at different ""Select Modules"" rounds. The general guide to check if the module is available in a particular round is as follows:",,
-"•""Select Modules"" Round 1 is a protected round for programme requirements, restricted/direct minor requirements and CELC English requirements.",,
-"•""Select Modules"" Round 2 onwards include modules selection for University-level requirement and Unrestricted Elective requirements.",,
-"3. The ""Vacancy"" column displays the quota (by student's career) as at running the Select Modules allocation for this current round. It is subject to changes, such as modules allocated by admins",,
-before running allocation process for deserving students. All the available vacancies of the module-class will be merged when processing module allocation for Select Modules (Round 3) and,,
-"Submit Module Requests. It will be updated with ""-"" when a module class has reached to its maximum capacity. In such situation, students are not allowed to select classes or submit appeals.",,
-"4. The ""Others"" column includes reasons such as class has already been allocated earlier, class is being cancelled or student's programme status is no longer active.",,
-5. Please note that the total quota for most Law elective modules (across all Academic Careers) is 50.,,Page 1 of 31
-"",,As at 7-Jan-22
+"Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"College of Designand Eng",Biomedical Engineering,BN5102,Clinical Instrumentation,L1,1,5,2,0,3,0,0,0
+"College of Designand Eng",Biomedical Engineering,BN5203,ADVANCED TISSUE ENGINEERING,L1,24,1,1,0,0,0,0,0
+"College of Designand Eng",Biomedical Engineering,BN5207,MEDICAL IMAGING SYSTEMS,L1,27,1,1,0,0,0,0,0
+"College of Designand Eng",Biomedical Engineering,BN6202,"Advanced Human MotionBiomechanics",L1,20,3,3,0,0,0,0,0
+"College of Designand Eng",Biomedical Engineering,BN6401,"Advanced Quantitative FluorescenceMicroscopy",L1,6,2,2,0,0,0,0,0
+"College of Designand Eng","Chemical &Biomolecular Eng",CN5040,"ADVANCED TRANSPORTPHENOMENA",L1,13,1,1,0,0,0,0,0
+"College of Designand Eng","Chemical &Biomolecular Eng",CN5050,"ADVANCED SEPARATIONPROCESSES",L1,18,1,1,0,0,0,0,0
+"College of Designand Eng","Chemical &Biomolecular Eng",CN5112,"Introduction to ElectrochemicalSystems",L1,31,9,9,0,0,0,0,0
+"College of Designand Eng","Chemical &Biomolecular Eng",CN5161,"POLYMER PROCESSINGENGINEERING",L1,8,1,1,0,0,0,0,0
+"College of Designand Eng","Chemical &Biomolecular Eng",CN5193,"INSTRUMENTAL METHODS OFANALYSIS",L1,3,3,3,0,0,0,0,0
+"College of Designand Eng","Chemical &Biomolecular Eng",CN5215,"Atomistic Modelling of Molecules andMaterials",L1,0,3,0,0,3,0,0,0
+"College of Designand Eng","Chemical &Biomolecular Eng",CN5246,Catalysis Science and Engineering,L1,5,1,1,0,0,0,0,0
 "Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
 "",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
 "College of Designand Eng","Chemical &Biomolecular Eng",CN5432,"Fundamentals and Applications ofPorous Materials",L1,1,1,1,0,0,0,0,0

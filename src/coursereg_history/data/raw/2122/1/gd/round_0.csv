@@ -1,64 +1,17 @@
-"",,Module Class Demand and Allocation Report
-"",,"Graduate Modules, Select Modules (Round 0)"
-"",,"Semester 1, AY2021/2022"
-"",,Module Class Demand and Allocation Report
-"",,"Graduate Modules, Select Modules (Round 0)"
-"",,"Semester 1, AY2021/2022"
-"",,(updated: 25/06/2021)
-"",,Successful
-"",,Unsuccessful Allocations due to:
-Module Host,Module Host,Module Module Allocations
-"",,Module Title Vacancy Demand
-Faculty/School,Department,Code Class Main Reserve Quota Timetable Workload
-"",,Others
-"",,List List Exceeded Clashes Exceeded
-Faculty of Arts &,,ECONOMETRIC MODELLING AND
-"",Economics,EC5103 S1 50 1 1 0 0 0 0 0
-Social Sci,,APPLICATIONS I
-Faculty of Arts &,,ECONOMETRIC MODELLING AND
-"",Economics,EC5103 S2 39 1 1 0 0 0 0 0
-Social Sci,,APPLICATIONS I
-Faculty of Arts &,,
-"",Economics,EC5104 Mathematics for Economists S1 40 2 2 0 0 0 0 0
-Social Sci,,
-Faculty of Arts &,,
-"",Economics,EC5361 LABOUR ECONOMICS S1 39 2 2 0 0 0 0 0
-Social Sci,,
-Faculty of Arts &,,
-"",Economics,EC6316 Contract Theory and Applications S1 50 1 1 0 0 0 0 0
-Social Sci,,
-Faculty of Arts &,,
-"",Economics,ECA5101 MICROECONOMICS SW1 75 6 6 0 0 0 0 0
-Social Sci,,
-Faculty of Arts &,,
-"",Economics,ECA5102 MACROECONOMICS S2 85 3 3 0 0 0 0 0
-Social Sci,,
-Faculty of Arts &,,
-"",Economics,ECA5102 MACROECONOMICS SW1 75 3 3 0 0 0 0 0
-Social Sci,,
-Faculty of Arts &,,QUANTITATIVE & COMPUTING
-"",Economics,ECA5103 S1 100 5 4 0 0 0 0 1
-Social Sci,,METHODS
-Faculty of Arts &,,QUANTITATIVE & COMPUTING
-"",Economics,ECA5103 SW2 60 7 7 0 0 0 0 0
-Social Sci,,METHODS
-Faculty of Arts &,,
-"",Economics,ECA5305 Programming for Economists S1 45 2 2 0 0 0 0 0
-Social Sci,,
-Faculty of Arts &,,
-"",Economics,ECA5305 Programming for Economists SW1 15 12 12 0 0 0 0 0
-Social Sci,,
-Remarks:,,
-"1. Vacancy, Demand and Successful/Unsuccessful Allocations data in this report display the module classes, selected under main list in this current round, unless otherwise stated.",,
-"2. The same module may be available to different students at different ""Select Modules"" rounds. The general guide to check if the module is available in a particular round is as follows:",,
-"•""Select Modules"" Round 1 is a protected round for programme requirements, restricted/direct minor requirements and CELC English requirements.",,
-"•""Select Modules"" Round 2 onwards include modules selection for University-level requirement and Unrestricted Elective requirements.",,
-"3. The ""Vacancy"" column displays the quota (by student's career) as at running the Select Modules allocation for this current round. It is subject to changes, such as modules allocated by admins",,
-before running allocation process for deserving students. All the available vacancies of the module-class will be merged when processing module allocation for Select Modules (Round 3) and,,
-"Submit Module Requests. It will be updated with ""-"" when a module class has reached to its maximum capacity. In such situation, students are not allowed to select classes or submit appeals.",,
-"4. The ""Others"" column includes reasons such as class has already been allocated earlier, class is being cancelled or student's programme status is no longer active.",,
-5. Please note that the total quota for most Law elective modules (across all Academic Careers) is 50.,,Page 1 of 20
-"",,As at 25-Jun-21
+"Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
+"",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
+"Faculty of Arts &Social Sci",Economics,EC5103,"ECONOMETRIC MODELLING ANDAPPLICATIONS I",S1,50,1,1,0,0,0,0,0
+"Faculty of Arts &Social Sci",Economics,EC5103,"ECONOMETRIC MODELLING ANDAPPLICATIONS I",S2,39,1,1,0,0,0,0,0
+"Faculty of Arts &Social Sci",Economics,EC5104,Mathematics for Economists,S1,40,2,2,0,0,0,0,0
+"Faculty of Arts &Social Sci",Economics,EC5361,LABOUR ECONOMICS,S1,39,2,2,0,0,0,0,0
+"Faculty of Arts &Social Sci",Economics,EC6316,Contract Theory and Applications,S1,50,1,1,0,0,0,0,0
+"Faculty of Arts &Social Sci",Economics,ECA5101,MICROECONOMICS,SW1,75,6,6,0,0,0,0,0
+"Faculty of Arts &Social Sci",Economics,ECA5102,MACROECONOMICS,S2,85,3,3,0,0,0,0,0
+"Faculty of Arts &Social Sci",Economics,ECA5102,MACROECONOMICS,SW1,75,3,3,0,0,0,0,0
+"Faculty of Arts &Social Sci",Economics,ECA5103,"QUANTITATIVE & COMPUTINGMETHODS",S1,100,5,4,0,0,0,0,1
+"Faculty of Arts &Social Sci",Economics,ECA5103,"QUANTITATIVE & COMPUTINGMETHODS",SW2,60,7,7,0,0,0,0,0
+"Faculty of Arts &Social Sci",Economics,ECA5305,Programming for Economists,S1,45,2,2,0,0,0,0,0
+"Faculty of Arts &Social Sci",Economics,ECA5305,Programming for Economists,SW1,15,12,12,0,0,0,0,0
 "Module HostFaculty/School","Module HostDepartment","ModuleCode",Module Title,"ModuleClass",Vacancy,Demand,"SuccessfulAllocations",Unsuccessful Allocations due to:,,,,
 "",,,,,,,"MainList","ReserveList","QuotaExceeded","TimetableClashes","WorkloadExceeded",Others
 "Faculty of Arts &Social Sci",Economics,ECA5315,FINANCIAL ECONOMETRICS,S1,50,4,4,0,0,0,0,0
