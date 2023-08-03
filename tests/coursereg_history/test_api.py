@@ -105,6 +105,24 @@ class MainTestCase(unittest.TestCase):
         except Exception as e:
             self.fail(f"Unexpected exception raised: {e}")
 
+    def test_good_omitted_vacancy(self):
+        try:
+            result = get_data("2223", "1", "ug", "LL4004V")
+            self.assertTrue(result['code'] == 'LL4004V')
+            self.assertTrue(result['classes'] ==
+                            {'E1': [{'demand': -1, 'vacancy': -1, 'successful_main': -1, 'successful_reserve': -1, 'quota_exceeded': -1, 'timetable_clashes': -1, 'workload_exceeded': -1, 'others': -1}, {'demand': 9, 'vacancy': 2147483647, 'successful_main': 9, 'successful_reserve': 5, 'quota_exceeded': 0, 'timetable_clashes': 0, 'workload_exceeded': 0, 'others': 0}, {'demand': 8, 'vacancy': 2147483647, 'successful_main': 8, 'successful_reserve': 2, 'quota_exceeded': 0, 'timetable_clashes': 0, 'workload_exceeded': 0, 'others': 0}, {'demand': 5, 'vacancy': 2147483647, 'successful_main': 5, 'successful_reserve': 1, 'quota_exceeded': 0, 'timetable_clashes': 0, 'workload_exceeded': 0, 'others': 0}]})
+        except Exception as e:
+            self.fail(f"Unexpected exception raised: {e}")
+
+    def test_good_hyphenated_vacancy(self):
+        try:
+            result = get_data("2223", "2", "ug", "CM3253")
+            self.assertTrue(result['code'] == 'CM3253')
+            self.assertTrue(result['classes'] ==
+                            {'L1': [{'demand': 6, 'vacancy': 2147483647, 'successful_main': 6, 'successful_reserve': 0, 'quota_exceeded': 0, 'timetable_clashes': 0, 'workload_exceeded': 0, 'others': 0}, {'demand': 3, 'vacancy': 2147483647, 'successful_main': 3, 'successful_reserve': 0, 'quota_exceeded': 0, 'timetable_clashes': 0, 'workload_exceeded': 0, 'others': 0}, {'demand': 2, 'vacancy': 2147483647, 'successful_main': 2, 'successful_reserve': 0, 'quota_exceeded': 0, 'timetable_clashes': 0, 'workload_exceeded': 0, 'others': 0}, {'demand': 3, 'vacancy': 2147483647, 'successful_main': 3, 'successful_reserve': 0, 'quota_exceeded': 0, 'timetable_clashes': 0, 'workload_exceeded': 0, 'others': 0}]})
+        except Exception as e:
+            self.fail(f"Unexpected exception raised: {e}")
+
     def test_bad_year(self):
         with self.assertRaises(ValueError):
             get_data("1819", "2", "ug", "CS2030S")
