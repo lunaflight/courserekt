@@ -128,3 +128,13 @@ This will initiate the deployment process, and Vercel will guide you through the
 ## Contributing
 
 Feel free to fork the project, make some changes, and submit a pull request. If you find any bugs or have any suggestions, please open an issue. All contributions are welcomed!
+
+## Contributors
+
+Thank you to all of our contributors!
+
+<a href="https://github.com/et-irl/courserekt/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=et-irl/courserekt" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
