@@ -33,16 +33,11 @@ footer {
     align-items: flex-start;
 }
 
-.form-container,
-.table-container {
-    padding: 0px;
-}
-
 .form-container {
     flex: 1;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: baseline;
     margin-right: 10px;
     position: sticky;
     top: 10%;
@@ -59,11 +54,6 @@ footer {
     width: max-content;
 }
 
-form {
-    margin-bottom: 20px;
-    width: 100%;
-}
-
 table {
     width: 100%;
     table-layout: fixed;
@@ -76,16 +66,22 @@ th, td {
 }
 
 th {
-    background-color: #eaeaea;
-    font-weight: bold;
     position: sticky;
+    font-weight: bold;
     top: 0;
     z-index: 1;
-    width: 100px;
+}
+
+.table-code, .table-name, .table-class {
+    background-color: #eaeaea;
 }
 
 .table-code {
     width: 85px;
+}
+
+.table-name {
+    width: 100px;
 }
 
 .table-class {
@@ -94,6 +90,8 @@ th {
 
 .table-round {
     width: 65px;
+    background-color: #FFC965;
+    text-align: center;
 }
 
 input[type=text], select {
@@ -123,6 +121,7 @@ input[type=submit]:hover {
 .search-bar-container {
   position: relative;
   display: inline-block;
+  margin-bottom: 1rem;
 }
 
 .help-icon {

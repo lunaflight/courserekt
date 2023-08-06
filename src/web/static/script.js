@@ -54,9 +54,12 @@ async function toggleColumnByCheckbox() {
  * @function
  */
 async function filterCourses() {
-  const searchInput = document.getElementById('search-input').value.toUpperCase();
+  const searchInput = document.getElementById('search-input');
+  localStorage.setItem('searchValue', searchInput.value);
+
+  const formattedInput = searchInput.value.toUpperCase();
   const tableRows = document.getElementsByTagName('tr');
-  const filters = searchInput.split(' ').filter(Boolean);
+  const filters = formattedInput.split(' ').filter(Boolean);
 
   const courseCodeIndex = 0;
 
@@ -89,6 +92,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // The search bar should constantly filter courses as new input is received.
   const searchInput = document.getElementById('search-input');
+  searchInput.value = localStorage.getItem('searchValue') || '';
   searchInput.addEventListener('input', filterCourses);
   filterCourses();
 

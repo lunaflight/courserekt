@@ -22,7 +22,7 @@
     <div class="my-container">
       <!-- Sidebar -->
       <div class="form-container">
-        <h1 style="margin-right: 20px; font-size: 26px; font-weight: bold; font-family: 'Roboto', sans-serif;">🚀 CourseRekt 😵</h1>
+        <h1 style="font-size: 26px; font-weight: bold; font-family: 'Roboto', sans-serif; margin: 0 auto; margin-bottom: 1rem;">🚀 CourseRekt 😵</h1>
         <p style="font-size: 1rem;">View current and past data for the registration of NUS courses easily!</p>
         <!-- Form -->
         <form id="course-form" method="POST">
@@ -65,21 +65,20 @@
               </label>
             </div>
           </div>
-          <!-- Search Bar -->
-          <label for="course_codes"><b>Course Codes:</b></label><br>
-          <div class="search-bar-container">
-            <input type="text" id="search-input" name="search-input" oninput="filterCourses()" placeholder="Search course codes..." value="{{ request.form.get('search-input', '') }}" autocomplete="off">
-            <span class="help-icon" data-toggle="tooltip" data-placement="top" title="Add a space to get additional search matches (e.g. 'CS2 EL GESS')"><i class="fa fa-question-circle"></i></span>
-          </div>
-
         </form> 
+        <!-- Search Bar -->
+        <label for="course_codes"><b>Course Codes:</b></label><br>
+        <div class="search-bar-container">
+          <input type="text" id="search-input" name="search-input" oninput="filterCourses()" placeholder="Search course codes..." autocomplete="off">
+          <span class="help-icon" data-toggle="tooltip" data-placement="top" title="Add a space to get additional search matches (e.g. 'CS2 EL GESS')"><i class="fa fa-question-circle"></i></span>
+        </div>
         <!-- Toggle Visibility -->
-        <label for="toggle-column-checkbox" class="btn btn-secondary" style="margin-right: auto; width: auto;">
+        <label for="toggle-column-checkbox" class="btn btn-secondary">
           <input type="checkbox" id="toggle-column-checkbox" style="transform: scale(1.2);" autocomplete="off" checked> 
           &nbsp;Show Course Names
         </label>
         {% if error %}
-        <div class="alert alert-danger" style="margin-right: auto; width: auto;">
+        <div class="alert alert-danger">
           <strong>Error:</strong> {{ error }}
         </div>
         {% endif %}
@@ -94,13 +93,13 @@
           <thead>
             <tr>
               <th class="table-code">Code</th>
-              <th>Name</th>
+              <th class="table-name">Name</th>
               <th class="table-class">Class</th>
               {% for round_num in range(4) %}
                 {% set year = request.form.get('year', '2324') %}
                 {% set semester = request.form.get('semester', '1') %}
                 {% set type = request.form.get('type', 'ug') %}
-              <th class='table-round' style="background-color: #FFC965; text-align: center;">
+              <th class='table-round'>
                 {% if pdf_exists(year, semester, type, round_num) %}
                 {% set url = url_for('serve_pdf', year=year, semester=semester, type=type, round_num=round_num) %}
                 <a href="{{ url }}" target="_blank">Round {{ round_num }}</a>
