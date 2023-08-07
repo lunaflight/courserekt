@@ -28,6 +28,8 @@ Each cell corresponds to the data in the PDF for the course's class and round nu
 
 ```
 .
+├── .github/workflows
+    - Contains the files for continuous integration.
 ├── .gitignore
     - Contains the list of files to ignore upon committing to git.
 ├── README.md
