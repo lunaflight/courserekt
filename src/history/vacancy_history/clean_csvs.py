@@ -28,15 +28,15 @@ def _clean(s: str) -> str:
     return s
 
 
-def _add_inf_to_data(data: List[List[str]]) -> None:
+def _fix_empty_data(data: List[List[str]]) -> None:
     """
     Helper function which takes in cleaned data and makes the
-    vacancy sane.
-    If the vacancy is empty or a '-', then it implies it has infinite
-    vacancy and should be replaced with a big integer, i.e. INF.
+    vacancies sane.
+    If the vacancy is empty or a '-' or a 'x', then it implies it has no
+    vacancy and should be replaced with a small integer, i.e. -1.
 
     Args:
-        data (List[List[str]]): The cleaned data to add INF to.
+        data (List[List[str]]): The cleaned data to add -1 to.
 
     Returns:
         None
@@ -183,7 +183,7 @@ def clean_csv(input_file_path: str, output_file_path: str) -> None:
     data = [_clean_row(row) for row in data]
     data = [row for row in data if not _is_header_row(row)]
     data = _merge_overflowed_rows(data)
-    _add_inf_to_data(data)
+    _fix_empty_data(data)
     _insert_header(data, VACANCY_HEADER)
 
     _write_to_csv(data, output_file_path)
