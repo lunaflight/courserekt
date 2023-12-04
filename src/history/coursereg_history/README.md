@@ -1,21 +1,3 @@
-# Project Structure
-
-```
-.
-├── api.py
-    - Contains functions for all queries related to the CourseReg data.
-├── clean_csvs.py
-    - Python script to convert the raw CSV data to cleaned CSV data.
-├── csv_to_db.py
-    - Python script to add cleaned CSV data to database.db.
-├── data
-    - Contains the PDFs, raw CSVs and cleaned CSVs.
-    - All directories are of the form:
-    - /{DATA_TYPE}/{YEAR}/{SEMESTER}/{UG or GD}/round_{N}.{DATA_TYPE}
-└── Makefile
-    - Makefile to streamline adding a PDF leading to update the database.
-```
-
 # Implementation
 
 ## CourseReg Records

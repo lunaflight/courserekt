@@ -91,7 +91,7 @@ When new data is released, the program can be updated easily. You can follow the
 2. Navigate to `src/history/coursereg_history/data/pdfs`. 
 3. Create the relevant directory by running `mkdir -p YEAR/SEM/TYPE`. For example, `2324/1/ug` or `2425/2/gd`.
 4. Add the pdf in the relevant directory, naming it `round_N.pdf`. For example, `round_0.pdf`.
-5. Navigate to `src/history/coursereg_history`. Run `make all`.
+5. Navigate to `src/history`. Run `make all`.
 6. You're done! The data should have been added successfully and ready to use.
 
 ### Deployment to Vercel
