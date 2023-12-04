@@ -12,8 +12,6 @@
     - Contains the PDFs, raw CSVs and cleaned CSVs.
     - All directories are of the form:
     - /{DATA_TYPE}/{YEAR}/{SEMESTER}/{UG or GD}/round_{N}.{DATA_TYPE}
-├── database.db
-    - Database to store all cleaned CSV data for SQL queries.
 └── Makefile
     - Makefile to streamline adding a PDF leading to update the database.
 ```

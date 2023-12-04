@@ -118,7 +118,7 @@ def get_data(year: Union[str, int],
 
     # Establish the database connection if not provided
     if conn is None:
-        conn = sqlite3.connect(os.path.join(BASE_DIR, 'database.db'))
+        conn = sqlite3.connect(os.path.join(BASE_DIR, '../database.db'))
     conn.row_factory = sqlite3.Row
 
     # Prepare the structure of returned value
@@ -223,7 +223,7 @@ def _get_set_of_all_codes(year: Union[str, int],
 
     # Establish the database connection if not provided
     if conn is None:
-        conn = sqlite3.connect(os.path.join(BASE_DIR, 'database.db'))
+        conn = sqlite3.connect(os.path.join(BASE_DIR, '../database.db'))
     conn.row_factory = sqlite3.Row
 
     # for each round, execute the SQL query
@@ -274,7 +274,7 @@ def get_all_data(year: Union[str, int],
     Returns:
         List[CourseData]: A list of course data.
     """
-    conn = sqlite3.connect(os.path.join(BASE_DIR, 'database.db'))
+    conn = sqlite3.connect(os.path.join(BASE_DIR, '../database.db'))
 
     codes: Set[str] = _get_set_of_all_codes(year, semester, ug_gd, conn)
     sorted_codes: List[str] = sorted(codes)

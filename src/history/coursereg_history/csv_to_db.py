@@ -10,7 +10,7 @@ def process_csv_files(csv_files: List[str]) -> None:
     into an SQLite database."""
 
     # Connect to your SQLite database
-    conn = sqlite3.connect('database.db')
+    conn = sqlite3.connect('../database.db')
 
     # Process each CSV file
     for csv_file in csv_files:
