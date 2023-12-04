@@ -70,6 +70,16 @@ To run the tests, navigate to the **project root** of this project, and run:
 python -m unittest discover
 ```
 
+### Static Code Analysis
+
+First, ensure Mypy is installed. If it is not, run `pip install mypy`.
+
+To run the analysis, navigate to the **project root** of this project, and run:
+
+```shell
+mypy .
+```
+
 ### Adding New CourseReg Data
 When new data is released, the program can be updated easily. You can follow the following steps to update it.
 
