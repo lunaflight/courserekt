@@ -141,7 +141,8 @@ def get_data(year: Union[str, int],
     # for each round, execute the SQL query
     for round_number in range(ROUNDS):
         TABLE_NAME = (
-                f"data_cleaned_{year}_{semester}_{ug_gd}_round_{round_number}")
+                "coursereg_history_data_cleaned_"
+                f"{year}_{semester}_{ug_gd}_round_{round_number}")
 
         if not pdf_exists(year, semester, ug_gd, round_number):
             continue
@@ -229,7 +230,8 @@ def _get_set_of_all_codes(year: Union[str, int],
     # for each round, execute the SQL query
     for round_number in range(ROUNDS):
         TABLE_NAME = (
-                f"data_cleaned_{year}_{semester}_{ug_gd}_round_{round_number}")
+                "coursereg_history_data_cleaned_"
+                f"{year}_{semester}_{ug_gd}_round_{round_number}")
 
         # check if table exists first
         cursor = conn.execute(
