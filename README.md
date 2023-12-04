@@ -1,7 +1,7 @@
 # :rocket: CourseRekt
 ## [Visit the website here!](https://courserekt.vercel.app/) :computer:
 
-![Image of the website](https://i.imgur.com/uDUFnKh.png)
+![Image of the website](docs/images/preview.png)
 
 ## Purpose
 
