@@ -1,24 +1,30 @@
-# Find all PDFs
-PDFS = $(shell find coursereg_history/data/pdfs -name "*.pdf")
+COURSEREG_PDFS = $(shell find coursereg_history/data/pdfs -name "*.pdf")
+VACANCY_PDFS = $(shell find vacancy_history/data/pdfs -name "*.pdf")
 
 # All PDFs will generate a corresponding CSV in data/raw
-RAW_CSVS = $(patsubst coursereg_history/data/pdfs/%.pdf,coursereg_history/data/raw/%.csv,$(PDFS))
+RAW_COURSEREG_CSVS = $(patsubst coursereg_history/data/pdfs/%.pdf,coursereg_history/data/raw/%.csv,$(COURSEREG_PDFS))
+RAW_VACANCY_CSVS = $(patsubst vacancy_history/data/pdfs/%.pdf,vacancy_history/data/raw/%.csv,$(VACANCY_PDFS))
 
 # All RAW_CSVS will generate a corresponding CSV in data/cleaned
-CLEANED_CSVS = $(patsubst coursereg_history/data/raw/%.csv,coursereg_history/data/cleaned/%.csv,$(RAW_CSVS))
+CLEANED_COURSEREG_CSVS = $(patsubst coursereg_history/data/raw/%.csv,coursereg_history/data/cleaned/%.csv,$(RAW_COURSEREG_CSVS))
+CLEANED_VACANCY_CSVS = $(patsubst vacancy_history/data/raw/%.csv,vacancy_history/data/cleaned/%.csv,$(RAW_VACANCY_CSVS))
 
 # By default, build the database
 .PHONY: all
 all: database.db
 
 # Build the database from all cleaned CSVs
-database.db: $(CLEANED_CSVS)
+database.db: $(CLEANED_COURSEREG_CSVS) $(CLEANED_VACANCY_CSVS)
 	python csv_to_db.py $^
 
 # Clean CSVs are built from raw CSVs
-$(CLEANED_CSVS): coursereg_history/data/cleaned/%.csv: coursereg_history/data/raw/%.csv
+$(CLEANED_COURSEREG_CSVS): coursereg_history/data/cleaned/%.csv: coursereg_history/data/raw/%.csv
 	python coursereg_history/clean_csvs.py -i $<
+$(CLEANED_VACANCY_CSVS): vacancy_history/data/cleaned/%.csv: vacancy_history/data/raw/%.csv
+	python vacancy_history/clean_csvs.py -i $<
 
 # Raw CSVs are built from PDFs
-$(RAW_CSVS): coursereg_history/data/raw/%.csv: coursereg_history/data/pdfs/%.pdf
+$(RAW_COURSEREG_CSVS): coursereg_history/data/raw/%.csv: coursereg_history/data/pdfs/%.pdf
+	convert_pdfs $<
+$(RAW_VACANCY_CSVS): vacancy_history/data/raw/%.csv: vacancy_history/data/pdfs/%.pdf
 	convert_pdfs $<
