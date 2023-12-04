@@ -48,6 +48,19 @@ def _fix_empty_data(data: List[List[str]]) -> None:
                 row[idx] = str(-1)
 
 
+def _trim_course_class(data: List[List[str]]) -> None:
+    """
+    Helper function which takes in data and makes the Course Class sane.
+
+    The Course Class column is in the format "TYPE - CLASS - NUMBERS".
+    We are only interested in the class ID, e.g. L2 (for Lecture 2).
+    This way, it is consistent with the CourseReg history PDFs.
+    """
+    # 5th column corresponds to course class
+    for row in data:
+        row[4] = row[4].split(' - ')[1]
+
+
 def _clean_row(r: List[str]) -> List[str]:
     """
     Helper function which takes in a CSV row and cleans
@@ -184,6 +197,7 @@ def clean_csv(input_file_path: str, output_file_path: str) -> None:
     data = [row for row in data if not _is_header_row(row)]
     data = _merge_overflowed_rows(data)
     _fix_empty_data(data)
+    _trim_course_class(data)
     _insert_header(data, VACANCY_HEADER)
 
     _write_to_csv(data, output_file_path)
