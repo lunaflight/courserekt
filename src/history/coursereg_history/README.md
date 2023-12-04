@@ -6,8 +6,6 @@
     - Contains functions for all queries related to the CourseReg data.
 ├── clean_csvs.py
     - Python script to convert the raw CSV data to cleaned CSV data.
-├── convert_pdfs
-    - Bash script to convert the PDFs to raw CSV data using tabula.jar.
 ├── csv_to_db.py
     - Python script to add cleaned CSV data to database.db.
 ├── data

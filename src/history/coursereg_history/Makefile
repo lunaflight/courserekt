@@ -21,4 +21,4 @@ $(CLEANED_CSVS): data/cleaned/%.csv: data/raw/%.csv
 
 # Raw CSVs are built from PDFs
 $(RAW_CSVS): data/raw/%.csv: data/pdfs/%.pdf
-	./convert_pdfs $<
+	../convert_pdfs $<
