@@ -16,7 +16,7 @@
 
 The Flask application does the following to generate the HTML:
 
-1. It queries `get_all_data()` from `src/coursereg_history/api.py`.
+1. It queries `get_all_data()` from `src/history/coursereg_history/api.py`.
 2. It uses the returned value to generate the entire table using the HTML template with Jinja2.
 3. The colouring of the table data is added by Jinja2 based on the ratio of availability.
 

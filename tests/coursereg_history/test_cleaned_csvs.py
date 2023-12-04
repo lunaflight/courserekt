@@ -72,7 +72,7 @@ def check_all_csvs(check_func: Callable[[Iterator[List[str]], str],
     current_file_directory = os.path.dirname(os.path.abspath(__file__))
     csv_directory = os.path.abspath(
         os.path.join(current_file_directory, '..', '..',
-                     'src', 'coursereg_history', 'data', 'cleaned'))
+                     'src', 'history', 'coursereg_history', 'data', 'cleaned'))
 
     for root, _, files in os.walk(csv_directory):
         for file in files:

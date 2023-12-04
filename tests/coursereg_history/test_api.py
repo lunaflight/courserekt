@@ -1,5 +1,5 @@
 import unittest
-from src.coursereg_history.api import get_data
+from src.history.coursereg_history.api import get_data
 
 
 class MainTestCase(unittest.TestCase):

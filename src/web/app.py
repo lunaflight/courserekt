@@ -2,7 +2,7 @@ from argparse import ArgumentParser
 from flask import (Flask, Response,
                    render_template, request, send_from_directory)
 from typing import Any, Dict, Union
-from src.coursereg_history.api import (
+from src.history.coursereg_history.api import (
         INF, get_all_data,
         get_pdf_filepath, pdf_exists)
 import os
