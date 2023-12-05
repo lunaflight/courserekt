@@ -25,6 +25,6 @@ $(CLEANED_VACANCY_CSVS): vacancy_history/data/cleaned/%.csv: vacancy_history/dat
 
 # Raw CSVs are built from PDFs
 $(RAW_COURSEREG_CSVS): coursereg_history/data/raw/%.csv: coursereg_history/data/pdfs/%.pdf
-	convert_pdfs $<
+	./convert_pdfs $<
 $(RAW_VACANCY_CSVS): vacancy_history/data/raw/%.csv: vacancy_history/data/pdfs/%.pdf
-	convert_pdfs $<
+	./convert_pdfs $<

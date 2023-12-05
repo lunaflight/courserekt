@@ -4,9 +4,6 @@ import os
 from typing import List
 
 INF = 2147483647
-VACANCY_HEADER = ['Faculty/School', 'Department', 'Course Code',
-                  'Course Title', 'Course Class',
-                  'UG', 'GD', 'DK', 'NG', 'CPE']
 
 
 def _clean(s: str) -> str:
@@ -106,7 +103,9 @@ def _is_header_row(row: List[str]) -> bool:
         bool: True iff the row is a header row.
     """
     HEADER_ROWS: List[List[str]] = [
-            VACANCY_HEADER
+            ['Faculty/School', 'Department', 'Course Code',
+             'Course Title', 'Course Class',
+             'UG', 'GD', 'DK', 'NG', 'CPE']
             ]
     return row in HEADER_ROWS
 
@@ -198,7 +197,8 @@ def clean_csv(input_file_path: str, output_file_path: str) -> None:
     data = _merge_overflowed_rows(data)
     _fix_empty_data(data)
     _trim_course_class(data)
-    _insert_header(data, VACANCY_HEADER)
+    _insert_header(data, ['Faculty', 'Department', 'Code', 'Title', 'Class',
+                          'UG', 'GD', 'DK', 'NG', 'CPE'])
 
     _write_to_csv(data, output_file_path)
 
