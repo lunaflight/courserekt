@@ -4,6 +4,7 @@ import os
 from typing import List
 
 INF = 2147483647
+NA = -1
 
 
 def _clean(s: str) -> str:
@@ -34,7 +35,7 @@ def _fix_empty_data(data: List[List[str]]) -> None:
     infinite capacity.
 
     Args:
-        data (List[List[str]]): The cleaned data to add -1 to.
+        data (List[List[str]]): The cleaned data to replace values with.
 
     Returns:
         None
@@ -42,8 +43,8 @@ def _fix_empty_data(data: List[List[str]]) -> None:
     # Last 5 columns correspond to vacancy numbers
     for row in data:
         for idx in range(len(row) - 5, len(row)):
-            if row[idx] == '':
-                row[idx] = 'x'
+            if row[idx] == '' or row[idx] == 'x':
+                row[idx] = str(NA)
             elif row[idx] == '-':
                 row[idx] = str(INF)
 

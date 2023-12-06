@@ -284,24 +284,24 @@ class MainTestCase(unittest.TestCase):
                                         "others": 0
                                         },
                                     {
-                                        "demand": -1,
-                                        "vacancy": -1,
-                                        "successful_main": -1,
-                                        "successful_reserve": -1,
-                                        "quota_exceeded": -1,
-                                        "timetable_clashes": -1,
-                                        "workload_exceeded": -1,
-                                        "others": -1
+                                        "demand": 0,
+                                        "vacancy": 4,
+                                        "successful_main": 0,
+                                        "successful_reserve": 0,
+                                        "quota_exceeded": 0,
+                                        "timetable_clashes": 0,
+                                        "workload_exceeded": 0,
+                                        "others": 0
                                         },
                                     {
-                                        "demand": -1,
-                                        "vacancy": -1,
-                                        "successful_main": -1,
-                                        "successful_reserve": -1,
-                                        "quota_exceeded": -1,
-                                        "timetable_clashes": -1,
-                                        "workload_exceeded": -1,
-                                        "others": -1
+                                        "demand": 0,
+                                        "vacancy": 4,
+                                        "successful_main": 0,
+                                        "successful_reserve": 0,
+                                        "quota_exceeded": 0,
+                                        "timetable_clashes": 0,
+                                        "workload_exceeded": 0,
+                                        "others": 0
                                         }
                                     ]
                                 })

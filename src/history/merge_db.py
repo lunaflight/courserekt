@@ -3,6 +3,8 @@ from typing import List
 import argparse
 import os
 
+NA = -1
+
 
 def merge_csv_files(csv_files: List[str]) -> None:
     """
@@ -35,6 +37,7 @@ def merge_csv_files(csv_files: List[str]) -> None:
             CREATE TABLE {name} AS
             SELECT
               COALESCE(vacancy.Faculty, coursereg.Faculty) AS Faculty,
+              COALESCE(vacancy.Department, coursereg.Department) AS Department,
               COALESCE(vacancy.Code, coursereg.Code) AS Code,
               COALESCE(vacancy.Title, coursereg.Title) AS Title,
               COALESCE(vacancy.Class, coursereg.Class) AS Class,
@@ -43,19 +46,19 @@ def merge_csv_files(csv_files: List[str]) -> None:
               vacancy.DK AS DK,
               vacancy.NG AS NG,
               vacancy.CPE AS CPE,
-              coursereg.Vacancy,
-              coursereg.Demand,
-              coursereg.Successful_Main AS Successful_Main,
-              coursereg.Successful_Reserve AS Successful_Reserve,
-              coursereg.Quota_Exceeded AS Quota_Exceeded,
-              coursereg.Timetable_Clashes AS Timetable_Clashes,
-              coursereg.Workload_Exceeded AS Workload_Exceeded,
-              coursereg.Others AS Others
+              COALESCE(coursereg.Vacancy, vacancy.{"UG" if is_ug else "GD"}) AS Vacancy,
+              COALESCE(coursereg.Demand, 0) AS Demand,
+              COALESCE(coursereg.Successful_Main, 0) AS Successful_Main,
+              COALESCE(coursereg.Successful_Reserve, 0) AS Successful_Reserve,
+              COALESCE(coursereg.Quota_Exceeded, 0) AS Quota_Exceeded,
+              COALESCE(coursereg.Timetable_Clashes, 0) AS Timetable_Clashes,
+              COALESCE(coursereg.Workload_Exceeded, 0) AS Workload_Exceeded,
+              COALESCE(coursereg.Others, 0) AS Others
             FROM
               (
                 SELECT *
                 FROM {vacancy_name}
-                WHERE {"UG" if is_ug else "GD"} != 'x'
+                WHERE {"UG" if is_ug else "GD"} != '{NA}'
               ) AS vacancy
             FULL JOIN
               {coursereg_name} as coursereg
