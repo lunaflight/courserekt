@@ -90,9 +90,13 @@ When new data is released, the program can be updated easily. You can follow the
     - **Linux (pacman):** `sudo pacman -S jdk-openjdk`
 2. Navigate to `src/history/coursereg_history/data/pdfs`. 
 3. Create the relevant directory by running `mkdir -p YEAR/SEM/TYPE`. For example, `2324/1/ug` or `2425/2/gd`.
-4. Add the pdf in the relevant directory, naming it `round_N.pdf`. For example, `round_0.pdf`.
-5. Navigate to `src/history`. Run `make all`.
-6. You're done! The data should have been added successfully and ready to use.
+4. Add the "Course Class Demand and Allocation Report" PDF in the relevant directory, naming it `round_N.pdf`.
+For example, `round_0.pdf`.
+5. Navigate to `src/history/vacancy_history/data/pdfs`. 
+6. Create the relevant directory by running `mkdir -p YEAR/SEM`. For example, `2324/1` or `2425/2`.
+7. Add the "Course Class Vacancy Report" PDF in the relevant directory, naming it `round_N.pdf`.
+8. Navigate to `src/history`. Run `make all`.
+9. You're done! The data should have been added successfully and ready to use.
 
 ### Deployment to Vercel
 
