@@ -17,7 +17,7 @@ clean:
 
 # Build the database from all cleaned CSVs
 database.db: $(CLEANED_COURSEREG_CSVS) $(CLEANED_VACANCY_CSVS)
-	python csv_to_db.py $^
+	python import_csv_to_db.py $^
 
 # Clean CSVs are built from raw CSVs
 $(CLEANED_COURSEREG_CSVS): coursereg_history/data/cleaned/%.csv: coursereg_history/data/raw/%.csv

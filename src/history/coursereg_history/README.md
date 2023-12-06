@@ -7,7 +7,7 @@ It contains code which scrapes and cleans data from the PDFs given by NUS, which
 1. **PDF Storage:** The PDFs are stored in `data/pdfs/{YEAR}/{SEMESTER}/{UG or GD}/round_{0,1,2,3}.pdf`.
 2. **PDF Parsing:** The PDFs are parsed using [Tabula](https://github.com/tabulapdf/tabula-java) to produce CSV files in `data/raws/{YEAR}/{SEMESTER}/{UG or GD}/round_{0,1,2,3}.csv`. Java is used for this purpose, and we use a bash script `./convert_pdfs` to facilitate conversion.
 3. **Data Cleaning:** The raw CSV files are passed through `clean_csvs.py` to produce clean CSVs in `data/cleaned/{YEAR}/{SEMESTER}/{UG or GD}/round_{0,1,2,3}.csv`.
-4. **Database Entry:** The cleaned CSVs are added to the `database.db` by passing them through `csv_to_db.py`.
+4. **Database Entry:** The cleaned CSVs are added to the `database.db` by passing them through `import_csv_to_db.py`.
 5. **API:** Queries about the courses can be made through the `api.py` file, which executes the relevant SQL queries to retrieve the data.
 
 All of these steps are orchestrated using a Makefile.
