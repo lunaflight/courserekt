@@ -11,12 +11,12 @@ CLEANED_VACANCY_CSVS = $(patsubst vacancy_history/data/raw/%.csv,vacancy_history
 
 # By default, build the database
 .PHONY: all, clean
-all: database.db
+all: separated_database.db
 clean:
-	rm -f $(RAW_COURSEREG_CSVS) $(RAW_VACANCY_CSVS) $(CLEANED_COURSEREG_CSVS) $(CLEANED_VACANCY_CSVS) database.db
+	rm -f $(RAW_COURSEREG_CSVS) $(RAW_VACANCY_CSVS) $(CLEANED_COURSEREG_CSVS) $(CLEANED_VACANCY_CSVS) separated_database.db
 
 # Build the database from all cleaned CSVs
-database.db: $(CLEANED_COURSEREG_CSVS) $(CLEANED_VACANCY_CSVS)
+separated_database.db: $(CLEANED_COURSEREG_CSVS) $(CLEANED_VACANCY_CSVS)
 	python import_csv_to_db.py $^
 
 # Clean CSVs are built from raw CSVs
