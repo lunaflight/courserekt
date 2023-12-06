@@ -163,11 +163,11 @@ def get_data(year: Union[str, int],
 
             result = {'demand': row['Demand'],
                       'vacancy': row['Vacancy'],
-                      'successful_main': row['Successful (Main)'],
-                      'successful_reserve': row['Successful (Reserve)'],
-                      'quota_exceeded': row['Quota Exceeded'],
-                      'timetable_clashes': row['Timetable Clashes'],
-                      'workload_exceeded': row['Workload Exceeded'],
+                      'successful_main': row['Successful_Main'],
+                      'successful_reserve': row['Successful_Reserve'],
+                      'quota_exceeded': row['Quota_Exceeded'],
+                      'timetable_clashes': row['Timetable_Clashes'],
+                      'workload_exceeded': row['Workload_Exceeded'],
                       'others': row['Others']}
 
             # Logic to pad skipped rounds with blanks to ensure that

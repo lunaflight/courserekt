@@ -196,8 +196,8 @@ def clean_csv(input_file_path: str, output_file_path: str) -> None:
     _insert_header(data,
                    ["Faculty", "Department", "Code", "Title", "Class",
                     "Vacancy", "Demand",
-                    "Successful (Main)", "Successful (Reserve)",
-                    "Quota Exceeded", "Timetable Clashes", "Workload Exceeded",
+                    "Successful_Main", "Successful_Reserve",
+                    "Quota_Exceeded", "Timetable_Clashes", "Workload_Exceeded",
                     "Others"])
 
     _write_to_csv(data, output_file_path)

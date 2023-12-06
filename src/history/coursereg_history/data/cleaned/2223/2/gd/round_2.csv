@@ -1,4 +1,4 @@
-Faculty,Department,Code,Title,Class,Vacancy,Demand,Successful (Main),Successful (Reserve),Quota Exceeded,Timetable Clashes,Workload Exceeded,Others
+Faculty,Department,Code,Title,Class,Vacancy,Demand,Successful_Main,Successful_Reserve,Quota_Exceeded,Timetable_Clashes,Workload_Exceeded,Others
 College of Design and Eng,Architecture,AC5002,Conservation Approaches and Philosophies,L1,21,4,0,0,0,0,0,4
 College of Design and Eng,Architecture,AC5004,Architectural Heritage Management,L1,4,2,1,0,0,0,0,1
 College of Design and Eng,Architecture,AC5005,Conservation Policy Methodology for Sustainable Development,L1,6,3,0,0,0,0,0,3

@@ -19,9 +19,9 @@ def has_good_header(reader: Iterator[List[str]], file_path: str) -> None:
     expected_header = ["Faculty", "Department", "Code",
                        "Title", "Class",
                        "Vacancy", "Demand",
-                       "Successful (Main)", "Successful (Reserve)",
-                       "Quota Exceeded", "Timetable Clashes",
-                       "Workload Exceeded", "Others"]
+                       "Successful_Main", "Successful_Reserve",
+                       "Quota_Exceeded", "Timetable_Clashes",
+                       "Workload_Exceeded", "Others"]
 
     if header_row != expected_header:
         raise ValueError(f"In {file_path}:"

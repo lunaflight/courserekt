@@ -1,4 +1,4 @@
-Faculty,Department,Code,Title,Class,Vacancy,Demand,Successful (Main),Successful (Reserve),Quota Exceeded,Timetable Clashes,Workload Exceeded,Others
+Faculty,Department,Code,Title,Class,Vacancy,Demand,Successful_Main,Successful_Reserve,Quota_Exceeded,Timetable_Clashes,Workload_Exceeded,Others
 Coll. of Humanities & Sciences,Communications & New Media,HS2903,Sporting Bodies,L1,95,56,55,6,0,0,1,0
 College of Design and Eng,Architecture,AR1101,Design I,D1,150,78,78,0,0,0,0,0
 College of Design and Eng,Architecture,AR2101,Design 3,D1,103,87,87,0,0,0,0,0

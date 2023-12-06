@@ -1,4 +1,4 @@
-Faculty,Department,Code,Title,Class,Vacancy,Demand,Successful (Main),Successful (Reserve),Quota Exceeded,Timetable Clashes,Workload Exceeded,Others
+Faculty,Department,Code,Title,Class,Vacancy,Demand,Successful_Main,Successful_Reserve,Quota_Exceeded,Timetable_Clashes,Workload_Exceeded,Others
 Coll. of Humanities & Sciences,South Asian Studies,HSA1000,Asian Interconnections,L1,134,1,1,1,0,0,0,0
 Collg of Design & Engineering,Biomedical Engineering,BN2102,Bioengineering Data Analysis,L1,7,4,4,0,0,0,0,0
 Collg of Design & Engineering,Biomedical Engineering,BN2204,Fundamentals of Biomechanics,L1,12,1,1,0,0,0,0,0

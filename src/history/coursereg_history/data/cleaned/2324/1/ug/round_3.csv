@@ -1,4 +1,4 @@
-Faculty,Department,Code,Title,Class,Vacancy,Demand,Successful (Main),Successful (Reserve),Quota Exceeded,Timetable Clashes,Workload Exceeded,Others
+Faculty,Department,Code,Title,Class,Vacancy,Demand,Successful_Main,Successful_Reserve,Quota_Exceeded,Timetable_Clashes,Workload_Exceeded,Others
 Coll. of Humanities & Sciences,"English,Ling.&Theatre Studies",HS2912,Polymaths: Innovating Between Art and Science,L1,0,20,0,0,20,0,0,0
 College of Design and Eng,Architecture,AR1101,Design I,D1,73,1,1,0,0,0,0,0
 College of Design and Eng,Architecture,AR2101,Design 3,D1,47,18,18,0,0,0,0,0

@@ -20,8 +20,8 @@ The data has 13 columns, corresponding to the following:
 
 - Faculty, Department, Code, Title, Class,
 - Vacancy, Demand,
-- Successful (Main), Successful (Reserve)
-- Quota Exceeded, Timetable Clashes, Workload Exceeded, Others.
+- Successful_Main, Successful_Reserve
+- Quota_Exceeded, Timetable_Clashes, Workload_Exceeded, Others.
 
 We remove all table headers from the data, corresponding to `_is_header_row()` in `clean_csvs.py`.
 

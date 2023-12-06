@@ -1,4 +1,4 @@
-Faculty,Department,Code,Title,Class,Vacancy,Demand,Successful (Main),Successful (Reserve),Quota Exceeded,Timetable Clashes,Workload Exceeded,Others
+Faculty,Department,Code,Title,Class,Vacancy,Demand,Successful_Main,Successful_Reserve,Quota_Exceeded,Timetable_Clashes,Workload_Exceeded,Others
 Coll. of Humanities & Sciences,Communications & New Media,HS2903,Sporting Bodies,L1,230,419,230,0,186,0,3,0
 Coll. of Humanities & Sciences,"English,Ling.&Theatre Studies",HS2912,Polymaths: Innovating Between Art and Science,L1,100,126,100,0,26,0,0,0
 College of Design and Eng,Built Environment,IPM2101,Introduction to Building Performance,L1,60,31,31,1,0,0,0,0

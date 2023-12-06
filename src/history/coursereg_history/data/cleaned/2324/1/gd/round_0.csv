@@ -1,4 +1,4 @@
-Faculty,Department,Code,Title,Class,Vacancy,Demand,Successful (Main),Successful (Reserve),Quota Exceeded,Timetable Clashes,Workload Exceeded,Others
+Faculty,Department,Code,Title,Class,Vacancy,Demand,Successful_Main,Successful_Reserve,Quota_Exceeded,Timetable_Clashes,Workload_Exceeded,Others
 College of Design and Eng,Built Environment,BPS5111,Integrated Building Design,L1,65,1,0,0,0,0,0,1
 College of Design and Eng,Built Environment,BPS5221,Microclimate Design,L1,65,5,4,0,0,0,0,1
 College of Design and Eng,Built Environment,BPS5223,Building Energy Performance - Passive Systems,L1,65,3,2,0,0,0,0,1
