@@ -13,7 +13,7 @@ def merge_csv_files(csv_files: List[str]) -> None:
     attempt to merge them with useful Vacancy Histories.
     """
 
-    conn = sqlite3.connect('separated_database.db')
+    conn = sqlite3.connect('database.db')
 
     for csv_file in csv_files:
         # Given name of CourseReg:

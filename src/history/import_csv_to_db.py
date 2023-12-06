@@ -9,7 +9,7 @@ def process_csv_files(csv_files: List[str], is_cleaning: bool = False) -> None:
     """Processes a list of CSV files by loading them
     into an SQLite database."""
 
-    conn = sqlite3.connect('separated_database.db')
+    conn = sqlite3.connect('database.db')
 
     for csv_file in csv_files:
         # Get the name of the table from the filename
