@@ -108,6 +108,9 @@ def _is_header_row(row: List[str]) -> bool:
     HEADER_ROWS: List[List[str]] = [
             ['Faculty/School', 'Department', 'Course Code',
              'Course Title', 'Course Class',
+             'UG', 'GD', 'DK', 'NG', 'CPE'],
+            ['Faculty/School', 'Department', 'Module Code',
+             'Module Title', 'Module Class',
              'UG', 'GD', 'DK', 'NG', 'CPE']
             ]
     return row in HEADER_ROWS
