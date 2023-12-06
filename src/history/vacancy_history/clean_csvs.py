@@ -29,8 +29,9 @@ def _fix_empty_data(data: List[List[str]]) -> None:
     """
     Helper function which takes in cleaned data and makes the
     vacancies sane.
-    If the vacancy is empty or a '-' or a 'x', then it implies it has no
-    vacancy and should be replaced with a small integer, i.e. -1.
+    If the vacancy is empty, it is to be treated as unoffered, 'x'.
+    If the vacancy is listed as '-', it is equivalent to having
+    infinite capacity.
 
     Args:
         data (List[List[str]]): The cleaned data to add -1 to.
@@ -41,8 +42,10 @@ def _fix_empty_data(data: List[List[str]]) -> None:
     # Last 5 columns correspond to vacancy numbers
     for row in data:
         for idx in range(len(row) - 5, len(row)):
-            if row[idx] == '' or row[idx] == 'x' or row[idx] == '-':
-                row[idx] = str(-1)
+            if row[idx] == '':
+                row[idx] = 'x'
+            elif row[idx] == '-':
+                row[idx] = str(INF)
 
 
 def _trim_course_class(data: List[List[str]]) -> None:
