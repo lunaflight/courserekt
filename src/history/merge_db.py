@@ -5,17 +5,14 @@ import os
 
 
 def merge_csv_files(csv_files: List[str]) -> None:
-    # TODO
     """
     Given a list of CourseReg History cleaned files,
     after having imported all relevant CSVs,
     attempt to merge them with useful Vacancy Histories.
     """
 
-    # Connect to your SQLite database
     conn = sqlite3.connect('separated_database.db')
 
-    # Process each CSV file
     for csv_file in csv_files:
         # Given name of CourseReg:
         # coursereg_history_data_cleaned_2324_1_ug_round_0
@@ -34,7 +31,6 @@ def merge_csv_files(csv_files: List[str]) -> None:
         name = coursereg_name.replace("coursereg_history_data_cleaned_",
                                       "merged_")
 
-        # Drop the existing table (if it exists)
         conn.execute(f"""
             CREATE TABLE {name} AS
             SELECT
@@ -69,12 +65,10 @@ def merge_csv_files(csv_files: List[str]) -> None:
               vacancy.Class = coursereg.Class;
         """)
 
-    # Don't forget to close the connection when you're done
     conn.close()
 
 
 def main() -> None:
-    # Set up command-line argument parsing
     parser = argparse.ArgumentParser(description='Merge some CSV files.')
     parser.add_argument('csv_files', metavar='N', type=str, nargs='+',
                         help='CSV files to be merged')
