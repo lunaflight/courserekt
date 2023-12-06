@@ -10,8 +10,10 @@ CLEANED_COURSEREG_CSVS = $(patsubst coursereg_history/data/raw/%.csv,coursereg_h
 CLEANED_VACANCY_CSVS = $(patsubst vacancy_history/data/raw/%.csv,vacancy_history/data/cleaned/%.csv,$(RAW_VACANCY_CSVS))
 
 # By default, build the database
-.PHONY: all
+.PHONY: all, clean
 all: database.db
+clean:
+	rm -f $(RAW_COURSEREG_CSVS) $(RAW_VACANCY_CSVS) $(CLEANED_COURSEREG_CSVS) $(CLEANED_VACANCY_CSVS) database.db
 
 # Build the database from all cleaned CSVs
 database.db: $(CLEANED_COURSEREG_CSVS) $(CLEANED_VACANCY_CSVS)
