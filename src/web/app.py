@@ -47,13 +47,13 @@ def history() -> str:
             return f.read()
 
     # Fallback to dynamic rendering if the file doesn't exist
-    # output, error = [], None
-    # try:
-    #     output = get_all_data(year, semester, type)
-    # except ValueError as e:
-    #     error = e
+    output, error = [], None
+    try:
+        output = get_all_data(year, semester, type)
+    except ValueError as e:
+        error = e
 
-    # return render_template('history.html', output=output, error=error)
+    return render_template('history.html', output=output, error=error)
 
 
 def _serve_file(filepath: str) -> Response:
