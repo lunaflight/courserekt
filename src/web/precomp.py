@@ -1,6 +1,7 @@
 from src.web.app import app
 import itertools
 import os
+import shutil
 
 
 def main():
@@ -15,6 +16,11 @@ def main():
 
     # Generate all combinations
     combinations = itertools.product(years, semesters, student_types)
+
+    try:
+        shutil.rmtree("src/web/static/pages")
+    except FileNotFoundError:
+        pass
 
     for year, semester, student_type in combinations:
         generate_html(year, semester, student_type)
