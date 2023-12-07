@@ -7,6 +7,8 @@
 
 It is rather unfortunate that NUS does not keep a record of the Demand Allocation Reports. Furthermore, the data is presented in such a verbose and hard-to-visualise way. This app aims to streamline this process, making analysis of a course's past popularity more accessible and straightforward.
 
+The site harmonises the data from Vacancy Reports as well as Demand Allocation Reports to provide the best-known information about a course at any time. Demand Allocation Reports, while they represent a lot of information, is not the full picture. Some courses are omitted from the demand allocation reports if there are no available seats, or if nobody registered for them, or are just deemed unimportant. This is where we use the Vacancy Reports to back our information up.
+
 ## For Users:
 
 ### Search Bar
@@ -22,7 +24,7 @@ You can click the column headers to access the raw PDF data used to generate the
 Each cell corresponds to the data in the PDF for the course's class and round number, in the format `x / y`, where `x` is the `Demand` and y is the `Vacancy` as per the PDF.
 
 - If `y` is displayed as `∞`, the `Vacancy` in the PDF is `-`.
-- If `N/A` is displayed, then the class data was not found in this PDF.
+- If `N/A` is displayed, no class data can be deduced for this round.
 
 ## Contributing
 
