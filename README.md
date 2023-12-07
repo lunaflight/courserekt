@@ -21,10 +21,12 @@ You can click the column headers to access the raw PDF data used to generate the
 
 ### Interpreting table cells
 
-Each cell corresponds to the data in the PDF for the course's class and round number, in the format `x / y`, where `x` is the `Demand` and y is the `Vacancy` as per the PDF.
+Each cell corresponds to the data in the PDF for the course's class and round number, in the format `x / y`.
 
-- If `y` is displayed as `∞`, the `Vacancy` in the PDF is `-`.
-- If `N/A` is displayed, no class data can be deduced for this round.
+`x` is the `Demand` and `y` is the `Vacancy` as per the CourseReg PDF, i.e., `x` people are vying for `y` slots.
+
+- If `y` is displayed as `∞`, the `Vacancy` in the CourseReg PDF is `-`.
+- If `N/A` is displayed, the class data was neither found in the Vacancy PDF nor the CourseReg PDF.
 
 ## Contributing
 
