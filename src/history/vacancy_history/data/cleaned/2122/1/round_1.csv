@@ -860,8 +860,6 @@ Faculty of Arts & Social Sci,South Asian Studies,SN3281,The Story of Indian Busi
 Faculty of Arts & Social Sci,South Asian Studies,SN4101,Approaches to the Study of South Asia,E1,15,5,-1,-1,-1
 Faculty of Arts & Social Sci,Southeast Asian Studies,CAS5101,Theorizing from Asia,E1,-1,2147483647,-1,2147483647,-1
 Faculty of Arts & Social Sci,Southeast Asian Studies,CAS6101,Asian Studies in Asia,E1,-1,2147483647,-1,2147483647,-1
-Faculty of Arts & Social Sci,Southeast Asian Studies,GE5214,Landscapes of Southeast Asia,E1,-1,4,-1,1,-1
-Faculty of Arts & Social Sci,Southeast Asian Studies,GE5215,THE POLITICS OF ENVIRONMENT IN SE ASIA,E1,-1,5,-1,-1,-1
 Faculty of Arts & Social Sci,Southeast Asian Studies,GEC1034,Understanding the Changing Global Economic Landscape,L1,42,-1,-1,-1,-1
 Faculty of Arts & Social Sci,Southeast Asian Studies,GET1016,Understanding the Changing Global Economic Landscape,L1,83,-1,-1,15,-1
 Faculty of Arts & Social Sci,Southeast Asian Studies,SE1101E,Southeast Asia: A Changing Region,L1,214,-1,-1,25,-1
@@ -876,9 +874,7 @@ Faculty of Arts & Social Sci,Southeast Asian Studies,SE4220,Special Studies on S
 Faculty of Arts & Social Sci,Southeast Asian Studies,SE4225,THE COLD WAR IN SOUTHEAST ASIA,E1,13,5,-1,2,-1
 Faculty of Arts & Social Sci,Southeast Asian Studies,SE4227,Nationalism in Southeast Asia,E1,20,2,-1,-1,-1
 Faculty of Arts & Social Sci,Southeast Asian Studies,SE5151,APPROACHES TO THE STUDY OF SOUTHEAST ASIA,E1,-1,2147483647,-1,2147483647,-1
-Faculty of Arts & Social Sci,Southeast Asian Studies,SE5221,Landscapes of Southeast Asia,E1,-1,2147483647,-1,2147483647,-1
 Faculty of Arts & Social Sci,Southeast Asian Studies,SE5222,THE ARTS IN CONTEMPORARY SOUTHEAST ASIA,E1,-1,2147483647,-1,2147483647,-1
-Faculty of Arts & Social Sci,Southeast Asian Studies,SE5294,THE POLITICS OF ENVIRONMENT IN SE ASIA,E1,-1,2147483647,-1,2147483647,-1
 Faculty of Dentistry,Div of Graduate Dental Studies,DY5310,Endodontics,L1,-1,20,-1,-1,-1
 Faculty of Dentistry,Div of Graduate Dental Studies,DY5320,Oral & Maxillofacial Surgery,L1,-1,20,-1,-1,-1
 Faculty of Dentistry,Div of Graduate Dental Studies,DY5330,Orthodontics,L1,-1,20,-1,-1,-1
@@ -1193,7 +1189,6 @@ Faculty of Engineering,Materials Science & Eng,MLE5213,Magnetic Materials,L1,-1,
 Faculty of Engineering,Materials Science & Eng,MLE5216,Introduction to Microscopy for Material Research,L1,-1,70,-1,-1,-1
 Faculty of Engineering,Materials Science & Eng,MLE5302,Polymer Materials in Additive Manufacturing,L1,-1,7,-1,-1,12
 Faculty of Engineering,Materials Science & Eng,MLE6101,THERMODYNAMICS AND KINETICS OF MATERIALS,L1,-1,79,-1,1,-1
-Faculty of Engineering,Mechanical Engineering,EE3305,Robotic System Design,L01,2,-1,-1,-1,-1
 Faculty of Engineering,Mechanical Engineering,ME1102,Engineering Principles and Practice I,P1,22,-1,-1,6,-1
 Faculty of Engineering,Mechanical Engineering,ME1102,Engineering Principles and Practice I,P2,28,-1,-1,-1,-1
 Faculty of Engineering,Mechanical Engineering,ME1102,Engineering Principles and Practice I,P3,27,-1,-1,-1,-1
@@ -1214,7 +1209,6 @@ Faculty of Engineering,Mechanical Engineering,ME3103,Mechanical Systems Design,L
 Faculty of Engineering,Mechanical Engineering,ME3122,Heat Transfer,L1,21,-1,-1,15,-1
 Faculty of Engineering,Mechanical Engineering,ME3211,Mechanics Of Solids,L1,46,-1,-1,15,-1
 Faculty of Engineering,Mechanical Engineering,ME3242,Automation,L1,2147483647,-1,-1,2147483647,-1
-Faculty of Engineering,Mechanical Engineering,ME3243,Robotic System Design,L01,2,-1,-1,-1,-1
 Faculty of Engineering,Mechanical Engineering,ME3252,Materials for Mechanical Engineering,L1,7,-1,-1,15,-1
 Faculty of Engineering,Mechanical Engineering,ME3261,Computer-Aided Design And Manufacturing,L1,83,-1,-1,15,-1
 Faculty of Engineering,Mechanical Engineering,ME3263,Design For Manufacturing And Assembly,L1,11,-1,-1,6,-1
@@ -1822,17 +1816,13 @@ Faculty of Science,Statistics & Appl Probability,DSA5831,Learning from Data: Pri
 Faculty of Science,Statistics & Appl Probability,DSA5841,Learning from Data: Decision Trees,L1,-1,60,-1,-1,-1
 Faculty of Science,Statistics & Appl Probability,DSA5842,Learning from Data: Support Vector Machines,L1,-1,2147483647,-1,-1,-1
 Faculty of Science,Statistics & Appl Probability,DSA5843,Learning from Data: Neural Networks,L1,-1,60,-1,-1,-1
-Faculty of Science,Statistics & Appl Probability,MA2216,Probability,L1,33,-1,-1,15,-1
-Faculty of Science,Statistics & Appl Probability,MA3238,Stochastic Processes I,L1,81,5,-1,5,-1
 Faculty of Science,Statistics & Appl Probability,ST1131,Introduction to Statistics and Statistical Computing,L1,58,-1,-1,20,-1
-Faculty of Science,Statistics & Appl Probability,ST2131,Probability,L1,159,-1,-1,20,-1
 Faculty of Science,Statistics & Appl Probability,ST2132,Mathematical Statistics,L1,1,-1,-1,20,-1
 Faculty of Science,Statistics & Appl Probability,ST2137,Computer Aided Data Analysis,L1,61,-1,-1,20,-1
 Faculty of Science,Statistics & Appl Probability,ST2334,Probability and Statistics,L1,125,-1,-1,10,-1
 Faculty of Science,Statistics & Appl Probability,ST2334,Probability and Statistics,L2,158,-1,-1,10,-1
 Faculty of Science,Statistics & Appl Probability,ST2334,Probability and Statistics,L3,178,-1,-1,-1,-1
 Faculty of Science,Statistics & Appl Probability,ST3131,Regression Analysis,L1,107,-1,-1,20,-1
-Faculty of Science,Statistics & Appl Probability,ST3236,Stochastic Processes I,L1,32,-1,-1,20,-1
 Faculty of Science,Statistics & Appl Probability,ST3239,Survey Methodology,L1,132,-1,-1,-1,-1
 Faculty of Science,Statistics & Appl Probability,ST3248,Statistical Learning I,L1,4,-1,-1,20,-1
 Faculty of Science,Statistics & Appl Probability,ST4231,Computer Intensive Statistical Methods,L1,40,15,-1,10,-1
@@ -2632,9 +2622,6 @@ NUS Business School,Finance,FIN4761A,SIF: Private Equity,SA1,34,-1,-1,-1,-1
 NUS Business School,Finance,FIN4761D,SIF: Family Business & Wealth Management,SA1,20,-1,-1,-1,-1
 NUS Business School,Finance,FIN4761D,SIF: Family Business & Wealth Management,SA2,24,-1,-1,-1,-1
 NUS Business School,Finance,FIN6004,Empirical Asset Pricing and Microstructure,S01,-1,20,-1,-1,-1
-NUS Business School,Info Systems and Analytics,DBA5103,Operations Research and Analytics,SA1,-1,60,-1,-1,-1
-NUS Business School,Info Systems and Analytics,DBA5103,Operations Research and Analytics,SA2,-1,60,-1,-1,-1
-NUS Business School,Info Systems and Analytics,DBA5103,Operations Research and Analytics,SA3,-1,60,-1,-1,-1
 NUS Business School,Management & Organisation,BMO6011A,"Organizational Behavior Seminar: Work, employee and organizational well-being",S01,-1,15,-1,-1,-1
 NUS Business School,Management & Organisation,BMO6022A,Seminar in Leadership,S01,-1,8,-1,-1,-1
 NUS Business School,Management & Organisation,BZD6010,SEMINAR IN RESEARCH METHODOLOGY,S01,-1,15,-1,-1,-1
@@ -3145,8 +3132,6 @@ School of Computing,Info Systems and Analytics,BT4212,Search Engine Optimization
 School of Computing,Info Systems and Analytics,BT4221,Big Data Techniques and Technologies,L1,0,0,-1,3,-1
 School of Computing,Info Systems and Analytics,BT4222,Mining Web Data for Business Insights,L1,1,0,-1,2,-1
 School of Computing,Info Systems and Analytics,BT4240,Machine Learning for Predictive Data Analytics,L1,24,0,-1,3,-1
-School of Computing,Info Systems and Analytics,DBA5106,Foundation in Business Analytics,SA1,-1,59,-1,-1,-1
-School of Computing,Info Systems and Analytics,DBA5106,Foundation in Business Analytics,SA3,-1,60,-1,-1,-1
 School of Computing,Info Systems and Analytics,FT5001,Fintech Innovations for Consumers,L1,-1,55,-1,-1,-1
 School of Computing,Info Systems and Analytics,FT5002,Digital Transformation at Financial Institutions,L1,-1,55,-1,-1,-1
 School of Computing,Info Systems and Analytics,IS1103,Ethics in Computing,L1,142,-1,-1,5,-1

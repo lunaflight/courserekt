@@ -637,8 +637,6 @@ College of Design and Eng,Materials Science & Eng,MLE5302,Polymer Materials in A
 College of Design and Eng,Materials Science & Eng,MLE5999,GRADUATE SEMINARS,E1,-1,100,-1,-1,-1
 College of Design and Eng,Materials Science & Eng,MLE6101,THERMODYNAMICS AND KINETICS OF MATERIALS,L1,-1,179,-1,1,-1
 College of Design and Eng,Materials Science & Eng,MLE6103,STRUCTURES OF MATERIALS,L1,-1,250,-1,-1,-1
-College of Design and Eng,Mechanical Engineering,EE3305,Robotic System Design,L01,30,-1,-1,-1,-1
-College of Design and Eng,Mechanical Engineering,EE3306,Introduction to Cyber Physical Systems,L01,20,-1,-1,-1,-1
 College of Design and Eng,Mechanical Engineering,ME1102,Engineering Principles and Practice I,P1,20,-1,-1,-1,-1
 College of Design and Eng,Mechanical Engineering,ME1102,Engineering Principles and Practice I,P2,20,-1,-1,-1,-1
 College of Design and Eng,Mechanical Engineering,ME1102,Engineering Principles and Practice I,P3,20,-1,-1,-1,-1
@@ -655,10 +653,8 @@ College of Design and Eng,Mechanical Engineering,ME2142,Feedback Control Systems
 College of Design and Eng,Mechanical Engineering,ME2162,MANUFACTURING PROCESSES,L1,160,-1,-1,25,-1
 College of Design and Eng,Mechanical Engineering,ME3103,Mechanical Systems Design,L1,50,-1,-1,-1,-1
 College of Design and Eng,Mechanical Engineering,ME3122,Heat Transfer,L1,55,-1,-1,15,-1
-College of Design and Eng,Mechanical Engineering,ME3163,Introduction to Cyber Physical Systems,L01,22,-1,-1,-1,-1
 College of Design and Eng,Mechanical Engineering,ME3211,Mechanics Of Solids,L1,55,-1,-1,15,-1
 College of Design and Eng,Mechanical Engineering,ME3242,Automation,L1,40,-1,-1,10,-1
-College of Design and Eng,Mechanical Engineering,ME3243,Robotic System Design,L01,25,-1,-1,-1,-1
 College of Design and Eng,Mechanical Engineering,ME3252,Materials for Mechanical Engineering,L1,30,-1,-1,15,-1
 College of Design and Eng,Mechanical Engineering,ME3261,Computer-Aided Design And Manufacturing,L1,70,-1,-1,15,-1
 College of Design and Eng,Mechanical Engineering,ME3263,Design For Manufacturing And Assembly,L1,66,-1,-1,6,-1
@@ -1600,7 +1596,6 @@ Faculty of Arts & Social Sci,Southeast Asian Studies,SE4227,Nationalism in South
 Faculty of Arts & Social Sci,Southeast Asian Studies,SE5263,CULTURAL RESOURCE MANAGEMENT IN SE ASIA,E1,-1,60,-1,-1,-1
 Faculty of Arts & Social Sci,Southeast Asian Studies,SEA5101,"History, Politics and Economics of Modern Southeast Asia",E1,-1,25,-1,-1,-1
 Faculty of Arts & Social Sci,Southeast Asian Studies,SEA5102,Societies and Cultures of Southeast Asia,E1,-1,25,-1,-1,-1
-Faculty of Arts & Social Sci,Southeast Asian Studies,SEA5201,Politics of Environment in Southeast Asia,E1,-1,25,-1,-1,-1
 Faculty of Arts & Social Sci,Southeast Asian Studies,SEA5212,Arts in Southeast Asia,E1,-1,25,-1,-1,-1
 Faculty of Arts & Social Sci,Southeast Asian Studies,SEA5232,Country Studies: Thailand,E1,-1,25,-1,-1,-1
 Faculty of Arts & Social Sci,Southeast Asian Studies,SEA5234,Country Studies: The Philippines,E1,-1,25,-1,-1,-1
@@ -2187,9 +2182,7 @@ Faculty of Science,Statistics and Data Science,DSA5831,Learning from Data: Princ
 Faculty of Science,Statistics and Data Science,DSA5841,Learning from Data: Decision Trees,L1,-1,100,-1,-1,-1
 Faculty of Science,Statistics and Data Science,DSA5842,Learning from Data: Support Vector Machines,L1,-1,2147483647,-1,-1,-1
 Faculty of Science,Statistics and Data Science,DSA5843,Learning from Data: Neural Networks,L1,-1,100,-1,-1,-1
-Faculty of Science,Statistics and Data Science,MA2116,Probability,L1,380,-1,-1,-1,-1
 Faculty of Science,Statistics and Data Science,ST1131,Introduction to Statistics and Statistical Computing,L1,230,-1,-1,20,-1
-Faculty of Science,Statistics and Data Science,ST2131,Probability,L1,200,-1,-1,-1,-1
 Faculty of Science,Statistics and Data Science,ST2132,Mathematical Statistics,L1,295,-1,-1,20,-1
 Faculty of Science,Statistics and Data Science,ST2137,Statistical Computing and Programming,L1,180,-1,-1,20,-1
 Faculty of Science,Statistics and Data Science,ST2334,Probability and Statistics,L1,610,-1,-1,20,-1
@@ -2964,8 +2957,6 @@ NUS Business School,Strategy and Policy,BSE4751,Advanced Independent Study in Bu
 NUS Business School,Strategy and Policy,BSE4751,Advanced Independent Study in Business Economics,SA3,10,-1,-1,-1,-1
 NUS Business School,Strategy and Policy,BSE4751,Advanced Independent Study in Business Economics,SA4,10,-1,-1,-1,-1
 NUS Business School,Strategy and Policy,BSE4751,Advanced Independent Study in Business Economics,SA5,10,-1,-1,-1,-1
-NUS Business School,Strategy and Policy,BSN3701,Technological Innovation,SA1,17,-1,-1,30,3
-NUS Business School,Strategy and Policy,BSN3702,New Venture Creation,SA1,27,-1,-1,30,3
 NUS Business School,Strategy and Policy,BSN3703,Entrepreneurial Strategy,SA1,20,-1,-1,30,-1
 NUS Business School,Strategy and Policy,BSN3714,Co-Creating Value (Tools for Collaborative Innovation),SA1,50,-1,-1,-1,-1
 NUS Business School,Strategy and Policy,BSN3717,Family Business,SA1,50,-1,-1,-1,-1

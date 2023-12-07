@@ -33,6 +33,8 @@ def merge_csv_files(csv_files: List[str]) -> None:
         name = coursereg_name.replace("coursereg_history_data_cleaned_",
                                       "merged_")
 
+        conn.execute(f"DROP TABLE IF EXISTS \"{name}\"")
+
         conn.execute(f"""
             CREATE TABLE {name} AS
             SELECT

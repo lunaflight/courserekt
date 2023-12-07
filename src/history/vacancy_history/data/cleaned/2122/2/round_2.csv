@@ -252,7 +252,6 @@ Collg of Design & Engineering,Engineering Science Programme,ESP3903,Major Design
 Collg of Design & Engineering,Engineering Science Programme,ESP4401,Optimization of Energy Systems,L1,7,-1,-1,0,-1
 Collg of Design & Engineering,Engineering Science Programme,ESP5402,Transport Phenomena in Energy Systems,L1,2,-1,-1,3,-1
 Collg of Design & Engineering,Industrial Systems Eng & Mgmt,BDC6304,Robust modelling and optimization,S01,-1,3,-1,0,-1
-Collg of Design & Engineering,Industrial Systems Eng & Mgmt,EE4802,Learning from Data,P01,2,-1,-1,-1,-1
 Collg of Design & Engineering,Industrial Systems Eng & Mgmt,IE2100,Probability Models With Applications,L1,7,-1,-1,2,-1
 Collg of Design & Engineering,Industrial Systems Eng & Mgmt,IE2111,Industrial & Systems Engrg Principles & Practice II,L1,3,-1,-1,-1,-1
 Collg of Design & Engineering,Industrial Systems Eng & Mgmt,IE2141,Systems Thinking and Dynamics,L1,55,-1,-1,-1,-1
@@ -260,7 +259,6 @@ Collg of Design & Engineering,Industrial Systems Eng & Mgmt,IE2141,Systems Think
 Collg of Design & Engineering,Industrial Systems Eng & Mgmt,IE3120,Manufacturing Logistics,L1,55,-1,-1,-1,-1
 Collg of Design & Engineering,Industrial Systems Eng & Mgmt,IE4210,Operations Research II,L1,31,-1,-1,2,-1
 Collg of Design & Engineering,Industrial Systems Eng & Mgmt,IE4211,Modelling & Analytics,L1,10,-1,-1,-1,-1
-Collg of Design & Engineering,Industrial Systems Eng & Mgmt,IE4213,Learning from Data,P01,7,-1,-1,-1,-1
 Collg of Design & Engineering,Industrial Systems Eng & Mgmt,IE4214,Revenue Management and Pricing Analytics,L1,22,-1,-1,-1,-1
 Collg of Design & Engineering,Industrial Systems Eng & Mgmt,IE4220,Supply Chain Modelling,L1,18,-1,-1,1,-1
 Collg of Design & Engineering,Industrial Systems Eng & Mgmt,IE5002,Applied Engineering Statistics,L1,-1,4,-1,-1,-1
@@ -299,7 +297,6 @@ Collg of Design & Engineering,Industrial Systems Eng & Mgmt,MTM5004,Maritime Dat
 Collg of Design & Engineering,Industrial Systems Eng & Mgmt,MTM5005,Intermodal Freight Transport and Logistics,L1,-1,3,-1,-1,-1
 Collg of Design & Engineering,Industrial Systems Eng & Mgmt,MTM5101,Maritime Industrial Attachment,L1,-1,2147483647,-1,-1,-1
 Collg of Design & Engineering,Industrial Systems Eng & Mgmt,MTM5101P,Maritime Team Project,L1,-1,2147483647,-1,-1,-1
-Collg of Design & Engineering,Materials Science & Eng,CN5215,Atomistic Modelling of Molecules and Materials,L1,2,0,-1,-1,-1
 Collg of Design & Engineering,Materials Science & Eng,MLE2001A,Materials Science & Engineering Principles & Practice II,L1,2,-1,-1,-1,-1
 Collg of Design & Engineering,Materials Science & Eng,MLE2104,Mechanical Properties of Materials,L1,26,-1,-1,4,-1
 Collg of Design & Engineering,Materials Science & Eng,MLE2105,Electronic Properties of Materials,L1,13,-1,-1,2,-1
@@ -320,7 +317,6 @@ Collg of Design & Engineering,Materials Science & Eng,MLE5102,MECHANICAL BEHAVIO
 Collg of Design & Engineering,Materials Science & Eng,MLE5210,Modelling and Simulation of Materials,L1,8,1,-1,0,-1
 Collg of Design & Engineering,Materials Science & Eng,MLE5211,Nanomaterials,L1,8,16,-1,0,-1
 Collg of Design & Engineering,Materials Science & Eng,MLE5214,Advances in Polymeric Materials,L1,10,26,-1,0,-1
-Collg of Design & Engineering,Materials Science & Eng,MLE5215,Atomistic Modelling of Molecules and Materials,L1,4,1,-1,0,-1
 Collg of Design & Engineering,Materials Science & Eng,MLE5999,GRADUATE SEMINARS,E1,-1,94,-1,-1,-1
 Collg of Design & Engineering,Materials Science & Eng,MLE6103,STRUCTURES OF MATERIALS,L1,-1,27,-1,-1,-1
 Collg of Design & Engineering,Mechanical Engineering,EE5106,ADVANCED ROBOTICS,L01,3,16,-1,-1,-1
@@ -1242,10 +1238,8 @@ Faculty of Arts & Social Sci,South Asian Studies,GESS1005,South Asia in Singapor
 Faculty of Arts & Social Sci,South Asian Studies,GET1009,Maverick or Mahatma? Gandhi's Life & Legacy,L1,20,-1,-1,-1,-1
 Faculty of Arts & Social Sci,South Asian Studies,GEX1000,Framing Bollywood: Unpacking The Magic,L1,84,-1,-1,14,-1
 Faculty of Arts & Social Sci,South Asian Studies,HY3236,"The Struggle for India, 1920-1964",E1,8,-1,-1,-1,-1
-Faculty of Arts & Social Sci,South Asian Studies,PH2204,Introduction to Indian Thought,L1,31,-1,-1,2,-1
 Faculty of Arts & Social Sci,South Asian Studies,SN1101E,"Discover South Asia: People, Culture, Development",L1,80,-1,-1,11,-1
 Faculty of Arts & Social Sci,South Asian Studies,SN2213,"South Asian Democracies - Violence, Conflict, and Hope",L1,10,-1,-1,0,-1
-Faculty of Arts & Social Sci,South Asian Studies,SN2273,Introduction to Indian Thought,L1,3,-1,-1,-1,-1
 Faculty of Arts & Social Sci,South Asian Studies,SN2280,"Marriage, Sex, Love in South Asia",L1,34,-1,-1,1,-1
 Faculty of Arts & Social Sci,South Asian Studies,SN2285,What's Cooking: Food and Drink in South Asian Cultures,L1,51,-1,-1,12,-1
 Faculty of Arts & Social Sci,South Asian Studies,SN3232,"South Asia : Development, Issues, Debates",E1,15,-1,-1,5,-1
@@ -1856,13 +1850,7 @@ Faculty of Science,Statistics and Data Science,DSA1101,Introduction to Data Scie
 Faculty of Science,Statistics and Data Science,DSA2101,Essential Data Analytics Tools: Data Visualisation,L1,1,-1,-1,-1,-1
 Faculty of Science,Statistics and Data Science,DSA4212,Optimisation for Large-Scale Data- Driven Inference,L1,4,23,-1,8,-1
 Faculty of Science,Statistics and Data Science,DSA4265,Sense-making Case Analysis: Economics and Finance,L1,17,-1,-1,-1,-1
-Faculty of Science,Statistics and Data Science,MA2216,Probability,L1,37,-1,-1,3,-1
-Faculty of Science,Statistics and Data Science,MA2216,Probability,L2,30,-1,-1,2,0
-Faculty of Science,Statistics and Data Science,MA3238,Stochastic Processes I,L1,14,4,-1,3,-1
-Faculty of Science,Statistics and Data Science,MA4251,Stochastic Processes II,L1,16,11,-1,5,-1
 Faculty of Science,Statistics and Data Science,ST1131,Introduction to Statistics and Statistical Computing,L1,94,-1,-1,15,-1
-Faculty of Science,Statistics and Data Science,ST2131,Probability,L1,143,-1,-1,10,-1
-Faculty of Science,Statistics and Data Science,ST2131,Probability,L2,109,-1,-1,10,-1
 Faculty of Science,Statistics and Data Science,ST2132,Mathematical Statistics,L1,80,-1,-1,2,-1
 Faculty of Science,Statistics and Data Science,ST2137,Statistical Computing and Programming,L1,46,-1,-1,3,-1
 Faculty of Science,Statistics and Data Science,ST2334,Probability and Statistics,L1,11,-1,-1,0,-1
@@ -1870,12 +1858,10 @@ Faculty of Science,Statistics and Data Science,ST2334,Probability and Statistics
 Faculty of Science,Statistics and Data Science,ST2334,Probability and Statistics,L3,214,-1,-1,-1,-1
 Faculty of Science,Statistics and Data Science,ST3131,Regression Analysis,L1,5,-1,-1,4,-1
 Faculty of Science,Statistics and Data Science,ST3232,Design & Analysis of Experiments,L1,1,-1,-1,4,-1
-Faculty of Science,Statistics and Data Science,ST3236,Stochastic Processes I,L1,176,-1,-1,9,-1
 Faculty of Science,Statistics and Data Science,ST3244,Demographic Methods,L1,1,-1,-1,4,-1
 Faculty of Science,Statistics and Data Science,ST3246,Statistical Models for Actuarial Science,L1,6,-1,-1,1,-1
 Faculty of Science,Statistics and Data Science,ST3247,Simulation,L1,42,-1,-1,4,-1
 Faculty of Science,Statistics and Data Science,ST4234,Bayesian Statistics,L1,49,15,-1,12,-1
-Faculty of Science,Statistics and Data Science,ST4238,Stochastic Processes II,L1,67,6,-1,5,-1
 Faculty of Science,Statistics and Data Science,ST4248,Statistical Learning II,L1,58,10,-1,7,-1
 Faculty of Science,Statistics and Data Science,ST4251,Categorical Data Analysis I,L1,23,4,-1,4,-1
 Faculty of Science,Statistics and Data Science,ST4252,Applied Survival Analysis,L1,23,3,-1,3,-1
@@ -2260,7 +2246,6 @@ NUS Business School,Accounting,BAA6001,Accounting Research Seminars I,S01,-1,15,
 NUS Business School,Analytics and Operations,BDC6248,Seminars In Operations Management I,S01,-1,24,-1,-1,-1
 NUS Business School,Analytics and Operations,BDC6249,Sem in Op Mgtm II,S01,-1,23,-1,-1,-1
 NUS Business School,Analytics and Operations,BDC6303,Queues and Stochastic Networks,S01,-1,26,-1,5,-1
-NUS Business School,Analytics and Operations,BDC6304,Robust modelling and optimization,S01,-1,3,-1,0,-1
 NUS Business School,Analytics and Operations,DAO1704,Decision Analytics using Spreadsheets,SA1,11,-1,-1,-1,-1
 NUS Business School,Analytics and Operations,DAO1704,Decision Analytics using Spreadsheets,SA10,11,-1,-1,-1,-1
 NUS Business School,Analytics and Operations,DAO1704,Decision Analytics using Spreadsheets,SA11,7,-1,-1,-1,-1

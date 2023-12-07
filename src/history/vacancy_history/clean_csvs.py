@@ -151,6 +151,31 @@ def _merge_overflowed_rows(data: List[List[str]]) -> List[List[str]]:
     return merged_data
 
 
+def _remove_duplicate_code_class(data: List[List[str]]) -> List[List[str]]:
+    """
+    Removes duplicate rows with the same Code and Class from the data.
+
+    Args:
+    data: A list of lists of strings representing the data.
+
+    Returns:
+    A list of lists of strings with only the unique rows based on Code and Class.
+    """
+    seen = set()
+    unique_data = []
+
+    for row in data:
+        code = row[2]
+        class_ = row[4]
+        key = f"{code}:{class_}"
+
+        if key not in seen:
+            seen.add(key)
+            unique_data.append(row)
+
+    return unique_data
+
+
 def _insert_header(data: List[List[str]], header: List[str]) -> None:
     """
     Insert a header row in front of the data set.
@@ -204,6 +229,7 @@ def clean_csv(input_file_path: str, output_file_path: str) -> None:
     data = _merge_overflowed_rows(data)
     _fix_empty_data(data)
     _trim_course_class(data)
+    data = _remove_duplicate_code_class(data)
     _insert_header(data, ['Faculty', 'Department', 'Code', 'Title', 'Class',
                           'UG', 'GD', 'DK', 'NG', 'CPE'])
 
