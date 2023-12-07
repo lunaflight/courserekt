@@ -8,6 +8,7 @@ from src.history.coursereg_history.api import (
 import os
 
 app = Flask(__name__)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 
 @app.context_processor
@@ -38,13 +39,21 @@ def history() -> str:
     semester = request.form.get('semester', '1')
     type = request.form.get('type', 'ug')
 
-    output, error = [], None
-    try:
-        output = get_all_data(year, semester, type)
-    except ValueError as e:
-        error = e
+    # Check if the precomputed HTML file exists
+    filepath = os.path.join(BASE_DIR, 'static/pages', year, semester, type, 'index.html')
+    if os.path.exists(filepath):
+        # Serve the precomputed HTML
+        with open(filepath, 'r') as f:
+            return f.read()
 
-    return render_template('history.html', output=output, error=error)
+    # Fallback to dynamic rendering if the file doesn't exist
+    # output, error = [], None
+    # try:
+    #     output = get_all_data(year, semester, type)
+    # except ValueError as e:
+    #     error = e
+
+    # return render_template('history.html', output=output, error=error)
 
 
 def _serve_file(filepath: str) -> Response:
