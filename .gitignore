@@ -4,3 +4,9 @@ __pycache__/
 .vercel
 
 venv/
+
+src/history/database.db
+src/history/coursereg_history/data/cleaned/
+src/history/coursereg_history/data/raw
+src/history/vacancy_history/data/cleaned
+src/history/vacancy_history/data/raw

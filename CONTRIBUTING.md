@@ -29,24 +29,25 @@ Read the corresponding `README.md` files in the respective subdirectories for mo
 ### Installation
 
 1. Clone the repository with `git clone https://github.com/et-irl/courserekt.git`.
-2. Make sure Python and pip are installed on your system. If not, follow the instructions below:
+2. Navigate to `src/history` and run `make all`. (This will generate `database.db`.)
+3. Make sure Python and pip are installed on your system. If not, follow the instructions below:
     - **Python and pip:**
         - **Windows/Mac:** Download the installer from the [Python website](https://www.python.org/downloads/).
         - **Linux (apt):** `sudo apt-get install python3 python3-pip`
         - **Linux (dnf):** `sudo dnf install python3 python3-pip`
         - **Linux (pacman):** `sudo pacman -S python python-pip`
-3. Navigate to the **project root** and set up a virtual environment with `python -m venv venv`.
+4. Navigate to the **project root** and set up a virtual environment with `python -m venv venv`.
     - A virtual environment ensures that everyone is working with the same set of dependencies.
-4. Activate the virual environment:
+5. Activate the virual environment:
     - Activating:
         - **Windows:** `venv\Scripts\activate`
         - **Mac/Linux:** `source venv/bin/activate`
     - You should see the `(venv)` prefix in your command prompt.
-5. Install the Python dependencies with pip:
+6. Install the Python dependencies with pip:
     ```shell
     pip install -r requirements.txt
     ```
-6. When you are done, you can deactivate the virtual environment with `deactivate`.
+7. When you are done, you can deactivate the virtual environment with `deactivate`.
 
 ### Web App
 
@@ -56,6 +57,7 @@ To start the web app, navigate to the **project root** and do the following:
 python -m src.web.main
 ```
 
+This will cache all pages.
 Optionally, you may supply the following to `python -m src.web.main`.
 - `--port PORT`: Port where the app is run. Otherwise, it defaults to `5000`.
 
