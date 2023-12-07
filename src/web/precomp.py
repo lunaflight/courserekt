@@ -22,7 +22,6 @@ def main():
 
 def generate_html(year: str, semester: str, student_type: str):
     client = app.test_client()
-    client.testing = True
 
     data = {
         'year': year,
