@@ -5,11 +5,15 @@ from src.web.precomp import generate_pages
 
 def main():
     parser = ArgumentParser(description='Web app for CourseRekt')
-    parser.add_argument('--port', type=int, nargs=1, default=5000,
+    parser.add_argument('-p', '--port', type=int, nargs=1, default=5000,
                         help='Port where the app is run.')
+    parser.add_argument('-s', '--skip-precompute', action='store_true',
+                        help='Use existing static pages instead of re-computing them.')
     args = parser.parse_args()
 
-    generate_pages()
+    if not args.skip_precompute:
+        generate_pages()
+
     app.run(host='0.0.0.0', port=args.port, debug=True)
 
 

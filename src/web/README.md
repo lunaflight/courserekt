@@ -16,7 +16,7 @@
 
 # Implementation
 
-## Round Data Generation
+## Precomputing the HTML for Round Data
 
 We do following to generate the HTML:
 

@@ -59,7 +59,8 @@ python -m src.web.main
 
 This will cache all pages.
 Optionally, you may supply the following to `python -m src.web.main`.
-- `--port PORT`: Port where the app is run. Otherwise, it defaults to `5000`.
+- `-p`, `--port PORT`: Port where the app is run. Otherwise, it defaults to `5000`.
+- `-s`, `--skip-precompute`: Use the existing files in `static/pages` to load the HTML instead.
 
 After running the command, open a web browser and navigate to `http://localhost:5000/`. 
 
