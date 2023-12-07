@@ -3,7 +3,11 @@
 ```
 .
 ├── app.py
-    - Flask application responsible for the '/' directory.
+    - Flask application responsible for all web-related requests.
+├── main.py
+    - Entry point of the application.
+├── precomp.py
+    - Script responsible for generating all HTML pages statically beforehand.
 ├── static
     - Responsible for containing CSS, JS and assets.
 └── templates
@@ -14,11 +18,12 @@
 
 ## Round Data Generation
 
-The Flask application does the following to generate the HTML:
+We do following to generate the HTML:
 
 1. It queries `get_all_data()` from `src/history/coursereg_history/api.py`.
 2. It uses the returned value to generate the entire table using the HTML template with Jinja2.
 3. The colouring of the table data is added by Jinja2 based on the ratio of availability.
+4. We save it to the appropriate location under `static/pages/{YEAR}/{SEMESTER}/{TYPE}/index.html`.
 
 ## PDF Link Generation
 
