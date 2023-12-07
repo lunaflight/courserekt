@@ -65,6 +65,26 @@ This is an example taken from `raw/2223/1/ug/round_1.csv`.
 Faculty of Law,FoL Dean's Office,LL4002V,Admiralty Law & Practice,E1,,3,3,0,0,0,0,0
 ```
 
+## Duplicate (Code, Class) for Vacancy PDFs
+Interestingly, this only occurs for Vacancy PDFs and not for CourseReg PDFs.
+Sometimes, there are duplicate entries for the same code and class, listed under different faculties.
+These duplicates must be removed when cleaning them.
+
+These are examples taken from `vacancy_history/data/pdfs/2223/1/round_0.csv`.
+
+BSN3701:
+```
+NUS,NUS Enterprise Academy,BSN3701,Technological Innovation,SA1,17,-1,-1,30,3
+NUS Business School,Strategy and Policy,BSN3701,Technological Innovation,SA1,17,-1,-1,30,3
+```
+
+ST2131:
+```
+Faculty of Science,Mathematics,ST2131,Probability,L1,200,-1,-1,-1,-1
+Faculty of Science,Statistics and Data Science,ST2131,Probability,L1,200,-1,-1,-1,-1
+```
+
+
 ## Merging
 After parsing both CourseReg and Vacancy PDFs, `merge_db.py` attempts to combine the 2.
 1. The primary key we use here is `(Code, Class)`. This will allow us to uniquely identify and merge the 2 tables.
@@ -73,7 +93,6 @@ After parsing both CourseReg and Vacancy PDFs, `merge_db.py` attempts to combine
 If we cannot find a value for the following, replace it with...
  - `Vacancy` = `UG/GD` _(available seats for `UG/GD` in the Vacancy PDF)_
  - `Demand` = `0` _(and all other columns)_
-
 
 # Usage
 
