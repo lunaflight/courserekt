@@ -10,3 +10,4 @@ src/history/coursereg_history/data/cleaned/
 src/history/coursereg_history/data/raw
 src/history/vacancy_history/data/cleaned
 src/history/vacancy_history/data/raw
+src/web/static/pages
