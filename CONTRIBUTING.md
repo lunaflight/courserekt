@@ -8,6 +8,8 @@
     - Contains the list of files to ignore upon committing to git.
 ├── README.md
     - Documentation
+├── docs/images
+    - Contains all assets for the documentation of the project.
 ├── requirements.txt
     - Contains the Python dependencies required in the project.
 ├── src
