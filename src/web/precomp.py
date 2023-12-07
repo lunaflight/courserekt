@@ -4,7 +4,7 @@ import os
 import shutil
 
 
-def main() -> None:
+def generate_pages() -> None:
     years = ["2122", "2223", "2324"]
     semesters = ["1", "2"]
     student_types = ["ug", "gd"]
@@ -53,4 +53,4 @@ def generate_html(year: str, semester: str, student_type: str) -> None:
 
 
 if __name__ == '__main__':
-    main()
+    generate_pages()

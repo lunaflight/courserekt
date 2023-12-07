@@ -48,15 +48,14 @@ Read the corresponding `README.md` files in the respective subdirectories for mo
 
 ### Web App
 
-To start the web app, navigate to the **project root** and you can use the following command:
+To start the web app, navigate to the **project root** and do the following:
 
 ```shell
-python -m src.web.app 
+python -m src.web.main
 ```
 
-Options:
-- `-h`, `--help`: Show this help message and exit
-- `--port PORT`: Port where the app is run.
+Optionally, you may supply the following to `python -m src.web.main`.
+- `--port PORT`: Port where the app is run. Otherwise, it defaults to `5000`.
 
 After running the command, open a web browser and navigate to `http://localhost:5000/`. 
 
