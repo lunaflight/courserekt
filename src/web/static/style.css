@@ -6,8 +6,6 @@ body {
     background-color: #F0F0F0;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
-    overflow: scroll;
-    padding-bottom: 30px;
 }
 
 footer {
