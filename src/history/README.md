@@ -70,7 +70,7 @@ Interestingly, this only occurs for Vacancy PDFs and not for CourseReg PDFs.
 Sometimes, there are duplicate entries for the same code and class, listed under different faculties.
 These duplicates must be removed when cleaning them.
 
-These are examples taken from `vacancy_history/data/pdfs/2223/1/round_0.csv`.
+These are examples taken from `vacancy_history/data/raw/2223/1/round_0.csv`.
 
 BSN3701:
 ```
