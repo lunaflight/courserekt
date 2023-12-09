@@ -28,26 +28,10 @@ Read the corresponding `README.md` files in the respective subdirectories for mo
 
 ### Installation
 
-1. Clone the repository with `git clone https://github.com/et-irl/courserekt.git`.
-2. Navigate to `src/history` and run `make all`. (This will generate `database.db`.)
-3. Make sure Python and pip are installed on your system. If not, follow the instructions below:
-    - **Python and pip:**
-        - **Windows/Mac:** Download the installer from the [Python website](https://www.python.org/downloads/).
-        - **Linux (apt):** `sudo apt-get install python3 python3-pip`
-        - **Linux (dnf):** `sudo dnf install python3 python3-pip`
-        - **Linux (pacman):** `sudo pacman -S python python-pip`
-4. Navigate to the **project root** and set up a virtual environment with `python -m venv venv`.
-    - A virtual environment ensures that everyone is working with the same set of dependencies.
-5. Activate the virual environment:
-    - Activating:
-        - **Windows:** `venv\Scripts\activate`
-        - **Mac/Linux:** `source venv/bin/activate`
-    - You should see the `(venv)` prefix in your command prompt.
-6. Install the Python dependencies with pip:
-    ```shell
-    pip install -r requirements.txt
-    ```
-7. When you are done, you can deactivate the virtual environment with `deactivate`.
+1. Ensure that `python`, `pip` and `java` are installed on your system.
+You may follow the guide to set a virtual environment up below.
+2. Clone the repository with `git clone https://github.com/et-irl/courserekt.git`.
+3. From the **project root**, run `make -C src/history all`. (This will generate `database.db`.)
 
 ### Web App
 
@@ -57,12 +41,27 @@ To start the web app, navigate to the **project root** and do the following:
 python -m src.web.main
 ```
 
-This will cache all pages.
+This will precompute and cache all pages.
 Optionally, you may supply the following to `python -m src.web.main`.
 - `-p`, `--port PORT`: Port where the app is run. Otherwise, it defaults to `5000`.
 - `-s`, `--skip-precompute`: Use the existing files in `static/pages` to load the HTML instead.
 
 After running the command, open a web browser and navigate to `http://localhost:5000/`. 
+
+### Setting up a Virtual Environment
+A virtual environment ensures that everyone is working with the same set of dependencies.
+
+1. Navigate to the **project root** and set up a virtual environment with `python -m venv venv`.
+2. Activate the virual environment:
+    - Activating:
+        - **Windows:** `venv\Scripts\activate`
+        - **Mac/Linux:** `source venv/bin/activate`
+    - You should see the `(venv)` prefix in your command prompt.
+3. Install the Python dependencies with pip:
+    ```shell
+    pip install -r requirements.txt
+    ```
+4. When you are done, you can deactivate the virtual environment with `deactivate`.
 
 ### Unit Testing
 
