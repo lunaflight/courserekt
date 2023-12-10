@@ -2,8 +2,7 @@ import argparse
 import csv
 import os
 from typing import List
-
-INF = 2147483647
+from src.history.api import INF
 
 
 def _clean(s: str) -> str:

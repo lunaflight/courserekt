@@ -129,7 +129,12 @@ def get_data(year: Union[str, int],
             'code': code,
             'title': "",
             'classes': class_dict}
-    BLANK = {'demand': -1,
+    BLANK = {'ug': -1,
+             'gd': -1,
+             'dk': -1,
+             'ng': -1,
+             'cpe': -1,
+             'demand': -1,
              'vacancy': -1,
              'successful_main': -1,
              'successful_reserve': -1,
@@ -161,14 +166,21 @@ def get_data(year: Union[str, int],
             output['code'] = row['Code']
             output['title'] = row['Title']
 
-            result = {'demand': row['Demand'],
-                      'vacancy': row['Vacancy'],
-                      'successful_main': row['Successful_Main'],
-                      'successful_reserve': row['Successful_Reserve'],
-                      'quota_exceeded': row['Quota_Exceeded'],
-                      'timetable_clashes': row['Timetable_Clashes'],
-                      'workload_exceeded': row['Workload_Exceeded'],
-                      'others': row['Others']}
+            result = {
+                    'ug': row['UG'],
+                    'gd': row['GD'],
+                    'dk': row['DK'],
+                    'ng': row['NG'],
+                    'cpe': row['CPE'],
+                    'demand': row['Demand'],
+                    'vacancy': row['Vacancy'],
+                    'successful_main': row['Successful_Main'],
+                    'successful_reserve': row['Successful_Reserve'],
+                    'quota_exceeded': row['Quota_Exceeded'],
+                    'timetable_clashes': row['Timetable_Clashes'],
+                    'workload_exceeded': row['Workload_Exceeded'],
+                    'others': row['Others']
+                    }
 
             # Logic to pad skipped rounds with blanks to ensure that
             # the list stays at length 4, corresponding to each round.
