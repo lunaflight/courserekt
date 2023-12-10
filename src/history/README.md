@@ -45,7 +45,7 @@ The following list explains, exhaustively, all ill-behaved data found in the tab
 ### Courses spilling data across pages
 Courses with a sufficiently long field on the last entry of the PDF can have its data spill over to the next page.
 
-This is an example taken from `raw/2223/1/ug/round_0.csv`.
+This is an example taken from `coursereg_history/data/raw/2223/1/ug/round_0.csv`.
 
 **Row `t + 0`**
 ```
@@ -60,7 +60,7 @@ Yale-NUS College,Yale-NUS College,YSS4206C,Topics in Psychology: The Pursuit of,
 Courses, especially prefixed with `LL`, tend to have empty vacancy fields.
 This should be treated the same as a `-` field.
 
-This is an example taken from `raw/2223/1/ug/round_1.csv`.
+This is an example taken from `coursereg_history/data/raw/2223/1/ug/round_1.csv`.
 ```
 Faculty of Law,FoL Dean's Office,LL4002V,Admiralty Law & Practice,E1,,3,3,0,0,0,0,0
 ```
