@@ -7,7 +7,7 @@ if [ $# -eq 0 ]; then
 fi
 
 # The path to the tabula.jar file
-tabula_jar="tabula.jar"
+tabula_jar="src/history/tabula.jar"
 
 # Iterate over each PDF passed as an argument
 for pdf_file in "$@"; do

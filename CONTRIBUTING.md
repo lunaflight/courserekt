@@ -6,10 +6,14 @@
     - Contains the files for continuous integration.
 ├── .gitignore
     - Contains the list of files to ignore upon committing to git.
-├── README.md
-    - Documentation
+├── CONTRIBUTING.md
+    - Documentation for developers
 ├── docs/images
     - Contains all assets for the documentation of the project.
+├── Makefile
+    - Contains the configuration to keep data updated.
+├── README.md
+    - Documentation for users
 ├── requirements.txt
     - Contains the Python dependencies required in the project.
 ├── src
@@ -31,7 +35,7 @@ Read the corresponding `README.md` files in the respective subdirectories for mo
 1. Ensure that `python`, `pip` and `java` are installed on your system.
 You may follow the guide to set a virtual environment up below.
 2. Clone the repository with `git clone https://github.com/et-irl/courserekt.git`.
-3. From the **project root**, run `make -C src/history all`. (This will generate `database.db`.)
+3. From the **project root**, run `make all`. (This will generate `database.db`.)
 
 ### Web App
 
@@ -98,7 +102,7 @@ For example, `round_0.pdf`.
 5. Navigate to `src/history/vacancy_history/data/pdfs`. 
 6. Create the relevant directory by running `mkdir -p YEAR/SEM`. For example, `2324/1` or `2425/2`.
 7. Add the "Course Class Vacancy Report" PDF in the relevant directory, naming it `round_N.pdf`.
-8. Navigate to `src/history`. Run `make all`.
+8. Navigate to the **project root**. Run `make all`.
 9. You're done! The data should have been added successfully and ready to use.
 
 ### Deployment to Vercel

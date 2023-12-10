@@ -4,12 +4,13 @@ import pandas as pd
 import argparse
 import os
 
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 def process_csv_files(csv_files: List[str], is_cleaning: bool = False) -> None:
     """Processes a list of CSV files by loading them
     into an SQLite database."""
 
-    conn = sqlite3.connect('database.db')
+    conn = sqlite3.connect(os.path.join(BASE_DIR, 'database.db'))
 
     for csv_file in csv_files:
         # Get the name of the table from the filename

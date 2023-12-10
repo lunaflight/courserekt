@@ -4,7 +4,7 @@ import argparse
 import os
 
 NA = -1
-
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 def merge_csv_files(csv_files: List[str]) -> None:
     """
@@ -13,7 +13,7 @@ def merge_csv_files(csv_files: List[str]) -> None:
     attempt to merge them with useful Vacancy Histories.
     """
 
-    conn = sqlite3.connect('database.db')
+    conn = sqlite3.connect(os.path.join(BASE_DIR, 'database.db'))
 
     for csv_file in csv_files:
         # Given name of CourseReg:
