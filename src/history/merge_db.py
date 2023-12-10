@@ -2,9 +2,10 @@ import sqlite3
 from typing import List
 import argparse
 import os
+from src.history.api import NA
 
-NA = -1
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 
 def merge_csv_files(csv_files: List[str]) -> None:
     """

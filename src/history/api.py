@@ -5,6 +5,7 @@ from typing import Dict, List, Optional, Set, Union
 
 ROUNDS = 4
 INF = 2147483647
+NA = -1
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 

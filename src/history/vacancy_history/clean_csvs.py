@@ -2,9 +2,7 @@ import argparse
 import csv
 import os
 from typing import List
-
-INF = 2147483647
-NA = -1
+from src.history.api import INF, NA
 
 
 def _clean(s: str) -> str:

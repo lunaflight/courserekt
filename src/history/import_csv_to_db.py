@@ -6,6 +6,7 @@ import os
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
+
 def process_csv_files(csv_files: List[str], is_cleaning: bool = False) -> None:
     """Processes a list of CSV files by loading them
     into an SQLite database."""
