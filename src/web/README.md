@@ -39,7 +39,7 @@ JavaScript detects if a new button is pressed, and sends a POST request which th
 
 The search bar does the following:
 1. Every time new user input is detected, JS is immediately executed.
-2. For every course, it is hidden if and only if the course code does not contain any of the filters, delimited by `' '`, as a substring.
+2. For every course, it is hidden if and only if the course code does not start with any of the filters, delimited by `' '`, as a substring.
    - It does so by adding `hidden` to the table row.
 
 ## Persistence

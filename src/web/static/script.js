@@ -85,7 +85,7 @@ async function filterCourses() {
             .textContent
             .toUpperCase();
 
-        const isMatch = filters.some(filter => courseCode.indexOf(filter) > -1);
+        const isMatch = filters.some(keyword => courseCode.startsWith(keyword));
 
         if (filters.length == 0 || isMatch) {
             tableRows[i].classList.remove('hidden');
