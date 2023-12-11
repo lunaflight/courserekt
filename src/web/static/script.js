@@ -6,7 +6,7 @@ const loadingSpinner = document.getElementById('loading-spinner');
  * @function
  */
 async function showLoadingSpinner() {
-  loadingSpinner.classList.remove('hidden');
+    loadingSpinner.classList.remove('hidden');
 }
 
 /**
@@ -15,7 +15,7 @@ async function showLoadingSpinner() {
  * @function
  */
 async function hideLoadingSpinner() {
-  loadingSpinner.classList.add('hidden');
+    loadingSpinner.classList.add('hidden');
 }
 
 /**
@@ -24,21 +24,21 @@ async function hideLoadingSpinner() {
  * @function
  */
 async function toggleCourseNamesByCheckbox() {
-  const checkbox = document.getElementById('toggle-course-names-checkbox');
-  const isVisible = checkbox.checked;
+    const checkbox = document.getElementById('toggle-course-names-checkbox');
+    const isVisible = checkbox.checked;
 
-  const table = document.getElementById("table-data");
-  const courseTitleIndex = 1;
+    const table = document.getElementById("table-data");
+    const courseTitleIndex = 1;
 
-  // Toggle the visibility of the column in the table body
-  const tbodyCells = table.getElementsByTagName("tbody")[0].getElementsByTagName("td");
-  for (let i = courseTitleIndex; i < tbodyCells.length; i += table.rows[0].cells.length) {
-    tbodyCells[i].classList.toggle("hidden", !isVisible);
-  }
+    // Toggle the visibility of the column in the table body
+    const tbodyCells = table.getElementsByTagName("tbody")[0].getElementsByTagName("td");
+    for (let i = courseTitleIndex; i < tbodyCells.length; i += table.rows[0].cells.length) {
+        tbodyCells[i].classList.toggle("hidden", !isVisible);
+    }
 
-  // Toggle the visibility of the column in the table headers
-  const theadCells = table.getElementsByTagName("thead")[0].getElementsByTagName("th");
-  theadCells[courseTitleIndex].classList.toggle("hidden", !isVisible);
+    // Toggle the visibility of the column in the table headers
+    const theadCells = table.getElementsByTagName("thead")[0].getElementsByTagName("th");
+    theadCells[courseTitleIndex].classList.toggle("hidden", !isVisible);
 }
 
 /**
@@ -47,12 +47,12 @@ async function toggleCourseNamesByCheckbox() {
  * @function
  */
 async function toggleForecastByCheckbox() {
-  const checkbox = document.getElementById('toggle-forecast-checkbox');
-  const isVisible = checkbox.checked;
+    const checkbox = document.getElementById('toggle-forecast-checkbox');
+    const isVisible = checkbox.checked;
 
-  const vacancyDataSpans = document.querySelectorAll(".vacancy-data");
+    const vacancyDataSpans = document.querySelectorAll(".vacancy-data");
 
-  vacancyDataSpans.forEach(span => span.classList.toggle("hidden", !isVisible));
+    vacancyDataSpans.forEach(span => span.classList.toggle("hidden", !isVisible));
 }
 
 /**
@@ -68,29 +68,29 @@ async function toggleForecastByCheckbox() {
  * @function
  */
 async function filterCourses() {
-  const searchInput = document.getElementById('search-input');
-  localStorage.setItem('searchValue', searchInput.value);
+    const searchInput = document.getElementById('search-input');
+    localStorage.setItem('searchValue', searchInput.value);
 
-  const formattedInput = searchInput.value.toUpperCase();
-  const tableRows = document.getElementsByTagName('tr');
-  const filters = formattedInput.split(' ').filter(Boolean);
+    const formattedInput = searchInput.value.toUpperCase();
+    const tableRows = document.getElementsByTagName('tr');
+    const filters = formattedInput.split(' ').filter(Boolean);
 
-  const courseCodeIndex = 0;
+    const courseCodeIndex = 0;
 
-  for (let i = 1; i < tableRows.length; i++) {
-    const courseCode = tableRows[i]
-      .getElementsByTagName('td')[courseCodeIndex]
-      .textContent
-      .toUpperCase();
+    for (let i = 1; i < tableRows.length; i++) {
+        const courseCode = tableRows[i]
+            .getElementsByTagName('td')[courseCodeIndex]
+            .textContent
+            .toUpperCase();
 
-    const isMatch = filters.some(filter => courseCode.indexOf(filter) > -1);
+        const isMatch = filters.some(filter => courseCode.indexOf(filter) > -1);
 
-    if (filters.length == 0 || isMatch) {
-      tableRows[i].classList.remove('hidden');
-    } else {
-      tableRows[i].classList.add('hidden');
+        if (filters.length == 0 || isMatch) {
+            tableRows[i].classList.remove('hidden');
+        } else {
+            tableRows[i].classList.add('hidden');
+        }
     }
-  }
 }
 
 /**
@@ -99,27 +99,27 @@ async function filterCourses() {
  * @event
  */
 document.addEventListener('DOMContentLoaded', () => {
-  // The checkbox determines if the course title is shown.
-  const checkbox = document.getElementById('toggle-course-names-checkbox');
-  checkbox.addEventListener('change', toggleCourseNamesByCheckbox);
-  toggleCourseNamesByCheckbox();
+    // The checkbox determines if the course title is shown.
+    const checkbox = document.getElementById('toggle-course-names-checkbox');
+    checkbox.addEventListener('change', toggleCourseNamesByCheckbox);
+    toggleCourseNamesByCheckbox();
 
-  // The checkbox determines if the preliminary vacancies are shown.
-  const forecastCheckbox = document.getElementById('toggle-forecast-checkbox');
-  forecastCheckbox.addEventListener('change', toggleForecastByCheckbox);
-  toggleForecastByCheckbox();
+    // The checkbox determines if the preliminary vacancies are shown.
+    const forecastCheckbox = document.getElementById('toggle-forecast-checkbox');
+    forecastCheckbox.addEventListener('change', toggleForecastByCheckbox);
+    toggleForecastByCheckbox();
 
-  // The search bar should constantly filter courses as new input is received.
-  const searchInput = document.getElementById('search-input');
-  searchInput.value = localStorage.getItem('searchValue') || '';
-  searchInput.addEventListener('input', filterCourses);
-  filterCourses();
+    // The search bar should constantly filter courses as new input is received.
+    const searchInput = document.getElementById('search-input');
+    searchInput.value = localStorage.getItem('searchValue') || '';
+    searchInput.addEventListener('input', filterCourses);
+    filterCourses();
 
-  // The data should immediately update when new data is requested by a button press.
-  const courseForm = document.getElementById('course-form');
-  courseForm.addEventListener('change', () => {
-    courseForm.submit();
-    showLoadingSpinner();
-  });
-  courseForm.addEventListener('submit', event => event.preventDefault());
+    // The data should immediately update when new data is requested by a button press.
+    const courseForm = document.getElementById('course-form');
+    courseForm.addEventListener('change', () => {
+        courseForm.submit();
+        showLoadingSpinner();
+    });
+    courseForm.addEventListener('submit', event => event.preventDefault());
 });
