@@ -41,3 +41,8 @@ The search bar does the following:
 1. Every time new user input is detected, JS is immediately executed.
 2. For every course, it is hidden if and only if the course code does not contain any of the filters, delimited by `' '`, as a substring.
    - It does so by adding `hidden` to the table row.
+
+## Persistence
+We use `localStorage` in JS to remember user input across different sessions while browsing data, for the following:
+1. Search bar input
+2. Toggle checkboxes
