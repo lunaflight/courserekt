@@ -40,6 +40,7 @@ footer {
     position: sticky;
     top: 10%;
     overflow: auto;
+    max-width: 300px;
     height: 100%;
     padding: 3px;
 }
@@ -127,7 +128,6 @@ input[type=submit]:hover {
 }
 
 .help-icon {
-  position: absolute;
   right: 5px;
   top: 50%;
   transform: translateY(-50%);
