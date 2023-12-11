@@ -88,19 +88,19 @@ def check_all_csvs(check_func: Callable[[Iterator[List[str]], str],
 
 
 class MainTestCase(unittest.TestCase):
-    def test_header(self):
+    def test_header(self) -> None:
         self.assertTrue(check_all_csvs(has_good_header))
 
-    def test_length(self):
+    def test_length(self) -> None:
         self.assertTrue(check_all_csvs(has_good_length))
 
-    def test_non_blank_entries(self):
+    def test_non_blank_entries(self) -> None:
         self.assertTrue(check_all_csvs(has_entries))
 
-    def test_number_entries(self):
+    def test_number_entries(self) -> None:
         self.assertTrue(check_all_csvs(has_number_data))
 
-    def test_course_codes(self):
+    def test_course_codes(self) -> None:
         self.assertTrue(check_all_csvs(has_valid_course_codes))
 
 

@@ -1,9 +1,9 @@
 import unittest
-from src.history.api import get_data
+from src.history.api import get_data, CourseData
 
 
 class MainTestCase(unittest.TestCase):
-    def assert_known_2223_2_ug_cs2030s_result(self, result):
+    def assert_known_2223_2_ug_cs2030s_result(self, result: CourseData) -> None:
         try:
             expected_data = {
                 "faculty": "School of Computing",
@@ -80,63 +80,63 @@ class MainTestCase(unittest.TestCase):
         except Exception as e:
             self.fail(f"Unexpected exception raised: {e}")
 
-    def test_good_single_class(self):
+    def test_good_single_class(self) -> None:
         result = get_data("2223", "2", "ug", "CS2030S")
         self.assert_known_2223_2_ug_cs2030s_result(result)
 
-    def test_course_capitalisation(self):
+    def test_course_capitalisation(self) -> None:
         result = get_data("2223", "2", "ug", "cs2030s")
         self.assert_known_2223_2_ug_cs2030s_result(result)
 
-    def test_mixed_course_capitalisation(self):
+    def test_mixed_course_capitalisation(self) -> None:
         result = get_data("2223", "2", "ug", "cS2030S")
         self.assert_known_2223_2_ug_cs2030s_result(result)
 
-    def test_type_capitalisation(self):
+    def test_type_capitalisation(self) -> None:
         result = get_data("2223", "2", "UG", "CS2030S")
         self.assert_known_2223_2_ug_cs2030s_result(result)
 
-    def test_mixed_type_capitalisation(self):
+    def test_mixed_type_capitalisation(self) -> None:
         result = get_data("2223", "2", "uG", "CS2030S")
         self.assert_known_2223_2_ug_cs2030s_result(result)
 
-    def test_slash_in_year(self):
+    def test_slash_in_year(self) -> None:
         result = get_data("22/23", "2", "ug", "CS2030S")
         self.assert_known_2223_2_ug_cs2030s_result(result)
 
-    def test_space_in_year(self):
+    def test_space_in_year(self) -> None:
         result = get_data("22 23", "2", "ug", "CS2030S")
         self.assert_known_2223_2_ug_cs2030s_result(result)
 
-    def test_8_digit_year(self):
+    def test_8_digit_year(self) -> None:
         result = get_data("20222023", "2", "ug", "CS2030S")
         self.assert_known_2223_2_ug_cs2030s_result(result)
 
-    def test_8_digit_year_with_space(self):
+    def test_8_digit_year_with_space(self) -> None:
         result = get_data("2022 2023", "2", "ug", "CS2030S")
         self.assert_known_2223_2_ug_cs2030s_result(result)
 
-    def test_8_digit_year_with_slash(self):
+    def test_8_digit_year_with_slash(self) -> None:
         result = get_data("2022-2023", "2", "ug", "CS2030S")
         self.assert_known_2223_2_ug_cs2030s_result(result)
 
-    def test_8_digit_year_with_dash(self):
+    def test_8_digit_year_with_dash(self) -> None:
         result = get_data("2022-2023", "2", "ug", "CS2030S")
         self.assert_known_2223_2_ug_cs2030s_result(result)
 
-    def test_spaces_in_strings(self):
+    def test_spaces_in_strings(self) -> None:
         result = get_data("  2223 ", " 2", " ug", "CS2030S ")
         self.assert_known_2223_2_ug_cs2030s_result(result)
 
-    def test_num_representation_of_year(self):
+    def test_num_representation_of_year(self) -> None:
         result = get_data(2223, "2", "ug", "CS2030S")
         self.assert_known_2223_2_ug_cs2030s_result(result)
 
-    def test_num_representation_of_semester(self):
+    def test_num_representation_of_semester(self) -> None:
         result = get_data("2223", 2, "ug", "CS2030S")
         self.assert_known_2223_2_ug_cs2030s_result(result)
 
-    def test_good_multiple_class(self):
+    def test_good_multiple_class(self) -> None:
         try:
             result = get_data("2223", "2", "ug", "CS2102")
             expected_data = {
@@ -277,7 +277,7 @@ class MainTestCase(unittest.TestCase):
         except Exception as e:
             self.fail(f"Unexpected exception raised: {e}")
 
-    def test_good_first_page_class(self):
+    def test_good_first_page_class(self) -> None:
         try:
             result = get_data("2223", "2", "ug", "PF1101")
             expected_data = {
@@ -355,7 +355,7 @@ class MainTestCase(unittest.TestCase):
         except Exception as e:
             self.fail(f"Unexpected exception raised: {e}")
 
-    def test_good_cut_into_2_class(self):
+    def test_good_cut_into_2_class(self) -> None:
         try:
             result = get_data("2223", "2", "ug", "YSC4229")
             expected_data = {
@@ -433,7 +433,7 @@ class MainTestCase(unittest.TestCase):
         except Exception as e:
             self.fail(f"Unexpected exception raised: {e}")
 
-    def test_good_graduate_class(self):
+    def test_good_graduate_class(self) -> None:
         try:
             result = get_data("2223", "2", "gd", "CS6208")
             expected_data = {
@@ -511,7 +511,7 @@ class MainTestCase(unittest.TestCase):
         except Exception as e:
             self.fail(f"Unexpected exception raised: {e}")
 
-    def test_good_omitted_vacancy(self):
+    def test_good_omitted_vacancy(self) -> None:
         try:
             result = get_data("2223", "1", "ug", "LL4004V")
             expected_data = {
@@ -589,7 +589,7 @@ class MainTestCase(unittest.TestCase):
         except Exception as e:
             self.fail(f"Unexpected exception raised: {e}")
 
-    def test_good_hyphenated_vacancy(self):
+    def test_good_hyphenated_vacancy(self) -> None:
         try:
             result = get_data("2223", "2", "ug", "CM3253")
             expected_data = {
@@ -667,39 +667,39 @@ class MainTestCase(unittest.TestCase):
         except Exception as e:
             self.fail(f"Unexpected exception raised: {e}")
 
-    def test_bad_year(self):
+    def test_bad_year(self) -> None:
         with self.assertRaises(ValueError):
             get_data("1819", "2", "ug", "CS2030S")
 
-    def test_bad_semester_0(self):
+    def test_bad_semester_0(self) -> None:
         with self.assertRaises(ValueError):
             get_data("2223", "0", "ug", "CS2030S")
 
-    def test_bad_semester(self):
+    def test_bad_semester(self) -> None:
         with self.assertRaises(ValueError):
             get_data("2223", "3", "ug", "CS2030S")
 
-    def test_bad_undergraduate_graduate_type(self):
+    def test_bad_undergraduate_graduate_type(self) -> None:
         with self.assertRaises(ValueError):
             get_data("2223", "2", "xd", "CS2030S")
 
-    def test_bad_course_code(self):
+    def test_bad_course_code(self) -> None:
         with self.assertRaises(ValueError):
             get_data("2223", "2", "ug", "CC0092")
 
-    def test_missing_year(self):
+    def test_missing_year(self) -> None:
         with self.assertRaises(ValueError):
             get_data("", "2", "ug", "CS2030S")
 
-    def test_missing_semester(self):
+    def test_missing_semester(self) -> None:
         with self.assertRaises(ValueError):
             get_data("2223", "", "ug", "CS2030S")
 
-    def test_missing_type(self):
+    def test_missing_type(self) -> None:
         with self.assertRaises(ValueError):
             get_data("2223", "2", "", "CS2030S")
 
-    def test_missing_course(self):
+    def test_missing_course(self) -> None:
         with self.assertRaises(ValueError):
             get_data("2223", "2", "ug", "")
 

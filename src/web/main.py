@@ -3,7 +3,7 @@ from src.web.app import app
 from src.web.precomp import generate_pages
 
 
-def main():
+def main() -> None:
     parser = ArgumentParser(description='Web app for CourseRekt')
     parser.add_argument('-p', '--port', type=int, nargs=1, default=5000,
                         help='Port where the app is run.')
