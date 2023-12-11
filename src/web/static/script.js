@@ -23,8 +23,8 @@ async function hideLoadingSpinner() {
  * @async
  * @function
  */
-async function toggleColumnByCheckbox() {
-  const checkbox = document.getElementById('toggle-column-checkbox');
+async function toggleCourseNamesByCheckbox() {
+  const checkbox = document.getElementById('toggle-course-names-checkbox');
   const isVisible = checkbox.checked;
 
   const table = document.getElementById("table-data");
@@ -100,9 +100,9 @@ async function filterCourses() {
  */
 document.addEventListener('DOMContentLoaded', () => {
   // The checkbox determines if the course title is shown.
-  const checkbox = document.getElementById('toggle-column-checkbox');
-  checkbox.addEventListener('change', toggleColumnByCheckbox);
-  toggleColumnByCheckbox();
+  const checkbox = document.getElementById('toggle-course-names-checkbox');
+  checkbox.addEventListener('change', toggleCourseNamesByCheckbox);
+  toggleCourseNamesByCheckbox();
 
   // The checkbox determines if the preliminary vacancies are shown.
   const forecastCheckbox = document.getElementById('toggle-forecast-checkbox');
