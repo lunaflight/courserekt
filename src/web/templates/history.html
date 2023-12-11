@@ -72,10 +72,15 @@
           <input type="text" id="search-input" name="search-input" oninput="filterCourses()" placeholder="Search course codes..." autocomplete="off">
           <span class="help-icon" data-toggle="tooltip" data-placement="top" title="Add a space to get additional search matches (e.g. 'CS2 EL GESS')"><i class="fa fa-question-circle"></i></span>
         </div>
-        <!-- Toggle Visibility -->
+        <!-- Toggle Course Name Visibility -->
         <label for="toggle-column-checkbox" class="btn btn-secondary">
           <input type="checkbox" id="toggle-column-checkbox" style="transform: scale(1.2);" autocomplete="off" checked> 
           &nbsp;Show Course Names
+        </label>
+        <!-- Toggle Forecast Visibility -->
+        <label for="toggle-forecast-checkbox" class="btn btn-secondary">
+          <input type="checkbox" id="toggle-forecast-checkbox" style="transform: scale(1.2);" autocomplete="off" checked> 
+          &nbsp;Show Preliminary Vacancies
         </label>
         {% if error %}
         <div class="alert alert-danger">

@@ -42,6 +42,20 @@ async function toggleColumnByCheckbox() {
 }
 
 /**
+ * Toggle the visibility of preliminary vacancies in the table based on the checkbox state.
+ * @async
+ * @function
+ */
+async function toggleForecastByCheckbox() {
+  const checkbox = document.getElementById('toggle-forecast-checkbox');
+  const isVisible = checkbox.checked;
+
+  const vacancyDataSpans = document.querySelectorAll(".vacancy-data");
+
+  vacancyDataSpans.forEach(span => span.classList.toggle("hidden", !isVisible));
+}
+
+/**
  * Filter the courses in the table based on the input search text.
  * Courses are shown if and only if they contain at least one of the search patterns
  * as a substring in their course code.
@@ -89,6 +103,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const checkbox = document.getElementById('toggle-column-checkbox');
   checkbox.addEventListener('change', toggleColumnByCheckbox);
   toggleColumnByCheckbox();
+
+  // The checkbox determines if the preliminary vacancies are shown.
+  const forecastCheckbox = document.getElementById('toggle-forecast-checkbox');
+  forecastCheckbox.addEventListener('change', toggleForecastByCheckbox);
+  toggleForecastByCheckbox();
 
   // The search bar should constantly filter courses as new input is received.
   const searchInput = document.getElementById('search-input');
