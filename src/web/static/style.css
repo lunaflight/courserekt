@@ -25,7 +25,7 @@ footer {
     border: 1px solid #ccc;
     border-radius: 10px;
     background-color: white;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: auto;
     height: 85%;
     align-items: flex-start;
@@ -87,9 +87,13 @@ th {
 }
 
 .table-round {
-    width: 65px;
+    width: 100px;
     background-color: #FFC965;
     text-align: center;
+}
+
+.vacancy-data {
+    color: grey;
 }
 
 input[type=text], select {

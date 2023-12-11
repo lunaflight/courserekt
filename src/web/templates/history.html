@@ -87,6 +87,9 @@
         </div>
       </div>
 
+      {% set year = request.form.get('year', '2324') %}
+      {% set semester = request.form.get('semester', '1') %}
+      {% set type = request.form.get('type', 'ug') %}
       <div class="table-container">
         <table id="table-data">
           <!-- Table Headers -->
@@ -96,9 +99,6 @@
               <th class="table-name">Name</th>
               <th class="table-class">Class</th>
               {% for round_num in range(4) %}
-                {% set year = request.form.get('year', '2324') %}
-                {% set semester = request.form.get('semester', '1') %}
-                {% set type = request.form.get('type', 'ug') %}
               <th class='table-round'>
                 {% if pdf_exists(year, semester, type, round_num) %}
                 {% set url = url_for('serve_pdf', year=year, semester=semester, type=type, round_num=round_num) %}
@@ -128,6 +128,14 @@
                 N/A
                 {% else %}
                 {{ data.demand }} / {% if data.vacancy == INF %}∞{% else %}{{ data.vacancy }}{% endif %}
+                <span class='vacancy-data'>
+                  {% set forecast = data.ug if type == "ug" else data.gd %}
+                  {% if forecast == -1 %}
+                  (N/A)
+                  {% else %}
+                  ({% if forecast == INF %}∞{% else %}{{ forecast }}{% endif %})
+                  {% endif %}
+                </span>
                 {% endif %}
               </td>
               {% endfor %}
