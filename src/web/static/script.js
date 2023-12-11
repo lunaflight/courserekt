@@ -26,6 +26,7 @@ async function hideLoadingSpinner() {
 async function toggleCourseNamesByCheckbox() {
     const checkbox = document.getElementById('toggle-course-names-checkbox');
     const isVisible = checkbox.checked;
+    localStorage.setItem('courseNameIsVisible', isVisible);
 
     const table = document.getElementById("table-data");
     const courseTitleIndex = 1;
@@ -49,6 +50,7 @@ async function toggleCourseNamesByCheckbox() {
 async function toggleForecastByCheckbox() {
     const checkbox = document.getElementById('toggle-forecast-checkbox');
     const isVisible = checkbox.checked;
+    localStorage.setItem('forecastIsVisible', isVisible);
 
     const vacancyDataSpans = document.querySelectorAll(".vacancy-data");
 
@@ -101,11 +103,13 @@ async function filterCourses() {
 document.addEventListener('DOMContentLoaded', () => {
     // The checkbox determines if the course title is shown.
     const checkbox = document.getElementById('toggle-course-names-checkbox');
+    checkbox.checked = JSON.parse(localStorage.getItem('courseNameIsVisible')) ?? true;
     checkbox.addEventListener('change', toggleCourseNamesByCheckbox);
     toggleCourseNamesByCheckbox();
 
     // The checkbox determines if the preliminary vacancies are shown.
     const forecastCheckbox = document.getElementById('toggle-forecast-checkbox');
+    forecastCheckbox.checked = JSON.parse(localStorage.getItem('forecastIsVisible')) ?? true;
     forecastCheckbox.addEventListener('change', toggleForecastByCheckbox);
     toggleForecastByCheckbox();
 
