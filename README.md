@@ -38,8 +38,8 @@ Feel free to fork the project, make some changes, and submit a pull request. If 
 
 Thank you to all of our contributors!
 
-<a href="https://github.com/et-irl/courserekt/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=et-irl/courserekt" />
+<a href="https://github.com/lunaflight/courserekt/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=lunaflight/courserekt" />
 </a>
 
 Made with [contrib.rocks](https://contrib.rocks).
