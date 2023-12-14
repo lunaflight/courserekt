@@ -24,6 +24,10 @@ jobs:
           PWD=$(pwd)
           echo "PYTHONPATH=$PWD/src:$PWD/tests:$PYTHONPATH" >> $GITHUB_ENV
 
+      - name: Install SQLite3
+        run: 
+          sudo apt-get update && sudo apt-get install -y sqlite3
+
       - name: Install Java
         uses: actions/setup-java@v2
         with:
