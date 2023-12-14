@@ -370,3 +370,13 @@ def pdf_exists(year: Union[str, int],
         bool: True if and only if the PDF file exists.
     """
     return os.path.isfile(get_pdf_filepath(year, semester, type, round_num))
+
+
+def get_tables():
+    conn = sqlite3.connect(os.path.join(BASE_DIR, 'database.db'))
+    cursor = conn.cursor()
+    tables = cursor.execute("SELECT name FROM sqlite_master WHERE type='table';").fetchall()
+    cursor.close()
+    conn.close()
+
+    return tables

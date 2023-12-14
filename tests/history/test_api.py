@@ -1,8 +1,11 @@
 import unittest
-from src.history.api import get_data, CourseData
+from src.history.api import get_data, CourseData, get_tables
 
 
 class MainTestCase(unittest.TestCase):
+    def setUp(self) -> None:
+        print(get_tables())
+
     def assert_known_2223_2_ug_cs2030s_result(self, result: CourseData) -> None:
         try:
             expected_data = {
