@@ -35,7 +35,12 @@ Read the corresponding `README.md` files in the respective subdirectories for mo
 1. Ensure that `python`, `pip` and `java` are installed on your system.
 You may follow the guide to set a virtual environment up below.
 2. Clone the repository with `git clone https://github.com/lunaflight/courserekt.git`.
-3. From the **project root**, run `make all`. (This will generate `database.db`.)
+3. From the **project root**, run the following to set up `PYTHONPATH`.
+```sh
+PWD=$(pwd);
+export PYTHONPATH=$PWD/src:$PWD/tests:$PYTHONPATH
+```
+4. From the **project root**, run `make all`. (This will generate `database.db`.)
 
 ### Web App
 
