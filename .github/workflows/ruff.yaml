@@ -1,7 +1,10 @@
 name: Ruff
+
 on:
   push:
   pull_request:
+    branches:
+      - main
 
 jobs:
   ruff:
