@@ -19,12 +19,23 @@ jobs:
         with:
           python-version: 3.11.4
 
+      - name: Set PYTHONPATH
+        run: |
+          PWD=$(pwd)
+          echo "PYTHONPATH=$PWD/src:$PWD/tests:$PYTHONPATH" >> $GITHUB_ENV
+
+      - name: Install Java
+        uses: actions/setup-java@v2
+        with:
+          distribution: 'zulu'
+          java-version: 17
+
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
 
       - name: Create database
-        run:
+        run: |
           make all
 
       - name: Run unit tests
