@@ -87,6 +87,16 @@ To run the analysis, navigate to the **project root** of this project, and run:
 mypy .
 ```
 
+### Style Checker
+
+First, ensure Ruff is installed. If it is not, run `pip install ruff`.
+
+To run the checker, navigate to the **project root** of this project, and run:
+
+```shell
+ruff check .
+```
+
 ### Adding New CourseReg Data
 When new data is released, the program can be updated easily. You can follow the following steps to update it.
 
