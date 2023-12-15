@@ -1,36 +1,58 @@
 import argparse
 import os
 import tabula
+import shutil
 
 
 def main(pdf_files):
+    # Combine all PDFs into a single directory
+    target_dir = "combined_pdfs"
+    os.makedirs(target_dir, exist_ok=True)
     for pdf_file in pdf_files:
-        if not os.path.exists(pdf_file):
-            raise FileNotFoundError(f"PDF file not found: {pdf_file}")
+        # Extract the directory path
+        file_dir = os.path.dirname(pdf_file)
 
-        # Get the base name of the file (without directory or extension)
-        base_name = os.path.basename(pdf_file).split(".")[0]
+        # Encode directory path with underscores and replace slashes
+        encoded_dir = file_dir.replace("/", "||")
 
-        # Get the base directory path
-        base_dir = os.path.dirname(pdf_file)
+        # Extract the filename and extension
+        filename, extension = os.path.splitext(os.path.basename(pdf_file))
 
-        # Replace "pdfs" with "raw" in the base directory path
-        output_dir = base_dir.replace("pdfs", "raw")
+        # Construct the new filename
+        new_filename = f"{encoded_dir}||{filename}{extension}"
 
-        # Ensure the output directory exists
-        os.makedirs(output_dir, exist_ok=True)
+        # Copy the file with the new name
+        shutil.copy2(pdf_file, os.path.join(target_dir, new_filename))
 
-        # The path to the output CSV file
-        output_file = os.path.join(output_dir, f"{base_name}.csv")
+    # Run tabula conversion on the combined directory
+    tabula.convert_into_by_batch(
+        target_dir,
+        output_format="csv",
+        pages="all",
+        lattice=True,
+    )
 
-        # Run tabula command using tabula library
-        tabula.convert_into(
-            pdf_file,
-            output_file,
-            output_format="csv",
-            pages="all",
-            lattice=True,
-        )
+    # Remove all PDFs
+    for file in os.listdir(target_dir):
+        # Check if the file extension is .pdf
+        if file.endswith(".pdf"):
+            # Delete the file
+            os.remove(os.path.join(target_dir, file))
+
+    # Process each file in combined_pdfs directory
+    for file in os.listdir(target_dir):
+        # Extract encoded directory and filename
+        new_csv_file = "/".join(file.replace("pdfs", "raw").split("||"))
+        new_file_dir = os.path.dirname(new_csv_file)
+
+        # Create the directory if needed
+        os.makedirs(new_file_dir, exist_ok=True)
+
+        # Move the file to the new location
+        shutil.move(os.path.join(target_dir, file), new_csv_file)
+
+    # Delete the combined_pdfs directory
+    shutil.rmtree(target_dir)
 
 
 if __name__ == "__main__":
