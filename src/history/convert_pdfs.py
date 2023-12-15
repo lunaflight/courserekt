@@ -1,10 +1,11 @@
 import argparse
 import os
-import tabula
 import shutil
+from tabula.io import convert_into_by_batch
+from typing import List
 
 
-def main(pdf_files):
+def main(pdf_files: List[str]) -> None:
     # Combine all PDFs into a single directory
     target_dir = "combined_pdfs"
     os.makedirs(target_dir, exist_ok=True)
@@ -25,7 +26,7 @@ def main(pdf_files):
         shutil.copy2(pdf_file, os.path.join(target_dir, new_filename))
 
     # Run tabula conversion on the combined directory
-    tabula.convert_into_by_batch(
+    convert_into_by_batch(
         target_dir,
         output_format="csv",
         pages="all",
