@@ -21,7 +21,7 @@ Java is used for this purpose, and we use a bash script `./convert_pdfs` to faci
 7. **Database Entry:** The cleaned CSVs produced in step 4 are no longer needed and are removed with `import_csv_to_db.py` with a `--clean` flag.
 8. **API:** Queries about the courses can be made through the `api.py` file, which executes the relevant SQL queries to retrieve the data.
 
-All of these steps are orchestrated using a Makefile.
+All of these steps are orchestrated using a shell script `build.sh`.
 
 ## Data Cleaning for CourseReg PDFs
 We only outline the procedure for CourseReg PDFs, but the logic for Vacancy PDFs is similar, if not, the same.

@@ -10,8 +10,6 @@
     - Documentation for developers
 ├── docs/images
     - Contains all assets for the documentation of the project.
-├── Makefile
-    - Contains the configuration to keep data updated.
 ├── README.md
     - Documentation for users
 ├── requirements.txt
@@ -40,7 +38,7 @@ You may follow the guide to set a virtual environment up below.
 PWD=$(pwd);
 export PYTHONPATH=$PWD/src:$PWD/tests:$PYTHONPATH
 ```
-4. From the **project root**, run `make all`. (This will generate `database.db`.)
+4. From the **project root**, run `source src/history/build.sh`. (This will generate `database.db`.)
 
 ### Web App
 
@@ -84,22 +82,22 @@ python -m unittest discover
 
 ### Static Code Analysis
 
-First, ensure Mypy is installed. If it is not, run `pip install mypy`.
+First, ensure Mypy is installed. If it is not, run `pip install mypy` or `python -m pip install mypy`.
 
 To run the analysis, navigate to the **project root** of this project, and run:
 
 ```shell
-mypy .
+python -m mypy --strict .
 ```
 
 ### Style Checker
 
-First, ensure Ruff is installed. If it is not, run `pip install ruff`.
+First, ensure Ruff is installed. If it is not, run `pip install ruff` or `python -m pip install ruff`.
 
 To run the checker, navigate to the **project root** of this project, and run:
 
 ```shell
-ruff check .
+python -m ruff check .
 ```
 
 ### Adding New CourseReg Data
