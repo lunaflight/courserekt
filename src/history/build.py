@@ -2,7 +2,7 @@ import argparse
 import subprocess
 
 
-def main(year, semester, student_type, round):
+def main(year: str, semester: str, student_type: str, round: str) -> None:
     year = "*" if year is None else year
     semester = "*" if semester is None else semester
     student_type = "*" if student_type is None else student_type
