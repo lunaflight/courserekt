@@ -2,10 +2,11 @@ import argparse
 import subprocess
 
 
-def main(year, semester, student_type):
+def main(year, semester, student_type, round):
     year = "*" if year is None else year
     semester = "*" if semester is None else semester
     student_type = "*" if student_type is None else student_type
+    round = "*" if round is None else f"round_{round}"
 
     # Define script paths
     convert_pdfs_script = "src/history/convert_pdfs.py"
@@ -15,8 +16,8 @@ def main(year, semester, student_type):
     merge_db_script = "src/history/merge_db.py"
 
     # Define input directories
-    vh_pdfs_glob = f"src/history/vacancy_history/data/pdfs/{year}/{semester}/*.pdf"
-    crh_pdfs_glob = f"src/history/coursereg_history/data/pdfs/{year}/{semester}/{student_type}/*.pdf"
+    vh_pdfs_glob = f"src/history/vacancy_history/data/pdfs/{year}/{semester}/{round}.pdf"
+    crh_pdfs_glob = f"src/history/coursereg_history/data/pdfs/{year}/{semester}/{student_type}/{round}.pdf"
     vh_raw_csvs_glob = f"src/history/vacancy_history/data/raw/*/*/*.csv"
     crh_raw_csvs_glob = f"src/history/coursereg_history/data/raw/*/*/*/*.csv"
     vh_cleaned_csvs_glob = f"src/history/vacancy_history/data/cleaned/*/*/*.csv"
@@ -49,6 +50,7 @@ def main(year, semester, student_type):
 YEAR_CHOICES = ("2122", "2223", "2324")
 SEMESTER_CHOICES = ("1", "2")
 TYPE_CHOICES = ("ug", "gd")
+ROUND_CHOICES = ("0", "1", "2", "3")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Build the database")
@@ -74,6 +76,13 @@ if __name__ == "__main__":
         help="Type of courses to process (ug or gd)",
     )
 
+    # Add optional round argument
+    parser.add_argument(
+        "--round", "-r",
+        choices=ROUND_CHOICES,
+        help="Round to process (0 or 1 or 2 or 3)",
+    )
+
     args = parser.parse_args()
 
-    main(year=args.year, semester=args.semester, student_type=args.student_type)
+    main(year=args.year, semester=args.semester, student_type=args.student_type, round=args.round)
