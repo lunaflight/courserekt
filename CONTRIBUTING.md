@@ -31,29 +31,13 @@ Read the corresponding `README.md` files in the respective subdirectories for mo
 ### Installation
 
 1. Ensure that `python`, `pip` and `java` are installed on your system.
-You may follow the guide to set a virtual environment up below.
-2. Clone the repository with `git clone https://github.com/lunaflight/courserekt.git`.
-3. From the **project root**, run the following to set up `PYTHONPATH`.
+2. Using a Virtual Environment (as outlined below), or otherwise, install all python dependencies of the project.
+3. Clone the repository with `git clone https://github.com/lunaflight/courserekt.git`.
+4. From the **project root**, run the following to set up `PYTHONPATH`. This will resolve issues of scripts being unable to find `src` as a module.
 ```sh
-PWD=$(pwd);
-export PYTHONPATH=$PWD/src:$PWD/tests:$PYTHONPATH
+export PYTHONPATH=$(pwd);
 ```
-4. From the **project root**, run `source src/history/build.sh`. (This will generate `database.db`.)
-
-### Web App
-
-To start the web app, navigate to the **project root** and do the following:
-
-```shell
-python -m src.web.main
-```
-
-This will precompute and cache all pages.
-Optionally, you may supply the following to `python -m src.web.main`.
-- `-p`, `--port PORT`: Port where the app is run. Otherwise, it defaults to `5000`.
-- `-s`, `--skip-precompute`: Use the existing files in `static/pages` to load the HTML instead.
-
-After running the command, open a web browser and navigate to `http://localhost:5000/`. 
+5. From the **project root**, run `source src/history/build.sh`. (This will generate `database.db`.)
 
 ### Setting up a Virtual Environment
 A virtual environment ensures that everyone is working with the same set of dependencies.
@@ -69,6 +53,21 @@ A virtual environment ensures that everyone is working with the same set of depe
     pip install -r requirements.txt
     ```
 4. When you are done, you can deactivate the virtual environment with `deactivate`.
+
+### Web App
+
+To start the web app, navigate to the **project root** and do the following:
+
+```shell
+python -m src.web.main
+```
+
+This will precompute and cache all pages.
+Optionally, you may supply the following to `python -m src.web.main`.
+- `-p`, `--port PORT`: Port where the app is run. Otherwise, it defaults to `5000`.
+- `-s`, `--skip-precompute`: Use the existing files in `static/pages` to load the HTML instead.
+
+After running the command, open a web browser and navigate to `http://localhost:5000/`. 
 
 ### Unit Testing
 
@@ -115,7 +114,7 @@ For example, `round_0.pdf`.
 5. Navigate to `src/history/vacancy_history/data/pdfs`. 
 6. Create the relevant directory by running `mkdir -p YEAR/SEM`. For example, `2324/1` or `2425/2`.
 7. Add the "Course Class Vacancy Report" PDF in the relevant directory, naming it `round_N.pdf`.
-8. Navigate to the **project root**. Run `make all`.
+8. Navigate to the **project root**. Run `source src/history/build.sh`.
 9. You're done! The data should have been added successfully and ready to use.
 
 ### Deployment to Vercel
