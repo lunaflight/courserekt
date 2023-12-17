@@ -18,10 +18,10 @@ def main(year: str, semester: str, student_type: str, round: str) -> None:
     # Define input directories
     vh_pdfs_glob = f"src/history/vacancy_history/data/pdfs/{year}/{semester}/{round}.pdf"
     crh_pdfs_glob = f"src/history/coursereg_history/data/pdfs/{year}/{semester}/{student_type}/{round}.pdf"
-    vh_raw_csvs_glob = f"src/history/vacancy_history/data/raw/*/*/*.csv"
-    crh_raw_csvs_glob = f"src/history/coursereg_history/data/raw/*/*/*/*.csv"
-    vh_cleaned_csvs_glob = f"src/history/vacancy_history/data/cleaned/*/*/*.csv"
-    crh_cleaned_csvs_glob = f"src/history/coursereg_history/data/cleaned/*/*/*/*.csv"
+    vh_raw_csvs_glob = "src/history/vacancy_history/data/raw/*/*/*.csv"
+    crh_raw_csvs_glob = "src/history/coursereg_history/data/raw/*/*/*/*.csv"
+    vh_cleaned_csvs_glob = "src/history/vacancy_history/data/cleaned/*/*/*.csv"
+    crh_cleaned_csvs_glob = "src/history/coursereg_history/data/cleaned/*/*/*/*.csv"
 
     print("Converting PDFs to CSVs...")
     subprocess.run(f"time python {convert_pdfs_script} {vh_pdfs_glob} {crh_pdfs_glob}",
