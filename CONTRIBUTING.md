@@ -37,7 +37,7 @@ Read the corresponding `README.md` files in the respective subdirectories for mo
 ```sh
 export PYTHONPATH=$(pwd);
 ```
-5. From the **project root**, run `source src/history/build.sh`. (This will generate `database.db`.)
+5. From the **project root**, run `python -m src.history.build`. (This will generate `database.db`.)
 
 ### Setting up a Virtual Environment
 A virtual environment ensures that everyone is working with the same set of dependencies.
@@ -114,7 +114,7 @@ For example, `round_0.pdf`.
 5. Navigate to `src/history/vacancy_history/data/pdfs`. 
 6. Create the relevant directory by running `mkdir -p YEAR/SEM`. For example, `2324/1` or `2425/2`.
 7. Add the "Course Class Vacancy Report" PDF in the relevant directory, naming it `round_N.pdf`.
-8. Navigate to the **project root**. Run `source src/history/build.sh`.
+8. Navigate to the **project root**. Run `python -m src.history.build`.
 9. You're done! The data should have been added successfully and ready to use.
 
 ### Deployment to Vercel
