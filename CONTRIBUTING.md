@@ -30,14 +30,13 @@ Read the corresponding `README.md` files in the respective subdirectories for mo
 
 ### Installation
 
-1. Ensure that `python`, `pip` and `java` are installed on your system.
+1. Clone the repository with `git clone https://github.com/lunaflight/courserekt.git`.
 2. Using a Virtual Environment (as outlined below), or otherwise, install all python dependencies of the project.
-3. Clone the repository with `git clone https://github.com/lunaflight/courserekt.git`.
-4. From the **project root**, run the following to set up `PYTHONPATH`. This will resolve issues of scripts being unable to find `src` as a module.
+3. From the **project root**, run the following to set up `PYTHONPATH`. This will resolve issues of scripts being unable to find `src` as a module.
 ```sh
 export PYTHONPATH=$(pwd);
 ```
-5. From the **project root**, run `python -m src.history.build`. (This will generate `database.db`.)
+4. From the **project root**, run `python -m src.history.build`. (This will generate `database.db`.)
 
 ### Setting up a Virtual Environment
 A virtual environment ensures that everyone is working with the same set of dependencies.
