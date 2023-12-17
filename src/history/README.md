@@ -13,19 +13,26 @@ This folder contains code which scrapes and cleans data from the PDFs given by N
 1. **PDF Storage:**
  - The CourseReg PDFs are stored in `coursereg_history/data/pdfs/{YEAR}/{SEMESTER}/{UG or GD}/round_{0,1,2,3}.pdf`.
  - The Vacancy PDFs are stored in `vacancy_history/data/pdfs/{YEAR}/{SEMESTER}/round_{0,1,2,3}.pdf`.
-2. **PDF Parsing:** The PDFs are parsed using [Tabula](https://github.com/tabulapdf/tabula-java) to produce CSV files in `.../data/raws/...` with the same filepath as where it is stored in `.../data/pdfs/...`.
-Java is used for this purpose, and we use a bash script `./convert_pdfs` to facilitate conversion.
-3. **Data Cleaning:** The raw CSV files are passed through `clean_csvs.py` to produce clean CSVs in `.../data/cleaned/...` with the same filepath as where it is stored in `...data/raws/...`.
+2. **PDF Parsing:** The PDFs are parsed using [Tabula](https://github.com/chezou/tabula-py) to produce CSV files in `.../data/raws/...` with the same filepath as where it is stored in `.../data/pdfs/...`. This is done through `convert_pdfs.py`.
+3. **Data Cleaning:** The raw CSV files are passed through their respective `clean_csvs.py` to produce clean CSVs in `.../data/cleaned/...` with the same filepath as where it is stored in `...data/raws/...`.
 4. **Database Entry:** The cleaned CSVs are added to the `database.db` by passing them through `import_csv_to_db.py`.
-6. **Merging CourseReg and Vacancy Info:** The information is reconciled by passing them through `merge_db.py`.
-7. **Database Entry:** The cleaned CSVs produced in step 4 are no longer needed and are removed with `import_csv_to_db.py` with a `--clean` flag.
-8. **API:** Queries about the courses can be made through the `api.py` file, which executes the relevant SQL queries to retrieve the data.
+5. **Merging CourseReg and Vacancy Info:** The information is reconciled by passing them through `merge_db.py`.
+6. **API:** Queries about the courses can be made through the `api.py` file, which executes the relevant SQL queries to retrieve the data.
 
 All of these steps are orchestrated using a shell script `build.py`.
 
+## PDF Parsing
+Most of the time taken is involved in spinning up Tabula. Hence, tabula provides a method to convert PDFs by a batch. The PDFs must all belong to the same folder.
+
+As a result, we have to copy all PDFs into a dummy folder, replacing all `/`s in the directory name with `||` to preserve information about where the PDF came from.
+
+Then, we convert it all to CSVs as per the Tabula API, and send them to their respective folders as outlined in the Overall Structure section.
+
+This is facilitated by `convert_pdfs.py`.
+
 ## Data Cleaning for CourseReg PDFs
 We only outline the procedure for CourseReg PDFs, but the logic for Vacancy PDFs is similar, if not, the same.
-The CSV returned by Tabula using the `--lattice` flag is well-behaved. Only the data found in the table lattice is captured.
+The CSV returned by Tabula using the `lattice` option is well-behaved. Only the data found in the table lattice is captured.
 However, great care must still be taken in `clean_csvs.py` to navigate ill-defined data.
 
 The data has 13 columns, corresponding to the following:
