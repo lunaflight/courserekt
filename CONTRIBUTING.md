@@ -14,6 +14,8 @@
     - Documentation for users
 ├── requirements.txt
     - Contains the Python dependencies required in the project.
+├── ruff.toml
+    - Contains the Ruff configuration specified for the project.
 ├── src
     - Contains all source code for the project.
 ├── tests
@@ -95,7 +97,7 @@ First, ensure Ruff is installed. If it is not, run `pip install ruff` or `python
 To run the checker, navigate to the **project root** of this project, and run:
 
 ```shell
-python -m ruff check --target-version py310 --select ALL .
+python -m ruff check --config ruff.toml
 ```
 
 ### Adding New CourseReg Data

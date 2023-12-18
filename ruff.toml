@@ -1,0 +1,14 @@
+line-length = 88
+target-version = "py310"
+
+[lint]
+select = ["ALL"]
+
+ignore = []
+
+unfixable = []
+
+[format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
