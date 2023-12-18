@@ -12,8 +12,10 @@
     - Contains all assets for the documentation of the project.
 ├── README.md
     - Documentation for users
+├── local-requirements.txt
+    - Contains all the Python dependencies required in the project.
 ├── requirements.txt
-    - Contains the Python dependencies required in the project.
+    - Contains only the Python dependencies required to deploy the project on vercel.
 ├── ruff.toml
     - Contains the Ruff configuration specified for the project.
 ├── src
@@ -51,7 +53,7 @@ A virtual environment ensures that everyone is working with the same set of depe
     - You should see the `(venv)` prefix in your command prompt.
 3. Install the Python dependencies with pip:
     ```shell
-    pip install -r requirements.txt
+    pip install -r local-requirements.txt
     ```
 4. When you are done, you can deactivate the virtual environment with `deactivate`.
 
