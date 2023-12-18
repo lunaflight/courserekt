@@ -45,6 +45,16 @@ export PYTHONPATH=$(pwd);
 ### Setting up a Virtual Environment
 A virtual environment ensures that everyone is working with the same set of dependencies.
 
+The dependencies described in `local-requirements.txt` describe all the dependencies used in the development of the project.
+
+- This includes:
+    - Building the database
+    - Linting
+    - Type checking
+    - Deploying the web app
+
+`requirements.txt`, on the other hand, is used for deployment on Vercel, which only allows 250MB of libraries to be imported. Hence, keep into a minimum in `requirements.txt`.
+
 1. Navigate to the **project root** and set up a virtual environment with `python -m venv venv`.
 2. Activate the virual environment:
     - Activating:
