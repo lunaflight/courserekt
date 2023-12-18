@@ -103,6 +103,8 @@ python -m ruff check --config ruff.toml
 ### Adding New CourseReg Data
 When new data is released, the program can be updated easily. You can follow the following steps to update it.
 
+**Important:** Vacancy and CourseReg data should be added at the same time. This is due to how `merge.py` works at the moment - we depend on both data existing. For example, Vacancy data should not be added without its CourseReg data counterpart.
+
 1. Navigate to `src/history/coursereg_history/data/pdfs`. 
 2. Create the relevant directory by running `mkdir -p YEAR/SEM/TYPE`. For example, `2324/1/ug` or `2425/2/gd`.
 3. Add the "Course Class Demand and Allocation Report" PDF in the relevant directory, naming it `round_N.pdf`.
