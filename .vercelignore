@@ -5,6 +5,8 @@ __pycache__
 
 README.md
 tests
+docs
+.github
 
 src/history/database.db
 src/history/coursereg_history/data/cleaned/
