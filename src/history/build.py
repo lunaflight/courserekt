@@ -24,6 +24,7 @@ def main(year: str, semester: str, student_type: str, round: str) -> None:
     crh_cleaned_csvs_glob = "src/history/coursereg_history/data/cleaned/*/*/*/*.csv"
 
     print("Converting PDFs to CSVs...")
+    print("Please be patient. This might take some time.")
     subprocess.run(f"time python {convert_pdfs_script} {vh_pdfs_glob} {crh_pdfs_glob}",
                    shell=True)
 

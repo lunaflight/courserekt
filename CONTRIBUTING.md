@@ -127,6 +127,8 @@ For example, `round_0.pdf`.
 7. Navigate to the **project root**. Run `python -m src.history.build`.
     - This command forces a recomputation of all known PDFs in the project.
 
+    - **Please be patient. This might take some time (around 2 minutes, on my machine).**
+
     - To only compute the newly added PDFs, you may use additional flags. Run it with `--help` for more information.
 
     - For example, to only compute PDFs in the year `22/23` and the semester `1`, during round `0`:
