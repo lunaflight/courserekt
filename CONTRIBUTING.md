@@ -53,7 +53,7 @@ The dependencies described in `local-requirements.txt` describe all the dependen
     - Type checking
     - Deploying the web app
 
-`requirements.txt`, on the other hand, is used for deployment on Vercel, which only allows 250MB of libraries to be imported. Hence, keep into a minimum in `requirements.txt`.
+`requirements.txt`, on the other hand, is used for deployment on Vercel, which only allows 250MB of libraries to be imported. Hence, we keep it to a minimum in `requirements.txt`.
 
 1. Navigate to the **project root** and set up a virtual environment with `python -m venv venv`.
 2. Activate the virual environment:
