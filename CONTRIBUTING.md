@@ -109,7 +109,7 @@ First, ensure Ruff is installed. If it is not, run `pip install ruff` or `python
 To run the checker, navigate to the **project root** of this project, and run:
 
 ```shell
-python -m ruff check --config ruff.toml
+python -m ruff check
 ```
 
 ### Adding New CourseReg Data
