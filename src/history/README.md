@@ -100,3 +100,11 @@ After parsing both CourseReg and Vacancy PDFs, `merge_db.py` attempts to combine
 If we cannot find a value for the following, replace it with...
  - `Vacancy` = `UG/GD` _(available seats for `UG/GD` in the Vacancy PDF)_
  - `Demand` = `0` _(and all other columns)_
+
+**Note:**
+Often, classes that show up in the Vacancy Report do not show up in the CourseReg Report. This occurs when nobody enrols in said class, due to the one of the following:
+1. Nobody signed up for the class.
+2. People signed up for the class, but there are no vacancies.
+Rarely, classes that show up in the CourseReg Report do not show up in the Vacancy Report. It is unclear why this happens, but it is most likely due to an extremely last minute change in classes offered.
+
+Hence, we must try to do a `FULL JOIN` on both of these tables to get the most representative data as possible.
