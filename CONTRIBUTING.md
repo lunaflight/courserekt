@@ -44,15 +44,21 @@ pip install -r local-requirements.txt &&
 python -m src.history.build
 ```
 
+**Important:** Replace the link for `git clone` with the link of your repository, if you have forked it.
+
+**Please be patient. This might take some time (around 2 minutes, on my machine).**
+
 **An explanation:**
 1. First, we clone the repository from GitHub.
 
 2. Then, we set up a virtual environment with `python -m venv venv`, as a good practice when working with libraries and projects.
 
 3. We set up `PYTHONPATH` upon activating the virtual environment, to fix issues of being unable to find `src`.
+    - Upon activating `venv` every time in the future, `PYTHONPATH` will be set up.
 
 4. We install all the required dependencies as outlined in `local-requirements.txt`, to ensure everybody works with the same dependencies.
     - You may run into issues during `pip install` if you do not have the latest version of python.
+    - You may just continue from this command (and not run all commands from `git clone`) if it fails.
 
 5. We run `python -m src.history.build` to generate `database.db`.
 
@@ -69,7 +75,7 @@ The dependencies described in `local-requirements.txt` describe all the dependen
     - Type checking
     - Deploying the web app
 
-`requirements.txt`, on the other hand, is used for deployment on Vercel, which only allows 250MB of libraries to be imported. Hence, we keep it to a minimum in `requirements.txt`.
+`requirements.txt`, on the other hand, is used for deployment on Vercel, which only allows 250MB of libraries to be imported. Hence, we keep the number of libraries to a minimum in `requirements.txt`.
 
 **Activate the virtual environment:**
 - Activating:
@@ -140,8 +146,6 @@ For example, `round_0.pdf`.
 6. Add the "Course Class Vacancy Report" PDF in the relevant directory, naming it `round_N.pdf`.
 7. Navigate to the **project root**. Run `python -m src.history.build`.
     - This command forces a recomputation of all known PDFs in the project.
-
-    - **Please be patient. This might take some time (around 2 minutes, on my machine).**
 
     - To only compute the newly added PDFs, you may use additional flags. Run it with `--help` for more information.
 
