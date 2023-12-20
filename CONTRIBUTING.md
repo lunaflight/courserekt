@@ -29,6 +29,8 @@
 ```
 
 Read the corresponding `README.md` files in the respective subdirectories for more information.
+- `src/history`: [Dealing with and querying PDF data](src/history/README.md)
+- `src/web`: [Generating and serving web pages](src/web/README.md)
 
 ## For Devs:
 
