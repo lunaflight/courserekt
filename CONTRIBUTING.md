@@ -34,15 +34,31 @@ Read the corresponding `README.md` files in the respective subdirectories for mo
 
 ### Installation
 
-1. Clone the repository with `git clone https://github.com/lunaflight/courserekt.git`.
-2. Using a Virtual Environment (as outlined below), or otherwise, install all python dependencies of the project.
-3. From the **project root**, run the following to set up `PYTHONPATH`. This will resolve issues of scripts being unable to find `src` as a module.
 ```sh
-export PYTHONPATH=$(pwd);
+git clone https://github.com/lunaflight/courserekt.git &&
+cd courserekt &&
+python -m venv venv &&
+echo "export PYTHONPATH=\$(pwd)" >> venv/bin/activate &&
+source venv/bin/activate &&
+pip install -r local-requirements.txt &&
+python -m src.history.build
 ```
-4. From the **project root**, run `python -m src.history.build`. (This will generate `database.db`.)
 
-### Setting up a Virtual Environment
+**An explanation:**
+1. First, we clone the repository from GitHub.
+
+2. Then, we set up a virtual environment with `python -m venv venv`, as a good practice when working with libraries and projects.
+
+3. We set up `PYTHONPATH` upon activating the virtual environment, to fix issues of being unable to find `src`.
+
+4. We install all the required dependencies as outlined in `local-requirements.txt`, to ensure everybody works with the same dependencies.
+    - You may run into issues during `pip install` if you do not have the latest version of python.
+
+5. We run `python -m src.history.build` to generate `database.db`.
+
+Note: If at any point, one of these commands fail (such as being unable to install the dependencies), you may have to rectify that command first, before continuing with the rest of the installation script.
+
+### Virtual Environment
 A virtual environment ensures that everyone is working with the same set of dependencies.
 
 The dependencies described in `local-requirements.txt` describe all the dependencies used in the development of the project.
@@ -55,17 +71,15 @@ The dependencies described in `local-requirements.txt` describe all the dependen
 
 `requirements.txt`, on the other hand, is used for deployment on Vercel, which only allows 250MB of libraries to be imported. Hence, we keep it to a minimum in `requirements.txt`.
 
-1. Navigate to the **project root** and set up a virtual environment with `python -m venv venv`.
-2. Activate the virual environment:
-    - Activating:
-        - **Windows:** `venv\Scripts\activate`
-        - **Mac/Linux:** `source venv/bin/activate`
-    - You should see the `(venv)` prefix in your command prompt.
-3. Install the Python dependencies with pip:
-    ```shell
-    pip install -r local-requirements.txt
-    ```
-4. When you are done, you can deactivate the virtual environment with `deactivate`.
+**Activate the virtual environment:**
+- Activating:
+    - **Windows:** `venv\Scripts\activate`
+    - **Mac/Linux:** `source venv/bin/activate`
+- You should see the `(venv)` prefix in your command prompt.
+
+**Deactivate the virtual environment:**
+- `deactivate`
+- You should see the `(venv)` prefix disappear in your command prompt.
 
 ### Web App
 
@@ -89,7 +103,7 @@ This project employs the built-in `unittest` module in Python for automated test
 To run the tests, navigate to the **project root** of this project, and run:
 
 ```shell
-python -m unittest discover
+python -m unittest
 ```
 
 ### Static Code Analysis
