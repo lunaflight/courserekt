@@ -1,5 +1,6 @@
 import unittest
-from src.history.api import get_data, CourseData
+
+from src.history.api import CourseData, get_data
 
 
 class MainTestCase(unittest.TestCase):
@@ -25,7 +26,7 @@ class MainTestCase(unittest.TestCase):
                             "quota_exceeded": 0,
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
-                            "others": 0
+                            "others": 0,
                         },
                         {
                             "ug": 24,
@@ -40,7 +41,7 @@ class MainTestCase(unittest.TestCase):
                             "quota_exceeded": 21,
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
-                            "others": 0
+                            "others": 0,
                         },
                         {
                             "ug": 3,
@@ -55,7 +56,7 @@ class MainTestCase(unittest.TestCase):
                             "quota_exceeded": 11,
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
-                            "others": 0
+                            "others": 0,
                         },
                         {
                             "ug": 0,
@@ -70,10 +71,10 @@ class MainTestCase(unittest.TestCase):
                             "quota_exceeded": 0,
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
-                            "others": 6
-                        }
-                    ]
-                }
+                            "others": 6,
+                        },
+                    ],
+                },
             }
 
             self.assertTrue(result == expected_data)
@@ -159,7 +160,7 @@ class MainTestCase(unittest.TestCase):
                             "quota_exceeded": 188,
                             "timetable_clashes": 1,
                             "workload_exceeded": 0,
-                            "others": 0
+                            "others": 0,
                             },
                         {
                             "ug": 2,
@@ -174,7 +175,7 @@ class MainTestCase(unittest.TestCase):
                             "quota_exceeded": 11,
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
-                            "others": 0
+                            "others": 0,
                             },
                         {
                             "ug": 0,
@@ -189,7 +190,7 @@ class MainTestCase(unittest.TestCase):
                             "quota_exceeded": 11,
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
-                            "others": 0
+                            "others": 0,
                             },
                         {
                             "ug": 0,
@@ -204,8 +205,8 @@ class MainTestCase(unittest.TestCase):
                             "quota_exceeded": 0,
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
-                            "others": 1
-                        }
+                            "others": 1,
+                        },
                     ],
 
                     "L2": [
@@ -222,7 +223,7 @@ class MainTestCase(unittest.TestCase):
                             "quota_exceeded": -1,
                             "timetable_clashes": -1,
                             "workload_exceeded": -1,
-                            "others": -1
+                            "others": -1,
                             },
                         {
                             "ug": 18,
@@ -237,7 +238,7 @@ class MainTestCase(unittest.TestCase):
                             "quota_exceeded": 27,
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
-                            "others": 0
+                            "others": 0,
                             },
                         {
                             "ug": 0,
@@ -252,7 +253,7 @@ class MainTestCase(unittest.TestCase):
                             "quota_exceeded": 6,
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
-                            "others": 0
+                            "others": 0,
                             },
                         {
                             "ug": 0,
@@ -267,10 +268,10 @@ class MainTestCase(unittest.TestCase):
                             "quota_exceeded": 0,
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
-                            "others": 0
-                        }
-                    ]
-                }
+                            "others": 0,
+                        },
+                    ],
+                },
             }
 
             self.assertTrue(result == expected_data)
@@ -300,7 +301,7 @@ class MainTestCase(unittest.TestCase):
                             "quota_exceeded": 0,
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
-                            "others": 0
+                            "others": 0,
                             },
                         {
                             "ug": 132,
@@ -315,7 +316,7 @@ class MainTestCase(unittest.TestCase):
                             "quota_exceeded": 0,
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
-                            "others": 0
+                            "others": 0,
                             },
                         {
                             "ug": 132,
@@ -330,7 +331,7 @@ class MainTestCase(unittest.TestCase):
                             "quota_exceeded": 0,
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
-                            "others": 0
+                            "others": 0,
                             },
                         {
                             "ug": 114,
@@ -345,10 +346,10 @@ class MainTestCase(unittest.TestCase):
                             "quota_exceeded": 0,
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
-                            "others": 1
-                            }
-                    ]
-                }
+                            "others": 1,
+                            },
+                    ],
+                },
             }
 
             self.assertTrue(result == expected_data)
@@ -378,7 +379,7 @@ class MainTestCase(unittest.TestCase):
                             "quota_exceeded": 0,
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
-                            "others": 0
+                            "others": 0,
                             },
                         {
                             "ug": 4,
@@ -393,7 +394,7 @@ class MainTestCase(unittest.TestCase):
                             "quota_exceeded": 0,
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
-                            "others": 0
+                            "others": 0,
                             },
                         {
                             "ug": 4,
@@ -408,7 +409,7 @@ class MainTestCase(unittest.TestCase):
                             "quota_exceeded": 0,
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
-                            "others": 0
+                            "others": 0,
                             },
                         {
                             "ug": 4,
@@ -423,10 +424,10 @@ class MainTestCase(unittest.TestCase):
                             "quota_exceeded": 0,
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
-                            "others": 0
-                            }
-                    ]
-                }
+                            "others": 0,
+                            },
+                    ],
+                },
             }
 
             self.assertTrue(result == expected_data)
@@ -456,7 +457,7 @@ class MainTestCase(unittest.TestCase):
                             "quota_exceeded": 8,
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
-                            "others": 0
+                            "others": 0,
                             },
                         {
                             "ug": -1,
@@ -471,7 +472,7 @@ class MainTestCase(unittest.TestCase):
                             "quota_exceeded": 8,
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
-                            "others": 0
+                            "others": 0,
                             },
                         {
                             "ug": -1,
@@ -486,7 +487,7 @@ class MainTestCase(unittest.TestCase):
                             "quota_exceeded": 4,
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
-                            "others": 0
+                            "others": 0,
                             },
                         {
                             "ug": -1,
@@ -501,10 +502,10 @@ class MainTestCase(unittest.TestCase):
                             "quota_exceeded": 9,
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
-                            "others": 0
-                            }
-                    ]
-                }
+                            "others": 0,
+                            },
+                    ],
+                },
             }
 
             self.assertTrue(result == expected_data)
@@ -534,7 +535,7 @@ class MainTestCase(unittest.TestCase):
                             "quota_exceeded": -1,
                             "timetable_clashes": -1,
                             "workload_exceeded": -1,
-                            "others": -1
+                            "others": -1,
                             },
                         {
                             "ug": -1,
@@ -549,7 +550,7 @@ class MainTestCase(unittest.TestCase):
                             "quota_exceeded": 0,
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
-                            "others": 0
+                            "others": 0,
                             },
                         {
                             "ug": -1,
@@ -564,7 +565,7 @@ class MainTestCase(unittest.TestCase):
                             "quota_exceeded": 0,
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
-                            "others": 0
+                            "others": 0,
                             },
                         {
                             "ug": -1,
@@ -579,10 +580,10 @@ class MainTestCase(unittest.TestCase):
                             "quota_exceeded": 0,
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
-                            "others": 0
-                        }
-                    ]
-                }
+                            "others": 0,
+                        },
+                    ],
+                },
             }
 
             self.assertTrue(result == expected_data)
@@ -612,7 +613,7 @@ class MainTestCase(unittest.TestCase):
                             "quota_exceeded": 0,
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
-                            "others": 0
+                            "others": 0,
                             },
                         {
                             "ug": 2147483647,
@@ -627,7 +628,7 @@ class MainTestCase(unittest.TestCase):
                             "quota_exceeded": 0,
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
-                            "others": 0
+                            "others": 0,
                             },
                         {
                             "ug": 2147483647,
@@ -642,7 +643,7 @@ class MainTestCase(unittest.TestCase):
                             "quota_exceeded": 0,
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
-                            "others": 0
+                            "others": 0,
                             },
                         {
                             "ug": 2147483647,
@@ -657,10 +658,10 @@ class MainTestCase(unittest.TestCase):
                             "quota_exceeded": 0,
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
-                            "others": 0
-                            }
-                    ]
-                }
+                            "others": 0,
+                            },
+                    ],
+                },
             }
 
             self.assertTrue(result == expected_data)
@@ -704,5 +705,5 @@ class MainTestCase(unittest.TestCase):
             get_data("2223", "2", "ug", "")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()

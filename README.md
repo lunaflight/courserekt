@@ -38,7 +38,7 @@ Each cell corresponds to the data in the PDF for the course's class and round nu
 
 ## Contributing
 
-Please refer to [CONTRIBUTING.md](CONTRIBUTING.md) for more information.
+Please refer to `CONTRIBUTING.md` for more information.
 
 Feel free to fork the project, make some changes, and submit a pull request. If you find any bugs or have any suggestions, please open an issue. All contributions are welcomed!
 

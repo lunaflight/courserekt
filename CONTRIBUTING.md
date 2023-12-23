@@ -29,44 +29,20 @@
 ```
 
 Read the corresponding `README.md` files in the respective subdirectories for more information.
-- `src/history`: [Dealing with and querying PDF data](src/history/README.md)
-- `src/web`: [Generating and serving web pages](src/web/README.md)
 
 ## For Devs:
 
 ### Installation
 
+1. Clone the repository with `git clone https://github.com/lunaflight/courserekt.git`.
+2. Using a Virtual Environment (as outlined below), or otherwise, install all python dependencies of the project.
+3. From the **project root**, run the following to set up `PYTHONPATH`. This will resolve issues of scripts being unable to find `src` as a module.
 ```sh
-git clone https://github.com/lunaflight/courserekt.git &&
-cd courserekt &&
-python -m venv venv &&
-echo "export PYTHONPATH=\$(pwd)" >> venv/bin/activate &&
-source venv/bin/activate &&
-pip install -r local-requirements.txt &&
-python -m src.history.build
+export PYTHONPATH=$(pwd);
 ```
+4. From the **project root**, run `python -m src.history.build`. (This will generate `database.db`.)
 
-**Important:** Replace the link for `git clone` with the link of your repository, if you have forked it.
-
-**Please be patient. This might take some time (around 2 minutes, on my machine).**
-
-**An explanation:**
-1. First, we clone the repository from GitHub.
-
-2. Then, we set up a virtual environment with `python -m venv venv`, as a good practice when working with libraries and projects.
-
-3. We set up `PYTHONPATH` upon activating the virtual environment, to fix issues of being unable to find `src`.
-    - Upon activating `venv` every time in the future, `PYTHONPATH` will be set up.
-
-4. We install all the required dependencies as outlined in `local-requirements.txt`, to ensure everybody works with the same dependencies.
-    - You may run into issues during `pip install` if you do not have the latest version of python.
-    - You may just continue from this command (and not run all commands from `git clone`) if it fails.
-
-5. We run `python -m src.history.build` to generate `database.db`.
-
-Note: If at any point, one of these commands fail (such as being unable to install the dependencies), you may have to rectify that command first, before continuing with the rest of the installation script.
-
-### Virtual Environment
+### Setting up a Virtual Environment
 A virtual environment ensures that everyone is working with the same set of dependencies.
 
 The dependencies described in `local-requirements.txt` describe all the dependencies used in the development of the project.
@@ -77,17 +53,19 @@ The dependencies described in `local-requirements.txt` describe all the dependen
     - Type checking
     - Deploying the web app
 
-`requirements.txt`, on the other hand, is used for deployment on Vercel, which only allows 250MB of libraries to be imported. Hence, we keep the number of libraries to a minimum in `requirements.txt`.
+`requirements.txt`, on the other hand, is used for deployment on Vercel, which only allows 250MB of libraries to be imported. Hence, we keep it to a minimum in `requirements.txt`.
 
-**Activate the virtual environment:**
-- Activating:
-    - **Windows:** `venv\Scripts\activate`
-    - **Mac/Linux:** `source venv/bin/activate`
-- You should see the `(venv)` prefix in your command prompt.
-
-**Deactivate the virtual environment:**
-- `deactivate`
-- You should see the `(venv)` prefix disappear in your command prompt.
+1. Navigate to the **project root** and set up a virtual environment with `python -m venv venv`.
+2. Activate the virual environment:
+    - Activating:
+        - **Windows:** `venv\Scripts\activate`
+        - **Mac/Linux:** `source venv/bin/activate`
+    - You should see the `(venv)` prefix in your command prompt.
+3. Install the Python dependencies with pip:
+    ```shell
+    pip install -r local-requirements.txt
+    ```
+4. When you are done, you can deactivate the virtual environment with `deactivate`.
 
 ### Web App
 
@@ -111,7 +89,7 @@ This project employs the built-in `unittest` module in Python for automated test
 To run the tests, navigate to the **project root** of this project, and run:
 
 ```shell
-python -m unittest
+python -m unittest discover
 ```
 
 ### Static Code Analysis
@@ -148,6 +126,8 @@ For example, `round_0.pdf`.
 6. Add the "Course Class Vacancy Report" PDF in the relevant directory, naming it `round_N.pdf`.
 7. Navigate to the **project root**. Run `python -m src.history.build`.
     - This command forces a recomputation of all known PDFs in the project.
+
+    - **Please be patient. This might take some time (around 2 minutes, on my machine).**
 
     - To only compute the newly added PDFs, you may use additional flags. Run it with `--help` for more information.
 

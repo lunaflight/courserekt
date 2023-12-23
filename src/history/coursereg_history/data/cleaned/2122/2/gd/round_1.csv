@@ -1,0 +1,749 @@
+Faculty,Department,Code,Title,Class,Vacancy,Demand,Successful_Main,Successful_Reserve,Quota_Exceeded,Timetable_Clashes,Workload_Exceeded,Others
+Faculty of Arts & Social Sci,Chinese Studies,CH5213,Cognitive Linguistics & Chinese Language,S1,2147483647,5,5,0,0,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,CH5223,SELECTED AUTHORS,S1,2147483647,5,5,1,0,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,CH5243,Contemporary China-Southeast Asia Relations,E1,19,4,4,1,0,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,CH6261,CHINESE STUDIES IN THE WEST,L1,2147483647,13,8,0,5,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,CH6262,INDEPENDENT STUDY IN CHINESE STUDIES,L1,2147483647,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,CHC5102,Contemporary Research in Chinese Language,L1,15,10,10,0,0,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,CHC5303,Traditional Chinese Culture in Singapore and Malaysia,L1,1,4,1,0,3,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,CHC5304,Society and Culture of the Ming Dynasty,L1,25,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,CHC5305,Prominent Nanyang Chinese in Modern China,L1,4,4,4,0,0,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,CHC5305,Prominent Nanyang Chinese in Modern China,L2,7,8,7,0,1,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,CHC5306,"Chinese Intellectual History, 10th – 19th Century",L1,5,9,5,0,4,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,CHC5309,Economic & Management Thought in Pre-Modern China,L1,8,8,8,0,0,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,CHC5310,Chinese Rhapsody,L1,1,7,1,0,6,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,CHC5314,Chinese Religion,E1,1,5,1,0,4,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,CHC5322,Pragmatics and Politeness,L1,9,8,8,1,0,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,CHC5326,Comparative Grammar between Chinese and English,E1,7,2,2,1,0,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,CHC5332,Oral History Methodology: Theory and Practice,E1,8,10,8,0,2,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,CHC5333,Epidemics and Chinese Medicine,E1,2,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,CHC5337,Classical Chinese Landscape Poetry and Painting,E1,2,6,2,0,4,0,0,0
+Faculty of Arts & Social Sci,Chinese Studies,CHC5338,Chinese Maritime Exploration and Cultural Exchange,E1,1,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Communications & New Media,NM5219,Critical Design,E1,12,3,0,0,0,0,0,3
+Faculty of Arts & Social Sci,Communications & New Media,NM6104,Qualitative Research Methods in Communications and New Media,E1,15,7,7,0,0,0,0,0
+Faculty of Arts & Social Sci,Communications & New Media,NM6770,GRADUATE RESEARCH SEMINAR,E1,10,6,6,0,0,0,0,0
+Faculty of Arts & Social Sci,Communications & New Media,NMC5307,Final Year Project in Communication,E1,16,2,0,0,0,0,0,2
+Faculty of Arts & Social Sci,Communications & New Media,NMC5322,Interactive Media Marketing Practices,E1,14,6,0,0,0,0,0,6
+Faculty of Arts & Social Sci,Communications & New Media,NMC5323,Crisis Communications and Leadership,E1,12,9,0,0,0,0,0,9
+Faculty of Arts & Social Sci,Communications & New Media,NMC5325,Managing Organisational Reputation,E1,17,6,0,0,0,0,0,6
+Faculty of Arts & Social Sci,Communications & New Media,NMC5341,Visualising Data,E1,6,4,0,0,0,0,0,4
+Faculty of Arts & Social Sci,Communications & New Media,NMC5343,Introduction to Audience Analytics,E1,18,2,0,0,0,0,0,2
+Faculty of Arts & Social Sci,Communications & New Media,NMC5362,Media in Asia,E1,9,9,0,0,0,0,0,9
+Faculty of Arts & Social Sci,Communications & New Media,NMC5364,"Digital Journalism, Law, and Society",E1,15,3,0,0,0,0,0,3
+Faculty of Arts & Social Sci,Communications & New Media,NMC5368,"Media, Policy, and Markets",E1,30,7,0,0,0,0,0,7
+Faculty of Arts & Social Sci,Economics,EC5326,Policy Impact Evaluation Methods,S1,37,15,15,0,0,0,0,0
+Faculty of Arts & Social Sci,Economics,EC5882,Topics in Macroeconomics,S1,37,15,15,0,0,0,0,0
+Faculty of Arts & Social Sci,Economics,EC6101,ADVANCED MICROECONOMIC THEORY,S1,49,9,9,0,0,0,0,0
+Faculty of Arts & Social Sci,Economics,EC6102,ADVANCED MACROECONOMIC THEORY,S1,19,8,8,0,0,0,0,0
+Faculty of Arts & Social Sci,Economics,EC6103,Econometric Modelling and Applications II,S1,50,11,11,0,0,0,0,0
+Faculty of Arts & Social Sci,Economics,EC6104,Advanced Mathematics for Economists,S1,20,7,7,0,0,0,0,0
+Faculty of Arts & Social Sci,Economics,EC6770,GRADUATE RESEARCH SEMINAR,S1,50,6,6,0,0,0,0,0
+Faculty of Arts & Social Sci,Economics,EC6884,Behavioral and Experimental Economics,S1,48,11,11,0,0,0,0,0
+Faculty of Arts & Social Sci,Economics,ECA5304,Machine Learning and Economic Forecasting,S1,3,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Economics,ECA5304,Machine Learning and Economic Forecasting,SW1,9,11,9,0,2,0,0,0
+Faculty of Arts & Social Sci,Economics,ECA5325,PROJECT & POLICY EVALUATION,S1,14,8,8,1,0,0,0,0
+Faculty of Arts & Social Sci,Economics,ECA5325,PROJECT & POLICY EVALUATION,SW1,9,16,4,0,12,0,0,0
+Faculty of Arts & Social Sci,Economics,ECA5333,FINANCIAL MARKETS & PORTFOLIO MANAGEMENT,SW1,12,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,Economics,ECA5333,FINANCIAL MARKETS & PORTFOLIO MANAGEMENT,SW2,10,4,4,0,0,0,0,0
+Faculty of Arts & Social Sci,Economics,ECA5334,CORPORATE FINANCE,S1,23,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Economics,ECA5334,CORPORATE FINANCE,S2,14,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Economics,ECA5334,CORPORATE FINANCE,SW1,13,12,11,0,1,0,0,0
+Faculty of Arts & Social Sci,Economics,ECA5337,Applied Financial Economics,S1,14,10,10,0,0,0,0,0
+Faculty of Arts & Social Sci,Economics,ECA5342,Advanced International Trade,S1,3,9,3,0,6,0,0,0
+Faculty of Arts & Social Sci,Economics,ECA5342,Advanced International Trade,SW1,1,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Economics,ECA5343,Advanced International Finance,S1,15,4,4,0,0,0,0,0
+Faculty of Arts & Social Sci,Economics,ECA5343,Advanced International Finance,SW1,7,8,1,0,7,0,0,0
+Faculty of Arts & Social Sci,Economics,ECA5351,PUBLIC FINANCE,S1,17,5,5,2,0,0,0,0
+Faculty of Arts & Social Sci,Economics,ECA5351,PUBLIC FINANCE,SW1,3,17,3,0,14,0,0,0
+Faculty of Arts & Social Sci,Economics,ECA5373,THE SINGAPORE ECONOMY,S1,20,13,13,2,0,0,0,0
+Faculty of Arts & Social Sci,Economics,ECA5376,Auctions and Market Design,S1,38,4,4,0,0,0,0,0
+Faculty of Arts & Social Sci,Economics,ECA5381,Urban Economics,S1,1,15,1,0,14,0,0,0
+Faculty of Arts & Social Sci,Economics,ECA5396,Economics of Business and Law of Intellectual Assets,S1,3,5,3,0,2,0,0,0
+Faculty of Arts & Social Sci,Economics,ECA5396,Economics of Business and Law of Intellectual Assets,SW1,1,15,1,0,14,0,0,0
+Faculty of Arts & Social Sci,Economics,ECA5884,Applied Behavioural Economics,S1,23,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Economics,ECA5884,Applied Behavioural Economics,SW1,22,7,7,4,0,0,0,0
+Faculty of Arts & Social Sci,English Language & Literature,EL5204,Linguistic Typology,E1,18,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,English Language & Literature,EL5211,CONTACT LANGUAGES,E1,13,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,English Language & Literature,EN5242,Women Novelists,E1,17,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,English Language & Literature,EN5248,Literary Rejects,E1,15,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,English Language & Literature,EN5249,Literary Studies: Overview and Writing Practices,E1,19,4,0,0,0,0,0,4
+Faculty of Arts & Social Sci,English Language & Literature,TS5212,ASIAN INTERNATIONAL CINEMA,E1,17,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,English Language & Literature,TS5213,Performing Shakespeare in Asia,E1,20,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Geography,GE4212,Environmental Modelling,E1,2147483647,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Geography,GE5211,Dynamic Environments,L1,10,8,8,0,0,0,0,0
+Faculty of Arts & Social Sci,Geography,GE5219,Spatial Programming,L1,2147483647,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,Geography,GE5225,Thesis Planning and Implementation,L1,20,11,11,0,0,0,0,0
+Faculty of Arts & Social Sci,Geography,GE5227,Internet GIS,L1,30,9,9,0,0,0,0,0
+Faculty of Arts & Social Sci,Geography,GE6211,Spatial Data Handling,L1,16,4,4,0,0,0,0,0
+Faculty of Arts & Social Sci,Geography,GE6212,MAPPING GLOBAL ECONOMIC CHANGE,EL1,3,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,History,HY5302,APPROACHES TO MILITARY HISTORY,E1,15,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,History,HY5303,PROBLEMS IN CULTURAL HISTORY,E1,12,4,4,0,0,0,0,0
+Faculty of Arts & Social Sci,History,HY5401,HISTORIOGRAPHY ON CHINA,E1,12,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,History,HY5402,Reconsidering the Cold War,E1,11,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,History,HY5403,Interpreters of Southeast Asian Pasts,E1,18,4,4,0,0,0,0,0
+Faculty of Arts & Social Sci,History,HY5409,Museums and Museology: Critical Perspectives,E1,20,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,History,HY5415,Theatres of Memory: Performing Public History,E1,21,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,History,HY6770,GRADUATE RESEARCH SEMINAR,E1,22,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Japanese Studies,JS5201,READINGS IN JAPANESE STUDIES I,E1,4,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Japanese Studies,JS6770,GRADUATE RESEARCH SEMINAR,E1,2147483647,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Malay Studies,MS6770,GRADUATE RESEARCH SEMINAR,E1,2,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Philosophy,PH6210,TOPICS IN HISTORY OF WESTERN PHILOSOPHY,E1,15,4,4,0,0,0,0,0
+Faculty of Arts & Social Sci,Philosophy,PH6240,Advanced Metaphysics,E1,15,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,Philosophy,PH6760,PHILOSOPHICAL TOPICS,E1,15,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,Philosophy,PH6770,GRADUATE RESEARCH SEMINAR,E1,15,4,4,0,0,0,0,0
+Faculty of Arts & Social Sci,Political Science,PS5201,SEMINAR IN POLITICAL THEORY,E1,20,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,Political Science,PS5314,SEMINAR IN INTERNATIONAL RELATIONS,E1,20,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Political Science,PS5316,SEMINAR IN PUBLIC ADMINISTRATION,E1,20,4,4,0,0,0,0,0
+Faculty of Arts & Social Sci,Political Science,PS6660,INDEPENDENT STUDY,LE1,25,4,2,0,0,0,0,2
+Faculty of Arts & Social Sci,Psychology,PL5222,Multivariate Statistics in Psychology,E1,20,14,14,0,0,0,0,0
+Faculty of Arts & Social Sci,Psychology,PL5307,Advanced Health Psychology,E1,10,4,4,0,0,0,0,0
+Faculty of Arts & Social Sci,Psychology,PL6889,Selected Topics in Emotion Psychology,E1,10,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,Social Work,SW5106,Social Policy and Welfare Services,E1,30,9,9,0,0,0,0,0
+Faculty of Arts & Social Sci,Social Work,SW5115,Human Development in Context,E1,5,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Social Work,SW5117A,Practice Research Capstone Seminar I,E1,30,6,6,0,0,0,0,0
+Faculty of Arts & Social Sci,Social Work,SW5117B,Practice Research Capstone Seminar II,E1,30,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,Social Work,SW5217,Continuum of Care and Healthy Ageing,E1,30,11,11,0,0,0,0,0
+Faculty of Arts & Social Sci,Social Work,SW5220,Statistics for Social Workers,E1,50,5,5,0,0,0,0,0
+Faculty of Arts & Social Sci,Social Work,SW6770,GRADUATE RESEARCH SEMINAR,E1,10,6,6,0,0,0,0,0
+Faculty of Arts & Social Sci,Social Work,SWD5102,SOCIAL WORK WITH GROUPS AND COMMUNITY,E1,55,37,37,0,0,0,0,0
+Faculty of Arts & Social Sci,Social Work,SWD5104,Human Development in Context,E1,55,35,35,0,0,0,0,0
+Faculty of Arts & Social Sci,Social Work,SWD5261,GERONTOLOGICAL COUNSELLING,E1,60,7,7,0,0,0,0,0
+Faculty of Arts & Social Sci,Sociology,SC5205,Social Policy Analysis,E1,15,5,5,0,0,0,0,0
+Faculty of Arts & Social Sci,Sociology,SC5223,Social Networks,E1,15,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Sociology,SC6215,RELIGION IN THE CONTEMPORARY WORLD,E1,15,2,2,0,0,0,0,0
+Faculty of Arts & Social Sci,Sociology,SC6224,Producing Ethnography,E1,15,3,3,0,0,0,0,0
+Faculty of Arts & Social Sci,Southeast Asian Studies,CAS6770,Graduate Research Seminar,E1,4,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Southeast Asian Studies,SE5243,COUNTRY STUDIES: INDONESIA,E1,15,1,1,0,0,0,0,0
+Faculty of Arts & Social Sci,Southeast Asian Studies,SE5247,Country Studies: Vietnam,E1,17,1,1,0,0,0,0,0
+Faculty of Engineering,Biomedical Engineering,BN5102,Clinical Instrumentation,L1,20,17,17,0,0,0,0,0
+Faculty of Engineering,Biomedical Engineering,BN5201,Advanced Biomaterials,L1,20,13,12,0,0,0,0,1
+Faculty of Engineering,Biomedical Engineering,BN5203,ADVANCED TISSUE ENGINEERING,L1,40,9,9,0,0,0,0,0
+Faculty of Engineering,Biomedical Engineering,BN5207,MEDICAL IMAGING SYSTEMS,L1,40,7,7,0,0,0,0,0
+Faculty of Engineering,Biomedical Engineering,BN6202,Advanced Human Motion Biomechanics,L1,30,11,11,0,0,0,0,0
+Faculty of Engineering,Biomedical Engineering,BN6401,Advanced Quantitative Fluorescence Microscopy,L1,32,21,20,0,0,0,0,1
+Faculty of Engineering,Chemical & Biomolecular Eng,CN5020,ADVANCED REACTION ENGINEERING,L1,25,7,7,0,0,0,0,0
+Faculty of Engineering,Chemical & Biomolecular Eng,CN5040,ADVANCED TRANSPORT PHENOMENA,L1,28,13,13,0,0,0,0,0
+Faculty of Engineering,Chemical & Biomolecular Eng,CN5050,ADVANCED SEPARATION PROCESSES,L1,33,12,12,0,0,0,0,0
+Faculty of Engineering,Chemical & Biomolecular Eng,CN5111,OPTIMIZATION OF CHEMICAL PROCESSES,L1,20,8,8,0,0,0,0,0
+Faculty of Engineering,Chemical & Biomolecular Eng,CN5112,Introduction to Electrochemical Systems,L1,54,21,11,0,0,0,0,10
+Faculty of Engineering,Chemical & Biomolecular Eng,CN5161,POLYMER PROCESSING ENGINEERING,L1,26,14,14,0,0,0,0,0
+Faculty of Engineering,Chemical & Biomolecular Eng,CN5173,DOWNSTREAM PROCESSING OF BIOCHEMICAL & PHARMACEUTICAL PRODUCTS,L1,9,10,9,0,1,0,0,0
+Faculty of Engineering,Chemical & Biomolecular Eng,CN5191,Project Engineering,L1,12,3,3,0,0,0,0,0
+Faculty of Engineering,Chemical & Biomolecular Eng,CN5193,INSTRUMENTAL METHODS OF ANALYSIS,L1,14,19,14,0,5,0,0,0
+Faculty of Engineering,Chemical & Biomolecular Eng,CN5215,Atomistic Modelling of Molecules and Materials,L1,5,16,5,0,11,0,0,0
+Faculty of Engineering,Chemical & Biomolecular Eng,CN5246,Catalysis Science and Engineering,L1,6,5,5,0,0,0,0,0
+Faculty of Engineering,Chemical & Biomolecular Eng,CN5252,Molecular and computational tools for biotechnology,L1,34,7,7,0,0,0,0,0
+Faculty of Engineering,Chemical & Biomolecular Eng,CN5432,Fundamentals and Applications of Porous Materials,L1,15,13,13,0,0,0,0,0
+Faculty of Engineering,Chemical & Biomolecular Eng,CN6020,Advanced Reaction Engineering,L1,6,8,6,0,2,0,0,0
+Faculty of Engineering,Chemical & Biomolecular Eng,CN6163,Inorganic Nanomaterials for Sustainability,L1,31,3,3,0,0,0,0,0
+Faculty of Engineering,Chemical & Biomolecular Eng,SH5001,Fundamentals in Process Safety,L1,4,25,4,0,21,0,0,0
+Faculty of Engineering,Chemical & Biomolecular Eng,SH5003,FUNDAMENTALS IN ENVIRONMENTAL PROTECTION,L1,26,11,11,0,0,0,0,0
+Faculty of Engineering,Chemical & Biomolecular Eng,SH5004,Fundamentals in Industrial Hygiene,L1,26,17,17,1,0,0,0,0
+Faculty of Engineering,Chemical & Biomolecular Eng,SH5101,INDUSTRIAL TOXICOLOGY,L1,17,20,17,0,3,0,0,0
+Faculty of Engineering,Chemical & Biomolecular Eng,SH5105,Noise and Other Physical Hazards,L1,32,28,28,2,0,0,0,0
+Faculty of Engineering,Chemical & Biomolecular Eng,SH5109,Biostatistics and Epidemiology,L1,14,19,14,0,5,0,0,0
+Faculty of Engineering,Chemical & Biomolecular Eng,SH5110,Chemical Hazard Evaluation,L1,30,13,13,0,0,0,0,0
+Faculty of Engineering,Chemical & Biomolecular Eng,SH5201,HAZARD IDENTIFICATION & EVALUATION TECHNIQUES,L1,25,17,17,1,0,0,0,0
+Faculty of Engineering,Chemical & Biomolecular Eng,SH5203,Resilience and Emergency Planning,L1,28,28,28,0,0,0,0,0
+Faculty of Engineering,Chemical & Biomolecular Eng,SH5208,Functional Safety for Process,L1,48,8,8,1,0,0,0,0
+Faculty of Engineering,Chemical & Biomolecular Eng,SH5401,"Safety, Health, Environment & Quality Management System",L1,12,27,12,0,15,0,0,0
+Faculty of Engineering,Chemical & Biomolecular Eng,SH5407,Sustainable Energy and Environment,L1,2147483647,14,14,1,0,0,0,0
+Faculty of Engineering,Chemical & Biomolecular Eng,SH5408,Electrical Safety,L1,48,11,11,0,0,0,0,0
+Faculty of Engineering,Civil & Environmental Eng,CE4221,Design of Land Transport Infrastructures,L01,40,8,8,0,0,0,0,0
+Faculty of Engineering,Civil & Environmental Eng,CE5001,Research Project,L01,50,21,21,0,0,0,0,0
+Faculty of Engineering,Civil & Environmental Eng,CE5106,Ground Improvement,L01,77,108,75,0,33,0,0,0
+Faculty of Engineering,Civil & Environmental Eng,CE5107,Pile Foundations,L01,95,94,93,0,1,0,0,0
+Faculty of Engineering,Civil & Environmental Eng,CE5111,UNDERGROUND CONSTRUCTION DESIGN PROJECT,L01,50,3,3,0,0,0,0,0
+Faculty of Engineering,Civil & Environmental Eng,CE5112,Structural Support Systems for Excavation,L01,87,102,85,0,17,0,0,0
+Faculty of Engineering,Civil & Environmental Eng,CE5205,Transportation Planning,L01,37,26,25,0,0,0,0,1
+Faculty of Engineering,Civil & Environmental Eng,CE5206,Urban Public Transportation Systems,L01,39,29,29,0,0,0,0,0
+Faculty of Engineering,Civil & Environmental Eng,CE5308,Coastal Protection and Sediment Transport,L01,29,26,26,0,0,0,0,0
+Faculty of Engineering,Civil & Environmental Eng,CE5310,Hydroinformatics,L01,14,11,10,0,0,0,0,1
+Faculty of Engineering,Civil & Environmental Eng,CE5315,Climate Science for Engineers,L01,22,14,13,0,0,0,0,1
+Faculty of Engineering,Civil & Environmental Eng,CE5513,Plastic Analysis Of Structures,L01,45,42,41,1,0,0,0,1
+Faculty of Engineering,Civil & Environmental Eng,CE5516,Structural Stability & Dynamic,L01,42,10,4,0,0,0,0,6
+Faculty of Engineering,Civil & Environmental Eng,CE5604,Advanced Concrete Technology,L01,83,77,76,1,0,0,0,1
+Faculty of Engineering,Civil & Environmental Eng,CE5611,Precast Concrete Technology,L01,79,90,77,0,12,0,0,1
+Faculty of Engineering,Civil & Environmental Eng,CE5805,DfMA & Productivity Analytics in Construction,L01,59,51,51,1,0,0,0,0
+Faculty of Engineering,Civil & Environmental Eng,CE5808,Digital Design and Construction (BIM and VDC),L01,70,63,62,1,0,0,0,1
+Faculty of Engineering,Civil & Environmental Eng,CE5809,Management and Economics of International Construction,L01,60,64,58,0,2,0,0,4
+Faculty of Engineering,Civil & Environmental Eng,CE5881,TOPICS IN GEOTECHNICAL ENGINEERING: SOIL DYNAMICS,L01,28,11,11,0,0,0,0,0
+Faculty of Engineering,Civil & Environmental Eng,CE6006,ADVANCED FINITE ELEMENT ANALYSIS,L01,38,4,4,0,0,0,0,0
+Faculty of Engineering,Civil & Environmental Eng,CE6102,GEOTECHNICAL ANALYSIS,L01,40,27,27,0,0,0,0,0
+Faculty of Engineering,Civil & Environmental Eng,CE6601,Characterization of Sustainable Building Materials,L01,24,25,22,0,2,0,0,1
+Faculty of Engineering,Civil & Environmental Eng,ESE5001,Environmental Engineering Principles,L01,40,4,4,0,0,0,0,0
+Faculty of Engineering,Civil & Environmental Eng,ESE5003,Environmental Chemical Processes Analysis,L01,60,35,35,1,0,0,0,0
+Faculty of Engineering,Civil & Environmental Eng,ESE5004,Research Project,L01,50,24,24,0,0,0,0,0
+Faculty of Engineering,Civil & Environmental Eng,ESE5203,AEROSOL SCIENCE AND TECHNOLOGY,L01,68,49,49,0,0,0,0,0
+Faculty of Engineering,Civil & Environmental Eng,ESE5401,Water Quality Management,L01,68,70,66,0,4,0,0,0
+Faculty of Engineering,Civil & Environmental Eng,ESE5405,Water Treatment Processes,L01,65,71,63,0,8,0,0,0
+Faculty of Engineering,Civil & Environmental Eng,ESE5880C,Topics in Env. Eng. - Environ Sys Planning & Analysis,L01,52,76,4,0,0,0,0,72
+Faculty of Engineering,Civil & Environmental Eng,ESE5999,GRADUATE SEMINARS,EL01,50,1,1,0,0,0,0,0
+Faculty of Engineering,Civil & Environmental Eng,OT5203,Analysis & Design of Floating Offshore Structures,L01,13,5,5,0,0,0,0,0
+Faculty of Engineering,Civil & Environmental Eng,OT5204,"Offshore pipelines, risers and moorings",L01,17,1,1,0,0,0,0,0
+Faculty of Engineering,Civil & Environmental Eng,OT5206,Offshore Foundations,L01,29,17,17,0,0,0,0,0
+Faculty of Engineering,Electrical & Computer Eng,EE5020,Data Science for Internet of Things,L01,16,2,2,0,0,0,0,0
+Faculty of Engineering,Electrical & Computer Eng,EE5021,Cloud based Services for Internet of Things,L01,14,3,3,0,0,0,0,0
+Faculty of Engineering,Electrical & Computer Eng,EE5022,Cyber Security for Internet of Things,L01,16,4,4,0,0,0,0,0
+Faculty of Engineering,Electrical & Computer Eng,EE5065,Tenets of AI in Robotics,L01,9,3,3,0,0,0,0,0
+Faculty of Engineering,Electrical & Computer Eng,EE5104,ADAPTIVE CONTROL SYSTEMS,L01,23,22,18,0,4,0,0,0
+Faculty of Engineering,Electrical & Computer Eng,EE5132,Wireless and Sensor Networks,L01,35,78,21,0,57,0,0,0
+Faculty of Engineering,Electrical & Computer Eng,EE5134,Optical Communications and Networks,L01,34,88,19,0,69,0,0,0
+Faculty of Engineering,Electrical & Computer Eng,EE5135,Digital Communications,L01,39,118,35,0,83,0,0,0
+Faculty of Engineering,Electrical & Computer Eng,EE5137,Stochastic Processes,L01,41,43,33,0,10,0,0,0
+Faculty of Engineering,Electrical & Computer Eng,EE5138,Optimization for Electrical Engineering,L01,20,13,13,2,0,0,0,0
+Faculty of Engineering,Electrical & Computer Eng,EE5431,Fundamentals of Nanoelectronics,L01,30,28,10,0,18,0,0,0
+Faculty of Engineering,Electrical & Computer Eng,EE5434,Microelectronic Processes and Integration,L01,57,22,22,1,0,0,0,0
+Faculty of Engineering,Electrical & Computer Eng,EE5440,Magnetic Data Storage for Big Data,L01,48,7,7,0,0,0,0,0
+Faculty of Engineering,Electrical & Computer Eng,EE5507,Analog Integrated Circuits Design,L01,29,27,16,0,11,0,0,0
+Faculty of Engineering,Electrical & Computer Eng,EE5508,SEMICONDUCTOR FUNDAMENTALS,L01,43,22,22,0,0,0,0,0
+Faculty of Engineering,Electrical & Computer Eng,EE5517,Optical Engineering,L01,35,33,16,0,17,0,0,0
+Faculty of Engineering,Electrical & Computer Eng,EE5701,HIGH VOLTAGE TESTING AND SWITCHGEAR,L01,32,18,13,0,5,0,0,0
+Faculty of Engineering,Electrical & Computer Eng,EE5711,Power Electronic Systems,L01,33,9,9,2,0,0,0,0
+Faculty of Engineering,Electrical & Computer Eng,EE5801,Electromagnetic Compatibility,L01,35,36,21,0,15,0,0,0
+Faculty of Engineering,Electrical & Computer Eng,EE5903,REAL-TIME SYSTEMS,L01,55,20,20,3,0,0,0,0
+Faculty of Engineering,Electrical & Computer Eng,EE5904,NEURAL NETWORKS,L01,84,65,65,0,0,0,0,0
+Faculty of Engineering,Electrical & Computer Eng,EE5934,Deep Learning,L01,43,80,38,0,42,0,0,0
+Faculty of Engineering,Electrical & Computer Eng,EE6138,Optimization for Electrical Engineering (Advanced),L01,9,5,5,0,0,0,0,0
+Faculty of Engineering,Electrical & Computer Eng,EE6435,Advanced Concepts in Nanoelectronics,L01,26,1,1,0,0,0,0,0
+Faculty of Engineering,Electrical & Computer Eng,EE6437,Advanced Semiconductor Devices,L01,25,6,6,0,0,0,0,0
+Faculty of Engineering,Electrical & Computer Eng,EE6440,Advanced Topics in Photonics,L01,23,1,1,0,0,0,0,0
+Faculty of Engineering,Electrical & Computer Eng,EE6531,Selected Topics in Smart Grid Technologies,L01,34,5,4,0,0,0,0,1
+Faculty of Engineering,Electrical & Computer Eng,EE6831,Advanced Electromagnetic Theory and Applications,L01,21,2,2,0,0,0,0,0
+Faculty of Engineering,Electrical & Computer Eng,EE6833,Selected Topics in Microwave and Antenna Engineering,L01,13,2,2,0,0,0,0,0
+Faculty of Engineering,Electrical & Computer Eng,EE6934,Deep Learning (Advanced),L01,16,3,3,0,0,0,0,0
+Faculty of Engineering,Electrical & Computer Eng,ME5404,NEURAL NETWORKS,L01,62,13,13,1,0,0,0,0
+Faculty of Engineering,Industrial Systems Eng & Mgmt,IE5105,Modelling for Supply Chain Systems,L1,61,7,7,3,0,0,0,0
+Faculty of Engineering,Industrial Systems Eng & Mgmt,IE5107,MATERIAL FLOW SYSTEMS,L1,17,20,13,1,7,0,0,0
+Faculty of Engineering,Industrial Systems Eng & Mgmt,IE5108,Facility Layout And Location,L1,30,9,8,2,0,0,0,1
+Faculty of Engineering,Industrial Systems Eng & Mgmt,IE5121,Quality Planning And Management,L1,13,8,7,0,0,0,0,1
+Faculty of Engineering,Industrial Systems Eng & Mgmt,IE5205,Healthcare System and Analytics,L1,15,20,6,1,12,0,0,2
+Faculty of Engineering,Industrial Systems Eng & Mgmt,IE5206,Energy and Sustainability: A Systems Approach,L1,13,5,5,0,0,0,0,0
+Faculty of Engineering,Industrial Systems Eng & Mgmt,IE5221,Transportation Modeling and Economics,L1,7,12,7,0,0,0,0,5
+Faculty of Engineering,Industrial Systems Eng & Mgmt,IE5231,Statistical Methods for Process Design & Control,L1,19,9,7,0,0,0,0,2
+Faculty of Engineering,Industrial Systems Eng & Mgmt,IE5404,LARGE SCALE SYSTEMS ENGINEERING,L1,12,12,12,0,0,0,0,0
+Faculty of Engineering,Industrial Systems Eng & Mgmt,IE5600,Applied Programming for Industrial Systems,L1,4,26,4,0,19,0,0,3
+Faculty of Engineering,Industrial Systems Eng & Mgmt,IE5881,Selected Topics in Industrial Engineering,L1,33,3,1,0,0,0,0,2
+Faculty of Engineering,Industrial Systems Eng & Mgmt,IE6505,Stochastic Processes II,L1,25,4,4,0,0,0,0,0
+Faculty of Engineering,Industrial Systems Eng & Mgmt,IE6520,Theory and Algorithms for Online Learning,L1,24,4,4,0,0,0,0,0
+Faculty of Engineering,Industrial Systems Eng & Mgmt,MT5010,Technology Forecasting & Intelligence,L1,22,11,11,0,0,0,0,0
+Faculty of Engineering,Industrial Systems Eng & Mgmt,MT5011,Engineering Business Finance Fundamentals,L1,23,10,10,0,0,0,0,0
+Faculty of Engineering,Industrial Systems Eng & Mgmt,MT5021,Problem Solving Skills for Engineering Managers,L1,8,14,8,0,6,0,0,0
+Faculty of Engineering,Industrial Systems Eng & Mgmt,MT5022,Digital Disruption and Technology Strategy,L1,20,14,14,0,0,0,0,0
+Faculty of Engineering,Industrial Systems Eng & Mgmt,MT5024,Patent Data Analytics for Innovation Management,L1,29,9,9,0,0,0,0,0
+Faculty of Engineering,Industrial Systems Eng & Mgmt,MT5900,MOT RESEARCH PROJECT,L1,2147483647,1,0,0,0,0,0,1
+Faculty of Engineering,Industrial Systems Eng & Mgmt,MT5902,Management Extended Practicum,L1,13,1,1,0,0,0,0,0
+Faculty of Engineering,Industrial Systems Eng & Mgmt,MT5911,Venture Funding,L1,33,2,2,0,0,0,0,0
+Faculty of Engineering,Industrial Systems Eng & Mgmt,MT5912,Frugal Innovation,L1,24,3,3,0,0,0,0,0
+Faculty of Engineering,Industrial Systems Eng & Mgmt,MT5913,TechLaunch - Experiential Entrepreneurship,L1,24,1,1,0,0,0,0,0
+Faculty of Engineering,Industrial Systems Eng & Mgmt,MT5920,Enterprise Development,L1,29,2,2,0,0,0,0,0
+Faculty of Engineering,Industrial Systems Eng & Mgmt,MTM5005,Intermodal Freight Transport and Logistics,L1,5,1,1,1,0,0,0,0
+Faculty of Engineering,Materials Science & Eng,MLE5002,Materials Characterization,L1,59,1,0,0,0,0,0,1
+Faculty of Engineering,Materials Science & Eng,MLE5102,MECHANICAL BEHAVIOURS OF MATERIALS,L1,107,65,64,0,0,0,0,1
+Faculty of Engineering,Materials Science & Eng,MLE5210,Modelling and Simulation of Materials,L1,6,13,6,0,7,0,0,0
+Faculty of Engineering,Materials Science & Eng,MLE5211,Nanomaterials,L1,106,90,90,0,0,0,0,0
+Faculty of Engineering,Materials Science & Eng,MLE5214,Advances in Polymeric Materials,L1,100,75,75,0,0,0,0,0
+Faculty of Engineering,Materials Science & Eng,MLE5215,Atomistic Modelling of Molecules and Materials,L1,26,41,26,0,13,0,0,2
+Faculty of Engineering,Materials Science & Eng,MLE6103,STRUCTURES OF MATERIALS,L1,51,24,23,0,0,0,0,1
+Faculty of Engineering,Mechanical Engineering,EE5106,ADVANCED ROBOTICS,L01,30,13,13,1,0,0,0,0
+Faculty of Engineering,Mechanical Engineering,ME5103,PLATES AND SHELLS,L01,24,8,8,1,0,0,0,0
+Faculty of Engineering,Mechanical Engineering,ME5106,Engineering Acoustics,L01,31,57,31,0,25,0,0,1
+Faculty of Engineering,Mechanical Engineering,ME5107,Vibration Theory and Applications,L01,6,12,6,0,6,0,0,0
+Faculty of Engineering,Mechanical Engineering,ME5205,ENERGY ENGINEERING,L01,7,12,7,0,4,0,0,1
+Faculty of Engineering,Mechanical Engineering,ME5309,Aircraft Engines and Rocket Propulsion,L01,27,5,5,0,0,0,0,0
+Faculty of Engineering,Mechanical Engineering,ME5361,ADVANCED COMPUTATIONAL FLUID DYNAMICS,L01,25,5,5,0,0,0,0,0
+Faculty of Engineering,Mechanical Engineering,ME5402,ADVANCED ROBOTICS,L01,38,20,20,0,0,0,0,0
+Faculty of Engineering,Mechanical Engineering,ME5405,Machine Vision,L01,72,20,19,1,0,0,0,1
+Faculty of Engineering,Mechanical Engineering,ME5506,Corrosion of Materials,L01,44,29,28,0,0,0,0,1
+Faculty of Engineering,Mechanical Engineering,ME5516,Emerging Energy Conversion and Storage Technologies,L01,43,12,11,4,0,0,0,1
+Faculty of Engineering,Mechanical Engineering,ME5611,SUSTAINABLE PRODUCT DESIGN & MANUFACTURING,L01,1,35,1,0,33,0,0,1
+Faculty of Engineering,Mechanical Engineering,ME5612,COMPUTER AIDED PRODUCT DEVELOPMENT,L01,3,41,3,0,37,0,0,1
+Faculty of Engineering,Mechanical Engineering,ME6204,Advanced Heat Transfer,L01,36,14,14,4,0,0,0,0
+Faculty of Engineering,Mechanical Engineering,ME6303,ADVANCED FLUID DYNAMICS,L01,27,13,12,0,0,0,0,1
+Faculty of Engineering,Mechanical Engineering,ME6504,DEFECTS & DISLOCATIONS IN SOLIDS,L01,39,5,5,0,0,0,0,0
+Faculty of Engineering,Mechanical Engineering,ME6604,Modelling of Manufacturing Processes,L01,68,20,20,1,0,0,0,0
+Faculty of Engineering,Mechanical Engineering,OT5301,Subsea Systems Engineering,L01,30,26,26,1,0,0,0,0
+Faculty of Engineering,Mechanical Engineering,OT5304,Subsea Construction & Operational Support,L01,49,21,21,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5034V,International Regulation of Shipping,E1,2147483647,3,3,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5043,LAW OF MARINE INSURANCE,E1,2147483647,3,3,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5044V,Mediation,E1,2147483647,4,4,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5050V,Public International Law,E1,2147483647,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5054,Domestic and International Sale of Goods,E1,2147483647,8,8,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5063V,Business & Finance For Lawyers,E1,2147483647,4,4,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5074V,Mergers & Acquisitions,E1,2147483647,9,9,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5097V,Islamic Law,E1,2147483647,2,2,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5099V,Maritime Law,E1,2147483647,5,5,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5140V,Law of the Sea: Theory and Practice,E1,2147483647,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5150V,International Investment Law and Arbitration,E1,2147483647,6,6,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5162V,Singapore Corporate Governance,E1,2147483647,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5173V,Comparative Corporate Law,E1,2147483647,6,6,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5202V,ASEAN Economic Community Law and Policy,E1,2147483647,4,4,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5221,Climate Change Law & Policy,E1,2147483647,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5263V,Intellectual Property Rights and Competition Policy,E1,2147483647,8,8,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5295,Conflict of Laws in Int'l Commercial Arbitration,E1,2147483647,8,8,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5299,Advanced Issues in the Law & Practice of Int'l Arbitration,E1,2147483647,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5309V,Strategies for Asian Disputes - A Comparative Analysis,E1,2147483647,4,4,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5313,Mediation/Conciliation of Inter- & Investor-State Disputes,E1,2147483647,10,10,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5318V,Public Health Law and Regulation,E1,2147483647,3,3,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5327V,Mergers and Acquisitions: A Practitioner's Perspective,E1,2147483647,1,1,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5338V,Advanced Practicum in International Arbitration,E1,2147483647,5,5,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5339,Comparative Evidence in International Arbitration,E1,2147483647,4,4,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5349V,Energy Arbitration,E1,2147483647,6,6,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5350,Privacy & Data Protection Law,E1,2147483647,4,4,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5352,China and International Economic Law,E1,2147483647,13,13,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5360Z,Current Challenges to Investment Arbitration,E1,2147483647,14,14,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5361Z,Complex Arbitrations: Multiparty – Multicontract,E1,2147483647,10,10,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5364V,Principles of Civil Law: Law of Obligations & Property,E1,2147483647,4,4,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5375,Traditional Chinese Legal Thought,E1,2147483647,6,6,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5385,Taxation Law & the Global Digital Economy,E1,2147483647,2,2,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5396V,International Arbitration & Dispute Resolution Research,E1,2147483647,2,2,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5412,Securities and Capital Markets Regulation,E1,2147483647,3,3,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5438V,Intellectual Property Arbitration,E1,2147483647,12,12,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5442,Digital Trade and Digital Economy,E1,2147483647,18,18,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5456,Legal Technology & Innovation,E1,2147483647,2,2,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5460V,"Law, FinTech and the Platform Economy",E1,2147483647,25,25,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LL5461V,Compliance and Risk Management,E1,2147483647,11,11,0,0,0,0,0
+Faculty of Law,FoL Dean's Office,LLD5043,LAW OF MARINE INSURANCE,E1,2147483647,6,0,0,0,0,0,6
+Faculty of Science,Biological Sciences,BL5203,MOLECULAR RECOGNITION AND INTERACTIONS,L1,8,2,2,1,0,0,0,0
+Faculty of Science,Biological Sciences,BL5204,Graduate Bootcamp for Biotechnology Industry,L1,43,2,2,2,0,0,0,0
+Faculty of Science,Biological Sciences,BL5210,Biogeography,L1,12,3,3,0,0,0,0,0
+Faculty of Science,Biological Sciences,BL5213,PROTEIN DESIGN & ENGINEERING,L1,8,17,8,0,9,0,0,0
+Faculty of Science,Biological Sciences,BL5216,ADVANCED GENETICS AND GENOME SCIENCES,L1,22,10,10,0,0,0,0,0
+Faculty of Science,Biological Sciences,BL5218,Directed Studies in Behavioural Ecology,L1,13,3,3,0,0,0,0,0
+Faculty of Science,Biological Sciences,BL5220,ADVANCED ANIMAL DEVELOPMENT,L1,29,3,3,0,0,0,0,0
+Faculty of Science,Biological Sciences,BL5221,PLANT AND MICROBIAL DEVELOPMENT,L1,20,11,11,0,0,0,0,0
+Faculty of Science,Biological Sciences,BL5224,Signalling Mechanisms in Cancers and Metabolic Diseases,L1,11,4,4,1,0,0,0,0
+Faculty of Science,Biological Sciences,BL5234,Quantitative Methods and Critical Thinking in Biology,L1,9,7,7,0,0,0,0,0
+Faculty of Science,Biological Sciences,BL5312,Natural History Collections and Conservation,L1,6,3,3,0,0,0,0,0
+Faculty of Science,Biological Sciences,BL5623,Infectious Diseases and Host- Pathogen Interactions,L1,5,5,5,0,0,0,0,0
+Faculty of Science,Biological Sciences,BL5632,Genomic Data Science in the Cloud,L1,12,3,3,0,0,0,0,0
+Faculty of Science,Biological Sciences,FSC5202,Forensic Defense Science,L1,4,1,1,0,0,0,0,0
+Faculty of Science,Biological Sciences,FSC5204,Forensic Psychiatry and Psychology,L1,7,1,0,0,0,0,1,0
+Faculty of Science,Chemistry,CM5212,Crystal Engineering,L1,20,3,2,0,0,0,0,1
+Faculty of Science,Chemistry,CM5223,Topics in Supramolecular Chemistry,L1,64,19,18,0,0,0,0,1
+Faculty of Science,Chemistry,CM5225,Asymmetric Catalysis,L1,62,8,6,0,0,0,0,2
+Faculty of Science,Chemistry,CM5232,Topics in Chemical Kinetics,L1,30,1,0,0,0,0,0,1
+Faculty of Science,Chemistry,CM5239,Cheminformatics,L1,63,10,8,0,0,0,0,2
+Faculty of Science,Chemistry,CM5244,Advanced Environmental Chemistry,L1,20,8,8,0,0,0,0,0
+Faculty of Science,Chemistry,CM5245,BIOANALYTICALCHEMISTRY,L1,14,8,8,0,0,0,0,0
+Faculty of Science,Chemistry,CM5263,Advanced Inorganic Electronic Materials,L1,16,11,9,0,0,0,0,2
+Faculty of Science,Food Science & Technology,FST5201,RHEOLOGY AND TEXTURAL PROPERTIES OF BIOMATERIALS,L1,44,2,2,2,0,0,0,0
+Faculty of Science,Food Science & Technology,FST5202A,Modern Food Fermentation,L1,32,12,12,2,0,0,0,0
+Faculty of Science,Food Science & Technology,FST5203A,Advanced Food Microbiological Analysis and Food Safety,L1,11,11,11,0,0,0,0,0
+Faculty of Science,Food Science & Technology,FST5206,Advanced Food Toxicology and Chemical Safety,L1,28,18,18,0,0,0,0,0
+Faculty of Science,Food Science & Technology,FST5207,Introduction to Advanced Meat Alternatives,L1,12,19,12,0,7,0,0,0
+Faculty of Science,Food Science & Technology,FST5303A,Science in Clinical Nutrition,L1,20,42,20,0,22,0,0,0
+Faculty of Science,Mathematics,DSA5201,DSML Industry Consulting and Applications Project,L1,46,8,8,0,0,0,0,0
+Faculty of Science,Mathematics,DSA5202,Advanced Topics in Machine Learning,L1,69,18,18,0,0,0,0,0
+Faculty of Science,Mathematics,DSA5204,Deep Learning and Applications,L1,93,13,8,0,0,0,0,5
+Faculty of Science,Mathematics,MA3201,Algebra II,L1,9,3,3,0,0,0,0,0
+Faculty of Science,Mathematics,MA3211,Complex Analysis I,L1,10,2,0,0,0,0,0,2
+Faculty of Science,Mathematics,MA3227,Numerical Analysis II,L1,5,4,4,0,0,0,0,0
+Faculty of Science,Mathematics,MA3238,Stochastic Processes I,L1,9,6,6,0,0,0,0,0
+Faculty of Science,Mathematics,MA3252,Linear and Network Optimisation,L1,12,1,1,0,0,0,0,0
+Faculty of Science,Mathematics,MA3265,Introduction to Number Theory,L1,10,1,1,0,0,0,0,0
+Faculty of Science,Mathematics,MA4207,Mathematical Logic,L1,6,11,6,0,5,0,0,0
+Faculty of Science,Mathematics,MA4221,Partial Differential Equations,L1,15,13,13,0,0,0,0,0
+Faculty of Science,Mathematics,MA4229,Fourier Analysis and Approximation,L1,15,3,3,0,0,0,0,0
+Faculty of Science,Mathematics,MA4251,Stochastic Processes II,L1,14,3,3,0,0,0,0,0
+Faculty of Science,Mathematics,MA4252,Advanced Ordinary Differential Equations,L1,11,6,6,0,0,0,0,0
+Faculty of Science,Mathematics,MA4255,Numerical Methods in Differential Equations,L1,19,4,4,0,0,0,0,0
+Faculty of Science,Mathematics,MA4260,Stochastic Operations Research,L1,10,14,10,0,4,0,0,0
+Faculty of Science,Mathematics,MA4261,Coding and Cryptography,L1,15,8,8,0,0,0,0,0
+Faculty of Science,Mathematics,MA4264,Game Theory,L1,22,10,10,0,0,0,0,0
+Faculty of Science,Mathematics,MA4271,Differential Geometry of Curves and Surfaces,L1,18,4,4,0,0,0,0,0
+Faculty of Science,Mathematics,MA5198,GRADUATE SEMINAR MODULE IN MATHEMATICS,E1,15,8,8,0,0,0,0,0
+Faculty of Science,Mathematics,MA5206,Graduate Analysis II,L1,12,19,12,0,7,0,0,0
+Faculty of Science,Mathematics,MA5218,Graduate Algebra IIB,L1,16,8,7,0,0,1,0,0
+Faculty of Science,Mathematics,MA5232,Modeling and Numerical Simulations,L1,30,24,24,0,0,0,0,0
+Faculty of Science,Mathematics,MA5238,Fourier Analysis,L1,16,9,9,0,0,0,0,0
+Faculty of Science,Mathematics,MA5245,ADVANCED FINANCIAL MATHEMATICS,L1,21,17,17,0,0,0,0,0
+Faculty of Science,Mathematics,MA5248,Stochastic Analysis in Mathematical Finance,L1,21,28,21,0,7,0,0,0
+Faculty of Science,Mathematics,MA5250,Computational Fluid Dynamics,L1,15,9,9,0,0,0,0,0
+Faculty of Science,Mathematics,MA5295,DISSERTATION FOR MSC BY COURSEWORK,L1,49,5,5,0,0,0,0,0
+Faculty of Science,Mathematics,MA5401,Graduate Internship in Mathematics I,L1,50,3,3,0,0,0,0,0
+Faculty of Science,Mathematics,MA5402,Graduate Internship in Mathematics II,L1,48,1,1,0,0,0,0,0
+Faculty of Science,Mathematics,QF5202,Structured Products,L1,31,2,0,0,0,0,0,2
+Faculty of Science,Mathematics,QF5203,Risk Management,L1,31,1,1,0,0,0,0,0
+Faculty of Science,Mathematics,QF5204,Numerical Methods in Quantitative Finance,L1,110,18,16,0,2,0,0,0
+Faculty of Science,Mathematics,QF5205,Topics in Quantitative Finance I,L1,169,11,8,0,0,0,0,3
+Faculty of Science,Mathematics,QF5208,AI and FinTech,L1,176,12,12,0,0,0,0,0
+Faculty of Science,Pharmacy,PR5198,GRADUATE SEMINAR MODULE IN PHARMACY,E1,28,17,17,0,0,0,0,0
+Faculty of Science,Pharmacy,PR5216,ADVANCES IN DRUG DELIVERY,L1,34,8,8,0,0,0,0,0
+Faculty of Science,Pharmacy,PR5225,Preformulation Science,L1,18,7,7,0,0,0,0,0
+Faculty of Science,Pharmacy,PR5230,Pharmacoeconomics and Outcomes Research,L1,14,10,10,0,0,0,0,0
+Faculty of Science,Pharmacy,PR5304,Fundamental Topics in Pharmaceutical Science,L1,28,14,14,0,0,0,0,0
+Faculty of Science,Physics,PC5198,GRADUATE SEMINAR MODULE IN PHYSICS,E1,16,11,11,0,0,0,0,0
+Faculty of Science,Physics,PC5202,ADVANCED STATISTICAL MECHANICS,L1,10,2,2,0,0,0,0,0
+Faculty of Science,Physics,PC5206,Selected Topics in Quantum Field Theory,L1,22,5,5,0,0,0,0,0
+Faculty of Science,Physics,PC5210,Advanced Dynamics,L1,9,4,4,0,0,0,0,0
+Faculty of Science,Physics,PC5212,Physics of Nanostructures,L1,28,9,9,0,0,0,0,0
+Faculty of Science,Physics,PC5213,Advanced Biophysics,L1,20,9,9,0,0,0,0,0
+Faculty of Science,Statistics and Data Science,DSA4212,Optimisation for Large-Scale Data- Driven Inference,L1,28,5,5,0,0,0,0,0
+Faculty of Science,Statistics and Data Science,ST4238,Stochastic Processes II,L1,7,1,1,0,0,0,0,0
+Faculty of Science,Statistics and Data Science,ST4248,Statistical Learning II,L1,10,1,0,0,0,1,0,0
+Faculty of Science,Statistics and Data Science,ST4252,Applied Survival Analysis,L1,4,1,0,0,0,0,0,1
+Faculty of Science,Statistics and Data Science,ST5188,Statistical Research Project,L1,235,8,8,0,0,0,0,0
+Faculty of Science,Statistics and Data Science,ST5198,GRADUATE SEMINAR MODULE,E1,12,4,4,0,0,0,0,0
+Faculty of Science,Statistics and Data Science,ST5202,APPLIED REGRESSION ANALYSIS,L1,35,12,12,0,0,0,0,0
+Faculty of Science,Statistics and Data Science,ST5202X,Applied Regression Analysis,L1,36,15,15,0,0,0,0,0
+Faculty of Science,Statistics and Data Science,ST5207,Nonparametric Regression,L1,126,19,19,0,0,0,0,0
+Faculty of Science,Statistics and Data Science,ST5208,Analytics for Quality Control and Productivity Improvements,L1,248,15,15,0,0,0,0,0
+Faculty of Science,Statistics and Data Science,ST5209,ANALYSIS OF TIME SERIES DATA,L1,45,8,8,0,0,0,0,0
+Faculty of Science,Statistics and Data Science,ST5209X,Analysis Of Time Series Data,L1,54,16,16,0,0,0,0,0
+Faculty of Science,Statistics and Data Science,ST5223,Statistical Models: Theory/Applications,L1,84,17,17,0,0,0,0,0
+Faculty of Science,Statistics and Data Science,ST5224,Advanced Statistical Theory II,L1,8,8,8,0,0,0,0,0
+Faculty of Science,Statistics and Data Science,ST5227,Applied Data Mining,L1,41,41,26,0,15,0,0,0
+LKY School of Public Policy,LKYSPP Dean's Office,PP5011,Leading Stakeholders,L1,2147483647,27,27,0,0,0,0,0
+LKY School of Public Policy,LKYSPP Dean's Office,PP5012,Leading Innovation and Change,L1,2147483647,27,27,0,0,0,0,0
+LKY School of Public Policy,LKYSPP Dean's Office,PP5013,Ethical Leadership,L1,2147483647,27,27,0,0,0,0,0
+LKY School of Public Policy,LKYSPP Dean's Office,PP5014,Leading Collaboration,L1,2147483647,27,27,0,0,0,0,0
+LKY School of Public Policy,LKYSPP Dean's Office,PP5015,Principles and Applications of Risk Management,L1,2147483647,38,32,0,6,0,0,0
+LKY School of Public Policy,LKYSPP Dean's Office,PP5016,Environmental Threats and Management Response,L1,2147483647,36,32,0,4,0,0,0
+LKY School of Public Policy,LKYSPP Dean's Office,PP5017,Climate Change and Managing Uncertainty,L1,2147483647,36,32,0,4,0,0,0
+LKY School of Public Policy,LKYSPP Dean's Office,PP5018,Disaster Scenarios and Resilience Building,L1,2147483647,36,32,0,4,0,0,0
+LKY School of Public Policy,LKYSPP Dean's Office,PP5027,Food Security,L1,2147483647,12,12,0,0,0,0,0
+LKY School of Public Policy,LKYSPP Dean's Office,PP5028,Food System Resilience,L1,2147483647,12,12,0,0,0,0,0
+LKY School of Public Policy,LKYSPP Dean's Office,PP5029,Agricultural Economics and Policy,L1,2147483647,12,12,0,0,0,0,0
+LKY School of Public Policy,LKYSPP Dean's Office,PP5030,Sustainable Urban Food System,L1,2147483647,12,12,0,0,0,0,0
+LKY School of Public Policy,LKYSPP Dean's Office,PP5031,Industrialisation and Growth,L1,2147483647,7,7,0,0,0,0,0
+LKY School of Public Policy,LKYSPP Dean's Office,PP5032,Financial Globalisation and Financial Development,L1,2147483647,7,7,0,0,0,0,0
+LKY School of Public Policy,LKYSPP Dean's Office,PP5033,"Monetary, Exchange Rate Policy and Reserves",L1,2147483647,7,7,0,0,0,0,0
+LKY School of Public Policy,LKYSPP Dean's Office,PP5034,Regionalism in Asia: Free Trade Agreements and Beyond,L1,2147483647,7,7,0,0,0,0,0
+LKY School of Public Policy,LKYSPP Dean's Office,PP5105,Cost Benefit Analysis in Public Policy,L1,2147483647,60,38,0,22,0,0,0
+LKY School of Public Policy,LKYSPP Dean's Office,PP5136,Applied Public Sector Economics,L1,2147483647,25,25,1,0,0,0,0
+LKY School of Public Policy,LKYSPP Dean's Office,PP5138,Econometrics for Public Policy Analysis,L1,2147483647,22,22,0,0,0,0,0
+LKY School of Public Policy,LKYSPP Dean's Office,PP5168,Public Service Leadership,L1,2147483647,42,30,0,12,0,0,0
+LKY School of Public Policy,LKYSPP Dean's Office,PP5180,Trade Policy and Global Value Chains,L1,2147483647,15,15,1,0,0,0,0
+LKY School of Public Policy,LKYSPP Dean's Office,PP5217,Innovation,L1,2147483647,19,19,2,0,0,0,0
+LKY School of Public Policy,LKYSPP Dean's Office,PP5226,Social Policy Design,L1,2147483647,36,36,0,0,0,0,0
+LKY School of Public Policy,LKYSPP Dean's Office,PP5227,Principles and Policies in Sustainability and the Environment,L1,2147483647,38,38,0,0,0,0,0
+LKY School of Public Policy,LKYSPP Dean's Office,PP5241J,Asia in the World Economy,L1,2147483647,4,4,0,0,0,0,0
+LKY School of Public Policy,LKYSPP Dean's Office,PP5266,GLOBAL HEALTH POLICY AND ISSUES,L1,2147483647,33,33,0,0,0,0,0
+LKY School of Public Policy,LKYSPP Dean's Office,PP5270,China's Economic Development and Reforms 1978-2020,L1,2147483647,28,25,0,0,2,1,0
+LKY School of Public Policy,LKYSPP Dean's Office,PP5274,Financial Management for Policy Makers,L1,2147483647,22,18,0,4,0,0,0
+LKY School of Public Policy,LKYSPP Dean's Office,PP5407,Quantitative Research Methods for Public Policy 2,L1,2147483647,23,23,3,0,0,0,0
+LKY School of Public Policy,LKYSPP Dean's Office,PP5510,Governing Cities of Tomorrow,L1,2147483647,23,22,3,0,0,1,0
+LKY School of Public Policy,LKYSPP Dean's Office,PP5512,US-China Relations and Great Power Policy Making,L1,2147483647,22,22,3,0,0,0,0
+LKY School of Public Policy,LKYSPP Dean's Office,PP5514,ASEAN and Regionalism in Southeast Asia,L1,2147483647,14,14,1,0,0,0,0
+LKY School of Public Policy,LKYSPP Dean's Office,PP5525,Understanding Global Trade and Asian Trade Policy,L1,2147483647,33,24,0,8,1,0,0
+LKY School of Public Policy,LKYSPP Dean's Office,PP5527,Game Theory and Strategic Decision- Making,L1,2147483647,52,38,0,14,0,0,0
+LKY School of Public Policy,LKYSPP Dean's Office,PP5529,Technological Changes and Work,L1,2147483647,22,22,0,0,0,0,0
+LKY School of Public Policy,LKYSPP Dean's Office,PP5530,A Practitioner's Guide to Big Data Analytics,L1,2147483647,52,25,0,27,0,0,0
+LKY School of Public Policy,LKYSPP Dean's Office,PP5531,Data Visualization and Public Communications,L1,2147483647,49,35,0,14,0,0,0
+LKY School of Public Policy,LKYSPP Dean's Office,PP5532,Organizations and Management,L1,2147483647,36,18,0,18,0,0,0
+LKY School of Public Policy,LKYSPP Dean's Office,PP5909,Geopolitics of the Asia-Pacific,L1,2147483647,14,14,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,ES5001A,GRADUATE ENGLISH COURSE (INTERMEDIATE LEVEL),SG01,3,7,3,0,4,0,0,0
+NUS,Ctr for Engl Lang Comms,ES5001A,GRADUATE ENGLISH COURSE (INTERMEDIATE LEVEL),SG03,2,3,2,0,1,0,0,0
+NUS,Ctr for Engl Lang Comms,ES5001A,GRADUATE ENGLISH COURSE (INTERMEDIATE LEVEL),SG04,2,6,2,0,4,0,0,0
+NUS,Ctr for Engl Lang Comms,ES5001A,GRADUATE ENGLISH COURSE (INTERMEDIATE LEVEL),SG05,2,3,2,0,1,0,0,0
+NUS,Ctr for Engl Lang Comms,ES5001A,GRADUATE ENGLISH COURSE (INTERMEDIATE LEVEL),SG06,12,17,12,0,5,0,0,0
+NUS,Ctr for Engl Lang Comms,ES5001A,GRADUATE ENGLISH COURSE (INTERMEDIATE LEVEL),SG07,2,3,2,0,1,0,0,0
+NUS,Ctr for Engl Lang Comms,ES5001A,GRADUATE ENGLISH COURSE (INTERMEDIATE LEVEL),SG08,2,4,2,0,2,0,0,0
+NUS,Ctr for Engl Lang Comms,ES5001A,GRADUATE ENGLISH COURSE (INTERMEDIATE LEVEL),SG09,2,6,2,0,4,0,0,0
+NUS,Ctr for Engl Lang Comms,ES5001A,GRADUATE ENGLISH COURSE (INTERMEDIATE LEVEL),SG13,2,3,2,0,1,0,0,0
+NUS,Ctr for Engl Lang Comms,ES5001A,GRADUATE ENGLISH COURSE (INTERMEDIATE LEVEL),SG14,2,3,2,0,1,0,0,0
+NUS,Ctr for Engl Lang Comms,ES5001A,GRADUATE ENGLISH COURSE (INTERMEDIATE LEVEL),SG15,2,3,2,0,1,0,0,0
+NUS,Ctr for Engl Lang Comms,ES5001A,GRADUATE ENGLISH COURSE (INTERMEDIATE LEVEL),SG16,3,2,2,1,0,0,0,0
+NUS,Ctr for Engl Lang Comms,ES5001A,GRADUATE ENGLISH COURSE (INTERMEDIATE LEVEL),SG17,2,2,2,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,ES5001A,GRADUATE ENGLISH COURSE (INTERMEDIATE LEVEL),SG18,2,2,2,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,ES5001A,GRADUATE ENGLISH COURSE (INTERMEDIATE LEVEL),SG19,12,15,12,0,3,0,0,0
+NUS,Ctr for Engl Lang Comms,ES5001A,GRADUATE ENGLISH COURSE (INTERMEDIATE LEVEL),SG20,3,5,3,0,2,0,0,0
+NUS,Ctr for Engl Lang Comms,ES5002,Graduate English Course (Advanced Level),SG01,4,4,4,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,ES5002,Graduate English Course (Advanced Level),SG03,8,1,1,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,ES5002,Graduate English Course (Advanced Level),SG04,8,3,3,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,ES5002,Graduate English Course (Advanced Level),SG06,5,4,4,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,ES5101,Technical Communication for Engineers,SG01,3,3,3,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,ES5101,Technical Communication for Engineers,SG02,2,4,2,0,2,0,0,0
+NUS,Ctr for Engl Lang Comms,ES5101,Technical Communication for Engineers,SG03,5,7,5,0,2,0,0,0
+NUS,Ctr for Engl Lang Comms,ES5101,Technical Communication for Engineers,SG06,6,2,2,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,ES5101,Technical Communication for Engineers,SG07,7,3,3,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,ES5101,Technical Communication for Engineers,SG08,5,3,3,0,0,0,0,0
+NUS,Ctr for Engl Lang Comms,ES5101,Technical Communication for Engineers,SP09,3,2,2,1,0,0,0,0
+NUS,NUS Enterprise Academy,TR5101,New Venture Finance,L26,45,1,1,0,0,0,0,0
+NUS,NUS Enterprise Academy,TR5102,Intellectual Property Basics for Entrepreneurs,L26,20,5,5,1,0,0,0,0
+NUS Business School,Accounting,BAA6001,Accounting Research Seminars I,S01,24,9,9,0,0,0,0,0
+NUS Business School,Analytics and Operations,BDC6248,Seminars In Operations Management I,S01,30,7,7,0,0,0,0,0
+NUS Business School,Analytics and Operations,BDC6249,Sem in Op Mgtm II,S01,30,6,0,0,0,0,0,6
+NUS Business School,Analytics and Operations,BDC6303,Queues and Stochastic Networks,S01,45,19,19,0,0,0,0,0
+NUS Business School,Analytics and Operations,BDC6304,Robust modelling and optimization,S01,29,26,26,0,0,0,0,0
+NUS Business School,Analytics and Operations,DBA5102,Business Analytics Capstone Project,SA1,54,1,1,0,0,0,0,0
+NUS Business School,Analytics and Operations,DBA5104,Introduction to Network Science & Analytics,SA1,64,45,0,0,0,0,0,45
+NUS Business School,Analytics and Operations,DBA5105,"Fintech, Enabling Technologies and Analytics",SA1,65,24,24,2,0,0,0,0
+NUS Business School,Analytics and Operations,DBA5107,Data Analytics in Banking,SA1,65,21,21,0,0,0,0,0
+NUS Business School,Analytics and Operations,DBA5109,Quantitative Risk Management,SA1,65,26,26,0,0,0,0,0
+NUS Business School,Analytics and Operations,DBA5110,Technology Innovation and Entrepreneurship,L1,40,2,2,1,0,0,0,0
+NUS Business School,Analytics and Operations,DOS4811,Data Visualisation,SA1,0,8,0,0,7,0,0,1
+NUS Business School,Analytics and Operations,DOS4811,Data Visualisation,SA2,1,11,1,0,8,0,0,2
+NUS Business School,Analytics and Operations,DOS5101,Supply Chain Coordination and Risk Management,S1,5,9,5,0,4,0,0,0
+NUS Business School,Analytics and Operations,DOS5101A,Managing the Financial Supply Chain,SA1,30,22,22,0,0,0,0,0
+NUS Business School,Analytics and Operations,DOS5102,Analytical Tools for Consulting,S1,5,17,5,0,12,0,0,0
+NUS Business School,Analytics and Operations,DOS5104,Sustainable Supply Chains,S1,13,18,13,0,5,0,0,0
+NUS Business School,Analytics and Operations,DSC5221A,Managing the Financial Supply Chain,SA1,20,4,4,0,0,0,0,0
+NUS Business School,Analytics and Operations,IND5021,Managing the Digital Supply Chain,L1,9,3,3,0,0,0,0,0
+NUS Business School,BIZ Dean's Office,BMA5001,MANAGERIAL ECONOMICS,SP1,48,50,48,0,2,0,0,0
+NUS Business School,BIZ Dean's Office,BMA5001,MANAGERIAL ECONOMICS,SP1A,12,6,6,1,0,0,0,0
+NUS Business School,BIZ Dean's Office,BMA5001,MANAGERIAL ECONOMICS,SP2,48,41,41,0,0,0,0,0
+NUS Business School,BIZ Dean's Office,BMA5001,MANAGERIAL ECONOMICS,SP2A,12,2,2,0,0,0,0,0
+NUS Business School,BIZ Dean's Office,BMA5009,Marketing Strategy,SF1,0,2,0,0,2,0,0,0
+NUS Business School,BIZ Dean's Office,BMA5009,Marketing Strategy,SF1A,0,1,0,0,1,0,0,0
+NUS Business School,BIZ Dean's Office,BMA5009,Marketing Strategy,SP1,48,64,48,0,16,0,0,0
+NUS Business School,BIZ Dean's Office,BMA5009,Marketing Strategy,SP1A,12,17,12,0,5,0,0,0
+NUS Business School,BIZ Dean's Office,BMA5009,Marketing Strategy,SP2,48,23,23,7,0,0,0,0
+NUS Business School,BIZ Dean's Office,BMA5009,Marketing Strategy,SP2A,12,2,2,1,0,0,0,0
+NUS Business School,BIZ Dean's Office,BMA5013,CORPORATE STRATEGY,SF1A,0,1,0,0,1,0,0,0
+NUS Business School,BIZ Dean's Office,BMA5016,Leading with Impact,SF2,2,1,1,0,0,0,0,0
+NUS Business School,BIZ Dean's Office,BMA5017,Managerial Operations and Analytics,SP1,48,51,48,0,3,0,0,0
+NUS Business School,BIZ Dean's Office,BMA5017,Managerial Operations and Analytics,SP1A,12,12,12,0,0,0,0,0
+NUS Business School,BIZ Dean's Office,BMA5017,Managerial Operations and Analytics,SP2,48,47,47,0,0,0,0,0
+NUS Business School,BIZ Dean's Office,BMA5017,Managerial Operations and Analytics,SP2A,12,6,6,1,0,0,0,0
+NUS Business School,BIZ Dean's Office,BMA5112,Asian Business Environments,SF1,32,42,32,0,10,0,0,0
+NUS Business School,BIZ Dean's Office,BMA5112,Asian Business Environments,SF1A,10,2,2,0,0,0,0,0
+NUS Business School,BIZ Dean's Office,BMA5112,Asian Business Environments,SP1,40,17,17,0,0,0,0,0
+NUS Business School,BIZ Dean's Office,BMA5112,Asian Business Environments,SP1A,10,1,1,0,0,0,0,0
+NUS Business School,BIZ Dean's Office,BMA5115,MANAGEMENT OF TECHNOLOGICAL INNOVATION,SP1,34,38,34,0,4,0,0,0
+NUS Business School,BIZ Dean's Office,BMA5115,MANAGEMENT OF TECHNOLOGICAL INNOVATION,SP1A,10,2,2,0,0,0,0,0
+NUS Business School,BIZ Dean's Office,BMA5118A,Special Topics in Strategy and Policy: Sustainability Strategy,SP1,39,31,31,0,0,0,0,0
+NUS Business School,BIZ Dean's Office,BMA5128,Venture Capital,SP1,34,23,23,1,0,0,0,0
+NUS Business School,BIZ Dean's Office,BMA5128,Venture Capital,SP1A,10,2,2,0,0,0,0,0
+NUS Business School,BIZ Dean's Office,BMA5132,Emerging Tech and the Value of Data,SP1,40,90,40,0,50,0,0,0
+NUS Business School,BIZ Dean's Office,BMA5132,Emerging Tech and the Value of Data,SP1A,10,21,10,0,11,0,0,0
+NUS Business School,BIZ Dean's Office,BMA5134,Entrepreneurial Management,SP1,26,15,15,0,0,0,0,0
+NUS Business School,BIZ Dean's Office,BMA5135,Execution of Digital Strategy in the real world,SP1,40,48,40,0,8,0,0,0
+NUS Business School,BIZ Dean's Office,BMA5135,Execution of Digital Strategy in the real world,SP1A,10,6,6,2,0,0,0,0
+NUS Business School,BIZ Dean's Office,BMA5302,INVESTMENT ANALYSIS AND MANAGEMENT,SP1,36,27,27,1,0,0,0,0
+NUS Business School,BIZ Dean's Office,BMA5302,INVESTMENT ANALYSIS AND MANAGEMENT,SP1A,10,1,1,0,0,0,0,0
+NUS Business School,BIZ Dean's Office,BMA5309,FUND MANAGEMENT,SP1,31,12,12,0,0,0,0,0
+NUS Business School,BIZ Dean's Office,BMA5313,PRIVATE EQUITY,SP1,34,41,34,0,7,0,0,0
+NUS Business School,BIZ Dean's Office,BMA5313,PRIVATE EQUITY,SP1A,10,7,7,1,0,0,0,0
+NUS Business School,BIZ Dean's Office,BMA5334,Fintech and Financial Data Analytics,SP1,40,43,40,0,3,0,0,0
+NUS Business School,BIZ Dean's Office,BMA5334,Fintech and Financial Data Analytics,SP1A,10,6,6,0,0,0,0,0
+NUS Business School,BIZ Dean's Office,BMA5411,Talent Management and development,SP1,29,24,24,0,0,0,0,0
+NUS Business School,BIZ Dean's Office,BMA5424,Corporate Entrepreneurship and Business Model Evaluation,SP1,36,34,34,1,0,0,0,0
+NUS Business School,BIZ Dean's Office,BMA5424,Corporate Entrepreneurship and Business Model Evaluation,SP1A,10,3,3,0,0,0,0,0
+NUS Business School,BIZ Dean's Office,BMA5429,Mastering Influence,SP1,34,25,25,1,0,0,0,0
+NUS Business School,BIZ Dean's Office,BMA5502,Understanding & Influencing Consumers,SP1,36,15,14,1,0,0,1,0
+NUS Business School,BIZ Dean's Office,BMA5502,Understanding & Influencing Consumers,SP1A,10,2,2,0,0,0,0,0
+NUS Business School,BIZ Dean's Office,BMA5533,Digital Marketing,SP1A,0,2,0,0,0,0,0,2
+NUS Business School,BIZ Dean's Office,BMS5107,Ethical Leadership and Corporate Strategy,S01,26,14,14,2,0,0,0,0
+NUS Business School,BIZ Dean's Office,BMS5113,Venture Capital,S01,24,50,24,0,26,0,0,0
+NUS Business School,BIZ Dean's Office,BMS5114,Asian Business Environment,S01,33,53,33,0,20,0,0,0
+NUS Business School,BIZ Dean's Office,BMS5114,Asian Business Environment,S02,32,48,32,0,16,0,0,0
+NUS Business School,BIZ Dean's Office,BMS5120,Innovation and Strategies for Emerging Markets,S01,24,50,24,0,26,0,0,0
+NUS Business School,BIZ Dean's Office,BMS5120,Innovation and Strategies for Emerging Markets,S02,36,31,31,5,0,0,0,0
+NUS Business School,BIZ Dean's Office,BMS5121,Digital Transformation,S01,45,30,30,9,0,0,0,0
+NUS Business School,BIZ Dean's Office,BMS5122,Legal Fundamentals for Entrepreneurs and Managers,S01,34,10,0,0,0,0,0,10
+NUS Business School,BIZ Dean's Office,BMS5123S,Entrepreneurship Business Development,S01,5,11,5,0,6,0,0,0
+NUS Business School,BIZ Dean's Office,BMS5124,Entrepreneurial Management,S01,40,32,32,8,0,0,0,0
+NUS Business School,BIZ Dean's Office,BMS5125,SUSTAINABILITY STRATEGY,S01,30,17,0,0,0,0,0,17
+NUS Business School,BIZ Dean's Office,BMS5126,International Macroeconomics and Global Economic Issues,S01,42,15,0,0,0,0,0,15
+NUS Business School,BIZ Dean's Office,BMS5203,The Knowledge & Innovation Economy 4.0,S01,50,19,19,3,0,0,0,0
+NUS Business School,BIZ Dean's Office,BMS5203,The Knowledge & Innovation Economy 4.0,S02,50,18,18,4,0,0,0,0
+NUS Business School,BIZ Dean's Office,BMS5203S,The Knowledge & Innovation Economy 4.0,S01,60,64,60,0,4,0,0,0
+NUS Business School,BIZ Dean's Office,BMS5303,Valuation and Mergers & Acquisitions,S01,26,46,26,0,20,0,0,0
+NUS Business School,BIZ Dean's Office,BMS5304,Selected Topics in Finance: Private Equity,S01,44,48,44,0,4,0,0,0
+NUS Business School,BIZ Dean's Office,BMS5312,Fintech Management,S01,36,59,36,0,23,0,0,0
+NUS Business School,BIZ Dean's Office,BMS5313,Measuring Success in Philanthropy and Impact Investing,S01,21,3,3,4,0,0,0,0
+NUS Business School,BIZ Dean's Office,BMS5411,Judgment and Decision Making Under Uncertainty,S01,27,18,18,9,0,0,0,0
+NUS Business School,BIZ Dean's Office,BMS5413,Negotiations & Influence,S01,43,47,43,0,4,0,0,0
+NUS Business School,BIZ Dean's Office,BMS5506,Understanding & Influencing Consumers,S01,27,42,27,0,15,0,0,0
+NUS Business School,BIZ Dean's Office,BMS5512,Marketing Analytics,S01,40,82,33,0,49,0,0,0
+NUS Business School,BIZ Dean's Office,BMS5516,Customer Centricity and Brand Alignment,S01,26,36,26,0,10,0,0,0
+NUS Business School,BIZ Dean's Office,BMS5518A,Game Theory & Strategic Analysis,S01,48,26,26,6,0,0,0,0
+NUS Business School,BIZ Dean's Office,BMS5519,Services Marketing,S01,42,19,19,8,0,0,0,0
+NUS Business School,BIZ Dean's Office,BMS5602,Business Analysis and Valuation,S01,36,36,36,0,0,0,0,0
+NUS Business School,BIZ Dean's Office,BZD6012,Experimental Methods for Behavioral Research,S01,10,7,6,0,0,0,0,1
+NUS Business School,Finance,BZD6004,Applied Econometrics II,S01,0,11,0,0,0,0,0,11
+NUS Business School,Management & Organisation,BMO6023A,Seminar in Occupational Health and Stress,S01,15,4,4,0,0,0,0,0
+NUS Business School,Management & Organisation,BMO6026A,Groups and Teams,S01,15,2,2,0,0,0,0,0
+NUS Business School,Marketing,BMK5202,Python Programming for Business Analytics,S01,39,5,5,0,0,0,0,0
+NUS Business School,Marketing,BMK5206A,Personal Selling & Sales Management,S01,2,14,2,0,12,0,0,0
+NUS Business School,Marketing,BMK5207,AI in Marketing,S01,3,10,3,0,6,0,0,1
+NUS Business School,Marketing,BMK5207,AI in Marketing,S02,46,10,10,0,0,0,0,0
+NUS Business School,Real Estate,RE5005,Real Estate Finance,L1,2147483647,4,4,0,0,0,0,0
+NUS Business School,Real Estate,RE5006,Portfolio and Asset Management,L1,2147483647,19,19,0,0,0,0,0
+NUS Business School,Real Estate,RE5013,Urban Policy & Real Estate Markets,L1,2147483647,5,5,0,0,0,0,0
+NUS Business School,Real Estate,RE5016,Real Estate Securitisation,L1,2147483647,13,13,0,0,0,0,0
+NUS Business School,Real Estate,RE5018,Statutory Valuation,L1,2147483647,7,7,1,0,0,0,0
+NUS Graduate School,Ctr for Quantum Technologies,QT5198,GRADUATE SEMINAR IN QUANTUM INFORMATION,L1,21,15,15,0,0,0,0,0
+NUS Graduate School,Ctr for Quantum Technologies,QT5201M,Quantum State Estimation,L1,19,7,7,0,0,0,0,0
+NUS Graduate School,Integrative Sci & Eng Program,GS6889A,Academic Professional Skills II,L1,50,1,1,0,0,0,0,0
+NUS Graduate School,Mechanobiology Institute (MBI),MB5105,Microfabrication for Biologists,L1,20,7,5,0,0,0,0,2
+Risk Management Institute,Risk Management Institute,FE5103,Equity Products and Exotics,L1,120,34,34,0,0,0,0,0
+Risk Management Institute,Risk Management Institute,FE5107,Risk Analyses And Management,L1,120,70,70,0,0,0,0,0
+Risk Management Institute,Risk Management Institute,FE5110,FINANCIAL ENGINEERING PROJECT,L1,120,35,35,0,0,0,0,0
+Risk Management Institute,Risk Management Institute,FE5116,Programming and Advanced Numerical Methods,L1,120,72,72,0,0,0,0,0
+Risk Management Institute,Risk Management Institute,FE5208,Term Structure and Interest Rate Derivatives,L1,120,26,26,0,0,0,0,0
+Risk Management Institute,Risk Management Institute,FE5224,Current Topics In Applied Risk Management,L1,120,21,21,0,0,0,0,0
+Risk Management Institute,Risk Management Institute,FE5225,Machine Learning and FinTech,L1,120,41,41,0,0,0,0,0
+Risk Management Institute,Risk Management Institute,FE5227,Commodities: Fundamentals and Modelling,L1,120,38,38,0,0,0,0,0
+SSH School of Public Health,SSH School of Public Health DO,SPH5101,Advanced Quantitative Methods I,L1,7,1,1,0,0,0,0,0
+SSH School of Public Health,SSH School of Public Health DO,SPH5102,"Design, Conduct and Analysis of Clinical Trials",L1,46,2,2,0,0,0,0,0
+SSH School of Public Health,SSH School of Public Health DO,SPH5103,"Collection, Management & Analysis of Quantitative Data",L1,24,2,2,0,0,0,0,0
+SSH School of Public Health,SSH School of Public Health DO,SPH5104,Analytics for Better Health,L1,30,1,1,0,0,0,0,0
+SSH School of Public Health,SSH School of Public Health DO,SPH5201,Control of Communicable Diseases,L1,23,3,3,0,0,0,0,0
+SSH School of Public Health,SSH School of Public Health DO,SPH5202,Control of Non-Communicable Diseases,L1,5,3,3,0,0,0,0,0
+SSH School of Public Health,SSH School of Public Health DO,SPH5401,Health Economics and Financing,L1,5,11,5,0,5,0,0,1
+SSH School of Public Health,SSH School of Public Health DO,SPH5402,Management of Healthcare Organisations,L1,16,5,5,0,0,0,0,0
+SSH School of Public Health,SSH School of Public Health DO,SPH5404,Measuring and Managing Quality of Care,L1,16,1,1,0,0,0,0,0
+SSH School of Public Health,SSH School of Public Health DO,SPH5405,Introduction to Health Services Research,L1,20,2,2,0,0,0,0,0
+SSH School of Public Health,SSH School of Public Health DO,SPH5409,Qualitative Methods in Public Health,L1,13,1,1,1,0,0,0,0
+SSH School of Public Health,SSH School of Public Health DO,SPH5412,Economic Methods in Health Technology Assessment,L1,7,2,2,0,0,0,0,0
+SSH School of Public Health,SSH School of Public Health DO,SPH5413,"Women's, Children's and Adolescents' Health",L1,22,1,1,0,0,0,0,0
+SSH School of Public Health,SSH School of Public Health DO,SPH6002,Advanced Quantitative Methods II,L1,3,4,3,0,1,0,0,0
+SSH School of Public Health,SSH School of Public Health DO,SPH6004,Advanced Statistical Learning,L1,18,1,1,0,0,0,0,0
+SSH School of Public Health,SSH School of Public Health DO,SPH6007,Health Systems and Policy Analysis,L1,21,3,3,0,0,0,0,0
+School of Computing,Computer Science,CS4215,Programming Language Implementation,L1,6,1,1,0,0,0,0,0
+School of Computing,Computer Science,CS4218,Software Testing,L1,1,4,1,0,3,0,0,0
+School of Computing,Computer Science,CS4231,Parallel and Distributed Algorithms,L1,2,7,2,0,5,0,0,0
+School of Computing,Computer Science,CS4238,Computer Security Practice,L1,6,2,2,1,0,0,0,0
+School of Computing,Computer Science,CS4240,Interaction Design for Virtual and Augmented Reality,L1,5,5,5,0,0,0,0,0
+School of Computing,Computer Science,CS4242,Social Media Computing,L1,9,3,3,1,0,0,0,0
+School of Computing,Computer Science,CS4243,Computer Vision and Pattern Recognition,L1,5,28,5,0,23,0,0,0
+School of Computing,Computer Science,CS4247,Graphics Rendering Techniques,L1,7,2,2,1,0,0,0,0
+School of Computing,Computer Science,CS4248,Natural Language Processing,L1,3,20,3,0,17,0,0,0
+School of Computing,Computer Science,CS4248,Natural Language Processing,L2,41,29,10,0,19,0,0,0
+School of Computing,Computer Science,CS4249,Phenomena and Theories of Human- Computer Interaction,L1,5,16,5,0,11,0,0,0
+School of Computing,Computer Science,CS4268,Quantum Computing,L1,9,2,2,0,0,0,0,0
+School of Computing,Computer Science,CS4330,Combinatorial Methods in Bioinformatics,L1,8,2,2,0,0,0,0,0
+School of Computing,Computer Science,CS4347,Sound and Music Computing,L1,5,10,5,0,5,0,0,0
+School of Computing,Computer Science,CS5218,Principles and Practice of Program Analysis,L1,77,16,16,0,0,0,0,0
+School of Computing,Computer Science,CS5219,Automated Software Validation,L1,97,5,5,0,0,0,0,0
+School of Computing,Computer Science,CS5222,Advanced Computer Architecture,L1,92,5,5,0,0,0,0,0
+School of Computing,Computer Science,CS5223,Distributed Systems,L1,55,37,27,1,8,0,0,2
+School of Computing,Computer Science,CS5224,Cloud Computing,L1,61,102,61,0,41,0,0,0
+School of Computing,Computer Science,CS5224,Cloud Computing,L2,19,3,3,0,0,0,0,0
+School of Computing,Computer Science,CS5228,Knowledge Discovery and Data Mining,L1,54,41,28,3,6,0,0,7
+School of Computing,Computer Science,CS5232,Formal Specification and Design Techniques,L1,75,12,12,1,0,0,0,0
+School of Computing,Computer Science,CS5233,Simulation and Modelling Techniques,L1,62,6,6,1,0,0,0,0
+School of Computing,Computer Science,CS5242,Neural Networks and Deep Learning,L1,60,65,43,1,22,0,0,0
+School of Computing,Computer Science,CS5250,Advanced Operating Systems,L1,65,22,19,1,0,3,0,0
+School of Computing,Computer Science,CS5260,Neural Networks and Deep Learning II,L1,46,47,42,0,5,0,0,0
+School of Computing,Computer Science,CS5321,Network Security,L1,63,13,13,1,0,0,0,0
+School of Computing,Computer Science,CS5330,Randomized Algorithms,L1,78,6,6,1,0,0,0,0
+School of Computing,Computer Science,CS5331,Web Security,L1,42,13,13,6,0,0,0,0
+School of Computing,Computer Science,CS5332,Biometric Authentication,L1,72,10,10,0,0,0,0,0
+School of Computing,Computer Science,CS5339,Theory and Algorithms for Machine Learning,L1,84,11,11,3,0,0,0,0
+School of Computing,Computer Science,CS5340,Uncertainty Modelling in AI,L1,85,29,29,3,0,0,0,0
+School of Computing,Computer Science,CS5344,Big-Data Analytics Technology,L1,31,17,11,1,6,0,0,0
+School of Computing,Computer Science,CS5346,Information Visualisation,L1,56,23,23,4,0,0,0,0
+School of Computing,Computer Science,CS5421,Database Applications Design and Tuning,L1,110,108,108,0,0,0,0,0
+School of Computing,Computer Science,CS5422,Wireless Networking,L1,16,4,4,0,0,0,0,0
+School of Computing,Computer Science,CS5425,Big Data Systems for Data Science,L1,85,53,40,1,7,0,0,6
+School of Computing,Computer Science,CS5446,AI Planning and Decision Making,L1,30,31,29,1,2,0,0,0
+School of Computing,Computer Science,CS5469,Fundamentals of Logic in Computer Science,L1,10,3,3,1,0,0,0,0
+School of Computing,Computer Science,CS5477,3D Computer Vision,L1,19,10,9,0,1,0,0,0
+School of Computing,Computer Science,CS6206,Advanced Topics in Human- Computer Interaction,L1,12,8,8,1,0,0,0,0
+School of Computing,Computer Science,CS6207,Advanced Natural Language Processing,L1,13,8,8,1,0,0,0,0
+School of Computing,Computer Science,CS6208,Advanced Topics in Artificial Intelligence,L1,24,26,24,0,2,0,0,0
+School of Computing,Computer Science,CS6213,Special Topics in Distributed Computing,L1,12,7,7,0,0,0,0,0
+School of Computing,Computer Science,CS6215,Advanced Topics in Program Analysis,L1,11,3,3,0,0,0,0,0
+School of Computing,Computer Science,CS6216,Advanced Topics in Machine Learning,L1,13,27,13,0,14,0,0,0
+School of Computing,Computer Science,CS6220,Advanced Topics in Data Mining,L1,13,10,10,1,0,0,0,0
+School of Computing,Computer Science,CS6240,Multimedia Analysis,L1,13,16,13,0,3,0,0,0
+School of Computing,Info Systems and Analytics,BT4014,Analytics Driven Design of Adaptive Systems,L1,2,1,1,1,0,0,0,0
+School of Computing,Info Systems and Analytics,BT4211,Data-Driven Marketing,L1,6,1,1,0,0,0,0,0
+School of Computing,Info Systems and Analytics,BT4222,Mining Web Data for Business Insights,L1,1,7,1,0,6,0,0,0
+School of Computing,Info Systems and Analytics,BT5126,Hands-on with Business Analytics,L1,47,11,11,1,0,0,0,0
+School of Computing,Info Systems and Analytics,BT5151,Advanced Analytics and Machine Learning,L1,1,5,1,0,4,0,0,0
+School of Computing,Info Systems and Analytics,BT5151,Advanced Analytics and Machine Learning,L2,37,12,6,3,0,0,0,6
+School of Computing,Info Systems and Analytics,BT5153,Applied Machine Learning for Business Analytics,L1,57,15,8,0,0,0,0,7
+School of Computing,Info Systems and Analytics,IS4204,IT Governance,L1,5,2,2,1,0,0,0,0
+School of Computing,Info Systems and Analytics,IS4228,Information Technologies in Financial Services,L1,6,1,1,0,0,0,0,0
+School of Computing,Info Systems and Analytics,IS4241,Social Media Network Analysis,L1,2,3,2,0,1,0,0,0
+School of Computing,Info Systems and Analytics,IS4243,Information Systems Consulting,L1,4,1,1,0,0,0,0,0
+School of Computing,Info Systems and Analytics,IS4302,Blockchain and Distributed Ledger Technologies,L1,2,13,1,0,12,0,0,0
+School of Computing,Info Systems and Analytics,IS5002,Digital Transformation,L1,29,21,21,0,0,0,0,0
+School of Computing,Info Systems and Analytics,IS5003,Platform Design and Economy,L1,52,7,7,0,0,0,0,0
+School of Computing,Info Systems and Analytics,IS5004,Enterprise Architecture,L1,46,46,38,0,8,0,0,0
+School of Computing,Info Systems and Analytics,IS5006,Intelligent System Deployment,L1,80,16,16,3,0,0,0,0
+School of Computing,Info Systems and Analytics,IS5008,Technology Risk & Cyber Resilience,L1,34,25,24,2,1,0,0,0
+School of Computing,Info Systems and Analytics,IS5117,Digital Government,L1,53,52,48,0,4,0,0,0
+School of Computing,Info Systems and Analytics,IS5126,Hands-on with Applied Analytics,L1,54,47,42,1,5,0,0,0
+School of Computing,Info Systems and Analytics,IS5152,Data-Driven Decision Making,L1,36,41,34,0,7,0,0,0
+School of Computing,Info Systems and Analytics,IS5451,Pervasive Technology Solutions and Development,L1,11,8,8,0,0,0,0,0
+School of Computing,Info Systems and Analytics,IS6001,Qualitative Methods for IS Research,L1,8,5,5,0,0,0,0,0
+School of Computing,Info Systems and Analytics,IS6003,Contemporary Theories for IS Research,L1,11,3,3,0,0,0,0,0
+School of Computing,Info Systems and Analytics,IT5004,Enterprise Systems Architecture Fundamentals,L1,59,62,59,0,3,0,0,0
+School of Computing,Info Systems and Analytics,IT5006,Fundamentals of Data Analytics,L1,74,37,37,0,0,0,0,0
+School of Computing,Info Systems and Analytics,IT5007,Software Engineering on Application Architecture,L1,53,4,4,0,0,0,0,0
+School of Design & Environment,Architecture,AC5002,Conservation Approaches and Philosophies,L1,15,9,9,0,0,0,0,0
+School of Design & Environment,Architecture,AC5003,Urban Conservation and Regeneration,L1,26,20,20,0,0,0,0,0
+School of Design & Environment,Architecture,AC5004,Architectural Heritage Management,L1,21,9,9,0,0,0,0,0
+School of Design & Environment,Architecture,AC5005,Conservation Policy Methodology for Sustainable Development,L1,21,11,11,0,0,0,0,0
+School of Design & Environment,Architecture,AC5007,Dissertation,L1,15,2,2,0,0,0,0,0
+School of Design & Environment,Architecture,AC5008,Design for Conservation,L1,15,8,8,0,0,0,0,0
+School of Design & Environment,Architecture,AC5010,Historic Buildings Survey and Recording,L1,15,5,5,0,0,0,0,0
+School of Design & Environment,Architecture,AC5012,Practical Building Conservation Skills I,L1,15,8,8,0,0,0,0,0
+School of Design & Environment,Architecture,AC5014,Internship,L1,15,6,6,0,0,0,0,0
+School of Design & Environment,Architecture,AR5011,Research Methodology,L3,18,5,0,0,0,0,0,5
+School of Design & Environment,Architecture,AR5221,CONTEMPORARY THEORIES,L1,20,38,20,0,18,0,0,0
+School of Design & Environment,Architecture,AR5423,Architectural Practice,L1,3,2,2,0,0,0,0,0
+School of Design & Environment,Architecture,AR5601,Urban Design Theory and Praxis,L1,42,38,38,0,0,0,0,0
+School of Design & Environment,Architecture,AR5802,Options Design Research Studio 2,D1,42,35,35,0,0,0,0,0
+School of Design & Environment,Architecture,AR5808,Final Design Project,D1,150,24,24,0,0,0,0,0
+School of Design & Environment,Architecture,AR5951F,Topics in History & Theory of Architecture 6,E1,17,7,4,1,0,0,0,3
+School of Design & Environment,Architecture,AR5951G,Topics in History and Theory of Architecture 7,L1,17,12,4,0,2,0,0,6
+School of Design & Environment,Architecture,AR5952H,Topics in Urbanism 8,L1,17,9,5,0,0,0,0,4
+School of Design & Environment,Architecture,AR5952I,Topics in Urbanism 9,L1,22,11,9,0,0,0,0,2
+School of Design & Environment,Architecture,AR5952J,Topics in Urbanism 10,L1,20,4,1,1,0,0,0,3
+School of Design & Environment,Architecture,AR5952K,Topics in Urbanism 11,L1,12,10,10,2,0,0,0,0
+School of Design & Environment,Architecture,AR5952L,Topics in Urbanism 12,E1,21,20,7,2,0,0,0,13
+School of Design & Environment,Architecture,AR5953G,Topics in Design Technology 7,L1,25,22,7,0,0,0,0,15
+School of Design & Environment,Architecture,AR5955I,Topics in Research by Design 9,L1,17,31,8,0,15,0,0,8
+School of Design & Environment,Architecture,AR5955J,Topics in Research by Design 10,L1,20,9,6,1,0,0,0,3
+School of Design & Environment,Architecture,DEP5109,Integrated Planning Project,L1,39,19,19,0,0,0,0,0
+School of Design & Environment,Architecture,DEP5110,Urban Design and Planning,L1,24,20,20,0,0,0,0,0
+School of Design & Environment,Architecture,DEP5111,Planning Technologies,L1,24,22,22,0,0,0,0,0
+School of Design & Environment,Architecture,LA4203,History and Theory of Landscape Architecture,L1,30,20,20,0,0,0,0,0
+School of Design & Environment,Architecture,LA4212,Topics in Tropical Forest Ecology,L1,40,20,20,0,0,0,0,0
+School of Design & Environment,Architecture,LA4702,MLA Studio: City,D1,40,20,20,0,0,0,0,0
+School of Design & Environment,Architecture,LA5302,Landscape Construction II,L1,70,19,19,0,0,0,0,0
+School of Design & Environment,Architecture,LA5303,Urban Greening: Technologies and Techniques,L1,30,4,4,0,0,0,0,0
+School of Design & Environment,Architecture,LA5702,MLA Studio: Region,D1,75,4,4,0,0,0,0,0
+School of Design & Environment,Architecture,LA5742,Dissertation,L1,50,4,4,0,0,0,0,0
+School of Design & Environment,Architecture,UD5602,URBAN STUDIO DESIGN 2,D1,13,16,0,0,0,0,0,16
+School of Design & Environment,Architecture,UD5628,Critique of Contemporary Urban Design,L1,13,14,0,0,0,0,0,14
+School of Design & Environment,Architecture,UD5641,DISSERTATION,L1,10,3,0,0,0,0,0,3
+School of Design & Environment,Built Environment,BPS5222,Indoor Environmental Quality,L1,20,12,12,0,0,0,0,0
+School of Design & Environment,Built Environment,BPS5225,Building Energy Audit and Performance Measurement and Verification,L1,13,12,12,0,0,0,0,0
+School of Design & Environment,Built Environment,BPS5226,Smart Buildings and Facilities,L1,18,14,14,0,0,0,0,0
+School of Design & Environment,Built Environment,BPS5228,Advanced Building Materials and Structures,L1,22,14,14,0,0,0,0,0
+School of Design & Environment,Built Environment,PM5101,PROJECT MANAGEMENT,L1,86,6,6,0,0,0,0,0
+School of Design & Environment,Built Environment,PM5105,DEVELOPMENT FINANCE,L1,83,14,14,0,0,0,0,0
+School of Design & Environment,Built Environment,PM5107,TIME AND COST MANAGEMENT,L1,90,15,15,0,0,0,0,0
+School of Design & Environment,Built Environment,PM5109,PROJECT MANAGEMENT LAW,L1,88,22,22,0,0,0,0,0
+School of Design & Environment,Built Environment,PM5115,Project Finance Contracts and Agreements,L1,78,12,12,0,0,0,0,0
+School of Design & Environment,SDE Dean's Office,DEP5102,Urban Planning History & Theory,L1,24,20,20,0,0,0,0,0
+School of Design & Environment,SDE Dean's Office,DEP5107,Dissertation,E1,7,1,1,0,0,0,0,0
+School of Design & Environment,SDE Dean's Office,DEP5107,Dissertation,E2,5,1,1,0,0,0,0,0
+School of Design & Environment,SDE Dean's Office,DEP5107,Dissertation,E9,5,1,1,0,0,0,0,0
+School of Design & Environment,SDE Dean's Office,DEP5113,Quantitative Methods for Urban Planning,L1,23,20,20,0,0,0,0,0
+School of Design & Environment,SDE Dean's Office,ISD5102,Integrated Studio Project 2,D1,39,23,23,0,0,0,0,0
+School of Design & Environment,SDE Dean's Office,ISD5105,Principles of Sustainable Urbanism,L1,29,26,25,0,0,0,0,1
+School of Design & Environment,SDE Dean's Office,ISD5105,Principles of Sustainable Urbanism,L4,30,1,1,0,0,0,0,0
+School of Design & Environment,SDE Dean's Office,ISD5106,Sustainability Models and Blueprints,L1,17,26,17,0,8,0,0,1
+School of Design & Environment,SDE Dean's Office,ISD5106,Sustainability Models and Blueprints,L2,30,1,1,0,0,0,0,0
+The Logistics Inst- Asia Pac,The Logistics Inst - Asia Pac,LI5101,Supply Chain Mgt Thinking & Practice,L1,2147483647,3,3,2,0,0,0,0
+The Logistics Inst- Asia Pac,The Logistics Inst - Asia Pac,LI5202,Supply Chain Management Strategies and Case Studies,L1,6,26,6,0,19,0,0,1
+Yong Loo Lin Sch of Medicine,Alice Lee Ctr for Nursing Stud,NUR5002,Statistics for Health Research,L1,35,1,1,0,0,0,0,0
+Yong Loo Lin Sch of Medicine,Alice Lee Ctr for Nursing Stud,NUR6001,Graduate Research Seminar,E1,25,1,1,0,0,0,0,0
+Yong Loo Lin Sch of Medicine,Alice Lee Ctr for Nursing Stud,NUR6003,Research Methods,L1,20,1,1,0,0,0,0,0
+Yong Loo Lin Sch of Medicine,Alice Lee Ctr for Nursing Stud,NUR6005,Measurement Theory and Instrument Validation,L1,24,1,1,0,0,0,0,0
+Yong Loo Lin Sch of Medicine,NUS Medicine Dean's Office,CDM5101,Fundamentals of Cancer Biology,L1,47,9,9,0,0,0,0,0
+Yong Loo Lin Sch of Medicine,NUS Medicine Dean's Office,CDM5104,Computational genomics,L1,44,9,9,0,0,0,0,0
+Yong Loo Lin Sch of Medicine,NUS Medicine Dean's Office,MDG5102,TECHNIQUES IN BIOMEDICAL RESEARCH,L1,93,13,13,0,0,0,0,0
+Yong Loo Lin Sch of Medicine,NUS Medicine Dean's Office,MDG5108,BIOSTATISTICS FOR BASIC RESEARCH,L1,100,5,5,0,0,0,0,0
+Yong Loo Lin Sch of Medicine,NUS Medicine Dean's Office,MDG5205,NEUROSCIENCE,L1,58,5,5,0,0,0,0,0
+Yong Loo Lin Sch of Medicine,NUS Medicine Dean's Office,MDG5207,Clinical immunology and Immunotherapeutics,L1,33,16,16,0,0,0,0,0
+Yong Loo Lin Sch of Medicine,NUS Medicine Dean's Office,MDG5216,Applied Ethics in Public Health and Healthcare Policy,L1,7,2,2,0,0,0,0,0
+Yong Loo Lin Sch of Medicine,NUS Medicine Dean's Office,MDG5222,Cardiovascular and Metabolic Diseases,L1,33,1,1,0,0,0,0,0
+Yong Loo Lin Sch of Medicine,NUS Medicine Dean's Office,MDG5224,Animal Models of Human Diseases,L1,20,1,1,0,0,0,0,0
+Yong Loo Lin Sch of Medicine,NUS Medicine Dean's Office,MDG5227,Bio-Innovation & Entrepreneurship,L1,23,1,1,0,0,0,0,0
+Yong Loo Lin Sch of Medicine,NUS Medicine Dean's Office,MDG5230,Bioethics: Core Philosophical and Empirical Approaches,L1,28,1,1,0,0,0,0,0
+Yong Loo Lin Sch of Medicine,NUS Medicine Dean's Office,MDG5232,Case studies in the biotechnology industry,L1,27,5,5,0,0,0,0,0
+Yong Loo Lin Sch of Medicine,NUS Medicine Dean's Office,MDG5233,Current Topics in Drug Design and Development,L1,55,3,3,0,0,0,0,0
+Yong Loo Lin Sch of Medicine,NUS Medicine Dean's Office,MDG5236,Pathways to Biomedical Innovation and Enterprise,L1,29,8,8,0,0,0,0,0
+Yong Loo Lin Sch of Medicine,NUS Medicine Dean's Office,MDG5237,BIOMEDICAL INNOVATION CAPSTONE,L1,30,3,3,0,0,0,0,0
+Yong Loo Lin Sch of Medicine,NUS Medicine Dean's Office,MDG5244,Behavioral & Cognitive Neuroscience,L1,46,4,4,0,0,0,0,0
+Yong Loo Lin Sch of Medicine,NUS Medicine Dean's Office,MDG5249,Ageing and Ethics,L1,20,10,0,0,0,0,0,10
