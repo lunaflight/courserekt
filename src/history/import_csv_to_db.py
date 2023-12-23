@@ -1,24 +1,25 @@
-import sqlite3
-from typing import List
-import pandas as pd
 import argparse
 import os
+import sqlite3
+
+import pandas as pd
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 
-def process_csv_files(csv_files: List[str], is_cleaning: bool = False) -> None:
-    """Processes a list of CSV files by loading them
-    into an SQLite database."""
-
-    conn = sqlite3.connect(os.path.join(BASE_DIR, 'database.db'))
+def process_csv_files(csv_files: list[str], is_cleaning: bool = False) -> None:
+    """
+    Processes a list of CSV files by loading them
+    into an SQLite database.
+    """
+    conn = sqlite3.connect(os.path.join(BASE_DIR, "database.db"))
 
     for csv_file in csv_files:
         # Get the name of the table from the filename
-        table_name = os.path.splitext(csv_file)[0].replace('/', '_')
+        table_name = os.path.splitext(csv_file)[0].replace("/", "_")
 
         # Drop the existing table (if it exists)
-        conn.execute(f"DROP TABLE IF EXISTS \"{table_name}\"")
+        conn.execute(f'DROP TABLE IF EXISTS "{table_name}"')
 
         if not is_cleaning:
             # Read the CSV file into a pandas DataFrame
@@ -31,11 +32,11 @@ def process_csv_files(csv_files: List[str], is_cleaning: bool = False) -> None:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description='Process some CSV files.')
-    parser.add_argument('--clean', '-c', action='store_true',
-                        help='Drop the tables corresponding to the CSV files')
-    parser.add_argument('csv_files', metavar='N', type=str, nargs='+',
-                        help='CSV files to be processed')
+    parser = argparse.ArgumentParser(description="Process some CSV files.")
+    parser.add_argument("--clean", "-c", action="store_true",
+                        help="Drop the tables corresponding to the CSV files")
+    parser.add_argument("csv_files", metavar="N", type=str, nargs="+",
+                        help="CSV files to be processed")
 
     args = parser.parse_args()
 

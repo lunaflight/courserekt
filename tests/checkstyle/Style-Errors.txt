@@ -1,0 +1,342 @@
+src/__init__.py:1:1: D104 Missing docstring in public package
+src/history/__init__.py:1:1: D104 Missing docstring in public package
+src/history/api.py:1:1: D100 Missing docstring in public module
+src/history/api.py:13:23: UP007 Use `X | Y` for type annotations
+src/history/api.py:27:21: PLR2004 Magic value used in comparison, consider replacing 8 with a constant variable
+src/history/api.py:32:31: UP007 Use `X | Y` for type annotations
+src/history/api.py:48:5: D205 1 blank line required between summary line and description
+src/history/api.py:64:5: D205 1 blank line required between summary line and description
+src/history/api.py:80:24: UP007 Use `X | Y` for type annotations
+src/history/api.py:83:20: UP007 Use `X | Y` for type annotations
+src/history/api.py:84:24: UP007 Use `X | Y` for type annotations
+src/history/api.py:87:20: UP007 Use `X | Y` for type annotations
+src/history/api.py:89:5: D205 1 blank line required between summary line and description
+src/history/api.py:89:5: D400 First line should end with a period
+src/history/api.py:89:5: D415 First line should end with a period, question mark, or exclamation point
+src/history/api.py:133:32: PTH118 `os.path.join()` should be replaced by `Path` with `/` operator
+src/history/api.py:138:23: UP007 Use `X | Y` for type annotations
+src/history/api.py:144:5: N806 Variable `BLANK` in function should be lowercase
+src/history/api.py:160:9: N806 Variable `TABLE_NAME` in function should be lowercase
+src/history/api.py:168:31: S608 Possible SQL injection vector through string-based query construction
+src/history/api.py:171:9: N806 Variable `ROWS` in function should be lowercase
+src/history/api.py:175:13: N806 Variable `CLASSNAME` in function should be lowercase
+src/history/api.py:214:15: TRY003 Avoid specifying long messages outside the exception class
+src/history/api.py:214:26: EM102 Exception must not use an f-string literal, assign to variable first
+src/history/api.py:223:33: UP007 Use `X | Y` for type annotations
+src/history/api.py:224:37: UP007 Use `X | Y` for type annotations
+src/history/api.py:226:33: UP007 Use `X | Y` for type annotations
+src/history/api.py:228:5: D205 1 blank line required between summary line and description
+src/history/api.py:253:32: PTH118 `os.path.join()` should be replaced by `Path` with `/` operator
+src/history/api.py:258:9: N806 Variable `TABLE_NAME` in function should be lowercase
+src/history/api.py:270:31: S608 Possible SQL injection vector through string-based query construction
+src/history/api.py:272:9: N806 Variable `ROWS` in function should be lowercase
+src/history/api.py:282:15: TRY003 Avoid specifying long messages outside the exception class
+src/history/api.py:282:26: EM101 Exception must not use a string literal, assign to variable first
+src/history/api.py:288:24: UP007 Use `X | Y` for type annotations
+src/history/api.py:289:28: UP007 Use `X | Y` for type annotations
+src/history/api.py:291:5: D205 1 blank line required between summary line and description
+src/history/api.py:307:28: PTH118 `os.path.join()` should be replaced by `Path` with `/` operator
+src/history/api.py:314:9: PERF401 Use a list comprehension to create a transformed list
+src/history/api.py:321:5: PLR0913 Too many arguments in function definition (6 > 5)
+src/history/api.py:321:5: D417 Missing argument descriptions in the docstring for `_get_filepath`: `data_folder`, `ext`, `round_num`, `semester`, `type`, `year`
+src/history/api.py:321:25: UP007 Use `X | Y` for type annotations
+src/history/api.py:322:29: UP007 Use `X | Y` for type annotations
+src/history/api.py:323:19: A002 Argument `type` is shadowing a Python builtin
+src/history/api.py:324:30: UP007 Use `X | Y` for type annotations
+src/history/api.py:344:12: PTH118 `os.path.join()` should be replaced by `Path` with `/` operator
+src/history/api.py:354:5: D417 Missing argument descriptions in the docstring for `get_pdf_filepath`: `round_num`, `semester`, `type`, `year`
+src/history/api.py:354:28: UP007 Use `X | Y` for type annotations
+src/history/api.py:355:32: UP007 Use `X | Y` for type annotations
+src/history/api.py:356:22: A002 Argument `type` is shadowing a Python builtin
+src/history/api.py:357:33: UP007 Use `X | Y` for type annotations
+src/history/api.py:375:5: D417 Missing argument descriptions in the docstring for `pdf_exists`: `round_num`, `semester`, `type`, `year`
+src/history/api.py:375:22: UP007 Use `X | Y` for type annotations
+src/history/api.py:376:26: UP007 Use `X | Y` for type annotations
+src/history/api.py:377:16: A002 Argument `type` is shadowing a Python builtin
+src/history/api.py:378:27: UP007 Use `X | Y` for type annotations
+src/history/api.py:393:12: PTH113 `os.path.isfile()` should be replaced by `Path.is_file()`
+src/history/build.py:1:1: D100 Missing docstring in public module
+src/history/build.py:5:5: D103 Missing docstring in public function
+src/history/build.py:5:55: A002 Argument `round` is shadowing a Python builtin
+src/history/build.py:9:5: A001 Variable `round` is shadowing a Python builtin
+src/history/build.py:19:89: E501 Line too long (89 > 88)
+src/history/build.py:20:89: E501 Line too long (107 > 88)
+src/history/build.py:26:5: T201 `print` found
+src/history/build.py:27:5: T201 `print` found
+src/history/build.py:29:20: S602 `subprocess` call with `shell=True` identified, security issue
+src/history/build.py:31:5: T201 `print` found
+src/history/build.py:33:20: S602 `subprocess` call with `shell=True` identified, security issue
+src/history/build.py:35:5: T201 `print` found
+src/history/build.py:37:20: S602 `subprocess` call with `shell=True` identified, security issue
+src/history/build.py:39:5: T201 `print` found
+src/history/build.py:40:89: E501 Line too long (102 > 88)
+src/history/build.py:41:20: S602 `subprocess` call with `shell=True` identified, security issue
+src/history/build.py:43:5: T201 `print` found
+src/history/build.py:45:20: S602 `subprocess` call with `shell=True` identified, security issue
+src/history/build.py:47:5: T201 `print` found
+src/history/build.py:89:89: E501 Line too long (98 > 88)
+src/history/convert_pdfs.py:1:1: D100 Missing docstring in public module
+src/history/convert_pdfs.py:8:5: D103 Missing docstring in public function
+src/history/convert_pdfs.py:11:5: PTH103 `os.makedirs()` should be replaced by `Path.mkdir(parents=True)`
+src/history/convert_pdfs.py:14:20: PTH120 `os.path.dirname()` should be replaced by `Path.parent`
+src/history/convert_pdfs.py:20:31: PTH122 `os.path.splitext()` should be replaced by `Path.suffix`, `Path.stem`, and `Path.parent`
+src/history/convert_pdfs.py:20:48: PTH119 `os.path.basename()` should be replaced by `Path.name`
+src/history/convert_pdfs.py:26:32: PTH118 `os.path.join()` should be replaced by `Path` with `/` operator
+src/history/convert_pdfs.py:41:13: PTH107 `os.remove()` should be replaced by `Path.unlink()`
+src/history/convert_pdfs.py:41:23: PTH118 `os.path.join()` should be replaced by `Path` with `/` operator
+src/history/convert_pdfs.py:47:24: PTH120 `os.path.dirname()` should be replaced by `Path.parent`
+src/history/convert_pdfs.py:50:9: PTH103 `os.makedirs()` should be replaced by `Path.mkdir(parents=True)`
+src/history/convert_pdfs.py:53:21: PTH118 `os.path.join()` should be replaced by `Path` with `/` operator
+src/history/coursereg_history/__init__.py:1:1: D104 Missing docstring in public package
+src/history/coursereg_history/clean_csvs.py:1:1: D100 Missing docstring in public module
+src/history/coursereg_history/clean_csvs.py:9:5: D205 1 blank line required between summary line and description
+src/history/coursereg_history/clean_csvs.py:9:5: D301 Use `r"""` if any backslashes in a docstring
+src/history/coursereg_history/clean_csvs.py:9:5: D401 First line of docstring should be in imperative mood: "Helper function which strips extraneous whitespaces"
+src/history/coursereg_history/clean_csvs.py:26:12: RET504 Unnecessary assignment to `s` before `return` statement
+src/history/coursereg_history/clean_csvs.py:30:5: D205 1 blank line required between summary line and description
+src/history/coursereg_history/clean_csvs.py:30:5: D401 First line of docstring should be in imperative mood: "Helper function which takes in cleaned data and makes the"
+src/history/coursereg_history/clean_csvs.py:51:5: D205 1 blank line required between summary line and description
+src/history/coursereg_history/clean_csvs.py:51:5: D401 First line of docstring should be in imperative mood: "Helper function which takes in a CSV row and cleans"
+src/history/coursereg_history/clean_csvs.py:68:12: RET504 Unnecessary assignment to `r` before `return` statement
+src/history/coursereg_history/clean_csvs.py:72:5: D205 1 blank line required between summary line and description
+src/history/coursereg_history/clean_csvs.py:72:5: D401 First line of docstring should be in imperative mood: "Helper function which detects obviously misbehaving rows,"
+src/history/coursereg_history/clean_csvs.py:88:5: D205 1 blank line required between summary line and description
+src/history/coursereg_history/clean_csvs.py:88:5: D401 First line of docstring should be in imperative mood: "Helper function which removes obviously unimportant information,"
+src/history/coursereg_history/clean_csvs.py:100:5: N806 Variable `HEADER_ROWS` in function should be lowercase
+src/history/coursereg_history/clean_csvs.py:120:5: D205 1 blank line required between summary line and description
+src/history/coursereg_history/clean_csvs.py:156:5: D205 1 blank line required between summary line and description
+src/history/coursereg_history/clean_csvs.py:186:10: PTH123 `open()` should be replaced by `Path.open()`
+src/history/coursereg_history/clean_csvs.py:193:5: D205 1 blank line required between summary line and description
+src/history/coursereg_history/clean_csvs.py:206:10: PTH123 `open()` should be replaced by `Path.open()`
+src/history/coursereg_history/clean_csvs.py:223:5: D103 Missing docstring in public function
+src/history/coursereg_history/clean_csvs.py:235:9: PTH103 `os.makedirs()` should be replaced by `Path.mkdir(parents=True)`
+src/history/coursereg_history/clean_csvs.py:235:21: PTH120 `os.path.dirname()` should be replaced by `Path.parent`
+src/history/import_csv_to_db.py:1:1: D100 Missing docstring in public module
+src/history/import_csv_to_db.py:7:12: PTH120 `os.path.dirname()` should be replaced by `Path.parent`
+src/history/import_csv_to_db.py:7:28: PTH100 `os.path.abspath()` should be replaced by `Path.resolve()`
+src/history/import_csv_to_db.py:10:45: FBT001 Boolean-typed positional argument in function definition
+src/history/import_csv_to_db.py:10:45: FBT002 Boolean default positional argument in function definition
+src/history/import_csv_to_db.py:11:5: D205 1 blank line required between summary line and description
+src/history/import_csv_to_db.py:11:5: D401 First line of docstring should be in imperative mood: "Processes a list of CSV files by loading them"
+src/history/import_csv_to_db.py:15:28: PTH118 `os.path.join()` should be replaced by `Path` with `/` operator
+src/history/import_csv_to_db.py:19:22: PTH122 `os.path.splitext()` should be replaced by `Path.suffix`, `Path.stem`, and `Path.parent`
+src/history/import_csv_to_db.py:26:13: PD901 Avoid using the generic variable name `df` for DataFrames
+src/history/import_csv_to_db.py:34:5: D103 Missing docstring in public function
+src/history/merge_db.py:1:1: D100 Missing docstring in public module
+src/history/merge_db.py:12:5: D205 1 blank line required between summary line and description
+src/history/merge_db.py:17:28: PTH118 `os.path.join()` should be replaced by `Path` with `/` operator
+src/history/merge_db.py:22:26: PTH122 `os.path.splitext()` should be replaced by `Path.suffix`, `Path.stem`, and `Path.parent`
+src/history/merge_db.py:39:22: S608 Possible SQL injection vector through string-based query construction
+src/history/merge_db.py:77:5: D103 Missing docstring in public function
+src/history/vacancy_history/clean_csvs.py:1:1: INP001 File `src/history/vacancy_history/clean_csvs.py` is part of an implicit namespace package. Add an `__init__.py`.
+src/history/vacancy_history/clean_csvs.py:1:1: D100 Missing docstring in public module
+src/history/vacancy_history/clean_csvs.py:9:5: D205 1 blank line required between summary line and description
+src/history/vacancy_history/clean_csvs.py:9:5: D301 Use `r"""` if any backslashes in a docstring
+src/history/vacancy_history/clean_csvs.py:9:5: D401 First line of docstring should be in imperative mood: "Helper function which strips extraneous whitespaces"
+src/history/vacancy_history/clean_csvs.py:26:12: RET504 Unnecessary assignment to `s` before `return` statement
+src/history/vacancy_history/clean_csvs.py:30:5: D205 1 blank line required between summary line and description
+src/history/vacancy_history/clean_csvs.py:30:5: D401 First line of docstring should be in imperative mood: "Helper function which takes in cleaned data and makes the"
+src/history/vacancy_history/clean_csvs.py:55:5: D401 First line of docstring should be in imperative mood: "Helper function which takes in data and makes the Course Class sane."
+src/history/vacancy_history/clean_csvs.py:68:5: D205 1 blank line required between summary line and description
+src/history/vacancy_history/clean_csvs.py:68:5: D401 First line of docstring should be in imperative mood: "Helper function which takes in a CSV row and cleans"
+src/history/vacancy_history/clean_csvs.py:85:12: RET504 Unnecessary assignment to `r` before `return` statement
+src/history/vacancy_history/clean_csvs.py:89:5: D205 1 blank line required between summary line and description
+src/history/vacancy_history/clean_csvs.py:89:5: D401 First line of docstring should be in imperative mood: "Helper function which detects obviously misbehaving rows,"
+src/history/vacancy_history/clean_csvs.py:105:5: D205 1 blank line required between summary line and description
+src/history/vacancy_history/clean_csvs.py:105:5: D401 First line of docstring should be in imperative mood: "Helper function which removes obviously unimportant information,"
+src/history/vacancy_history/clean_csvs.py:117:5: N806 Variable `HEADER_ROWS` in function should be lowercase
+src/history/vacancy_history/clean_csvs.py:129:5: D205 1 blank line required between summary line and description
+src/history/vacancy_history/clean_csvs.py:165:5: D401 First line of docstring should be in imperative mood: "Removes duplicate rows with the same Code and Class from the data."
+src/history/vacancy_history/clean_csvs.py:192:5: D205 1 blank line required between summary line and description
+src/history/vacancy_history/clean_csvs.py:222:10: PTH123 `open()` should be replaced by `Path.open()`
+src/history/vacancy_history/clean_csvs.py:229:5: D205 1 blank line required between summary line and description
+src/history/vacancy_history/clean_csvs.py:242:10: PTH123 `open()` should be replaced by `Path.open()`
+src/history/vacancy_history/clean_csvs.py:257:5: D103 Missing docstring in public function
+src/history/vacancy_history/clean_csvs.py:269:9: PTH103 `os.makedirs()` should be replaced by `Path.mkdir(parents=True)`
+src/history/vacancy_history/clean_csvs.py:269:21: PTH120 `os.path.dirname()` should be replaced by `Path.parent`
+src/web/__init__.py:1:1: D104 Missing docstring in public package
+src/web/app.py:1:1: D100 Missing docstring in public module
+src/web/app.py:10:12: PTH120 `os.path.dirname()` should be replaced by `Path.parent`
+src/web/app.py:10:28: PTH100 `os.path.abspath()` should be replaced by `Path.resolve()`
+src/web/app.py:27:5: D205 1 blank line required between summary line and description
+src/web/app.py:38:5: A001 Variable `type` is shadowing a Python builtin
+src/web/app.py:41:16: PTH118 `os.path.join()` should be replaced by `Path` with `/` operator
+src/web/app.py:41:89: E501 Line too long (89 > 88)
+src/web/app.py:42:8: PTH110 `os.path.exists()` should be replaced by `Path.exists()`
+src/web/app.py:44:14: PTH123 `open()` should be replaced by `Path.open()`
+src/web/app.py:57:5: D417 Missing argument description in the docstring for `_serve_file`: `filepath`
+src/web/app.py:58:5: D205 1 blank line required between summary line and description
+src/web/app.py:58:5: D401 First line of docstring should be in imperative mood: "Helper function which serves the file based on the filepath."
+src/web/app.py:77:5: D417 Missing argument descriptions in the docstring for `serve_pdf`: `round_num`, `semester`, `type`, `year`
+src/web/app.py:78:15: UP007 Use `X | Y` for type annotations
+src/web/app.py:79:19: UP007 Use `X | Y` for type annotations
+src/web/app.py:80:9: A002 Argument `type` is shadowing a Python builtin
+src/web/app.py:81:20: UP007 Use `X | Y` for type annotations
+src/web/app.py:82:5: D205 1 blank line required between summary line and description
+src/web/app.py:107:18: S104 Possible binding to all interfaces
+src/web/main.py:1:1: D100 Missing docstring in public module
+src/web/main.py:7:5: D103 Missing docstring in public function
+src/web/main.py:18:18: S104 Possible binding to all interfaces
+src/web/precomp.py:1:1: D100 Missing docstring in public module
+src/web/precomp.py:8:5: D103 Missing docstring in public function
+src/web/precomp.py:15:5: SIM105 Use `contextlib.suppress(FileNotFoundError)` instead of `try`-`except`-`pass`
+src/web/precomp.py:25:5: D205 1 blank line required between summary line and description
+src/web/precomp.py:25:5: D401 First line of docstring should be in imperative mood: "Generates an HTML file for a specific year, semester, and student type."
+src/web/precomp.py:44:21: A001 Variable `type` is shadowing a Python builtin
+src/web/precomp.py:50:5: PTH103 `os.makedirs()` should be replaced by `Path.mkdir(parents=True)`
+src/web/precomp.py:50:17: PTH120 `os.path.dirname()` should be replaced by `Path.parent`
+src/web/precomp.py:53:10: PTH123 `open()` should be replaced by `Path.open()`
+tests/__init__.py:1:1: D104 Missing docstring in public package
+tests/history/__init__.py:1:1: D104 Missing docstring in public package
+tests/history/coursereg_history/__init__.py:1:1: D104 Missing docstring in public package
+tests/history/coursereg_history/test_cleaned_csvs.py:1:1: D100 Missing docstring in public module
+tests/history/coursereg_history/test_cleaned_csvs.py:8:5: D103 Missing docstring in public function
+tests/history/coursereg_history/test_cleaned_csvs.py:11:9: TRY300 Consider moving this statement to an `else` block
+tests/history/coursereg_history/test_cleaned_csvs.py:16:5: D103 Missing docstring in public function
+tests/history/coursereg_history/test_cleaned_csvs.py:27:15: TRY003 Avoid specifying long messages outside the exception class
+tests/history/coursereg_history/test_cleaned_csvs.py:27:26: EM102 Exception must not use an f-string literal, assign to variable first
+tests/history/coursereg_history/test_cleaned_csvs.py:31:5: D103 Missing docstring in public function
+tests/history/coursereg_history/test_cleaned_csvs.py:33:24: PLR2004 Magic value used in comparison, consider replacing 13 with a constant variable
+tests/history/coursereg_history/test_cleaned_csvs.py:34:19: TRY003 Avoid specifying long messages outside the exception class
+tests/history/coursereg_history/test_cleaned_csvs.py:34:30: EM102 Exception must not use an f-string literal, assign to variable first
+tests/history/coursereg_history/test_cleaned_csvs.py:38:5: D103 Missing docstring in public function
+tests/history/coursereg_history/test_cleaned_csvs.py:41:19: TRY003 Avoid specifying long messages outside the exception class
+tests/history/coursereg_history/test_cleaned_csvs.py:41:30: EM102 Exception must not use an f-string literal, assign to variable first
+tests/history/coursereg_history/test_cleaned_csvs.py:45:5: D103 Missing docstring in public function
+tests/history/coursereg_history/test_cleaned_csvs.py:56:19: TRY003 Avoid specifying long messages outside the exception class
+tests/history/coursereg_history/test_cleaned_csvs.py:56:30: EM102 Exception must not use an f-string literal, assign to variable first
+tests/history/coursereg_history/test_cleaned_csvs.py:60:5: D103 Missing docstring in public function
+tests/history/coursereg_history/test_cleaned_csvs.py:66:19: TRY003 Avoid specifying long messages outside the exception class
+tests/history/coursereg_history/test_cleaned_csvs.py:66:30: EM102 Exception must not use an f-string literal, assign to variable first
+tests/history/coursereg_history/test_cleaned_csvs.py:70:5: D103 Missing docstring in public function
+tests/history/coursereg_history/test_cleaned_csvs.py:72:30: PTH120 `os.path.dirname()` should be replaced by `Path.parent`
+tests/history/coursereg_history/test_cleaned_csvs.py:72:46: PTH100 `os.path.abspath()` should be replaced by `Path.resolve()`
+tests/history/coursereg_history/test_cleaned_csvs.py:73:21: PTH100 `os.path.abspath()` should be replaced by `Path.resolve()`
+tests/history/coursereg_history/test_cleaned_csvs.py:74:9: PTH118 `os.path.join()` should be replaced by `Path` with `/` operator
+tests/history/coursereg_history/test_cleaned_csvs.py:82:25: PTH118 `os.path.join()` should be replaced by `Path` with `/` operator
+tests/history/coursereg_history/test_cleaned_csvs.py:83:18: PTH123 `open()` should be replaced by `Path.open()`
+tests/history/coursereg_history/test_cleaned_csvs.py:90:7: D101 Missing docstring in public class
+tests/history/coursereg_history/test_cleaned_csvs.py:91:9: D102 Missing docstring in public method
+tests/history/coursereg_history/test_cleaned_csvs.py:91:21: ANN101 Missing type annotation for `self` in method
+tests/history/coursereg_history/test_cleaned_csvs.py:92:9: PT009 Use a regular `assert` instead of unittest-style `assertTrue`
+tests/history/coursereg_history/test_cleaned_csvs.py:94:9: D102 Missing docstring in public method
+tests/history/coursereg_history/test_cleaned_csvs.py:94:21: ANN101 Missing type annotation for `self` in method
+tests/history/coursereg_history/test_cleaned_csvs.py:95:9: PT009 Use a regular `assert` instead of unittest-style `assertTrue`
+tests/history/coursereg_history/test_cleaned_csvs.py:97:9: D102 Missing docstring in public method
+tests/history/coursereg_history/test_cleaned_csvs.py:97:32: ANN101 Missing type annotation for `self` in method
+tests/history/coursereg_history/test_cleaned_csvs.py:98:9: PT009 Use a regular `assert` instead of unittest-style `assertTrue`
+tests/history/coursereg_history/test_cleaned_csvs.py:100:9: D102 Missing docstring in public method
+tests/history/coursereg_history/test_cleaned_csvs.py:100:29: ANN101 Missing type annotation for `self` in method
+tests/history/coursereg_history/test_cleaned_csvs.py:101:9: PT009 Use a regular `assert` instead of unittest-style `assertTrue`
+tests/history/coursereg_history/test_cleaned_csvs.py:103:9: D102 Missing docstring in public method
+tests/history/coursereg_history/test_cleaned_csvs.py:103:27: ANN101 Missing type annotation for `self` in method
+tests/history/coursereg_history/test_cleaned_csvs.py:104:9: PT009 Use a regular `assert` instead of unittest-style `assertTrue`
+tests/history/test_api.py:1:1: D100 Missing docstring in public module
+tests/history/test_api.py:6:7: D101 Missing docstring in public class
+tests/history/test_api.py:7:9: D102 Missing docstring in public method
+tests/history/test_api.py:7:47: ANN101 Missing type annotation for `self` in method
+tests/history/test_api.py:80:13: PT009 Use a regular `assert` instead of unittest-style `assertTrue`
+tests/history/test_api.py:81:16: BLE001 Do not catch blind exception: `Exception`
+tests/history/test_api.py:84:9: D102 Missing docstring in public method
+tests/history/test_api.py:84:32: ANN101 Missing type annotation for `self` in method
+tests/history/test_api.py:88:9: D102 Missing docstring in public method
+tests/history/test_api.py:88:36: ANN101 Missing type annotation for `self` in method
+tests/history/test_api.py:92:9: D102 Missing docstring in public method
+tests/history/test_api.py:92:42: ANN101 Missing type annotation for `self` in method
+tests/history/test_api.py:96:9: D102 Missing docstring in public method
+tests/history/test_api.py:96:34: ANN101 Missing type annotation for `self` in method
+tests/history/test_api.py:100:9: D102 Missing docstring in public method
+tests/history/test_api.py:100:40: ANN101 Missing type annotation for `self` in method
+tests/history/test_api.py:104:9: D102 Missing docstring in public method
+tests/history/test_api.py:104:28: ANN101 Missing type annotation for `self` in method
+tests/history/test_api.py:108:9: D102 Missing docstring in public method
+tests/history/test_api.py:108:28: ANN101 Missing type annotation for `self` in method
+tests/history/test_api.py:112:9: D102 Missing docstring in public method
+tests/history/test_api.py:112:27: ANN101 Missing type annotation for `self` in method
+tests/history/test_api.py:116:9: D102 Missing docstring in public method
+tests/history/test_api.py:116:38: ANN101 Missing type annotation for `self` in method
+tests/history/test_api.py:120:9: D102 Missing docstring in public method
+tests/history/test_api.py:120:38: ANN101 Missing type annotation for `self` in method
+tests/history/test_api.py:124:9: D102 Missing docstring in public method
+tests/history/test_api.py:124:37: ANN101 Missing type annotation for `self` in method
+tests/history/test_api.py:128:9: D102 Missing docstring in public method
+tests/history/test_api.py:128:32: ANN101 Missing type annotation for `self` in method
+tests/history/test_api.py:132:9: D102 Missing docstring in public method
+tests/history/test_api.py:132:41: ANN101 Missing type annotation for `self` in method
+tests/history/test_api.py:136:9: D102 Missing docstring in public method
+tests/history/test_api.py:136:45: ANN101 Missing type annotation for `self` in method
+tests/history/test_api.py:140:9: D102 Missing docstring in public method
+tests/history/test_api.py:140:34: ANN101 Missing type annotation for `self` in method
+tests/history/test_api.py:277:13: PT009 Use a regular `assert` instead of unittest-style `assertTrue`
+tests/history/test_api.py:278:16: BLE001 Do not catch blind exception: `Exception`
+tests/history/test_api.py:281:9: D102 Missing docstring in public method
+tests/history/test_api.py:281:36: ANN101 Missing type annotation for `self` in method
+tests/history/test_api.py:355:13: PT009 Use a regular `assert` instead of unittest-style `assertTrue`
+tests/history/test_api.py:356:16: BLE001 Do not catch blind exception: `Exception`
+tests/history/test_api.py:359:9: D102 Missing docstring in public method
+tests/history/test_api.py:359:36: ANN101 Missing type annotation for `self` in method
+tests/history/test_api.py:433:13: PT009 Use a regular `assert` instead of unittest-style `assertTrue`
+tests/history/test_api.py:434:16: BLE001 Do not catch blind exception: `Exception`
+tests/history/test_api.py:437:9: D102 Missing docstring in public method
+tests/history/test_api.py:437:34: ANN101 Missing type annotation for `self` in method
+tests/history/test_api.py:511:13: PT009 Use a regular `assert` instead of unittest-style `assertTrue`
+tests/history/test_api.py:512:16: BLE001 Do not catch blind exception: `Exception`
+tests/history/test_api.py:515:9: D102 Missing docstring in public method
+tests/history/test_api.py:515:35: ANN101 Missing type annotation for `self` in method
+tests/history/test_api.py:589:13: PT009 Use a regular `assert` instead of unittest-style `assertTrue`
+tests/history/test_api.py:590:16: BLE001 Do not catch blind exception: `Exception`
+tests/history/test_api.py:593:9: D102 Missing docstring in public method
+tests/history/test_api.py:593:38: ANN101 Missing type annotation for `self` in method
+tests/history/test_api.py:667:13: PT009 Use a regular `assert` instead of unittest-style `assertTrue`
+tests/history/test_api.py:668:16: BLE001 Do not catch blind exception: `Exception`
+tests/history/test_api.py:671:9: D102 Missing docstring in public method
+tests/history/test_api.py:671:23: ANN101 Missing type annotation for `self` in method
+tests/history/test_api.py:672:14: PT027 Use `pytest.raises` instead of unittest-style `assertRaises`
+tests/history/test_api.py:675:9: D102 Missing docstring in public method
+tests/history/test_api.py:675:29: ANN101 Missing type annotation for `self` in method
+tests/history/test_api.py:676:14: PT027 Use `pytest.raises` instead of unittest-style `assertRaises`
+tests/history/test_api.py:679:9: D102 Missing docstring in public method
+tests/history/test_api.py:679:27: ANN101 Missing type annotation for `self` in method
+tests/history/test_api.py:680:14: PT027 Use `pytest.raises` instead of unittest-style `assertRaises`
+tests/history/test_api.py:683:9: D102 Missing docstring in public method
+tests/history/test_api.py:683:46: ANN101 Missing type annotation for `self` in method
+tests/history/test_api.py:684:14: PT027 Use `pytest.raises` instead of unittest-style `assertRaises`
+tests/history/test_api.py:687:9: D102 Missing docstring in public method
+tests/history/test_api.py:687:30: ANN101 Missing type annotation for `self` in method
+tests/history/test_api.py:688:14: PT027 Use `pytest.raises` instead of unittest-style `assertRaises`
+tests/history/test_api.py:691:9: D102 Missing docstring in public method
+tests/history/test_api.py:691:27: ANN101 Missing type annotation for `self` in method
+tests/history/test_api.py:692:14: PT027 Use `pytest.raises` instead of unittest-style `assertRaises`
+tests/history/test_api.py:695:9: D102 Missing docstring in public method
+tests/history/test_api.py:695:31: ANN101 Missing type annotation for `self` in method
+tests/history/test_api.py:696:14: PT027 Use `pytest.raises` instead of unittest-style `assertRaises`
+tests/history/test_api.py:699:9: D102 Missing docstring in public method
+tests/history/test_api.py:699:27: ANN101 Missing type annotation for `self` in method
+tests/history/test_api.py:700:14: PT027 Use `pytest.raises` instead of unittest-style `assertRaises`
+tests/history/test_api.py:703:9: D102 Missing docstring in public method
+tests/history/test_api.py:703:29: ANN101 Missing type annotation for `self` in method
+tests/history/test_api.py:704:14: PT027 Use `pytest.raises` instead of unittest-style `assertRaises`
+tests/web/__init__.py:1:1: D104 Missing docstring in public package
+tests/web/test_app.py:1:1: D100 Missing docstring in public module
+tests/web/test_app.py:7:7: D101 Missing docstring in public class
+tests/web/test_app.py:8:9: D102 Missing docstring in public method
+tests/web/test_app.py:8:15: ANN101 Missing type annotation for `self` in method
+tests/web/test_app.py:13:9: D102 Missing docstring in public method
+tests/web/test_app.py:13:18: ANN101 Missing type annotation for `self` in method
+tests/web/test_app.py:17:9: D102 Missing docstring in public method
+tests/web/test_app.py:17:23: ANN101 Missing type annotation for `self` in method
+tests/web/test_app.py:20:9: PT009 Use a regular `assert` instead of unittest-style `assertEqual`
+tests/web/test_app.py:22:9: D102 Missing docstring in public method
+tests/web/test_app.py:22:30: ANN101 Missing type annotation for `self` in method
+tests/web/test_app.py:29:9: PT009 Use a regular `assert` instead of unittest-style `assertEqual`
+tests/web/test_app.py:31:9: D102 Missing docstring in public method
+tests/web/test_app.py:31:24: ANN101 Missing type annotation for `self` in method
+tests/web/test_app.py:33:13: PT009 Use a regular `assert` instead of unittest-style `assertEqual`
+tests/web/test_app.py:35:9: D102 Missing docstring in public method
+tests/web/test_app.py:35:28: ANN101 Missing type annotation for `self` in method
+tests/web/test_app.py:37:9: PT009 Use a regular `assert` instead of unittest-style `assertEqual`
+tests/web/test_app.py:39:9: D102 Missing docstring in public method
+tests/web/test_app.py:39:26: ANN101 Missing type annotation for `self` in method
+tests/web/test_app.py:41:9: PT009 Use a regular `assert` instead of unittest-style `assertEqual`
+Found 340 errors.
+No fixes available (66 hidden fixes can be enabled with the `--unsafe-fixes` option).

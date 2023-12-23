@@ -1,12 +1,13 @@
 import functools
 import os
 import sqlite3
-from typing import Dict, List, Optional, Set, Union
+from pathlib import Path
+from typing import Optional, Union
 
 ROUNDS = 4
 INF = 2147483647
 NA = -1
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR = Path(Path(__file__).resolve()).parent
 
 
 def _clean_year(year: Union[str, int]) -> str:
@@ -14,9 +15,11 @@ def _clean_year(year: Union[str, int]) -> str:
     Clean the year string by standardising all input to YYYY, e.g. 2223.
 
     Args:
+    ----
         year (Union[str, int]): The year string or integer.
 
     Returns:
+    -------
         str: The cleaned year string.
     """
     year = str(year).strip().replace("/", "").replace(" ", "").replace("-", "")
@@ -31,9 +34,11 @@ def _clean_semester(semester: Union[str, int]) -> str:
     Clean the semester string by removing leading/trailing spaces.
 
     Args:
+    ----
         semester (Union[str, int]): The semester string or integer.
 
     Returns:
+    -------
         str: The cleaned semester string.
     """
     return str(semester).strip()
@@ -45,9 +50,11 @@ def _clean_ug_gd(ug_gd: str) -> str:
     removing leading/trailing spaces.
 
     Args:
+    ----
         ug_gd (str): The undergraduate/graduate string.
 
     Returns:
+    -------
         str: The cleaned undergraduate/graduate string.
     """
     return ug_gd.strip().lower()
@@ -59,23 +66,25 @@ def _clean_code(code: str) -> str:
     removing leading/trailing spaces.
 
     Args:
+    ----
         code (str): The course code string.
 
     Returns:
+    -------
         str: The cleaned course code string.
     """
     return code.strip().upper()
 
 
-ClassDict = Dict[str, List[Dict[str, int]]]
-CourseData = Dict[str, Union[str, ClassDict]]
+ClassDict = dict[str, list[dict[str, int]]]
+CourseData = dict[str, Union[str, ClassDict]]
 
 
 def get_data(year: Union[str, int],
              semester: Union[str, int],
              ug_gd: str,
              code: str,
-             conn: Optional[sqlite3.Connection] = None
+             conn: Optional[sqlite3.Connection] = None,
              ) -> CourseData:
     """
     Retrieve data for a specific course from the database.
@@ -101,6 +110,7 @@ def get_data(year: Union[str, int],
         'others': int,
 
     Args:
+    ----
         year (Union[str, int]): The academic year.
         semester (Union[str, int]): The semester.
         ug_gd (str): The undergraduate/graduate indicator.
@@ -109,6 +119,7 @@ def get_data(year: Union[str, int],
             Optional database connection object.
 
     Returns:
+    -------
         CourseData: The course data.
     """
     # Clean arguments
@@ -119,30 +130,30 @@ def get_data(year: Union[str, int],
 
     # Establish the database connection if not provided
     if conn is None:
-        conn = sqlite3.connect(os.path.join(BASE_DIR, 'database.db'))
+        conn = sqlite3.connect(os.path.join(BASE_DIR, "database.db"))
     conn.row_factory = sqlite3.Row
 
     # Prepare the structure of returned value
     class_dict: ClassDict = {}
-    output: Dict[str, Union[str, ClassDict]] = {
-            'faculty': "",
-            'department': "",
-            'code': code,
-            'title': "",
-            'classes': class_dict}
-    BLANK = {'ug': -1,
-             'gd': -1,
-             'dk': -1,
-             'ng': -1,
-             'cpe': -1,
-             'demand': -1,
-             'vacancy': -1,
-             'successful_main': -1,
-             'successful_reserve': -1,
-             'quota_exceeded': -1,
-             'timetable_clashes': -1,
-             'workload_exceeded': -1,
-             'others': -1}
+    output: dict[str, Union[str, ClassDict]] = {
+            "faculty": "",
+            "department": "",
+            "code": code,
+            "title": "",
+            "classes": class_dict}
+    BLANK = {"ug": -1,
+             "gd": -1,
+             "dk": -1,
+             "ng": -1,
+             "cpe": -1,
+             "demand": -1,
+             "vacancy": -1,
+             "successful_main": -1,
+             "successful_reserve": -1,
+             "quota_exceeded": -1,
+             "timetable_clashes": -1,
+             "workload_exceeded": -1,
+             "others": -1}
 
     # for each round, execute the SQL query
     for round_number in range(ROUNDS):
@@ -161,26 +172,26 @@ def get_data(year: Union[str, int],
 
         for row in ROWS:
             # Fill in the class dict
-            CLASSNAME = row['Class']
-            output['faculty'] = row['Faculty']
-            output['department'] = row['Department']
-            output['code'] = row['Code']
-            output['title'] = row['Title']
+            CLASSNAME = row["Class"]
+            output["faculty"] = row["Faculty"]
+            output["department"] = row["Department"]
+            output["code"] = row["Code"]
+            output["title"] = row["Title"]
 
             result = {
-                    'ug': row['UG'],
-                    'gd': row['GD'],
-                    'dk': row['DK'],
-                    'ng': row['NG'],
-                    'cpe': row['CPE'],
-                    'demand': row['Demand'],
-                    'vacancy': row['Vacancy'],
-                    'successful_main': row['Successful_Main'],
-                    'successful_reserve': row['Successful_Reserve'],
-                    'quota_exceeded': row['Quota_Exceeded'],
-                    'timetable_clashes': row['Timetable_Clashes'],
-                    'workload_exceeded': row['Workload_Exceeded'],
-                    'others': row['Others']
+                    "ug": row["UG"],
+                    "gd": row["GD"],
+                    "dk": row["DK"],
+                    "ng": row["NG"],
+                    "cpe": row["CPE"],
+                    "demand": row["Demand"],
+                    "vacancy": row["Vacancy"],
+                    "successful_main": row["Successful_Main"],
+                    "successful_reserve": row["Successful_Reserve"],
+                    "quota_exceeded": row["Quota_Exceeded"],
+                    "timetable_clashes": row["Timetable_Clashes"],
+                    "workload_exceeded": row["Workload_Exceeded"],
+                    "others": row["Others"],
                     }
 
             # Logic to pad skipped rounds with blanks to ensure that
@@ -212,13 +223,14 @@ def get_data(year: Union[str, int],
 def _get_set_of_all_codes(year: Union[str, int],
                           semester: Union[str, int],
                           ug_gd: str,
-                          conn: Optional[sqlite3.Connection] = None
-                          ) -> Set[str]:
+                          conn: Optional[sqlite3.Connection] = None,
+                          ) -> set[str]:
     """
     Get a set of all known course codes in the history
     for a specific year, semester, and undergraduate/graduate.
 
     Args:
+    ----
         year (Union[str, int]): The academic year.
         semester (Union[str, int]): The semester.
         ug_gd (str): The undergraduate/graduate indicator.
@@ -226,18 +238,19 @@ def _get_set_of_all_codes(year: Union[str, int],
             Optional database connection object.
 
     Returns:
-        Set[str]: A set of course codes.
+    -------
+        set[str]: A set of course codes.
     """
     # Clean arguments
     year = _clean_year(year)
     semester = _clean_semester(semester)
     ug_gd = _clean_ug_gd(ug_gd)
 
-    codes: Set[str] = set()
+    codes: set[str] = set()
 
     # Establish the database connection if not provided
     if conn is None:
-        conn = sqlite3.connect(os.path.join(BASE_DIR, 'database.db'))
+        conn = sqlite3.connect(os.path.join(BASE_DIR, "database.db"))
     conn.row_factory = sqlite3.Row
 
     # for each round, execute the SQL query
@@ -258,7 +271,7 @@ def _get_set_of_all_codes(year: Union[str, int],
 
         ROWS = cursor.fetchall()
         for row in ROWS:
-            codes.add(row['Code'])
+            codes.add(row["Code"])
 
     # close the database connection if it was created here
     if conn is not None and conn.close is None:
@@ -274,7 +287,7 @@ def _get_set_of_all_codes(year: Union[str, int],
 @functools.lru_cache
 def get_all_data(year: Union[str, int],
                  semester: Union[str, int],
-                 ug_gd: str) -> List[CourseData]:
+                 ug_gd: str) -> list[CourseData]:
     """
     Get data for all courses in a specific year, semester,
     and undergraduate/graduate.
@@ -282,17 +295,19 @@ def get_all_data(year: Union[str, int],
     Each element will be in the form of the output from get_data().
 
     Args:
+    ----
         year (Union[str, int]): The academic year.
         semester (Union[str, int]): The semester.
         ug_gd (str): The undergraduate/graduate indicator.
 
     Returns:
-        List[CourseData]: A list of course data.
+    -------
+        list[CourseData]: A list of course data.
     """
-    conn = sqlite3.connect(os.path.join(BASE_DIR, 'database.db'))
+    conn = sqlite3.connect(os.path.join(BASE_DIR, "database.db"))
 
-    codes: Set[str] = _get_set_of_all_codes(year, semester, ug_gd, conn)
-    sorted_codes: List[str] = sorted(codes)
+    codes: set[str] = _get_set_of_all_codes(year, semester, ug_gd, conn)
+    sorted_codes: list[str] = sorted(codes)
 
     output = []
     for code in sorted_codes:
@@ -312,7 +327,8 @@ def _get_filepath(year: Union[str, int],
     """
     Generate the absolute file path for a specific file.
 
-    Parameters:
+    Parameters
+    ----------
         year (Union[str, int]): The year of the file.
         semester (Union[str, int]): The semester of the file.
         type (str): The type of the file.
@@ -321,17 +337,18 @@ def _get_filepath(year: Union[str, int],
             It refers to the folder in `data/`, such as `data/pdfs`.
         ext (str): The file extension, such as `.csv` or `.pdf`.
 
-    Returns:
+    Returns
+    -------
         str: The absolute file path.
     """
     return os.path.join(BASE_DIR,
-                        'coursereg_history',
-                        'data',
+                        "coursereg_history",
+                        "data",
                         data_folder,
                         str(year),
                         str(semester),
                         type,
-                        f'round_{round_num}.{ext}')
+                        f"round_{round_num}.{ext}")
 
 
 def get_pdf_filepath(year: Union[str, int],
@@ -341,13 +358,15 @@ def get_pdf_filepath(year: Union[str, int],
     """
     Generate the absolute file path for a specific PDF file.
 
-    Parameters:
+    Parameters
+    ----------
         year (Union[str, int]): The year of the PDF file.
         semester (Union[str, int]): The semester of the PDF file.
         type (str): The type of the PDF file.
         round_num (Union[str, int]): The round number of the PDF file.
 
-    Returns:
+    Returns
+    -------
         str: The absolute file path of the PDF file.
     """
     return _get_filepath(year, semester, type, round_num, "pdfs", "pdf")
@@ -360,13 +379,15 @@ def pdf_exists(year: Union[str, int],
     """
     Check if a specific PDF file exists.
 
-    Parameters:
+    Parameters
+    ----------
         year (Union[str, int]): The year of the PDF file.
         semester (Union[str, int]): The semester of the PDF file.
         type (str): The type of the PDF file.
         round_num (Union[str, int]): The round number of the PDF file.
 
-    Returns:
+    Returns
+    -------
         bool: True if and only if the PDF file exists.
     """
     return os.path.isfile(get_pdf_filepath(year, semester, type, round_num))

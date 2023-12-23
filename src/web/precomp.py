@@ -1,7 +1,8 @@
-from src.web.app import app
 import itertools
 import os
 import shutil
+
+from src.web.app import app
 
 
 def generate_pages() -> None:
@@ -26,6 +27,7 @@ def generate_html(year: str, semester: str, student_type: str) -> None:
     It then saves it in static/pages/{year}/{semester}/{student_type}.
 
     Args:
+    ----
         year: The academic year (e.g., 2223).
         semester: The semester (e.g., 1 or 2).
         student_type: The student type (e.g., "ug" or "gd").
@@ -33,13 +35,13 @@ def generate_html(year: str, semester: str, student_type: str) -> None:
     client = app.test_client()
 
     data = {
-        'year': year,
-        'semester': semester,
-        'type': student_type
+        "year": year,
+        "semester": semester,
+        "type": student_type,
     }
-    response = client.post('/', data=data, follow_redirects=True)
+    response = client.post("/", data=data, follow_redirects=True)
 
-    year, semester, type = data['year'], data['semester'], data['type']
+    year, semester, type = data["year"], data["semester"], data["type"]
 
     # Construct the file path
     file_path = f"src/web/static/pages/{year}/{semester}/{type}/index.html"
@@ -52,5 +54,5 @@ def generate_html(year: str, semester: str, student_type: str) -> None:
         f.write(response.text)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     generate_pages()
