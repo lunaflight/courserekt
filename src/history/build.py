@@ -26,23 +26,23 @@ def main(year: str, semester: str, student_type: str, round: str) -> None:
     print("Converting PDFs to CSVs...")
     print("Please be patient. This might take some time.")
     subprocess.run(f"time python {convert_pdfs_script} {vh_pdfs_glob} {crh_pdfs_glob}",
-                   shell=True)
+                   shell=True, check=True)
 
     print("Cleaning Vacancy CSVs...")
     subprocess.run(f"python {clean_vh_csvs_script} -i {vh_raw_csvs_glob}",
-                   shell=True)
+                   shell=True, check=True)
 
     print("Cleaning CourseReg CSVs...")
     subprocess.run(f"python {clean_crh_csvs_script} -i {crh_raw_csvs_glob}",
-                   shell=True)
+                   shell=True, check=True)
 
     print("Importing CSV files to database...")
     subprocess.run(f"python {import_csv_to_db_script} {vh_cleaned_csvs_glob} {crh_cleaned_csvs_glob}",
-                   shell=True)
+                   shell=True, check=True)
 
     print("Merging Vacancy and CourseReg data...")
     subprocess.run(f"python {merge_db_script} {crh_cleaned_csvs_glob}",
-                   shell=True)
+                   shell=True, check=True)
 
     print("Database created!")
 

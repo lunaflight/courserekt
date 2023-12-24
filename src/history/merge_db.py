@@ -1,25 +1,25 @@
-import sqlite3
-from typing import List
 import argparse
 import os
+import sqlite3
+from pathlib import Path
+
 from src.history.api import NA
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR = Path(Path(__file__).resolve()).parent
 
 
-def merge_csv_files(csv_files: List[str]) -> None:
+def merge_csv_files(csv_files: list[str]) -> None:
     """
     Given a list of CourseReg History cleaned files,
     after having imported all relevant CSVs,
     attempt to merge them with useful Vacancy Histories.
     """
-
-    conn = sqlite3.connect(os.path.join(BASE_DIR, 'database.db'))
+    conn = sqlite3.connect(os.path.join(BASE_DIR, "database.db"))
 
     for csv_file in csv_files:
         # Given name of CourseReg:
         # coursereg_history_data_cleaned_2324_1_ug_round_0
-        coursereg_name = os.path.splitext(csv_file)[0].replace('/', '_')
+        coursereg_name = os.path.splitext(csv_file)[0].replace("/", "_")
 
         is_ug: bool = "_ug_" in coursereg_name
 
@@ -34,7 +34,7 @@ def merge_csv_files(csv_files: List[str]) -> None:
         name = coursereg_name.replace("coursereg_history_data_cleaned_",
                                       "merged_")
 
-        conn.execute(f"DROP TABLE IF EXISTS \"{name}\"")
+        conn.execute(f'DROP TABLE IF EXISTS "{name}"')
 
         conn.execute(f"""
             CREATE TABLE {name} AS
@@ -75,9 +75,9 @@ def merge_csv_files(csv_files: List[str]) -> None:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description='Merge some CSV files.')
-    parser.add_argument('csv_files', metavar='N', type=str, nargs='+',
-                        help='CSV files to be merged')
+    parser = argparse.ArgumentParser(description="Merge some CSV files.")
+    parser.add_argument("csv_files", metavar="N", type=str, nargs="+",
+                        help="CSV files to be merged")
 
     args = parser.parse_args()
 
