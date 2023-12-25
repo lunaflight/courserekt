@@ -2,7 +2,6 @@ import functools
 import os
 import sqlite3
 from pathlib import Path
-from typing import Optional, Union
 
 ROUNDS = 4
 INF = 2147483647
@@ -10,7 +9,7 @@ NA = -1
 BASE_DIR = Path(Path(__file__).resolve()).parent
 
 
-def _clean_year(year: Union[str, int]) -> str:
+def _clean_year(year: str | int) -> str:
     """
     Clean the year string by standardising all input to YYYY, e.g. 2223.
 
@@ -29,7 +28,7 @@ def _clean_year(year: Union[str, int]) -> str:
     return year
 
 
-def _clean_semester(semester: Union[str, int]) -> str:
+def _clean_semester(semester: str | int) -> str:
     """
     Clean the semester string by removing leading/trailing spaces.
 
@@ -77,14 +76,14 @@ def _clean_code(code: str) -> str:
 
 
 ClassDict = dict[str, list[dict[str, int]]]
-CourseData = dict[str, Union[str, ClassDict]]
+CourseData = dict[str, str | ClassDict]
 
 
-def get_data(year: Union[str, int],
-             semester: Union[str, int],
+def get_data(year: str | int,
+             semester: str | int,
              ug_gd: str,
              code: str,
-             conn: Optional[sqlite3.Connection] = None,
+             conn: sqlite3.Connection | None = None,
              ) -> CourseData:
     """
     Retrieve data for a specific course from the database.
@@ -135,7 +134,7 @@ def get_data(year: Union[str, int],
 
     # Prepare the structure of returned value
     class_dict: ClassDict = {}
-    output: dict[str, Union[str, ClassDict]] = {
+    output: dict[str, str | ClassDict] = {
             "faculty": "",
             "department": "",
             "code": code,
@@ -220,10 +219,10 @@ def get_data(year: Union[str, int],
     return output
 
 
-def _get_set_of_all_codes(year: Union[str, int],
-                          semester: Union[str, int],
+def _get_set_of_all_codes(year: str | int,
+                          semester: str | int,
                           ug_gd: str,
-                          conn: Optional[sqlite3.Connection] = None,
+                          conn: sqlite3.Connection | None = None,
                           ) -> set[str]:
     """
     Get a set of all known course codes in the history
@@ -285,8 +284,8 @@ def _get_set_of_all_codes(year: Union[str, int],
 
 
 @functools.lru_cache
-def get_all_data(year: Union[str, int],
-                 semester: Union[str, int],
+def get_all_data(year: str | int,
+                 semester: str | int,
                  ug_gd: str) -> list[CourseData]:
     """
     Get data for all courses in a specific year, semester,
@@ -318,10 +317,10 @@ def get_all_data(year: Union[str, int],
     return output
 
 
-def _get_filepath(year: Union[str, int],
-                  semester: Union[str, int],
+def _get_filepath(year: str | int,
+                  semester: str | int,
                   type: str,
-                  round_num: Union[str, int],
+                  round_num: str | int,
                   data_folder: str,
                   ext: str) -> str:
     """
@@ -351,10 +350,10 @@ def _get_filepath(year: Union[str, int],
                         f"round_{round_num}.{ext}")
 
 
-def get_pdf_filepath(year: Union[str, int],
-                     semester: Union[str, int],
+def get_pdf_filepath(year: str | int,
+                     semester: str | int,
                      type: str,
-                     round_num: Union[str, int]) -> str:
+                     round_num: str | int) -> str:
     """
     Generate the absolute file path for a specific PDF file.
 
@@ -372,10 +371,10 @@ def get_pdf_filepath(year: Union[str, int],
     return _get_filepath(year, semester, type, round_num, "pdfs", "pdf")
 
 
-def pdf_exists(year: Union[str, int],
-               semester: Union[str, int],
+def pdf_exists(year: str | int,
+               semester: str | int,
                type: str,
-               round_num: Union[str, int]) -> bool:
+               round_num: str | int) -> bool:
     """
     Check if a specific PDF file exists.
 
