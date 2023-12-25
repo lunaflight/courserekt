@@ -14,4 +14,3 @@ src/history/vacancy_history/data/raw
 src/web/static/pages
 
 .DS_store
-style-errors.txt
