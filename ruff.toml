@@ -4,7 +4,7 @@ target-version = "py310"
 [lint]
 select = ["ALL"]
 
-ignore = ["D203", "D212", "UP015"]
+ignore = ["D203", "D212", "UP015", "ANN101"]
 
 unfixable = []
 
