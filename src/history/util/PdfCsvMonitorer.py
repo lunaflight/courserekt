@@ -4,7 +4,7 @@ from time import sleep
 
 
 class PdfCsvMonitorer(Thread):
-    def __init__(self, directory: str, update_freq: int = 1):
+    def __init__(self, directory: str, update_freq: int = 1) -> None:
         self.directory = directory
         self.update_freq = update_freq
 
