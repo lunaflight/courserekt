@@ -107,7 +107,7 @@
               {% for round_num in range(4) %}
               <th class='table-round'>
                 {% if pdf_exists(year, semester, type, round_num) %}
-                {% set url = url_for('serve_pdf', year=year, semester=semester, type=type, round_num=round_num) %}
+                {% set url = url_for('serve_pdf', year=year, semester=semester, student_type=type, round_num=round_num) %}
                 <a href="{{ url }}" target="_blank">Round {{ round_num }}</a>
                 {% else %}
                 Round {{ round_num }}

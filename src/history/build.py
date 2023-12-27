@@ -2,11 +2,11 @@ import argparse
 import subprocess
 
 
-def build(year: str, semester: str, student_type: str, round: str) -> None:
+def build(year: str, semester: str, student_type: str, round_no: str) -> None:
     year = "*" if year is None else year
     semester = "*" if semester is None else semester
     student_type = "*" if student_type is None else student_type
-    round = "*" if round is None else f"round_{round}"
+    round_no = "*" if round_no is None else f"round_{round_no}"
 
     # Define script paths
     convert_pdfs_script = "src/history/convert_pdfs.py"
@@ -16,8 +16,8 @@ def build(year: str, semester: str, student_type: str, round: str) -> None:
     merge_db_script = "src/history/merge_db.py"
 
     # Define input directories
-    vh_pdfs_glob = f"src/history/vacancy_history/data/pdfs/{year}/{semester}/{round}.pdf"
-    crh_pdfs_glob = f"src/history/coursereg_history/data/pdfs/{year}/{semester}/{student_type}/{round}.pdf"
+    vh_pdfs_glob = f"src/history/vacancy_history/data/pdfs/{year}/{semester}/{round_no}.pdf"
+    crh_pdfs_glob = f"src/history/coursereg_history/data/pdfs/{year}/{semester}/{student_type}/{round_no}.pdf"
     vh_raw_csvs_glob = "src/history/vacancy_history/data/raw/*/*/*.csv"
     crh_raw_csvs_glob = "src/history/coursereg_history/data/raw/*/*/*/*.csv"
     vh_cleaned_csvs_glob = "src/history/vacancy_history/data/cleaned/*/*/*.csv"
@@ -87,7 +87,7 @@ def main() -> None:
 
     args = parser.parse_args()
 
-    build(year=args.year, semester=args.semester, student_type=args.student_type, round=args.round)
+    build(year=args.year, semester=args.semester, student_type=args.student_type, round_no=args.round)
 
 
 if __name__ == "__main__":

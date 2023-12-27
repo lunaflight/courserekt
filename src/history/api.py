@@ -319,7 +319,7 @@ def get_all_data(year: str | int,
 
 def _get_filepath(year: str | int,
                   semester: str | int,
-                  type: str,
+                  student_type: str,
                   round_num: str | int,
                   data_folder: str,
                   ext: str) -> str:
@@ -330,7 +330,7 @@ def _get_filepath(year: str | int,
     ----------
         year (Union[str, int]): The year of the file.
         semester (Union[str, int]): The semester of the file.
-        type (str): The type of the file.
+        student_type (str): The student type of the file.
         round_num (Union[str, int]): The round number of the file.
         data_folder (str): The data folder name where the file is located.
             It refers to the folder in `data/`, such as `data/pdfs`.
@@ -346,13 +346,13 @@ def _get_filepath(year: str | int,
                         data_folder,
                         str(year),
                         str(semester),
-                        type,
+                        student_type,
                         f"round_{round_num}.{ext}")
 
 
 def get_pdf_filepath(year: str | int,
                      semester: str | int,
-                     type: str,
+                     student_type: str,
                      round_num: str | int) -> str:
     """
     Generate the absolute file path for a specific PDF file.
@@ -361,19 +361,19 @@ def get_pdf_filepath(year: str | int,
     ----------
         year (Union[str, int]): The year of the PDF file.
         semester (Union[str, int]): The semester of the PDF file.
-        type (str): The type of the PDF file.
+        student_type (str): The student type of the PDF file.
         round_num (Union[str, int]): The round number of the PDF file.
 
     Returns
     -------
         str: The absolute file path of the PDF file.
     """
-    return _get_filepath(year, semester, type, round_num, "pdfs", "pdf")
+    return _get_filepath(year, semester, student_type, round_num, "pdfs", "pdf")
 
 
 def pdf_exists(year: str | int,
                semester: str | int,
-               type: str,
+               student_type: str,
                round_num: str | int) -> bool:
     """
     Check if a specific PDF file exists.
@@ -382,11 +382,11 @@ def pdf_exists(year: str | int,
     ----------
         year (Union[str, int]): The year of the PDF file.
         semester (Union[str, int]): The semester of the PDF file.
-        type (str): The type of the PDF file.
+        student_type (str): The student type of the PDF file.
         round_num (Union[str, int]): The round number of the PDF file.
 
     Returns
     -------
         bool: True if and only if the PDF file exists.
     """
-    return os.path.isfile(get_pdf_filepath(year, semester, type, round_num))
+    return os.path.isfile(get_pdf_filepath(year, semester, student_type, round_num))

@@ -35,10 +35,10 @@ def history() -> str:
     # Adjust the default parameters as necessary.
     year = request.form.get("year", "2324")
     semester = request.form.get("semester", "1")
-    type = request.form.get("type", "ug")
+    student_type = request.form.get("type", "ug")
 
     # Check if the precomputed HTML file exists
-    filepath = os.path.join(BASE_DIR, "static/pages", year, semester, type, "index.html")
+    filepath = os.path.join(BASE_DIR, "static/pages", year, semester, student_type, "index.html")
     if os.path.exists(filepath):
         # Serve the precomputed HTML
         with open(filepath, "r") as f:
@@ -47,7 +47,7 @@ def history() -> str:
     # Fallback to dynamic rendering if the file doesn't exist
     output, error = [], None
     try:
-        output = get_all_data(year, semester, type)
+        output = get_all_data(year, semester, student_type)
     except ValueError as e:
         error = e
 
@@ -72,30 +72,30 @@ def _serve_file(filepath: str) -> Response:
     return send_from_directory(directory, filename)
 
 
-@app.route("/pdfs/<int:year>/<int:semester>/<string:type>/"
+@app.route("/pdfs/<int:year>/<int:semester>/<string:student_type>/"
            "round_<int:round_num>.pdf")
 def serve_pdf(
         year: str | int,
         semester: str | int,
-        type: str,
+        student_type: str,
         round_num: str | int) -> Response:
     """
     Serve a PDF file from the specified directory.
     It will be hosted in the directory:
-        `/pdfs/year/semester/type/round_number.pdf`.
+        `/pdfs/year/semester/student_type/round_number.pdf`.
 
     Parameters
     ----------
         year (int): The year of the PDF file.
         semester (int): The semester of the PDF file.
-        type (str): The type of the PDF file.
+        student_type (str): The student type of the PDF file.
         round_num (int): The round number of the PDF file.
 
     Returns
     -------
         Response: The PDF file to be served.
     """
-    return _serve_file(get_pdf_filepath(year, semester, type, round_num))
+    return _serve_file(get_pdf_filepath(year, semester, student_type, round_num))
 
 
 def main() -> None:
