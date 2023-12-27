@@ -5,7 +5,7 @@ import shutil
 from tabula.io import convert_into_by_batch
 
 
-def main(pdf_files: list[str]) -> None:
+def convert(pdf_files: list[str]) -> None:
     # Combine all PDFs into a single directory
     target_dir = "combined_pdfs"
     os.makedirs(target_dir, exist_ok=True)
@@ -56,9 +56,13 @@ def main(pdf_files: list[str]) -> None:
     shutil.rmtree(target_dir)
 
 
-if __name__ == "__main__":
+def main() -> None:
     parser = argparse.ArgumentParser(description="Convert PDFs to CSV")
     parser.add_argument("pdf_files", nargs="+", help="List of PDF files to convert")
     args = parser.parse_args()
 
-    main(args.pdf_files)
+    convert(args.pdf_files)
+
+
+if __name__ == "__main__":
+    main()

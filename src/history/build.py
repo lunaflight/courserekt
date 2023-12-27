@@ -2,7 +2,7 @@ import argparse
 import subprocess
 
 
-def main(year: str, semester: str, student_type: str, round: str) -> None:
+def build(year: str, semester: str, student_type: str, round: str) -> None:
     year = "*" if year is None else year
     semester = "*" if semester is None else semester
     student_type = "*" if student_type is None else student_type
@@ -53,7 +53,8 @@ SEMESTER_CHOICES = ("1", "2")
 TYPE_CHOICES = ("ug", "gd")
 ROUND_CHOICES = ("0", "1", "2", "3")
 
-if __name__ == "__main__":
+
+def main() -> None:
     parser = argparse.ArgumentParser(description="Build the database")
 
     # Add optional year argument
@@ -86,4 +87,8 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    main(year=args.year, semester=args.semester, student_type=args.student_type, round=args.round)
+    build(year=args.year, semester=args.semester, student_type=args.student_type, round=args.round)
+
+
+if __name__ == "__main__":
+    main()

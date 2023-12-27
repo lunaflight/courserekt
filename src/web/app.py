@@ -98,10 +98,14 @@ def serve_pdf(
     return _serve_file(get_pdf_filepath(year, semester, type, round_num))
 
 
-if __name__ == "__main__":
+def main() -> None:
     parser = ArgumentParser(description="Web app for CourseRekt")
     parser.add_argument("--port", type=int, nargs=1, default=5000,
                         help="Port where the app is run.")
     args = parser.parse_args()
 
     app.run(host="0.0.0.0", port=args.port, debug=True)
+
+
+if __name__ == "__main__":
+    main()
