@@ -95,7 +95,7 @@ def serve_pdf(
     -------
         Response: The PDF file to be served.
     """
-    return _serve_file(get_pdf_filepath(year, semester, student_type, round_num))
+    return _serve_file(str(get_pdf_filepath(year, semester, student_type, round_num)))
 
 
 def main() -> None:

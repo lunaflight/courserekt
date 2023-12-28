@@ -5,7 +5,13 @@ target-version = "py310"
 select = ["ALL"]
 
 # https://docs.astral.sh/ruff/rules/
-ignore = ["D203", "D212", "UP015", "ANN101"]
+ignore = [
+  "D203", # Docstring internal rule conflict
+  "D212", # Docstring internal rule conflict
+  "UP015", # Increase readability when opening with mode='r'
+  "ANN101", # Ignore type requirement for self
+  "N806", # Allow uppercase variables when it is constant
+]
 
 unfixable = []
 

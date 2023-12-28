@@ -1,5 +1,4 @@
 import functools
-import os
 import sqlite3
 from pathlib import Path
 
@@ -11,6 +10,8 @@ BASE_DIR = Path(Path(__file__).resolve()).parent
 
 def _clean_year(year: str | int) -> str:
     """
+    Clean the string to YYYY.
+
     Clean the year string by standardising all input to YYYY, e.g. 2223.
 
     Args:
@@ -30,6 +31,8 @@ def _clean_year(year: str | int) -> str:
 
 def _clean_semester(semester: str | int) -> str:
     """
+    Clean the string to 1 or 2.
+
     Clean the semester string by removing leading/trailing spaces.
 
     Args:
@@ -45,6 +48,8 @@ def _clean_semester(semester: str | int) -> str:
 
 def _clean_ug_gd(ug_gd: str) -> str:
     """
+    Clean the string to "UG" or "GD".
+
     Clean the undergraduate/graduate string by converting to lowercase and
     removing leading/trailing spaces.
 
@@ -61,6 +66,8 @@ def _clean_ug_gd(ug_gd: str) -> str:
 
 def _clean_code(code: str) -> str:
     """
+    Clean the course code to XX1234X.
+
     Clean the course code string by converting to uppercase and
     removing leading/trailing spaces.
 
@@ -87,6 +94,7 @@ def get_data(year: str | int,
              ) -> CourseData:
     """
     Retrieve data for a specific course from the database.
+
     The data is in the format of the following:
         'faculty': str,
         'department': str,
@@ -129,7 +137,7 @@ def get_data(year: str | int,
 
     # Establish the database connection if not provided
     if conn is None:
-        conn = sqlite3.connect(os.path.join(BASE_DIR, "database.db"))
+        conn = sqlite3.connect(Path(BASE_DIR) / "database.db")
     conn.row_factory = sqlite3.Row
 
     # Prepare the structure of returned value
@@ -210,7 +218,8 @@ def get_data(year: str | int,
 
     # If nothing was found, throw an error.
     if not class_dict:
-        raise ValueError(f"Course {code} not found.")
+        error_msg = f"Course {code} not found."
+        raise ValueError(error_msg)
 
     # close the database connection if it was created here
     if conn is not None and conn.close is None:
@@ -225,8 +234,7 @@ def _get_set_of_all_codes(year: str | int,
                           conn: sqlite3.Connection | None = None,
                           ) -> set[str]:
     """
-    Get a set of all known course codes in the history
-    for a specific year, semester, and undergraduate/graduate.
+    Get the set of all known course codes satisfying the arguments.
 
     Args:
     ----
@@ -249,7 +257,7 @@ def _get_set_of_all_codes(year: str | int,
 
     # Establish the database connection if not provided
     if conn is None:
-        conn = sqlite3.connect(os.path.join(BASE_DIR, "database.db"))
+        conn = sqlite3.connect(Path(BASE_DIR) / "database.db")
     conn.row_factory = sqlite3.Row
 
     # for each round, execute the SQL query
@@ -278,7 +286,8 @@ def _get_set_of_all_codes(year: str | int,
 
     # If nothing was found, throw an error.
     if not codes:
-        raise ValueError("Data not found.")
+        error_msg = "Data not found."
+        raise ValueError(error_msg)
 
     return codes
 
@@ -288,8 +297,8 @@ def get_all_data(year: str | int,
                  semester: str | int,
                  ug_gd: str) -> list[CourseData]:
     """
-    Get data for all courses in a specific year, semester,
-    and undergraduate/graduate.
+    Get data for all courses satisfying the arguments.
+
     It will be in the form of a list of course data.
     Each element will be in the form of the output from get_data().
 
@@ -303,14 +312,12 @@ def get_all_data(year: str | int,
     -------
         list[CourseData]: A list of course data.
     """
-    conn = sqlite3.connect(os.path.join(BASE_DIR, "database.db"))
+    conn = sqlite3.connect(Path(BASE_DIR) / "database.db")
 
     codes: set[str] = _get_set_of_all_codes(year, semester, ug_gd, conn)
     sorted_codes: list[str] = sorted(codes)
 
-    output = []
-    for code in sorted_codes:
-        output.append(get_data(year, semester, ug_gd, code, conn))
+    output = [get_data(year, semester, ug_gd, code, conn) for code in sorted_codes]
 
     conn.close()
 
@@ -322,12 +329,12 @@ def _get_filepath(year: str | int,
                   student_type: str,
                   round_num: str | int,
                   data_folder: str,
-                  ext: str) -> str:
+                  ext: str) -> Path:
     """
     Generate the absolute file path for a specific file.
 
-    Parameters
-    ----------
+    Args:
+    ----
         year (Union[str, int]): The year of the file.
         semester (Union[str, int]): The semester of the file.
         student_type (str): The student type of the file.
@@ -336,35 +343,35 @@ def _get_filepath(year: str | int,
             It refers to the folder in `data/`, such as `data/pdfs`.
         ext (str): The file extension, such as `.csv` or `.pdf`.
 
-    Returns
+    Returns:
     -------
-        str: The absolute file path.
+        Path: The absolute file path.
     """
-    return os.path.join(BASE_DIR,
-                        "coursereg_history",
-                        "data",
-                        data_folder,
-                        str(year),
-                        str(semester),
-                        student_type,
-                        f"round_{round_num}.{ext}")
+    return (Path(BASE_DIR)
+            / "coursereg_history"
+            / "data"
+            / data_folder
+            / str(year)
+            / str(semester)
+            / student_type
+            / f"round_{round_num}.{ext}")
 
 
 def get_pdf_filepath(year: str | int,
                      semester: str | int,
                      student_type: str,
-                     round_num: str | int) -> str:
+                     round_num: str | int) -> Path:
     """
     Generate the absolute file path for a specific PDF file.
 
-    Parameters
-    ----------
+    Args:
+    ----
         year (Union[str, int]): The year of the PDF file.
         semester (Union[str, int]): The semester of the PDF file.
         student_type (str): The student type of the PDF file.
         round_num (Union[str, int]): The round number of the PDF file.
 
-    Returns
+    Returns:
     -------
         str: The absolute file path of the PDF file.
     """
@@ -378,15 +385,15 @@ def pdf_exists(year: str | int,
     """
     Check if a specific PDF file exists.
 
-    Parameters
-    ----------
-        year (Union[str, int]): The year of the PDF file.
-        semester (Union[str, int]): The semester of the PDF file.
+    Args:
+    ----
+        year (str | int): The year of the PDF file.
+        semester (str | int): The semester of the PDF file.
         student_type (str): The student type of the PDF file.
-        round_num (Union[str, int]): The round number of the PDF file.
+        round_num (str | int): The round number of the PDF file.
 
-    Returns
+    Returns:
     -------
         bool: True if and only if the PDF file exists.
     """
-    return os.path.isfile(get_pdf_filepath(year, semester, student_type, round_num))
+    return Path.is_file(get_pdf_filepath(year, semester, student_type, round_num))
