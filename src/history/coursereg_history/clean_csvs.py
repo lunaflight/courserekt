@@ -1,6 +1,7 @@
 import argparse
 import csv
 import os
+from pathlib import Path
 
 from src.history.api import INF
 
@@ -183,7 +184,7 @@ def _write_to_csv(data: list[list[str]], output_file_path: str) -> None:
     -------
         None
     """
-    with open(output_file_path, "w", newline="\n") as f:
+    with Path(output_file_path).open("w", newline="\n") as f:
         writer = csv.writer(f)
         for row in data:
             writer.writerow(row)
@@ -203,7 +204,7 @@ def clean_csv(input_file_path: str, output_file_path: str) -> None:
     -------
         None
     """
-    with open(input_file_path, "r") as f:
+    with Path(input_file_path).open("r") as f:
         data: list[list[str]] = list(csv.reader(f))
 
     data = [_clean_row(row) for row in data]
@@ -232,7 +233,7 @@ def main() -> None:
         output_file = input_file.replace("raw", "cleaned")
 
         # Create the output directory if it doesn't exist
-        os.makedirs(os.path.dirname(output_file), exist_ok=True)
+        Path(Path(output_file).parent).mkdir(parents=True, exist_ok=True)
 
         clean_csv(input_file, output_file)
 
