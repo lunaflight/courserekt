@@ -1,6 +1,5 @@
 import argparse
 import csv
-import os
 from pathlib import Path
 
 from src.history.api import INF
