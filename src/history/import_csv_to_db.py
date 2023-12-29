@@ -1,10 +1,10 @@
 import argparse
-import os
 import sqlite3
+from pathlib import Path
 
 import pandas as pd
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR = Path(Path(__file__).resolve()).parent
 
 
 def process_csv_files(csv_files: list[str], is_cleaning: bool = False) -> None:
@@ -12,11 +12,11 @@ def process_csv_files(csv_files: list[str], is_cleaning: bool = False) -> None:
     Processes a list of CSV files by loading them
     into an SQLite database.
     """
-    conn = sqlite3.connect(os.path.join(BASE_DIR, "database.db"))
+    conn = sqlite3.connect(Path(BASE_DIR) / "database.db")
 
     for csv_file in csv_files:
         # Get the name of the table from the filename
-        table_name = os.path.splitext(csv_file)[0].replace("/", "_")
+        table_name = (Path(csv_file).parent / Path(csv_file).root).replace("/", "_")
 
         # Drop the existing table (if it exists)
         conn.execute(f'DROP TABLE IF EXISTS "{table_name}"')
