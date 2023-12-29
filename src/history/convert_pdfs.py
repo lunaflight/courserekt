@@ -1,6 +1,7 @@
 import argparse
 import os
 import shutil
+from pathlib import Path
 
 from tabula.io import convert_into_by_batch
 from src.history.util.PdfCsvMonitorer import PdfCsvMonitorer
@@ -10,22 +11,23 @@ TMP_DIRECTORY = "tmp_combined_pdfs"
 
 def convert(pdf_files: list[str]) -> None:
     # Combine all PDFs into a single directory
-    os.makedirs(TMP_DIRECTORY, exist_ok=True)
+    Path(TMP_DIRECTORY).mkdir(parents=True, exist_ok=True)
     for pdf_file in pdf_files:
+        pdf_file_path = Path(pdf_file)
         # Extract the directory path
-        file_dir = os.path.dirname(pdf_file)
+        file_dir = pdf_file_path.parent
 
         # Encode directory path with underscores and replace slashes
         encoded_dir = file_dir.replace("/", "||")
 
         # Extract the filename and extension
-        filename, extension = os.path.splitext(os.path.basename(pdf_file))
+        filename, extension = pdf_file_path.stem, pdf_file_path.suffix
 
         # Construct the new filename
         new_filename = f"{encoded_dir}||{filename}{extension}"
 
         # Copy the file with the new name
-        shutil.copy2(pdf_file, os.path.join(TMP_DIRECTORY, new_filename))
+        shutil.copy2(pdf_file, Path(TMP_DIRECTORY) / new_filename)
 
     monitorer = PdfCsvMonitorer(TMP_DIRECTORY)
 
@@ -44,19 +46,19 @@ def convert(pdf_files: list[str]) -> None:
         # Check if the file extension is .pdf
         if file.endswith(".pdf"):
             # Delete the file
-            os.remove(os.path.join(TMP_DIRECTORY, file))
+            Path(Path(TMP_DIRECTORY) / file).unlink()
 
     # Process each file in combined_pdfs directory
     for file in os.listdir(TMP_DIRECTORY):
         # Extract encoded directory and filename
         new_csv_file = "/".join(file.replace("pdfs", "raw").split("||"))
-        new_file_dir = os.path.dirname(new_csv_file)
+        new_file_dir = Path(new_csv_file).parent
 
         # Create the directory if needed
-        os.makedirs(new_file_dir, exist_ok=True)
+        Path(new_file_dir).mkdir(parents=True, exist_ok=True)
 
         # Move the file to the new location
-        shutil.move(os.path.join(TMP_DIRECTORY, file), new_csv_file)
+        shutil.move(Path(TMP_DIRECTORY) / file, new_csv_file)
 
     # Delete the combined_pdfs directory
     shutil.rmtree(TMP_DIRECTORY)
