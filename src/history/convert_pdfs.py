@@ -18,7 +18,7 @@ def convert(pdf_files: list[str]) -> None:
         file_dir = pdf_file_path.parent
 
         # Encode directory path with underscores and replace slashes
-        encoded_dir = file_dir.replace("/", "||")
+        encoded_dir = Path(str(file_dir).replace("/", "||"))
 
         # Extract the filename and extension
         filename, extension = pdf_file_path.stem, pdf_file_path.suffix
