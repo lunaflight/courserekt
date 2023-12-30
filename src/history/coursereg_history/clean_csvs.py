@@ -232,7 +232,7 @@ def main() -> None:
         output_file = input_file.replace("raw", "cleaned")
 
         # Create the output directory if it doesn't exist
-        Path(Path(output_file).parent).mkdir(parents=True, exist_ok=True)
+        Path(output_file).parent.mkdir(parents=True, exist_ok=True)
 
         clean_csv(input_file, output_file)
 
