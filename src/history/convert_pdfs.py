@@ -46,7 +46,7 @@ def convert(pdf_files: list[str]) -> None:
         # Check if the file extension is .pdf
         if file.endswith(".pdf"):
             # Delete the file
-            Path(Path(TMP_DIRECTORY) / file).unlink()
+            (Path(TMP_DIRECTORY) / file).unlink()
 
     # Process each file in combined_pdfs directory
     for file in os.listdir(TMP_DIRECTORY):
