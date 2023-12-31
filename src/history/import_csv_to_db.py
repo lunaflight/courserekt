@@ -16,7 +16,7 @@ def process_csv_files(csv_files: list[str], is_cleaning: bool = False) -> None:
 
     for csv_file in csv_files:
         # Get the name of the table from the filename
-        table_name = (Path(csv_file).parent / Path(csv_file).root).replace("/", "_")
+        table_name = Path(str(Path(csv_file).parent / Path(csv_file).root).replace("/", "_"))
 
         # Drop the existing table (if it exists)
         conn.execute(f'DROP TABLE IF EXISTS "{table_name}"')
