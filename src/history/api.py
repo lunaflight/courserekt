@@ -1,5 +1,6 @@
 import functools
 import sqlite3
+from datetime import datetime
 from pathlib import Path
 from typing import Union
 
@@ -91,7 +92,7 @@ def get_data(year: Union[str, int],
              semester: Union[str, int],
              ug_gd: str,
              code: str,
-             conn: [sqlite3.Connection, None] = None,
+             conn: Union[sqlite3.Connection, None] = None,
              ) -> CourseData:
     """
     Retrieve data for a specific course from the database.
@@ -398,3 +399,47 @@ def pdf_exists(year: Union[str, int],
         bool: True if and only if the PDF file exists.
     """
     return Path.is_file(get_pdf_filepath(year, semester, student_type, round_num))
+
+
+def get_latest_year_and_sem_with_data() -> tuple[str, str]:
+    """
+    Returns the latest year/sem that has coursereg PDF data.
+
+    Returns:
+    ----
+        tuple[str, str]: Tuple containing (acad year, sem).
+    """
+
+    cur_year = datetime.now().year
+
+    def get_acad_year_starting_this_calendar_year(cur_year: int) -> str:
+        """
+        Returns the later AY starting in cur_year.
+        If cur_year is 2024, then it returns "2425".
+
+        Returns:
+        ---
+            str: Later AY starting in current year.
+        """
+        last_two_digits = str(cur_year)[-2:]
+        last_two_digits_next_year = str(cur_year + 1)[-2:]
+
+        return last_two_digits + last_two_digits_next_year
+
+    cur_sem = 2
+    # Assumption: If UG Round 0 data exists, then that AY+Sem can be displayed.
+    while not pdf_exists(
+            get_acad_year_starting_this_calendar_year(cur_year),
+            cur_sem,
+            "ug",
+            0
+            ):
+        if cur_sem == 2:
+            cur_sem -= 1
+        else:
+            cur_year -= 1
+            cur_sem = 2
+
+    latest_year = get_acad_year_starting_this_calendar_year(cur_year)
+    latest_sem = str(cur_sem)
+    return (latest_year, latest_sem)
