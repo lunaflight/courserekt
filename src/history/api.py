@@ -1,6 +1,7 @@
 import functools
 import sqlite3
 from pathlib import Path
+from typing import Union
 
 ROUNDS = 4
 INF = 2147483647
@@ -8,7 +9,7 @@ NA = -1
 BASE_DIR = Path(Path(__file__).resolve()).parent
 
 
-def _clean_year(year: str | int) -> str:
+def _clean_year(year: Union[str, int]) -> str:
     """
     Clean the string to YYYY.
 
@@ -29,7 +30,7 @@ def _clean_year(year: str | int) -> str:
     return year
 
 
-def _clean_semester(semester: str | int) -> str:
+def _clean_semester(semester: Union[str, int]) -> str:
     """
     Clean the string to 1 or 2.
 
@@ -83,14 +84,14 @@ def _clean_code(code: str) -> str:
 
 
 ClassDict = dict[str, list[dict[str, int]]]
-CourseData = dict[str, str | ClassDict]
+CourseData = dict[str, Union[str, ClassDict]]
 
 
-def get_data(year: str | int,
-             semester: str | int,
+def get_data(year: Union[str, int],
+             semester: Union[str, int],
              ug_gd: str,
              code: str,
-             conn: sqlite3.Connection | None = None,
+             conn: [sqlite3.Connection, None] = None,
              ) -> CourseData:
     """
     Retrieve data for a specific course from the database.
@@ -142,7 +143,7 @@ def get_data(year: str | int,
 
     # Prepare the structure of returned value
     class_dict: ClassDict = {}
-    output: dict[str, str | ClassDict] = {
+    output: dict[str, Union[str, ClassDict]] = {
             "faculty": "",
             "department": "",
             "code": code,
@@ -228,10 +229,10 @@ def get_data(year: str | int,
     return output
 
 
-def _get_set_of_all_codes(year: str | int,
-                          semester: str | int,
+def _get_set_of_all_codes(year: Union[str, int],
+                          semester: Union[str, int],
                           ug_gd: str,
-                          conn: sqlite3.Connection | None = None,
+                          conn: Union[sqlite3.Connection, None] = None,
                           ) -> set[str]:
     """
     Get the set of all known course codes satisfying the arguments.
@@ -293,8 +294,8 @@ def _get_set_of_all_codes(year: str | int,
 
 
 @functools.lru_cache
-def get_all_data(year: str | int,
-                 semester: str | int,
+def get_all_data(year: Union[str, int],
+                 semester: Union[str, int],
                  ug_gd: str) -> list[CourseData]:
     """
     Get data for all courses satisfying the arguments.
@@ -324,10 +325,10 @@ def get_all_data(year: str | int,
     return output
 
 
-def _get_filepath(year: str | int,
-                  semester: str | int,
+def _get_filepath(year: Union[str, int],
+                  semester: Union[str, int],
                   student_type: str,
-                  round_num: str | int,
+                  round_num: Union[str, int],
                   data_folder: str,
                   ext: str) -> Path:
     """
@@ -357,10 +358,10 @@ def _get_filepath(year: str | int,
             / f"round_{round_num}.{ext}")
 
 
-def get_pdf_filepath(year: str | int,
-                     semester: str | int,
+def get_pdf_filepath(year: Union[str, int],
+                     semester: Union[str, int],
                      student_type: str,
-                     round_num: str | int) -> Path:
+                     round_num: Union[str, int]) -> Path:
     """
     Generate the absolute file path for a specific PDF file.
 
@@ -378,19 +379,19 @@ def get_pdf_filepath(year: str | int,
     return _get_filepath(year, semester, student_type, round_num, "pdfs", "pdf")
 
 
-def pdf_exists(year: str | int,
-               semester: str | int,
+def pdf_exists(year: Union[str, int],
+               semester: Union[str, int],
                student_type: str,
-               round_num: str | int) -> bool:
+               round_num: Union[str, int]) -> bool:
     """
     Check if a specific PDF file exists.
 
     Args:
     ----
-        year (str | int): The year of the PDF file.
-        semester (str | int): The semester of the PDF file.
+        year (Union[str, int]): The year of the PDF file.
+        semester (Union[str, int]): The semester of the PDF file.
         student_type (str): The student type of the PDF file.
-        round_num (str | int): The round number of the PDF file.
+        round_num (Union[str, int]): The round number of the PDF file.
 
     Returns:
     -------
