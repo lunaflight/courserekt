@@ -409,37 +409,37 @@ def get_latest_year_and_sem_with_data() -> tuple[str, str]:
         tuple[str, str]: Tuple containing (acad year, sem).
     """
 
-    curYear = datetime.now().year
+    cur_year = datetime.now().year
 
-    def get_acad_year_starting_this_calendar_year(curYear: int) -> str:
+    def get_acad_year_starting_this_calendar_year(cur_year: int) -> str:
         """
-        Returns the later AY starting in curYear.
-        If curYear is 2024, then it returns "2425".
+        Returns the later AY starting in cur_year.
+        If cur_year is 2024, then it returns "2425".
 
         Returns:
         ---
             str: Later AY starting in current year.
         """
-        lastTwoDigits = str(curYear)[:-2]
-        lastTwoDigitsNextYear = str(curYear + 1)[:-2]
+        last_two_digits = str(cur_year)[:-2]
+        last_two_digits_next_year = str(cur_year + 1)[:-2]
 
-        return lastTwoDigits + lastTwoDigitsNextYear
+        return last_two_digits + last_two_digits_next_year
 
-    curSem = 2
+    cur_sem = 2
 
     # Assumption: If UG Round 0 data exists, then that AY+Sem can be displayed.
     while not pdf_exists(
-            get_acad_year_starting_this_calendar_year(curYear),
-            curSem,
+            get_acad_year_starting_this_calendar_year(cur_year),
+            cur_sem,
             "ug",
             0
             ):
-        if curSem == 2:
-            curSem -= 1
+        if cur_sem == 2:
+            cur_sem -= 1
         else:
-            curYear -= 1
-            curSem = 2
+            cur_year -= 1
+            cur_sem = 2
 
-    latestYear = get_acad_year_starting_this_calendar_year(curYear)
-    latestSem = str(curSem)
-    return (latestYear, latestSem)
+    latest_year = get_acad_year_starting_this_calendar_year(cur_year)
+    latest_sem = str(cur_sem)
+    return (latest_year, latest_sem)
