@@ -4,7 +4,7 @@ from typing import Any, Union
 
 from flask import Flask, Response, render_template, request, send_from_directory
 
-from src.history.api import INF, get_all_data, get_pdf_filepath, pdf_exists
+from src.history.api import INF, get_all_data, get_pdf_filepath, pdf_exists, get_latest_year_and_sem_with_data
 
 app = Flask(__name__)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -33,8 +33,9 @@ def history() -> str:
         str: The rendered HTML content to display the course history.
     """
     # Adjust the default parameters as necessary.
-    year = request.form.get("year", "2324")
-    semester = request.form.get("semester", "1")
+    (latestYear, latestSem) = get_latest_year_and_sem_with_data()
+    year = request.form.get("year", latestYear)
+    semester = request.form.get("semester", latestSem)
     student_type = request.form.get("type", "ug")
 
     # Check if the precomputed HTML file exists
