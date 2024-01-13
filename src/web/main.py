@@ -6,7 +6,7 @@ from src.web.precomp import generate_pages
 
 def main() -> None:
     parser = ArgumentParser(description="Web app for CourseRekt")
-    parser.add_argument("-p", "--port", type=int, nargs=1, default=5000,
+    parser.add_argument("-p", "--port", type=int, default=5000,
                         help="Port where the app is run.")
     parser.add_argument("-s", "--skip-precompute", action="store_true",
                         help="Use existing static pages instead of re-computing them.")
