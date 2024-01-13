@@ -420,13 +420,12 @@ def get_latest_year_and_sem_with_data() -> tuple[str, str]:
         ---
             str: Later AY starting in current year.
         """
-        last_two_digits = str(cur_year)[:-2]
-        last_two_digits_next_year = str(cur_year + 1)[:-2]
+        last_two_digits = str(cur_year)[-2:]
+        last_two_digits_next_year = str(cur_year + 1)[-2:]
 
         return last_two_digits + last_two_digits_next_year
 
     cur_sem = 2
-
     # Assumption: If UG Round 0 data exists, then that AY+Sem can be displayed.
     while not pdf_exists(
             get_acad_year_starting_this_calendar_year(cur_year),
