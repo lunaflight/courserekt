@@ -1,6 +1,7 @@
 import functools
 import sqlite3
 from pathlib import Path
+from datetime import datetime
 
 ROUNDS = 4
 INF = 2147483647
@@ -397,3 +398,38 @@ def pdf_exists(year: str | int,
         bool: True if and only if the PDF file exists.
     """
     return Path.is_file(get_pdf_filepath(year, semester, student_type, round_num))
+
+
+def get_latest_year_and_sem_with_coursereg_info() -> tuple[str, str]:
+    """
+    Returns the latest year/sem that has coursereg PDF data.
+
+    Returns:
+    ----
+        tuple[str, str]: Tuple containing (acad year, sem).
+    """
+
+    curYear = datetime.now().year
+
+    def get_acad_year_starting_this_calendar_year(curYear):
+        lastTwoDigits = curYear % 100
+        return str(lastTwoDigits) + str(lastTwoDigits + 1)
+
+    curSem = 2
+
+    # Assumption: If UG Round 0 data exists, then that AY+Sem can be displayed.
+    while not pdf_exists(
+            get_acad_year_starting_this_calendar_year(curYear),
+            curSem,
+            "ug",
+            0
+            ):
+        if curSem == 2:
+            curSem -= 1
+        else:
+            curYear -= 1
+            curSem = 2
+
+    latestYear = get_acad_year_starting_this_calendar_year(curYear)
+    latestSem = str(curSem)
+    return (latestYear, latestSem)
