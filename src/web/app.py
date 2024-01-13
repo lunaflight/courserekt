@@ -1,6 +1,6 @@
 import os
 from argparse import ArgumentParser
-from typing import Any
+from typing import Any, Union
 
 from flask import Flask, Response, render_template, request, send_from_directory
 
@@ -76,10 +76,10 @@ def _serve_file(filepath: str) -> Response:
 @app.route("/pdfs/<int:year>/<int:semester>/<string:student_type>/"
            "round_<int:round_num>.pdf")
 def serve_pdf(
-        year: str | int,
-        semester: str | int,
+        year: Union[str, int],
+        semester: Union[str, int],
         student_type: str,
-        round_num: str | int) -> Response:
+        round_num: Union[str, int]) -> Response:
     """
     Serve a PDF file from the specified directory.
     It will be hosted in the directory:
