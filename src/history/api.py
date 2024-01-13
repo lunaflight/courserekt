@@ -414,13 +414,16 @@ def get_latest_year_and_sem_with_coursereg_info() -> tuple[str, str]:
     def get_acad_year_starting_this_calendar_year(curYear: int) -> str:
         """
         Returns the later AY starting in curYear.
+        If curYear is 2024, then it returns "2425".
 
         Returns:
         ---
             str: Later AY starting in current year.
         """
-        lastTwoDigits = curYear % 100
-        return str(lastTwoDigits) + str(lastTwoDigits + 1)
+        lastTwoDigits = str(curYear)[:-2]
+        lastTwoDigitsNextYear = str(curYear + 1)[:-2]
+
+        return lastTwoDigits + lastTwoDigitsNextYear
 
     curSem = 2
 
