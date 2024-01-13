@@ -400,7 +400,7 @@ def pdf_exists(year: str | int,
     return Path.is_file(get_pdf_filepath(year, semester, student_type, round_num))
 
 
-def get_latest_year_and_sem_with_coursereg_info() -> tuple[str, str]:
+def get_latest_year_and_sem_with_data() -> tuple[str, str]:
     """
     Returns the latest year/sem that has coursereg PDF data.
 
