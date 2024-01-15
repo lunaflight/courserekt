@@ -34,6 +34,10 @@ Read the corresponding `README.md` files in the respective subdirectories for mo
 
 ## For Devs:
 
+### About
+
+- The project uses Python 3.9 syntax. (See `Branches` for more information.)
+
 ### Installation
 
 ```sh
@@ -88,6 +92,10 @@ The dependencies described in `local-requirements.txt` describe all the dependen
 **Deactivate the virtual environment:**
 - `deactivate`
 - You should see the `(venv)` prefix disappear in your command prompt.
+
+### Branches
+- `main` refers to the branch being deployed on Vercel which supports only Python 3.9 syntax.
+- `py312-github-pages` refers to the branch that employs Python 3.12 syntax in preparation to move to GitHub Pages.
 
 ### Web App
 
