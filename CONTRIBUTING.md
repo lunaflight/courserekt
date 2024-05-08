@@ -40,13 +40,22 @@ Read the corresponding `README.md` files in the respective subdirectories for mo
 
 ### Installation
 
+Initial cloning of the project:
 ```sh
 git clone https://github.com/lunaflight/courserekt.git &&
-cd courserekt &&
+cd courserekt
+```
+
+Setting up the virual environment:
+```sh
 python -m venv venv &&
 echo "export PYTHONPATH=\$(pwd)" >> venv/bin/activate &&
 source venv/bin/activate &&
 pip install -r local-requirements.txt &&
+```
+
+Generating all intermediate files and binaries:
+```sh
 python -m src.history.build
 ```
 
