@@ -99,7 +99,7 @@ def build(
 
 
 # Define accepted values for year and semester
-YEAR_CHOICES = ("2122", "2223", "2324")
+YEAR_CHOICES = ("2122", "2223", "2324", "2425")
 SEMESTER_CHOICES = ("1", "2")
 TYPE_CHOICES = ("ug", "gd")
 ROUND_CHOICES = ("0", "1", "2", "3")
