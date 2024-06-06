@@ -18,8 +18,8 @@ def build(
     merge_db_script = "src/history/merge_db.py"
 
     # Define input directories
-    vh_pdfs_glob = f"src/history/vacancy_history/data/pdfs/{year}/{semester}/{round_no}.pdf"
-    crh_pdfs_glob = f"src/history/coursereg_history/data/pdfs/{year}/{semester}/{student_type}/{round_no}.pdf"
+    vh_pdfs_glob = f"src/history/vacancy_history/data/pdfs/{year}/{semester}/{round_no}.pdf"  # noqa: E501
+    crh_pdfs_glob = f"src/history/coursereg_history/data/pdfs/{year}/{semester}/{student_type}/{round_no}.pdf"  # noqa: E501
     vh_raw_csvs_glob = "src/history/vacancy_history/data/raw/*/*/*.csv"
     crh_raw_csvs_glob = "src/history/coursereg_history/data/raw/*/*/*/*.csv"
     vh_cleaned_csvs_glob = "src/history/vacancy_history/data/cleaned/*/*/*.csv"
@@ -39,7 +39,7 @@ def build(
                    shell=True, check=True)
 
     print("Importing CSV files to database...")
-    subprocess.run(f"python {import_csv_to_db_script} {vh_cleaned_csvs_glob} {crh_cleaned_csvs_glob}",
+    subprocess.run(f"python {import_csv_to_db_script} {vh_cleaned_csvs_glob} {crh_cleaned_csvs_glob}",  # noqa: E501
                    shell=True, check=True)
 
     print("Merging Vacancy and CourseReg data...")
@@ -93,7 +93,12 @@ def main() -> None:
 
     args = parser.parse_args()
 
-    build(year=args.year, semester=args.semester, student_type=args.student_type, round_no=args.round)
+    build(
+        year=args.year,
+        semester=args.semester,
+        student_type=args.student_type,
+        round_no=args.round,
+    )
 
 
 if __name__ == "__main__":
