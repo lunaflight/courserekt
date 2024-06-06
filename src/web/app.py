@@ -1,13 +1,14 @@
 import os
 from argparse import ArgumentParser
 from typing import Any, Union
+from pathlib import Path
 
 from flask import Flask, Response, render_template, request, send_from_directory
 
 from src.history.api import INF, get_all_data, get_pdf_filepath, pdf_exists, get_latest_year_and_sem_with_data   # noqa: E501
 
 app = Flask(__name__)
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR = Path(__file__).resolve().parent
 
 
 @app.context_processor
@@ -39,8 +40,8 @@ def history() -> str:
     student_type = request.form.get("type", "ug")
 
     # Check if the precomputed HTML file exists
-    filepath = os.path.join(BASE_DIR, "static/pages", year, semester, student_type, "index.html")
-    if os.path.exists(filepath):
+    filepath = BASE_DIR.joinpath("static/pages", year, semester, student_type, "index.html")  # noqa: E501
+    if filepath.exists():
         # Serve the precomputed HTML
         with open(filepath, "r") as f:
             return f.read()
