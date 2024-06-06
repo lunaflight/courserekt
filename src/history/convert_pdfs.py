@@ -1,3 +1,4 @@
+from . import logger
 import argparse
 import os
 import shutil
@@ -10,7 +11,13 @@ TMP_DIRECTORY = "tmp_combined_pdfs" if not Path("/tmp").exists() else "/tmp/tmp_
 
 
 def convert(pdf_files: list[str]) -> None:
-    # Combine all PDFs into a single directory
+    """
+    Convert PDFs into CSV.
+
+    PDFs are first moved into a temporary folder for TabulaPy to work through
+    them into a csv before moving the files back to destined location in "raw"
+    """
+    logger.debug("convert invoked with arguments: %s", pdf_files)
     Path(TMP_DIRECTORY).mkdir(parents=True, exist_ok=True)
     for pdf_file in pdf_files:
         pdf_file_path = Path(pdf_file)
