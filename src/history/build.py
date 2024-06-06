@@ -2,11 +2,13 @@ import argparse
 import subprocess
 
 
-def build(year: str, semester: str, student_type: str, round_no: str) -> None:
-    year = "*" if year is None else year
-    semester = "*" if semester is None else semester
-    student_type = "*" if student_type is None else student_type
-    round_no = "*" if round_no is None else f"round_{round_no}"
+def build(
+    year: str = "*",
+    semester: str = "*",
+    student_type: str = "*",
+    round_no: str = "*",
+) -> None:
+    round_no = f"round_{round_no}" if round_no == "*" else round_no
 
     # Define script paths
     convert_pdfs_script = "src/history/convert_pdfs.py"
@@ -62,6 +64,7 @@ def main() -> None:
         "--year", "-y",
         choices=YEAR_CHOICES,
         help="Year to process (e.g., 2223)",
+        default="*",
     )
 
     # Add optional semester argument
@@ -69,6 +72,7 @@ def main() -> None:
         "--semester", "-s",
         choices=SEMESTER_CHOICES,
         help="Semester to process (1 or 2)",
+        default="*",
     )
 
     # Add optional type argument
@@ -76,6 +80,7 @@ def main() -> None:
         "--student-type", "-t",
         choices=TYPE_CHOICES,
         help="Type of courses to process (ug or gd)",
+        default="*",
     )
 
     # Add optional round argument
@@ -83,6 +88,7 @@ def main() -> None:
         "--round", "-r",
         choices=ROUND_CHOICES,
         help="Round to process (0 or 1 or 2 or 3)",
+        default="*",
     )
 
     args = parser.parse_args()
