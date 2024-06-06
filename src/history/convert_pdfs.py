@@ -38,6 +38,7 @@ def convert(pdf_files: list[str]) -> None:
         output_format="csv",
         pages="all",
         lattice=True,
+        silent=True,
     )
     monitorer.stop()
 

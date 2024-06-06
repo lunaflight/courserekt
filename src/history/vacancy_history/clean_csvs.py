@@ -1,6 +1,6 @@
 import argparse
 import csv
-import os
+from pathlib import Path
 
 from src.history.api import INF, NA
 
@@ -254,22 +254,26 @@ def clean_csv(input_file_path: str, output_file_path: str) -> None:
     _write_to_csv(data, output_file_path)
 
 
+def clean_csvs(input_files: list[str]) -> None:
+    """Clean the list of specified CSVs."""
+    # For each input file, clean the file and generate output
+    for input_file in input_files:
+        # generate the output file path
+        output_file = input_file.replace("raw", "cleaned")
+
+        # Create the output directory if it doesn't exist
+        Path(output_file).parent.mkdir(parents=True, exist_ok=True)
+
+        clean_csv(input_file, output_file)
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="CSV Cleaner")
     parser.add_argument("--input", "-i",
                         help="Input CSV files", required=True, nargs="+")
     args = parser.parse_args()
 
-    # For each input file, clean the file and generate output
-    for input_file in args.input:
-        # generate the output file path
-        output_file = input_file.replace("raw", "cleaned")
-
-        # Create the output directory if it doesn't exist
-        os.makedirs(os.path.dirname(output_file), exist_ok=True)
-
-        clean_csv(input_file, output_file)
-
+    clean_csvs(args.input)
 
 if __name__ == "__main__":
     main()

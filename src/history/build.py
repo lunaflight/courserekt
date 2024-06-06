@@ -1,6 +1,10 @@
 import argparse
 from glob import glob
-import subprocess
+from src.history.convert_pdfs import convert as convert_pdfs_fn
+from src.history.vacancy_history.clean_csvs import clean_csvs as clean_vh_csvs_fn
+from src.history.coursereg_history.clean_csvs import clean_csvs as clean_crh_csvs_fn
+from src.history.import_csv_to_db import process_csv_files as import_csv_to_db_fn
+from src.history.merge_db import merge_csv_files as merge_db_fn
 from time import perf_counter
 
 
@@ -29,34 +33,49 @@ def build(
 
     print("Converting PDFs to CSVs...")
     print("Please be patient. This might take some time.")
-    run_args = ["python", convert_pdfs_script]
-    run_args.extend(glob(vh_pdfs_glob))
+    run_args = glob(vh_pdfs_glob)
     run_args.extend(glob(crh_pdfs_glob))
     start_time = perf_counter()
-    subprocess.run(run_args, check=True, stderr=subprocess.DEVNULL)
+    try:
+        convert_pdfs_fn(run_args)
+    except Exception as e:
+        print(f"Exception occurred!: {e}")
+        return
     end_time = perf_counter()
     print(f"Time took: {end_time - start_time:.3f} seconds.")
 
     print("Cleaning Vacancy CSVs...")
-    run_args = ["python", clean_vh_csvs_script, "-i"]
-    run_args.extend(glob(vh_raw_csvs_glob))
-    subprocess.run(run_args, check=True)
+    run_args = glob(vh_raw_csvs_glob)
+    try:
+        clean_vh_csvs_fn(run_args)
+    except Exception as e:
+        print(f"Exception occurred!: {e}")
+        return
 
     print("Cleaning CourseReg CSVs...")
-    run_args = ["python", clean_crh_csvs_script, "-i"]
-    run_args.extend(glob(crh_raw_csvs_glob))
-    subprocess.run(run_args, check=True)
+    run_args = glob(crh_raw_csvs_glob)
+    try:
+        clean_crh_csvs_fn(run_args)
+    except Exception as e:
+        print(f"Exception occurred!: {e}")
+        return
 
     print("Importing CSV files to database...")
-    run_args = ["python", import_csv_to_db_script]
-    run_args.extend(glob(vh_cleaned_csvs_glob))
+    run_args = glob(vh_cleaned_csvs_glob)
     run_args.extend(glob(crh_cleaned_csvs_glob))
-    subprocess.run(run_args, check=True)
+    try:
+        import_csv_to_db_fn(run_args)
+    except Exception as e:
+        print(f"Exception occurred!: {e}")
+        return
 
     print("Merging Vacancy and CourseReg data...")
-    run_args = ["python", merge_db_script]
-    run_args.extend(glob(crh_cleaned_csvs_glob))
-    subprocess.run(run_args, check=True)
+    run_args = glob(crh_cleaned_csvs_glob)
+    try:
+        merge_db_fn(run_args)
+    except Exception as e:
+        print(f"Exception occurred!: {e}")
+        return
 
     print("Database created!")
 
