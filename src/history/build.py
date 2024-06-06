@@ -1,5 +1,7 @@
 import argparse
+from glob import glob
 import subprocess
+from time import perf_counter
 
 
 def build(
@@ -27,24 +29,34 @@ def build(
 
     print("Converting PDFs to CSVs...")
     print("Please be patient. This might take some time.")
-    subprocess.run(f"time python {convert_pdfs_script} {vh_pdfs_glob} {crh_pdfs_glob}",
-                   shell=True, check=True)
+    run_args = ["python", convert_pdfs_script]
+    run_args.extend(glob(vh_pdfs_glob))
+    run_args.extend(glob(crh_pdfs_glob))
+    start_time = perf_counter()
+    subprocess.run(run_args, check=True, stderr=subprocess.DEVNULL)
+    end_time = perf_counter()
+    print(f"Time took: {end_time - start_time:.3f} seconds.")
 
     print("Cleaning Vacancy CSVs...")
-    subprocess.run(f"python {clean_vh_csvs_script} -i {vh_raw_csvs_glob}",
-                   shell=True, check=True)
+    run_args = ["python", clean_vh_csvs_script, "-i"]
+    run_args.extend(glob(vh_raw_csvs_glob))
+    subprocess.run(run_args, check=True)
 
     print("Cleaning CourseReg CSVs...")
-    subprocess.run(f"python {clean_crh_csvs_script} -i {crh_raw_csvs_glob}",
-                   shell=True, check=True)
+    run_args = ["python", clean_crh_csvs_script, "-i"]
+    run_args.extend(glob(crh_raw_csvs_glob))
+    subprocess.run(run_args, check=True)
 
     print("Importing CSV files to database...")
-    subprocess.run(f"python {import_csv_to_db_script} {vh_cleaned_csvs_glob} {crh_cleaned_csvs_glob}",  # noqa: E501
-                   shell=True, check=True)
+    run_args = ["python", import_csv_to_db_script]
+    run_args.extend(glob(vh_cleaned_csvs_glob))
+    run_args.extend(glob(crh_cleaned_csvs_glob))
+    subprocess.run(run_args, check=True)
 
     print("Merging Vacancy and CourseReg data...")
-    subprocess.run(f"python {merge_db_script} {crh_cleaned_csvs_glob}",
-                   shell=True, check=True)
+    run_args = ["python", merge_db_script]
+    run_args.extend(glob(crh_cleaned_csvs_glob))
+    subprocess.run(run_args, check=True)
 
     print("Database created!")
 
