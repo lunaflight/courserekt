@@ -67,6 +67,9 @@ python -m src.history.build
     - You may just continue from this command (and not run all commands from `git clone`) if it fails.
 
 5. We run `python -m src.history.build` to generate `database.db`.
+    - Note that this utilises [tabula-py](https://pypi.org/project/tabula-py/), a thin Python wrapper around [tabula-java](https://github.com/tabulapdf/tabula-java), a Java library for extracting tables from PDF files. You may find yourself needing to install Java:
+        - **ArchLinux:** `sudo pacman -S jre-openjdk-headless` should suffice. [Variants found here.](https://wiki.archlinux.org/title/java)
+        - **Fedora Linux:** Please refer to [your distribution's installation instructions](https://docs.fedoraproject.org/en-US/quick-docs/installing-java/). Choose an appropriate minimal (or more) JRE to install.
 
 Note: If at any point, one of these commands fail (such as being unable to install the dependencies), you may have to rectify that command first, before continuing with the rest of the installation script.
 
