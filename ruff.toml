@@ -11,6 +11,7 @@ ignore = [
   "UP015", # Increase readability when opening with mode='r'
   "ANN101", # Ignore type requirement for self
   "N806", # Allow uppercase variables when it is constant
+  "FA100", # x | Y annotations is >=Py3.10, FA100 asks __future__'s annotations, which gives X|Y
 ]
 
 unfixable = []
