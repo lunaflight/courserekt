@@ -6,7 +6,7 @@ from pathlib import Path
 from tabula.io import convert_into_by_batch
 from src.history.util.PdfCsvMonitorer import PdfCsvMonitorer
 
-TMP_DIRECTORY = "tmp_combined_pdfs"
+TMP_DIRECTORY = "tmp_combined_pdfs" if not Path("/tmp").exists() else "/tmp/tmp_combined_pdfs"
 
 
 def convert(pdf_files: list[str]) -> None:
