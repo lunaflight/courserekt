@@ -5,7 +5,7 @@ from pathlib import Path
 
 from src.history.api import NA
 
-BASE_DIR = Path(Path(__file__).resolve()).parent
+BASE_DIR = Path(__file__).resolve().parent
 
 
 def merge_csv_files(csv_files: list[str]) -> None:

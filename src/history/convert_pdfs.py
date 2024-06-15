@@ -1,3 +1,4 @@
+from . import logger
 import argparse
 import os
 import shutil
@@ -6,11 +7,17 @@ from pathlib import Path
 from tabula.io import convert_into_by_batch
 from src.history.util.PdfCsvMonitorer import PdfCsvMonitorer
 
-TMP_DIRECTORY = "tmp_combined_pdfs"
+TMP_DIRECTORY = "tmp_combined_pdfs" if not Path("/tmp").exists() else "/tmp/tmp_combined_pdfs"  # noqa: E501
 
 
 def convert(pdf_files: list[str]) -> None:
-    # Combine all PDFs into a single directory
+    """
+    Convert PDFs into CSV.
+
+    PDFs are first moved into a temporary folder for TabulaPy to work through
+    them into a csv before moving the files back to destined location in "raw"
+    """
+    logger.debug("convert invoked with arguments: %s", pdf_files)
     Path(TMP_DIRECTORY).mkdir(parents=True, exist_ok=True)
     for pdf_file in pdf_files:
         pdf_file_path = Path(pdf_file)
@@ -38,6 +45,7 @@ def convert(pdf_files: list[str]) -> None:
         output_format="csv",
         pages="all",
         lattice=True,
+        silent=True,
     )
     monitorer.stop()
 
