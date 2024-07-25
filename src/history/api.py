@@ -427,12 +427,12 @@ def get_latest_year_and_sem_with_data() -> tuple[str, str]:
         return last_two_digits + last_two_digits_next_year
 
     cur_sem = 2
-    # Assumption: If UG Round 0 data exists, then that AY+Sem can be displayed.
+    # Assumption: If UG Round 1 data exists, then that AY+Sem can be displayed.
     while not pdf_exists(
             get_acad_year_starting_this_calendar_year(cur_year),
             cur_sem,
             "ug",
-            0
+            1
             ):
         if cur_sem == 2:
             cur_sem -= 1
