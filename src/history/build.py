@@ -19,13 +19,6 @@ def build(
 ) -> None:
     round_no = f"round_{round_no}" if round_no == "*" else round_no
 
-    # Define script paths
-    convert_pdfs_script = "src/history/convert_pdfs.py"
-    clean_vh_csvs_script = "src/history/vacancy_history/clean_csvs.py"
-    clean_crh_csvs_script = "src/history/coursereg_history/clean_csvs.py"
-    import_csv_to_db_script = "src/history/import_csv_to_db.py"
-    merge_db_script = "src/history/merge_db.py"
-
     # Define input directories
     vh_pdfs_glob = f"src/history/vacancy_history/data/pdfs/{year}/{semester}/{round_no}.pdf"  # noqa: E501
     crh_pdfs_glob = f"src/history/coursereg_history/data/pdfs/{year}/{semester}/{student_type}/{round_no}.pdf"  # noqa: E501
