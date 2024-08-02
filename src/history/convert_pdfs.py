@@ -78,7 +78,3 @@ def main() -> None:
     args = parser.parse_args()
 
     convert(args.pdf_files)
-
-
-if __name__ == "__main__":
-    main()

@@ -50,7 +50,3 @@ def generate_html(year: str, semester: str, student_type: str) -> None:
     # Save the response text as an HTML file
     with open(file_path, "w") as f:
         f.write(response.text)
-
-
-if __name__ == "__main__":
-    generate_pages()

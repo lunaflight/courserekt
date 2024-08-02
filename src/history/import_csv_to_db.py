@@ -41,7 +41,3 @@ def main() -> None:
     args = parser.parse_args()
 
     process_csv_files(args.csv_files, is_cleaning=args.clean)
-
-
-if __name__ == "__main__":
-    main()

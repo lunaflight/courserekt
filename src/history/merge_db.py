@@ -82,7 +82,3 @@ def main() -> None:
     args = parser.parse_args()
 
     merge_csv_files(args.csv_files)
-
-
-if __name__ == "__main__":
-    main()
