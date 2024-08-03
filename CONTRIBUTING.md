@@ -46,22 +46,16 @@ git clone https://github.com/lunaflight/courserekt.git &&
 cd courserekt
 ```
 
-Setting up the virual environment:
-```sh
-python -m venv venv &&
-echo "export PYTHONPATH=\$(pwd)" >> venv/bin/activate &&
-source venv/bin/activate &&
-pip install -r local-requirements.txt &&
-```
-
-Generating all intermediate files and binaries:
-```sh
-python -m src.history.build
-```
-
 **Important:** Replace the link for `git clone` with the link of your repository, if you have forked it.
 
+Building the project (only run this once):
+```sh
+source scripts/init.sh
+```
+
 **Please be patient. This might take some time (around 2 minutes, on my machine).**
+
+Note: If at any point, one of these commands fail (such as being unable to install the dependencies), you may have to rectify that command first, before continuing with the rest of the installation script.
 
 **An explanation:**
 1. First, we clone the repository from GitHub.
@@ -80,9 +74,7 @@ python -m src.history.build
         - **ArchLinux:** `sudo pacman -S jre-openjdk-headless` should suffice. [Variants found here.](https://wiki.archlinux.org/title/java)
         - **Fedora Linux:** Please refer to [your distribution's installation instructions](https://docs.fedoraproject.org/en-US/quick-docs/installing-java/). Choose an appropriate minimal (or more) JRE to install.
 
-Note: If at any point, one of these commands fail (such as being unable to install the dependencies), you may have to rectify that command first, before continuing with the rest of the installation script.
-
-### Virtual Environment
+### Virtual Environment & Dependencies
 A virtual environment ensures that everyone is working with the same set of dependencies.
 
 The dependencies described in `local-requirements.txt` describe all the dependencies used in the development of the project.
@@ -95,64 +87,32 @@ The dependencies described in `local-requirements.txt` describe all the dependen
 
 `requirements.txt`, on the other hand, is used for deployment on Vercel, which only allows 250MB of libraries to be imported. Hence, we keep the number of libraries to a minimum in `requirements.txt`.
 
-**Activate the virtual environment:**
-- Activating:
-    - **Windows:** `venv\Scripts\activate`
-    - **Mac/Linux:** `source venv/bin/activate`
-- You should see the `(venv)` prefix in your command prompt.
-
-**Deactivate the virtual environment:**
-- `deactivate`
-- You should see the `(venv)` prefix disappear in your command prompt.
-
 ### Branches
 - `main` refers to the branch being deployed on Vercel which supports only Python 3.9 syntax.
 - `py312-github-pages` refers to the branch that employs Python 3.12 syntax in preparation to move to GitHub Pages.
 
 ### Web App
 
-To start the web app, navigate to the **project root** and do the following:
-
-```shell
-python -m src.web.main
+To start the web app, run the following:
+```sh
+source scripts/main.sh
 ```
 
-This will precompute and cache all pages.
-Optionally, you may supply the following to `python -m src.web.main`.
-- `-p`, `--port PORT`: Port where the app is run. Otherwise, it defaults to `5000`.
-- `-s`, `--skip-precompute`: Use the existing files in `static/pages` to load the HTML instead.
+This will take some time as it precomputes and caches all pages.
 
-After running the command, open a web browser and navigate to `http://localhost:5000/`. 
-
-### Unit Testing
-
-This project employs the built-in `unittest` module in Python for automated testing.
-
-To run the tests, navigate to the **project root** of this project, and run:
-
-```shell
-python -m unittest
+You may instead run the underlying command directly. 
+```sh
+python -m src.web.main --help
 ```
 
-### Static Code Analysis
+### Sanity Checks
 
-First, ensure Mypy is installed. If it is not, run `pip install mypy` or `python -m pip install mypy`.
-
-To run the analysis, navigate to the **project root** of this project, and run:
-
-```shell
-python -m mypy --strict .
+Run the following to ensure run unit testing, static code analysis and the style checker.
+```sh
+source scripts/checks.sh
 ```
 
-### Style Checker
-
-First, ensure Ruff is installed. If it is not, run `pip install ruff` or `python -m pip install ruff`.
-
-To run the checker, navigate to the **project root** of this project, and run:
-
-```shell
-python -m ruff check
-```
+This uses `unittest`, `mypy` and `ruff`.
 
 ### Adding New CourseReg Data
 When new data is released, the program can be updated easily. You can follow the following steps to update it.
