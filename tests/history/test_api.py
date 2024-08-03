@@ -704,5 +704,5 @@ class MainTestCase(unittest.TestCase):
             get_data("2223", "2", "ug", "")
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()
