@@ -28,7 +28,7 @@ As a result, we have to copy all PDFs into a dummy folder, replacing all `/`s in
 
 Then, we convert it all to CSVs as per the Tabula API, and send them to their respective folders as outlined in the Overall Structure section.
 
-This can take some time, so we use `util/PdfCsvMonitorer.py` to keep track of the progress made by the command and printing it to the console.
+This can take some time, so we use `PdfCsvMonitorer.py` to keep track of the progress made by the command and printing it to the console.
 
 This is facilitated by `convert_pdfs.py`.
 

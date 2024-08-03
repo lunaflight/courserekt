@@ -5,7 +5,7 @@ import shutil
 from pathlib import Path
 
 from tabula.io import convert_into_by_batch
-from src.history.util.PdfCsvMonitorer import PdfCsvMonitorer
+from lib.PdfCsvMonitorer import PdfCsvMonitorer
 
 TMP_DIRECTORY = "tmp_combined_pdfs" if not Path("/tmp").exists() else "/tmp/tmp_combined_pdfs"  # noqa: E501
 
