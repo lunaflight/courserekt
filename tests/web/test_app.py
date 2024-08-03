@@ -1,5 +1,6 @@
 import unittest
 from contextlib import closing
+
 from src.web.app import app
 
 

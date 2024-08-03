@@ -1,11 +1,17 @@
 import os
 from argparse import ArgumentParser
-from typing import Any, Union
 from pathlib import Path
+from typing import Any, Union
 
 from flask import Flask, Response, render_template, request, send_from_directory
 
-from src.history.api import INF, get_all_data, get_pdf_filepath, pdf_exists, get_latest_year_and_sem_with_data   # noqa: E501
+from src.history.api import (
+    INF,
+    get_all_data,
+    get_latest_year_and_sem_with_data,
+    get_pdf_filepath,
+    pdf_exists,
+)
 
 app = Flask(__name__)
 BASE_DIR = Path(__file__).resolve().parent

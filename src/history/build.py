@@ -1,14 +1,16 @@
-from . import logger
 import argparse
-from glob import glob
 import logging
+import sys
+from glob import glob
+from time import perf_counter
+
 from src.history.convert_pdfs import convert as convert_pdfs_fn
-from src.history.vacancy_history.clean_csvs import clean_csvs as clean_vh_csvs_fn
 from src.history.coursereg_history.clean_csvs import clean_csvs as clean_crh_csvs_fn
 from src.history.import_csv_to_db import process_csv_files as import_csv_to_db_fn
 from src.history.merge_db import merge_csv_files as merge_db_fn
-import sys
-from time import perf_counter
+from src.history.vacancy_history.clean_csvs import clean_csvs as clean_vh_csvs_fn
+
+from . import logger
 
 
 def build(
