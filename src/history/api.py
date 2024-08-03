@@ -405,11 +405,10 @@ def get_latest_year_and_sem_with_data() -> tuple[str, str]:
     """
     Returns the latest year/sem that has coursereg PDF data.
 
-    Returns:
-    ----
+    Returns
+    -------
         tuple[str, str]: Tuple containing (acad year, sem).
     """
-
     cur_year = datetime.now().year
 
     def get_acad_year_starting_this_calendar_year(cur_year: int) -> str:
@@ -417,8 +416,8 @@ def get_latest_year_and_sem_with_data() -> tuple[str, str]:
         Returns the later AY starting in cur_year.
         If cur_year is 2024, then it returns "2425".
 
-        Returns:
-        ---
+        Returns
+        -------
             str: Later AY starting in current year.
         """
         last_two_digits = str(cur_year)[-2:]
