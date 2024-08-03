@@ -23,7 +23,7 @@ class AppTestCase(unittest.TestCase):
         data = {
             "year": "2223",
             "semester": "2",
-            "type": "gd"
+            "type": "gd",
         }
         response = self.app.post("/", data=data, follow_redirects=True)
         self.assertEqual(response.status_code, 200)

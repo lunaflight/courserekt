@@ -432,7 +432,7 @@ def get_latest_year_and_sem_with_data() -> tuple[str, str]:
             get_acad_year_starting_this_calendar_year(cur_year),
             cur_sem,
             "ug",
-            1
+            1,
             ):
         if cur_sem == 2:
             cur_sem -= 1
