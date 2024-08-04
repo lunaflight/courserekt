@@ -37,6 +37,9 @@ Read the corresponding `README.md` files in the respective subdirectories for mo
 ### About
 
 - The project uses Python 3.9 syntax. (See `Branches` for more information.)
+- The project assumes no setup of virtual environments. If you know how to
+  manage your own virtual environment, then remove the activation and
+  deactivation of the venv of scripts in `scripts/`.
 
 ### Installation
 
@@ -55,24 +58,9 @@ source scripts/init.sh
 
 **Please be patient. This might take some time (around 2 minutes, on my machine).**
 
-Note: If at any point, one of these commands fail (such as being unable to install the dependencies), you may have to rectify that command first, before continuing with the rest of the installation script.
-
-**An explanation:**
-1. First, we clone the repository from GitHub.
-
-2. Then, we set up a virtual environment with `python -m venv venv`, as a good practice when working with libraries and projects.
-
-3. We set up `PYTHONPATH` upon activating the virtual environment, to fix issues of being unable to find `src`.
-    - Upon activating `venv` every time in the future, `PYTHONPATH` will be set up.
-
-4. We install all the required dependencies as outlined in `local-requirements.txt`, to ensure everybody works with the same dependencies.
-    - You may run into issues during `pip install` if you do not have the latest version of python.
-    - You may just continue from this command (and not run all commands from `git clone`) if it fails.
-
-5. We run `python -m src.history.build` to generate `database.db`.
-    - Note that this utilises [tabula-py](https://pypi.org/project/tabula-py/), a thin Python wrapper around [tabula-java](https://github.com/tabulapdf/tabula-java), a Java library for extracting tables from PDF files. You may find yourself needing to install Java:
-        - **ArchLinux:** `sudo pacman -S jre-openjdk-headless` should suffice. [Variants found here.](https://wiki.archlinux.org/title/java)
-        - **Fedora Linux:** Please refer to [your distribution's installation instructions](https://docs.fedoraproject.org/en-US/quick-docs/installing-java/). Choose an appropriate minimal (or more) JRE to install.
+Note that this utilises [tabula-py](https://pypi.org/project/tabula-py/), a thin Python wrapper around [tabula-java](https://github.com/tabulapdf/tabula-java), a Java library for extracting tables from PDF files. You may find yourself needing to install Java:
+    - **ArchLinux:** `sudo pacman -S jre-openjdk-headless` should suffice. [Variants found here.](https://wiki.archlinux.org/title/java)
+    - **Fedora Linux:** Please refer to [your distribution's installation instructions](https://docs.fedoraproject.org/en-US/quick-docs/installing-java/). Choose an appropriate minimal (or more) JRE to install.
 
 ### Virtual Environment & Dependencies
 A virtual environment ensures that everyone is working with the same set of dependencies.
