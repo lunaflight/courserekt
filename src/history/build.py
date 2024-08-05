@@ -143,7 +143,7 @@ def main() -> None:
     parser.add_argument(
         "--round", "-r",
         choices=ROUND_CHOICES,
-        help="Round to process (0 or 1 or 2 or 3)",
+        help="Round to process (1 or 2 or 3)",
         default="*",
     )
 
