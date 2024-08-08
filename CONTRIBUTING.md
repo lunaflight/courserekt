@@ -104,27 +104,15 @@ Run the following to ensure run unit testing, static code analysis and the style
 This uses `unittest`, `mypy` and `ruff`.
 
 ### Adding New CourseReg Data
-When new data is released, the program can be updated easily. You can follow the following steps to update it.
+Vacancy and CourseReg data should be added at the same time.
 
-**Important:** Vacancy and CourseReg data should be added at the same time. This is due to how `merge.py` works at the moment - we depend on both data existing. For example, Vacancy data should not be added without its CourseReg data counterpart.
+Run the following:
+```sh
+./scripts/add_pdf_data.sh ACAD_YEAR SEMESTER ROUND
+```
 
-1. Navigate to `src/history/coursereg_history/data/pdfs`. 
-2. Create the relevant directory by running `mkdir -p YEAR/SEM/TYPE`. For example, `2324/1/ug` or `2425/2/gd`.
-3. Add the "Course Class Demand and Allocation Report" PDF in the relevant directory, naming it `round_N.pdf`.
-For example, `round_0.pdf`.
-4. Navigate to `src/history/vacancy_history/data/pdfs`. 
-5. Create the relevant directory by running `mkdir -p YEAR/SEM`. For example, `2324/1` or `2425/2`.
-6. Add the "Course Class Vacancy Report" PDF in the relevant directory, naming it `round_N.pdf`.
-7. Navigate to the **project root**. Run `python -m src.history.build`.
-    - This command forces a recomputation of all known PDFs in the project.
-
-    - To only compute the newly added PDFs, you may use additional flags. Run it with `--help` for more information.
-
-    - For example, to only compute PDFs in the year `22/23` and the semester `1`, during round `0`:
-    ```shell
-    python -m src.history.build -y 2223 -s 1 -r 0
-    ```
-8. You're done! The data should have been added successfully and ready to use.
+For example, to only compute PDFs in the year `22/23` and the semester `1`, during round `0`:
+You should run `./scripts/add_pdf_data.sh 2223 1 0`.
 
 ### Deployment to Vercel
 
