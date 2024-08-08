@@ -161,7 +161,7 @@ class MainTestCase(unittest.TestCase):
                             "timetable_clashes": 1,
                             "workload_exceeded": 0,
                             "others": 0,
-                            },
+                        },
                         {
                             "ug": 2,
                             "gd": -1,
@@ -176,7 +176,7 @@ class MainTestCase(unittest.TestCase):
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
                             "others": 0,
-                            },
+                        },
                         {
                             "ug": 0,
                             "gd": -1,
@@ -191,7 +191,7 @@ class MainTestCase(unittest.TestCase):
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
                             "others": 0,
-                            },
+                        },
                         {
                             "ug": 0,
                             "gd": -1,
@@ -224,7 +224,7 @@ class MainTestCase(unittest.TestCase):
                             "timetable_clashes": -1,
                             "workload_exceeded": -1,
                             "others": -1,
-                            },
+                        },
                         {
                             "ug": 18,
                             "gd": -1,
@@ -239,7 +239,7 @@ class MainTestCase(unittest.TestCase):
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
                             "others": 0,
-                            },
+                        },
                         {
                             "ug": 0,
                             "gd": -1,
@@ -254,7 +254,7 @@ class MainTestCase(unittest.TestCase):
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
                             "others": 0,
-                            },
+                        },
                         {
                             "ug": 0,
                             "gd": -1,
@@ -302,7 +302,7 @@ class MainTestCase(unittest.TestCase):
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
                             "others": 0,
-                            },
+                        },
                         {
                             "ug": 132,
                             "gd": -1,
@@ -317,7 +317,7 @@ class MainTestCase(unittest.TestCase):
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
                             "others": 0,
-                            },
+                        },
                         {
                             "ug": 132,
                             "gd": -1,
@@ -332,7 +332,7 @@ class MainTestCase(unittest.TestCase):
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
                             "others": 0,
-                            },
+                        },
                         {
                             "ug": 114,
                             "gd": -1,
@@ -347,7 +347,7 @@ class MainTestCase(unittest.TestCase):
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
                             "others": 1,
-                            },
+                        },
                     ],
                 },
             }
@@ -380,7 +380,7 @@ class MainTestCase(unittest.TestCase):
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
                             "others": 0,
-                            },
+                        },
                         {
                             "ug": 4,
                             "gd": -1,
@@ -395,7 +395,7 @@ class MainTestCase(unittest.TestCase):
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
                             "others": 0,
-                            },
+                        },
                         {
                             "ug": 4,
                             "gd": -1,
@@ -410,7 +410,7 @@ class MainTestCase(unittest.TestCase):
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
                             "others": 0,
-                            },
+                        },
                         {
                             "ug": 4,
                             "gd": -1,
@@ -425,7 +425,7 @@ class MainTestCase(unittest.TestCase):
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
                             "others": 0,
-                            },
+                        },
                     ],
                 },
             }
@@ -458,7 +458,7 @@ class MainTestCase(unittest.TestCase):
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
                             "others": 0,
-                            },
+                        },
                         {
                             "ug": -1,
                             "gd": 7,
@@ -473,7 +473,7 @@ class MainTestCase(unittest.TestCase):
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
                             "others": 0,
-                            },
+                        },
                         {
                             "ug": -1,
                             "gd": 3,
@@ -488,7 +488,7 @@ class MainTestCase(unittest.TestCase):
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
                             "others": 0,
-                            },
+                        },
                         {
                             "ug": -1,
                             "gd": 0,
@@ -503,7 +503,7 @@ class MainTestCase(unittest.TestCase):
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
                             "others": 0,
-                            },
+                        },
                     ],
                 },
             }
@@ -536,7 +536,7 @@ class MainTestCase(unittest.TestCase):
                             "timetable_clashes": -1,
                             "workload_exceeded": -1,
                             "others": -1,
-                            },
+                        },
                         {
                             "ug": -1,
                             "gd": -1,
@@ -551,7 +551,7 @@ class MainTestCase(unittest.TestCase):
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
                             "others": 0,
-                            },
+                        },
                         {
                             "ug": -1,
                             "gd": -1,
@@ -566,7 +566,7 @@ class MainTestCase(unittest.TestCase):
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
                             "others": 0,
-                            },
+                        },
                         {
                             "ug": -1,
                             "gd": -1,
@@ -614,7 +614,7 @@ class MainTestCase(unittest.TestCase):
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
                             "others": 0,
-                            },
+                        },
                         {
                             "ug": 2147483647,
                             "gd": -1,
@@ -629,7 +629,7 @@ class MainTestCase(unittest.TestCase):
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
                             "others": 0,
-                            },
+                        },
                         {
                             "ug": 2147483647,
                             "gd": -1,
@@ -644,7 +644,7 @@ class MainTestCase(unittest.TestCase):
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
                             "others": 0,
-                            },
+                        },
                         {
                             "ug": 2147483647,
                             "gd": -1,
@@ -659,7 +659,7 @@ class MainTestCase(unittest.TestCase):
                             "timetable_clashes": 0,
                             "workload_exceeded": 0,
                             "others": 0,
-                            },
+                        },
                     ],
                 },
             }

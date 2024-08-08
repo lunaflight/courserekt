@@ -76,7 +76,8 @@ def convert(pdf_files: list[str]) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Convert PDFs to CSV")
-    parser.add_argument("pdf_files", nargs="+", help="List of PDF files to convert")
+    parser.add_argument("pdf_files", nargs="+",
+                        help="List of PDF files to convert")
     args = parser.parse_args()
 
     convert(args.pdf_files)

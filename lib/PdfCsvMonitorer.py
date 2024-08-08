@@ -24,7 +24,8 @@ class PdfCsvMonitorer(Thread):
             pdf_files_cnt: int = sum([1 for _ in self.directory.glob("*.pdf")])
 
             if prev_csv_cnt != csv_files_cnt:
-                self.logger.info("Converting PDFs to CSVs... %s/%s", csv_files_cnt, pdf_files_cnt)
+                self.logger.info("Converting PDFs to CSVs... %s/%s",
+                                 csv_files_cnt, pdf_files_cnt)
 
             prev_csv_cnt = csv_files_cnt
             sleep(1/self.update_freq)

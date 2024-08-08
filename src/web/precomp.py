@@ -42,7 +42,8 @@ def generate_html(year: str, semester: str, student_type: str) -> None:
     response = client.post("/", data=data, follow_redirects=True)
 
     # Construct the file path
-    file_path = f"src/web/static/pages/{year}/{semester}/{student_type}/index.html"
+    file_path = f"src/web/static/pages/{year}/{
+        semester}/{student_type}/index.html"
 
     # Create the necessary directories if they don't exist
     os.makedirs(os.path.dirname(file_path), exist_ok=True)

@@ -115,13 +115,13 @@ def _is_header_row(row: list[str]) -> bool:
         bool: True iff the row is a header row.
     """
     HEADER_ROWS: list[list[str]] = [
-            ["Faculty/School", "Department", "Course Code",
-             "Course Title", "Course Class",
-             "UG", "GD", "DK", "NG", "CPE"],
-            ["Faculty/School", "Department", "Module Code",
-             "Module Title", "Module Class",
-             "UG", "GD", "DK", "NG", "CPE"],
-            ]
+        ["Faculty/School", "Department", "Course Code",
+         "Course Title", "Course Class",
+         "UG", "GD", "DK", "NG", "CPE"],
+        ["Faculty/School", "Department", "Module Code",
+         "Module Title", "Module Class",
+         "UG", "GD", "DK", "NG", "CPE"],
+    ]
     return row in HEADER_ROWS
 
 

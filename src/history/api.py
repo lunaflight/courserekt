@@ -145,11 +145,11 @@ def get_data(year: Union[str, int],
     # Prepare the structure of returned value
     class_dict: ClassDict = {}
     output: dict[str, Union[str, ClassDict]] = {
-            "faculty": "",
-            "department": "",
-            "code": code,
-            "title": "",
-            "classes": class_dict}
+        "faculty": "",
+        "department": "",
+        "code": code,
+        "title": "",
+        "classes": class_dict}
     BLANK = {"ug": -1,
              "gd": -1,
              "dk": -1,
@@ -167,8 +167,8 @@ def get_data(year: Union[str, int],
     # for each round, execute the SQL query
     for round_number in range(ROUNDS):
         TABLE_NAME = (
-                "src_history_merged_"
-                f"{year}_{semester}_{ug_gd}_round_{round_number}")
+            "src_history_merged_"
+            f"{year}_{semester}_{ug_gd}_round_{round_number}")
 
         if not pdf_exists(year, semester, ug_gd, round_number):
             continue
@@ -188,27 +188,27 @@ def get_data(year: Union[str, int],
             output["title"] = row["Title"]
 
             result = {
-                    "ug": row["UG"],
-                    "gd": row["GD"],
-                    "dk": row["DK"],
-                    "ng": row["NG"],
-                    "cpe": row["CPE"],
-                    "demand": row["Demand"],
-                    "vacancy": row["Vacancy"],
-                    "successful_main": row["Successful_Main"],
-                    "successful_reserve": row["Successful_Reserve"],
-                    "quota_exceeded": row["Quota_Exceeded"],
-                    "timetable_clashes": row["Timetable_Clashes"],
-                    "workload_exceeded": row["Workload_Exceeded"],
-                    "others": row["Others"],
-                    }
+                "ug": row["UG"],
+                "gd": row["GD"],
+                "dk": row["DK"],
+                "ng": row["NG"],
+                "cpe": row["CPE"],
+                "demand": row["Demand"],
+                "vacancy": row["Vacancy"],
+                "successful_main": row["Successful_Main"],
+                "successful_reserve": row["Successful_Reserve"],
+                "quota_exceeded": row["Quota_Exceeded"],
+                "timetable_clashes": row["Timetable_Clashes"],
+                "workload_exceeded": row["Workload_Exceeded"],
+                "others": row["Others"],
+            }
 
             # Logic to pad skipped rounds with blanks to ensure that
             # the list stays at length 4, corresponding to each round.
             if CLASSNAME in class_dict:
                 class_dict[CLASSNAME].extend(
-                        [BLANK for _
-                         in range(round_number - len(class_dict[CLASSNAME]))])
+                    [BLANK for _
+                     in range(round_number - len(class_dict[CLASSNAME]))])
                 class_dict[CLASSNAME].append(result)
             else:
                 class_dict[CLASSNAME] = [BLANK] * round_number
@@ -265,13 +265,13 @@ def _get_set_of_all_codes(year: Union[str, int],
     # for each round, execute the SQL query
     for round_number in range(ROUNDS):
         TABLE_NAME = (
-                "src_history_merged_"
-                f"{year}_{semester}_{ug_gd}_round_{round_number}")
+            "src_history_merged_"
+            f"{year}_{semester}_{ug_gd}_round_{round_number}")
 
         # check if table exists first
         cursor = conn.execute(
-                "SELECT name FROM sqlite_master WHERE type='table' AND name=?",
-                (TABLE_NAME,))
+            "SELECT name FROM sqlite_master WHERE type='table' AND name=?",
+            (TABLE_NAME,))
         if cursor.fetchone() is None:
             continue
 
@@ -319,7 +319,8 @@ def get_all_data(year: Union[str, int],
     codes: set[str] = _get_set_of_all_codes(year, semester, ug_gd, conn)
     sorted_codes: list[str] = sorted(codes)
 
-    output = [get_data(year, semester, ug_gd, code, conn) for code in sorted_codes]
+    output = [get_data(year, semester, ug_gd, code, conn)
+              for code in sorted_codes]
 
     conn.close()
 
@@ -432,7 +433,7 @@ def get_latest_year_and_sem_with_data() -> tuple[str, str]:
             cur_sem,
             "ug",
             1,
-            ):
+    ):
         if cur_sem == 2:
             cur_sem -= 1
         else:

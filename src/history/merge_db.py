@@ -27,8 +27,8 @@ def merge_csv_files(csv_files: list[str]) -> None:
         # vacancy_history_data_cleaned_2324_1_round_0
         vacancy_name = (coursereg_name.replace("coursereg_history_",
                                                "vacancy_history_")
-                                      .replace("_ug_", "_")
-                                      .replace("_gd_", "_"))
+                        .replace("_ug_", "_")
+                        .replace("_gd_", "_"))
 
         # Corresponding name of Merged: merged_2324_1_ug_round_0
         name = coursereg_name.replace("coursereg_history_data_cleaned_",

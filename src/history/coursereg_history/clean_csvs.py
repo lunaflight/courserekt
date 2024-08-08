@@ -98,21 +98,21 @@ def _is_header_row(row: list[str]) -> bool:
         bool: True iff the row is a header row.
     """
     HEADER_ROWS: list[list[str]] = [
-            ["Module Host Faculty/School", "Module Host Department",
-             "Module Code", "Module Title", "Module Class", "Vacancy",
-             "Demand", "Successful Allocations",
-             "Unsuccessful Allocations due to:", "", "", "", ""],
-            ["Course Host Faculty/School", "Course Host Department",
-             "Course Code", "Course Title", "Course Class", "Vacancy",
-             "Demand", "Successful Allocations",
-             "Unsuccessful Allocations due to:", "", "", "", ""],
-            ["", "", "", "", "", "", "", "Main List", "Reserve List",
+        ["Module Host Faculty/School", "Module Host Department",
+         "Module Code", "Module Title", "Module Class", "Vacancy",
+         "Demand", "Successful Allocations",
+         "Unsuccessful Allocations due to:", "", "", "", ""],
+        ["Course Host Faculty/School", "Course Host Department",
+         "Course Code", "Course Title", "Course Class", "Vacancy",
+         "Demand", "Successful Allocations",
+         "Unsuccessful Allocations due to:", "", "", "", ""],
+        ["", "", "", "", "", "", "", "Main List", "Reserve List",
              "Quota Exceeded", "Timetable Clashes",
              "Workload Exceeded", "Others"],
-            ["", "", "", "", "", "", "Main List", "Reserve List",
+        ["", "", "", "", "", "", "Main List", "Reserve List",
              "Quota Exceeded", "Timetable Clashes",
              "Workload Exceeded", "Others", ""],
-            ]
+    ]
     return row in HEADER_ROWS
 
 
