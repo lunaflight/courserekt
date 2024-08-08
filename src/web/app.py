@@ -12,6 +12,7 @@ from src.history.api import (
     get_pdf_filepath,
     pdf_exists,
 )
+from lib.nusmods import nusmods_link_of_code
 
 app = Flask(__name__)
 BASE_DIR = Path(__file__).resolve().parent
@@ -26,7 +27,9 @@ def context_processor() -> dict[Any, Any]:
     automatically available in all Jinja templates
     rendered by the Flask app.
     """
-    return {"INF":INF, "pdf_exists":pdf_exists}
+    return {"INF": INF,
+            "nusmods_link_of_code": nusmods_link_of_code,
+            "pdf_exists": pdf_exists, }
 
 
 @app.route("/", methods=["GET", "POST"])

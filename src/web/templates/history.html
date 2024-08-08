@@ -127,7 +127,7 @@
               <td>{{ course.code }}</td>
               <td>
                 {% if loop.first %}
-                  {{ course.title }}
+                  <a href="{{ nusmods_link_of_code(course.code) }}">{{ course.title }}</a>
                 {% endif %}
               </td>
               <td>{{ class_name }}</td>
