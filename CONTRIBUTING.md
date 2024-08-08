@@ -111,8 +111,9 @@ Run the following:
 ./scripts/add_pdf_data.sh ACAD_YEAR SEMESTER ROUND
 ```
 
-For example, to only compute PDFs in the year `22/23` and the semester `1`, during round `0`:
-You should run `./scripts/add_pdf_data.sh 2223 1 0`.
+For example, to only compute PDFs in the year `22/23`
+and the semester `1`, during round `0`, you should run
+`./scripts/add_pdf_data.sh 2223 1 0`.
 
 ### Deployment to Vercel
 
