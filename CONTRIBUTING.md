@@ -46,14 +46,15 @@ Read the corresponding `README.md` files in the respective subdirectories for mo
 Initial cloning of the project:
 ```sh
 git clone https://github.com/lunaflight/courserekt.git &&
-cd courserekt
+cd courserekt &&
+chmod -R +x scripts/
 ```
 
 **Important:** Replace the link for `git clone` with the link of your repository, if you have forked it.
 
 Building the project (only run this once):
 ```sh
-source scripts/init.sh
+./scripts/init.sh
 ```
 
 **Please be patient. This might take some time (around 2 minutes, on my machine).**
@@ -83,7 +84,7 @@ The dependencies described in `local-requirements.txt` describe all the dependen
 
 To start the web app, run the following:
 ```sh
-source scripts/main.sh
+./scripts/main.sh
 ```
 
 This will take some time as it precomputes and caches all pages.
@@ -97,7 +98,7 @@ python -m src.web.main --help
 
 Run the following to ensure run unit testing, static code analysis and the style checker.
 ```sh
-source scripts/checks.sh
+./scripts/checks.sh
 ```
 
 This uses `unittest`, `mypy` and `ruff`.
