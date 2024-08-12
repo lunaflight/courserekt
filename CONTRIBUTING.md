@@ -12,12 +12,16 @@
     - Contains all assets for the documentation of the project.
 ├── README.md
     - Documentation for users
+├── lib
+    - Contains miscellaneous helper code that is not strictly related to the project.
 ├── local-requirements.txt
     - Contains all the Python dependencies required in the project.
 ├── requirements.txt
     - Contains only the Python dependencies required to deploy the project on vercel.
 ├── ruff.toml
     - Contains the Ruff configuration specified for the project.
+├── scripts
+    - Contains all helper scripts to help kick off the project upon an initial clone.
 ├── src
     - Contains all source code for the project.
 ├── tests
