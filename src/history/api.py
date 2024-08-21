@@ -3,13 +3,14 @@ import sqlite3
 from datetime import datetime
 from pathlib import Path
 from typing import Union
+import re
 
 ROUNDS = 4
 INF = 2147483647
 NA = -1
 BASE_DIR = Path(Path(__file__).resolve()).parent
 
-
+YEAR_REGEX = re.compile("[0-9]{8}")
 def _clean_year(year: Union[str, int]) -> str:
     """
     Clean the string to YYYY.
@@ -25,9 +26,17 @@ def _clean_year(year: Union[str, int]) -> str:
         str: The cleaned year string.
     """
     year = str(year).strip().replace("/", "").replace(" ", "").replace("-", "")
-    # Turns 20222023 to 2223
-    if len(year) == 8:
-        year = year[2] + year[3] + year[6] + year[7]
+
+    '''
+    We should really only expect inputs such as
+    20222023.
+    If we find such a thing, get the last two digits of each year
+    e.g. 2223
+    Otherwise, it should barf
+    '''
+    match = YEAR_REGEX.match(year)
+    if match:
+        year = year[2:4] + year[6:]
     return year
 
 
