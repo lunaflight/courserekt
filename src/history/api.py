@@ -32,11 +32,12 @@ def _clean_year(year: Union[str, int]) -> str:
     20222023.
     If we find such a thing, get the last two digits of each year
     e.g. 2223
-    Otherwise, it should barf
+    Otherwise, it should barf.
     '''
     match = YEAR_REGEX.match(year)
-    if match:
-        year = year[2:4] + year[6:]
+    assert match, f"INVALID ACADEMIC YEAR RECEIVED: {year} EXPECT '[0-9]{{8}}'"
+    year = year[2:4] + year[6:]
+    
     return year
 
 
