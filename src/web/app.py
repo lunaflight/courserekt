@@ -52,7 +52,7 @@ def history() -> str:
     filepath = BASE_DIR.joinpath("static/pages", year, semester, student_type, "index.html")  # noqa: E501
     if filepath.exists():
         # Serve the precomputed HTML
-        with open(filepath, "r") as f:
+        with open(filepath, "r", encoding="utf-8") as f:
             return f.read()
 
     # Fallback to dynamic rendering if the file doesn't exist

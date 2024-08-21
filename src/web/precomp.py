@@ -48,5 +48,5 @@ def generate_html(year: str, semester: str, student_type: str) -> None:
     os.makedirs(os.path.dirname(file_path), exist_ok=True)
 
     # Save the response text as an HTML file
-    with open(file_path, "w") as f:
+    with open(file_path, "w", encoding="utf-8") as f:
         f.write(response.text)
