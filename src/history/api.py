@@ -13,7 +13,7 @@ BASE_DIR = Path(Path(__file__).resolve()).parent
 YEAR_REGEX = re.compile("[0-9]{8}")
 def _clean_year(year: Union[str, int]) -> str:
     """
-    Clean the string to YYYY.
+    Comments can either be "YYYY[ /-]YYYY" or "YYYY".
 
     Clean the year string by standardising all input to YYYY, e.g. 2223.
 
@@ -27,17 +27,9 @@ def _clean_year(year: Union[str, int]) -> str:
     """
     year = str(year).strip().replace("/", "").replace(" ", "").replace("-", "")
 
-    '''
-    We should really only expect inputs such as
-    20222023.
-    If we find such a thing, get the last two digits of each year
-    e.g. 2223
-    Otherwise, it should barf.
-    '''
-    match = YEAR_REGEX.match(year)
-    assert match, f"INVALID ACADEMIC YEAR RECEIVED: {year} EXPECT '[0-9]{{8}}'"
-    year = year[2:4] + year[6:]
-    
+    if YEAR_REGEX.match(year):
+        year = year[2:4] + year[6:]
+
     return year
 
 
