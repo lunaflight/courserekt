@@ -1,19 +1,18 @@
 import functools
+import re
 import sqlite3
 from datetime import datetime
 from pathlib import Path
 from typing import Union
-import re
 
 ROUNDS = 4
 INF = 2147483647
 NA = -1
 BASE_DIR = Path(Path(__file__).resolve()).parent
 
-YEAR_REGEX = re.compile("[0-9]{8}")
 def _clean_year(year: Union[str, int]) -> str:
     """
-    Comments can either be "YYYY[ /-]YYYY" or "YYYY".
+    Year strings are either "YYYY[ /-]YYYY" or "YYYY".
 
     Clean the year string by standardising all input to YYYY, e.g. 2223.
 
@@ -27,7 +26,8 @@ def _clean_year(year: Union[str, int]) -> str:
     """
     year = str(year).strip().replace("/", "").replace(" ", "").replace("-", "")
 
-    if YEAR_REGEX.match(year):
+    # If the year string is YYYY[ /-]YYYY, standardise it.
+    if re.match(r"[0-9]{8}", year):
         year = year[2:4] + year[6:]
 
     return year
