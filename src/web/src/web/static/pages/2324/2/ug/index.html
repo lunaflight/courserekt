@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CourseRekt</title>
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <link rel="stylesheet" href="/static/style.css?v=4">
+    <script src="/static/script.js?v=4" defer></script>
+    <!-- Roboto Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <!-- Custom icons such as the ? marker -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="my-container">
+      <!-- Sidebar -->
+      <div class="form-container">
+        <h1 style="font-size: 26px; font-weight: bold; font-family: 'Roboto', sans-serif; margin: 0 auto; margin-bottom: 1rem;">🚀 CourseRekt 😵</h1>
+        <p style="font-size: 1rem;">View current and past data for the registration of NUS courses easily!</p>
+        <!-- Form -->
+        <form id="course-form" method="POST">
+          <!-- Add academic years here -->
+          <div class="form-group">
+            <label for="year"><b>Academic Year:</b></label><br>
+            <div class="btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-secondary ">
+                <input type="radio" id="year1" name="year" value="2122" autocomplete="off" > 21/22
+              </label>
+              <label class="btn btn-secondary ">
+                <input type="radio" id="year2" name="year" value="2223" autocomplete="off" > 22/23
+              </label>
+              <label class="btn btn-secondary active">
+                <input type="radio" id="year3" name="year" value="2324" autocomplete="off" checked> 23/24
+              </label>
+              <label class="btn btn-secondary ">
+                <input type="radio" id="year4" name="year" value="2425" autocomplete="off" > 24/25
+              </label>
+            </div>
+          </div>
+          <!-- Semesters -->
+          <div class="form-group">
+            <label for="semester"><b>Semester:</b></label><br>
+            <div class="btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-secondary ">
+                <input type="radio" id="semester1" name="semester" value="1" autocomplete="off" > Semester 1
+              </label>
+              <label class="btn btn-secondary active">
+                <input type="radio" id="semester2" name="semester" value="2" autocomplete="off" checked> Semester 2
+              </label>
+            </div>
+          </div>
+          <!-- Undergraduate or Graduate Selection -->
+          <div class="form-group">
+            <label for="type"><b>Type:</b></label><br>
+            <div class="btn-group-toggle" data-toggle="buttons">
+              <label class="btn btn-secondary active">
+                <input type="radio" id="ug" name="type" value="ug" autocomplete="off" checked> Undergraduate
+              </label>
+              <label class="btn btn-secondary ">
+                <input type="radio" id="gd" name="type" value="gd" autocomplete="off" > Graduate
+              </label>
+            </div>
+          </div>
+        </form> 
+        <!-- Search Bar -->
+        <label for="course_codes"><b>Course Codes:</b></label><br>
+        <div class="search-bar-container">
+          <input type="text" id="search-input" name="search-input" oninput="filterCourses()" placeholder="Search course codes..." autocomplete="off">
+          <span class="help-icon" data-toggle="tooltip" data-placement="top" title="Add spaces for additional matches (e.g. 'CS2 EL GESS')"><i class="fa fa-question-circle"></i></span>
+        </div>
+        <!-- Toggle Course Name Visibility -->
+        <label for="toggle-course-names-checkbox" class="btn btn-secondary">
+          <input type="checkbox" id="toggle-course-names-checkbox" style="transform: scale(1.2);" autocomplete="off" checked> 
+          &nbsp;Show Course Names
+        </label>
+        <!-- Toggle Forecast Visibility -->
+        <div>
+          <label for="toggle-forecast-checkbox" class="btn btn-secondary">
+            <input type="checkbox" id="toggle-forecast-checkbox" style="transform: scale(1.2);" autocomplete="off" checked> 
+            &nbsp;Show Original Vacancies
+          </label>
+          <span class="help-icon" data-toggle="tooltip" data-placement="top" title="Original number of slots at the start of the round"><i class="fa fa-question-circle"></i></span>
+        </div>
+        
+        <div class="alert alert-danger">
+          <strong>Error:</strong> Data not found.
+        </div>
+        
+        <div id="loading-spinner" class="hidden">
+          <div class="spinner"></div>
+        </div>
+      </div>
+
+      
+      
+      
+      <div class="table-container">
+        <table id="table-data">
+          <!-- Table Headers -->
+          <thead>
+            <tr>
+              <th class="table-code">Code</th>
+              <th class="table-name">Name</th>
+              <th class="table-class">Class</th>
+              
+              <th class='table-round'>
+                
+                
+                <a href="/pdfs/2324/2/ug/round_0.pdf" target="_blank">Round 0</a>
+                
+              </th>
+              
+              <th class='table-round'>
+                
+                
+                <a href="/pdfs/2324/2/ug/round_1.pdf" target="_blank">Round 1</a>
+                
+              </th>
+              
+              <th class='table-round'>
+                
+                
+                <a href="/pdfs/2324/2/ug/round_2.pdf" target="_blank">Round 2</a>
+                
+              </th>
+              
+              <th class='table-round'>
+                
+                
+                <a href="/pdfs/2324/2/ug/round_3.pdf" target="_blank">Round 3</a>
+                
+              </th>
+              
+            </tr>
+          </thead>
+          <!-- Table Data -->
+          <tbody>
+            
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <footer>
+      ❤️
+      •
+      <a class="github-link" href="https://github.com/lunaflight/courserekt" target="_blank">GitHub</a>
+    </footer>
+  </body>
+</html>
