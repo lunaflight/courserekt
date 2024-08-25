@@ -26,7 +26,7 @@
         <form id="course-form" method="POST">
           <!-- Add academic years here -->
           <div class="form-group">
-            <label for="year"><b>Academic Year:</b></label><br>
+            <b>Academic Year:</b><br>
             <div class="btn-group-toggle" data-toggle="buttons">
               <label class="btn btn-secondary {% if request.form.year == "2122" %}active{% endif %}">
                 <input type="radio" id="year1" name="year" value="2122" autocomplete="off" {% if request.form.year == "2122" %}checked{% endif %}> 21/22
@@ -44,7 +44,7 @@
           </div>
           <!-- Semesters -->
           <div class="form-group">
-            <label for="semester"><b>Semester:</b></label><br>
+            <b>Semester:</b><br>
             <div class="btn-group-toggle" data-toggle="buttons">
               <label class="btn btn-secondary {% if request.form.semester == "1" or not request.form.semester %}active{% endif %}">
                 <input type="radio" id="semester1" name="semester" value="1" autocomplete="off" {% if request.form.semester == "1" or not request.form.semester %}checked{% endif %}> Semester 1
@@ -56,7 +56,7 @@
           </div>
           <!-- Undergraduate or Graduate Selection -->
           <div class="form-group">
-            <label for="type"><b>Type:</b></label><br>
+            <b>Type:</b><br>
             <div class="btn-group-toggle" data-toggle="buttons">
               <label class="btn btn-secondary {% if request.form.type == "ug" or not request.form.type %}active{% endif %}">
                 <input type="radio" id="ug" name="type" value="ug" autocomplete="off" {% if request.form.type == "ug" or not request.form.type %}checked{% endif %}> Undergraduate
@@ -68,7 +68,7 @@
           </div>
         </form> 
         <!-- Search Bar -->
-        <label for="course_codes"><b>Course Codes:</b></label><br>
+        <b>Course Codes:</b><br>
         <div class="search-bar-container">
           <input type="text" id="search-input" name="search-input" oninput="filterCourses()" placeholder="Search course codes..." autocomplete="off">
           <span class="help-icon" data-toggle="tooltip" data-placement="top" title="Add spaces for additional matches (e.g. 'CS2 EL GESS')"><i class="fa fa-question-circle"></i></span>
