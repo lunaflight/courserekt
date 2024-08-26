@@ -80,6 +80,25 @@ The dependencies described in `local-requirements.txt` describe all the dependen
 
 `requirements.txt`, on the other hand, is used for deployment on Vercel, which only allows 250MB of libraries to be imported. Hence, we keep the number of libraries to a minimum in `requirements.txt`.
 
+### Running from Docker
+
+If you're running on Windows or MacOS, a good way to build and run the program is via docker. This requires docker to be [installed](https://docs.docker.com/engine/install/).
+
+To build the app and run the pdf converter, do:
+
+```bash
+cd courserekt
+docker build -t courserekt . --no-cache
+```
+
+> We want to use the `--no-cache` every time we want to get updated pdfs.
+
+To run the web app, do:
+
+```bash
+docker run -p 5000:5000 courserekt
+```
+
 ### Branches
 - `main` refers to the branch being deployed on Vercel which supports only Python 3.9 syntax.
 - `py312-github-pages` refers to the branch that employs Python 3.12 syntax in preparation to move to GitHub Pages.
@@ -93,7 +112,7 @@ To start the web app, run the following:
 
 This will take some time as it precomputes and caches all pages.
 
-You may instead run the underlying command directly. 
+You may instead run the underlying command directly.
 ```sh
 python -m src.web.main --help
 ```
