@@ -88,10 +88,14 @@ To build the app and run the pdf converter, do:
 
 ```bash
 cd courserekt
-docker build -t courserekt . --no-cache
+docker build -t courserekt .
 ```
 
 > We want to use the `--no-cache` every time we want to get updated pdfs.
+
+```bash
+docker build --no-cache -t courserekt .
+```
 
 To run the web app, do:
 
