@@ -10,6 +10,7 @@ INF = 2147483647
 NA = -1
 BASE_DIR = Path(Path(__file__).resolve()).parent
 
+
 def _clean_year(year: Union[str, int]) -> str:
     """
     Year strings are either "YYYY[ /-]YYYY" or "YYYY".
