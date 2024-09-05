@@ -1,4 +1,5 @@
 import functools
+import re
 import sqlite3
 from datetime import datetime
 from pathlib import Path
@@ -12,7 +13,7 @@ BASE_DIR = Path(Path(__file__).resolve()).parent
 
 def _clean_year(year: Union[str, int]) -> str:
     """
-    Clean the string to YYYY.
+    Year strings are either "YYYY[ /-]YYYY" or "YYYY".
 
     Clean the year string by standardising all input to YYYY, e.g. 2223.
 
@@ -25,9 +26,11 @@ def _clean_year(year: Union[str, int]) -> str:
         str: The cleaned year string.
     """
     year = str(year).strip().replace("/", "").replace(" ", "").replace("-", "")
-    # Turns 20222023 to 2223
-    if len(year) == 8:
-        year = year[2] + year[3] + year[6] + year[7]
+
+    # If the year string is YYYY[ /-]YYYY, standardise it.
+    if re.match(r"[0-9]{8}", year):
+        year = year[2:4] + year[6:]
+
     return year
 
 
