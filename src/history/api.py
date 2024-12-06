@@ -95,7 +95,7 @@ ClassDict = dict[str, list[dict[str, int]]]
 CourseData = dict[str, Union[str, ClassDict]]
 
 
-def get_round_numbers(year: Union[str, int]) -> tuple[int]:
+def get_round_numbers(year: Union[str, int]) -> tuple[int, ...]:
     """
     Get a tuple of round numbers for a particular academic year.
 
