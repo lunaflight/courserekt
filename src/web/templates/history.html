@@ -99,6 +99,7 @@
       {% set year = request.form.get('year', '2425') %}
       {% set semester = request.form.get('semester', '1') %}
       {% set type = request.form.get('type', 'ug') %}
+      {% set round_nums = get_round_numbers(year) %}
       <div class="table-container">
         <table id="table-data">
           <!-- Table Headers -->
@@ -107,7 +108,7 @@
               <th class="table-code">Code</th>
               <th class="table-name">Name</th>
               <th class="table-class">Class</th>
-              {% for round_num in range(4) %}
+              {% for round_num in round_nums %}
               <th class='table-round'>
                 {% if pdf_exists(year, semester, type, round_num) %}
                 {% set url = url_for('serve_pdf', year=year, semester=semester, student_type=type, round_num=round_num) %}

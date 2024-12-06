@@ -5,7 +5,11 @@ from datetime import datetime
 from pathlib import Path
 from typing import Union
 
-ROUNDS = 4
+# Round 0 was discontinued in AY 24/25
+PRE_2425_YEARS = ("2122", "2223", "2324")
+PRE_2425_ROUNDS = (0, 1, 2, 3)
+POST_2425_ROUNDS = (1, 2, 3)
+
 INF = 2147483647
 NA = -1
 BASE_DIR = Path(Path(__file__).resolve()).parent
@@ -91,6 +95,23 @@ ClassDict = dict[str, list[dict[str, int]]]
 CourseData = dict[str, Union[str, ClassDict]]
 
 
+def get_round_numbers(year: Union[str, int]) -> tuple[int, ...]:
+    """
+    Get a tuple of round numbers for a particular academic year.
+
+    Args:
+    ----
+        year (Union[str, int]): The academic year.
+
+    Returns:
+    -------
+        tuple[int]: A tuple of round numbers.
+    """
+
+    year = _clean_year(year)
+    return PRE_2425_ROUNDS if year in PRE_2425_YEARS else POST_2425_ROUNDS
+
+
 def get_data(year: Union[str, int],
              semester: Union[str, int],
              ug_gd: str,
@@ -168,7 +189,8 @@ def get_data(year: Union[str, int],
              "others": -1}
 
     # for each round, execute the SQL query
-    for round_number in range(ROUNDS):
+    round_numbers = get_round_numbers(year)
+    for index, round_number in enumerate(round_numbers):
         TABLE_NAME = (
             "src_history_merged_"
             f"{year}_{semester}_{ug_gd}_round_{round_number}")
@@ -207,19 +229,19 @@ def get_data(year: Union[str, int],
             }
 
             # Logic to pad skipped rounds with blanks to ensure that
-            # the list stays at length 4, corresponding to each round.
+            # the list stays at the correct length, corresponding to each round.
             if CLASSNAME in class_dict:
                 class_dict[CLASSNAME].extend(
                     [BLANK for _
-                     in range(round_number - len(class_dict[CLASSNAME]))])
+                     in range(index - len(class_dict[CLASSNAME]))])
                 class_dict[CLASSNAME].append(result)
             else:
-                class_dict[CLASSNAME] = [BLANK] * round_number
+                class_dict[CLASSNAME] = [BLANK] * index
                 class_dict[CLASSNAME].append(result)
 
     # Final padding of classes that don't have all the round information
     for key in class_dict:
-        class_dict[key] += [BLANK] * (ROUNDS - len(class_dict[key]))
+        class_dict[key] += [BLANK] * (len(round_numbers) - len(class_dict[key]))
 
     # If nothing was found, throw an error.
     if not class_dict:
@@ -266,7 +288,8 @@ def _get_set_of_all_codes(year: Union[str, int],
     conn.row_factory = sqlite3.Row
 
     # for each round, execute the SQL query
-    for round_number in range(ROUNDS):
+    round_numbers = get_round_numbers(year)
+    for round_number in round_numbers:
         TABLE_NAME = (
             "src_history_merged_"
             f"{year}_{semester}_{ug_gd}_round_{round_number}")
