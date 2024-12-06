@@ -6,9 +6,9 @@ from pathlib import Path
 from typing import Union
 
 # Round 0 was discontinued in AY 24/25
-PRE_2425_YEARS = ["2122", "2223", "2324"]
-PRE_2425_ROUNDS = [0, 1, 2, 3]
-POST_2425_ROUNDS = [1, 2, 3]
+PRE_2425_YEARS = ("2122", "2223", "2324")
+PRE_2425_ROUNDS = (0, 1, 2, 3)
+POST_2425_ROUNDS = (1, 2, 3)
 
 INF = 2147483647
 NA = -1
@@ -95,6 +95,23 @@ ClassDict = dict[str, list[dict[str, int]]]
 CourseData = dict[str, Union[str, ClassDict]]
 
 
+def get_round_numbers(year: Union[str, int]) -> tuple[int]:
+    """
+    Get a tuple of round numbers for a particular academic year.
+
+    Args:
+    ----
+        year (Union[str, int]): The academic year.
+
+    Returns:
+    -------
+        tuple[int]: A tuple of round numbers.
+    """
+
+    year = _clean_year(year)
+    return PRE_2425_ROUNDS if year in PRE_2425_YEARS else POST_2425_ROUNDS
+
+
 def get_data(year: Union[str, int],
              semester: Union[str, int],
              ug_gd: str,
@@ -172,7 +189,7 @@ def get_data(year: Union[str, int],
              "others": -1}
 
     # for each round, execute the SQL query
-    round_numbers = PRE_2425_ROUNDS if year in PRE_2425_YEARS else POST_2425_ROUNDS
+    round_numbers = get_round_numbers(year)
     for index, round_number in enumerate(round_numbers):
         TABLE_NAME = (
             "src_history_merged_"
@@ -271,7 +288,7 @@ def _get_set_of_all_codes(year: Union[str, int],
     conn.row_factory = sqlite3.Row
 
     # for each round, execute the SQL query
-    round_numbers = PRE_2425_ROUNDS if year in PRE_2425_YEARS else POST_2425_ROUNDS
+    round_numbers = get_round_numbers(year)
     for round_number in round_numbers:
         TABLE_NAME = (
             "src_history_merged_"

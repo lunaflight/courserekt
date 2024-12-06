@@ -8,6 +8,7 @@ from flask import Flask, Response, render_template, request, send_from_directory
 from lib.nusmods import nusmods_link_of_code
 from src.history.api import (
     INF,
+    get_round_numbers,
     get_all_data,
     get_latest_year_and_sem_with_data,
     get_pdf_filepath,
@@ -29,7 +30,8 @@ def context_processor() -> dict[Any, Any]:
     """
     return {"INF": INF,
             "nusmods_link_of_code": nusmods_link_of_code,
-            "pdf_exists": pdf_exists }
+            "pdf_exists": pdf_exists,
+            "get_round_numbers": get_round_numbers }
 
 
 @app.route("/", methods=["GET", "POST"])
