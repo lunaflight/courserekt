@@ -6,7 +6,7 @@ from src.web.app import app
 
 
 def generate_pages() -> None:
-    years = ["2122", "2223", "2324", "2425"]
+    years = ["2122", "2223", "2324", "2425", "2526"]
     semesters = ["1", "2"]
     student_types = ["ug", "gd"]
 

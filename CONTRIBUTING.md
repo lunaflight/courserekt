@@ -72,6 +72,8 @@ A virtual environment ensures that everyone is working with the same set of depe
 
 The dependencies described in `local-requirements.txt` describe all the dependencies used in the development of the project.
 
+Python 3.12 is required - Python 3.13 introduces some changes that causes `pandas` installation to fail.
+
 - This includes:
     - Building the database
     - Linting

@@ -37,8 +37,11 @@
               <label class="btn btn-secondary {% if request.form.year == "2324" %}active{% endif %}">
                 <input type="radio" id="year3" name="year" value="2324" autocomplete="off" {% if request.form.year == "2324" %}checked{% endif %}> 23/24
               </label>
-              <label class="btn btn-secondary {% if request.form.year == "2425" or not request.form.year %}active{% endif %}">
-                <input type="radio" id="year4" name="year" value="2425" autocomplete="off" {% if request.form.year == "2425" or not request.form.year %}checked{% endif %}> 24/25
+              <label class="btn btn-secondary {% if request.form.year == "2425" %}active{% endif %}">
+                <input type="radio" id="year4" name="year" value="2425" autocomplete="off" {% if request.form.year == "2425" %}checked{% endif %}> 24/25
+              </label>
+              <label class="btn btn-secondary {% if request.form.year == "2526" or not request.form.year %}active{% endif %}">
+                <input type="radio" id="year5" name="year" value="2526" autocomplete="off" {% if request.form.year == "2526" or not request.form.year %}checked{% endif %}> 25/26
               </label>
             </div>
           </div>
