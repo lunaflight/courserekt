@@ -13,7 +13,7 @@ ROUND=$3
 
 # Prompt user to download PDFs
 echo "Please visit the following URLs to download PDFs and save them in the current directory:"
-echo "https://nus.edu.sg/coursereg/docs/VacancyRpt_R${ROUND}.pdf"
+echo "https://www.nus.edu.sg/coursereg/docs/VacancyRpt_R${ROUND}.pdf"
 echo "https://www.nus.edu.sg/CourseReg/docs/DemandAllocationRptUG_R${ROUND}.pdf"
 echo "https://www.nus.edu.sg/CourseReg/docs/DemandAllocationRptGD_R${ROUND}.pdf"
 echo "**NOTE:** Downloading using curl is disabled due to firewall issues."
