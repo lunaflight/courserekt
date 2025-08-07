@@ -143,11 +143,7 @@
                 {{ data.demand }} / {% if data.vacancy == INF %}∞{% else %}{{ data.vacancy }}{% endif %}
                 <span class='vacancy-data'>
                   {% set forecast = data.ug if type == "ug" else data.gd %}
-                  {% if forecast == -1 %}
-                  (N/A)
-                  {% else %}
-                  ({% if forecast == INF %}∞{% else %}{{ forecast }}{% endif %})
-                  {% endif %}
+                  ({% if forecast == -1 %}N/A{% elif forecast == INF %}∞{% else %}{{ forecast }}{% endif %})
                 </span>
                 {% endif %}
               </td>

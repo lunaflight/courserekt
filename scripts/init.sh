@@ -7,7 +7,7 @@ main ()
 }
 
 # Create virtual environment
-python -m venv venv
+python3.12 -m venv venv
 if [ $? -ne 0 ]; then
   echo "Error creating virtual environment"
   exit 1
